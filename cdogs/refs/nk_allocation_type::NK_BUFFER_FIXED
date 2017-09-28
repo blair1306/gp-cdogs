@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2229' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6091' u='r' c='nk_buffer_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6278' u='r' c='nk_buffer_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6455' u='r' c='nk_str_insert_at_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16669' u='r' c='nk_pool_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16685' u='r' c='nk_pool_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16695' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16775' u='r' c='nk_init_custom'/>

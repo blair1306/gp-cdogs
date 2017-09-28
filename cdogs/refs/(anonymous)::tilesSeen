@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='107' type='int'/>
+<offset>1376</offset>
+<use f='codebrowser/src/cdogs/map.c' l='869' u='w' c='MapMarkAsVisited'/>
+<use f='codebrowser/src/cdogs/map.c' l='888' u='r' c='MapGetExploredPercentage'/>

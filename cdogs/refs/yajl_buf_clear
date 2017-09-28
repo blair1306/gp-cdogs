@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='46' type='void yajl_buf_clear(yajl_buf buf)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='45'>/* empty the buffer */</doc>
+<def f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='82' ll='86' type='void yajl_buf_clear(yajl_buf buf)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='366' u='c' c='yajl_gen_clear'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='631' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='650' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='249' u='c' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='311' u='c' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='391' u='c' c='yajl_do_parse'/>

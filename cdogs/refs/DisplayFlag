@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='64' type='void DisplayFlag(const Vec2i pos, const char * s, const _Bool isOn, const _Bool isHighlighted)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='261' u='c' c='MissionDrawEdgeRooms'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='274' u='c' c='MissionDrawRoomsOverlap'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='322' u='c' c='MissionDrawDoorEnabled'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='130' ll='137' type='void DisplayFlag(const Vec2i pos, const char * s, const _Bool isOn, const _Bool isHighlighted)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='109' u='c' c='MissionDrawWeaponStatus'/>

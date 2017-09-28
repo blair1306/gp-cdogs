@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='259' type='void MenuEnableSubmenu(menu_t * menu, int index)'/>
+<use f='codebrowser/src/mainmenu.c' l='491' u='c' c='CheckLANServers'/>
+<def f='codebrowser/src/menu.c' l='250' ll='254' type='void MenuEnableSubmenu(menu_t * menu, int idx)'/>
+<use f='codebrowser/src/weapon_menu.c' l='72' u='c' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='92' u='c' c='WeaponSelect'/>

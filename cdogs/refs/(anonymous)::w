@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_video.h' l='56' type='int'/>
+<offset>32</offset>
+<doc f='include/SDL2/SDL_video.h' l='56'>/**&lt; width, in screen coordinates */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='165' u='r' c='AddSupportedGraphicsModes'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='169' u='r' c='AddSupportedGraphicsModes'/>

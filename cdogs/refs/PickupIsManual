@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='59' type='_Bool PickupIsManual(const Pickup * p)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='999' u='c' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='104' u='c' c='DrawObjectiveHighlight'/>
+<def f='codebrowser/src/cdogs/pickup.c' l='285' ll='295' macro='1' type='_Bool PickupIsManual(const Pickup * p)'/>

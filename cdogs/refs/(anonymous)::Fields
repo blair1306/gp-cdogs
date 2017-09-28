@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='123' type='const pb_field_t *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='389' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='391' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='283' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='39' u='r' c='NetEncode'/>

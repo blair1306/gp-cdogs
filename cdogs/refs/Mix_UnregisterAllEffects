@@ -1,0 +1,12 @@
+<dec f='include/SDL2/SDL_mixer.h' l='335' type='int Mix_UnregisterAllEffects(int channel)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='324'>/* You may not need to call this explicitly, unless you need to stop all
+ *  effects from processing in the middle of a chunk&apos;s playback. Note that
+ *  this will also shut off some internal effect processing, since
+ *  Mix_SetPanning() and others may use this API under the hood. This is
+ *  called internally when a channel completes playback.
+ * Posteffects are never implicitly unregistered as they are for channels,
+ *  but they may be explicitly unregistered through this function by
+ *  specifying MIX_CHANNEL_POST for a channel.
+ * returns zero if error (no such channel), nonzero if all effects removed.
+ *  Error messages can be retrieved from Mix_GetError().
+ */</doc>

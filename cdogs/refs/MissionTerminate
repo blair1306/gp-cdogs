@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='236' type='void MissionTerminate(Mission * m)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='66' u='c' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/mission.c' l='128' u='c' c='MissionCopy'/>
+<def f='codebrowser/src/cdogs/mission.c' l='184' ll='215' type='void MissionTerminate(Mission * m)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1017' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1027' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1403' u='c' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1404' u='c' c='main'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='98' u='c' c='DeleteMission'/>

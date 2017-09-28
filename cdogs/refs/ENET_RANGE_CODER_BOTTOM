@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/enet/compress.c' l='28' type='65536'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='130' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='131' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='130' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='131' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='313' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='130' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='131' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='328' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='362' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='363' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='362' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='363' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='565' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='362' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='363' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='362' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='363' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='595' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='612' u='r' c='enet_range_coder_decompress'/>

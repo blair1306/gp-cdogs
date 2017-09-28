@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='64' type='char **'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='160' u='r' c='LoadFrameOffsets'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='64'>/*&lt; Array of keys */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='79' u='r' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='80' u='r' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='85' u='r' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='167' u='r' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='167' u='r' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='170' u='w' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='177' u='r' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='335' u='w' c='handle_start_map'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='465' u='r' c='yajl_tree_get'/>

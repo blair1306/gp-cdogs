@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='94' type='char *'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='94'>/*&lt; unparsed number in string form. */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='301' u='w' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='302' u='r' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='307' u='r' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='308' u='r' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='313' u='r' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='314' u='r' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='320' u='r' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='488' u='r' c='yajl_tree_free'/>

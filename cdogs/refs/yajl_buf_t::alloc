@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='29' type='yajl_alloc_funcs *'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='42' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='42' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='51' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='51' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='60' u='w' c='yajl_buf_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='67' u='r' c='yajl_buf_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='67' u='r' c='yajl_buf_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='68' u='r' c='yajl_buf_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='68' u='r' c='yajl_buf_free'/>
+<offset>192</offset>

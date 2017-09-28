@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1417' type='void nk_spacing(struct nk_context * , int cols)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19681' ll='19713' macro='1' type='void nk_spacing(struct nk_context * ctx, int cols)'/>

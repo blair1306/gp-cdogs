@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3394' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21092' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21110' u='w' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21116' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21138' u='w' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21156' u='r' c='nk_chart_push_column'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21173' u='r' c='nk_chart_push_column'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21174' u='r' c='nk_chart_push_column'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21185' u='w' c='nk_chart_push_column'/>
+<offset>288</offset>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='166' type='double Round(double x)'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='215' u='c' c='IsCollisionDiamond'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='225' u='c' c='IsCollisionDiamond'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='235' u='c' c='IsCollisionDiamond'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='245' u='c' c='IsCollisionDiamond'/>
+<use f='codebrowser/src/cdogs/objs.c' l='335' u='c' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='336' u='c' c='DoDamageCharacter'/>
+<def f='codebrowser/src/cdogs/utils.c' l='377' ll='380' type='double Round(double x)'/>
+<use f='codebrowser/src/cdogs/vector.c' l='51' u='c' c='Vec2iFromPolar'/>
+<use f='codebrowser/src/cdogs/vector.c' l='51' u='c' c='Vec2iFromPolar'/>
+<use f='codebrowser/src/cdogs/vector.c' l='182' u='c' c='CalcClosestPointOnLineSegmentToPoint'/>
+<use f='codebrowser/src/cdogs/vector.c' l='183' u='c' c='CalcClosestPointOnLineSegmentToPoint'/>

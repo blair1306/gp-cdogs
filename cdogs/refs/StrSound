@@ -1,0 +1,60 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='150' type='Mix_Chunk * StrSound(const char * s)'/>
+<use f='codebrowser/src/briefing_screens.c' l='75' u='c' c='CampaignIntroOnExit'/>
+<use f='codebrowser/src/briefing_screens.c' l='234' u='c' c='MissionBriefingOnExit'/>
+<use f='codebrowser/src/cdogs/actors.c' l='180' u='c' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='538' u='c' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='543' u='c' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='646' u='c' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1267' u='c' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='282' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='926' u='c' c='PlayHitSound'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='929' u='c' c='PlayHitSound'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='932' u='c' c='PlayHitSound'/>
+<use f='codebrowser/src/cdogs/door.c' l='201' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='325' u='c' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='161' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='214' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='252' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='319' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='324' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='384' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='605' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='633' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='673' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='145' u='c' c='LoadSoundFromNode'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='372' u='c' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/objs.c' l='204' u='c' c='ObjRemove'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='552' ll='570' type='Mix_Chunk * StrSound(const char * s)'/>
+<use f='codebrowser/src/game.c' l='442' u='c' c='RunGameInput'/>
+<use f='codebrowser/src/menu.c' l='869' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='872' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='875' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='878' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='881' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/password.c' l='157' u='c' c='EnterCodeScreenOnExit'/>
+<use f='codebrowser/src/password.c' l='161' u='c' c='EnterCodeScreenOnExit'/>
+<use f='codebrowser/src/password.c' l='201' u='c' c='EnterCodeScreenUpdate'/>
+<use f='codebrowser/src/password.c' l='229' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='234' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='243' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='248' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='256' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='264' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='272' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='281' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/player_select_menus.c' l='543' u='c' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/prep.c' l='276' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/prep.c' l='283' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/prep.c' l='292' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/screens_end.c' l='172' u='c' c='PlayerListOnExit'/>
+<use f='codebrowser/src/screens_end.c' l='304' u='c' c='PlayerListInput'/>
+<use f='codebrowser/src/screens_end.c' l='309' u='c' c='PlayerListInput'/>
+<use f='codebrowser/src/screens_end.c' l='314' u='c' c='PlayerListInput'/>
+<use f='codebrowser/src/screens_end.c' l='339' u='c' c='ScreenVictory'/>
+<use f='codebrowser/src/screens_end.c' l='448' u='c' c='ScreenDogfightFinalScores'/>
+<use f='codebrowser/src/screens_end.c' l='457' u='c' c='ScreenDeathmatchFinalScores'/>
+<def f='codebrowser/src/tests/autosave_test.c' l='19' ll='23' type='Mix_Chunk * StrSound(const char * s)'/>
+<def f='codebrowser/src/tests/config_test.c' l='12' ll='16' type='Mix_Chunk * StrSound(const char * s)'/>
+<doc f='codebrowser/src/tests/config_test.c' l='11'>// Stubs</doc>
+<def f='codebrowser/src/tests/json_test.c' l='10' ll='14' type='Mix_Chunk * StrSound(const char * s)'/>
+<doc f='codebrowser/src/tests/json_test.c' l='9'>// Stubs</doc>

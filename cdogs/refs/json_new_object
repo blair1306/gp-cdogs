@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/json/json.h' l='186' type='json_t * json_new_object()'/>
+<use f='codebrowser/src/autosave.c' l='82' u='c' c='AddCampaignNode'/>
+<use f='codebrowser/src/autosave.c' l='104' u='c' c='CreateMissionNode'/>
+<use f='codebrowser/src/autosave.c' l='183' u='c' c='AutosaveSave'/>
+<doc f='codebrowser/src/json/json.h' l='182'>/**
+Creates a new JSON object
+@return a pointer to the newly created JSON object value
+**/</doc>
+<use f='codebrowser/src/cdogs/character.c' l='153' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='159' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='187' u='c' c='ConfigSaveJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='241' u='c' c='ConfigSaveVisit'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='283' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='298' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='335' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='361' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='410' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='440' u='c' c='SaveRooms'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='453' u='c' c='SaveClassicPillars'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='461' u='c' c='SaveClassicDoors'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='503' u='c' c='SaveStaticItems'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='521' u='c' c='SaveStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='539' u='c' c='SaveStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='559' u='c' c='SaveStaticKeys'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='578' u='c' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='130' u='c' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='145' u='c' c='SavePlayerTemplates'/>
+<def f='codebrowser/src/json/json.c' l='328' ll='332' type='json_t * json_new_object()'/>
+<use f='codebrowser/src/json/json.c' l='2186' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2196' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/tests/json_test.c' l='35' u='c' c='_cbehave_feature_json_format_string'/>

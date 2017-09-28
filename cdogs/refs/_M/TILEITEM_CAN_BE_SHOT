@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='95'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1217' u='c'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='415' u='c'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='212' u='c'/>

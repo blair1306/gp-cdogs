@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3622' macro='1'/>
+<size>16</size>
+<mbr r='nk_config_stack_user_font_element::address' o='0' t='const struct nk_user_font **'/>
+<mbr r='nk_config_stack_user_font_element::old_value' o='64' t='const struct nk_user_font *'/>

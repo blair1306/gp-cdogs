@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3482' type='32768'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16859' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17314' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17332' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17335' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17336' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17337' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17356' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17374' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17411' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17453' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17552' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17579' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18078' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18089' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18110' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18298' u='r' c='nk_window_is_any_hovered'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18335' u='r' c='nk_window_is_collapsed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18451' u='r' c='nk_window_collapse'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18452' u='r' c='nk_window_collapse'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18542' u='r' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18569' u='r' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18639' u='r' c='nk_panel_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19620' u='r' c='nk_widget'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21328' u='r' c='nk_group_scrolled_offset_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21334' u='r' c='nk_group_scrolled_offset_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21335' u='r' c='nk_group_scrolled_offset_begin'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3481'>/* Directly closes and frees the window at the end of the frame */</doc>

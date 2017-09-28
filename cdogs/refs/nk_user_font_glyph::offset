@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2035' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8443' u='m' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8444' u='m' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11179' u='w' c='nk_font_query_font_glyph'/>
+<offset>128</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2034'>/* texture coordinates */</doc>

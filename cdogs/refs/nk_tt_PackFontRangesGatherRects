@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10553' ll='10582' macro='1' type='int nk_tt_PackFontRangesGatherRects(struct nk_tt_pack_context * spc, struct nk_tt_fontinfo * info, struct nk_tt_pack_range * ranges, int num_ranges, struct nk_rp_rect * rects)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10941' u='c' c='nk_font_bake_pack'/>

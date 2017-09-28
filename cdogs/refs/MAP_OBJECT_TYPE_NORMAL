@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='73' type='0'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='89' u='r' c='StrMapObjectType'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='92' u='r' c='StrMapObjectType'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='373' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='599' u='r' c='ObjectiveDestroyObjFunc'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='261' u='r' c='AddMapItemBrushObjFunc'/>

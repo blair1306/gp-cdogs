@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2599' ll='2605'/>
+<size>32</size>
+<mbr r='nk_command_circle::header' o='0' t='struct nk_command'/>
+<mbr r='nk_command_circle::x' o='128' t='short'/>
+<mbr r='nk_command_circle::y' o='144' t='short'/>
+<mbr r='nk_command_circle::line_thickness' o='160' t='unsigned short'/>
+<mbr r='nk_command_circle::w' o='176' t='unsigned short'/>
+<mbr r='nk_command_circle::h' o='192' t='unsigned short'/>
+<mbr r='nk_command_circle::color' o='208' t='struct nk_color'/>

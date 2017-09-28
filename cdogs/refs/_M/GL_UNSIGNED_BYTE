@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_opengl.h' l='197'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='62' u='c'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='140' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='796' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='820' u='c'/>

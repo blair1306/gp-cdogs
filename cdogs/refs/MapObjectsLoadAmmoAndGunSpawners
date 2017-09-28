@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='133' type='void MapObjectsLoadAmmoAndGunSpawners(MapObjects * classes, const AmmoClasses * ammo, const GunClasses * guns, const _Bool isCustom)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='148' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='246' u='c' c='MapObjectsInit'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='436' ll='451' type='void MapObjectsLoadAmmoAndGunSpawners(MapObjects * classes, const AmmoClasses * ammo, const GunClasses * guns, const _Bool isCustom)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='177' type='void (*)(void)'/>
+<offset>64</offset>
+<use f='codebrowser/src/menu.c' l='512' u='w' c='MenuCreateOptionUpDownFunc'/>
+<use f='codebrowser/src/menu.c' l='1292' u='r' c='MenuActivate'/>

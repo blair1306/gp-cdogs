@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='79' type='void hashmap_free(map_t in)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='76'>/*
+ * Free the hashmap
+ */</doc>
+<use f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='45' u='c' c='hashmap_new'/>
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='386' ll='397' type='void hashmap_free(map_t m)'/>
+<use f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='404' u='c' c='hashmap_destroy'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='385'>/* Deallocate the hashmap */</doc>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='22' u='c' c='_cbehave_feature_hashmap_put'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='42' u='c' c='_cbehave_feature_hashmap_get'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='58' u='c' c='_cbehave_feature_hashmap_get'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='75' u='c' c='_cbehave_feature_hashmap_remove'/>

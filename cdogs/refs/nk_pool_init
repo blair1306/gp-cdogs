@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='16653' ll='16662' macro='1' type='void nk_pool_init(struct nk_pool * pool, struct nk_allocator * alloc, unsigned int capacity)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16781' u='c' c='nk_init_custom'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16795' u='c' c='nk_init'/>

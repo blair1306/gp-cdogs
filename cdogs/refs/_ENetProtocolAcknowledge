@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='78' ll='83'/>
+<size>8</size>
+<mbr r='_ENetProtocolAcknowledge::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolAcknowledge::receivedReliableSequenceNumber' o='32' t='enet_uint16'/>
+<mbr r='_ENetProtocolAcknowledge::receivedSentTime' o='48' t='enet_uint16'/>

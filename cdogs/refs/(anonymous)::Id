@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='210' type='int'/>
+<dec f='codebrowser/src/cdogs/tile.h' l='139' type='int'/>
+<offset>0</offset>
+<dec f='codebrowser/src/cdogs/net_server.h' l='56' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='152' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='614' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='239' u='r' c='IsTileWalkable'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='263' u='r' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/map.c' l='192' u='w' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='194' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='194' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='207' u='r' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='273' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='357' u='w' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='382' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='603' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='157' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='170' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='171' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='182' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='244' u='w' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='274' u='w' c='PickupClassesLoadAmmo'/>
+<use f='codebrowser/src/cdogs/tile.c' l='140' u='r' c='ThingIdGetTileItem'/>
+<use f='codebrowser/src/cdogs/tile.c' l='143' u='r' c='ThingIdGetTileItem'/>
+<use f='codebrowser/src/cdogs/tile.c' l='147' u='r' c='ThingIdGetTileItem'/>
+<use f='codebrowser/src/cdogs/tile.c' l='150' u='r' c='ThingIdGetTileItem'/>
+<use f='codebrowser/src/cdogs/tile.c' l='153' u='r' c='ThingIdGetTileItem'/>

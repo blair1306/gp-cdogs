@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='49' type='WallClock'/>
+<offset>2336</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='79' u='a' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='109' u='a' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='646' u='a' c='HUDDraw'/>

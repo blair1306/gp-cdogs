@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='220' type='CArray'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='220'>// of GunDescription *</doc>
+<use f='codebrowser/src/cdogs/gamedata.c' l='132' u='a' c='MissionOptionsInit'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='147' u='a' c='MissionOptionsTerminate'/>
+<use f='codebrowser/src/cdogs/mission.c' l='277' u='a' c='SetupMission'/>
+<use f='codebrowser/src/cdogs/objs.c' l='131' u='m' c='AddPickupAtObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='132' u='a' c='AddPickupAtObject'/>
+<use f='codebrowser/src/prep.c' l='535' u='a' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='699' u='a' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/prep.c' l='768' u='a' c='PlayerEquip'/>
+<use f='codebrowser/src/prep.c' l='781' u='a' c='PlayerEquip'/>
+<use f='codebrowser/src/weapon_menu.c' l='40' u='a' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='190' u='a' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='250' u='m' c='DisplayGunIcon'/>
+<use f='codebrowser/src/weapon_menu.c' l='256' u='a' c='DisplayGunIcon'/>

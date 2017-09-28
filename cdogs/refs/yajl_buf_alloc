@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='37' type='yajl_buf yajl_buf_alloc(yajl_alloc_funcs * alloc)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='73' u='c' c='yajl_alloc'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='36'>/* allocate a new buffer */</doc>
+<def f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='56' ll='62' type='yajl_buf yajl_buf_alloc(yajl_alloc_funcs * alloc)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='122' u='c' c='yajl_gen_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='109' u='c' c='yajl_lex_alloc'/>

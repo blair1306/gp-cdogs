@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='12328' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12366' u='w' c='nk_textedit_layout_row'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12380' u='w' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12385' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12394' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12411' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12425' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12426' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12427' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12476' u='r' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12481' u='r' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12495' u='r' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12497' u='r' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12502' u='r' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12876' u='r' c='nk_textedit_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12923' u='r' c='nk_textedit_key'/>
+<offset>160</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='12327'>/* height of row above and below baseline */</doc>

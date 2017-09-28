@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_bytestack.h' l='38'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='75' u='c'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_bytestack.h' l='37'>/* initialize a bytestack */</doc>

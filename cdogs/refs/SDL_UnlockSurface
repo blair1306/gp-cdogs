@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_surface.h' l='163' type='void SDL_UnlockSurface(SDL_Surface * surface)'/>
+<doc f='include/SDL2/SDL_surface.h' l='162'>/** \sa SDL_LockSurface() */</doc>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='406' u='c' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/font.c' l='116' u='c' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='181' u='c' c='PicManagerAdd'/>
+<use f='codebrowser/src/tests/pic_test.c' l='73' u='c' c='_cbehave_feature_PicLoad'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1411' type='struct nk_vec2 nk_widget_size(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19509' ll='19520' macro='1' type='struct nk_vec2 nk_widget_size(struct nk_context * ctx)'/>

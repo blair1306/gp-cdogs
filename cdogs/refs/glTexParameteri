@@ -1,0 +1,7 @@
+<dec f='include/SDL2/SDL_opengl.h' l='1318' type='void glTexParameteri(GLenum target, GLenum pname, GLint param)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='59' u='c' c='nk_sdl_device_upload_atlas'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='60' u='c' c='nk_sdl_device_upload_atlas'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='827' u='c' c='BeforeDrawTex'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='828' u='c' c='BeforeDrawTex'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='849' u='c' c='DrawCharacter'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='851' u='c' c='DrawCharacter'/>

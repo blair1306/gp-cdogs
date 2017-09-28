@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='134' type='int'/>
+<offset>1600</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='130'>// A counter for player death
+	// If 0, player is alive
+	// If &gt;0 but less than DEATH_MAX, player is &quot;dying&quot; and this variable
+	// is used as the frame in the death animation</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='144' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='875' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/ai.c' l='326' u='r' c='AICommand'/>
+<use f='codebrowser/src/cdogs/ai.c' l='519' u='r' c='AICommandLast'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='92' u='r' c='AIGetClosestActor'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='185' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='116' u='r' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='255' u='r' c='GameIsMouseUsed'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='248' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='275' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='303' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/player.c' l='332' u='r' c='IsPlayerAlive'/>
+<use f='codebrowser/src/cdogs/player.c' l='349' u='r' c='IsPlayerAliveOrDying'/>
+<use f='codebrowser/src/game.c' l='506' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='513' u='r' c='RunGameUpdate'/>

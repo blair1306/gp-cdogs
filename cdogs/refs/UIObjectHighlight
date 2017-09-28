@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='121' type='void UIObjectHighlight(UIObject * o, const _Bool shift)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='844' u='c' c='HandleInput'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='161' ll='187' type='void UIObjectHighlight(UIObject * o, const _Bool shift)'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='170' u='c' c='UIObjectHighlight'/>

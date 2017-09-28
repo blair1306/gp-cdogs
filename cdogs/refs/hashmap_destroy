@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='87' type='void hashmap_destroy(map_t in, void (*)(any_t) callback)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='81'>/*
+* Free the hashmap, as well as a custom callback to each element, so that they
+* may be deallocated by the callback
+* It is a shortcut to hashmap_iterate with a deallocation function followed by
+* hashmap_free.
+*/</doc>
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='399' ll='405' type='void hashmap_destroy(map_t in, void (*)(any_t) callback)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='196' u='c' c='CharSpriteClassesClear'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='396' u='c' c='PicManagerClearCustom'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='397' u='c' c='PicManagerClearCustom'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='405' u='c' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='406' u='c' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='407' u='c' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='408' u='c' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='289' u='c' c='SoundTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='290' u='c' c='SoundTerminate'/>

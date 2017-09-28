@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_events.h' l='547' type='SDL_DropEvent'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_events.h' l='547'>/**&lt; Drag and drop event data */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='200' u='m' c='EventPoll'/>

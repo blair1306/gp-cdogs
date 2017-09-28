@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/character.h' l='48' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='175' u='r' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/actors.c' l='525' u='r' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='525' u='r' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1520' u='r' c='ActorGetHealthPercent'/>
+<use f='codebrowser/src/cdogs/character.c' l='139' u='a' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='169' u='r' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='269' u='r' c='CharacterGetStartingHealth'/>
+<use f='codebrowser/src/cdogs/character.c' l='269' u='r' c='CharacterGetStartingHealth'/>
+<use f='codebrowser/src/cdogs/character.c' l='274' u='r' c='CharacterGetStartingHealth'/>
+<use f='codebrowser/src/cdogs/files.c' l='332' u='w' c='ConvertCharacter'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='79' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='77' u='r' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='140' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/player.c' l='87' u='w' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='94' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='94' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='156' u='w' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='520' u='a' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='605' u='w' c='AddCharacter'/>

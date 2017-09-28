@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/config.h' l='222' type='double ConfigGetFloat(Config * c, const char * name)'/>
+<def f='codebrowser/src/cdogs/config.c' l='490' ll='495' type='double ConfigGetFloat(Config * c, const char * name)'/>

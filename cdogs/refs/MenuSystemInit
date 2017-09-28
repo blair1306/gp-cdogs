@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/menu.h' l='243' type='void MenuSystemInit(MenuSystem * ms, EventHandlers * handlers, GraphicsDevice * graphics, Vec2i pos, Vec2i size)'/>
+<use f='codebrowser/src/briefing_screens.c' l='365' u='c' c='ScreenMissionSummary'/>
+<use f='codebrowser/src/mainmenu.c' l='199' u='c' c='MenuCreateAll'/>
+<def f='codebrowser/src/menu.c' l='69' ll='82' type='void MenuSystemInit(MenuSystem * ms, EventHandlers * handlers, GraphicsDevice * graphics, Vec2i pos, Vec2i size)'/>
+<use f='codebrowser/src/password.c' l='359' u='c' c='EnterPassword'/>
+<use f='codebrowser/src/player_select_menus.c' l='463' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/prep.c' l='101' u='c' c='ScreenWait'/>
+<use f='codebrowser/src/prep.c' l='186' u='c' c='NumPlayersSelection'/>
+<use f='codebrowser/src/prep.c' l='542' u='c' c='GameOptions'/>
+<use f='codebrowser/src/screens_end.c' l='128' u='c' c='PlayerListLoop'/>
+<use f='codebrowser/src/weapon_menu.c' l='182' u='c' c='WeaponMenuCreate'/>

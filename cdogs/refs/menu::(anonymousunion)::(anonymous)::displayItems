@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='155' type='int'/>
+<offset>960</offset>
+<use f='codebrowser/src/menu.c' l='335' u='w' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='617' u='r' c='MenuDisplayItems'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9176' ll='9189' macro='1' type='nk_uint nk_tt__find_table(const nk_byte * data, nk_uint fontstart, const char * tag)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9201' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9202' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9203' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9204' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9205' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9206' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9207' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9211' u='c' c='nk_tt_InitFont'/>

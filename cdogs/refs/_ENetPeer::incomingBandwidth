@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='272' type='enet_uint32'/>
+<offset>640</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='272'>/**&lt; Downstream bandwidth of the client in bytes/second */</doc>
+<use f='codebrowser/src/cdogs/enet/host.c' l='381' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='385' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='347' u='r' c='enet_peer_on_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='359' u='r' c='enet_peer_on_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='381' u='w' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='324' u='w' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='370' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='374' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='375' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='375' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='379' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='379' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='756' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='759' u='w' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='762' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='765' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='768' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='769' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='769' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='772' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='772' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='970' u='w' c='enet_protocol_handle_verify_connect'/>

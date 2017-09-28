@@ -1,0 +1,10 @@
+GameEventGetEntry|GameEventGetEntry
+GameEventNew|GameEventNew
+GameEventsClear|GameEventsClear
+GameEventsEnqueue|GameEventsEnqueue
+GameEventsInit|GameEventsInit
+GameEventsTerminate|GameEventsTerminate
+GameModeStr|GameModeStr
+GameIsMouseUsed|GameIsMouseUsed
+GameLoopDataNew|GameLoopDataNew
+GameOptions|GameOptions

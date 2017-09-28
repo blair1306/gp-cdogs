@@ -1,0 +1,10 @@
+<dec f='include/string.h' l='343' type='char * strtok(char *restrict __s, const char *restrict __delim)'/>
+<doc f='include/string.h' l='342'>/* Divide S into tokens separated by characters in DELIM.  */</doc>
+<use f='codebrowser/src/cdogs/config.c' l='319' u='c' c='ConfigGet'/>
+<use f='codebrowser/src/cdogs/config.c' l='341' u='c' c='ConfigGet'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='187' u='c' c='JSONFindNode'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='200' u='c' c='JSONFindNode'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='398' u='c' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='403' u='c' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='227' u='c' c='YAJLFindNode'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='239' u='c' c='YAJLFindNode'/>

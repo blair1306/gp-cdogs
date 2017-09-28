@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='19125' ll='19254' macro='1' type='void nk_layout_widget_space(struct nk_rect * bounds, const struct nk_context * ctx, struct nk_window * win, int modify)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19275' u='c' c='nk_panel_alloc_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19301' u='c' c='nk_layout_peek'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='723' u='c' c='nk_combo_separator_image'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='854' u='c' c='DrawCharacter'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='39' type='ENetAddress'/>
+<offset>448</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='332' u='a' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='338' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='338' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='339' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='339' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='359' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='359' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='360' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='360' u='m' c='Scanning'/>
+<use f='codebrowser/src/mainmenu.c' l='435' u='a' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='443' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='471' u='r' c='JoinLANGame'/>

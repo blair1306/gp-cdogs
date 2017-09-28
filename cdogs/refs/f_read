@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/files.h' l='217' type='size_t f_read(FILE * f, void * buf, size_t size)'/>
+<def f='codebrowser/src/cdogs/files.c' l='86' ll='89' type='size_t f_read(FILE * f, void * buf, size_t size)'/>
+<use f='codebrowser/src/cdogs/files.c' l='95' u='c' c='f_read32'/>
+<use f='codebrowser/src/cdogs/files.c' l='114' u='c' c='f_read16'/>
+<use f='codebrowser/src/cdogs/files.c' l='175' u='c' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='176' u='c' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='177' u='c' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='194' u='c' c='load_mission_objective'/>
+<use f='codebrowser/src/cdogs/files.c' l='208' u='c' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='209' u='c' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='257' u='c' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='258' u='c' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='489' u='c' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='490' u='c' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='491' u='c' c='LoadCampaignOld'/>

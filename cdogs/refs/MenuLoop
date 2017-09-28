@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/menu.h' l='252' type='GameLoopData * MenuLoop(MenuSystem * menu)'/>
+<def f='codebrowser/src/menu.c' l='138' ll='142' type='GameLoopData * MenuLoop(MenuSystem * menu)'/>

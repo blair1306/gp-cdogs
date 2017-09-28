@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='417'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='173' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='535' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='559' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='581' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='624' u='c'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='118' u='c'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='164' u='c'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='190' u='c'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='434' u='c'/>

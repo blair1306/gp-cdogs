@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3636' type='struct nk_config_stack_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16588' u='a' c='nk_style_push_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16594' u='a' c='nk_style_pop_vec2'/>
+<offset>9344</offset>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11124' ll='11155' macro='1' type='float nk_font_text_width(nk_handle handle, float height, const char * text, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11234' u='r' c='nk_font_init'/>

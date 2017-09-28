@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='51' type='ENetPacket * NetEncode(const GameEventType e, const void * data)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='514' u='c' c='NetClientSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='605' u='c' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='615' u='c' c='NetServerSendMsg'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='35' ll='49' type='ENetPacket * NetEncode(const GameEventType e, const void * data)'/>

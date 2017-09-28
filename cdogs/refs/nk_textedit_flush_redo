@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13040' ll='13045' macro='1' type='void nk_textedit_flush_redo(struct nk_text_undo_state * state)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13107' u='c' c='nk_textedit_create_undo_record'/>

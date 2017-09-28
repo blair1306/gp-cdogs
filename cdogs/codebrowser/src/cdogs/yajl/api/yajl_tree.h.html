@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_tree.h source code [codebrowser/src/cdogs/yajl/api/yajl_tree.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="yajl_val_s "/>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/api/yajl_tree.h'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>cdogs</a>/<a href='..'>yajl</a>/<a href='./'>api</a>/<a href='yajl_tree.h.html'>yajl_tree.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2010-2011  Florian Forster  &lt;ff at octo.it&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> *<span class="command"> \file</span> yajl_tree.h</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> * Parses JSON data and returns the data in tree form.</i></td></tr>
+<tr><th id="21">21</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="22">22</th><td><i class="doc"> * <span class="command">\author</span> Florian Forster</i></td></tr>
+<tr><th id="23">23</th><td><i class="doc"> * <span class="command">\date</span> August 2010</i></td></tr>
+<tr><th id="24">24</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="25">25</th><td><i class="doc"> * This interface makes quick parsing and extraction of</i></td></tr>
+<tr><th id="26">26</th><td><i class="doc"> * smallish JSON docs trivial:</i></td></tr>
+<tr><th id="27">27</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="28">28</th><td><i class="doc"> *<span class="command"> \include</span> example/parse_config.c</i></td></tr>
+<tr><th id="29">29</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="31">ifndef</span> <span class="macro" data-ref="_M/YAJL_TREE_H">YAJL_TREE_H</span></u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/YAJL_TREE_H" data-ref="_M/YAJL_TREE_H">YAJL_TREE_H</dfn> 1</u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="yajl_common.h.html">"yajl_common.h"</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="36">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="37">37</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="38">38</th><td><u>#<span data-ppcond="36">endif</span></u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><i class="doc">/** possible data types that a yajl_val_s can hold */</i></td></tr>
+<tr><th id="41">41</th><td><b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="42">42</th><td>    <dfn class="enum" id="yajl_t_string" title='yajl_t_string' data-ref="yajl_t_string">yajl_t_string</dfn> = <var>1</var>,</td></tr>
+<tr><th id="43">43</th><td>    <dfn class="enum" id="yajl_t_number" title='yajl_t_number' data-ref="yajl_t_number">yajl_t_number</dfn> = <var>2</var>,</td></tr>
+<tr><th id="44">44</th><td>    <dfn class="enum" id="yajl_t_object" title='yajl_t_object' data-ref="yajl_t_object">yajl_t_object</dfn> = <var>3</var>,</td></tr>
+<tr><th id="45">45</th><td>    <dfn class="enum" id="yajl_t_array" title='yajl_t_array' data-ref="yajl_t_array">yajl_t_array</dfn> = <var>4</var>,</td></tr>
+<tr><th id="46">46</th><td>    <dfn class="enum" id="yajl_t_true" title='yajl_t_true' data-ref="yajl_t_true">yajl_t_true</dfn> = <var>5</var>,</td></tr>
+<tr><th id="47">47</th><td>    <dfn class="enum" id="yajl_t_false" title='yajl_t_false' data-ref="yajl_t_false">yajl_t_false</dfn> = <var>6</var>,</td></tr>
+<tr><th id="48">48</th><td>    <dfn class="enum" id="yajl_t_null" title='yajl_t_null' data-ref="yajl_t_null">yajl_t_null</dfn> = <var>7</var>,</td></tr>
+<tr><th id="49">49</th><td>    <i class="doc">/** The any type isn't valid for yajl_val_s.type, but can be</i></td></tr>
+<tr><th id="50">50</th><td><i class="doc">     *  used as an argument to routines like yajl_tree_get().</i></td></tr>
+<tr><th id="51">51</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="52">52</th><td>    <dfn class="enum" id="yajl_t_any" title='yajl_t_any' data-ref="yajl_t_any">yajl_t_any</dfn> = <var>8</var></td></tr>
+<tr><th id="53">53</th><td>} <dfn class="typedef" id="yajl_type" title='yajl_type' data-type='enum yajl_type' data-ref="yajl_type">yajl_type</dfn>;</td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/YAJL_NUMBER_INT_VALID" data-ref="_M/YAJL_NUMBER_INT_VALID">YAJL_NUMBER_INT_VALID</dfn>    0x01</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/YAJL_NUMBER_DOUBLE_VALID" data-ref="_M/YAJL_NUMBER_DOUBLE_VALID">YAJL_NUMBER_DOUBLE_VALID</dfn> 0x02</u></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><i class="doc">/** A pointer to a node in the parse tree */</i></td></tr>
+<tr><th id="59">59</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#yajl_val_s" title='yajl_val_s' data-ref="yajl_val_s">yajl_val_s</a> * <dfn class="typedef" id="yajl_val" title='yajl_val' data-type='struct yajl_val_s *' data-ref="yajl_val">yajl_val</dfn>;</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><i class="doc">/** Inner JSON types */</i></td></tr>
+<tr><th id="62">62</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="63">63</th><td>{</td></tr>
+<tr><th id="64">64</th><td>	<em>char</em> **<dfn class="decl" id="(anonymous)::keys" title='(anonymous struct)::keys' data-ref="(anonymous)::keys">keys</dfn>; <i>/*&lt; Array of keys */</i></td></tr>
+<tr><th id="65">65</th><td>	<a class="typedef" href="#yajl_val" title='yajl_val' data-type='struct yajl_val_s *' data-ref="yajl_val">yajl_val</a> *<dfn class="decl" id="(anonymous)::values" title='(anonymous struct)::values' data-ref="(anonymous)::values">values</dfn>; <i>/*&lt; Array of values. */</i></td></tr>
+<tr><th id="66">66</th><td>	<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="(anonymous)::len" title='(anonymous struct)::len' data-ref="(anonymous)::len">len</dfn>; <i>/*&lt; Number of key-value-pairs. */</i></td></tr>
+<tr><th id="67">67</th><td>} <dfn class="typedef" id="yajl_object_s" title='yajl_object_s' data-type='struct yajl_object_s' data-ref="yajl_object_s">yajl_object_s</dfn>, *<dfn class="typedef" id="yajl_object" title='yajl_object' data-type='struct yajl_object_s *' data-ref="yajl_object">yajl_object</dfn>;</td></tr>
+<tr><th id="68">68</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="69">69</th><td>{</td></tr>
+<tr><th id="70">70</th><td>	<a class="typedef" href="#yajl_val" title='yajl_val' data-type='struct yajl_val_s *' data-ref="yajl_val">yajl_val</a> *<dfn class="decl" id="(anonymous)::values" title='(anonymous struct)::values' data-ref="(anonymous)::values">values</dfn>; <i>/*&lt; Array of elements. */</i></td></tr>
+<tr><th id="71">71</th><td>	<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="(anonymous)::len" title='(anonymous struct)::len' data-ref="(anonymous)::len">len</dfn>; <i>/*&lt; Number of elements. */</i></td></tr>
+<tr><th id="72">72</th><td>} <dfn class="typedef" id="yajl_array_s" title='yajl_array_s' data-type='struct yajl_array_s' data-ref="yajl_array_s">yajl_array_s</dfn>, *<dfn class="typedef" id="yajl_array" title='yajl_array' data-type='struct yajl_array_s *' data-ref="yajl_array">yajl_array</dfn>;</td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="75">75</th><td><i class="doc"> * A JSON value representation capable of holding one of the seven</i></td></tr>
+<tr><th id="76">76</th><td><i class="doc"> * types above. For "string", "number", "object", and "array"</i></td></tr>
+<tr><th id="77">77</th><td><i class="doc"> * additional data is available in the union.  The "YAJL_IS_*"</i></td></tr>
+<tr><th id="78">78</th><td><i class="doc"> * and "YAJL_GET_*" macros below allow type checking and convenient</i></td></tr>
+<tr><th id="79">79</th><td><i class="doc"> * value extraction.</i></td></tr>
+<tr><th id="80">80</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="81">81</th><td><b>struct</b> <dfn class="type def" id="yajl_val_s" title='yajl_val_s' data-ref="yajl_val_s">yajl_val_s</dfn></td></tr>
+<tr><th id="82">82</th><td>{</td></tr>
+<tr><th id="83">83</th><td>    <i class="doc">/** Type of the value contained. Use the "YAJL_IS_*" macros to check for a</i></td></tr>
+<tr><th id="84">84</th><td><i class="doc">     * specific type. */</i></td></tr>
+<tr><th id="85">85</th><td>    <a class="typedef" href="#yajl_type" title='yajl_type' data-type='enum yajl_type' data-ref="yajl_type">yajl_type</a> <dfn class="decl" id="yajl_val_s::type" title='yajl_val_s::type' data-ref="yajl_val_s::type">type</dfn>;</td></tr>
+<tr><th id="86">86</th><td>    <i class="doc">/** Type-specific data. You may use the "YAJL_GET_*" macros to access these</i></td></tr>
+<tr><th id="87">87</th><td><i class="doc">     * members. */</i></td></tr>
+<tr><th id="88">88</th><td>    <b>union</b></td></tr>
+<tr><th id="89">89</th><td>    {</td></tr>
+<tr><th id="90">90</th><td>        <em>char</em> * <dfn class="decl" id="yajl_val_s::(anonymous)::string" title='yajl_val_s::(anonymous union)::string' data-ref="yajl_val_s::(anonymous)::string">string</dfn>;</td></tr>
+<tr><th id="91">91</th><td>        <b>struct</b> {</td></tr>
+<tr><th id="92">92</th><td>            <em>long</em> <em>long</em> <dfn class="decl" id="yajl_val_s::(anonymousunion)::(anonymous)::i" title='yajl_val_s::(anonymous union)::(anonymous struct)::i' data-ref="yajl_val_s::(anonymousunion)::(anonymous)::i">i</dfn>; <i>/*&lt; integer value, if representable. */</i></td></tr>
+<tr><th id="93">93</th><td>            <em>double</em>  <dfn class="decl" id="yajl_val_s::(anonymousunion)::(anonymous)::d" title='yajl_val_s::(anonymous union)::(anonymous struct)::d' data-ref="yajl_val_s::(anonymousunion)::(anonymous)::d">d</dfn>;   <i>/*&lt; double value, if representable. */</i></td></tr>
+<tr><th id="94">94</th><td>            <em>char</em>   *<dfn class="decl" id="yajl_val_s::(anonymousunion)::(anonymous)::r" title='yajl_val_s::(anonymous union)::(anonymous struct)::r' data-ref="yajl_val_s::(anonymousunion)::(anonymous)::r">r</dfn>;   <i>/*&lt; unparsed number in string form. */</i></td></tr>
+<tr><th id="95">95</th><td>            <i class="doc">/** Signals whether the<span class="command"> \em</span> <span class="arg">i</span> and<span class="command"> \em</span> <span class="arg">d</span> members are</i></td></tr>
+<tr><th id="96">96</th><td><i class="doc">             * valid. See<span class="command"> \c</span> <span class="arg">YAJL_NUMBER_INT_VALID</span> and</i></td></tr>
+<tr><th id="97">97</th><td><i class="doc">             *<span class="command"> \c</span> <span class="arg">YAJL_NUMBER_DOUBLE_VALID.</span> */</i></td></tr>
+<tr><th id="98">98</th><td>            <em>unsigned</em> <em>int</em> <dfn class="decl" id="yajl_val_s::(anonymousunion)::(anonymous)::flags" title='yajl_val_s::(anonymous union)::(anonymous struct)::flags' data-ref="yajl_val_s::(anonymousunion)::(anonymous)::flags">flags</dfn>;</td></tr>
+<tr><th id="99">99</th><td>        } <dfn class="decl" id="yajl_val_s::(anonymous)::number" title='yajl_val_s::(anonymous union)::number' data-ref="yajl_val_s::(anonymous)::number">number</dfn>;</td></tr>
+<tr><th id="100">100</th><td>        <a class="typedef" href="#yajl_object_s" title='yajl_object_s' data-type='struct yajl_object_s' data-ref="yajl_object_s">yajl_object_s</a> <dfn class="decl" id="yajl_val_s::(anonymous)::object" title='yajl_val_s::(anonymous union)::object' data-ref="yajl_val_s::(anonymous)::object">object</dfn>;</td></tr>
+<tr><th id="101">101</th><td>        <a class="typedef" href="#yajl_array_s" title='yajl_array_s' data-type='struct yajl_array_s' data-ref="yajl_array_s">yajl_array_s</a> <dfn class="decl" id="yajl_val_s::(anonymous)::array" title='yajl_val_s::(anonymous union)::array' data-ref="yajl_val_s::(anonymous)::array">array</dfn>;</td></tr>
+<tr><th id="102">102</th><td>    } <dfn class="decl" id="yajl_val_s::u" title='yajl_val_s::u' data-ref="yajl_val_s::u">u</dfn>;</td></tr>
+<tr><th id="103">103</th><td>};</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="106">106</th><td><i class="doc"> * Parse a string.</i></td></tr>
+<tr><th id="107">107</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="108">108</th><td><i class="doc"> * Parses an null-terminated string containing JSON data and returns a pointer</i></td></tr>
+<tr><th id="109">109</th><td><i class="doc"> * to the top-level value (root of the parse tree).</i></td></tr>
+<tr><th id="110">110</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="111">111</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">input</span>              Pointer to a null-terminated utf8 string containing</i></td></tr>
+<tr><th id="112">112</th><td><i class="doc"> *                           JSON data.</i></td></tr>
+<tr><th id="113">113</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">error_buffer</span>       Pointer to a buffer in which an error message will</i></td></tr>
+<tr><th id="114">114</th><td><i class="doc"> *                           be stored if<span class="command"> \em</span> <span class="arg">yajl_tree_parse</span> fails, or</i></td></tr>
+<tr><th id="115">115</th><td><i class="doc"> *                          <span class="command"> \c</span> <span class="arg">NULL.</span> The buffer will be initialized before</i></td></tr>
+<tr><th id="116">116</th><td><i class="doc"> *                           parsing, so its content will be destroyed even if</i></td></tr>
+<tr><th id="117">117</th><td><i class="doc"> *                          <span class="command"> \em</span> <span class="arg">yajl_tree_parse</span> succeeds.</i></td></tr>
+<tr><th id="118">118</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">error_buffer_size</span>  Size of the memory area pointed to by</i></td></tr>
+<tr><th id="119">119</th><td><i class="doc"> *                          <span class="command"> \em</span> <span class="arg">error_buffer_size.</span> If<span class="command"> \em</span> <span class="arg">error_buffer_size</span> is</i></td></tr>
+<tr><th id="120">120</th><td><i class="doc"> *                          <span class="command"> \c</span> <span class="arg">NULL,</span> this argument is ignored.</i></td></tr>
+<tr><th id="121">121</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="122">122</th><td><i class="doc"> * <span class="command">\returns</span> Pointer to the top-level value or<span class="command"> \c</span> <span class="arg">NULL</span> on error. The memory</i></td></tr>
+<tr><th id="123">123</th><td><i class="doc"> * pointed to must be freed using<span class="command"> \em</span> <span class="arg">yajl_tree_free.</span> In case of an error, a</i></td></tr>
+<tr><th id="124">124</th><td><i class="doc"> * null terminated message describing the error in more detail is stored in</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc"> *<span class="command"> \em</span> <span class="arg">error_buffer</span> if it is not<span class="command"> \c</span> <span class="arg">NULL.</span></i></td></tr>
+<tr><th id="126">126</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="127">127</th><td><a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_val" title='yajl_val' data-type='struct yajl_val_s *' data-ref="yajl_val">yajl_val</a> <dfn class="decl" id="yajl_tree_parse" title='yajl_tree_parse' data-ref="yajl_tree_parse">yajl_tree_parse</dfn> (<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="8input" title='input' data-type='const char *' data-ref="8input">input</dfn>,</td></tr>
+<tr><th id="128">128</th><td>                                   <em>char</em> *<dfn class="local col9 decl" id="9error_buffer" title='error_buffer' data-type='char *' data-ref="9error_buffer">error_buffer</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="10error_buffer_size" title='error_buffer_size' data-type='size_t' data-ref="10error_buffer_size">error_buffer_size</dfn>);</td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td></td></tr>
+<tr><th id="131">131</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="132">132</th><td><i class="doc"> * Free a parse tree returned by "yajl_tree_parse".</i></td></tr>
+<tr><th id="133">133</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="134">134</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">v</span> Pointer to a JSON value returned by "yajl_tree_parse". Passing NULL</i></td></tr>
+<tr><th id="135">135</th><td><i class="doc"> * is valid and results in a no-op.</i></td></tr>
+<tr><th id="136">136</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="137">137</th><td><a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>void</em> <dfn class="decl" id="yajl_tree_free" title='yajl_tree_free' data-ref="yajl_tree_free">yajl_tree_free</dfn> (<a class="typedef" href="#yajl_val" title='yajl_val' data-type='struct yajl_val_s *' data-ref="yajl_val">yajl_val</a> <dfn class="local col1 decl" id="11v" title='v' data-type='yajl_val' data-ref="11v">v</dfn>);</td></tr>
+<tr><th id="138">138</th><td></td></tr>
+<tr><th id="139">139</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="140">140</th><td><i class="doc"> * Access a nested value inside a tree.</i></td></tr>
+<tr><th id="141">141</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="142">142</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">parent</span> the node under which you'd like to extract values.</i></td></tr>
+<tr><th id="143">143</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">path</span> A null terminated array of strings, each the name of an object key</i></td></tr>
+<tr><th id="144">144</th><td><i class="doc"> * <span class="command">\param</span> <span class="arg">type</span> the yajl_type of the object you seek, or yajl_t_any if any will do.</i></td></tr>
+<tr><th id="145">145</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="146">146</th><td><i class="doc"> * <span class="command">\returns</span> a pointer to the found value, or NULL if we came up empty.</i></td></tr>
+<tr><th id="147">147</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="148">148</th><td><i class="doc"> * Future Ideas:  it'd be nice to move path to a string and implement support for</i></td></tr>
+<tr><th id="149">149</th><td><i class="doc"> * a teeny tiny micro language here, so you can extract array elements, do things</i></td></tr>
+<tr><th id="150">150</th><td><i class="doc"> * like .first and .last, even .length.  Inspiration from JSONPath and css selectors?</i></td></tr>
+<tr><th id="151">151</th><td><i class="doc"> * No it wouldn't be fast, but that's not what this API is about.</i></td></tr>
+<tr><th id="152">152</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="153">153</th><td><a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_val" title='yajl_val' data-type='struct yajl_val_s *' data-ref="yajl_val">yajl_val</a> <dfn class="decl" id="yajl_tree_get" title='yajl_tree_get' data-ref="yajl_tree_get">yajl_tree_get</dfn>(<a class="typedef" href="#yajl_val" title='yajl_val' data-type='struct yajl_val_s *' data-ref="yajl_val">yajl_val</a> <dfn class="local col2 decl" id="12parent" title='parent' data-type='yajl_val' data-ref="12parent">parent</dfn>, <em>const</em> <em>char</em> ** <dfn class="local col3 decl" id="13path" title='path' data-type='const char **' data-ref="13path">path</dfn>, <a class="typedef" href="#yajl_type" title='yajl_type' data-type='enum yajl_type' data-ref="yajl_type">yajl_type</a> <dfn class="local col4 decl" id="14type" title='type' data-type='yajl_type' data-ref="14type">type</dfn>);</td></tr>
+<tr><th id="154">154</th><td></td></tr>
+<tr><th id="155">155</th><td><i>/* Various convenience macros to check the type of a `yajl_val` */</i></td></tr>
+<tr><th id="156">156</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_STRING" data-ref="_M/YAJL_IS_STRING">YAJL_IS_STRING</dfn>(v) (((v) != NULL) &amp;&amp; ((v)-&gt;type == yajl_t_string))</u></td></tr>
+<tr><th id="157">157</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_NUMBER" data-ref="_M/YAJL_IS_NUMBER">YAJL_IS_NUMBER</dfn>(v) (((v) != NULL) &amp;&amp; ((v)-&gt;type == yajl_t_number))</u></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_INTEGER" data-ref="_M/YAJL_IS_INTEGER">YAJL_IS_INTEGER</dfn>(v) (YAJL_IS_NUMBER(v) &amp;&amp; ((v)-&gt;u.number.flags &amp; YAJL_NUMBER_INT_VALID))</u></td></tr>
+<tr><th id="159">159</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_DOUBLE" data-ref="_M/YAJL_IS_DOUBLE">YAJL_IS_DOUBLE</dfn>(v) (YAJL_IS_NUMBER(v) &amp;&amp; ((v)-&gt;u.number.flags &amp; YAJL_NUMBER_DOUBLE_VALID))</u></td></tr>
+<tr><th id="160">160</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_OBJECT" data-ref="_M/YAJL_IS_OBJECT">YAJL_IS_OBJECT</dfn>(v) (((v) != NULL) &amp;&amp; ((v)-&gt;type == yajl_t_object))</u></td></tr>
+<tr><th id="161">161</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_ARRAY" data-ref="_M/YAJL_IS_ARRAY">YAJL_IS_ARRAY</dfn>(v)  (((v) != NULL) &amp;&amp; ((v)-&gt;type == yajl_t_array ))</u></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_TRUE" data-ref="_M/YAJL_IS_TRUE">YAJL_IS_TRUE</dfn>(v)   (((v) != NULL) &amp;&amp; ((v)-&gt;type == yajl_t_true  ))</u></td></tr>
+<tr><th id="163">163</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_FALSE" data-ref="_M/YAJL_IS_FALSE">YAJL_IS_FALSE</dfn>(v)  (((v) != NULL) &amp;&amp; ((v)-&gt;type == yajl_t_false ))</u></td></tr>
+<tr><th id="164">164</th><td><u>#define <dfn class="macro" id="_M/YAJL_IS_NULL" data-ref="_M/YAJL_IS_NULL">YAJL_IS_NULL</dfn>(v)   (((v) != NULL) &amp;&amp; ((v)-&gt;type == yajl_t_null  ))</u></td></tr>
+<tr><th id="165">165</th><td></td></tr>
+<tr><th id="166">166</th><td><i class="doc">/** Given a yajl_val_string return a ptr to the bare string it contains,</i></td></tr>
+<tr><th id="167">167</th><td><i class="doc"> *  or NULL if the value is not a string. */</i></td></tr>
+<tr><th id="168">168</th><td><u>#define <dfn class="macro" id="_M/YAJL_GET_STRING" data-ref="_M/YAJL_GET_STRING">YAJL_GET_STRING</dfn>(v) (YAJL_IS_STRING(v) ? (v)-&gt;u.string : NULL)</u></td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td><i class="doc">/** Get the string representation of a number.  You should check type first,</i></td></tr>
+<tr><th id="171">171</th><td><i class="doc"> *  perhaps using YAJL_IS_NUMBER */</i></td></tr>
+<tr><th id="172">172</th><td><u>#define <dfn class="macro" id="_M/YAJL_GET_NUMBER" data-ref="_M/YAJL_GET_NUMBER">YAJL_GET_NUMBER</dfn>(v) ((v)-&gt;u.number.r)</u></td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><i class="doc">/** Get the double representation of a number.  You should check type first,</i></td></tr>
+<tr><th id="175">175</th><td><i class="doc"> *  perhaps using YAJL_IS_DOUBLE */</i></td></tr>
+<tr><th id="176">176</th><td><u>#define <dfn class="macro" id="_M/YAJL_GET_DOUBLE" data-ref="_M/YAJL_GET_DOUBLE">YAJL_GET_DOUBLE</dfn>(v) ((v)-&gt;u.number.d)</u></td></tr>
+<tr><th id="177">177</th><td></td></tr>
+<tr><th id="178">178</th><td><i class="doc">/** Get the 64bit (long long) integer representation of a number.  You should</i></td></tr>
+<tr><th id="179">179</th><td><i class="doc"> *  check type first, perhaps using YAJL_IS_INTEGER */</i></td></tr>
+<tr><th id="180">180</th><td><u>#define <dfn class="macro" id="_M/YAJL_GET_INTEGER" data-ref="_M/YAJL_GET_INTEGER">YAJL_GET_INTEGER</dfn>(v) ((v)-&gt;u.number.i)</u></td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><i class="doc">/** Get a pointer to a yajl_val_object or NULL if the value is not an object. */</i></td></tr>
+<tr><th id="183">183</th><td><u>#define <dfn class="macro" id="_M/YAJL_GET_OBJECT" data-ref="_M/YAJL_GET_OBJECT">YAJL_GET_OBJECT</dfn>(v) (YAJL_IS_OBJECT(v) ? &amp;(v)-&gt;u.object : NULL)</u></td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td><i class="doc">/** Get a pointer to a yajl_val_array or NULL if the value is not an object. */</i></td></tr>
+<tr><th id="186">186</th><td><u>#define <dfn class="macro" id="_M/YAJL_GET_ARRAY" data-ref="_M/YAJL_GET_ARRAY">YAJL_GET_ARRAY</dfn>(v)  (YAJL_IS_ARRAY(v)  ? &amp;(v)-&gt;u.array  : NULL)</u></td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td><u>#<span data-ppcond="188">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="189">189</th><td>}</td></tr>
+<tr><th id="190">190</th><td><u>#<span data-ppcond="188">endif</span></u></td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td><u>#<span data-ppcond="31">endif</span> /* YAJL_TREE_H */</u></td></tr>
+<tr><th id="193">193</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../draw/char_sprites.c.html'>codebrowser/src/cdogs/draw/char_sprites.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

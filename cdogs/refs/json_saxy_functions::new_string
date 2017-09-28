@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/json/json.h' l='128' type='int (*)(char *)'/>
+<offset>256</offset>
+<use f='codebrowser/src/json/json.c' l='3063' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3064' u='r' c='json_saxy_parse'/>

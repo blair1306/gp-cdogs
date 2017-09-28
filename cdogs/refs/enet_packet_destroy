@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='556' type='void enet_packet_destroy(ENetPacket * )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='276' u='c' c='enet_host_broadcast'/>
+<def f='codebrowser/src/cdogs/enet/packet.c' l='56' ll='68' type='void enet_packet_destroy(ENetPacket * packet)'/>
+<doc f='codebrowser/src/cdogs/enet/packet.c' l='53'>/** Destroys the packet and deallocates its data.
+    @param packet packet to be destroyed
+*/</doc>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='263' u='c' c='enet_peer_reset_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='288' u='c' c='enet_peer_remove_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='993' u='c' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='999' u='c' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='180' u='c' c='enet_protocol_remove_sent_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='258' u='c' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1356' u='c' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='497' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='346' u='c' c='OnReceive'/>

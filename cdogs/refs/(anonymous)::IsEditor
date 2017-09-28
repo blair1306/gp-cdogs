@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='72' type='_Bool'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/events.c' l='177' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='245' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1330' u='w' c='main'/>

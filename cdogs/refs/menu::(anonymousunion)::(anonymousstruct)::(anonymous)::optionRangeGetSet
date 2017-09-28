@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/menu.h' l='186' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/menu.h:179:5)'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='535' u='m' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='536' u='m' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='537' u='m' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='538' u='m' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='539' u='m' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='940' u='m' c='MenuOptionGetIntValue'/>
+<use f='codebrowser/src/menu.c' l='1297' u='m' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1298' u='m' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1301' u='m' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1303' u='m' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1312' u='m' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1314' u='m' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1321' u='m' c='MenuActivate'/>

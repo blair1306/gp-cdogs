@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3457' type='struct nk_chart'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20996' u='a' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21003' u='a' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21050' u='m' c='nk_chart_add_slot_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21052' u='m' c='nk_chart_add_slot_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21055' u='a' c='nk_chart_add_slot_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21198' u='m' c='nk_chart_push_slot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21200' u='m' c='nk_chart_push_slot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21203' u='m' c='nk_chart_push_slot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21204' u='m' c='nk_chart_push_slot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21206' u='a' c='nk_chart_push_slot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21208' u='a' c='nk_chart_push_slot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21232' u='a' c='nk_chart_end'/>
+<offset>1920</offset>

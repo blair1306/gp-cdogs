@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='111' type='double'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/weapon.h' l='111'>// Width of individual spread, in radians</doc>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='314' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='443' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='451' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='239' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='r' c='LoadGunDescription'/>

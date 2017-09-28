@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='95' type='CArray'/>
+<doc f='codebrowser/src/cdogs/objs.h' l='95'>// of TMobileObject</doc>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='152' u='a' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='95' u='a' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='858' u='m' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='860' u='a' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='871' u='a' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='872' u='m' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='873' u='a' c='BulletAdd'/>
+<def f='codebrowser/src/cdogs/objs.c' l='60' type='CArray'/>
+<use f='codebrowser/src/cdogs/objs.c' l='387' u='m' c='UpdateMobileObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='387' u='a' c='UpdateMobileObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='545' u='a' c='MobObjsInit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='546' u='a' c='MobObjsInit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='551' u='m' c='MobObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='551' u='a' c='MobObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='557' u='a' c='MobObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='565' u='m' c='MobObjGetByUID'/>
+<use f='codebrowser/src/cdogs/objs.c' l='565' u='a' c='MobObjGetByUID'/>
+<use f='codebrowser/src/cdogs/tile.c' l='147' u='a' c='ThingIdGetTileItem'/>

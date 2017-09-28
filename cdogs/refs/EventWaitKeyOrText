@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/events.h' l='68' type='SDL_Scancode EventWaitKeyOrText(EventHandlers * handlers)'/>
+<doc f='codebrowser/src/cdogs/events.h' l='67'>// Wait until there is a key press or text input</doc>
+<def f='codebrowser/src/cdogs/events.c' l='503' ll='513' type='SDL_Scancode EventWaitKeyOrText(EventHandlers * handlers)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='494' u='c' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='603' u='c' c='Save'/>

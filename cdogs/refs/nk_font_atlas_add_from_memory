@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2172' type='struct nk_font * nk_font_atlas_add_from_memory(struct nk_font_atlas * atlas, void * memory, nk_size size, float height, const struct nk_font_config * config)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='11695' ll='11718' macro='1' type='struct nk_font * nk_font_atlas_add_from_memory(struct nk_font_atlas * atlas, void * memory, nk_size size, float height, const struct nk_font_config * config)'/>

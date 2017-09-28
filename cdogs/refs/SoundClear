@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='136' type='void SoundClear(map_t sounds)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='73' u='c' c='CampaignSettingTerminate'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='264' ll='267' type='void SoundClear(map_t sounds)'/>

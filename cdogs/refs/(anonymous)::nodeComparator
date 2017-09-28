@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='44' type='int (*)(void *, void *, void *)'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/AStar.h' l='44'>// must return a sort order for the nodes (-1, 0, 1) -- optional, uses memcmp if not specified</doc>
+<use f='codebrowser/src/cdogs/AStar.c' l='219' u='r' c='NodeKeyCompare'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='220' u='r' c='NodeKeyCompare'/>

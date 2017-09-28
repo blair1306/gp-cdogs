@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/log.h' l='48' type='const char * LogModuleName(const LogModule m)'/>
+<def f='codebrowser/src/cdogs/log.c' l='55' ll='60' type='const char * LogModuleName(const LogModule m)'/>
+<use f='codebrowser/src/cdogs/log.c' l='187' u='c' c='LogLine'/>
+<use f='codebrowser/src/command_line.c' l='68' u='c' c='PrintHelp'/>

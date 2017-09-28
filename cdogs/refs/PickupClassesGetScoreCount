@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='96' type='int PickupClassesGetScoreCount(const PickupClasses * classes)'/>
+<doc f='codebrowser/src/cdogs/pickup_class.h' l='95'>// Count the number of &quot;Score&quot; type pickups</doc>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='360' ll='376' type='int PickupClassesGetScoreCount(const PickupClasses * classes)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='536' u='c' c='MissionChangeCollectObjectiveIndex'/>

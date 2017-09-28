@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='63' type='Vec2i'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='194' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='222' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='355' u='r' c='DrawActorHighlight'/>

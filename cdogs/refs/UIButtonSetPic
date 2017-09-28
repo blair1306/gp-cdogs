@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='116' type='void UIButtonSetPic(UIObject * o, Pic * pic)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='973' u='c' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='303' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='311' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='319' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='327' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='335' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='343' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='351' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='359' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='366' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='376' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='386' u='c' c='CreateStaticMapObjs'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='79' ll='87' type='void UIButtonSetPic(UIObject * o, Pic * pic)'/>

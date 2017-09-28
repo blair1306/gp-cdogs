@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='172'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='170'>/** Get the string representation of a number.  You should check type first,
+ *  perhaps using YAJL_IS_NUMBER */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='41' type='void CArrayReserve(CArray * a, size_t capacity)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1128' u='c' c='ActorsInit'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='41' ll='53' type='void CArrayReserve(CArray * a, size_t capacity)'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='59' u='c' c='GrowIfFull'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='66' u='c' c='CArrayCopy'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='110' u='c' c='CArrayResize'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='69' u='c' c='DrawBufferInit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='406' u='c' c='ObjsInit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='546' u='c' c='MobObjsInit'/>
+<use f='codebrowser/src/cdogs/particle.c' l='236' u='c' c='ParticlesInit'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='45' u='c' c='PickupsInit'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='161' type='_Bool TileIsClear(const Tile * t)'/>
+<use f='codebrowser/src/cdogs/map.c' l='371' u='c' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/map.c' l='524' u='c' c='MapPlaceCard'/>
+<use f='codebrowser/src/cdogs/map.c' l='527' u='c' c='MapPlaceCard'/>
+<def f='codebrowser/src/cdogs/tile.c' l='99' ll='109' macro='1' type='_Bool TileIsClear(const Tile * t)'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='221' u='c' c='ConditionsMet'/>

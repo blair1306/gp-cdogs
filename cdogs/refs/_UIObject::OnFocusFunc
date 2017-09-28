@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='107' type='void (*)(struct _UIObject *, void *)'/>
+<offset>1600</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='990' u='w' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='226' u='w' c='CreateAddMapItemObjsImpl'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='299' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='370' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='380' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='402' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='412' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='424' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='468' u='w' c='CreateSetKeyObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='213' u='w' c='CreateAddItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='267' u='w' c='AddMapItemBrushObjFunc'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='319' u='w' c='AddPickupSpawnerBrushObjFunc'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='340' u='w' c='CreateAddCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='371' u='w' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='403' u='w' c='CreateAddObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='481' u='w' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='536' u='w' c='CreateAddKeyObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='112' u='w' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='112' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='172' u='r' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='174' u='r' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='181' u='r' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='183' u='r' c='UIObjectHighlight'/>

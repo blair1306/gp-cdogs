@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/character.h' l='72' type='void CharacterStoreAddPrisoner(CharacterStore * store, int character)'/>
+<def f='codebrowser/src/cdogs/character.c' l='208' ll='211' type='void CharacterStoreAddPrisoner(CharacterStore * store, int character)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='236' u='c' c='SetupBadguysForMission'/>

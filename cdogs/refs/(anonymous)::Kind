@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='140' type='TileItemKind'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='151' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='235' u='r' c='IsTileWalkable'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='260' u='r' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='269' u='r' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/map.c' l='193' u='w' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='195' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='195' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='195' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='195' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='207' u='r' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/tile.c' l='106' u='r' c='TileIsClear'/>
+<use f='codebrowser/src/cdogs/tile.c' l='113' u='r' c='TileHasCharacter'/>
+<use f='codebrowser/src/cdogs/tile.c' l='137' u='r' c='ThingIdGetTileItem'/>

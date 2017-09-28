@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='243' type='enet_uint16'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='222' u='w' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='137' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='633' u='w' c='enet_peer_setup_outgoing_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='636' u='r' c='enet_peer_setup_outgoing_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='652' u='r' c='enet_peer_setup_outgoing_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='347' u='w' c='enet_protocol_handle_connect'/>

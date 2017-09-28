@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3659' type='struct nk_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17867' u='m' c='nk_create_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17868' u='a' c='nk_create_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17894' u='a' c='nk_free_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17894' u='a' c='nk_free_window'/>
+<offset>0</offset>

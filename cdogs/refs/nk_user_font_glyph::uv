@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2033' type='struct nk_vec2 [2]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8448' u='r' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8448' u='r' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11181' u='w' c='nk_font_query_font_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11182' u='w' c='nk_font_query_font_glyph'/>
+<offset>0</offset>

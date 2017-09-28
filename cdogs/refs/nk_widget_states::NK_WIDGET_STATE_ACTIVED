@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1402' type='32'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='1405' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13564' u='r' c='nk_draw_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13619' u='r' c='nk_draw_button_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13669' u='r' c='nk_draw_button_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13756' u='r' c='nk_draw_button_text_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13819' u='r' c='nk_draw_button_text_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13907' u='r' c='nk_draw_checkbox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13950' u='r' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14057' u='r' c='nk_draw_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14068' u='r' c='nk_draw_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14245' u='r' c='nk_draw_slider'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14424' u='r' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14569' u='r' c='nk_draw_scrollbar'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15094' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15283' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15402' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15511' u='r' c='nk_property_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15524' u='r' c='nk_draw_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22116' u='r' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22206' u='r' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22286' u='r' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22374' u='r' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22469' u='r' c='nk_combo_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22548' u='r' c='nk_combo_begin_image_text'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1402'>/* widget is currently activated */</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/autosave.h' l='47' type='void MissionSaveInit(MissionSave * ms)'/>
+<def f='codebrowser/src/autosave.c' l='49' ll='53' type='void MissionSaveInit(MissionSave * ms)'/>
+<use f='codebrowser/src/autosave.c' l='93' u='c' c='LoadMissionNode'/>
+<use f='codebrowser/src/autosave.c' l='260' u='c' c='AutosaveLoadMission'/>
+<use f='codebrowser/src/briefing_screens.c' l='412' u='c' c='MissionSummaryOnEnter'/>

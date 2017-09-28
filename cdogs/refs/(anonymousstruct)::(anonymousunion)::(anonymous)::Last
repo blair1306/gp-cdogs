@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/config.h' l='146' type='char *'/>
+<dec f='codebrowser/src/cdogs/config.h' l='146' type='double'/>
+<dec f='codebrowser/src/cdogs/config.h' l='146' type='_Bool'/>
+<dec f='codebrowser/src/cdogs/config.h' l='160' type='int'/>
+<dec f='codebrowser/src/cdogs/config.h' l='160' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/config.c' l='231' u='w' c='ConfigNewInt'/>
+<use f='codebrowser/src/cdogs/config.c' l='244' u='w' c='ConfigNewFloat'/>
+<use f='codebrowser/src/cdogs/config.c' l='253' u='w' c='ConfigNewBool'/>
+<use f='codebrowser/src/cdogs/config.c' l='262' u='w' c='ConfigNewEnum'/>
+<use f='codebrowser/src/cdogs/config.c' l='353' u='r' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='355' u='r' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='357' u='r' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='359' u='r' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='361' u='r' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='382' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='384' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='384' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='384' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='384' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='384' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='388' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='391' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='394' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='397' u='r' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='415' u='r' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='415' u='r' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='418' u='w' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='418' u='r' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='418' u='r' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='418' u='r' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='422' u='w' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='425' u='w' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='428' u='w' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='431' u='w' c='ConfigSetChanged'/>

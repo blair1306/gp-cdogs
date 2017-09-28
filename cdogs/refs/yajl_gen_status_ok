@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='35' type='0'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='34'>/** no error */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='222' u='r' c='yajl_gen_integer'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='245' u='r' c='yajl_gen_double'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='255' u='r' c='yajl_gen_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='276' u='r' c='yajl_gen_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='286' u='r' c='yajl_gen_null'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='298' u='r' c='yajl_gen_bool'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='311' u='r' c='yajl_gen_map_open'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='325' u='r' c='yajl_gen_map_close'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='337' u='r' c='yajl_gen_array_open'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='350' u='r' c='yajl_gen_array_close'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='360' u='r' c='yajl_gen_get_buf'/>

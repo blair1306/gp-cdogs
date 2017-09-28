@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2794' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8227' u='r' c='nk_draw_list_stroke_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8344' u='r' c='nk_draw_list_stroke_curve'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8576' u='r' c='nk_convert'/>

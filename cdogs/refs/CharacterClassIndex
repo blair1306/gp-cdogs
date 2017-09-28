@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='58' type='int CharacterClassIndex(const CharacterClass * c)'/>
+<def f='codebrowser/src/cdogs/character_class.c' l='96' ll='116' type='int CharacterClassIndex(const CharacterClass * c)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='490' u='c' c='Draw'/>

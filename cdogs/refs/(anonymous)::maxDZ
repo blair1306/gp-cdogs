@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/emitter.h' l='39' type='int'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogs/emitter.c' l='44' u='w' c='EmitterInit'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='62' u='r' c='EmitterStart'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='62' u='r' c='EmitterStart'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1323' type='void nk_layout_row_static(struct nk_context * , float height, int item_width, int cols)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18701' ll='18705' macro='1' type='void nk_layout_row_static(struct nk_context * ctx, float height, int item_width, int cols)'/>

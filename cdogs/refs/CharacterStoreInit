@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/character.h' l='64' type='void CharacterStoreInit(CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='56' u='c' c='CampaignSettingInit'/>
+<def f='codebrowser/src/cdogs/character.c' l='40' ll='47' type='void CharacterStoreInit(CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/character.c' l='73' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/files.c' l='451' u='c' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='269' u='c' c='SetupQuickPlayCampaign'/>

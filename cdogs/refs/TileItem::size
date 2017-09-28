@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='122' type='Vec2i'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='209' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='227' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='276' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='282' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='294' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='473' u='r' c='CheckPickups'/>
+<use f='codebrowser/src/cdogs/actors.c' l='504' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='894' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='987' u='r' c='CheckManualPickups'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1215' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='134' u='r' c='IsPosOK'/>
+<use f='codebrowser/src/cdogs/ai.c' l='144' u='r' c='IsPosOK'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='388' u='r' c='AIGetObjectRunningInto'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='419' u='r' c='HitItem'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='912' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='344' u='r' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/map.c' l='853' u='r' c='MapIsTileAreaClear'/>
+<use f='codebrowser/src/cdogs/objs.c' l='463' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='334' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='98' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/tile.c' l='81' u='m' c='IsTileItemInsideTile'/>
+<use f='codebrowser/src/cdogs/tile.c' l='82' u='m' c='IsTileItemInsideTile'/>
+<use f='codebrowser/src/cdogs/tile.c' l='83' u='m' c='IsTileItemInsideTile'/>
+<use f='codebrowser/src/cdogs/tile.c' l='84' u='m' c='IsTileItemInsideTile'/>

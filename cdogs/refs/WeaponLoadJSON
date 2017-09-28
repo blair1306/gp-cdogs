@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='144' type='void WeaponLoadJSON(GunClasses * g, CArray * classes, json_t * root)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='124' u='c' c='MapNewLoadArchive'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='79' ll='153' type='void WeaponLoadJSON(GunClasses * g, CArray * classes, json_t * root)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='646' u='c' c='BulletAndWeaponInitialize'/>

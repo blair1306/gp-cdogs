@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3613' type='struct nk_config_stack_user_font_element [8]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16522' u='r' c='nk_style_push_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16522' u='r' c='nk_style_push_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16523' u='r' c='nk_style_push_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16523' u='r' c='nk_style_push_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16526' u='a' c='nk_style_push_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16547' u='a' c='nk_style_pop_font'/>
+<offset>64</offset>

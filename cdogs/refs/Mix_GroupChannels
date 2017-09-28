@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='513' type='int Mix_GroupChannels(int from, int to, int tag)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='512'>/* Assign several consecutive channels to a group */</doc>

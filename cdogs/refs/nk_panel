@@ -1,0 +1,20 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3443' ll='3460'/>
+<size>440</size>
+<mbr r='nk_panel::type' o='0' t='enum nk_panel_type'/>
+<mbr r='nk_panel::flags' o='32' t='nk_flags'/>
+<mbr r='nk_panel::bounds' o='64' t='struct nk_rect'/>
+<mbr r='nk_panel::offset_x' o='192' t='nk_uint *'/>
+<mbr r='nk_panel::offset_y' o='256' t='nk_uint *'/>
+<mbr r='nk_panel::at_x' o='320' t='float'/>
+<mbr r='nk_panel::at_y' o='352' t='float'/>
+<mbr r='nk_panel::max_x' o='384' t='float'/>
+<mbr r='nk_panel::footer_height' o='416' t='float'/>
+<mbr r='nk_panel::header_height' o='448' t='float'/>
+<mbr r='nk_panel::border' o='480' t='float'/>
+<mbr r='nk_panel::has_scrolling' o='512' t='unsigned int'/>
+<mbr r='nk_panel::clip' o='544' t='struct nk_rect'/>
+<mbr r='nk_panel::menu' o='672' t='struct nk_menu_state'/>
+<mbr r='nk_panel::row' o='896' t='struct nk_row_layout'/>
+<mbr r='nk_panel::chart' o='1920' t='struct nk_chart'/>
+<mbr r='nk_panel::buffer' o='3392' t='struct nk_command_buffer *'/>
+<mbr r='nk_panel::parent' o='3456' t='struct nk_panel *'/>

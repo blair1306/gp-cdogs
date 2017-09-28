@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='88' type='_Bool KeyIsPressed(const keyboard_t * k, const int key)'/>
+<use f='codebrowser/src/cdogs/events.c' l='215' u='r' c='GetKeyboardCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='356' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='366' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='367' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='369' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='370' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='372' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='374' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='564' u='c' c='EventIsEscape'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='177' ll='180' macro='1' type='_Bool KeyIsPressed(const keyboard_t * k, const int key)'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='191' u='c' c='KeyGetPressed'/>
+<use f='codebrowser/src/game.c' l='377' u='c' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='436' u='c' c='RunGameInput'/>
+<use f='codebrowser/src/prep.c' l='273' u='c' c='AssignPlayerInputDevices'/>

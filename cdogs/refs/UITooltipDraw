@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='138' type='void UITooltipDraw(GraphicsDevice * device, Vec2i pos, const char * s)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='244' u='c' c='Display'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='567' ll='578' type='void UITooltipDraw(GraphicsDevice * device, Vec2i pos, const char * s)'/>

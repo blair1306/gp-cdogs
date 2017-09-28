@@ -1,0 +1,9 @@
+<dec f='include/string.h' l='65' type='int memcmp(const void * __s1, const void * __s2, size_t __n)'/>
+<doc f='include/string.h' l='64'>/* Compare N bytes of S1 and S2.  */</doc>
+<use f='codebrowser/src/cdogs/AStar.c' l='222' u='c' c='NodeKeyCompare'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='177' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='378' u='c' c='SDLJBN_GetButtonNameAndColor'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='423' u='c' c='SDLJBN_GetAxisNameAndColor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='772' u='c' c='DrawCharColor'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='269' u='c' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='149' u='c' c='should_mem_equal'/>

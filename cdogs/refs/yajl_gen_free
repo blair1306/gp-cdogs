@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='121' type='void yajl_gen_free(yajl_gen handle)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='136' ll='141' type='void yajl_gen_free(yajl_gen g)'/>

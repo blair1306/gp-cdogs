@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>json_utils.h source code [codebrowser/src/cdogs/json_utils.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/json_utils.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='json_utils.h.html'>json_utils.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i> A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i> </i></td></tr>
+<tr><th id="5">5</th><td><i> Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i> All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i> </i></td></tr>
+<tr><th id="8">8</th><td><i> Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i> modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i> </i></td></tr>
+<tr><th id="11">11</th><td><i> Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i> list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i> Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i> this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i> and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i> </i></td></tr>
+<tr><th id="17">17</th><td><i> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i> AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i> IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i> ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i> LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i> CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i> SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i> INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i> CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i> ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i> POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i> */</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../json/json.h.html">&lt;json/json.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="pic.h.html">"pic.h"</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="sounds.h.html">"sounds.h"</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="vector.h.html">"vector.h"</a></u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><em>void</em> <dfn class="decl" id="AddIntPair" title='AddIntPair' data-ref="AddIntPair">AddIntPair</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col7 decl" id="2627parent" title='parent' data-type='json_t *' data-ref="2627parent">parent</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="2628name" title='name' data-type='const char *' data-ref="2628name">name</dfn>, <em>int</em> <dfn class="local col9 decl" id="2629number" title='number' data-type='int' data-ref="2629number">number</dfn>);</td></tr>
+<tr><th id="40">40</th><td><em>void</em> <dfn class="decl" id="AddBoolPair" title='AddBoolPair' data-ref="AddBoolPair">AddBoolPair</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col0 decl" id="2630parent" title='parent' data-type='json_t *' data-ref="2630parent">parent</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2631name" title='name' data-type='const char *' data-ref="2631name">name</dfn>, <em>int</em> <dfn class="local col2 decl" id="2632value" title='value' data-type='int' data-ref="2632value">value</dfn>);</td></tr>
+<tr><th id="41">41</th><td><em>void</em> <dfn class="decl" id="AddStringPair" title='AddStringPair' data-ref="AddStringPair">AddStringPair</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col3 decl" id="2633parent" title='parent' data-type='json_t *' data-ref="2633parent">parent</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2634name" title='name' data-type='const char *' data-ref="2634name">name</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="2635s" title='s' data-type='const char *' data-ref="2635s">s</dfn>);</td></tr>
+<tr><th id="42">42</th><td><em>void</em> <dfn class="decl" id="AddColorPair" title='AddColorPair' data-ref="AddColorPair">AddColorPair</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col6 decl" id="2636parent" title='parent' data-type='json_t *' data-ref="2636parent">parent</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="2637name" title='name' data-type='const char *' data-ref="2637name">name</dfn>, <em>const</em> <a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="local col8 decl" id="2638c" title='c' data-type='const color_t' data-ref="2638c">c</dfn>);</td></tr>
+<tr><th id="43">43</th><td><em>void</em> <dfn class="decl" id="LoadBool" title='LoadBool' data-ref="LoadBool">LoadBool</dfn>(<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> *<dfn class="local col9 decl" id="2639value" title='value' data-type='_Bool *' data-ref="2639value">value</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col0 decl" id="2640node" title='node' data-type='json_t *' data-ref="2640node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2641name" title='name' data-type='const char *' data-ref="2641name">name</dfn>);</td></tr>
+<tr><th id="44">44</th><td><em>void</em> <dfn class="decl" id="LoadInt" title='LoadInt' data-ref="LoadInt">LoadInt</dfn>(<em>int</em> *<dfn class="local col2 decl" id="2642value" title='value' data-type='int *' data-ref="2642value">value</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col3 decl" id="2643node" title='node' data-type='json_t *' data-ref="2643node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2644name" title='name' data-type='const char *' data-ref="2644name">name</dfn>);</td></tr>
+<tr><th id="45">45</th><td><em>void</em> <dfn class="decl" id="LoadDouble" title='LoadDouble' data-ref="LoadDouble">LoadDouble</dfn>(<em>double</em> *<dfn class="local col5 decl" id="2645value" title='value' data-type='double *' data-ref="2645value">value</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col6 decl" id="2646node" title='node' data-type='json_t *' data-ref="2646node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="2647name" title='name' data-type='const char *' data-ref="2647name">name</dfn>);</td></tr>
+<tr><th id="46">46</th><td><em>void</em> <dfn class="decl" id="LoadVec2i" title='LoadVec2i' data-ref="LoadVec2i">LoadVec2i</dfn>(<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> *<dfn class="local col8 decl" id="2648value" title='value' data-type='Vec2i *' data-ref="2648value">value</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col9 decl" id="2649node" title='node' data-type='json_t *' data-ref="2649node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="2650name" title='name' data-type='const char *' data-ref="2650name">name</dfn>);</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><i>// remember to free</i></td></tr>
+<tr><th id="49">49</th><td><em>void</em> <dfn class="decl" id="LoadStr" title='LoadStr' data-ref="LoadStr">LoadStr</dfn>(<em>char</em> **<dfn class="local col1 decl" id="2651value" title='value' data-type='char **' data-ref="2651value">value</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col2 decl" id="2652node" title='node' data-type='json_t *' data-ref="2652node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="2653name" title='name' data-type='const char *' data-ref="2653name">name</dfn>);</td></tr>
+<tr><th id="50">50</th><td><em>char</em> *<dfn class="decl" id="GetString" title='GetString' data-ref="GetString">GetString</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col4 decl" id="2654node" title='node' data-type='json_t *' data-ref="2654node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="2655name" title='name' data-type='const char *' data-ref="2655name">name</dfn>);</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+<tr><th id="52">52</th><td><em>void</em> <dfn class="decl" id="LoadSoundFromNode" title='LoadSoundFromNode' data-ref="LoadSoundFromNode">LoadSoundFromNode</dfn>(<a class="typedef" href="../../../include/SDL2/SDL_mixer.h.html#Mix_Chunk" title='Mix_Chunk' data-type='struct Mix_Chunk' data-ref="Mix_Chunk">Mix_Chunk</a> **<dfn class="local col6 decl" id="2656value" title='value' data-type='Mix_Chunk **' data-ref="2656value">value</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col7 decl" id="2657node" title='node' data-type='json_t *' data-ref="2657node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="2658name" title='name' data-type='const char *' data-ref="2658name">name</dfn>);</td></tr>
+<tr><th id="53">53</th><td><i>// Load a const Pic * based on a name</i></td></tr>
+<tr><th id="54">54</th><td><em>void</em> <dfn class="decl" id="LoadPic" title='LoadPic' data-ref="LoadPic">LoadPic</dfn>(<em>const</em> <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> **<dfn class="local col9 decl" id="2659value" title='value' data-type='const Pic **' data-ref="2659value">value</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col0 decl" id="2660node" title='node' data-type='json_t *' data-ref="2660node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2661name" title='name' data-type='const char *' data-ref="2661name">name</dfn>);</td></tr>
+<tr><th id="55">55</th><td><i>// Load an array of const GunDescription *</i></td></tr>
+<tr><th id="56">56</th><td><em>void</em> <dfn class="decl" id="LoadBulletGuns" title='LoadBulletGuns' data-ref="LoadBulletGuns">LoadBulletGuns</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col2 decl" id="2662guns" title='guns' data-type='CArray *' data-ref="2662guns">guns</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col3 decl" id="2663node" title='node' data-type='json_t *' data-ref="2663node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2664name" title='name' data-type='const char *' data-ref="2664name">name</dfn>);</td></tr>
+<tr><th id="57">57</th><td><em>void</em> <dfn class="decl" id="LoadColor" title='LoadColor' data-ref="LoadColor">LoadColor</dfn>(<a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> *<dfn class="local col5 decl" id="2665c" title='c' data-type='color_t *' data-ref="2665c">c</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col6 decl" id="2666node" title='node' data-type='json_t *' data-ref="2666node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="2667name" title='name' data-type='const char *' data-ref="2667name">name</dfn>);</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><i>// Try to load a JSON node using a slash-delimited "path"</i></td></tr>
+<tr><th id="60">60</th><td><i>// If at any point the path fails, NULL is returned.</i></td></tr>
+<tr><th id="61">61</th><td><a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="JSONFindNode" title='JSONFindNode' data-ref="JSONFindNode">JSONFindNode</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col8 decl" id="2668node" title='node' data-type='json_t *' data-ref="2668node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="2669path" title='path' data-type='const char *' data-ref="2669path">path</dfn>);</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/JSON_UTILS_ADD_ENUM_PAIR" data-ref="_M/JSON_UTILS_ADD_ENUM_PAIR">JSON_UTILS_ADD_ENUM_PAIR</dfn>(parent, name, value, func)\</u></td></tr>
+<tr><th id="64">64</th><td><u>	json_insert_pair_into_object(\</u></td></tr>
+<tr><th id="65">65</th><td><u>		(parent), (name), json_new_string(func(value)));</u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><em>int</em> <dfn class="decl" id="TryLoadValue" title='TryLoadValue' data-ref="TryLoadValue">TryLoadValue</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> **<dfn class="local col0 decl" id="2670node" title='node' data-type='json_t **' data-ref="2670node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2671name" title='name' data-type='const char *' data-ref="2671name">name</dfn>);</td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/JSON_UTILS_LOAD_ENUM" data-ref="_M/JSON_UTILS_LOAD_ENUM">JSON_UTILS_LOAD_ENUM</dfn>(value, node, name, func)\</u></td></tr>
+<tr><th id="69">69</th><td><u>	{\</u></td></tr>
+<tr><th id="70">70</th><td><u>		json_t *_node = (node);\</u></td></tr>
+<tr><th id="71">71</th><td><u>		if (TryLoadValue(&amp;_node, (name)))\</u></td></tr>
+<tr><th id="72">72</th><td><u>		{\</u></td></tr>
+<tr><th id="73">73</th><td><u>			(value) = func(_node-&gt;text);\</u></td></tr>
+<tr><th id="74">74</th><td><u>		}\</u></td></tr>
+<tr><th id="75">75</th><td><u>	}</u></td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="TrySaveJSONFile" title='TrySaveJSONFile' data-ref="TrySaveJSONFile">TrySaveJSONFile</dfn>(<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col2 decl" id="2672node" title='node' data-type='json_t *' data-ref="2672node">node</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="2673filename" title='filename' data-type='const char *' data-ref="2673filename">filename</dfn>);</td></tr>
+<tr><th id="78">78</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

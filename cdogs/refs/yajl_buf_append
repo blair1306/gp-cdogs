@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='43' type='void yajl_buf_append(yajl_buf buf, const void * data, size_t len)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='42'>/* append a number of bytes to the buffer */</doc>
+<def f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='71' ll='80' type='void yajl_buf_append(yajl_buf buf, const void * data, size_t len)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_encode.c' l='126' u='c' c='yajl_string_decode'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_encode.c' l='161' u='c' c='yajl_string_decode'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_encode.c' l='171' u='c' c='yajl_string_decode'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_encode.c' l='177' u='c' c='yajl_string_decode'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='121' u='a' c='yajl_gen_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='139' u='a' c='yajl_gen_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='357' u='a' c='yajl_gen_get_buf'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='366' u='a' c='yajl_gen_clear'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='652' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='312' u='c' c='yajl_do_parse'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='144' type='int'/>
+<offset>13568</offset>
+<use f='codebrowser/src/cdogs/ai.c' l='532' u='r' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='533' u='r' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='533' u='r' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='620' u='r' c='CreateEnemies'/>
+<use f='codebrowser/src/cdogs/files.c' l='404' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='368' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='305' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='157' u='w' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='157' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='284' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='378' u='r' c='MissionGetDensityStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='814' u='w' c='MissionChangeDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='814' u='r' c='MissionChangeDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='814' u='r' c='MissionChangeDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='814' u='r' c='MissionChangeDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='814' u='r' c='MissionChangeDensity'/>

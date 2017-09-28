@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='78' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='208' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='876' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='395' u='r' c='UpdateMobileObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='566' u='r' c='MobObjGetByUID'/>

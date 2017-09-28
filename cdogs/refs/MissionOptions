@@ -1,0 +1,14 @@
+<def f='codebrowser/src/cdogs/mission.h' l='214' ll='232'/>
+<size>72</size>
+<mbr r='MissionOptions::index' o='0' t='int'/>
+<mbr r='MissionOptions::KeyFlags' o='32' t='int'/>
+<mbr r='MissionOptions::missionData' o='64' t='Mission *'/>
+<mbr r='MissionOptions::Weapons' o='128' t='CArray'/>
+<mbr r='MissionOptions::time' o='384' t='int'/>
+<mbr r='MissionOptions::pickupTime' o='416' t='int'/>
+<mbr r='MissionOptions::state' o='448' t='MissionState'/>
+<mbr r='MissionOptions::HasStarted' o='480' t='_Bool'/>
+<mbr r='MissionOptions::HasBegun' o='488' t='_Bool'/>
+<mbr r='MissionOptions::isDone' o='496' t='_Bool'/>
+<mbr r='MissionOptions::DoneCounter' o='512' t='int'/>
+<mbr r='MissionOptions::IsQuit' o='544' t='_Bool'/>

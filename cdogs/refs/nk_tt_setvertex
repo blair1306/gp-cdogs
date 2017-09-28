@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9342' ll='9350' macro='1' type='void nk_tt_setvertex(struct nk_tt_vertex * v, nk_byte type, nk_int x, nk_int y, nk_int cx, nk_int cy)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9389' u='c' c='stbtt__close_shape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9390' u='c' c='stbtt__close_shape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9393' u='c' c='stbtt__close_shape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9395' u='c' c='stbtt__close_shape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9513' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9521' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9527' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9528' u='c' c='nk_tt_GetGlyphShape'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.h' l='37' type='int SDLJBN_Init()'/>
+<use f='codebrowser/src/cdogs.c' l='189' u='c' c='main'/>
+<doc f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.h' l='34'>/**
+ * \return -1 on error; 0 on success
+ */</doc>
+<def f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='55' ll='65' type='int SDLJBN_Init()'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='78' u='c' c='SDLJBN_AddMappingsFromFile'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='353' u='c' c='SDLJBN_GetButtonNameAndColor'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='399' u='c' c='SDLJBN_GetAxisNameAndColor'/>

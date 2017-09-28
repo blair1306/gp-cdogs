@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='70' type='ScaleMode'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/events.c' l='186' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='419' u='r' c='GraphicsConfigSet'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='419' u='w' c='GraphicsConfigSet'/>

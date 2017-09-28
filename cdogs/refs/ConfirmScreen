@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='61' type='_Bool ConfirmScreen(const char * info, const char * msg)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1061' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1155' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1175' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='647' u='c' c='MissionDelete'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='106' ll='118' macro='1' type='_Bool ConfirmScreen(const char * info, const char * msg)'/>

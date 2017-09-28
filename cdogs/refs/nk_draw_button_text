@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13603' ll='13625' macro='1' type='void nk_draw_button_text(struct nk_command_buffer * out, const struct nk_rect * bounds, const struct nk_rect * content, nk_flags state, const struct nk_style_button * style, const char * txt, int len, nk_flags text_alignment, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13647' u='c' c='nk_do_button_text'/>

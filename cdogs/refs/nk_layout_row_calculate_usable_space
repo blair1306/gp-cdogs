@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='18589' ll='18608' macro='1' type='float nk_layout_row_calculate_usable_space(const struct nk_style * style, enum nk_panel_type type, float total_space, int columns)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18952' u='c' c='nk_layout_row_template_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19153' u='c' c='nk_layout_widget_space'/>

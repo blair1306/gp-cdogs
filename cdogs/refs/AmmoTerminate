@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='56' type='void AmmoTerminate(AmmoClasses * ammo)'/>
+<use f='codebrowser/src/cdogs.c' l='293' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/ammo.c' l='142' ll='148' type='void AmmoTerminate(AmmoClasses * ammo)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1398' u='c' c='main'/>

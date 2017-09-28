@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='30'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='132' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='95' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='117' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='272' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='72' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='103' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='494' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='501' u='c'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='106' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='512' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='514' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='523' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='525' u='c'/>

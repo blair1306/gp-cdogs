@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3030' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14166' u='m' c='nk_do_selectable_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14167' u='m' c='nk_do_selectable_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14168' u='m' c='nk_do_selectable_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14169' u='m' c='nk_do_selectable_image'/>
+<offset>1952</offset>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='134' type='gunstate_e'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='35' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='35' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actors.c' l='703' u='r' c='ActorTryShoot'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='113' u='r' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='337' u='w' c='WeaponCreate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='449' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='541' u='w' c='WeaponSetState'/>

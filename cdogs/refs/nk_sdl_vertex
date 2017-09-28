@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='40' ll='44'/>
+<size>20</size>
+<mbr r='nk_sdl_vertex::position' o='0' t='float [2]'/>
+<mbr r='nk_sdl_vertex::uv' o='64' t='float [2]'/>
+<mbr r='nk_sdl_vertex::col' o='128' t='nk_byte [4]'/>

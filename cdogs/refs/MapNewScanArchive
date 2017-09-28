@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_archive.h' l='34' type='int MapNewScanArchive(const char * filename, char ** title, int * numMissions)'/>
+<def f='codebrowser/src/cdogs/map_archive.c' l='45' ll='64' type='int MapNewScanArchive(const char * filename, char ** title, int * numMissions)'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='51' u='c' c='MapNewScan'/>

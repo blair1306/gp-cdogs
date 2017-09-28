@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='188' type='ENetProtocolSendFragment'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='169' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='170' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='171' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='172' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='173' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='174' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='532' u='m' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='540' u='m' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='550' u='m' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='551' u='m' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='552' u='m' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='553' u='m' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='642' u='m' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='651' u='m' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='666' u='m' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='667' u='m' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='668' u='m' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='669' u='m' c='enet_protocol_handle_send_unreliable_fragment'/>

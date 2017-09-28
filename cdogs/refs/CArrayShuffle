@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='52' type='void CArrayShuffle(CArray * a)'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='168' ll='181' type='void CArrayShuffle(CArray * a)'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='56' u='c' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='164' u='c' c='LinkDisconnectedAreas'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1492' type='unsigned int nk_check_flags_text(struct nk_context * , const char * , int , unsigned int flags, unsigned int value)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20325' ll='20338' macro='1' type='unsigned int nk_check_flags_text(struct nk_context * ctx, const char * text, int len, unsigned int flags, unsigned int value)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20377' u='c' c='nk_check_flags_label'/>

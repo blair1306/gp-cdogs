@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='88' type='void PickupClassesLoadAmmo(CArray * classes, const CArray * ammoClasses)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='136' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='192' u='c' c='PickupClassesInit'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='263' ll='278' type='void PickupClassesLoadAmmo(CArray * classes, const CArray * ammoClasses)'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='37' type='1'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='35' c='yajl_status_to_string'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='36'>/** a client callback returned zero, stopping the parse */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='154' u='r' c='yajl_do_parse'/>

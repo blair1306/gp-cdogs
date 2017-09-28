@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/draw/char_sprites.h' l='44' type='Vec2i [4][8]'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/draw/char_sprites.h' l='43'>// Offsets by direction</doc>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='145' u='r' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='146' u='r' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='147' u='r' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='148' u='r' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='79' u='r' c='GetActorDrawOffset'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='526' u='r' c='GunGetMuzzleOffset'/>

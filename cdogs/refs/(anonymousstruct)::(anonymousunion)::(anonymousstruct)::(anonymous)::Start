@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='189' type='Vec2i'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/map_archive.c' l='413' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='752' u='a' c='LoadStaticExit'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='63' u='r' c='MapStaticLoad'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='66' u='r' c='MapStaticLoad'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='635' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='638' u='w' c='EditorBrushStopPainting'/>

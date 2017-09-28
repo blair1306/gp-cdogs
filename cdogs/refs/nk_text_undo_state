@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2387' ll='2394'/>
+<size>5192</size>
+<mbr r='nk_text_undo_state::undo_rec' o='0' t='struct nk_text_undo_record [99]'/>
+<mbr r='nk_text_undo_state::undo_char' o='9504' t='nk_rune [999]'/>
+<mbr r='nk_text_undo_state::undo_point' o='41472' t='short'/>
+<mbr r='nk_text_undo_state::redo_point' o='41488' t='short'/>
+<mbr r='nk_text_undo_state::undo_char_point' o='41504' t='short'/>
+<mbr r='nk_text_undo_state::redo_char_point' o='41520' t='short'/>

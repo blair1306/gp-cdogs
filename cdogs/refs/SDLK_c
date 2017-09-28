@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_keycode.h' l='99' type='99'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='277' u='r' c='nk_sdl_handle_event'/>

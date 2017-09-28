@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='233' macro='1' type='struct cbehave_symbol_t *volatile'/>
+<offset>64</offset>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' macro='1' u='w'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' macro='1' u='r'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' macro='1' u='r'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' macro='1' u='w'/>

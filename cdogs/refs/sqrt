@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='156' type='double sqrt(double __x)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='124' u='c' c='SeekTowards'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='127' u='c' c='SeekTowards'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='127' u='c' c='SeekTowards'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='299' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='222' u='c' c='AStarHeuristic'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='357' u='c' c='SoundPlayAtPosition'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='363' u='c' c='SoundPlayAtPosition'/>
+<use f='codebrowser/src/cdogs/vector.c' l='98' u='c' c='Vec2iNorm'/>

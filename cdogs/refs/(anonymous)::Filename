@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/campaign_entry.h' l='35' type='char *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='w' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='53' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='75' u='w' c='CampaignEntryTryLoad'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='75' u='r' c='CampaignEntryTryLoad'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='75' u='r' c='CampaignEntryTryLoad'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='75' u='r' c='CampaignEntryTryLoad'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='90' u='r' c='CampaignEntryTerminate'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='90' u='r' c='CampaignEntryTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='149' u='w' c='LoadQuickPlayEntry'/>
+<use f='codebrowser/src/mainmenu.c' l='347' u='r' c='CampaignsDisplayFilename'/>

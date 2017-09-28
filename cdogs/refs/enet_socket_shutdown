@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='503' type='int enet_socket_shutdown(ENetSocket , ENetSocketShutdown )'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='422' ll='426' type='int enet_socket_shutdown(ENetSocket socket, ENetSocketShutdown how)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='75' u='c' c='NetClientTerminate'/>

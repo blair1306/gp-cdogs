@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='73' type='void MapPlaceDoors(Map * map, Vec2i pos, Vec2i size, int hasDoors, int * doors, int doorMin, int doorMax, unsigned short accessMask)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='474' ll='553' type='void MapPlaceDoors(Map * map, Vec2i pos, Vec2i size, int hasDoors, int * doors, int doorMin, int doorMax, unsigned short accessMask)'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='306' u='c' c='MapBuildRoom'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='78' type='2'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='73'>/**
+         * Set an indent string which is used when yajl_gen_beautify
+         * is enabled.  Maybe something like \\t or some number of
+         * spaces.  The default is four spaces &apos; &apos;.
+         */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='64' c='yajl_gen_config'/>

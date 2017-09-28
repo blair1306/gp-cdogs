@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map.h' l='121' type='_Bool MapIsTileIn(const Map * map, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='353' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='79' u='c' c='TileCacheAddImpl'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='111' u='c' c='TileCacheAddImpl'/>
+<def f='codebrowser/src/cdogs/map.c' l='128' ll='133' macro='1' type='_Bool MapIsTileIn(const Map * map, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/map.c' l='839' u='c' c='MapIsTileAreaClear'/>

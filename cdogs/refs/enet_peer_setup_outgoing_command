@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='586' type='void enet_peer_setup_outgoing_command(ENetPeer * , ENetOutgoingCommand * )'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='185' u='c' c='enet_peer_send'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='616' ll='680' type='void enet_peer_setup_outgoing_command(ENetPeer * peer, ENetOutgoingCommand * outgoingCommand)'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='696' u='c' c='enet_peer_queue_outgoing_command'/>

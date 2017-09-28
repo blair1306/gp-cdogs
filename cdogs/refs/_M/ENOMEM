@@ -1,0 +1,5 @@
+<dec f='include/asm-generic/errno-base.h' l='15'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='119' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='169' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='174' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='201' u='c'/>

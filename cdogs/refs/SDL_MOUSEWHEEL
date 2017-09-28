@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_events.h' l='105' type='1027'/>
+<doc f='include/SDL2/SDL_events.h' l='105'>/**&lt; Mouse wheel motion */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='154' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='324' u='r' c='nk_sdl_handle_event'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1286' type='void nk_window_set_focus(struct nk_context * , const char * name)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18491' ll='18508' macro='1' type='void nk_window_set_focus(struct nk_context * ctx, const char * name)'/>

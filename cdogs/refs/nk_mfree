@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='6050' ll='6051' macro='1' type='void nk_mfree(nk_handle unused, void * ptr)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6059' u='r' c='nk_buffer_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6335' u='r' c='nk_str_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11572' u='r' c='nk_font_atlas_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11575' u='r' c='nk_font_atlas_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16748' u='r' c='nk_init_default'/>

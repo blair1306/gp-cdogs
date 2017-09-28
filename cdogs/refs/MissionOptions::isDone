@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='229' type='_Bool'/>
+<offset>496</offset>
+<use f='codebrowser/src/cdogs/mission.c' l='512' u='w' c='MissionDone'/>
+<use f='codebrowser/src/game.c' l='265' u='w' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game.c' l='455' u='r' c='RunGameUpdate'/>

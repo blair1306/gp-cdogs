@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9369' ll='9381' macro='1' type='int nk_tt_GetGlyphBox(const struct nk_tt_fontinfo * info, int glyph_index, int * x0, int * y0, int * x1, int * y1)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9674' u='c' c='nk_tt_GetGlyphBitmapBoxSubpixel'/>

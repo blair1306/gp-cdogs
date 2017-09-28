@@ -1,0 +1,6 @@
+<dec f='include/stdio.h' l='538' type='int getchar()'/>
+<doc f='include/stdio.h' l='534'>/* Read a character from stdin.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='80' u='c' c='getch'/>

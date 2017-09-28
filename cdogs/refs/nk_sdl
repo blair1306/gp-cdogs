@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='46' ll='51'/>
+<size>17144</size>
+<mbr r='nk_sdl::win' o='0' t='SDL_Window *'/>
+<mbr r='nk_sdl::ogl' o='64' t='struct nk_sdl_device'/>
+<mbr r='nk_sdl::ctx' o='1216' t='struct nk_context'/>
+<mbr r='nk_sdl::atlas' o='133952' t='struct nk_font_atlas'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1600' type='void nk_chart_add_slot_colored(struct nk_context * ctx, const enum nk_chart_type , struct nk_color , struct nk_color active, int count, float min_value, float max_value)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21042' ll='21064' macro='1' type='void nk_chart_add_slot_colored(struct nk_context * ctx, const enum nk_chart_type type, struct nk_color color, struct nk_color highlight, int count, float min_value, float max_value)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21069' u='c' c='nk_chart_add_slot'/>

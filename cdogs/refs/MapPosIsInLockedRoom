@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map.h' l='126' type='_Bool MapPosIsInLockedRoom(const Map * map, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='165' u='c' c='PlacePrisoner'/>
+<def f='codebrowser/src/cdogs/map.c' l='407' ll='411' macro='1' type='_Bool MapPosIsInLockedRoom(const Map * map, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/map.c' l='442' u='c' c='MapTryPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map.c' l='443' u='c' c='MapTryPlaceCollectible'/>

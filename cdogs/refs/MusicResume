@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/music.h' l='59' type='void MusicResume(SoundDevice * device)'/>
+<def f='codebrowser/src/cdogs/music.c' l='145' ll='152' type='void MusicResume(SoundDevice * device)'/>
+<use f='codebrowser/src/cdogs/music.c' l='158' u='c' c='MusicSetPlaying'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='254' u='c' c='SoundReconfigure'/>

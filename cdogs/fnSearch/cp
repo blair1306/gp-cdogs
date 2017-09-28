@@ -1,0 +1,8 @@
+CPicCopyPic|CPicCopyPic
+CPicDraw|CPicDraw
+CPicGetPic|CPicGetPic
+CPicGetSize|CPicGetSize
+CPicIsLoaded|CPicIsLoaded
+CPicLoadJSON|CPicLoadJSON
+CPicLoadNormal|CPicLoadNormal
+CPicUpdate|CPicUpdate

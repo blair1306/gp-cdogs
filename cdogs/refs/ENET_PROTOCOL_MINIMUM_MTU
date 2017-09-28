@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='12' type='576'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='361' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='362' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='950' u='r' c='enet_protocol_handle_verify_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='951' u='r' c='enet_protocol_handle_verify_connect'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='226' type='_Bool'/>
+<offset>480</offset>
+<use f='codebrowser/src/cdogs/gamedata.c' l='145' u='w' c='MissionOptionsTerminate'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='178' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='379' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='489' u='w' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='311' u='r' c='OnReceive'/>
+<use f='codebrowser/src/prep.c' l='943' u='r' c='ScreenWaitForGameStart'/>
+<use f='codebrowser/src/prep.c' l='953' u='r' c='CheckGameStart'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='238' type='cbehave_value_head_t'/>
+<offset>1280</offset>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='355' u='a' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='355' u='a' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='355' u='a' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='355' u='a' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='a' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='a' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='a' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='a' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='410' u='a' c='get_value'/>

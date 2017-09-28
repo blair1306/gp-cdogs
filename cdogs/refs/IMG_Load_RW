@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_image.h' l='86' type='SDL_Surface * IMG_Load_RW(SDL_RWops * src, int freesrc)'/>
+<use f='codebrowser/src/cdogs/font.c' l='59' u='c' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='217' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/tests/pic_test.c' l='59' u='c' c='_cbehave_feature_PicLoad'/>

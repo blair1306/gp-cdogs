@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='105' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='909' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='448' u='w' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='466' u='r' c='DrawParticle'/>

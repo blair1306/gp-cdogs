@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9029' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10569' u='r' c='nk_tt_PackFontRangesGatherRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10570' u='r' c='nk_tt_PackFontRangesGatherRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10619' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10620' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10931' u='w' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11034' u='r' c='nk_font_bake'/>
+<offset>32</offset>

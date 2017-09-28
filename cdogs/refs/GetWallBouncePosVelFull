@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='113' type='void GetWallBouncePosVelFull(const Vec2i pos, const Vec2i vel, const Vec2i colPos, const Vec2i colNormal, Vec2i * outPos, Vec2i * outVel)'/>
+<doc f='codebrowser/src/cdogs/collision/collision.h' l='112'>// Resolve wall bounces; all coordinates in full</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='230' u='c' c='UpdateBullet'/>
+<def f='codebrowser/src/cdogs/collision/collision.c' l='418' ll='444' type='void GetWallBouncePosVelFull(const Vec2i pos, const Vec2i vel, const Vec2i colPos, const Vec2i colNormal, Vec2i * outPos, Vec2i * outVel)'/>
+<use f='codebrowser/src/cdogs/particle.c' l='340' u='c' c='ParticleUpdate'/>

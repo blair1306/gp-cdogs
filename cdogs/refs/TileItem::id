@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='124' type='int'/>
+<offset>224</offset>
+<doc f='codebrowser/src/cdogs/tile.h' l='124'>// Id of item (actor, mobobj or obj)</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='232' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='248' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='253' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='486' u='r' c='CheckPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='508' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='898' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='998' u='r' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1218' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='393' u='r' c='AIGetObjectRunningInto'/>
+<use f='codebrowser/src/cdogs/automap.c' l='298' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/automap.c' l='302' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='475' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='479' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='904' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='274' u='r' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='301' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='307' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='312' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='429' u='r' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='395' u='r' c='DrawChatter'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='103' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='128' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='134' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/los.c' l='209' u='r' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/map.c' l='192' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='207' u='r' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/objs.c' l='242' u='r' c='CanHit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='464' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='446' u='w' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='99' u='w' c='PickupAdd'/>

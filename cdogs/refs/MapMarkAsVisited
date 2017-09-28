@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='147' type='void MapMarkAsVisited(Map * map, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='583' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/map.c' l='864' ll='872' type='void MapMarkAsVisited(Map * map, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/map.c' l='881' u='c' c='MapMarkAllAsVisited'/>

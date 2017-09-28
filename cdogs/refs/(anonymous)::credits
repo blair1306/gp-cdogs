@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/credits.h' l='66' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/credits.h' l='66'>// of credit_t</doc>
+<use f='codebrowser/src/credits.c' l='60' u='a' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='87' u='a' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='94' u='m' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='105' u='m' c='UnloadCredits'/>
+<use f='codebrowser/src/credits.c' l='105' u='a' c='UnloadCredits'/>
+<use f='codebrowser/src/credits.c' l='109' u='a' c='UnloadCredits'/>
+<use f='codebrowser/src/credits.c' l='117' u='m' c='ShowCredits'/>
+<use f='codebrowser/src/credits.c' l='121' u='a' c='ShowCredits'/>
+<use f='codebrowser/src/credits.c' l='133' u='m' c='ShowCredits'/>

@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='99' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogs/yajl/api/yajl_tree.h:91:9)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='167' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='167' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='189' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='189' macro='1' u='m'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/font_utils.c' l='53' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='54' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='55' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='56' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='301' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='302' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='307' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='308' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='310' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='313' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='313' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='314' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='316' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='320' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='320' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='322' u='m' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='488' u='m' c='yajl_tree_free'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='133' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='137' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='141' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='145' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='153' macro='1' u='m'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='153' macro='1' u='m'/>

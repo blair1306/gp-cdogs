@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='142' type='_Bool MapObjectIsTileOK(const MapObject * obj, unsigned short tile, const _Bool isEmpty, unsigned short tileAbove)'/>
+<use f='codebrowser/src/cdogs/map.c' l='381' u='c' c='MapTryPlaceOneObject'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='547' ll='566' macro='1' type='_Bool MapObjectIsTileOK(const MapObject * obj, unsigned short tile, const _Bool isEmpty, unsigned short tileAbove)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='572' u='c' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='280' u='c' c='TryAddMapObject'/>

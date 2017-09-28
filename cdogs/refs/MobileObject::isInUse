@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='92' type='_Bool'/>
+<offset>1856</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='96' u='r' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='96' u='r' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='861' u='r' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='905' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='397' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='423' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='388' u='r' c='UpdateMobileObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='552' u='r' c='MobObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='575' u='r' c='MobObjDestroy'/>
+<use f='codebrowser/src/cdogs/objs.c' l='575' u='r' c='MobObjDestroy'/>
+<use f='codebrowser/src/cdogs/objs.c' l='577' u='w' c='MobObjDestroy'/>

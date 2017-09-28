@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2846' type='nk_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7469' u='w' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7504' u='r' c='nk_draw_list_add_clip'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7518' u='w' c='nk_draw_list_push_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7519' u='m' c='nk_draw_list_push_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8102' u='m' c='nk_draw_list_path_line_to'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='147' u='m' c='nk_sdl_render'/>
+<offset>192</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2845'>/* current screen clipping rectangle */</doc>

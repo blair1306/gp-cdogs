@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/player.h' l='48' type='NPlayerStats'/>
+<use f='codebrowser/src/briefing_screens.c' l='542' u='m' c='GetButcherPenalty'/>
+<use f='codebrowser/src/briefing_screens.c' l='542' u='m' c='GetButcherPenalty'/>
+<use f='codebrowser/src/briefing_screens.c' l='542' u='m' c='GetButcherPenalty'/>
+<use f='codebrowser/src/briefing_screens.c' l='544' u='m' c='GetButcherPenalty'/>
+<use f='codebrowser/src/briefing_screens.c' l='552' u='m' c='GetNinjaBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='552' u='m' c='GetNinjaBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='554' u='m' c='GetNinjaBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='560' u='m' c='GetFriendlyBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='560' u='m' c='GetFriendlyBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='727' u='m' c='DrawPlayerSummary'/>
+<offset>992</offset>
+<use f='codebrowser/src/cdogs/damage.c' l='96' u='m' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/damage.c' l='101' u='m' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/damage.c' l='106' u='m' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='439' u='m' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='443' u='m' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='761' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='761' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='777' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='779' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='199' u='m' c='DrawScoreUpdate'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='75' u='r' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='85' u='w' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='435' u='m' c='PlayerScore'/>

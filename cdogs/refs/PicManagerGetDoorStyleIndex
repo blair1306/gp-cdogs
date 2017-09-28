@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='84' type='int PicManagerGetDoorStyleIndex(PicManager * pm, const char * style)'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='626' ll='635' type='int PicManagerGetDoorStyleIndex(PicManager * pm, const char * style)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='448' u='c' c='MissionDrawDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='875' u='c' c='MissionChangeDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='875' u='c' c='MissionChangeDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='875' u='c' c='MissionChangeDoorStyle'/>

@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='49' type='const unsigned char * yajl_buf_data(yajl_buf buf)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_buf.h' l='48'>/* get a pointer to the beginning of the buffer */</doc>
+<def f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='88' ll='91' type='const unsigned char * yajl_buf_data(yajl_buf buf)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='358' u='c' c='yajl_gen_get_buf'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='286' u='c' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_comment'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_comment'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_comment'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_comment'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='98' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='656' u='c' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='252' u='c' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='313' u='c' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='393' u='c' c='yajl_do_parse'/>

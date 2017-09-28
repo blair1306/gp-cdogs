@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='42' type='Vec2i'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/mouse.c' l='65' u='r' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='66' u='m' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='66' u='m' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='69' u='w' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='69' u='r' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='140' u='r' c='MouseHasMoved'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='173' u='m' c='MouseGetMove'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='174' u='m' c='MouseGetMove'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='184' u='m' c='MouseGetMove'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='185' u='m' c='MouseGetMove'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='189' u='m' c='MouseGetMove'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='190' u='m' c='MouseGetMove'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='201' u='r' c='MouseDraw'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='205' u='m' c='MouseDraw'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='206' u='m' c='MouseDraw'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='214' u='r' c='MouseDraw'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='116' u='m' c='GetMouseTile'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='117' u='m' c='GetMouseTile'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='234' u='r' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='245' u='r' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='780' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='969' u='r' c='HandleInput'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3693' type='struct nk_configuration_stacks'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16509' u='m' c='nk_style_set_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16521' u='m' c='nk_style_push_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16542' u='m' c='nk_style_pop_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16559' u='m' c='nk_style_push_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16559' u='m' c='nk_style_push_float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16559' u='m' c='nk_style_push_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16559' u='m' c='nk_style_push_flags'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16559' u='m' c='nk_style_push_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16577' u='m' c='nk_style_pop_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16577' u='m' c='nk_style_pop_float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16577' u='m' c='nk_style_pop_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16577' u='m' c='nk_style_pop_flags'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16577' u='m' c='nk_style_pop_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19934' u='m' c='nk_button_push_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19955' u='m' c='nk_button_pop_behavior'/>
+<offset>64256</offset>

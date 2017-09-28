@@ -1,0 +1,18 @@
+<dec f='include/SDL2/SDL_messagebox.h' l='97' type='const char *'/>
+<offset>192</offset>
+<doc f='include/SDL2/SDL_messagebox.h' l='97'>/**&lt; UTF-8 message text */</doc>
+<dec f='codebrowser/src/credits.h' l='61' type='char *'/>
+<offset>64</offset>
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='45' type='char [256]'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='75' u='r' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='94' u='r' c='HUDDisplayMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='896' u='r' c='DrawHUDMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='898' u='r' c='DrawHUDMessage'/>
+<use f='codebrowser/src/credits.c' l='86' u='w' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='86' u='r' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='86' u='r' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='86' u='r' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='107' u='r' c='UnloadCredits'/>
+<use f='codebrowser/src/credits.c' l='107' u='r' c='UnloadCredits'/>
+<use f='codebrowser/src/credits.c' l='128' u='r' c='ShowCredits'/>

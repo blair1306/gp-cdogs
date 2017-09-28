@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='97' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs.c' l='203' u='r' c='main'/>
+<use f='codebrowser/src/cdogs/music.c' l='48' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='242' u='w' c='SoundReconfigure'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='261' u='w' c='SoundReconfigure'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='270' u='r' c='SoundTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='334' u='r' c='SoundPlayAtPosition'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='448' u='r' c='SoundPlay'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='554' u='r' c='StrSound'/>

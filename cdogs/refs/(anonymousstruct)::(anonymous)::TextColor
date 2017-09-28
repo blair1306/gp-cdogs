@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='49' type='color_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/particle.c' l='173' u='w' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='178' u='w' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='485' u='r' c='DrawParticle'/>

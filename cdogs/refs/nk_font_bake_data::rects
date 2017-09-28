@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='10706' type='struct nk_rp_rect *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10938' u='w' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10942' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10943' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10947' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10948' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10948' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10948' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10948' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10991' u='r' c='nk_font_bake'/>
+<offset>384</offset>

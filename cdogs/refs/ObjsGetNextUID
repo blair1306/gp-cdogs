@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='114' type='int ObjsGetNextUID()'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1038' u='c' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/map.c' l='393' u='c' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='222' u='c' c='PlaceWreck'/>
+<def f='codebrowser/src/cdogs/objs.c' l='419' ll='422' type='int ObjsGetNextUID()'/>

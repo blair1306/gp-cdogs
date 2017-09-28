@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/XGetopt.h' l='77' type='int _XLIB_getopt_long_only(int argc, char ** argv, const char * optstring, const struct option * longopts, int * longindex)'/>
+<def f='codebrowser/src/XGetopt.c' l='442' macro='1' type='int _XLIB_getopt_long_only(int argc, char ** argv, const char * optstring, const struct option * longopts, int * longindex)'/>
+<doc f='codebrowser/src/XGetopt.c' l='439'>/**
+ * Scan the command-line parameters for long options only
+ */</doc>
+<doc f='codebrowser/src/XGetopt.h' l='122'>/** Scan the command-line parameters for long options only */</doc>

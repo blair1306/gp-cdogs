@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='94'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.h' l='230' u='c'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.h' l='240' u='c'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='79'>/**
+ * The Ring Head
+ *
+ * Each ring is managed via its head, which is a struct declared like this:
+ * &lt;pre&gt;
+ *      APR_RING_HEAD(my_ring_t, my_element_t);
+ *      struct my_ring_t ring, *ringp;
+ * &lt;/pre&gt;
+ *
+ * This struct looks just like the element link struct so that we can
+ * be sure that the typecasting games will work as expected.
+ *
+ * The first element in the ring is next after the head, and the last
+ * element is just before the head.
+ */</doc>

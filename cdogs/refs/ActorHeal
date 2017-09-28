@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='179' type='void ActorHeal(TActor * actor, int health)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='522' ll='526' type='void ActorHeal(TActor * actor, int health)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='249' u='c' c='HandleGameEvent'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='76' type='14'/>
+<doc f='codebrowser/src/menu.h' l='76'>// use custom callbacks for input and drawing</doc>
+<use f='codebrowser/src/menu.c' l='573' u='r' c='MenuCreateCustom'/>
+<use f='codebrowser/src/menu.c' l='586' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='966' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='1044' c='MenuProcessButtonCmd'/>

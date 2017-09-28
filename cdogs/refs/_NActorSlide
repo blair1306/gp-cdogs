@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='242' ll='246'/>
+<size>12</size>
+<mbr r='_NActorSlide::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorSlide::Vel' o='32' t='NVec2i'/>

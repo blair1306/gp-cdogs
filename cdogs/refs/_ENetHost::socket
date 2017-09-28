@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='360' type='ENetSocket'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='51' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='52' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='52' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='54' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='55' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='63' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='64' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='65' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='66' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='68' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='148' u='r' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1208' u='r' c='enet_protocol_receive_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1725' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1903' u='r' c='enet_host_service'/>

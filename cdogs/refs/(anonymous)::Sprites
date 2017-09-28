@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='41' type='const CharSprites *'/>
+<dec f='codebrowser/src/cdogs/particle.h' l='51' type='const NamedSprites *'/>
+<offset>640</offset>
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='75' type='const CharSprites *'/>
+<offset>1280</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1318' u='r' c='ActorGetGunMuzzleOffset'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='174' u='w' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='182' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='187' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='189' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='193' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='195' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='203' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='209' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='233' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='233' u='r' c='GetCharacterPics'/>

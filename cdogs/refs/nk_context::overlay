@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3711' type='struct nk_command_buffer'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16850' u='a' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16850' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16998' u='a' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16999' u='a' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17006' u='a' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17007' u='a' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17041' u='m' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17041' u='m' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17042' u='m' c='nk_build'/>
+<offset>131200</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3710'>/* draw buffer used for overlay drawing operation like cursor */</doc>

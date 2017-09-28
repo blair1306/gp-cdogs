@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2936' ll='2939'/>
+<size>32</size>
+<mbr r='nk_style_item::type' o='0' t='enum nk_style_item_type'/>
+<mbr r='nk_style_item::data' o='64' t='union nk_style_item_data'/>

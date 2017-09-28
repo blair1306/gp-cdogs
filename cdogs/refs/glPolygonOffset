@@ -1,0 +1,1 @@
+<dec f='include/SDL2/SDL_opengl.h' l='824' type='void glPolygonOffset(GLfloat factor, GLfloat units)'/>

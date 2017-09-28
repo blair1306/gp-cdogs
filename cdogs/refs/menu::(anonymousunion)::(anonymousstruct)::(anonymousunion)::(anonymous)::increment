@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu.h' l='170' type='int'/>
+<dec f='codebrowser/src/menu.h' l='185' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/src/menu.c' l='484' u='w' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='539' u='w' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='1212' u='r' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1298' u='r' c='MenuActivate'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11402' ll='11410' macro='1' type='void nk__match(unsigned char * data, unsigned int length)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11430' u='c' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11431' u='c' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11434' u='c' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11435' u='c' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11438' u='c' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11439' u='c' c='nk_decompress_token'/>

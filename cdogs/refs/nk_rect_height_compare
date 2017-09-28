@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8918' ll='8928' macro='1' type='int nk_rect_height_compare(const void * a, const void * b)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8978' u='r' c='nk_rp_pack_rects'/>

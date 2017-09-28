@@ -1,0 +1,14 @@
+<dec f='include/SDL2/SDL_messagebox.h' l='95' type='SDL_Window *'/>
+<dec f='codebrowser/src/cdogs/grafx.h' l='93' type='SDL_Window *'/>
+<offset>320</offset>
+<doc f='include/SDL2/SDL_messagebox.h' l='95'>/**&lt; Parent window, can be NULL */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='223' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='225' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='231' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='236' u='a' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='237' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='248' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='249' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='386' u='r' c='GraphicsTerminate'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='582' u='r' c='ShowFailedToOpenMsg'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='647' u='r' c='Save'/>

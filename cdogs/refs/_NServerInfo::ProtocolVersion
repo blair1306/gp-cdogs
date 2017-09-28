@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='189' type='int32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='249' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='252' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='252' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='240' u='w' c='PollListener'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='28'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='28'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='29' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='29' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='28'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='28'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='29' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='29' u='r'/>

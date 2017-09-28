@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='76' type='void BlitBackground(GraphicsDevice * device, const Pic * pic, Vec2i pos, const HSV * tint, const _Bool isTransparent)'/>
+<def f='codebrowser/src/cdogs/blit.c' l='128' ll='177' type='void BlitBackground(GraphicsDevice * device, const Pic * pic, Vec2i pos, const HSV * tint, const _Bool isTransparent)'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='289' u='c' c='CPicDraw'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='274' u='c' c='DrawActorPics'/>

@@ -1,0 +1,15 @@
+SDL_PointInRect|SDL_PointInRect
+SDL_RectEmpty|SDL_RectEmpty
+SDL_RectEquals|SDL_RectEquals
+SDL_Swap16|SDL_Swap16
+SDL_Swap32|SDL_Swap32
+SDL_Swap64|SDL_Swap64
+SDL_SwapFloat|SDL_SwapFloat
+SDL_memcpy4|SDL_memcpy4
+SDL_memset4|SDL_memset4
+SDLJBN_AddMappingsFromFile|SDLJBN_AddMappingsFromFile
+SDLJBN_GetAxisNameAndColor|SDLJBN_GetAxisNameAndColor
+SDLJBN_GetButtonNameAndColor|SDLJBN_GetButtonNameAndColor
+SDLJBN_GetError|SDLJBN_GetError
+SDLJBN_Init|SDLJBN_Init
+SDLJBN_Quit|SDLJBN_Quit

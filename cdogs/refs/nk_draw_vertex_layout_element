@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2835' ll='2839'/>
+<size>16</size>
+<mbr r='nk_draw_vertex_layout_element::attribute' o='0' t='enum nk_draw_vertex_layout_attribute'/>
+<mbr r='nk_draw_vertex_layout_element::format' o='32' t='enum nk_draw_vertex_layout_format'/>
+<mbr r='nk_draw_vertex_layout_element::offset' o='64' t='nk_size'/>

@@ -1,0 +1,10 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='180' ll='190'/>
+<size>96</size>
+<mbr r='_ENetIncomingCommand::incomingCommandList' o='0' t='ENetListNode'/>
+<mbr r='_ENetIncomingCommand::reliableSequenceNumber' o='128' t='enet_uint16'/>
+<mbr r='_ENetIncomingCommand::unreliableSequenceNumber' o='144' t='enet_uint16'/>
+<mbr r='_ENetIncomingCommand::command' o='160' t='ENetProtocol'/>
+<mbr r='_ENetIncomingCommand::fragmentCount' o='544' t='enet_uint32'/>
+<mbr r='_ENetIncomingCommand::fragmentsRemaining' o='576' t='enet_uint32'/>
+<mbr r='_ENetIncomingCommand::fragments' o='640' t='enet_uint32 *'/>
+<mbr r='_ENetIncomingCommand::packet' o='704' t='ENetPacket *'/>

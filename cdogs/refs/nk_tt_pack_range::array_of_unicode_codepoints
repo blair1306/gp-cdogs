@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9031' type='int *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10571' u='r' c='nk_tt_PackFontRangesGatherRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10621' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<offset>64</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='9030'>/* if non-zero, then the chars are continuous, and this is the first codepoint */</doc>

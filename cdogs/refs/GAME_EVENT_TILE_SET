@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='50' type='6'/>
+<use f='codebrowser/src/cdogs/door.c' l='210' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='228' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='269' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='295' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='61' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='61' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='61' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='61' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='86' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='482' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='495' u='r' c='NetServerSendGameStartMessages'/>

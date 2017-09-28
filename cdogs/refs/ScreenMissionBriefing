@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/briefing_screens.h' l='34' type='GameLoopData * ScreenMissionBriefing(const struct MissionOptions * m)'/>
+<def f='codebrowser/src/briefing_screens.c' l='160' ll='218' type='GameLoopData * ScreenMissionBriefing(const struct MissionOptions * m)'/>
+<use f='codebrowser/src/prep.c' l='712' u='c' c='GameOptionsUpdate'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/files.h' l='161' type='int32_t'/>
+<offset>3744</offset>
+<use f='codebrowser/src/cdogs/files.c' l='217' u='w' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='376' u='r' c='ConvertMission'/>

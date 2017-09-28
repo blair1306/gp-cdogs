@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='16720' type='void nk_remove_window(struct nk_context * , struct nk_window * )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16894' u='c' c='nk_clear'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='17966' ll='17994' macro='1' type='void nk_remove_window(struct nk_context * ctx, struct nk_window * win)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18129' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18504' u='c' c='nk_window_set_focus'/>

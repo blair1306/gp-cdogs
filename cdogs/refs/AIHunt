@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='75' type='int AIHunt(TActor * actor, Vec2i targetPos)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='312' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='331' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='867' u='c' c='GotoObjective'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='578' ll='602' type='int AIHunt(TActor * actor, Vec2i targetPos)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='620' u='c' c='AIHuntClosest'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='627' u='c' c='AIRetreatFrom'/>
+<doc f='codebrowser/src/cdogs/ai_utils.c' l='569'>// Hunt moves an Actor towards a target, using the most efficient direction.
+// That is, given the following octant:
+//            x  A      xxxx
+//          x       xxxx
+//        x     xxxx
+//      x   xxxx      B
+//    x  xxx
+//  xxxxxxxxxxxxxxxxxxxxxxx
+// Those in slice A will move down-left and those in slice B will move left.</doc>

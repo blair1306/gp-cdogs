@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='39' type='2'/>
+<use f='codebrowser/src/cdogs/camera.c' l='67' u='r' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='138' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='373' c='CameraDrawMode'/>

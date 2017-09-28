@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/map.h' l='88' type='CArray'/>
+<dec f='codebrowser/src/cdogs/map.h' l='102' type='LineOfSight'/>
+<offset>576</offset>
+<doc f='codebrowser/src/cdogs/map.h' l='87'>// Array of bools to set lines of sight</doc>
+<doc f='codebrowser/src/cdogs/map.h' l='88'>// of bool</doc>
+<use f='codebrowser/src/cdogs/camera.c' l='166' u='a' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/los.c' l='38' u='a' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='38' u='m' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='39' u='m' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='46' u='a' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='46' u='m' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='47' u='m' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='53' u='a' c='LOSTerminate'/>
+<use f='codebrowser/src/cdogs/los.c' l='60' u='a' c='LOSReset'/>
+<use f='codebrowser/src/cdogs/los.c' l='65' u='m' c='LOSSetAllVisible'/>
+<use f='codebrowser/src/cdogs/los.c' l='65' u='a' c='LOSSetAllVisible'/>
+<use f='codebrowser/src/cdogs/los.c' l='88' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='178' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='191' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='197' u='a' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/los.c' l='197' u='m' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/los.c' l='201' u='m' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/los.c' l='281' u='a' c='LOSTileIsVisible'/>
+<use f='codebrowser/src/cdogs/los.c' l='281' u='m' c='LOSTileIsVisible'/>
+<use f='codebrowser/src/cdogs/map.c' l='616' u='a' c='MapTerminate'/>
+<use f='codebrowser/src/game.c' l='250' u='a' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game.c' l='500' u='a' c='RunGameUpdate'/>

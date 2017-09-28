@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='218' type='2'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='141' u='w' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='147' u='r' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='195' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='220' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/utils.c' l='488' u='r' c='StrBodyPart'/>

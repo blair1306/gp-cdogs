@@ -1,0 +1,8 @@
+AmmoClassesClear|AmmoClassesClear
+AmmoGetById|AmmoGetById
+AmmoGetNumClasses|AmmoGetNumClasses
+AmmoInitialize|AmmoInitialize
+AmmoIsLow|AmmoIsLow
+AmmoLoadJSON|AmmoLoadJSON
+AmmoTerminate|AmmoTerminate
+AmmoSpawnerInit|AmmoSpawnerInit

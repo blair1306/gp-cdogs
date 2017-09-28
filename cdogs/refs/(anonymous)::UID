@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/cdogs/player.h' l='60' type='int'/>
+<offset>1504</offset>
+<dec f='codebrowser/src/cdogs/pickup.h' l='39' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='176' u='r' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='608' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='626' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='794' u='r' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/camera.c' l='86' u='r' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='103' u='r' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='144' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/damage.c' l='99' u='r' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/events.c' l='111' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='111' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='128' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='128' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='525' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='79' u='r' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='53' u='r' c='PickupsTerminate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='92' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='220' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='307' u='r' c='PickupGetByUID'/>
+<use f='codebrowser/src/cdogs/player.c' l='70' u='w' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='94' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='94' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='106' u='r' c='PlayerRemove'/>
+<use f='codebrowser/src/cdogs/player.c' l='260' u='r' c='PlayerDataGetByUID'/>
+<use f='codebrowser/src/cdogs/player.c' l='449' u='r' c='PlayerTrySetInputDevice'/>
+<use f='codebrowser/src/cdogs/player.c' l='449' u='r' c='PlayerTrySetInputDevice'/>
+<use f='codebrowser/src/prep.c' l='333' u='r' c='PlayerSelection'/>
+<use f='codebrowser/src/prep.c' l='772' u='r' c='PlayerEquip'/>
+<use f='codebrowser/src/screens_end.c' l='79' u='a' c='PlayerListNew'/>

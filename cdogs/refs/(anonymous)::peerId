@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='49' type='int'/>
+<offset>416</offset>
+<doc f='codebrowser/src/cdogs/net_server.h' l='49'>// auto-incrementing id for the next connected peer</doc>
+<use f='codebrowser/src/cdogs/net_server.c' l='356' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='358' u='w' c='OnConnect'/>

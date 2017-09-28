@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='55' type='CArray'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/net_client.h' l='54'>// Addresses of scanned LAN servers</doc>
+<doc f='codebrowser/src/cdogs/net_client.h' l='55'>// of ScanInfo</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='64' u='a' c='NetClientInit'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='82' u='a' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='96' u='r' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='97' u='w' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='275' u='a' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='358' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='358' u='a' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='368' u='a' c='Scanning'/>
+<use f='codebrowser/src/mainmenu.c' l='432' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='432' u='a' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='464' u='m' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='469' u='a' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='489' u='m' c='CheckLANServers'/>

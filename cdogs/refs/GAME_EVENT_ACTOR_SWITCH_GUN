@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='74' type='25'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='83' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='83' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='83' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='83' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='145' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='232' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='407' c='OnReceive'/>
+<use f='codebrowser/src/game.c' l='92' u='r' c='PlayerSpecialCommands'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='35' type='0'/>
+<use f='codebrowser/src/cdogs/actors.c' l='730' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='734' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='813' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='817' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1249' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/animation.c' l='35' u='r'/>
+<use f='codebrowser/src/cdogs/animation.c' l='35' u='r'/>
+<use f='codebrowser/src/cdogs/animation.c' l='59' c='AnimationGetActorAnimation'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='175' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='420' u='r' c='GetBodyPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='428' u='r' c='GetBodyPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='436' u='r' c='GetLegsPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='443' u='r' c='GetLegsPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='462' u='r' c='DrawCharacterSimple'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='167' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='473' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='477' u='r' c='Draw'/>

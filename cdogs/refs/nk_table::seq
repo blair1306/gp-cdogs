@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3650' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16881' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17831' u='w' c='nk_add_value'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17846' u='w' c='nk_find_value'/>
+<offset>0</offset>

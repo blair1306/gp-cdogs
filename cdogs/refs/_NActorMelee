@@ -1,0 +1,7 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='46' ll='53'/>
+<size>144</size>
+<mbr r='_NActorMelee::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorMelee::BulletClass' o='32' t='char [128]'/>
+<mbr r='_NActorMelee::HitType' o='1056' t='int32_t'/>
+<mbr r='_NActorMelee::TargetKind' o='1088' t='int32_t'/>
+<mbr r='_NActorMelee::TargetUID' o='1120' t='uint32_t'/>

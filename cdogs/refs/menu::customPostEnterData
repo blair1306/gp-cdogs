@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='131' type='void *'/>
+<offset>320</offset>
+<use f='codebrowser/src/menu.c' l='382' u='w' c='MenuSetPostEnterFunc'/>
+<use f='codebrowser/src/menu.c' l='902' u='r' c='MenuTerminate'/>
+<use f='codebrowser/src/menu.c' l='902' u='r' c='MenuTerminate'/>
+<use f='codebrowser/src/menu.c' l='995' u='r' c='MenuProcessCmd'/>

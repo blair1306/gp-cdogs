@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='80' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/objs.h' l='80'>// unique ID of actor that owns this object</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='179' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='377' u='r' c='FireGuns'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='444' u='r' c='HitItemFunc'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='543' u='r' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='893' u='w' c='BulletAdd'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='42' type='_Bool'/>
+<offset>1472</offset>
+<use f='codebrowser/src/cdogs/net_server.c' l='527' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='101' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='147' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='184' u='r' c='PickupPickup'/>

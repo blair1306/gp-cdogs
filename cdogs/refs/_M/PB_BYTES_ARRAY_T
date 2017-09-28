@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='251'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='247'>/* This structure is used for &apos;bytes&apos; arrays.
+ * It has the number of bytes in the beginning, and after that an array.
+ * Note that actual structs used will have a different length of bytes array.
+ */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/briefing_screens.h' l='33' type='GameLoopData * ScreenCampaignIntro(CampaignSetting * c)'/>
+<def f='codebrowser/src/briefing_screens.c' l='56' ll='64' type='GameLoopData * ScreenCampaignIntro(CampaignSetting * c)'/>
+<use f='codebrowser/src/mainmenu.c' l='163' u='c' c='MainMenuUpdate'/>
+<use f='codebrowser/src/mainmenu.c' l='172' u='c' c='MainMenuUpdate'/>

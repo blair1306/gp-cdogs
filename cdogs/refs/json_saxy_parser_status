@@ -1,0 +1,8 @@
+<def f='codebrowser/src/json/json.h' l='141' ll='146'/>
+<size>16</size>
+<doc f='codebrowser/src/json/json.h' l='138'>/**
+The structure holding the information needed for json_saxy_parse to resume parsing
+**/</doc>
+<mbr r='json_saxy_parser_status::state' o='0' t='unsigned int'/>
+<mbr r='json_saxy_parser_status::string_length_limit_reached' o='32' t='int'/>
+<mbr r='json_saxy_parser_status::temp' o='64' t='rcstring *'/>

@@ -1,0 +1,141 @@
+<dec f='codebrowser/src/cdogs/log.h' l='54' type='2'/>
+<use f='codebrowser/src/cdogs.c' l='169' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='169' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='169' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='199' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='199' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='199' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='200' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='200' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='200' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='256' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='256' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='256' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='282' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='282' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='282' u='r' c='main'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='100' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='100' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='100' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='108' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='108' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='108' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='115' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='115' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='115' u='r' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='214' u='r' c='CampaignSeedRandom'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='214' u='r' c='CampaignSeedRandom'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='214' u='r' c='CampaignSeedRandom'/>
+<use f='codebrowser/src/cdogs/events.c' l='110' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='110' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='110' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/files.c' l='628' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='628' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='628' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='632' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='632' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='632' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='633' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='633' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='633' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='116' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='116' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='116' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='218' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='218' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='218' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='60' u='r' c='JoyInit'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='60' u='r' c='JoyInit'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='60' u='r' c='JoyInit'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='173' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='173' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='173' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='195' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='195' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='195' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='200' u='r' c='JoyRemoved'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='200' u='r' c='JoyRemoved'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='200' u='r' c='JoyRemoved'/>
+<use f='codebrowser/src/cdogs/log.c' l='43'/>
+<use f='codebrowser/src/cdogs/log.c' l='43'/>
+<use f='codebrowser/src/cdogs/log.c' l='44'/>
+<use f='codebrowser/src/cdogs/log.c' l='44'/>
+<use f='codebrowser/src/cdogs/log.c' l='45'/>
+<use f='codebrowser/src/cdogs/log.c' l='45'/>
+<use f='codebrowser/src/cdogs/log.c' l='46'/>
+<use f='codebrowser/src/cdogs/log.c' l='46'/>
+<use f='codebrowser/src/cdogs/log.c' l='47'/>
+<use f='codebrowser/src/cdogs/log.c' l='47'/>
+<use f='codebrowser/src/cdogs/log.c' l='48'/>
+<use f='codebrowser/src/cdogs/log.c' l='48'/>
+<use f='codebrowser/src/cdogs/log.c' l='50'/>
+<use f='codebrowser/src/cdogs/log.c' l='50'/>
+<use f='codebrowser/src/cdogs/log.c' l='51'/>
+<use f='codebrowser/src/cdogs/log.c' l='51'/>
+<use f='codebrowser/src/cdogs/log.c' l='43'/>
+<use f='codebrowser/src/cdogs/log.c' l='43'/>
+<use f='codebrowser/src/cdogs/log.c' l='44'/>
+<use f='codebrowser/src/cdogs/log.c' l='44'/>
+<use f='codebrowser/src/cdogs/log.c' l='45'/>
+<use f='codebrowser/src/cdogs/log.c' l='45'/>
+<use f='codebrowser/src/cdogs/log.c' l='46'/>
+<use f='codebrowser/src/cdogs/log.c' l='46'/>
+<use f='codebrowser/src/cdogs/log.c' l='47'/>
+<use f='codebrowser/src/cdogs/log.c' l='47'/>
+<use f='codebrowser/src/cdogs/log.c' l='48'/>
+<use f='codebrowser/src/cdogs/log.c' l='48'/>
+<use f='codebrowser/src/cdogs/log.c' l='50'/>
+<use f='codebrowser/src/cdogs/log.c' l='50'/>
+<use f='codebrowser/src/cdogs/log.c' l='51'/>
+<use f='codebrowser/src/cdogs/log.c' l='51'/>
+<use f='codebrowser/src/cdogs/log.c' l='93' c='LogLevelName'/>
+<use f='codebrowser/src/cdogs/log.c' l='104' u='r' c='StrLogLevel'/>
+<use f='codebrowser/src/cdogs/log.c' l='146' c='LogSetLevelColor'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='157' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='157' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='157' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='266' u='r' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='266' u='r' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='266' u='r' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='311' u='r' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='311' u='r' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='311' u='r' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='457' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='457' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='457' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='110' u='r' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='110' u='r' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='110' u='r' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='141' u='r' c='ListenSocketTryOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='141' u='r' c='ListenSocketTryOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='141' u='r' c='ListenSocketTryOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='195' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='195' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='195' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='352' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='352' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='352' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='389' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='389' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='389' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/player.c' l='66' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='66' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='66' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='93' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='93' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='93' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='123' u='r' c='PlayerRemove'/>
+<use f='codebrowser/src/cdogs/player.c' l='123' u='r' c='PlayerRemove'/>
+<use f='codebrowser/src/cdogs/player.c' l='123' u='r' c='PlayerRemove'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1383' u='r' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1383' u='r' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1383' u='r' c='main'/>
+<use f='codebrowser/src/game.c' l='282' u='r' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='282' u='r' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='282' u='r' c='RunGameOnExit'/>
+<use f='codebrowser/src/mainmenu.c' l='470' u='r' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='470' u='r' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='470' u='r' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='478' u='r' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='478' u='r' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='478' u='r' c='JoinLANGame'/>

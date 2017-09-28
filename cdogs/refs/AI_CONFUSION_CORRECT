@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='55' type='1'/>
+<doc f='codebrowser/src/cdogs/ai_context.h' l='55'>// perform the right action (correct for confusion)</doc>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='72' u='r' c='AICoopGetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='92' c='AICoopGetCmd'/>

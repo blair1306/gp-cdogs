@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2044' ll='2057'/>
+<size>40</size>
+<mbr r='nk_user_font::userdata' o='0' t='nk_handle'/>
+<mbr r='nk_user_font::height' o='64' t='float'/>
+<mbr r='nk_user_font::width' o='128' t='nk_text_width_f'/>
+<mbr r='nk_user_font::query' o='192' t='nk_query_font_glyph_f'/>
+<mbr r='nk_user_font::texture' o='256' t='nk_handle'/>

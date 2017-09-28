@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_video.h' l='157' type='14'/>
+<doc f='include/SDL2/SDL_video.h' l='157'>/**&lt; The window manager requests that the
+                                         window be closed */</doc>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='326' c='HandleEvents'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/algorithms.h' l='40' type='_Bool HasClearLineBresenham(Vec2i from, Vec2i to, HasClearLineData * data)'/>
+<def f='codebrowser/src/cdogs/algorithms.c' l='138' ll='145' macro='1' type='_Bool HasClearLineBresenham(Vec2i from, Vec2i to, HasClearLineData * data)'/>

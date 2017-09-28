@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='262' type='void ShowControls()'/>
+<use f='codebrowser/src/menu.c' l='193' u='c' c='MenuDraw'/>
+<def f='codebrowser/src/menu.c' l='267' ll='281' type='void ShowControls()'/>
+<use f='codebrowser/src/password.c' l='330' u='c' c='EnterCodeScreenDraw'/>

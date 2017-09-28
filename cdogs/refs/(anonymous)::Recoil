@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='107' type='double'/>
+<offset>704</offset>
+<doc f='codebrowser/src/cdogs/weapon.h' l='107'>// Random recoil for inaccurate weapons, in radians</doc>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='314' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='447' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='448' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='236' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='291' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='291' u='r' c='LoadGunDescription'/>

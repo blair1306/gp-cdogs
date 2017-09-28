@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='72' type='void PicManagerGenerateMaskedPic(PicManager * pm, const char * name, const color_t mask, const color_t maskAlt)'/>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='71'>// To support dynamic colours, generate pics on request.</doc>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='498' ll='537' type='void PicManagerGenerateMaskedPic(PicManager * pm, const char * name, const color_t mask, const color_t maskAlt)'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='544' u='c' c='PicManagerGenerateMaskedStylePic'/>

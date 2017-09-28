@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/files.h' l='223' type='color_t RangeToColor(const int range)'/>
+<doc f='codebrowser/src/cdogs/files.h' l='222'>// Convert classic colour range indices to color_t</doc>
+<use f='codebrowser/src/cdogs/files.c' l='415' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='416' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='417' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='418' u='c' c='ConvertMission'/>
+<def f='codebrowser/src/cdogs/files.c' l='652' ll='687' type='color_t RangeToColor(const int range)'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='317' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='318' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='319' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='320' u='c' c='LoadMissions'/>

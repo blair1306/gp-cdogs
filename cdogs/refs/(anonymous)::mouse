@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/cdogs/events.h' l='39' type='Mouse'/>
+<offset>99392</offset>
+<use f='codebrowser/src/cdogs/events.c' l='51' u='a' c='EventInit'/>
+<use f='codebrowser/src/cdogs/events.c' l='62' u='a' c='EventReset'/>
+<use f='codebrowser/src/cdogs/events.c' l='62' u='m' c='EventReset'/>
+<use f='codebrowser/src/cdogs/events.c' l='71' u='a' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='148' u='a' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='152' u='a' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='156' u='a' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='173' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='173' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='207' u='a' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='290' u='a' c='GetGameCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='314' u='a' c='GetOnePlayerCmd'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='116' u='m' c='GetMouseTile'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='117' u='m' c='GetMouseTile'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='234' u='m' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='245' u='m' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='247' u='a' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='780' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='821' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='868' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='873' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='890' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='891' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='901' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='965' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='968' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='969' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1178' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1179' u='a' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1270' u='a' c='EditCampaign'/>
+<use f='codebrowser/src/game.c' l='736' u='a' c='RunGameDraw'/>
+<use f='codebrowser/src/game_loop.c' l='379' u='m' c='GameLoopOnEnter'/>
+<use f='codebrowser/src/game_loop.c' l='379' u='m' c='GameLoopOnEnter'/>
+<use f='codebrowser/src/prep.c' l='280' u='a' c='AssignPlayerInputDevices'/>

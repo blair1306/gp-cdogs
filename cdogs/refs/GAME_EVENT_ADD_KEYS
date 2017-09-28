@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='99' type='48'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='108' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='108' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='108' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='108' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='625' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='451' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='194' u='r' c='PickupPickup'/>

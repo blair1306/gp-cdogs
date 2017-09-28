@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='176'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='174'>/** Get the double representation of a number.  You should check type first,
+ *  perhaps using YAJL_IS_DOUBLE */</doc>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='145' u='c'/>

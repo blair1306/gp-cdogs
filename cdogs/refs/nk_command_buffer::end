@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2694' type='nk_size'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6818' u='w' c='nk_command_buffer_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6828' u='w' c='nk_command_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6866' u='w' c='nk_command_buffer_push'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16914' u='w' c='nk_start_buffer'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16937' u='r' c='nk_start_popup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16938' u='r' c='nk_start_popup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16954' u='r' c='nk_finish_popup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16963' u='w' c='nk_finish_buffer'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17041' u='r' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17063' u='r' c='nk__begin'/>
+<offset>384</offset>

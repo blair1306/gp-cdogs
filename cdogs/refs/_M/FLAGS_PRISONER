@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='76'/>
+<use f='codebrowser/src/cdogs/actors.c' l='510' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='512' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='552' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1236' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='331' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='520' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='701' u='c'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='143' u='c'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='597' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='559' u='c'/>

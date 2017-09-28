@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_scancode.h' l='175' type='78'/>
+<use f='include/SDL2/SDL_keycode.h' l='147' u='r'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='875' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1126' c='HandleInput'/>

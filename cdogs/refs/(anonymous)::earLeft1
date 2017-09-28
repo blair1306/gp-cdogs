@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='104' type='Vec2i'/>
+<offset>1216</offset>
+<doc f='codebrowser/src/cdogs/sounds.h' l='103'>// Two sets of ears for 4-player split screen</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='463' u='w' c='SoundSetEar'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='513' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='513' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='513' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='513' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='517' u='r' c='SoundPlayAtPlusDistance'/>

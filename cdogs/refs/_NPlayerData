@@ -1,0 +1,13 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='368' ll='381'/>
+<size>604</size>
+<mbr r='_NPlayerData::Name' o='0' t='char [20]'/>
+<mbr r='_NPlayerData::CharacterClass' o='160' t='char [128]'/>
+<mbr r='_NPlayerData::Colors' o='1184' t='NCharColors'/>
+<mbr r='_NPlayerData::Weapons_count' o='1344' t='pb_size_t'/>
+<mbr r='_NPlayerData::Weapons' o='1360' t='char [3][128]'/>
+<mbr r='_NPlayerData::Lives' o='4448' t='uint32_t'/>
+<mbr r='_NPlayerData::Stats' o='4480' t='NPlayerStats'/>
+<mbr r='_NPlayerData::Totals' o='4608' t='NPlayerStats'/>
+<mbr r='_NPlayerData::MaxHealth' o='4736' t='uint32_t'/>
+<mbr r='_NPlayerData::LastMission' o='4768' t='uint32_t'/>
+<mbr r='_NPlayerData::UID' o='4800' t='uint32_t'/>

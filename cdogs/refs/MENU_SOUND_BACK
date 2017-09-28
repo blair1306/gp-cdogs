@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='117' type='1'/>
+<use f='codebrowser/src/menu.c' l='871' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='961' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='1130' u='r' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/player_select_menus.c' l='116' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/weapon_menu.c' l='83' u='r' c='WeaponSelect'/>

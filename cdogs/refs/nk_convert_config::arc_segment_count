@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='900' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8530' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8537' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='126' u='w' c='nk_sdl_render'/>
+<offset>128</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='900'>/* number of segments used for arcs: default to 22 */</doc>

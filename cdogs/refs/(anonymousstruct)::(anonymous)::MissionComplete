@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='184' type='NMissionComplete'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='650' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='663' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='664' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='288' u='w' c='MissionSetMessageIfComplete'/>

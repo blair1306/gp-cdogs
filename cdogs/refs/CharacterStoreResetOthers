@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/character.h' l='66' type='void CharacterStoreResetOthers(CharacterStore * store)'/>
+<def f='codebrowser/src/cdogs/character.c' l='61' ll='66' type='void CharacterStoreResetOthers(CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='226' u='c' c='SetupBadguysForMission'/>

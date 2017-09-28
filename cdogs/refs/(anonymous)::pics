@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='43' type='CArray'/>
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='36' type='map_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/cpic.h' l='43'>// of Pic</doc>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='36'>// of NamedPic</doc>
+<use f='codebrowser/src/cdogs/cpic.c' l='59' u='a' c='NamedSpritesInit'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='68' u='m' c='NamedSpritesFree'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='70' u='a' c='NamedSpritesFree'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='72' u='a' c='NamedSpritesFree'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='96' u='a' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='108' u='a' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='430' u='a' c='GetBodyPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='444' u='a' c='GetLegsPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='450' u='a' c='GetGunPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='454' u='a' c='GetDeathPic'/>
+<use f='codebrowser/src/cdogs/particle.c' l='135' u='a' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='43' u='w' c='PicManagerInit'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='117' u='a' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='118' u='a' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='118' u='m' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='269' u='r' c='PicManagerLoad'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='298' u='r' c='FindStylePics'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='405' u='r' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='444' u='r' c='PicManagerGetNamedPic'/>

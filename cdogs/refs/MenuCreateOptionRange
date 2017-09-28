@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='287' type='menu_t * MenuCreateOptionRange(const char * name, int * config, int low, int high, int increment, menu_option_display_style_e style, void (*)(void) func)'/>
+<use f='codebrowser/src/menu.c' l='435' u='c' c='MenuAddConfigOptionsItem'/>
+<use f='codebrowser/src/menu.c' l='451' u='c' c='MenuAddConfigOptionsItem'/>
+<def f='codebrowser/src/menu.c' l='474' ll='495' type='menu_t * MenuCreateOptionRange(const char * name, int * config, int low, int high, int increment, menu_option_display_style_e style, void (*)(void) func)'/>

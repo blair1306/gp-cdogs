@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2765' type='int nk_input_mouse_clicked(const struct nk_input * , enum nk_buttons , struct nk_rect )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12241' ll='12247' macro='1' type='int nk_input_mouse_clicked(const struct nk_input * i, enum nk_buttons id, struct nk_rect rect)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19576' u='c' c='nk_widget_is_mouse_clicked'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21862' u='c' c='nk_contextual_begin'/>

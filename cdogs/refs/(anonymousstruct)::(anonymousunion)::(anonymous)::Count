@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='66' type='int'/>
+<offset>64</offset>
+<dec f='codebrowser/src/cdogs/game_events.h' l='169' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/cpic.c' l='110' u='a' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='218' u='w' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='221' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='224' u='w' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='234' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='239' u='w' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='241' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='244' u='w' c='CPicUpdate'/>

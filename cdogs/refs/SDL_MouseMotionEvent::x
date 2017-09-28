@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_events.h' l='236' type='Sint32'/>
+<offset>160</offset>
+<doc f='include/SDL2/SDL_events.h' l='236'>/**&lt; X coordinate, relative to window */</doc>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='317' u='r' c='nk_sdl_handle_event'/>

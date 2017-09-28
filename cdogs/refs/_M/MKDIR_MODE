@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/sys_specifics.h' l='67'/>
+<use f='codebrowser/src/cdogs/files.c' l='588' u='c'/>
+<use f='codebrowser/src/tests/utils_test.c' l='18' u='c'/>

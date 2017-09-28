@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/menu.h' l='246' type='void MenuSystemTerminate(MenuSystem * ms)'/>
+<use f='codebrowser/src/briefing_screens.c' l='397' u='c' c='MissionSummaryTerminate'/>
+<use f='codebrowser/src/mainmenu.c' l='85' u='c' c='MainMenuTerminate'/>
+<def f='codebrowser/src/menu.c' l='86' ll='93' type='void MenuSystemTerminate(MenuSystem * ms)'/>
+<use f='codebrowser/src/password.c' l='405' u='c' c='PasswordTerminate'/>
+<use f='codebrowser/src/prep.c' l='120' u='c' c='ScreenWaitTerminate'/>
+<use f='codebrowser/src/prep.c' l='214' u='c' c='NumPlayersTerminate'/>
+<use f='codebrowser/src/prep.c' l='347' u='c' c='PlayerSelectionTerminate'/>
+<use f='codebrowser/src/prep.c' l='621' u='c' c='GameOptionsTerminate'/>
+<use f='codebrowser/src/prep.c' l='822' u='c' c='PlayerEquipTerminate'/>
+<use f='codebrowser/src/screens_end.c' l='152' u='c' c='PlayerListTerminate'/>

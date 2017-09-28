@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9956' ll='10045' macro='1' type='void nk_tt__rasterize_sorted_edges(struct nk_tt__bitmap * result, struct nk_tt__edge * e, int n, int vsubsample, int off_x, int off_y, struct nk_allocator * alloc)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10194' u='c' c='nk_tt__rasterize'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2752' ll='2755'/>
+<size>344</size>
+<mbr r='nk_input::keyboard' o='0' t='struct nk_keyboard'/>
+<mbr r='nk_input::mouse' o='2080' t='struct nk_mouse'/>

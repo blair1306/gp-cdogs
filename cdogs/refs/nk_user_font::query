@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2052' type='nk_query_font_glyph_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8439' u='r' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11237' u='w' c='nk_font_init'/>
+<offset>192</offset>

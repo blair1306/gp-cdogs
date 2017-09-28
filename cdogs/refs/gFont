@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/font.h' l='66' type='Font'/>
+<use f='codebrowser/src/cdogs.c' l='230' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='307' u='a' c='main'/>
+<def f='codebrowser/src/cdogs/font.c' l='42' type='Font'/>
+<use f='codebrowser/src/cdogs/font.c' l='132' u='m' c='FontW'/>
+<use f='codebrowser/src/cdogs/font.c' l='133' u='m' c='FontW'/>
+<use f='codebrowser/src/cdogs/font.c' l='137' u='m' c='FontH'/>
+<use f='codebrowser/src/cdogs/font.c' l='137' u='m' c='FontH'/>
+<use f='codebrowser/src/cdogs/font.c' l='228' u='m' c='FontChColor'/>
+<use f='codebrowser/src/cdogs/font.c' l='238' u='m' c='FontChColor'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1337' u='a' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1411' u='a' c='main'/>

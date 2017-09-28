@@ -1,0 +1,9 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='206' ll='215'/>
+<size>32</size>
+<mbr r='_NActorAdd::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorAdd::CharId' o='32' t='uint32_t'/>
+<mbr r='_NActorAdd::Direction' o='64' t='int32_t'/>
+<mbr r='_NActorAdd::Health' o='96' t='int32_t'/>
+<mbr r='_NActorAdd::PlayerUID' o='128' t='int32_t'/>
+<mbr r='_NActorAdd::TileItemFlags' o='160' t='uint32_t'/>
+<mbr r='_NActorAdd::FullPos' o='192' t='NVec2i'/>

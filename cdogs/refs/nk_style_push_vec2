@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1752' type='int nk_style_push_vec2(struct nk_context * , struct nk_vec2 * , struct nk_vec2 )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16588' macro='1' type='int nk_style_push_vec2(struct nk_context * ctx, struct nk_vec2 * address, struct nk_vec2 value)'/>

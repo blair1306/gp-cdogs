@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map.h' l='136' type='void MapLoadDynamic(Map * map, const struct MissionOptions * mo, const CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='102' u='c' c='GrafxMakeBackground'/>
+<def f='codebrowser/src/cdogs/map.c' l='707' ll='741' type='void MapLoadDynamic(Map * map, const struct MissionOptions * mo, const CharacterStore * store)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='834' u='c' c='MissionChangeType'/>
+<use f='codebrowser/src/game.c' l='212' u='c' c='RunGameOnEnter'/>

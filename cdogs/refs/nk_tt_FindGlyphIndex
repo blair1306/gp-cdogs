@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9248' ll='9340' macro='1' type='int nk_tt_FindGlyphIndex(const struct nk_tt_fontinfo * info, int unicode_codepoint)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10573' u='c' c='nk_tt_PackFontRangesGatherRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10622' u='c' c='nk_tt_PackFontRangesRenderIntoRects'/>

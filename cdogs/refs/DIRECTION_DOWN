@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='89' type='4'/>
+<use f='codebrowser/src/briefing_screens.c' l='715' u='r' c='DrawPlayerSummary'/>
+<use f='codebrowser/src/briefing_screens.c' l='788' u='r' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/briefing_screens.c' l='795' u='r' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/ai.c' l='170' c='IsDirectionOK'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='412' c='AIIsFacing'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='681' c='AIMoveAwayFromLine'/>
+<use f='codebrowser/src/cdogs/automap.c' l='90' u='r' c='DisplayPlayer'/>
+<use f='codebrowser/src/cdogs/defs.c' l='85' u='r'/>
+<use f='codebrowser/src/cdogs/defs.c' l='85' u='r'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='276' u='r' c='DrawLives'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='153' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='166' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='434' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='576' u='r' c='MissionDrawEnemy'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='594' u='r' c='MissionDrawSpecialChar'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='476' u='r' c='MissionDrawKillObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='526' u='r' c='MissionDrawRescueObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='102' u='r' c='DrawCharacter'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='124' u='r' c='DrawObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='132' u='r' c='DrawObjective'/>
+<use f='codebrowser/src/player_select_menus.c' l='436' u='r' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/screens_end.c' l='237' u='r' c='PlayerListCustomDraw'/>
+<use f='codebrowser/src/weapon_menu.c' l='155' u='r' c='WeaponMenuCreate'/>

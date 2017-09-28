@@ -1,0 +1,9 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='15' ll='22'/>
+<size>48</size>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='14'>/* Iterator for pb_field_t list */</doc>
+<mbr r='pb_field_iter_s::start' o='0' t='const pb_field_t *'/>
+<mbr r='pb_field_iter_s::pos' o='64' t='const pb_field_t *'/>
+<mbr r='pb_field_iter_s::required_field_index' o='128' t='unsigned int'/>
+<mbr r='pb_field_iter_s::dest_struct' o='192' t='void *'/>
+<mbr r='pb_field_iter_s::pData' o='256' t='void *'/>
+<mbr r='pb_field_iter_s::pSize' o='320' t='void *'/>

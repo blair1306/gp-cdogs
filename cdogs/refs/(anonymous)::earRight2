@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='107' type='Vec2i'/>
+<offset>1408</offset>
+<use f='codebrowser/src/cdogs/sounds.c' l='478' u='w' c='SoundSetEar'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='526' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='526' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='526' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='526' u='m' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='532' u='r' c='SoundPlayAtPlusDistance'/>

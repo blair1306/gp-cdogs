@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogs/player.h' l='92' type='_Bool IsPlayerAlive(const PlayerData * player)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='76' u='c' c='IsFacingPlayer'/>
+<use f='codebrowser/src/cdogs/ai.c' l='104' u='c' c='CanSeeAPlayer'/>
+<use f='codebrowser/src/cdogs/ai.c' l='280' u='c' c='DidPlayerShoot'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='236' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='67' u='c' c='AIGetClosestPlayer'/>
+<use f='codebrowser/src/cdogs/automap.c' l='347' u='c' c='AutomapDraw'/>
+<use f='codebrowser/src/cdogs/automap.c' l='374' u='c' c='AutomapDrawRegion'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='715' u='c' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='196' u='c' c='DrawScoreUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='274' u='c' c='GetNumPlayers'/>
+<use f='codebrowser/src/cdogs/player.c' l='303' u='c' c='AreAllPlayersDeadAndNoLives'/>
+<def f='codebrowser/src/cdogs/player.c' l='325' ll='333' macro='1' type='_Bool IsPlayerAlive(const PlayerData * player)'/>
+<use f='codebrowser/src/cdogs/player.c' l='340' u='c' c='IsPlayerHumanAndAlive'/>
+<use f='codebrowser/src/cdogs/player.c' l='381' u='c' c='PlayersGetBoundingRectangle'/>
+<use f='codebrowser/src/cdogs/player.c' l='406' u='c' c='PlayersNumUseAmmo'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='159' u='c' c='HealthScale'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='219' u='c' c='AmmoScale'/>
+<use f='codebrowser/src/game.c' l='308' u='c' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='309' u='c' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='556' u='c' c='RunGameUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='423' u='c' c='DogfightScoresUpdate'/>

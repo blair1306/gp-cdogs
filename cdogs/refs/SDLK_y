@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_keycode.h' l='121' type='121'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='117' u='r' c='ConfirmScreen'/>

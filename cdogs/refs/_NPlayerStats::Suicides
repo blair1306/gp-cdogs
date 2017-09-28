@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='161' type='int32_t'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/damage.c' l='101' u='w' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/damage.c' l='102' u='w' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='69'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='69'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='69'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='69'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70' u='r'/>

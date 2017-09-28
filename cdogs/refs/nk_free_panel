@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='16725' type='void nk_free_panel(struct nk_context * , struct nk_panel * pan)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='17755' ll='17761' macro='1' type='void nk_free_panel(struct nk_context * ctx, struct nk_panel * pan)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18162' u='c' c='nk_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21615' u='c' c='nk_popup_begin'/>

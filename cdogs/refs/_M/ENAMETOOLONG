@@ -1,0 +1,5 @@
+<dec f='include/asm-generic/errno.h' l='7'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='190' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='428' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='439' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='557' u='c'/>

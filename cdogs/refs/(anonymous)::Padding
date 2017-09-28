@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/font.h' l='45' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogs/font.h:39:2)'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/font.c' l='76' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='76' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='77' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='77' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='85' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='85' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='86' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='86' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='107' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='107' u='m' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='53' u='m' c='FontLoadFromJSON'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='54' u='m' c='FontLoadFromJSON'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='55' u='m' c='FontLoadFromJSON'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='56' u='m' c='FontLoadFromJSON'/>

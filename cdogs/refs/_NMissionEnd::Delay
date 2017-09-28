@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='141' type='int32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/mission.c' l='301' u='w' c='MissionSetMessageIfComplete'/>
+<use f='codebrowser/src/cdogs/mission.c' l='513' u='r' c='MissionDone'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='384'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='384'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='384'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='384'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385' u='r'/>
+<use f='codebrowser/src/game.c' l='713' u='w' c='CheckMissionCompletion'/>

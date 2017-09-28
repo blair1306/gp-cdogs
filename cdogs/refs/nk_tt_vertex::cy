@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9066' type='short'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9349' u='w' c='nk_tt_setvertex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9592' u='r' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9594' u='w' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10294' u='r' c='nk_tt_FlattenCurves'/>
+<offset>48</offset>

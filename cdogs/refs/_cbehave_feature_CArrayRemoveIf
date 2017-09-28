@@ -1,0 +1,5 @@
+<def f='codebrowser/src/tests/c_array_test.c' l='93' macro='1' type='void _cbehave_feature_CArrayRemoveIf(void * _state)'/>
+<use f='codebrowser/src/tests/c_array_test.c' l='116' macro='1' u='r'/>
+<use f='codebrowser/src/tests/c_array_test.c' l='116' macro='1' u='r'/>
+<use f='codebrowser/src/tests/c_array_test.c' l='116' macro='1' u='r'/>
+<use f='codebrowser/src/tests/c_array_test.c' l='116' macro='1' u='r'/>

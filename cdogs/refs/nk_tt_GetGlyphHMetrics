@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9624' ll='9640' macro='1' type='void nk_tt_GetGlyphHMetrics(const struct nk_tt_fontinfo * info, int glyph_index, int * advanceWidth, int * leftSideBearing)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10631' u='c' c='nk_tt_PackFontRangesRenderIntoRects'/>

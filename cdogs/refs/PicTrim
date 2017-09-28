@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pic.h' l='57' type='void PicTrim(Pic * pic, const _Bool xTrim, const _Bool yTrim)'/>
+<doc f='codebrowser/src/cdogs/pic.h' l='56'>// Detect unused edges and update size and offset to fit</doc>
+<use f='codebrowser/src/cdogs/font.c' l='111' u='c' c='FontLoad'/>
+<def f='codebrowser/src/cdogs/pic.c' l='106' ll='159' type='void PicTrim(Pic * pic, const _Bool xTrim, const _Bool yTrim)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='122' type='_Bool MapIsRealPosIn(const Map * map, const Vec2i realPos)'/>
+<def f='codebrowser/src/cdogs/map.c' l='134' ll='142' macro='1' type='_Bool MapIsRealPosIn(const Map * map, const Vec2i realPos)'/>
+<use f='codebrowser/src/cdogs/map.c' l='163' u='c' c='MapTryMoveTileItem'/>
+<use f='codebrowser/src/cdogs/map.c' l='201' u='c' c='MapRemoveTileItem'/>

@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_opengl.h' l='916' type='void glOrtho(GLdouble left, GLdouble right, GLdouble bottom, GLdouble top, GLdouble near_val, GLdouble far_val)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='92' u='c' c='nk_sdl_render'/>

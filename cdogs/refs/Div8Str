@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='197' type='char * Div8Str(int i)'/>
+<use f='codebrowser/src/cdogs/config.c' l='688' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='690' u='r' c='ConfigDefault'/>
+<def f='codebrowser/src/cdogs/utils.c' l='439' ll='444' type='char * Div8Str(int i)'/>

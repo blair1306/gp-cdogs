@@ -1,0 +1,19 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='27' ll='47'/>
+<size>40</size>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='15'>/* Structure for defining custom output streams. You will need to provide
+ * a callback function to write the bytes to your storage, which can be
+ * for example a file or a network socket.
+ *
+ * The callback must conform to these rules:
+ *
+ * 1) Return false on IO errors. This will cause encoding to abort.
+ * 2) You can use state to store your own data (e.g. buffer pointer).
+ * 3) pb_write will update bytes_written after your callback runs.
+ * 4) Substreams will modify max_size and bytes_written. Don&apos;t use them
+ *    to calculate any pointers.
+ */</doc>
+<mbr r='pb_ostream_s::callback' o='0' t='_Bool (*)(pb_ostream_t *, const uint8_t *, size_t)'/>
+<mbr r='pb_ostream_s::state' o='64' t='void *'/>
+<mbr r='pb_ostream_s::max_size' o='128' t='size_t'/>
+<mbr r='pb_ostream_s::bytes_written' o='192' t='size_t'/>
+<mbr r='pb_ostream_s::errmsg' o='256' t='const char *'/>

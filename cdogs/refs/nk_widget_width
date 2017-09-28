@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1412' type='float nk_widget_width(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19522' ll='19533' macro='1' type='float nk_widget_width(struct nk_context * ctx)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='679' u='c' c='DrawClassSelection'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='760' u='c' c='DrawCharColor'/>

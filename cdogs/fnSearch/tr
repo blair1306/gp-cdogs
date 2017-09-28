@@ -1,0 +1,11 @@
+TryMoveActor|TryMoveActor
+TryLoadValue|TryLoadValue
+TrySaveJSONFile|TrySaveJSONFile
+trows|trows
+TriggerActivate|TriggerActivate
+TriggerAddAction|TriggerAddAction
+TriggerCannotActivate|TriggerCannotActivate
+TriggerNew|TriggerNew
+TriggerSetCannotActivate|TriggerSetCannotActivate
+TriggerTerminate|TriggerTerminate
+TriggerTryActivate|TriggerTryActivate

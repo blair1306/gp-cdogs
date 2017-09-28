@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/menu.h' l='304' type='menu_t * MenuCreateSeparator(const char * name)'/>
+<use f='codebrowser/src/mainmenu.c' l='272' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/mainmenu.c' l='458' u='c' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='532' u='c' c='MenuCreateOptions'/>
+<use f='codebrowser/src/mainmenu.c' l='563' u='c' c='MenuCreateOptionsGraphics'/>
+<use f='codebrowser/src/mainmenu.c' l='580' u='c' c='MenuCreateOptionsControls'/>
+<use f='codebrowser/src/mainmenu.c' l='608' u='c' c='MenuCreateKeys'/>
+<use f='codebrowser/src/mainmenu.c' l='617' u='c' c='MenuCreateKeysSingleSection'/>
+<use f='codebrowser/src/mainmenu.c' l='630' u='c' c='MenuCreateKeysSingleSection'/>
+<use f='codebrowser/src/menu.c' l='410' u='c' c='MenuCreateConfigOptions'/>
+<def f='codebrowser/src/menu.c' l='549' ll='554' type='menu_t * MenuCreateSeparator(const char * name)'/>
+<use f='codebrowser/src/player_select_menus.c' l='482' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='515' u='c' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/prep.c' l='564' u='c' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='575' u='c' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='586' u='c' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='609' u='c' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='738' u='c' c='MenuCreateAllowedWeapons'/>
+<use f='codebrowser/src/weapon_menu.c' l='227' u='c' c='WeaponMenuCreate'/>

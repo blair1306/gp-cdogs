@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='98' type='47'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='107' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='107' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='107' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='107' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='608' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='348' u='r' c='UpdateMissionObjective'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='458' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/game.c' l='670' u='r' c='CheckMissionCompletion'/>

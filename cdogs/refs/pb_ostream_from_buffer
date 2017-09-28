@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='89' type='pb_ostream_t pb_ostream_from_buffer(uint8_t * buf, size_t bufsize)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='255' u='c' c='PollListener'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='82'>/* Create an output stream for writing into a memory buffer.
+ * The number of bytes written can be found in stream.bytes_written after
+ * encoding the message.
+ *
+ * Alternatively, you can use a custom stream that writes directly to e.g.
+ * a file or a network socket.
+ */</doc>
+<use f='codebrowser/src/cdogs/net_util.c' l='38' u='c' c='NetEncode'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='75' ll='90' type='pb_ostream_t pb_ostream_from_buffer(uint8_t * buf, size_t bufsize)'/>

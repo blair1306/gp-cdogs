@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='104' type='1'/>
+<use f='codebrowser/src/cdogs/door.c' l='182' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='184' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='186' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='220' c='ConditionsMet'/>

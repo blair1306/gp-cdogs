@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/character.h' l='69' type='Character * CharacterStoreAddOther(CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/character.c' l='76' u='c' c='CharacterLoadJSON'/>
+<def f='codebrowser/src/cdogs/character.c' l='191' ll='194' type='Character * CharacterStoreAddOther(CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/files.c' l='454' u='c' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='205' u='c' c='SetupQuickPlayEnemies'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='583' u='c' c='AddCharacter'/>

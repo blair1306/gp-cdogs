@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='105' type='Mix_Chunk *'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='606' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1349' u='r' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='232' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/weapon_menu.c' l='66' u='r' c='WeaponSelect'/>

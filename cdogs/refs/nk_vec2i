@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='456'/>
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1841' type='struct nk_vec2 nk_vec2i(int x, int y)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4097' ll='4104' macro='1' type='struct nk_vec2 nk_vec2i(int x, int y)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4115' u='c' c='nk_vec2iv'/>
+<size>4</size>
+<mbr r='nk_vec2i::x' o='0' t='short'/>
+<mbr r='nk_vec2i::y' o='16' t='short'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl_utils.h' l='45'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='167' u='c'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='189' u='c'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='153' u='c'/>

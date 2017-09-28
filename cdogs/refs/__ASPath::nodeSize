@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/AStar.c' l='48' type='size_t'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='508' u='w' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='533' u='r' c='ASPathCopy'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='550' u='r' c='ASPathGetNode'/>
+<offset>0</offset>

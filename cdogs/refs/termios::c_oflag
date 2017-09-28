@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/termios.h' l='31' type='tcflag_t'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='96' u='w' c='kbhit'/>
+<offset>32</offset>
+<doc f='include/x86_64-linux-gnu/bits/termios.h' l='31'>/* output mode flags */</doc>

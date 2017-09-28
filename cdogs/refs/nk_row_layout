@@ -1,0 +1,17 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3415' ll='3428'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18660' ll='18682' macro='1' type='void nk_row_layout(struct nk_context * ctx, enum nk_layout_format fmt, float height, int cols, int width)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18698' u='c' c='nk_layout_row_dynamic'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18704' u='c' c='nk_layout_row_static'/>
+<size>128</size>
+<mbr r='nk_row_layout::type' o='0' t='enum nk_panel_row_layout_type'/>
+<mbr r='nk_row_layout::index' o='32' t='int'/>
+<mbr r='nk_row_layout::height' o='64' t='float'/>
+<mbr r='nk_row_layout::columns' o='96' t='int'/>
+<mbr r='nk_row_layout::ratio' o='128' t='const float *'/>
+<mbr r='nk_row_layout::item_width' o='192' t='float'/>
+<mbr r='nk_row_layout::item_height' o='224' t='float'/>
+<mbr r='nk_row_layout::item_offset' o='256' t='float'/>
+<mbr r='nk_row_layout::filled' o='288' t='float'/>
+<mbr r='nk_row_layout::item' o='320' t='struct nk_rect'/>
+<mbr r='nk_row_layout::tree_depth' o='448' t='int'/>
+<mbr r='nk_row_layout::templates' o='480' t='float [16]'/>

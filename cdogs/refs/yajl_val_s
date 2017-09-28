@@ -1,0 +1,11 @@
+<def f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='81' ll='103'/>
+<size>40</size>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='74'>/**
+ * A JSON value representation capable of holding one of the seven
+ * types above. For &quot;string&quot;, &quot;number&quot;, &quot;object&quot;, and &quot;array&quot;
+ * additional data is available in the union.  The &quot;YAJL_IS_*&quot;
+ * and &quot;YAJL_GET_*&quot; macros below allow type checking and convenient
+ * value extraction.
+ */</doc>
+<mbr r='yajl_val_s::type' o='0' t='yajl_type'/>
+<mbr r='yajl_val_s::u' o='64' t='union (anonymous union at /home/jon/workspace/cdogs-sdl/src/cdogs/yajl/api/yajl_tree.h:88:5)'/>

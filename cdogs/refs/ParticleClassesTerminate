@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='102' type='void ParticleClassesTerminate(ParticleClasses * classes)'/>
+<use f='codebrowser/src/cdogs.c' l='292' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/particle.c' l='101' ll='107' type='void ParticleClassesTerminate(ParticleClasses * classes)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1397' u='c' c='main'/>

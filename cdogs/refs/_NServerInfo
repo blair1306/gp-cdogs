@@ -1,0 +1,10 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='188' ll='198'/>
+<size>56</size>
+<mbr r='_NServerInfo::ProtocolVersion' o='0' t='int32_t'/>
+<mbr r='_NServerInfo::ENetPort' o='32' t='uint32_t'/>
+<mbr r='_NServerInfo::Hostname' o='64' t='char [12]'/>
+<mbr r='_NServerInfo::GameMode' o='160' t='int32_t'/>
+<mbr r='_NServerInfo::CampaignName' o='192' t='char [20]'/>
+<mbr r='_NServerInfo::MissionNumber' o='352' t='int32_t'/>
+<mbr r='_NServerInfo::NumPlayers' o='384' t='int32_t'/>
+<mbr r='_NServerInfo::MaxPlayers' o='416' t='int32_t'/>

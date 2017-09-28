@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2410' type='nk_plugin_filter'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12698' u='r' c='nk_textedit_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12698' u='r' c='nk_textedit_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13315' u='w' c='nk_textedit_clear_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15026' u='w' c='nk_do_edit'/>
+<offset>1216</offset>

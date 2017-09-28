@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='504' type='void enet_socket_destroy(ENetSocket )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='55' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='148' u='c' c='enet_host_destroy'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='428' ll='433' type='void enet_socket_destroy(ENetSocket socket)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='79' u='c' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='146' u='c' c='TryScanHost'/>

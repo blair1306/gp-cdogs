@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2718' type='void nk_push_scissor(struct nk_command_buffer * , struct nk_rect )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6870' ll='6889' macro='1' type='void nk_push_scissor(struct nk_command_buffer * b, struct nk_rect r)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15280' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15401' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15419' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17372' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17401' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18582' u='c' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21392' u='c' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21396' u='c' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21587' u='c' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21683' u='c' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21739' u='c' c='nk_popup_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21745' u='c' c='nk_popup_end'/>

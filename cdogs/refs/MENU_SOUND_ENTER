@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu.h' l='116' type='0'/>
+<use f='codebrowser/src/menu.c' l='322' u='r' c='MenuCreate'/>
+<use f='codebrowser/src/menu.c' l='868' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='1148' u='r' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/player_select_menus.c' l='88' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='104' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='287' u='r' c='HandleInputColorMenu'/>

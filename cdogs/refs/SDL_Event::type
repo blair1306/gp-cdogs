@@ -1,0 +1,14 @@
+<dec f='include/SDL2/SDL_events.h' l='523' type='Uint32'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_events.h' l='523'>/**&lt; Event type, shared with all events */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='81' u='r' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='248' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='248' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='250' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='301' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='301' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='303' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='313' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='319' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='324' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='308' u='r' c='HandleEvents'/>

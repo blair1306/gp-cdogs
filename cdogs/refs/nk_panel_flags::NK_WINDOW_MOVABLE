@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1089' type='2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17194' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18051' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21302' u='r' c='nk_group_scrolled_offset_begin'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1089'>/* The movable flag indicates that a window can be moved by user input or by dragging the window header */</doc>

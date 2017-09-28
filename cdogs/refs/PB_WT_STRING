@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='304' type='2'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='270' c='pb_skip_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='355' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='571' u='r' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='133' u='r' c='encode_array'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='489' u='r' c='pb_encode_tag_for_field'/>

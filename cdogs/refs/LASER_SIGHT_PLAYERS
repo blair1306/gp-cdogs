@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config.h' l='89' type='1'/>
+<use f='codebrowser/src/cdogs/config.c' l='142' c='LaserSightStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='151' u='r' c='StrLaserSight'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='300' u='r' c='DrawLaserSight'/>

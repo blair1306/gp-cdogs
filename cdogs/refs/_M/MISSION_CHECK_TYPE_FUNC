@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='82'/>
+<doc f='codebrowser/src/cdogsed/editor_ui_common.h' l='80'>// Macro for creating the helper function to show/hide controls for specific
+// map types</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='127' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='36' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='43' u='c'/>

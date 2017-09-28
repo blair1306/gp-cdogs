@@ -1,0 +1,92 @@
+<dec f='codebrowser/src/json/json.h' l='342' type='json_t * json_find_first_label(const json_t * object, const char * text_label)'/>
+<use f='codebrowser/src/autosave.c' l='73' u='c' c='LoadCampaignNode'/>
+<use f='codebrowser/src/autosave.c' l='94' u='c' c='LoadMissionNode'/>
+<use f='codebrowser/src/autosave.c' l='95' u='c' c='LoadMissionNode'/>
+<use f='codebrowser/src/autosave.c' l='114' u='c' c='LoadMissionNodes'/>
+<use f='codebrowser/src/autosave.c' l='118' u='c' c='LoadMissionNodes'/>
+<use f='codebrowser/src/autosave.c' l='156' u='c' c='AutosaveLoad'/>
+<use f='codebrowser/src/autosave.c' l='160' u='c' c='AutosaveLoad'/>
+<doc f='codebrowser/src/json/json.h' l='336'>/**
+Searches through the object&apos;s children for a label holding the text text_label
+@param object a json_value of type JSON_OBJECT
+@param text_label the c-string to search for through the object&apos;s child labels
+@return a pointer to the first label holding a text equal to text_label or NULL if there is no such label or if object has no children
+**/</doc>
+<use f='codebrowser/src/cdogs/ammo.c' l='113' u='c' c='AmmoLoadJSON'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='585' u='c' c='BulletLoadJSON'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='592' u='c' c='BulletLoadJSON'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='644' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='646' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='650' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='661' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='706' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='708' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='715' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='717' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='809' u='c' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='813' u='c' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/character.c' l='71' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='160' u='c' c='CharacterClassesLoadJSON'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='172' u='c' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='178' u='c' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='154' u='c' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='269' u='c' c='ConfigGetJSONVersion'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='87' u='c' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='143' u='c' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='149' u='c' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='152' u='c' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='76' u='c' c='TryLoadValue'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='133' u='c' c='GetString'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='137' u='c' c='LoadSoundFromNode'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='149' u='c' c='LoadPic'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='158' u='c' c='LoadBulletGuns'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='172' u='c' c='LoadColor'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='190' u='c' c='JSONFindNode'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='159' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='98' u='c' c='MapNewScanJSON'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='164' u='c' c='MapNewLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='266' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='289' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='299' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='307' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='308' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='337' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='354' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='382' u='c' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='437' u='c' c='LoadIntArray'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='495' u='c' c='LoadClassicPillars'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='507' u='c' c='LoadClassicDoors'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='522' u='c' c='LoadStaticItems'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='537' u='c' c='LoadStaticItems'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='559' u='c' c='LoadStaticWrecks'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='574' u='c' c='LoadStaticWrecks'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='605' u='c' c='LoadMapObjectRef'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='627' u='c' c='LoadMapObjectWreckRef'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='641' u='c' c='LoadStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='652' u='c' c='LoadStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='676' u='c' c='LoadStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='688' u='c' c='LoadStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='713' u='c' c='LoadStaticKeys'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='724' u='c' c='LoadStaticKeys'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='746' u='c' c='LoadStaticExit'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='267' u='c' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='300' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='330' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='356' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='389' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/particle.c' l='93' u='c' c='ParticleClassesLoadJSON'/>
+<use f='codebrowser/src/cdogs/particle.c' l='130' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='142' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='170' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='187' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='192' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='196' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='214' u='c' c='PickupClassesLoadJSON'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='49' u='c' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='100' u='c' c='PlayerTemplatesLoad'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='105' u='c' c='PlayerTemplatesLoad'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='94' u='c' c='WeaponLoadJSON'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='118' u='c' c='WeaponLoadJSON'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='140' u='c' c='WeaponLoadJSON'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='244' u='c' c='LoadGunDescription'/>
+<def f='codebrowser/src/json/json.c' l='4212' ll='4227' type='json_t * json_find_first_label(const json_t * object, const char * text_label)'/>

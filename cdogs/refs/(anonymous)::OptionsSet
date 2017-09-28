@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='70' type='_Bool'/>
+<offset>1784</offset>
+<use f='codebrowser/src/cdogs/game_mode.c' l='62' u='r' c='IsGameOptionsNeeded'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='64' u='r' c='IsGameOptionsNeeded'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='124' u='w' c='CampaignUnload'/>
+<use f='codebrowser/src/prep.c' l='705' u='w' c='GameOptionsUpdate'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='82' type='int'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='46' u='w' c='EditorBrushInit'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='82' u='r' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='96' u='r' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='118' u='r' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='136' u='r' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='236' u='r' c='EditorBrushPaintLine'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='244' u='w' c='EditorBrushPaintLine'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='270' u='w' c='EditorBrushPaintRoom'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='283' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='291' u='w' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='306' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='438' u='w' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='502' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='650' u='w' c='EditorBrushStopPainting'/>

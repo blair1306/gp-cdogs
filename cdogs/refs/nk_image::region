@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='461' type='unsigned short [4]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5647' u='w' c='nk_subimage_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5648' u='w' c='nk_subimage_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5649' u='w' c='nk_subimage_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5650' u='w' c='nk_subimage_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5661' u='w' c='nk_subimage_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5662' u='w' c='nk_subimage_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5663' u='w' c='nk_subimage_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5664' u='w' c='nk_subimage_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5676' u='w' c='nk_subimage_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5677' u='w' c='nk_subimage_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5678' u='w' c='nk_subimage_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5679' u='w' c='nk_subimage_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5690' u='w' c='nk_image_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5691' u='w' c='nk_image_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5692' u='w' c='nk_image_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5693' u='w' c='nk_image_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5705' u='w' c='nk_image_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5706' u='w' c='nk_image_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5707' u='w' c='nk_image_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5708' u='w' c='nk_image_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5719' u='w' c='nk_image_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5720' u='w' c='nk_image_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5721' u='w' c='nk_image_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5722' u='w' c='nk_image_id'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8396' u='r' c='nk_draw_list_add_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8397' u='r' c='nk_draw_list_add_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8398' u='r' c='nk_draw_list_add_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8398' u='r' c='nk_draw_list_add_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8399' u='r' c='nk_draw_list_add_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8399' u='r' c='nk_draw_list_add_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11929' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11930' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11931' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11932' u='w' c='nk_font_atlas_bake'/>
+<offset>96</offset>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/menu.h' l='234' type='Vec2i'/>
+<offset>576</offset>
+<use f='codebrowser/src/menu.c' l='79' u='w' c='MenuSystemInit'/>
+<use f='codebrowser/src/menu.c' l='589' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='601' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='607' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='612' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='66' u='m' c='MenuDisplayItems'/>
+<use f='codebrowser/src/menu.c' l='626' u='m' c='MenuDisplayItems'/>
+<use f='codebrowser/src/menu.c' l='633' u='r' c='MenuDisplayItems'/>
+<use f='codebrowser/src/menu.c' l='66' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='699' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='67' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='66' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='66' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='66' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='66' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1359' u='w' c='PostInputConfigApply'/>

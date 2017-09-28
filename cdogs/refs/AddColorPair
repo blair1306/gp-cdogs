@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='42' type='void AddColorPair(json_t * parent, const char * name, const color_t c)'/>
+<use f='codebrowser/src/cdogs/character.c' l='161' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='162' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='163' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='164' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='165' u='c' c='CharacterSave'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='63' ll='68' type='void AddColorPair(json_t * parent, const char * name, const color_t c)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='375' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='376' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='377' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='378' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='133' u='c' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='134' u='c' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='135' u='c' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='136' u='c' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='137' u='c' c='SavePlayerTemplate'/>

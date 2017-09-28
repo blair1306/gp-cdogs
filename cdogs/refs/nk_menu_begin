@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='22792' ll='22824' macro='1' type='int nk_menu_begin(struct nk_context * ctx, struct nk_window * win, const char * id, int is_clicked, struct nk_rect header, struct nk_vec2 size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22849' u='c' c='nk_menu_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22879' u='c' c='nk_menu_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22905' u='c' c='nk_menu_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22932' u='c' c='nk_menu_begin_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22963' u='c' c='nk_menu_begin_symbol_text'/>

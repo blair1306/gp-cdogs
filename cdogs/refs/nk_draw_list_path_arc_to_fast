@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2890' type='void nk_draw_list_path_arc_to_fast(struct nk_draw_list * , struct nk_vec2 center, float radius, int a_min, int a_max)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8110' ll='8125' macro='1' type='void nk_draw_list_path_arc_to_fast(struct nk_draw_list * list, struct nk_vec2 center, float radius, int a_min, int a_max)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8160' u='c' c='nk_draw_list_path_rect_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8161' u='c' c='nk_draw_list_path_rect_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8162' u='c' c='nk_draw_list_path_rect_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8163' u='c' c='nk_draw_list_path_rect_to'/>

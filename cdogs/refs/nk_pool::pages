@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3678' type='struct nk_page *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16661' u='w' c='nk_pool_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16667' u='r' c='nk_pool_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16684' u='w' c='nk_pool_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16692' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16692' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16696' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16697' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16700' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16706' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16707' u='w' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16711' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16711' u='r' c='nk_pool_alloc'/>
+<offset>256</offset>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3111' type='struct nk_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14577' u='a' c='nk_draw_scrollbar'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16178' u='w' c='nk_style_from_table'/>
+<offset>832</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3110'>/* cursor */</doc>

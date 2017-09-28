@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='74'/>
+<use f='codebrowser/src/cdogs/automap.c' l='288' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='93' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='517' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='171' u='c'/>

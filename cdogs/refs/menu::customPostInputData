@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu.h' l='137' type='void *'/>
+<offset>704</offset>
+<use f='codebrowser/src/mainmenu.c' l='341' u='r' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/mainmenu.c' l='345' u='r' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='375' u='w' c='MenuSetPostInputFunc'/>
+<use f='codebrowser/src/menu.c' l='990' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/prep.c' l='731' u='w' c='MenuCreateAllowedWeapons'/>

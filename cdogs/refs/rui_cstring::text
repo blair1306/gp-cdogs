@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/json/json.h' l='62' type='char *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/json/json.h' l='62'>/*&lt;! char c-string */</doc>
+<use f='codebrowser/src/json/json.c' l='73' u='w' c='rcs_create'/>
+<use f='codebrowser/src/json/json.c' l='74' u='r' c='rcs_create'/>
+<use f='codebrowser/src/json/json.c' l='79' u='r' c='rcs_create'/>
+<use f='codebrowser/src/json/json.c' l='91' u='r' c='rcs_free'/>
+<use f='codebrowser/src/json/json.c' l='93' u='r' c='rcs_free'/>
+<use f='codebrowser/src/json/json.c' l='94' u='w' c='rcs_free'/>
+<use f='codebrowser/src/json/json.c' l='109' u='r' c='rcs_resize'/>
+<use f='codebrowser/src/json/json.c' l='115' u='w' c='rcs_resize'/>
+<use f='codebrowser/src/json/json.c' l='117' u='r' c='rcs_resize'/>
+<use f='codebrowser/src/json/json.c' l='133' u='r' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='134' u='r' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='150' u='r' c='rcs_catc'/>
+<use f='codebrowser/src/json/json.c' l='152' u='r' c='rcs_catc'/>
+<use f='codebrowser/src/json/json.c' l='163' u='r' c='rcs_unwrap'/>
+<use f='codebrowser/src/json/json.c' l='167' u='r' c='rcs_unwrap'/>
+<use f='codebrowser/src/json/json.c' l='167' u='r' c='rcs_unwrap'/>
+<use f='codebrowser/src/json/json.c' l='3064' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3480' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3492' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3507' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3522' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3628' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3641' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3655' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3674' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3781' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3793' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3807' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3826' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3999' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4011' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4025' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4039' u='r' c='json_saxy_parse'/>

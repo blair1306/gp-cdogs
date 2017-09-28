@@ -1,0 +1,8 @@
+<use f='codebrowser/src/cdogs.c' l='110' u='c' c='main'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='85' u='c' c='enet_host_random_seed'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='39' u='c' c='WallClockSetTime'/>
+<use f='codebrowser/src/credits.c' l='61' u='c' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='119' u='c' c='ShowCredits'/>
+<use f='codebrowser/src/game.c' l='207' u='c' c='RunGameOnEnter'/>
+<use f='codebrowser/src/hiscores.c' l='357' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='422' u='c' c='LoadHighScores'/>

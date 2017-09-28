@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='60' type='Pic * PicManagerGetPic(const PicManager * pm, const char * name)'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='126' u='c' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='135' u='c' c='LoadNormal'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='373' u='c' c='DrawEditorTiles'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='564' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='573' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='591' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='600' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='152' u='c' c='LoadPic'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='495' u='c' c='SetupSpawner'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='451' ll='456' type='Pic * PicManagerGetPic(const PicManager * pm, const char * name)'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='505' u='c' c='PicManagerGenerateMaskedPic'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='509' u='c' c='PicManagerGenerateMaskedPic'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='306' u='c' c='PickupClassesLoadKeys'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='226' u='c' c='Display'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='968' u='c' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='969' u='c' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='101' u='c' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='303' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='311' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='319' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='327' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='335' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='343' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='351' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='359' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='366' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='376' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='386' u='c' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/game.c' l='267' u='c' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game.c' l='272' u='c' c='RunGameOnEnter'/>
+<use f='codebrowser/src/menu.c' l='624' u='c' c='MenuDisplayItems'/>
+<use f='codebrowser/src/player_select_menus.c' l='209' u='c' c='CreateColorMenu'/>
+<def f='codebrowser/src/tests/autosave_test.c' l='28' ll='33' type='Pic * PicManagerGetPic(const PicManager * pm, const char * name)'/>
+<def f='codebrowser/src/tests/config_test.c' l='17' ll='22' type='Pic * PicManagerGetPic(const PicManager * pm, const char * name)'/>
+<def f='codebrowser/src/tests/json_test.c' l='26' type='int PicManagerGetPic()'/>

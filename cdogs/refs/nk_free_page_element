@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17724' ll='17738' macro='1' type='void nk_free_page_element(struct nk_context * ctx, struct nk_page_element * elem)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17760' u='c' c='nk_free_panel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17783' u='c' c='nk_free_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17896' u='c' c='nk_free_window'/>

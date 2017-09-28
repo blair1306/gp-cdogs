@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='967'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='144' u='c'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='962'>/*  nk_draw_foreach - Iterates over each vertex draw command inside a vertex draw command buffer
+ *  Parameters:
+ *      @cmd nk_draw_command pointer set to NULL
+ *      @buf must point to an previously by `nk_convert` filled out vertex draw command buffer
+ *      @ctx must point to an previously initialized `nk_context` struct at the end of a frame */</doc>

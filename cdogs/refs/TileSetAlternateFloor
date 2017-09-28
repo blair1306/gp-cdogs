@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='163' type='void TileSetAlternateFloor(Tile * t, NamedPic * p)'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='112' u='c' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='123' u='c' c='MapSetupTilesAndWalls'/>
+<def f='codebrowser/src/cdogs/tile.c' l='121' ll='125' type='void TileSetAlternateFloor(Tile * t, NamedPic * p)'/>

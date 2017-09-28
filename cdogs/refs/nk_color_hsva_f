@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1816' type='void nk_color_hsva_f(float * out_h, float * out_s, float * out_v, float * out_a, struct nk_color )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5504' u='c' c='nk_color_hsv_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5511' u='c' c='nk_color_hsv_fv'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5514' ll='5536' macro='1' type='void nk_color_hsva_f(float * out_h, float * out_s, float * out_v, float * out_a, struct nk_color in)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5541' u='c' c='nk_color_hsva_fv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5549' u='c' c='nk_color_hsva_i'/>

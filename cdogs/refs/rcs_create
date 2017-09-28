@@ -1,0 +1,19 @@
+<def f='codebrowser/src/json/json.c' l='62' ll='82' type='rcstring * rcs_create(size_t length)'/>
+<use f='codebrowser/src/json/json.c' l='594' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='1060' u='c' c='json_format_string'/>
+<use f='codebrowser/src/json/json.c' l='1161' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1429' u='c' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1448' u='c' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1457' u='c' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1474' u='c' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2984' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3005' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3019' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3461' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3904' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3946' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3964' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3978' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4159' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4179' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4191' u='c' c='json_saxy_parse'/>

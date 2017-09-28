@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1612' type='void nk_popup_close(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21702' ll='21713' macro='1' type='void nk_popup_close(struct nk_context * ctx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21792' u='c' c='nk_tooltip_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22003' u='c' c='nk_contextual_close'/>

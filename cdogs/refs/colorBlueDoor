@@ -1,0 +1,3 @@
+<def f='codebrowser/src/cdogs/automap.c' l='77' type='color_t'/>
+<use f='codebrowser/src/cdogs/automap.c' l='186' u='r' c='DoorColor'/>
+<use f='codebrowser/src/cdogs/automap.c' l='308' u='r' c='DrawTileItem'/>

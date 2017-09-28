@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='153' type='void PathGetDirname(char * buf, const char * path)'/>
+<use f='codebrowser/src/cdogs/music.c' l='105' u='c' c='MusicPlayGame'/>
+<def f='codebrowser/src/cdogs/utils.c' l='85' ll='97' type='void PathGetDirname(char * buf, const char * path)'/>
+<doc f='codebrowser/src/cdogs/utils.c' l='84'>// Note: includes trailing slash</doc>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='381' u='c' c='Autosave'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='442' u='c' c='Open'/>

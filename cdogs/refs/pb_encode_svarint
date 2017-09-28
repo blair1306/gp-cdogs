@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='130' type='_Bool pb_encode_svarint(pb_ostream_t * stream, int64_t value)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='416' ll='425' macro='1' type='_Bool pb_encode_svarint(pb_ostream_t * stream, int64_t value)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='602' u='c' c='pb_enc_svarint'/>

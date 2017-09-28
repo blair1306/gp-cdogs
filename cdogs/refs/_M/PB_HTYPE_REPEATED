@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='176'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='45' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='354' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='706' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='735' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1130' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='253' u='c'/>

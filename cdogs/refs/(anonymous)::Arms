@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='60' type='color_t'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/blit.c' l='68' u='a' c='CharColorGetByType'/>
+<use f='codebrowser/src/cdogs/blit.c' l='342' u='r' c='CharColorsGetChannelMask'/>
+<use f='codebrowser/src/cdogs/character.c' l='98' u='a' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='162' u='r' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='297' u='w' c='CharacterShuffleAppearance'/>
+<use f='codebrowser/src/cdogs/files.c' l='295' u='w' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='134' u='r' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='144' u='w' c='Net2CharColors'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='65' u='a' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='134' u='r' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='497' u='a' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='599' u='w' c='AddCharacter'/>

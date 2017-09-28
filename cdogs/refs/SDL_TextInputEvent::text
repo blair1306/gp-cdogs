@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_events.h' l='223' type='char [32]'/>
+<offset>96</offset>
+<doc f='include/SDL2/SDL_events.h' l='223'>/**&lt; The input text */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='94' u='r' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='321' u='r' c='nk_sdl_handle_event'/>

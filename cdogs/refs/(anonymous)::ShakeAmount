@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='121' type='int'/>
+<offset>1248</offset>
+<doc f='codebrowser/src/cdogs/weapon.h' l='121'>// Amount of screen shake to produce</doc>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='483' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='486' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='273' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='303' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='303' u='r' c='LoadGunDescription'/>

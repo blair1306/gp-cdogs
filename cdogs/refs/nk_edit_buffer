@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1590' type='nk_flags nk_edit_buffer(struct nk_context * , nk_flags , struct nk_text_edit * , nk_plugin_filter )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20625' u='c' c='nk_edit_string'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20639' ll='20698' macro='1' type='nk_flags nk_edit_buffer(struct nk_context * ctx, nk_flags flags, struct nk_text_edit * edit, nk_plugin_filter filter)'/>

@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_surface.h' l='75' type='void *'/>
+<offset>256</offset>
+<doc f='include/SDL2/SDL_surface.h' l='75'>/**&lt; Read-write */</doc>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='399' u='r' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/pic.c' l='67' u='r' c='PicLoad'/>

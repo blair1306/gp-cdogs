@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/player.h' l='93' type='_Bool IsPlayerHuman(const PlayerData * player)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1002' u='c' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/camera.c' l='203' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/player.c' l='334' ll='337' macro='1' type='_Bool IsPlayerHuman(const PlayerData * player)'/>
+<use f='codebrowser/src/cdogs/player.c' l='340' u='c' c='IsPlayerHumanAndAlive'/>
+<use f='codebrowser/src/hiscores.c' l='107' u='c' c='HighScoresScreenUpdate'/>

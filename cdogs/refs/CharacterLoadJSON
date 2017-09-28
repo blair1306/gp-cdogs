@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character.h' l='67' type='void CharacterLoadJSON(CharacterStore * c, json_t * root, int version)'/>
+<def f='codebrowser/src/cdogs/character.c' l='68' ll='149' type='void CharacterLoadJSON(CharacterStore * c, json_t * root, int version)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='166' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='165' u='c' c='MapNewLoad'/>

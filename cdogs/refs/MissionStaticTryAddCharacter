@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='40' type='_Bool MissionStaticTryAddCharacter(Mission * m, int ch, Vec2i pos)'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='332' ll='365' macro='1' type='_Bool MissionStaticTryAddCharacter(Mission * m, int ch, Vec2i pos)'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='372' u='c' c='EditorBrushStartPainting'/>

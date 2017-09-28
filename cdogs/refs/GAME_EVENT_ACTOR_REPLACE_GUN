@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='76' type='27'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='85' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='85' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='85' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='85' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='242' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='257' u='r' c='TryPickupGun'/>

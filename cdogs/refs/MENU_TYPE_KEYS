@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu.h' l='64' type='2'/>
+<doc f='codebrowser/src/menu.h' l='64'>// extra wide option menu</doc>
+<use f='codebrowser/src/mainmenu.c' l='603' u='r' c='MenuCreateKeys'/>
+<use f='codebrowser/src/menu.c' l='154' u='r' c='MenuUpdate'/>
+<use f='codebrowser/src/menu.c' l='311' u='r' c='MenuTypeHasSubMenus'/>
+<use f='codebrowser/src/menu.c' l='806' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1043' c='MenuProcessButtonCmd'/>

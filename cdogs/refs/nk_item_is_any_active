@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1263' type='int nk_item_is_any_active(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18314' ll='18320' macro='1' type='int nk_item_is_any_active(struct nk_context * ctx)'/>

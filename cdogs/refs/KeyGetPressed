@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='90' type='SDL_Scancode KeyGetPressed(const keyboard_t * k)'/>
+<use f='codebrowser/src/cdogs/events.c' l='497' u='c' c='GetKey'/>
+<use f='codebrowser/src/cdogs/events.c' l='509' u='c' c='EventWaitKeyOrText'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='187' ll='197' type='SDL_Scancode KeyGetPressed(const keyboard_t * k)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1269' u='c' c='EditCampaign'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='340' u='c' c='HandleEvents'/>
+<use f='codebrowser/src/menu.c' l='1121' u='c' c='MenuProcessChangeKey'/>

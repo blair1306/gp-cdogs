@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='8646' type='struct nk_rp_node *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8704' u='w' c='nk_rp_init_target'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8705' u='w' c='nk_rp_init_target'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8718' u='w' c='nk_rp_init_target'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8721' u='w' c='nk_rp_init_target'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8735' u='r' c='nk_rp__skyline_find_min_y'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8752' u='r' c='nk_rp__skyline_find_min_y'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8754' u='r' c='nk_rp__skyline_find_min_y'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8757' u='r' c='nk_rp__skyline_find_min_y'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8763' u='r' c='nk_rp__skyline_find_min_y'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8804' u='a' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8805' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8832' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8839' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8840' u='a' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8841' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8843' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8856' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8886' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8894' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8895' u='w' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8903' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8903' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8904' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8906' u='w' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8911' u='w' c='nk_rp__skyline_pack_rectangle'/>
+<offset>64</offset>

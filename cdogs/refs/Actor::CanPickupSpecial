@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='118' type='_Bool'/>
+<offset>920</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='206' u='w' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1017' u='w' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/game.c' l='88' u='r' c='PlayerSpecialCommands'/>

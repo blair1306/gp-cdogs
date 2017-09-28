@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='104' type='special_damage_e StrSpecialDamage(const char * s)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='687' u='c' c='LoadBullet'/>
+<def f='codebrowser/src/cdogs/defs.c' l='66' ll='74' type='special_damage_e StrSpecialDamage(const char * s)'/>

@@ -1,0 +1,7 @@
+<def f='include/SDL2/SDL_mixer.h' l='103' ll='108'/>
+<size>24</size>
+<doc f='include/SDL2/SDL_mixer.h' l='102'>/* The internal format for an audio chunk */</doc>
+<mbr r='Mix_Chunk::allocated' o='0' t='int'/>
+<mbr r='Mix_Chunk::abuf' o='64' t='Uint8 *'/>
+<mbr r='Mix_Chunk::alen' o='128' t='Uint32'/>
+<mbr r='Mix_Chunk::volume' o='160' t='Uint8'/>

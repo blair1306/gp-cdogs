@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/json/json.h' l='314' type='enum json_error json_parse_fragment(struct json_parsing_info * info, const char * buffer)'/>
+<doc f='codebrowser/src/json/json.h' l='308'>/**
+Produces a document tree sequentially from a JSON markup text fragment
+@param info the information necessary to resume parsing any incomplete document
+@param buffer a null-terminated c-string containing a JSON document fragment
+@return a code describing how the operation ended up
+**/</doc>
+<use f='codebrowser/src/json/json.c' l='206' u='c' c='json_stream_parse'/>
+<def f='codebrowser/src/json/json.c' l='2149' ll='2782' type='enum json_error json_parse_fragment(struct json_parsing_info * info, const char * buffer)'/>
+<use f='codebrowser/src/json/json.c' l='2804' u='c' c='json_parse_document'/>

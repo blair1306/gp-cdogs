@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='90' type='1'/>
+<use f='codebrowser/src/cdogs/mission.c' l='371' u='r' c='MissionBegin'/>
+<use f='codebrowser/src/cdogs/music.c' l='65' u='r' c='MusicPlay'/>

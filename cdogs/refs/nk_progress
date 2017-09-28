@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1533' type='int nk_progress(struct nk_context * , nk_size * cur, nk_size max, int modifyable)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20510' ll='20540' macro='1' type='int nk_progress(struct nk_context * ctx, nk_size * cur, nk_size max, int is_modifyable)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20543' u='c' c='nk_prog'/>

@@ -1,0 +1,11 @@
+<dec f='include/string.h' l='143' type='int strncmp(const char * __s1, const char * __s2, size_t __n)'/>
+<use f='codebrowser/src/XGetopt.c' l='169' u='c' c='lookup_longopt'/>
+<use f='codebrowser/src/XGetopt.c' l='176' u='c' c='lookup_longopt'/>
+<doc f='include/string.h' l='142'>/* Compare N characters of S1 and S2.  */</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='776' u='c' c='LoadHitsound'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='782' u='c' c='LoadHitsound'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='642' u='c' c='_tinydir_file_cmp'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='126' u='c' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='319' u='c' c='MaybeAddStyleName'/>
+<use f='codebrowser/src/cdogs/utils.c' l='481' u='c' c='StrEndsWith'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='455' u='c' c='Open'/>

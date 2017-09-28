@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='114' type='struct stat'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='454' u='a' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='465' u='m' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='483' u='m' c='tinydir_readfile'/>
+<offset>34944</offset>

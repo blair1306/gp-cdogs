@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='130' type='EditorResult UIObjectDelChar(UIObject * o)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1135' u='c' c='HandleInput'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='323' ll='351' type='EditorResult UIObjectDelChar(UIObject * o)'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='329' u='c' c='UIObjectDelChar'/>

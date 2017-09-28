@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='118' type='_Bool pb_encode_tag_for_field(pb_ostream_t * stream, const pb_field_t * field)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='178' u='c' c='encode_array'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='236' u='c' c='encode_basic_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='245' u='c' c='encode_basic_field'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='467' ll='497' macro='1' type='_Bool pb_encode_tag_for_field(pb_ostream_t * stream, const pb_field_t * field)'/>

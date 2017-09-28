@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='81' type='double'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/map_object.c' l='400' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='182' u='r' c='ObjRemove'/>

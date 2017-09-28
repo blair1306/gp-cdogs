@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='150' type='int tinydir_readfile(const tinydir_dir * dir, tinydir_file * file)'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='293' u='c' c='tinydir_open_sorted'/>
+<def f='codebrowser/src/tinydir/tinydir.h' l='400' ll='487' macro='1' type='int tinydir_readfile(const tinydir_dir * dir, tinydir_file * file)'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='595' u='c' c='tinydir_file_open'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='77' u='c' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='215' u='c' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='205' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='208' u='c' c='SoundLoadDir'/>

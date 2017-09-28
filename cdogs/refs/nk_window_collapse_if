@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1303' type='void nk_window_collapse_if(struct nk_context * , const char * name, enum nk_collapse_states , int cond)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18455' ll='18462' macro='1' type='void nk_window_collapse_if(struct nk_context * ctx, const char * name, enum nk_collapse_states c, int cond)'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='91' type='4'/>
+<use f='codebrowser/src/cdogs/actors.c' l='484' u='r' c='CheckPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='997' u='r' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/automap.c' l='296' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='100' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/map.c' l='195' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='195' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='96' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/tile.c' l='152' c='ThingIdGetTileItem'/>

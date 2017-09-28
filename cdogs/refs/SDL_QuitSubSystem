@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL.h' l='108' type='void SDL_QuitSubSystem(Uint32 flags)'/>
+<doc f='include/SDL2/SDL.h' l='105'>/**
+ *  This function cleans up specific SDL subsystems
+ */</doc>

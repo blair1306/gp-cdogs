@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/menu.h' l='198' type='menu_option_display_style_e'/>
+<offset>256</offset>
+<use f='codebrowser/src/menu.c' l='470' u='w' c='MenuCreateOptionToggle'/>
+<use f='codebrowser/src/menu.c' l='485' u='w' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='501' u='w' c='MenuCreateOptionSeed'/>
+<use f='codebrowser/src/menu.c' l='513' u='w' c='MenuCreateOptionUpDownFunc'/>
+<use f='codebrowser/src/menu.c' l='524' u='w' c='MenuCreateVoidFunc'/>
+<use f='codebrowser/src/menu.c' l='540' u='w' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='779' u='r' c='MenuDisplaySubmenus'/>

@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1395' type='2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19638' u='r' c='nk_widget'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19987' u='r' c='nk_button_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20032' u='r' c='nk_button_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20065' u='r' c='nk_button_symbol_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20100' u='r' c='nk_button_image_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20136' u='r' c='nk_button_symbol_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20183' u='r' c='nk_button_image_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20234' u='r' c='nk_selectable_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20264' u='r' c='nk_selectable_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20319' u='r' c='nk_check_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20414' u='r' c='nk_option_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20473' u='r' c='nk_slider_float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20535' u='r' c='nk_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20788' u='r' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20959' u='r' c='nk_color_pick'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21914' u='r' c='nk_contextual_item_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21948' u='r' c='nk_contextual_item_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21983' u='r' c='nk_contextual_item_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22111' u='r' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22201' u='r' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22281' u='r' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22369' u='r' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22464' u='r' c='nk_combo_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22543' u='r' c='nk_combo_begin_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22845' u='r' c='nk_menu_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22875' u='r' c='nk_menu_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22901' u='r' c='nk_menu_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22927' u='r' c='nk_menu_begin_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22959' u='r' c='nk_menu_begin_symbol_text'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1395'>/* The widget is partially visible and cannot be updated */</doc>

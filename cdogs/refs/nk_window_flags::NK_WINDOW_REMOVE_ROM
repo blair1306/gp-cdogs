@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3484' type='65536'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17640' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17642' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21595' u='r' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21608' u='r' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21665' u='r' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21734' u='r' c='nk_popup_end'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3483'>/* marks the window as minimized */</doc>

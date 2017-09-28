@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/player_select_menus.h' l='42' type='Vec2i'/>
+<use f='codebrowser/src/player_select_menus.c' l='233' u='w' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='271' u='r' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='278' u='r' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='299' u='w' c='HandleInputColorMenu'/>
+<offset>128</offset>

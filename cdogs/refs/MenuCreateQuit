@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/mainmenu.c' l='191' type='menu_t * MenuCreateQuit(const char * name)'/>
+<use f='codebrowser/src/mainmenu.c' l='214' u='c' c='MenuCreateAll'/>
+<def f='codebrowser/src/mainmenu.c' l='587' ll='590' type='menu_t * MenuCreateQuit(const char * name)'/>

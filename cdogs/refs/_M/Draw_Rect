@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='64'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='198' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='254' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' u='c'/>

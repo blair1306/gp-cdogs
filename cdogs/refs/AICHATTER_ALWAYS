@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='110' type='3'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='110' c='AIContextSetChatterDelay'/>
+<use f='codebrowser/src/cdogs/config.c' l='180' c='AIChatterStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='190' u='r' c='StrAIChatter'/>
+<use f='codebrowser/src/cdogs/config.c' l='677' u='r' c='ConfigDefault'/>

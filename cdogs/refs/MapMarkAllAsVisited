@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='148' type='void MapMarkAllAsVisited(Map * map)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='105' u='c' c='GrafxMakeBackground'/>
+<def f='codebrowser/src/cdogs/map.c' l='874' ll='884' type='void MapMarkAllAsVisited(Map * map)'/>
+<use f='codebrowser/src/game.c' l='217' u='c' c='RunGameOnEnter'/>

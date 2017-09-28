@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='40' type='size_t'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/AStar.h' l='40'>// the size of the structure being used for the nodes - important since nodes are copied into the resulting path</doc>
+<use f='codebrowser/src/cdogs/AStar.c' l='122' u='r' c='NodeGetRecord'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='222' u='r' c='NodeKeyCompare'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='259' u='r' c='GetNode'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='259' u='r' c='GetNode'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='259' u='r' c='GetNode'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='259' u='r' c='GetNode'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='271' u='r' c='GetNode'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='411' u='r' c='NeighborListGetNodeKey'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='424' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='424' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='435' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='507' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='507' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='507' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='507' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='508' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='514' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='514' u='r' c='ASPathCreate'/>

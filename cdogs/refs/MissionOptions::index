@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='216' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/briefing_screens.c' l='174' u='r' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='182' u='r' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='415' u='r' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/briefing_screens.c' l='421' u='r' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/cdogs/ai.c' l='608' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/mission.c' l='266' u='w' c='SetupMission'/>

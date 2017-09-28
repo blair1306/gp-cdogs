@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='177' type='void SlideActor(TActor * actor, int cmd)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='835' ll='862' type='void SlideActor(TActor * actor, int cmd)'/>
+<use f='codebrowser/src/game.c' l='81' u='c' c='PlayerSpecialCommands'/>

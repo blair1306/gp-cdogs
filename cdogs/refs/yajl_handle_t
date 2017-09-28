@@ -1,0 +1,11 @@
+<def f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='42' ll='59'/>
+<size>120</size>
+<mbr r='yajl_handle_t::callbacks' o='0' t='const yajl_callbacks *'/>
+<mbr r='yajl_handle_t::ctx' o='64' t='void *'/>
+<mbr r='yajl_handle_t::lexer' o='128' t='yajl_lexer'/>
+<mbr r='yajl_handle_t::parseError' o='192' t='const char *'/>
+<mbr r='yajl_handle_t::bytesConsumed' o='256' t='size_t'/>
+<mbr r='yajl_handle_t::decodeBuf' o='320' t='yajl_buf'/>
+<mbr r='yajl_handle_t::stateStack' o='384' t='yajl_bytestack'/>
+<mbr r='yajl_handle_t::alloc' o='640' t='yajl_alloc_funcs'/>
+<mbr r='yajl_handle_t::flags' o='896' t='unsigned int'/>

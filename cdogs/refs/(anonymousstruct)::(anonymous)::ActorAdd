@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='149' type='NActorAdd'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='204' u='w' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/ai.c' l='545' u='w' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='570' u='w' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='599' u='w' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='634' u='w' c='CreateEnemies'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='185' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='130' u='w' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='174' u='w' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='200' u='w' c='AddObjective'/>

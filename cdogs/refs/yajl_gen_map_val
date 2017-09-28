@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='31' type='3'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_integer'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_integer'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_integer'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_integer'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_double'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_double'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_double'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_double'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_null'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_null'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_null'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_null'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_bool'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_bool'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_bool'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_bool'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_map_open'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_map_open'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_map_close'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_map_close'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_map_close'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='148' u='r' c='yajl_gen_array_open'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_array_open'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='192' u='r' c='yajl_gen_array_close'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='197' c='yajl_gen_array_close'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='155' u='r' c='yajl_gen_array_close'/>

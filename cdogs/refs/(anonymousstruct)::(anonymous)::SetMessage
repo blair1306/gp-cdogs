@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='147' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogs/game_events.h:143:3)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='175' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='175' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='376' u='m' c='MissionBegin'/>
+<use f='codebrowser/src/cdogs/mission.c' l='377' u='m' c='MissionBegin'/>
+<use f='codebrowser/src/cdogs/mission.c' l='378' u='m' c='MissionBegin'/>

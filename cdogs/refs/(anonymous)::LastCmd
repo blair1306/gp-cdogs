@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='93' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/ai.c' l='341' u='w' c='AICommand'/>
+<use f='codebrowser/src/cdogs/ai.c' l='524' u='r' c='AICommandLast'/>

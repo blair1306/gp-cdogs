@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='198' type='Vec2i ActorGetGunMuzzleOffset(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='48' u='c' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='74' u='c' c='ActorFireUpdate'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1315' ll='1320' type='Vec2i ActorGetGunMuzzleOffset(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='580' u='c' c='AIHunt'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='642' u='c' c='AITrack'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='307' u='c' c='DrawLaserSight'/>

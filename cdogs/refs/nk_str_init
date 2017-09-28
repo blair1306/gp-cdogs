@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2299' type='void nk_str_init(struct nk_str * , const struct nk_allocator * , nk_size size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6341' ll='6346' macro='1' type='void nk_str_init(struct nk_str * str, const struct nk_allocator * alloc, nk_size size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13336' u='c' c='nk_textedit_init'/>

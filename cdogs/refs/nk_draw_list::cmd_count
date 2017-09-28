@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2864' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7349' u='r' c='nk__draw_list_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7375' u='r' c='nk__draw_list_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7409' u='w' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7460' u='r' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7474' u='w' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7485' u='r' c='nk_draw_list_command_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7490' u='r' c='nk_draw_list_command_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7498' u='r' c='nk_draw_list_add_clip'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7513' u='r' c='nk_draw_list_push_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8098' u='r' c='nk_draw_list_path_line_to'/>
+<offset>1664</offset>

@@ -1,0 +1,37 @@
+<def f='codebrowser/src/cdogs/rlutil/rlutil.h' l='223' type='const RLUTIL_STRING_T'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='547' u='r' c='cls'/>
+<doc f='codebrowser/src/cdogs/rlutil/rlutil.h' l='188'>/**
+ * Consts: ANSI escape strings
+ *
+ * ANSI_CLS                - Clears screen
+ * ANSI_CONSOLE_TITLE_PRE  - Prefix for changing the window title, print the window title in between
+ * ANSI_CONSOLE_TITLE_POST - Suffix for changing the window title, print the window title in between
+ * ANSI_ATTRIBUTE_RESET    - Resets all attributes
+ * ANSI_CURSOR_HIDE        - Hides the cursor
+ * ANSI_CURSOR_SHOW        - Shows the cursor
+ * ANSI_CURSOR_HOME        - Moves the cursor home (0,0)
+ * ANSI_BLACK              - Black
+ * ANSI_RED                - Red
+ * ANSI_GREEN              - Green
+ * ANSI_BROWN              - Brown / dark yellow
+ * ANSI_BLUE               - Blue
+ * ANSI_MAGENTA            - Magenta / purple
+ * ANSI_CYAN               - Cyan
+ * ANSI_GREY               - Grey / dark white
+ * ANSI_DARKGREY           - Dark grey / light black
+ * ANSI_LIGHTRED           - Light red
+ * ANSI_LIGHTGREEN         - Light green
+ * ANSI_YELLOW             - Yellow (bright)
+ * ANSI_LIGHTBLUE          - Light blue
+ * ANSI_LIGHTMAGENTA       - Light magenta / light purple
+ * ANSI_LIGHTCYAN          - Light cyan
+ * ANSI_WHITE              - White (bright)
+ * ANSI_BACKGROUND_BLACK   - Black background
+ * ANSI_BACKGROUND_RED     - Red background
+ * ANSI_BACKGROUND_GREEN   - Green background
+ * ANSI_BACKGROUND_YELLOW  - Yellow background
+ * ANSI_BACKGROUND_BLUE    - Blue background
+ * ANSI_BACKGROUND_MAGENTA - Magenta / purple background
+ * ANSI_BACKGROUND_CYAN    - Cyan background
+ * ANSI_BACKGROUND_WHITE   - White background
+ */</doc>

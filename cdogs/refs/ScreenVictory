@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/screens_end.h' l='32' type='GameLoopData * ScreenVictory(CampaignOptions * c)'/>
+<use f='codebrowser/src/briefing_screens.c' l='457' u='c' c='MissionSummaryUpdate'/>
+<def f='codebrowser/src/screens_end.c' l='337' ll='378' type='GameLoopData * ScreenVictory(CampaignOptions * c)'/>

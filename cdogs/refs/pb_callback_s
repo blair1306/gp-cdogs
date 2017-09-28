@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='281' ll='298'/>
+<size>16</size>
+<mbr r='pb_callback_s::funcs' o='0' t='union (anonymous union at /home/jon/workspace/cdogs-sdl/src/cdogs/proto/nanopb/pb.h:290:5)'/>
+<mbr r='pb_callback_s::arg' o='64' t='void *'/>

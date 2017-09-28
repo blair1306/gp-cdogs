@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='99' type='Uint32 PixelMult(const Uint32 p, const Uint32 m)'/>
+<def f='codebrowser/src/cdogs/blit.c' l='222' ll='229' type='Uint32 PixelMult(const Uint32 p, const Uint32 m)'/>
+<use f='codebrowser/src/cdogs/blit.c' l='280' u='c' c='BlitMasked'/>
+<use f='codebrowser/src/cdogs/blit.c' l='328' u='c' c='BlitCharMultichannel'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='814' u='c' c='LoadMultiChannelTexFromPic'/>

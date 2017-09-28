@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='80' type='int CmdGetReverse(int cmd)'/>
+<doc f='codebrowser/src/cdogs/defs.h' l='79'>// Reverse directions for command</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='718' u='c' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='848' u='c' c='SlideActor'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='94' u='c' c='AICoopGetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='358' u='c' c='AICoopGetCmdNormal'/>
+<def f='codebrowser/src/cdogs/defs.c' l='56' ll='64' type='int CmdGetReverse(int cmd)'/>

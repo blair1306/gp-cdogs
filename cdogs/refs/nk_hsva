@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1789' type='struct nk_color nk_hsva(int h, int s, int v, int a)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5373' u='c' c='nk_hsv'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5400' ll='5408' macro='1' type='struct nk_color nk_hsva(int h, int s, int v, int a)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5413' u='c' c='nk_hsva_iv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5419' u='c' c='nk_hsva_bv'/>

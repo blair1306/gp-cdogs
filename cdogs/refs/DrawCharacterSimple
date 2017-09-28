@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='78' type='void DrawCharacterSimple(Character * c, const Vec2i pos, const direction_e d, const _Bool hilite, const _Bool showGun)'/>
+<def f='codebrowser/src/cdogs/draw/draw_actor.c' l='457' ll='473' type='void DrawCharacterSimple(Character * c, const Vec2i pos, const direction_e d, const _Bool hilite, const _Bool showGun)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='573' u='c' c='MissionDrawEnemy'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='591' u='c' c='MissionDrawSpecialChar'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='476' u='c' c='MissionDrawKillObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='526' u='c' c='MissionDrawRescueObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='99' u='c' c='DrawCharacter'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='124' u='c' c='DrawObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='132' u='c' c='DrawObjective'/>
+<use f='codebrowser/src/menu_utils.c' l='48' u='c' c='DisplayCharacterAndName'/>

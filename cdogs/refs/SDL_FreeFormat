@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_pixels.h' l='363' type='void SDL_FreeFormat(SDL_PixelFormat * format)'/>
+<doc f='include/SDL2/SDL_pixels.h' l='360'>/**
+ *  \brief Free an SDL_PixelFormat structure.
+ */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='230' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='385' u='c' c='GraphicsTerminate'/>

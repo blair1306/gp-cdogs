@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/cdogs/config.h' l='224' type='int ConfigGetEnum(Config * c, const char * name)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='184' u='c' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/actors.c' l='625' u='c' c='ActorSetAIState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='681' u='c' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/actors.c' l='682' u='c' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/actors.c' l='776' u='c' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='778' u='c' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1471' u='c' c='ActorAddBloodSplatters'/>
+<use f='codebrowser/src/cdogs/ai.c' l='301' u='c' c='AICommand'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='91' u='c' c='AIContextSetState'/>
+<use f='codebrowser/src/cdogs/camera.c' l='426' u='c' c='CameraIsSingleScreen'/>
+<use f='codebrowser/src/cdogs/camera.c' l='443' u='c' c='CameraIsSingleScreen'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='131' u='c' c='CollisionSystemReset'/>
+<def f='codebrowser/src/cdogs/config.c' l='502' ll='507' type='int ConfigGetEnum(Config * c, const char * name)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='298' u='c' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='272' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='432' u='c' c='GraphicsConfigSetFromConfig'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='673' u='c' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='129' u='c' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='157' u='c' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='225' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='239' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='241' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='245' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='262' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='271' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='275' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='281' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='309' u='c' c='RandomRoomParams'/>
+<use f='codebrowser/src/game.c' l='79' u='c' c='PlayerSpecialCommands'/>
+<use f='codebrowser/src/game.c' l='89' u='c' c='PlayerSpecialCommands'/>
+<use f='codebrowser/src/game.c' l='547' u='c' c='RunGameUpdate'/>

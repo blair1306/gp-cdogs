@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='65' type='ParticleClasses'/>
+<use f='codebrowser/src/cdogs.c' l='234' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='292' u='a' c='main'/>
+<use f='codebrowser/src/cdogs/actors.c' l='448' u='a' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1274' u='a' c='GoreEmitterInit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='696' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='703' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='75' u='m' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='263' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='288' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='538' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='637' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='97' u='m' c='MapNewLoadArchive'/>
+<def f='codebrowser/src/cdogs/particle.c' l='38' type='ParticleClasses'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='257' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='265' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1341' u='a' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1397' u='a' c='main'/>

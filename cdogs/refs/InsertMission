@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='58' type='void InsertMission(CampaignOptions * co, Mission * mission, int idx)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1035' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1054' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1227' u='c' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='639' u='c' c='MissionInsertNew'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='71' ll='92' type='void InsertMission(CampaignOptions * co, Mission * mission, int idx)'/>

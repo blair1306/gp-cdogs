@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='38' type='1'/>
+<use f='codebrowser/src/cdogs/particle.c' l='47' u='r' c='StrParticleType'/>
+<use f='codebrowser/src/cdogs/particle.c' l='172' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='430' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='457' u='r' c='ParticleDestroy'/>
+<use f='codebrowser/src/cdogs/particle.c' l='481' c='DrawParticle'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='98' type='_Bool ObjectiveIsPerfect(const Objective * o)'/>
+<use f='codebrowser/src/briefing_screens.c' l='433' u='c' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/briefing_screens.c' l='626' u='c' c='MissionSummaryMenuDraw'/>
+<def f='codebrowser/src/cdogs/objective.c' l='172' ll='176' macro='1' type='_Bool ObjectiveIsPerfect(const Objective * o)'/>

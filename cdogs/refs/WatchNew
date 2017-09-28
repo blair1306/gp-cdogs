@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='138' type='TWatch * WatchNew()'/>
+<use f='codebrowser/src/cdogs/door.c' l='172' u='c' c='CreateCloseDoorWatch'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='87' ll='97' type='TWatch * WatchNew()'/>

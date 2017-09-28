@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='319' type='NVec2i'/>
+<offset>1056</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='76' u='w' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='501' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='305'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='305'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='306' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='306' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='305'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='305'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='306' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='306' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

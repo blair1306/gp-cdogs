@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='562' type='ENetPeer * enet_host_connect(ENetHost * , const ENetAddress * , size_t , enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/host.c' l='173' ll='253' type='ENetPeer * enet_host_connect(ENetHost * host, const ENetAddress * address, size_t channelCount, enet_uint32 data)'/>
+<doc f='codebrowser/src/cdogs/enet/host.c' l='164'>/** Initiates a connection to a foreign host.
+    @param host host seeking the connection
+    @param address destination for the connection
+    @param channelCount number of channels to allocate
+    @param data user data supplied to the receiving host 
+    @returns a peer representing the foreign host on success, NULL on failure
+    @remarks The peer returned will have not completed the connection until enet_host_service()
+    notifies of an ENET_EVENT_TYPE_CONNECT event for the peer.
+*/</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='160' u='c' c='NetClientTryConnect'/>

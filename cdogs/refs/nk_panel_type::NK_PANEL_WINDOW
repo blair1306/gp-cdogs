@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3373' type='1'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17102' c='nk_panel_get_padding'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17119' c='nk_panel_get_border'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17134' c='nk_panel_get_border_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18141' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18157' u='r' c='nk_end'/>

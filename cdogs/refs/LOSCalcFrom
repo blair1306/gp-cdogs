@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/los.h' l='39' type='void LOSCalcFrom(Map * map, const Vec2i pos, const _Bool explore)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='208' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='245' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='296' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/los.c' l='83' ll='192' type='void LOSCalcFrom(Map * map, const Vec2i pos, const _Bool explore)'/>
+<use f='codebrowser/src/game.c' l='508' u='c' c='RunGameUpdate'/>

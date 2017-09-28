@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='51' type='2'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='42' u='r' c='StrPicType'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='99' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='169' c='CPicIsLoaded'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='199' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='216' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='260' c='CPicGetPic'/>
+<use f='codebrowser/src/cdogs/particle.c' l='152' u='r' c='LoadParticleClass'/>

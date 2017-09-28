@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='195' type='int32_t'/>
+<offset>384</offset>
+<use f='codebrowser/src/cdogs/net_server.c' l='249' u='w' c='PollListener'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='34'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='34'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='35' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='35' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='34'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='34'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='35' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='35' u='r'/>
+<use f='codebrowser/src/mainmenu.c' l='446' u='r' c='CreateLANServerMenuItems'/>

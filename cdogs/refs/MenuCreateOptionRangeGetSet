@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/menu.h' l='299' type='menu_t * MenuCreateOptionRangeGetSet(const char * name, int (*)(void) getFunc, void (*)(int) setFunc, int low, int high, int increment, menu_option_display_style_e style, void (*)(void) func)'/>
+<def f='codebrowser/src/menu.c' l='528' ll='547' type='menu_t * MenuCreateOptionRangeGetSet(const char * name, int (*)(void) getFunc, void (*)(int) setFunc, int low, int high, int increment, menu_option_display_style_e style, void (*)(void) func)'/>

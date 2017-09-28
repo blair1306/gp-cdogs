@@ -1,0 +1,23 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3103' ll='3134'/>
+<size>616</size>
+<mbr r='nk_style_scrollbar::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_scrollbar::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_scrollbar::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_scrollbar::border_color' o='768' t='struct nk_color'/>
+<mbr r='nk_style_scrollbar::cursor_normal' o='832' t='struct nk_style_item'/>
+<mbr r='nk_style_scrollbar::cursor_hover' o='1088' t='struct nk_style_item'/>
+<mbr r='nk_style_scrollbar::cursor_active' o='1344' t='struct nk_style_item'/>
+<mbr r='nk_style_scrollbar::cursor_border_color' o='1600' t='struct nk_color'/>
+<mbr r='nk_style_scrollbar::border' o='1632' t='float'/>
+<mbr r='nk_style_scrollbar::rounding' o='1664' t='float'/>
+<mbr r='nk_style_scrollbar::border_cursor' o='1696' t='float'/>
+<mbr r='nk_style_scrollbar::rounding_cursor' o='1728' t='float'/>
+<mbr r='nk_style_scrollbar::padding' o='1760' t='struct nk_vec2'/>
+<mbr r='nk_style_scrollbar::show_buttons' o='1824' t='int'/>
+<mbr r='nk_style_scrollbar::inc_button' o='1856' t='struct nk_style_button'/>
+<mbr r='nk_style_scrollbar::dec_button' o='3264' t='struct nk_style_button'/>
+<mbr r='nk_style_scrollbar::inc_symbol' o='4672' t='enum nk_symbol_type'/>
+<mbr r='nk_style_scrollbar::dec_symbol' o='4704' t='enum nk_symbol_type'/>
+<mbr r='nk_style_scrollbar::userdata' o='4736' t='nk_handle'/>
+<mbr r='nk_style_scrollbar::draw_begin' o='4800' t='void (*)(struct nk_command_buffer *, nk_handle)'/>
+<mbr r='nk_style_scrollbar::draw_end' o='4864' t='void (*)(struct nk_command_buffer *, nk_handle)'/>

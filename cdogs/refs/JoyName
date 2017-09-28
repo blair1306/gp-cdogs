@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='73' type='const char * JoyName(const SDL_JoystickID id)'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='303' ll='315' type='const char * JoyName(const SDL_JoystickID id)'/>
+<use f='codebrowser/src/cdogs/utils.c' l='400' u='c' c='InputDeviceName'/>
+<def f='codebrowser/src/tests/autosave_test.c' l='39' ll='43' type='const char * JoyName(const int deviceIndex)'/>
+<def f='codebrowser/src/tests/c_array_test.c' l='10' ll='14' type='const char * JoyName(const int deviceIndex)'/>
+<doc f='codebrowser/src/tests/c_array_test.c' l='9'>// Stubs</doc>
+<def f='codebrowser/src/tests/config_test.c' l='28' ll='32' type='const char * JoyName(const int deviceIndex)'/>
+<def f='codebrowser/src/tests/json_test.c' l='15' ll='19' type='const char * JoyName(const int deviceIndex)'/>
+<def f='codebrowser/src/tests/minkowski_hex_test.c' l='6' ll='10' type='const char * JoyName(const int deviceIndex)'/>
+<doc f='codebrowser/src/tests/minkowski_hex_test.c' l='5'>// Stubs</doc>
+<def f='codebrowser/src/tests/pic_test.c' l='12' ll='16' type='const char * JoyName(const int deviceIndex)'/>
+<doc f='codebrowser/src/tests/pic_test.c' l='11'>// Stubs</doc>
+<def f='codebrowser/src/tests/player_test.c' l='43' ll='47' type='const char * JoyName(const int deviceIndex)'/>
+<def f='codebrowser/src/tests/utils_test.c' l='11' ll='15' type='const char * JoyName(const int deviceIndex)'/>
+<doc f='codebrowser/src/tests/utils_test.c' l='10'>// Stubs</doc>

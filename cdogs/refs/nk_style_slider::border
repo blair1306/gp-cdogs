@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3057' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14276' u='r' c='nk_draw_slider'/>
+<offset>1728</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3056'>/* properties */</doc>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1371' type='void nk_list_view_end(struct nk_list_view * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21499' ll='21517' macro='1' type='void nk_list_view_end(struct nk_list_view * view)'/>

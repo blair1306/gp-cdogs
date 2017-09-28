@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='40' type='int32_t'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='259' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='145' u='w' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='222'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='222'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='223' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='223' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='222'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='222'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='223' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='223' u='r'/>

@@ -1,0 +1,4 @@
+<dec f='include/termios.h' l='66' type='int tcgetattr(int __fd, struct termios * __termios_p)'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='76' u='c' c='getch'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='92' u='c' c='kbhit'/>
+<doc f='include/termios.h' l='65'>/* Put the state of FD into *TERMIOS_P.  */</doc>

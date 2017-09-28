@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_gamecontroller.h' l='220' type='-1'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='208' u='r' c='ReadMappingsString'/>

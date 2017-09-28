@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3668' ll='3672'/>
+<size>520</size>
+<mbr r='nk_page::size' o='0' t='unsigned int'/>
+<mbr r='nk_page::next' o='64' t='struct nk_page *'/>
+<mbr r='nk_page::win' o='128' t='struct nk_page_element [1]'/>

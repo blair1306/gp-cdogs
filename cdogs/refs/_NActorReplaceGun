@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='61' ll='66'/>
+<size>136</size>
+<mbr r='_NActorReplaceGun::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorReplaceGun::GunIdx' o='32' t='uint32_t'/>
+<mbr r='_NActorReplaceGun::Gun' o='64' t='char [128]'/>

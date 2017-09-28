@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='453' type='nk_byte'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5228' u='w' c='nk_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5241' u='w' c='nk_rgb_hex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5254' u='w' c='nk_rgba_hex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5266' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5266' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5266' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5267' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5267' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5267' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5282' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5282' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5282' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5283' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5283' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5283' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5307' u='w' c='nk_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5330' u='w' c='nk_rgba_u32'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5341' u='w' c='nk_rgba_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5358' u='w' c='nk_rgb_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5462' u='r' c='nk_color_u32'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5473' u='r' c='nk_color_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5489' u='r' c='nk_color_d'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='766' u='w' c='DrawCharColor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='766' u='r' c='DrawCharColor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='770' u='r' c='DrawCharColor'/>
+<offset>8</offset>

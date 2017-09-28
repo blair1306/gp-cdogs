@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='609' type='int Mix_SetSoundFonts(const char * paths)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='608'>/* Set/Get/Iterate SoundFonts paths to use by supported MIDI backends */</doc>

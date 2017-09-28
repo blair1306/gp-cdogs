@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/campaigns.h' l='37' ll='42'/>
+<size>72</size>
+<mbr r='campaign_list::Name' o='0' t='char *'/>
+<mbr r='campaign_list::subFolders' o='64' t='CArray'/>
+<mbr r='campaign_list::list' o='320' t='CArray'/>

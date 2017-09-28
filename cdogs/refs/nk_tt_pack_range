@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9027' ll='9037'/>
+<size>40</size>
+<mbr r='nk_tt_pack_range::font_size' o='0' t='float'/>
+<mbr r='nk_tt_pack_range::first_unicode_codepoint_in_range' o='32' t='int'/>
+<mbr r='nk_tt_pack_range::array_of_unicode_codepoints' o='64' t='int *'/>
+<mbr r='nk_tt_pack_range::num_chars' o='128' t='int'/>
+<mbr r='nk_tt_pack_range::chardata_for_range' o='192' t='struct nk_tt_packedchar *'/>
+<mbr r='nk_tt_pack_range::h_oversample' o='256' t='unsigned char'/>
+<mbr r='nk_tt_pack_range::v_oversample' o='264' t='unsigned char'/>

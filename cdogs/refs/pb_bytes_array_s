@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='254' ll='257'/>
+<size>4</size>
+<mbr r='pb_bytes_array_s::size' o='0' t='pb_size_t'/>
+<mbr r='pb_bytes_array_s::bytes' o='16' t='uint8_t [1]'/>

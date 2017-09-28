@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='30' type='3'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='78' u='r' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='169' c='yajl_do_finish'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='215' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='239' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='387' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='431' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='456' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='484' u='r' c='yajl_do_parse'/>

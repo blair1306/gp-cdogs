@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9642' ll='9649' macro='1' type='void nk_tt_GetFontVMetrics(const struct nk_tt_fontinfo * info, int * ascent, int * descent, int * lineGap)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11008' u='c' c='nk_font_bake'/>

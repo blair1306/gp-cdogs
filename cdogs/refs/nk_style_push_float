@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1751' type='int nk_style_push_float(struct nk_context * , float * , float )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16587' macro='1' type='int nk_style_push_float(struct nk_context * ctx, float * address, float value)'/>

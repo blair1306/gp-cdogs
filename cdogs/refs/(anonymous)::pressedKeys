@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='72' type='KeyPress [512]'/>
+<offset>65536</offset>
+<use f='codebrowser/src/cdogs/keyboard.c' l='150' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='152' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='156' u='m' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='157' u='m' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='158' u='m' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='164' u='m' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='179' u='m' c='KeyIsPressed'/>

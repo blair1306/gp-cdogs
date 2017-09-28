@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1875' type='const char * nk_utf_at(const char * buffer, int length, int index, nk_rune * unicode, int * len)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6004' ll='6040' macro='1' type='const char * nk_utf_at(const char * buffer, int length, int index, nk_rune * unicode, int * len)'/>

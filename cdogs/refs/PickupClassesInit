@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='84' type='void PickupClassesInit(PickupClasses * classes, const char * filename, const AmmoClasses * ammo, const GunClasses * guns)'/>
+<use f='codebrowser/src/cdogs.c' l='244' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='168' ll='202' type='void PickupClassesInit(PickupClasses * classes, const char * filename, const AmmoClasses * ammo, const GunClasses * guns)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1348' u='c' c='main'/>

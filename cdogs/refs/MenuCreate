@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/menu.h' l='266' type='menu_t * MenuCreate(const char * name, menu_type_e type)'/>
+<use f='codebrowser/src/mainmenu.c' l='298' u='c' c='CreateStartGameMode'/>
+<use f='codebrowser/src/mainmenu.c' l='448' u='c' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='589' u='c' c='MenuCreateQuit'/>
+<use f='codebrowser/src/mainmenu.c' l='637' u='c' c='MenuCreateOptionChangeKey'/>
+<def f='codebrowser/src/menu.c' l='315' ll='324' type='menu_t * MenuCreate(const char * name, menu_type_e type)'/>
+<use f='codebrowser/src/menu.c' l='332' u='c' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='468' u='c' c='MenuCreateOptionToggle'/>
+<use f='codebrowser/src/menu.c' l='480' u='c' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='499' u='c' c='MenuCreateOptionSeed'/>
+<use f='codebrowser/src/menu.c' l='510' u='c' c='MenuCreateOptionUpDownFunc'/>
+<use f='codebrowser/src/menu.c' l='521' u='c' c='MenuCreateVoidFunc'/>
+<use f='codebrowser/src/menu.c' l='534' u='c' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='551' u='c' c='MenuCreateSeparator'/>
+<use f='codebrowser/src/menu.c' l='558' u='c' c='MenuCreateBack'/>
+<use f='codebrowser/src/menu.c' l='563' u='c' c='MenuCreateReturn'/>
+<use f='codebrowser/src/menu.c' l='573' u='c' c='MenuCreateCustom'/>
+<use f='codebrowser/src/weapon_menu.c' l='209' u='c' c='WeaponMenuCreate'/>

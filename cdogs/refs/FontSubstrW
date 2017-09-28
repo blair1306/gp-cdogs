@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/font.h' l='76' type='int FontSubstrW(const char * s, int len)'/>
+<use f='codebrowser/src/cdogs/font.c' l='141' u='c' c='FontStrW'/>
+<def f='codebrowser/src/cdogs/font.c' l='143' ll='166' type='int FontSubstrW(const char * s, int len)'/>
+<use f='codebrowser/src/cdogs/font.c' l='180' u='c' c='FontStrSize'/>
+<use f='codebrowser/src/cdogs/font.c' l='180' u='c' c='FontStrSize'/>

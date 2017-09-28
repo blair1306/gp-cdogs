@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='69' type='_Bool'/>
+<offset>1776</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='479' u='w' c='OnReceive'/>
+<use f='codebrowser/src/prep.c' l='160' u='r' c='CheckCampaignDefComplete'/>
+<use f='codebrowser/src/prep.c' l='162' u='r' c='CheckCampaignDefComplete'/>

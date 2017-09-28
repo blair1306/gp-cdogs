@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='80' type='void BlitMasked(GraphicsDevice * device, const Pic * pic, Vec2i pos, color_t mask, int isTransparent)'/>
+<def f='codebrowser/src/cdogs/blit.c' l='230' ll='285' type='void BlitMasked(GraphicsDevice * device, const Pic * pic, Vec2i pos, color_t mask, int isTransparent)'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='285' u='c' c='CPicDraw'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='106' u='c' c='DrawWallColumn'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='167' u='c' c='DrawFloor'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='253' u='c' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='371' u='c' c='DrawEditorTiles'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='279' u='c' c='DrawActorPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='491' u='c' c='DrawDyingBody'/>
+<use f='codebrowser/src/cdogs/font.c' l='235' u='c' c='FontChColor'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='567' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='575' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='594' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='602' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='200' u='c' c='MouseDraw'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='220' u='c' c='MouseDraw'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='437' u='c' c='UIObjectDrawAndAddChildren'/>

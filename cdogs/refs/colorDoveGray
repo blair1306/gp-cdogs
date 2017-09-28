@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/color.h' l='72' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='66' type='color_t'/>
+<use f='codebrowser/src/cdogs/files.c' l='669' u='r' c='RangeToColor'/>
+<use f='codebrowser/src/cdogs/mission.c' l='114' u='r' c='MissionInit'/>

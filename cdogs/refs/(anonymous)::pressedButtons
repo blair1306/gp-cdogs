@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='40' type='_Bool [8]'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/mouse.c' l='59' u='r' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='59' u='r' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='83' u='w' c='MouseOnButtonUp'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='120' u='w' c='MousePostPoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='123' u='r' c='MousePostPoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='125' u='r' c='MousePostPoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='131' u='w' c='MousePostPoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='147' u='r' c='MouseGetPressed'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='157' u='r' c='MouseIsPressed'/>

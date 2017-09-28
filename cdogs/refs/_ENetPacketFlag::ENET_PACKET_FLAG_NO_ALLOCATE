@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='114' type='4'/>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='113'>/** packet will not allocate data, and user must supply it instead */</doc>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='26' u='r' c='enet_packet_create'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='64' u='r' c='enet_packet_destroy'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='81' u='r' c='enet_packet_resize'/>

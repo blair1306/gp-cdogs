@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3033' type='nk_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14124' u='r' c='nk_do_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14126' u='r' c='nk_do_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14172' u='r' c='nk_do_selectable_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14174' u='r' c='nk_do_selectable_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16102' u='w' c='nk_style_from_table'/>
+<offset>2048</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3032'>/* optional user callbacks */</doc>

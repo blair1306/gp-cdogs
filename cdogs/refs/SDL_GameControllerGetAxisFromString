@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_gamecontroller.h' l='233' type='SDL_GameControllerAxis SDL_GameControllerGetAxisFromString(const char * pchString)'/>
+<doc f='include/SDL2/SDL_gamecontroller.h' l='230'>/**
+ *  turn this string into a axis mapping
+ */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='200' u='c' c='ReadMappingsString'/>

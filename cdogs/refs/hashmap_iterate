@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='47' type='int hashmap_iterate(map_t in, PFany f, any_t item)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='40'>/*
+ * Iteratively call f with argument (item, data) for
+ * each element data in the hashmap. The function must
+ * return a map status code. If it returns anything other
+ * than MAP_OK the traversal is terminated. f must
+ * not reenter any hashmap functions, or deadlock may arise.
+ */</doc>
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='315' ll='333' type='int hashmap_iterate(map_t m, PFany f, any_t item)'/>
+<use f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='372' u='c' c='hashmap_clear'/>
+<use f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='403' u='c' c='hashmap_destroy'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='310'>/*
+ * Iterate the function parameter over each element in the hashmap.  The
+ * additional any_t argument is passed to the function as its first
+ * argument and the hashmap element is the second.
+ */</doc>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='297' u='c' c='FindStylePics'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='298' u='c' c='FindStylePics'/>

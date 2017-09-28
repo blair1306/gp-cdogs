@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='73' type='SDL_Keymod'/>
+<offset>98304</offset>
+<use f='codebrowser/src/cdogs/keyboard.c' l='59' u='w' c='KeyInit'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='89' u='w' c='KeyPrePoll'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='774' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='980' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='657' u='r' c='MissionChangeWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='672' u='r' c='MissionChangeHeight'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='192' u='r' c='MissionChangeFillPercent'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='166' u='r' c='CampaignChangeSeed'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='133' u='r' c='BrushChangeGuideImageAlpha'/>

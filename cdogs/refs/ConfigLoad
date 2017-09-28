@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/config_io.h' l='34' type='Config ConfigLoad(const char * filename)'/>
+<use f='codebrowser/src/cdogs.c' l='145' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/config_io.c' l='35' ll='63' type='Config ConfigLoad(const char * filename)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1319' u='c' c='main'/>
+<use f='codebrowser/src/tests/config_test.c' l='43' u='c' c='_cbehave_feature_load_default'/>
+<use f='codebrowser/src/tests/config_test.c' l='44' u='c' c='_cbehave_feature_load_default'/>
+<use f='codebrowser/src/tests/config_test.c' l='59' u='c' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/config_test.c' l='65' u='c' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/config_test.c' l='80' u='c' c='_cbehave_feature_detect_version'/>
+<use f='codebrowser/src/tests/config_test.c' l='91' u='c' c='_cbehave_feature_detect_version'/>
+<use f='codebrowser/src/tests/config_test.c' l='108' u='c' c='_cbehave_feature_save_as_latest'/>

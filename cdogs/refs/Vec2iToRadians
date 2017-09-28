@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='118' type='double Vec2iToRadians(const Vec2i v)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='99' u='c' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='372' u='c' c='FireGuns'/>
+<def f='codebrowser/src/cdogs/defs.c' l='132' ll='135' type='double Vec2iToRadians(const Vec2i v)'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='357' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='568' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='343'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='343'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='344' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='344' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='343'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='343'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='344' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='344' u='r'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='246' u='w' c='TriggerTryActivate'/>

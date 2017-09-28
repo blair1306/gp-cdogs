@@ -1,0 +1,12 @@
+<def f='codebrowser/src/json/json.h' l='90' ll='101'/>
+<size>56</size>
+<doc f='codebrowser/src/json/json.h' l='87'>/**
+The JSON document tree node, which is a basic JSON type
+**/</doc>
+<mbr r='json_value::type' o='0' t='enum json_value_type'/>
+<mbr r='json_value::text' o='64' t='char *'/>
+<mbr r='json_value::next' o='128' t='struct json_value *'/>
+<mbr r='json_value::previous' o='192' t='struct json_value *'/>
+<mbr r='json_value::parent' o='256' t='struct json_value *'/>
+<mbr r='json_value::child' o='320' t='struct json_value *'/>
+<mbr r='json_value::child_end' o='384' t='struct json_value *'/>

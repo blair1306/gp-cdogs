@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/menu.h' l='253' type='GameLoopResult MenuUpdate(MenuSystem * ms)'/>
+<use f='codebrowser/src/briefing_screens.c' l='450' u='c' c='MissionSummaryUpdate'/>
+<use f='codebrowser/src/mainmenu.c' l='167' u='c' c='MainMenuUpdate'/>
+<use f='codebrowser/src/menu.c' l='146' u='c' c='DefaultMenuUpdate'/>
+<def f='codebrowser/src/menu.c' l='152' ll='189' type='GameLoopResult MenuUpdate(MenuSystem * ms)'/>
+<use f='codebrowser/src/password.c' l='420' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/prep.c' l='133' u='c' c='ScreenWaitUpdate'/>
+<use f='codebrowser/src/prep.c' l='220' u='c' c='NumPlayersUpdate'/>
+<use f='codebrowser/src/prep.c' l='650' u='c' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='178' u='c' c='PlayerListUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='417' u='c' c='DogfightScoresUpdate'/>

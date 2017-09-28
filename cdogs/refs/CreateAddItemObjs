@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_static_additem.h' l='36' type='UIObject * CreateAddItemObjs(Vec2i pos, EditorBrush * brush, CampaignOptions * co)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='372' u='c' c='CreateStaticMapObjs'/>
+<def f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='196' ll='254' type='UIObject * CreateAddItemObjs(Vec2i pos, EditorBrush * brush, CampaignOptions * co)'/>

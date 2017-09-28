@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13298' ll='13317' macro='1' type='void nk_textedit_clear_state(struct nk_text_edit * state, enum nk_text_edit_type type, nk_plugin_filter filter)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13325' u='c' c='nk_textedit_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13335' u='c' c='nk_textedit_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13345' u='c' c='nk_textedit_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14970' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15682' u='c' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20600' u='c' c='nk_edit_string'/>

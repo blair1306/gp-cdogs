@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='183'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='157' u='c'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='182'>/** Get a pointer to a yajl_val_object or NULL if the value is not an object. */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='491' u='c'/>

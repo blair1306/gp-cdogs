@@ -1,0 +1,3 @@
+<def f='codebrowser/src/tinydir/tinydir.h' l='535' ll='617' macro='1' type='int tinydir_file_open(tinydir_file * file, const char * path)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='114' u='c' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/utils.c' l='145' u='c' c='RealPath'/>

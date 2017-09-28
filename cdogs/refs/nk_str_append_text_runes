@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2308' type='int nk_str_append_text_runes(struct nk_str * , const nk_rune * , int )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6408' ll='6423' macro='1' type='int nk_str_append_text_runes(struct nk_str * str, const nk_rune * text, int len)'/>

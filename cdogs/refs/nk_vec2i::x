@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='456' type='short'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6902' u='w' c='nk_stroke_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6904' u='w' c='nk_stroke_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6922' u='w' c='nk_stroke_curve'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6924' u='w' c='nk_stroke_curve'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6926' u='w' c='nk_stroke_curve'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6928' u='w' c='nk_stroke_curve'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7109' u='w' c='nk_stroke_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7111' u='w' c='nk_stroke_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7113' u='w' c='nk_stroke_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7137' u='w' c='nk_fill_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7139' u='w' c='nk_fill_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7141' u='w' c='nk_fill_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7163' u='w' c='nk_stroke_polygon'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7185' u='w' c='nk_fill_polygon'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7207' u='w' c='nk_stroke_polyline'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8489' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8490' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8494' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8495' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8495' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8496' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8542' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8543' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8543' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8548' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8549' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8549' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8555' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8564' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8573' u='r' c='nk_convert'/>
+<offset>0</offset>

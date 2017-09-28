@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='180' type='NExploreTiles'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='578' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='580' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='581' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/los.c' l='169' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='170' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='177' u='a' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='181' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='182' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='187' u='m' c='LOSCalcFrom'/>

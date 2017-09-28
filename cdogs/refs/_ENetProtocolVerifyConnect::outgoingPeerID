@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='106' type='enet_uint16'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='406' u='w' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='944' u='r' c='enet_protocol_handle_verify_connect'/>

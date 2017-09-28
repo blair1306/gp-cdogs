@@ -1,0 +1,12 @@
+<dec f='include/SDL2/SDL_surface.h' l='73' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='388' u='r' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='396' u='r' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='398' u='r' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/font.c' l='78' u='r' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='83' u='r' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/pic.c' l='64' u='r' c='PicLoad'/>
+<use f='codebrowser/src/cdogs/pic.c' l='82' u='r' c='PicLoad'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='76' u='r' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='85' u='r' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='111' u='r' c='PicManagerAdd'/>

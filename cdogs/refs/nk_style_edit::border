@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3162' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14946' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14947' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14948' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14949' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15102' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15259' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16241' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16304' u='w' c='nk_style_from_table'/>
+<offset>6112</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3161'>/* properties */</doc>

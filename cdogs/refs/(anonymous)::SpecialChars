@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='141' type='CArray'/>
+<offset>13056</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='141'>// of int</doc>
+<use f='codebrowser/src/cdogs/ai.c' l='555' u='m' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/files.c' l='395' u='a' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='355' u='a' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='269' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='118' u='a' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='154' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='154' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='194' u='a' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/mission.c' l='245' u='m' c='SetupBadguysForMission'/>
+<use f='codebrowser/src/cdogs/mission.c' l='245' u='a' c='SetupBadguysForMission'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='298' u='m' c='DeleteSpecial'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='298' u='m' c='DeleteSpecial'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='298' u='m' c='DeleteSpecial'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='298' u='m' c='DeleteSpecial'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='299' u='a' c='DeleteSpecial'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='356' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='358' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='358' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='723' u='m' c='Delete'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1204' u='a' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1206' u='m' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='510' u='m' c='MissionGetSpecialCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='585' u='m' c='MissionDrawSpecialChar'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='918' u='a' c='MissionChangeSpecialChar'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='922' u='a' c='MissionChangeSpecialChar'/>

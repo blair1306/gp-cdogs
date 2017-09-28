@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='67' type='void JoyOnAxis(const SDL_ControllerAxisEvent e)'/>
+<use f='codebrowser/src/cdogs/events.c' l='143' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='241' ll='264' type='void JoyOnAxis(const SDL_ControllerAxisEvent e)'/>

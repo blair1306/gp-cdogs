@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='74' type='void NetServerSendGameStartMessages(NetServer * n, const int peerId)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='313' u='c' c='OnReceive'/>
+<def f='codebrowser/src/cdogs/net_server.c' l='408' ll='555' type='void NetServerSendGameStartMessages(NetServer * n, const int peerId)'/>
+<use f='codebrowser/src/game.c' l='274' u='c' c='RunGameOnEnter'/>

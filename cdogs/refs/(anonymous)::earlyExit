@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='43' type='int (*)(size_t, void *, void *, void *)'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/AStar.h' l='43'>// early termination, return 1 for success, -1 for failure, 0 to continue searching -- optional</doc>
+<use f='codebrowser/src/cdogs/AStar.c' l='454' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='455' u='r' c='ASPathCreate'/>

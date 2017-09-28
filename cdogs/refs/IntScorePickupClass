@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='98' type='PickupClass * IntScorePickupClass(const int i)'/>
+<doc f='codebrowser/src/cdogs/pickup_class.h' l='97'>// Get the ith &quot;Score&quot; type pickup</doc>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='377' ll='401' type='PickupClass * IntScorePickupClass(const int i)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='203' u='c' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='538' u='c' c='MissionChangeCollectObjectiveIndex'/>

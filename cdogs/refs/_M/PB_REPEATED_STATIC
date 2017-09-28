@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='407'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='406'>/* Repeated fields have a _count field and also the maximum number of entries. */</doc>

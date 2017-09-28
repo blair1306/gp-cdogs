@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2267' type='void nk_buffer_init_default(struct nk_buffer * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6053' ll='6061' macro='1' type='void nk_buffer_init_default(struct nk_buffer * buffer)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='132' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='133' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='210' u='c' c='nk_sdl_init'/>

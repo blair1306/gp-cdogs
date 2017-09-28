@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2538' ll='2544'/>
+<size>32</size>
+<mbr r='nk_command_line::header' o='0' t='struct nk_command'/>
+<mbr r='nk_command_line::line_thickness' o='128' t='unsigned short'/>
+<mbr r='nk_command_line::begin' o='144' t='struct nk_vec2i'/>
+<mbr r='nk_command_line::end' o='176' t='struct nk_vec2i'/>
+<mbr r='nk_command_line::color' o='208' t='struct nk_color'/>

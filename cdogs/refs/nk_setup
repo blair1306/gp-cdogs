@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='16727' ll='16739' macro='1' type='void nk_setup(struct nk_context * ctx, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16759' u='c' c='nk_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16773' u='c' c='nk_init_custom'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16793' u='c' c='nk_init'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/char_sprites.h' l='58' type='void CharSpriteClassesClear(map_t classes)'/>
+<def f='codebrowser/src/cdogs/draw/char_sprites.c' l='194' ll='197' type='void CharSpriteClassesClear(map_t classes)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='206' u='c' c='CharSpriteClassesTerminate'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='207' u='c' c='CharSpriteClassesTerminate'/>

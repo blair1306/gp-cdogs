@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='16664' ll='16675' macro='1' type='void nk_pool_free(struct nk_pool * pool)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16818' u='c' c='nk_free'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='46' type='void LoadVec2i(Vec2i * value, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='648' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='682' u='c' c='LoadBullet'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='112' ll='122' type='void LoadVec2i(Vec2i * value, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='418' u='c' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='752' u='c' c='LoadStaticExit'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='753' u='c' c='LoadStaticExit'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='323' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='350' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='351' u='c' c='TryLoadMapObject'/>

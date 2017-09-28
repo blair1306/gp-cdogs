@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2176' type='struct nk_font * nk_font_atlas_add_compressed(struct nk_font_atlas * , void * memory, nk_size size, float height, const struct nk_font_config * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='11748' ll='11782' macro='1' type='struct nk_font * nk_font_atlas_add_compressed(struct nk_font_atlas * atlas, void * compressed_data, nk_size compressed_size, float height, const struct nk_font_config * config)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11808' u='c' c='nk_font_atlas_add_compressed_base85'/>

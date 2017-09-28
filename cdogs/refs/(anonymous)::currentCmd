@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='48' type='int'/>
+<offset>288</offset>
+<use f='codebrowser/src/cdogs/joystick.c' l='74' u='w' c='JoyReset'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='102' u='r' c='JoyIsDown'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='114' u='r' c='JoyGetPressed'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='121' u='r' c='JoyPrePoll'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='270' u='w' c='JoyOnCmd'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='274' u='r' c='JoyOnCmd'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='278' u='w' c='JoyOnCmd'/>

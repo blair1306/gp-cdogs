@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='67' type='void DrawBufferTerminate(DrawBuffer * b)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='52' u='c' c='CameraTerminate'/>
+<def f='codebrowser/src/cdogs/draw/draw_buffer.c' l='72' ll='77' type='void DrawBufferTerminate(DrawBuffer * b)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='55' u='c' c='GrafxMakeRandomBackground'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='91' u='c' c='GrafxRedrawBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='154' u='c' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1407' u='c' c='main'/>

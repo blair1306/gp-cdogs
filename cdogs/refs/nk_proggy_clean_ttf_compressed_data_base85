@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11262' ll='11348' macro='1' type='const char [11981]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11825' u='r' c='nk_font_atlas_add_default'/>

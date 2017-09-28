@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2703' type='void nk_stroke_triangle(struct nk_command_buffer * , float , float , float , float , float , float , float line_thichness, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7090' ll='7116' macro='1' type='void nk_stroke_triangle(struct nk_command_buffer * b, float x0, float y0, float x1, float y1, float x2, float y2, float line_thickness, struct nk_color c)'/>

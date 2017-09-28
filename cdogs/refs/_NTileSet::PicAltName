@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='351' type='char [128]'/>
+<offset>1120</offset>
+<use f='codebrowser/src/cdogs/door.c' l='216' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='280' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='96' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='488' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='103'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='103'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='104' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='104' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='103'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='103'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='104' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='104' u='r'/>

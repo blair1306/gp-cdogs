@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/character.h' l='84' type='int CharacterGetStartingHealth(const Character * c, const _Bool isNPC)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='542' u='c' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='567' u='c' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='589' u='c' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='632' u='c' c='CreateEnemies'/>
+<def f='codebrowser/src/cdogs/character.c' l='264' ll='276' type='int CharacterGetStartingHealth(const Character * c, const _Bool isNPC)'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='122' u='c' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='171' u='c' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='197' u='c' c='AddObjective'/>

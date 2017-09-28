@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/AStar.c' l='51' type='int8_t [1]'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='514' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='550' u='r' c='ASPathGetNode'/>
+<offset>160</offset>

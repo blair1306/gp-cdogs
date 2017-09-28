@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='172' type='unsigned int *'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='500' u='w' c='MenuCreateOptionSeed'/>
+<use f='codebrowser/src/menu.c' l='938' u='r' c='MenuOptionGetIntValue'/>
+<use f='codebrowser/src/menu.c' l='1250' u='r' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1282' u='r' c='MenuActivate'/>

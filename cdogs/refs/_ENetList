@@ -1,0 +1,3 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/list.h' l='18' ll='21'/>
+<size>16</size>
+<mbr r='_ENetList::sentinel' o='0' t='ENetListNode'/>

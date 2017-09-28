@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1863' type='double nk_strtod(const char * str, const char ** endptr)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4282' ll='4338' macro='1' type='double nk_strtod(const char * str, const char ** endptr)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='3851' u='c' c='nk_strtof'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15718' u='c' c='nk_do_property'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/files.h' l='209' type='int IsCampaignOldFile(const char * filename)'/>
+<def f='codebrowser/src/cdogs/files.c' l='131' ll='142' type='int IsCampaignOldFile(const char * filename)'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='53' u='c' c='MapNewScan'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='120' u='c' c='MapNewLoad'/>

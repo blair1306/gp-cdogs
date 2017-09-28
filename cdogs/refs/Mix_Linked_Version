@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_mixer.h' l='65' type='const SDL_version * Mix_Linked_Version()'/>
+<doc f='include/SDL2/SDL_mixer.h' l='61'>/* This function gets the version of the dynamically linked SDL_mixer library.
+   it should NOT be used to fill a version structure, instead you should
+   use the SDL_MIXER_VERSION() macro.
+ */</doc>

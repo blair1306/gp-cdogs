@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='171' type='_Bool IsShortRange(const GunDescription * g)'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='130' u='c' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='134' u='c' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='183' u='c' c='SetupQuickPlayEnemies'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='596' ll='599' macro='1' type='_Bool IsShortRange(const GunDescription * g)'/>

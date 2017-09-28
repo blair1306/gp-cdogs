@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='93' type='_Bool CPicIsLoaded(const CPic * p)'/>
+<def f='codebrowser/src/cdogs/cpic.c' l='161' ll='176' macro='1' type='_Bool CPicIsLoaded(const CPic * p)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='312' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='318' u='c' c='TryLoadMapObject'/>

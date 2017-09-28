@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='82' type='void DrawShadow(GraphicsDevice * device, Vec2i pos, Vec2i size)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='296' u='c' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='262' u='c' c='DrawActorPics'/>
+<def f='codebrowser/src/cdogs/draw/drawtools.c' l='259' ll='300' type='void DrawShadow(GraphicsDevice * device, Vec2i pos, Vec2i size)'/>

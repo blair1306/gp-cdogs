@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2884' type='const struct nk_draw_command * nk__draw_list_end(const struct nk_draw_list * , const struct nk_buffer * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7358' ll='7377' macro='1' type='const struct nk_draw_command * nk__draw_list_end(const struct nk_draw_list * canvas, const struct nk_buffer * buffer)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7389' u='c' c='nk__draw_list_next'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8606' u='c' c='nk__draw_end'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='27' type='2'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='234' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1084' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1096' c='enet_protocol_handle_incoming_commands'/>

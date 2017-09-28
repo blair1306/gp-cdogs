@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='77' type='special_damage_e'/>
+<offset>1024</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='488' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='545' u='r' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='687' u='w' c='LoadBullet'/>

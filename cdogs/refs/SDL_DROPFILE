@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_events.h' l='138' type='4096'/>
+<doc f='include/SDL2/SDL_events.h' l='137'>/* Drag and drop events */</doc>
+<doc f='include/SDL2/SDL_events.h' l='138'>/**&lt; The system requests a file open */</doc>
+<use f='codebrowser/src/cdogs.c' l='196' u='r' c='main'/>
+<use f='codebrowser/src/cdogs/events.c' l='199' c='EventPoll'/>

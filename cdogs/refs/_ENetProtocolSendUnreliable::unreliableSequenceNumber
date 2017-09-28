@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='155' type='enet_uint16'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='665' u='w' c='enet_peer_setup_outgoing_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='885' u='r' c='enet_peer_queue_incoming_command'/>

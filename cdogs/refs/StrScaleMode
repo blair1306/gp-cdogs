@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config.h' l='74' type='int StrScaleMode(const char * str)'/>
+<def f='codebrowser/src/cdogs/config.c' l='111' ll='116' type='int StrScaleMode(const char * s)'/>
+<use f='codebrowser/src/cdogs/config.c' l='638' u='r' c='ConfigDefault'/>

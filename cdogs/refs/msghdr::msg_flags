@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='242' type='int'/>
+<offset>384</offset>
+<doc f='include/x86_64-linux-gnu/bits/socket.h' l='242'>/* Flags on received message.  */</doc>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='507' u='r' c='enet_socket_receive'/>

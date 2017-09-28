@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='65' type='Vec2i Vec2iCenterOfTile(Vec2i v)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='194' u='c' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/actors.c' l='450' u='c' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='731' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='478' u='c' c='AStarFollow'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='364' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/door.c' l='199' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='323' u='c' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='112' u='c' c='GrafxMakeBackground'/>
+<use f='codebrowser/src/cdogs/map.c' l='300' u='c' c='MapGetExitPos'/>
+<use f='codebrowser/src/cdogs/map.c' l='509' u='c' c='MapPlaceKey'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='614' u='c' c='MapObjectGetPlacementPos'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='126' u='c' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='158' u='c' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='223' u='c' c='AStarHeuristic'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='223' u='c' c='AStarHeuristic'/>
+<def f='codebrowser/src/cdogs/vector.c' l='146' ll='151' type='Vec2i Vec2iCenterOfTile(Vec2i v)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='145' u='c' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='c' c='HandleInput'/>
+<use f='codebrowser/src/game.c' l='252' u='c' c='RunGameOnEnter'/>

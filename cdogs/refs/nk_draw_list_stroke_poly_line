@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2903' type='void nk_draw_list_stroke_poly_line(struct nk_draw_list * , const struct nk_vec2 * pnts, const unsigned int cnt, struct nk_color , enum nk_draw_list_stroke , float thickness, enum nk_anti_aliasing )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7713' ll='7953' macro='1' type='void nk_draw_list_stroke_poly_line(struct nk_draw_list * list, const struct nk_vec2 * points, const unsigned int points_count, struct nk_color color, enum nk_draw_list_stroke closed, float thickness, enum nk_anti_aliasing aliasing)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8214' u='c' c='nk_draw_list_path_stroke'/>

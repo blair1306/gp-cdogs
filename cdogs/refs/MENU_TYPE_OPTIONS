@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/menu.h' l='63' type='1'/>
+<doc f='codebrowser/src/menu.h' l='63'>// menu with items, only up/down moves</doc>
+<use f='codebrowser/src/mainmenu.c' l='542' u='r' c='MenuCreateOptionsGraphics'/>
+<use f='codebrowser/src/mainmenu.c' l='577' u='r' c='MenuCreateOptionsControls'/>
+<use f='codebrowser/src/menu.c' l='310' u='r' c='MenuTypeHasSubMenus'/>
+<use f='codebrowser/src/menu.c' l='404' u='r' c='MenuCreateConfigOptions'/>
+<use f='codebrowser/src/menu.c' l='646' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1042' c='MenuProcessButtonCmd'/>
+<use f='codebrowser/src/prep.c' l='549' u='r' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='730' u='r' c='MenuCreateAllowedWeapons'/>

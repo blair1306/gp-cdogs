@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='78' type='InputKeys [2]'/>
+<offset>98688</offset>
+<use f='codebrowser/src/cdogs/events.c' l='216' u='a' c='GetKeyboardCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='419' u='a' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='67' u='w' c='KeyInit'/>
+<use f='codebrowser/src/menu.c' l='838' u='a' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1140' u='w' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1146' u='m' c='MenuProcessChangeKey'/>

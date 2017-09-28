@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13129' ll='13149' macro='1' type='nk_rune * nk_textedit_createundo(struct nk_text_undo_state * state, int pos, int insert_len, int delete_len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13272' u='c' c='nk_textedit_makeundo_insert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13279' u='c' c='nk_textedit_makeundo_delete'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13291' u='c' c='nk_textedit_makeundo_replace'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='129' type='void TriggerActivate(Trigger * t, CArray * mapTriggers)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='570' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='270' ll='275' type='void TriggerActivate(Trigger * t, CArray * mapTriggers)'/>

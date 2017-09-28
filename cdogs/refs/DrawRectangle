@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='74' type='void DrawRectangle(GraphicsDevice * device, Vec2i pos, Vec2i size, color_t color, int flags)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='139' u='c' c='DisplayExit'/>
+<def f='codebrowser/src/cdogs/draw/drawtools.c' l='205' ll='244' type='void DrawRectangle(GraphicsDevice * device, Vec2i pos, Vec2i size, color_t color, int flags)'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='337' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='153' u='c' c='HUDDrawGauge'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='155' u='c' c='HUDDrawGauge'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='207' u='c' c='Display'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='167' u='c' c='ColorPickerDrawSwatch'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='444' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='454' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='571' u='c' c='UITooltipDraw'/>
+<use f='codebrowser/src/game.c' l='196' u='c' c='RunGameOnEnter'/>
+<use f='codebrowser/src/player_select_menus.c' l='260' u='c' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='266' u='c' c='DrawColorMenu'/>
+<def f='codebrowser/src/tests/pic_test.c' l='32' ll='40' type='void DrawRectangle(GraphicsDevice * device, Vec2i pos, Vec2i size, color_t color, int flags)'/>

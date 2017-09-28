@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='273' type='enet_uint32'/>
+<offset>672</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='273'>/**&lt; Upstream bandwidth of the client in bytes/second */</doc>
+<use f='codebrowser/src/cdogs/enet/host.c' l='459' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='460' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='467' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='483' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='382' u='w' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='325' u='w' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='760' u='w' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='971' u='w' c='enet_protocol_handle_verify_connect'/>

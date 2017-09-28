@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='202' type='const char *(*)(int)'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='492' u='w' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='544' u='w' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='789' u='r' c='MenuDisplaySubmenus'/>

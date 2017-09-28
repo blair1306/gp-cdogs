@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='55' type='NCampaignDef NMakeCampaignDef(const CampaignOptions * co)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='369' u='c' c='OnConnect'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='82' ll='93' type='NCampaignDef NMakeCampaignDef(const CampaignOptions * co)'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3455' type='struct nk_menu_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18545' u='m' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18546' u='m' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18547' u='m' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18548' u='m' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18549' u='m' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18572' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18572' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18573' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18574' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18576' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18577' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21367' u='m' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21370' u='m' c='nk_group_scrolled_end'/>
+<offset>672</offset>

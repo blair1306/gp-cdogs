@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='46' type='CArray'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/ammo.h' l='46'>// of Ammo</doc>
+<use f='codebrowser/src/cdogs/ammo.c' l='52' u='m' c='StrAmmoId'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='52' u='a' c='StrAmmoId'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='74' u='a' c='AmmoInitialize'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='146' u='a' c='AmmoTerminate'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='147' u='a' c='AmmoTerminate'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='158' u='a' c='AmmoGetById'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='164' u='m' c='AmmoGetNumClasses'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='76' u='a' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='117' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='136' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='442' u='a' c='MapObjectsLoadAmmoAndGunSpawners'/>

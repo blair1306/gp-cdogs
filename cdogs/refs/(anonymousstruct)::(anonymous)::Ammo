@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='56' type='AddAmmo'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='614' u='m' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='157' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='170' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='171' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='182' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='183' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='244' u='m' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='246' u='m' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='274' u='m' c='PickupClassesLoadAmmo'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='275' u='m' c='PickupClassesLoadAmmo'/>

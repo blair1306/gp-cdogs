@@ -1,0 +1,27 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3038' ll='3075'/>
+<size>640</size>
+<mbr r='nk_style_slider::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_slider::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_slider::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_slider::border_color' o='768' t='struct nk_color'/>
+<mbr r='nk_style_slider::bar_normal' o='800' t='struct nk_color'/>
+<mbr r='nk_style_slider::bar_hover' o='832' t='struct nk_color'/>
+<mbr r='nk_style_slider::bar_active' o='864' t='struct nk_color'/>
+<mbr r='nk_style_slider::bar_filled' o='896' t='struct nk_color'/>
+<mbr r='nk_style_slider::cursor_normal' o='960' t='struct nk_style_item'/>
+<mbr r='nk_style_slider::cursor_hover' o='1216' t='struct nk_style_item'/>
+<mbr r='nk_style_slider::cursor_active' o='1472' t='struct nk_style_item'/>
+<mbr r='nk_style_slider::border' o='1728' t='float'/>
+<mbr r='nk_style_slider::rounding' o='1760' t='float'/>
+<mbr r='nk_style_slider::bar_height' o='1792' t='float'/>
+<mbr r='nk_style_slider::padding' o='1824' t='struct nk_vec2'/>
+<mbr r='nk_style_slider::spacing' o='1888' t='struct nk_vec2'/>
+<mbr r='nk_style_slider::cursor_size' o='1952' t='struct nk_vec2'/>
+<mbr r='nk_style_slider::show_buttons' o='2016' t='int'/>
+<mbr r='nk_style_slider::inc_button' o='2048' t='struct nk_style_button'/>
+<mbr r='nk_style_slider::dec_button' o='3456' t='struct nk_style_button'/>
+<mbr r='nk_style_slider::inc_symbol' o='4864' t='enum nk_symbol_type'/>
+<mbr r='nk_style_slider::dec_symbol' o='4896' t='enum nk_symbol_type'/>
+<mbr r='nk_style_slider::userdata' o='4928' t='nk_handle'/>
+<mbr r='nk_style_slider::draw_begin' o='4992' t='void (*)(struct nk_command_buffer *, nk_handle)'/>
+<mbr r='nk_style_slider::draw_end' o='5056' t='void (*)(struct nk_command_buffer *, nk_handle)'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17150' ll='17154' macro='1' type='int nk_panel_is_nonblock(enum nk_panel_type type)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17245' u='c' c='nk_panel_begin'/>

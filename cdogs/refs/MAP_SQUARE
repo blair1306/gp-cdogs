@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/map.h' l='69' type='5'/>
+<use f='codebrowser/src/cdogs/map.c' l='93' c='IMapTypeStr'/>
+<use f='codebrowser/src/cdogs/map.c' l='105' u='r' c='StrIMapType'/>
+<use f='codebrowser/src/cdogs/map.c' l='246' c='MapChangeFloor'/>
+<use f='codebrowser/src/cdogs/map.c' l='811' u='r' c='MapIsFullPosOKforPlayer'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='143' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='886' u='r' c='MapMakeSquare'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='568' u='r' c='CaveRoomOutsideOk'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='552' u='r' c='MapObjectIsTileOK'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='604' u='r' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='108' u='r' c='IsClear'/>

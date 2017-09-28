@@ -1,0 +1,37 @@
+<def f='codebrowser/src/cdogs/files.h' l='155' ll='194'/>
+<size>1324</size>
+<mbr r='MissionOld::title' o='0' t='char [60]'/>
+<mbr r='MissionOld::description' o='480' t='char [400]'/>
+<mbr r='MissionOld::wallStyle' o='3680' t='int32_t'/>
+<mbr r='MissionOld::floorStyle' o='3712' t='int32_t'/>
+<mbr r='MissionOld::roomStyle' o='3744' t='int32_t'/>
+<mbr r='MissionOld::exitStyle' o='3776' t='int32_t'/>
+<mbr r='MissionOld::keyStyle' o='3808' t='int32_t'/>
+<mbr r='MissionOld::doorStyle' o='3840' t='int32_t'/>
+<mbr r='MissionOld::mapWidth' o='3872' t='int32_t'/>
+<mbr r='MissionOld::mapHeight' o='3904' t='int32_t'/>
+<mbr r='MissionOld::wallCount' o='3936' t='int32_t'/>
+<mbr r='MissionOld::wallLength' o='3968' t='int32_t'/>
+<mbr r='MissionOld::roomCount' o='4000' t='int32_t'/>
+<mbr r='MissionOld::squareCount' o='4032' t='int32_t'/>
+<mbr r='MissionOld::exitLeft' o='4064' t='int32_t'/>
+<mbr r='MissionOld::exitTop' o='4096' t='int32_t'/>
+<mbr r='MissionOld::exitRight' o='4128' t='int32_t'/>
+<mbr r='MissionOld::exitBottom' o='4160' t='int32_t'/>
+<mbr r='MissionOld::objectiveCount' o='4192' t='int32_t'/>
+<mbr r='MissionOld::objectives' o='4224' t='struct MissionObjectiveOld [5]'/>
+<mbr r='MissionOld::baddieCount' o='7424' t='int32_t'/>
+<mbr r='MissionOld::baddies' o='7456' t='int32_t [12]'/>
+<mbr r='MissionOld::specialCount' o='7840' t='int32_t'/>
+<mbr r='MissionOld::specials' o='7872' t='int32_t [6]'/>
+<mbr r='MissionOld::itemCount' o='8064' t='int32_t'/>
+<mbr r='MissionOld::items' o='8096' t='int32_t [16]'/>
+<mbr r='MissionOld::itemDensity' o='8608' t='int32_t [16]'/>
+<mbr r='MissionOld::baddieDensity' o='9120' t='int32_t'/>
+<mbr r='MissionOld::weaponSelection' o='9152' t='int32_t'/>
+<mbr r='MissionOld::song' o='9184' t='char [80]'/>
+<mbr r='MissionOld::map' o='9824' t='char [80]'/>
+<mbr r='MissionOld::wallRange' o='10464' t='int32_t'/>
+<mbr r='MissionOld::floorRange' o='10496' t='int32_t'/>
+<mbr r='MissionOld::roomRange' o='10528' t='int32_t'/>
+<mbr r='MissionOld::altRange' o='10560' t='int32_t'/>

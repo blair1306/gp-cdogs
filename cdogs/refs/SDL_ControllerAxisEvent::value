@@ -1,0 +1,10 @@
+<dec f='include/SDL2/SDL_events.h' l='362' type='Sint16'/>
+<offset>128</offset>
+<doc f='include/SDL2/SDL_events.h' l='362'>/**&lt; The axis value (range: -32768 to 32767) */</doc>
+<use f='codebrowser/src/cdogs/joystick.c' l='244' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='244' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='249' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='250' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='253' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='254' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='258' u='r' c='JoyOnAxis'/>

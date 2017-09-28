@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='54' type='2'/>
+<use f='codebrowser/src/cdogs/actors.c' l='682' u='r' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/config.c' l='71' c='FireMoveStyleStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='80' u='r' c='StrFireMoveStyle'/>
+<use f='codebrowser/src/cdogs/config.c' l='586' u='r' c='ConfigDefault'/>

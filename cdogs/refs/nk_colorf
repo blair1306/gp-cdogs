@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='454'/>
+<size>16</size>
+<mbr r='nk_colorf::r' o='0' t='float'/>
+<mbr r='nk_colorf::g' o='32' t='float'/>
+<mbr r='nk_colorf::b' o='64' t='float'/>
+<mbr r='nk_colorf::a' o='96' t='float'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='32' ll='36'/>
+<size>8</size>
+<mbr r='_NActorDir::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorDir::Dir' o='32' t='int32_t'/>

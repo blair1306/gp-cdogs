@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='191' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/menu.h:187:5)'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='522' u='m' c='MenuCreateVoidFunc'/>
+<use f='codebrowser/src/menu.c' l='523' u='m' c='MenuCreateVoidFunc'/>
+<use f='codebrowser/src/menu.c' l='1327' u='m' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1328' u='m' c='MenuActivate'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='99' type='music_status_e'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/music.c' l='65' u='w' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='72' u='w' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='138' u='r' c='MusicPause'/>
+<use f='codebrowser/src/cdogs/music.c' l='141' u='w' c='MusicPause'/>
+<use f='codebrowser/src/cdogs/music.c' l='147' u='r' c='MusicResume'/>
+<use f='codebrowser/src/cdogs/music.c' l='150' u='w' c='MusicResume'/>
+<use f='codebrowser/src/cdogs/music.c' l='168' u='r' c='MusicGetStatus'/>

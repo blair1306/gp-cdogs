@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2582' ll='2589'/>
+<size>40</size>
+<mbr r='nk_command_triangle::header' o='0' t='struct nk_command'/>
+<mbr r='nk_command_triangle::line_thickness' o='128' t='unsigned short'/>
+<mbr r='nk_command_triangle::a' o='144' t='struct nk_vec2i'/>
+<mbr r='nk_command_triangle::b' o='176' t='struct nk_vec2i'/>
+<mbr r='nk_command_triangle::c' o='208' t='struct nk_vec2i'/>
+<mbr r='nk_command_triangle::color' o='240' t='struct nk_color'/>

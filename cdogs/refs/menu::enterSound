@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='140' type='MenuSound'/>
+<offset>896</offset>
+<use f='codebrowser/src/mainmenu.c' l='299' u='w' c='CreateStartGameMode'/>
+<use f='codebrowser/src/mainmenu.c' l='449' u='w' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/menu.c' l='322' u='w' c='MenuCreate'/>
+<use f='codebrowser/src/menu.c' l='980' u='r' c='MenuProcessCmd'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='160' type='char * CDogsGetCWD(char * buf)'/>
+<use f='codebrowser/src/cdogs/utils.c' l='165' u='c' c='RealPath'/>
+<def f='codebrowser/src/cdogs/utils.c' l='313' ll='327' type='char * CDogsGetCWD(char * buf)'/>
+<use f='codebrowser/src/cdogs/utils.c' l='335' u='c' c='RelPathFromCWD'/>
+<use f='codebrowser/src/cdogs/utils.c' l='335' u='c' c='RelPathFromCWD'/>
+<use f='codebrowser/src/cdogs/utils.c' l='336' u='c' c='RelPathFromCWD'/>
+<use f='codebrowser/src/cdogs/utils.c' l='358' u='c' c='GetDataFilePath'/>

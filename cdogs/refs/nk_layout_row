@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1328' type='void nk_layout_row(struct nk_context * , enum nk_layout_format , float height, int cols, const float * ratio)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18782' ll='18820' macro='1' type='void nk_layout_row(struct nk_context * ctx, enum nk_layout_format fmt, float height, int cols, const float * ratio)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='486' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='494' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='512' u='c' c='Draw'/>

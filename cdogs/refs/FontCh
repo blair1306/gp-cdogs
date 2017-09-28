@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/font.h' l='82' type='Vec2i FontCh(const char c, const Vec2i pos)'/>
+<doc f='codebrowser/src/cdogs/font.h' l='81'>// Returns updated cursor position</doc>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='467' u='c' c='DrawCharacterSimple'/>
+<def f='codebrowser/src/cdogs/font.c' l='205' ll='208' type='Vec2i FontCh(const char c, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='435' u='c' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='437' u='c' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='597' u='c' c='Save'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='599' u='c' c='Save'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='49' u='c' c='DisplayMapItemWithDensity'/>
+<use f='codebrowser/src/password.c' l='297' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/password.c' l='299' u='c' c='EnterCodeScreenDraw'/>

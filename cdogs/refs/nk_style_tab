@@ -1,0 +1,16 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3245' ll='3265'/>
+<size>784</size>
+<mbr r='nk_style_tab::background' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_tab::border_color' o='256' t='struct nk_color'/>
+<mbr r='nk_style_tab::text' o='288' t='struct nk_color'/>
+<mbr r='nk_style_tab::tab_maximize_button' o='320' t='struct nk_style_button'/>
+<mbr r='nk_style_tab::tab_minimize_button' o='1728' t='struct nk_style_button'/>
+<mbr r='nk_style_tab::node_maximize_button' o='3136' t='struct nk_style_button'/>
+<mbr r='nk_style_tab::node_minimize_button' o='4544' t='struct nk_style_button'/>
+<mbr r='nk_style_tab::sym_minimize' o='5952' t='enum nk_symbol_type'/>
+<mbr r='nk_style_tab::sym_maximize' o='5984' t='enum nk_symbol_type'/>
+<mbr r='nk_style_tab::border' o='6016' t='float'/>
+<mbr r='nk_style_tab::rounding' o='6048' t='float'/>
+<mbr r='nk_style_tab::indent' o='6080' t='float'/>
+<mbr r='nk_style_tab::padding' o='6112' t='struct nk_vec2'/>
+<mbr r='nk_style_tab::spacing' o='6176' t='struct nk_vec2'/>

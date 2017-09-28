@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='333' ll='338'/>
+<size>20</size>
+<mbr r='_NMissionComplete::ShowMsg' o='0' t='_Bool'/>
+<mbr r='_NMissionComplete::ExitStart' o='32' t='NVec2i'/>
+<mbr r='_NMissionComplete::ExitEnd' o='96' t='NVec2i'/>

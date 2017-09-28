@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3978' ll='3990' macro='1' type='float nk_cos(float x)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='3848' u='c' c='nk_draw_list_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='3848' u='c' c='nk_draw_list_path_arc_to'/>

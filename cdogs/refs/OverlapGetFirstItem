@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='105' type='TTileItem * OverlapGetFirstItem(const TTileItem * item, const Vec2i pos, const Vec2i size, const CollisionParams params)'/>
+<doc f='codebrowser/src/cdogs/collision/collision.h' l='104'>// Get the first TTileItem that overlaps</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='226' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='275' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='281' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='502' u='c' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='893' u='c' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/ai.c' l='143' u='c' c='IsPosOK'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='387' u='c' c='AIGetObjectRunningInto'/>
+<def f='codebrowser/src/cdogs/collision/collision.c' l='377' ll='386' type='TTileItem * OverlapGetFirstItem(const TTileItem * item, const Vec2i pos, const Vec2i size, const CollisionParams params)'/>

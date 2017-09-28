@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='5917' ll='5927' macro='1' type='nk_rune nk_utf_decode_byte(char c, int * i)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5942' u='c' c='nk_utf_decode'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5947' u='c' c='nk_utf_decode'/>

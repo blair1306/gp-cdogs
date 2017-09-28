@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11510' ll='11512' macro='1' type='unsigned int nk_decode_85_byte(char c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11520' u='c' c='nk_decode_85'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11521' u='c' c='nk_decode_85'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11522' u='c' c='nk_decode_85'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11523' u='c' c='nk_decode_85'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11524' u='c' c='nk_decode_85'/>

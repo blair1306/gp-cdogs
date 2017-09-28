@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/char_sprites.h' l='37' type='BodyPart [8][4]'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='133' u='w' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='209' u='r' c='GetCharacterPics'/>

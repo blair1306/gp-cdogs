@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13556' ll='13575' macro='1' type='const struct nk_style_item * nk_draw_button(struct nk_command_buffer * out, const struct nk_rect * bounds, nk_flags state, const struct nk_style_button * style)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13611' u='c' c='nk_draw_button_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13662' u='c' c='nk_draw_button_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13704' u='c' c='nk_draw_button_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13747' u='c' c='nk_draw_button_text_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13811' u='c' c='nk_draw_button_text_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20040' u='c' c='nk_button_color'/>

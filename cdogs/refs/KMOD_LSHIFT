@@ -1,0 +1,7 @@
+<dec f='include/SDL2/SDL_keycode.h' l='320' type='1'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='774' macro='1' u='r'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='657' macro='1' u='r'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='672' macro='1' u='r'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='192' macro='1' u='r'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='166' macro='1' u='r'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='133' macro='1' u='r'/>

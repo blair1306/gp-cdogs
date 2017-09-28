@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='122' type='_Bool pb_encode_tag(pb_ostream_t * stream, pb_wire_type_t wiretype, uint32_t field_number)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='133' u='c' c='encode_array'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='461' ll='465' macro='1' type='_Bool pb_encode_tag(pb_ostream_t * stream, pb_wire_type_t wiretype, uint32_t field_number)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='496' u='c' c='pb_encode_tag_for_field'/>

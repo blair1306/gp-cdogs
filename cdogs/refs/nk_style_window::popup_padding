@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3325' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16494' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17104' u='r' c='nk_panel_get_padding'/>
+<offset>5376</offset>

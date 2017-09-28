@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='145' type='_Bool MapObjectIsTileOKStrict(const MapObject * obj, const unsigned short tile, const _Bool isEmpty, const unsigned short tileAbove, const unsigned short tileBelow, const int numWallsAdjacent, const int numWallsAround)'/>
+<use f='codebrowser/src/cdogs/map.c' l='372' u='c' c='MapTryPlaceOneObject'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='567' ll='611' macro='1' type='_Bool MapObjectIsTileOKStrict(const MapObject * obj, const unsigned short tile, const _Bool isEmpty, const unsigned short tileAbove, const unsigned short tileBelow, const int numWallsAdjacent, const int numWallsAround)'/>

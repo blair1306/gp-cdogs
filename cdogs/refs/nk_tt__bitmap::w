@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9071' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9969' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9970' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9973' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9984' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9985' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10017' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10021' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10347' u='w' c='nk_tt_MakeGlyphBitmapSubpixel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10351' u='r' c='nk_tt_MakeGlyphBitmapSubpixel'/>
+<offset>0</offset>

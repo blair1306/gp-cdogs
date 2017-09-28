@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13828' ll='13863' macro='1' type='int nk_do_button_text_image(nk_flags * state, struct nk_command_buffer * out, struct nk_rect bounds, struct nk_image img, const char * str, int len, nk_flags align, enum nk_button_behavior behavior, const struct nk_style_button * style, const struct nk_user_font * font, const struct nk_input * in)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20184' u='c' c='nk_button_image_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21949' u='c' c='nk_contextual_item_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22928' u='c' c='nk_menu_begin_image_text'/>

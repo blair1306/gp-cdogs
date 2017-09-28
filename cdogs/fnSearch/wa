@@ -1,0 +1,9 @@
+WallClockDraw|WallClockDraw
+WallClockInit|WallClockInit
+WallClockSetTime|WallClockSetTime
+WallClockUpdate|WallClockUpdate
+WatchAddAction|WatchAddAction
+WatchAddCondition|WatchAddCondition
+WatchNew|WatchNew
+WatchesInit|WatchesInit
+WatchesTerminate|WatchesTerminate

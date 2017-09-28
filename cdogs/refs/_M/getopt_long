@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/XGetopt.h' l='76'/>
+<use f='codebrowser/src/XGetopt.h' l='120' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='432' u='c'/>
+<use f='codebrowser/src/command_line.c' l='140' u='c'/>

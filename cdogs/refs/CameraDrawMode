@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='63' type='void CameraDrawMode(const Camera * camera)'/>
+<def f='codebrowser/src/cdogs/camera.c' l='355' ll='422' type='void CameraDrawMode(const Camera * camera)'/>
+<use f='codebrowser/src/game.c' l='729' u='c' c='RunGameDraw'/>

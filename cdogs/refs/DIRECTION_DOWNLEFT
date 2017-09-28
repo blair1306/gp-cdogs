@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='90' type='5'/>
+<use f='codebrowser/src/cdogs/ai.c' l='165' c='IsDirectionOK'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='410' c='AIIsFacing'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='689' c='AIMoveAwayFromLine'/>
+<use f='codebrowser/src/cdogs/defs.c' l='86' u='r'/>
+<use f='codebrowser/src/cdogs/defs.c' l='86' u='r'/>

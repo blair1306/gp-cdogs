@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='395' type='size_t'/>
+<offset>88128</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='395'>/**&lt; the maximum aggregate amount of buffer space a peer may use waiting for packets to be delivered */</doc>
+<use f='codebrowser/src/cdogs/enet/host.c' l='104' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='933' u='r' c='enet_peer_queue_incoming_command'/>

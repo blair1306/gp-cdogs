@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/sys_config.h' l='34'/>
+<doc f='codebrowser/src/cdogs/sys_config.h' l='33'>/* where to look for the cdogs data files */</doc>
+<use f='codebrowser/src/cdogs/utils.c' l='351' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='353' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='363' u='c'/>

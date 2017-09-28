@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1394' type='1'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19357' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19639' u='r' c='nk_widget'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1394'>/* The widget is completely inside the window and can be updated and drawn */</doc>

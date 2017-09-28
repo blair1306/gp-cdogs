@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config.h' l='196' type='Config ConfigDefault()'/>
+<def f='codebrowser/src/cdogs/config.c' l='559' ll='739' type='Config ConfigDefault()'/>
+<use f='codebrowser/src/cdogs/config_io.c' l='38' u='c' c='ConfigLoad'/>
+<use f='codebrowser/src/tests/pic_test.c' l='51' u='c' c='_cbehave_feature_PicLoad'/>

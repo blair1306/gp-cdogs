@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='140' type='CArray'/>
+<offset>12800</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='140'>// of int (character index)</doc>
+<use f='codebrowser/src/cdogs/ai.c' l='532' u='m' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/files.c' l='390' u='a' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='353' u='a' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='268' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='117' u='a' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='153' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='153' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='193' u='a' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/mission.c' l='241' u='m' c='SetupBadguysForMission'/>
+<use f='codebrowser/src/cdogs/mission.c' l='241' u='a' c='SetupBadguysForMission'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='168' u='a' c='SetupQuickPlayEnemies'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='284' u='m' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='291' u='m' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='291' u='m' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='291' u='m' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='291' u='m' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='292' u='a' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='349' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='351' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='351' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='714' u='m' c='Delete'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1194' u='a' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1196' u='m' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='499' u='m' c='MissionGetCharacterCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='567' u='m' c='MissionDrawEnemy'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='906' u='a' c='MissionChangeEnemy'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='910' u='a' c='MissionChangeEnemy'/>

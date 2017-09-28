@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3608' type='enum nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19941' u='w' c='nk_button_push_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19961' u='r' c='nk_button_pop_behavior'/>
+<offset>64</offset>

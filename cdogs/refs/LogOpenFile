@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/log.h' l='66' type='void LogOpenFile(const char * filename)'/>
+<def f='codebrowser/src/cdogs/log.c' l='122' ll='131' type='void LogOpenFile(const char * filename)'/>
+<use f='codebrowser/src/command_line.c' l='199' u='c' c='ParseArgs'/>

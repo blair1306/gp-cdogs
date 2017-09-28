@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/sys_config.h' l='45'/>
+<use f='codebrowser/src/cdogs/mission.h' l='132' u='c'/>
+<use f='codebrowser/src/cdogs/mission.h' l='133' u='c'/>
+<use f='codebrowser/src/cdogs/mission.h' l='134' u='c'/>
+<use f='codebrowser/src/cdogs/mission.h' l='135' u='c'/>
+<use f='codebrowser/src/cdogs/mission.h' l='136' u='c'/>
+<use f='codebrowser/src/cdogs/mission.h' l='137' u='c'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='774' u='c'/>
+<use f='codebrowser/src/cdogs/door.c' l='363' u='c'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='282' u='c'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='60' u='c'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='303' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='103' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='132' u='c'/>
+<use f='codebrowser/src/mainmenu.c' l='346' u='c'/>
+<use f='codebrowser/src/mainmenu.c' l='364' u='c'/>
+<use f='codebrowser/src/password.c' l='386' u='c'/>

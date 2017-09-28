@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/ai.c' l='264' ll='274' type='void Detour(TActor * actor)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='483' u='c' c='GetCmd'/>

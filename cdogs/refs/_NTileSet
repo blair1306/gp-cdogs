@@ -1,0 +1,7 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='347' ll='354'/>
+<size>272</size>
+<mbr r='_NTileSet::Pos' o='0' t='NVec2i'/>
+<mbr r='_NTileSet::Flags' o='64' t='uint32_t'/>
+<mbr r='_NTileSet::PicName' o='96' t='char [128]'/>
+<mbr r='_NTileSet::PicAltName' o='1120' t='char [128]'/>
+<mbr r='_NTileSet::RunLength' o='2144' t='int32_t'/>

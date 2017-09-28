@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='46' type='void CArrayResize(CArray * a, const size_t size, const void * value)'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='108' ll='119' type='void CArrayResize(CArray * a, const size_t size, const void * value)'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='47' u='c' c='HUDNumPopupsInit'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='84' u='c' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='137' u='c' c='LinkDisconnectedAreas'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='167' u='c' c='LinkDisconnectedAreas'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='143' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='156' u='c' c='CharEditor'/>

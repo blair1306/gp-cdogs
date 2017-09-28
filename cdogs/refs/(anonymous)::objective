@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='54' type='CArray'/>
+<offset>512</offset>
+<doc f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='54'>// of HUDNumPopup, one per objective</doc>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='46' u='a' c='HUDNumPopupsInit'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='48' u='a' c='HUDNumPopupsInit'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='49' u='a' c='HUDNumPopupsInit'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='54' u='a' c='HUDNumPopupsTerminate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='112' u='a' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='155' u='m' c='HUDPopupsUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='155' u='a' c='HUDPopupsUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='181' u='a' c='HUDNumPopupsDrawObjective'/>

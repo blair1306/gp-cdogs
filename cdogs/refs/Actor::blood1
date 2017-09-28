@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='150' type='Emitter'/>
+<offset>3968</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='149'>// Gore emitters</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='1257' u='a' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1484' u='a' c='ActorAddBloodSplatters'/>

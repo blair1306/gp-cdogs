@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1108' type='int nk_begin(struct nk_context * ctx, const char * title, struct nk_rect bounds, nk_flags flags)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='17996' ll='18001' macro='1' type='int nk_begin(struct nk_context * ctx, const char * title, struct nk_rect bounds, nk_flags flags)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='370' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='442' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='482' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='503' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='533' u='c' c='Draw'/>

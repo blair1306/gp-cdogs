@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='14842' ll='14921' macro='1' type='void nk_edit_draw_text(struct nk_command_buffer * out, const struct nk_style_edit * style, float pos_x, float pos_y, float x_offset, const char * text, int byte_len, float row_height, const struct nk_user_font * font, struct nk_color background, struct nk_color foreground, int is_selected)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15314' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15323' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15334' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15349' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15415' u='c' c='nk_do_edit'/>

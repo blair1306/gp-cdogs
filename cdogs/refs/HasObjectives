@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='44' type='_Bool HasObjectives(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='80' ll='83' macro='1' type='_Bool HasObjectives(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='650' u='c' c='HUDDraw'/>
+<use f='codebrowser/src/cdogs/map.c' l='732' u='c' c='MapLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='96' u='c' c='MapStaticLoadDynamic'/>

@@ -1,0 +1,13 @@
+<dec f='include/SDL2/SDL_render.h' l='839' type='void SDL_DestroyTexture(SDL_Texture * texture)'/>
+<doc f='include/SDL2/SDL_render.h' l='833'>/**
+ *  \brief Destroy the specified texture.
+ *
+ *  \sa SDL_CreateTexture()
+ *  \sa SDL_CreateTextureFromSurface()
+ */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='323' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='349' u='c' c='DestroyTextures'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='350' u='c' c='DestroyTextures'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='351' u='c' c='DestroyTextures'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='352' u='c' c='DestroyTextures'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='383' u='c' c='GraphicsTerminate'/>

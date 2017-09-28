@@ -1,0 +1,19 @@
+<def f='codebrowser/src/menu.h' l='123' ll='219'/>
+<size>256</size>
+<mbr r='menu::name' o='0' t='char *'/>
+<mbr r='menu::type' o='64' t='menu_type_e'/>
+<mbr r='menu::parentMenu' o='128' t='struct menu *'/>
+<mbr r='menu::isDisabled' o='192' t='_Bool'/>
+<mbr r='menu::color' o='200' t='color_t'/>
+<mbr r='menu::customPostEnterFunc' o='256' t='MenuFunc'/>
+<mbr r='menu::customPostEnterData' o='320' t='void *'/>
+<mbr r='menu::isCustomPostEnterDataDynamic' o='384' t='_Bool'/>
+<mbr r='menu::customPostUpdateFunc' o='448' t='MenuFunc'/>
+<mbr r='menu::customPostUpdateData' o='512' t='void *'/>
+<mbr r='menu::isCustomPostUpdateDataDynamic' o='576' t='_Bool'/>
+<mbr r='menu::customPostInputFunc' o='640' t='MenuPostInputFunc'/>
+<mbr r='menu::customPostInputData' o='704' t='void *'/>
+<mbr r='menu::customDisplayFunc' o='768' t='MenuDisplayFunc'/>
+<mbr r='menu::customDisplayData' o='832' t='const void *'/>
+<mbr r='menu::enterSound' o='896' t='MenuSound'/>
+<mbr r='menu::u' o='960' t='union (anonymous union at /home/jon/workspace/cdogs-sdl/src/menu.h:141:2)'/>

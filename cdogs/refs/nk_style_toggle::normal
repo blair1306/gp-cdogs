@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2975' type='struct nk_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13912' u='a' c='nk_draw_checkbox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13955' u='a' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16050' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16069' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='125' u='m' c='CharEditor'/>
+<offset>0</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2974'>/* background */</doc>

@@ -1,0 +1,24 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3332' ll='3356'/>
+<size>7536</size>
+<mbr r='nk_style::font' o='0' t='const struct nk_user_font *'/>
+<mbr r='nk_style::cursors' o='64' t='const struct nk_cursor *[7]'/>
+<mbr r='nk_style::cursor_active' o='512' t='const struct nk_cursor *'/>
+<mbr r='nk_style::cursor_last' o='576' t='struct nk_cursor *'/>
+<mbr r='nk_style::cursor_visible' o='640' t='int'/>
+<mbr r='nk_style::text' o='672' t='struct nk_style_text'/>
+<mbr r='nk_style::button' o='768' t='struct nk_style_button'/>
+<mbr r='nk_style::contextual_button' o='2176' t='struct nk_style_button'/>
+<mbr r='nk_style::menu_button' o='3584' t='struct nk_style_button'/>
+<mbr r='nk_style::option' o='4992' t='struct nk_style_toggle'/>
+<mbr r='nk_style::checkbox' o='6912' t='struct nk_style_toggle'/>
+<mbr r='nk_style::selectable' o='8832' t='struct nk_style_selectable'/>
+<mbr r='nk_style::slider' o='11072' t='struct nk_style_slider'/>
+<mbr r='nk_style::progress' o='16192' t='struct nk_style_progress'/>
+<mbr r='nk_style::property' o='18240' t='struct nk_style_property'/>
+<mbr r='nk_style::edit' o='28736' t='struct nk_style_edit'/>
+<mbr r='nk_style::chart' o='35136' t='struct nk_style_chart'/>
+<mbr r='nk_style::scrollh' o='35648' t='struct nk_style_scrollbar'/>
+<mbr r='nk_style::scrollv' o='40576' t='struct nk_style_scrollbar'/>
+<mbr r='nk_style::tab' o='45504' t='struct nk_style_tab'/>
+<mbr r='nk_style::combo' o='51776' t='struct nk_style_combo'/>
+<mbr r='nk_style::window' o='54592' t='struct nk_style_window'/>

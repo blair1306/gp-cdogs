@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='86' type='void BlitCharMultichannel(GraphicsDevice * device, const Pic * pic, const Vec2i pos, const CharColors * masks)'/>
+<def f='codebrowser/src/cdogs/blit.c' l='286' ll='334' type='void BlitCharMultichannel(GraphicsDevice * device, const Pic * pic, const Vec2i pos, const CharColors * masks)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='283' u='c' c='DrawActorPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='481' u='c' c='DrawHead'/>

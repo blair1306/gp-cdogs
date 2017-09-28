@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2764' type='int nk_input_is_mouse_hovering_rect(const struct nk_input * , struct nk_rect )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12227' ll='12232' macro='1' type='int nk_input_is_mouse_hovering_rect(const struct nk_input * i, struct nk_rect rect)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12245' u='c' c='nk_input_mouse_clicked'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13535' u='c' c='nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14218' u='c' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14389' u='c' c='nk_progress_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14503' u='c' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14960' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14995' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15465' u='c' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15776' u='c' c='nk_color_picker_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17276' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17478' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18085' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18286' u='c' c='nk_window_is_hovered'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18301' u='c' c='nk_window_is_any_hovered'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18303' u='c' c='nk_window_is_any_hovered'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18307' u='c' c='nk_window_is_any_hovered'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19560' u='c' c='nk_widget_is_hovered'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21104' u='c' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21126' u='c' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21654' u='c' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21655' u='c' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22034' u='c' c='nk_contextual_end'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='784' u='c' c='DrawFlag'/>

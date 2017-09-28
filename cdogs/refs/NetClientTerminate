@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='63' type='void NetClientTerminate(NetClient * n)'/>
+<use f='codebrowser/src/cdogs.c' l='298' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/net_client.c' l='67' ll='84' type='void NetClientTerminate(NetClient * n)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='300' u='c' c='NetClientPoll'/>

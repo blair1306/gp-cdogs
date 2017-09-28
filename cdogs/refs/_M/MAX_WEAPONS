@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/player.h' l='32'/>
+<use f='codebrowser/src/cdogs/player.h' l='45' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='215' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='758' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='885' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='904' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='907' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='920' u='c'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='260' u='c'/>
+<use f='codebrowser/src/weapon_menu.c' l='59' u='c'/>

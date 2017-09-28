@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='62' type='yajl_status yajl_do_parse(yajl_handle handle, const unsigned char * jsonText, size_t jsonTextLen)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='130' u='c' c='yajl_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='162' u='c' c='yajl_do_finish'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='185' ll='496' type='yajl_status yajl_do_parse(yajl_handle hand, const unsigned char * jsonText, size_t jsonTextLen)'/>

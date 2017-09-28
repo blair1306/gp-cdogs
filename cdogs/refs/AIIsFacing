@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='68' type='_Bool AIIsFacing(const TActor * a, const Vec2i targetFull, const direction_e d)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='81' u='c' c='IsFacingPlayer'/>
+<use f='codebrowser/src/cdogs/ai.c' l='122' u='c' c='CanSeeAPlayer'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='247' u='c' c='AICoopGetCmdNormal'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='396' ll='425' macro='1' type='_Bool AIIsFacing(const TActor * a, const Vec2i targetFull, const direction_e d)'/>

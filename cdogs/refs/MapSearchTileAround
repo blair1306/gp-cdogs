@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map.h' l='153' type='Vec2i MapSearchTileAround(Map * map, Vec2i start, TileSelectFunc func)'/>
+<doc f='codebrowser/src/cdogs/map.h' l='152'>// Find a tile around the start that satisfies a condition</doc>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='727' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='439' u='c' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='544' u='c' c='AIGoto'/>
+<def f='codebrowser/src/cdogs/map.c' l='891' ll='931' type='Vec2i MapSearchTileAround(Map * map, Vec2i start, TileSelectFunc func)'/>

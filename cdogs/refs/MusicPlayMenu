@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/music.h' l='56' type='void MusicPlayMenu(SoundDevice * device)'/>
+<use f='codebrowser/src/cdogs.c' l='210' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/music.c' l='116' ll='124' type='void MusicPlayMenu(SoundDevice * device)'/>
+<use f='codebrowser/src/game.c' l='316' u='c' c='RunGameOnExit'/>

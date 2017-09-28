@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_events.h' l='357' type='SDL_JoystickID'/>
+<offset>64</offset>
+<doc f='include/SDL2/SDL_events.h' l='357'>/**&lt; The joystick instance id */</doc>
+<use f='codebrowser/src/cdogs/joystick.c' l='244' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='244' u='r' c='JoyOnAxis'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='245' u='r' c='JoyOnAxis'/>

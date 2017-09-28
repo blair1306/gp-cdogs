@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1151' type='struct nk_vec2 nk_window_get_size(const struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18184' ll='18191' macro='1' type='struct nk_vec2 nk_window_get_size(const struct nk_context * ctx)'/>

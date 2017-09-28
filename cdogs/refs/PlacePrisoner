@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/actor_placement.h' l='36' type='NVec2i PlacePrisoner(Map * map)'/>
+<def f='codebrowser/src/cdogs/actor_placement.c' l='156' ll='168' type='NVec2i PlacePrisoner(Map * map)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='592' u='c' c='InitializeBadGuys'/>

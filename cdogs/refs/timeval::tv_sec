@@ -1,0 +1,9 @@
+<dec f='include/x86_64-linux-gnu/bits/time.h' l='32' type='__time_t'/>
+<offset>0</offset>
+<doc f='include/x86_64-linux-gnu/bits/time.h' l='32'>/* Seconds.  */</doc>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='95' u='r' c='enet_time_get'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='105' u='r' c='enet_time_set'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='337' u='w' c='enet_socket_set_option'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='346' u='w' c='enet_socket_set_option'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='525' u='w' c='enet_socketset_select'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='102' u='w' c='kbhit'/>

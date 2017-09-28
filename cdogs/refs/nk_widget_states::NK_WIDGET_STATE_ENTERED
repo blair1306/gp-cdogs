@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1400' type='8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13550' u='r' c='nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13885' u='r' c='nk_toggle_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14222' u='r' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14403' u='r' c='nk_progress_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14554' u='r' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15490' u='r' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15779' u='r' c='nk_color_picker_behavior'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1400'>/* widget has been hovered on the current frame */</doc>

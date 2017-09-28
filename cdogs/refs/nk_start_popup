@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='16927' ll='16942' macro='1' type='void nk_start_popup(struct nk_context * ctx, struct nk_window * win)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21585' u='c' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21681' u='c' c='nk_nonblock_begin'/>

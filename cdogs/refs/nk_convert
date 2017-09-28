@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='939' type='nk_flags nk_convert(struct nk_context * , struct nk_buffer * cmds, struct nk_buffer * vertices, struct nk_buffer * elements, const struct nk_convert_config * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8458' ll='8598' macro='1' type='nk_flags nk_convert(struct nk_context * ctx, struct nk_buffer * cmds, struct nk_buffer * vertices, struct nk_buffer * elements, const struct nk_convert_config * config)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='134' u='c' c='nk_sdl_render'/>

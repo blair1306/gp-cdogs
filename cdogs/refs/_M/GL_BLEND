@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_opengl.h' l='390'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='83' u='c'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='169' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='118' u='c'/>
+<doc f='include/SDL2/SDL_opengl.h' l='389'>/* Blending */</doc>

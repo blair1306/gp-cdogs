@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/music.h' l='60' type='void MusicSetPlaying(SoundDevice * device, int isPlaying)'/>
+<use f='codebrowser/src/cdogs/events.c' l='163' u='c' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='168' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/music.c' l='154' ll='164' type='void MusicSetPlaying(SoundDevice * device, int isPlaying)'/>

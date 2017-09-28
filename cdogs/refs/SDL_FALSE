@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_stdinc.h' l='128' type='0'/>
+<use f='include/SDL2/SDL_rect.h' l='76' u='r' c='SDL_PointInRect'/>
+<use f='include/SDL2/SDL_rect.h' l='84' u='r' c='SDL_RectEmpty'/>
+<use f='include/SDL2/SDL_rect.h' l='93' u='r' c='SDL_RectEquals'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='244' u='r' c='nk_sdl_handle_event'/>

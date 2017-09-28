@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='563' type='int enet_host_check_events(ENetHost * , ENetEvent * )'/>
+<def f='codebrowser/src/cdogs/enet/protocol.c' l='1762' ll='1772' type='int enet_host_check_events(ENetHost * host, ENetEvent * event)'/>
+<doc f='codebrowser/src/cdogs/enet/protocol.c' l='1753'>/** Checks for any queued events on the host and dispatches one if available.
+
+    @param host    host to check for events
+    @param event   an event structure where event details will be placed if available
+    @retval &gt; 0 if an event was dispatched
+    @retval 0 if no events are available
+    @retval &lt; 0 on failure
+    @ingroup host
+*/</doc>

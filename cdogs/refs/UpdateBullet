@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='125' type='_Bool UpdateBullet(struct MobileObject * obj, const int ticks)'/>
+<def f='codebrowser/src/cdogs/bullet_class.c' l='147' ll='368' macro='1' type='_Bool UpdateBullet(struct MobileObject * obj, const int ticks)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='914' u='r' c='BulletAdd'/>

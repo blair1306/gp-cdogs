@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13429' ll='13467' macro='1' type='void nk_widget_text_wrap(struct nk_command_buffer * o, struct nk_rect b, const char * string, int len, const struct nk_text * t, const struct nk_user_font * f)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19773' u='c' c='nk_text_wrap_colored'/>

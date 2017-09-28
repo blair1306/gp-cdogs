@@ -1,0 +1,14 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2112' ll='2117'/>
+<size>48</size>
+<mbr r='nk_font_glyph::codepoint' o='0' t='nk_rune'/>
+<mbr r='nk_font_glyph::xadvance' o='32' t='float'/>
+<mbr r='nk_font_glyph::x0' o='64' t='float'/>
+<mbr r='nk_font_glyph::y0' o='96' t='float'/>
+<mbr r='nk_font_glyph::x1' o='128' t='float'/>
+<mbr r='nk_font_glyph::y1' o='160' t='float'/>
+<mbr r='nk_font_glyph::w' o='192' t='float'/>
+<mbr r='nk_font_glyph::h' o='224' t='float'/>
+<mbr r='nk_font_glyph::u0' o='256' t='float'/>
+<mbr r='nk_font_glyph::v0' o='288' t='float'/>
+<mbr r='nk_font_glyph::u1' o='320' t='float'/>
+<mbr r='nk_font_glyph::v1' o='352' t='float'/>

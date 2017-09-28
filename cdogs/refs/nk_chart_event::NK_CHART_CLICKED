@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='472' type='2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21106' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21129' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21181' u='r' c='nk_chart_push_column'/>

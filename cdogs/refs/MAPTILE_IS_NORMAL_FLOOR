@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='78' type='32'/>
+<use f='codebrowser/src/cdogs/automap.c' l='234' u='r' c='DrawMap'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='152' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/tile.c' l='97' u='r' c='TileIsNormalFloor'/>
+<use f='codebrowser/src/cdogs/tile.c' l='102' u='r' c='TileIsClear'/>
+<use f='codebrowser/src/cdogs/tile.c' l='124' u='r' c='TileSetAlternateFloor'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/path_cache.h' l='55' type='PathCache'/>
+<doc f='codebrowser/src/cdogs/path_cache.h' l='52'>// Cache of A* paths so similar paths don&apos;t need to be recalculated
+// Mainly to work around AI repeating the same pathfinds rapidly
+// Note: lifetime managed by Map</doc>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='443' u='a' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='551' u='a' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='646' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map.c' l='617' u='a' c='MapTerminate'/>
+<use f='codebrowser/src/cdogs/map.c' l='632' u='a' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/objs.c' l='213' u='a' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='472' u='a' c='ObjAdd'/>
+<def f='codebrowser/src/cdogs/path_cache.c' l='38' type='PathCache'/>

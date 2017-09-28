@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='234' type='size_t'/>
+<offset>192</offset>
+<doc f='include/x86_64-linux-gnu/bits/socket.h' l='234'>/* Number of elements in the vector.  */</doc>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='460' u='w' c='enet_socket_send'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='494' u='w' c='enet_socket_receive'/>

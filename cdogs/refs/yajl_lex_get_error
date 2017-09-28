@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='105' type='yajl_lex_error yajl_lex_get_error(yajl_lexer lexer)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='103'>/** allows access to more specific information about the lexical
+ *  error when yajl_lex_lex returns yajl_tok_error. */</doc>
+<def f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='728' ll='733' type='yajl_lex_error yajl_lex_get_error(yajl_lexer lexer)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='726'>/** allows access to more specific information about the lexical
+ *  error when yajl_lex_lex returns yajl_tok_error. */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='80' u='c' c='yajl_render_error_string'/>

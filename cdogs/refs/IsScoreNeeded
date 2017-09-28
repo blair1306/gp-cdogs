@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='43' type='_Bool IsScoreNeeded(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='75' ll='78' macro='1' type='_Bool IsScoreNeeded(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='434' u='c' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='187' u='c' c='DrawScoreUpdate'/>

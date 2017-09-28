@@ -1,0 +1,7 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='123' ll='130'/>
+<size>20</size>
+<mbr r='_NMapObjectDamage::UID' o='0' t='uint32_t'/>
+<mbr r='_NMapObjectDamage::Power' o='32' t='int32_t'/>
+<mbr r='_NMapObjectDamage::ActorUID' o='64' t='int32_t'/>
+<mbr r='_NMapObjectDamage::PlayerUID' o='96' t='int32_t'/>
+<mbr r='_NMapObjectDamage::Flags' o='128' t='uint32_t'/>

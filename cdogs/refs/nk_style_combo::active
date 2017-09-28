@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3218' type='struct nk_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16322' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22117' u='a' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22207' u='a' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22287' u='a' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22375' u='a' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22470' u='a' c='nk_combo_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22549' u='a' c='nk_combo_begin_image_text'/>
+<offset>512</offset>

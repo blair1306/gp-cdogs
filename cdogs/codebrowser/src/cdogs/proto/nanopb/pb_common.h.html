@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>pb_common.h source code [codebrowser/src/cdogs/proto/nanopb/pb_common.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="pb_field_iter_s "/>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/proto/nanopb/pb_common.h'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>cdogs</a>/<a href='..'>proto</a>/<a href='./'>nanopb</a>/<a href='pb_common.h.html'>pb_common.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/* pb_common.h: Common support functions for pb_encode.c and pb_decode.c.</i></td></tr>
+<tr><th id="2">2</th><td><i> * These functions are rarely needed by applications directly.</i></td></tr>
+<tr><th id="3">3</th><td><i> */</i></td></tr>
+<tr><th id="4">4</th><td></td></tr>
+<tr><th id="5">5</th><td><u>#<span data-ppcond="5">ifndef</span> <span class="macro" data-ref="_M/PB_COMMON_H_INCLUDED">PB_COMMON_H_INCLUDED</span></u></td></tr>
+<tr><th id="6">6</th><td><u>#define <dfn class="macro" id="_M/PB_COMMON_H_INCLUDED" data-ref="_M/PB_COMMON_H_INCLUDED">PB_COMMON_H_INCLUDED</dfn></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="pb.h.html">"pb.h"</a></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><u>#<span data-ppcond="10">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="11">11</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="12">12</th><td><u>#<span data-ppcond="10">endif</span></u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><i>/* Iterator for pb_field_t list */</i></td></tr>
+<tr><th id="15">15</th><td><b>struct</b> <dfn class="type def" id="pb_field_iter_s" title='pb_field_iter_s' data-ref="pb_field_iter_s">pb_field_iter_s</dfn> {</td></tr>
+<tr><th id="16">16</th><td>    <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> *<dfn class="decl" id="pb_field_iter_s::start" title='pb_field_iter_s::start' data-ref="pb_field_iter_s::start">start</dfn>;       <i>/* Start of the pb_field_t array */</i></td></tr>
+<tr><th id="17">17</th><td>    <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> *<dfn class="decl" id="pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</dfn>;         <i>/* Current position of the iterator */</i></td></tr>
+<tr><th id="18">18</th><td>    <em>unsigned</em> <dfn class="decl" id="pb_field_iter_s::required_field_index" title='pb_field_iter_s::required_field_index' data-ref="pb_field_iter_s::required_field_index">required_field_index</dfn>; <i>/* Zero-based index that counts only the required fields */</i></td></tr>
+<tr><th id="19">19</th><td>    <em>void</em> *<dfn class="decl" id="pb_field_iter_s::dest_struct" title='pb_field_iter_s::dest_struct' data-ref="pb_field_iter_s::dest_struct">dest_struct</dfn>;             <i>/* Pointer to start of the structure */</i></td></tr>
+<tr><th id="20">20</th><td>    <em>void</em> *<dfn class="decl" id="pb_field_iter_s::pData" title='pb_field_iter_s::pData' data-ref="pb_field_iter_s::pData">pData</dfn>;                   <i>/* Pointer to current field value */</i></td></tr>
+<tr><th id="21">21</th><td>    <em>void</em> *<dfn class="decl" id="pb_field_iter_s::pSize" title='pb_field_iter_s::pSize' data-ref="pb_field_iter_s::pSize">pSize</dfn>;                   <i>/* Pointer to count/has field */</i></td></tr>
+<tr><th id="22">22</th><td>};</td></tr>
+<tr><th id="23">23</th><td><b>typedef</b> <b>struct</b> <a class="type" href="#pb_field_iter_s" title='pb_field_iter_s' data-ref="pb_field_iter_s">pb_field_iter_s</a> <dfn class="typedef" id="pb_field_iter_t" title='pb_field_iter_t' data-type='struct pb_field_iter_s' data-ref="pb_field_iter_t">pb_field_iter_t</dfn>;</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><i>/* Initialize the field iterator structure to beginning.</i></td></tr>
+<tr><th id="26">26</th><td><i> * Returns false if the message type is empty. */</i></td></tr>
+<tr><th id="27">27</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <a class="decl" href="pb_common.c.html#pb_field_iter_begin" title='pb_field_iter_begin' data-ref="pb_field_iter_begin" id="pb_field_iter_begin">pb_field_iter_begin</a>(<a class="typedef" href="#pb_field_iter_t" title='pb_field_iter_t' data-type='struct pb_field_iter_s' data-ref="pb_field_iter_t">pb_field_iter_t</a> *<dfn class="local col1 decl" id="1iter" title='iter' data-type='pb_field_iter_t *' data-ref="1iter">iter</dfn>, <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> *<dfn class="local col2 decl" id="2fields" title='fields' data-type='const pb_field_t *' data-ref="2fields">fields</dfn>, <em>void</em> *<dfn class="local col3 decl" id="3dest_struct" title='dest_struct' data-type='void *' data-ref="3dest_struct">dest_struct</dfn>);</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><i>/* Advance the iterator to the next field.</i></td></tr>
+<tr><th id="30">30</th><td><i> * Returns false when the iterator wraps back to the first field. */</i></td></tr>
+<tr><th id="31">31</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <a class="decl" href="pb_common.c.html#pb_field_iter_next" title='pb_field_iter_next' data-ref="pb_field_iter_next" id="pb_field_iter_next">pb_field_iter_next</a>(<a class="typedef" href="#pb_field_iter_t" title='pb_field_iter_t' data-type='struct pb_field_iter_s' data-ref="pb_field_iter_t">pb_field_iter_t</a> *<dfn class="local col4 decl" id="4iter" title='iter' data-type='pb_field_iter_t *' data-ref="4iter">iter</dfn>);</td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><i>/* Advance the iterator until it points at a field with the given tag.</i></td></tr>
+<tr><th id="34">34</th><td><i> * Returns false if no such field exists. */</i></td></tr>
+<tr><th id="35">35</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <a class="decl" href="pb_common.c.html#pb_field_iter_find" title='pb_field_iter_find' data-ref="pb_field_iter_find" id="pb_field_iter_find">pb_field_iter_find</a>(<a class="typedef" href="#pb_field_iter_t" title='pb_field_iter_t' data-type='struct pb_field_iter_s' data-ref="pb_field_iter_t">pb_field_iter_t</a> *<dfn class="local col5 decl" id="5iter" title='iter' data-type='pb_field_iter_t *' data-ref="5iter">iter</dfn>, <a class="typedef" href="../../../../../include/stdint.h.html#uint32_t" title='uint32_t' data-type='unsigned int' data-ref="uint32_t">uint32_t</a> <dfn class="local col6 decl" id="6tag" title='tag' data-type='uint32_t' data-ref="6tag">tag</dfn>);</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="37">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="38">38</th><td>} <i>/* extern "C" */</i></td></tr>
+<tr><th id="39">39</th><td><u>#<span data-ppcond="37">endif</span></u></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><u>#<span data-ppcond="5">endif</span></u></td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='pb_common.c.html'>codebrowser/src/cdogs/proto/nanopb/pb_common.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

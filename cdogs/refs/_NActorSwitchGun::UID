@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='75' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1343' u='r' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='145' u='r' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='407' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='202'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='202'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='202'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='202'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203' u='r'/>
+<use f='codebrowser/src/game.c' l='93' u='w' c='PlayerSpecialCommands'/>

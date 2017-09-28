@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/color.h' l='55' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='49' type='color_t'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='106' u='r' c='DrawWallColumn'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='171' u='r' c='DrawFloor'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='257' u='r' c='DrawWallsAndThings'/>

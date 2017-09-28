@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='251' type='NVec2i'/>
+<offset>1056</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='853' u='r' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='455' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='194' u='w' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='332'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='332'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='333' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='333' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='332'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='332'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='333' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='333' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

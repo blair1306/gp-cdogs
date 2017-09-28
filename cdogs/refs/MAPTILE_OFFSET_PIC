@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='79' type='64'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='306' u='r' c='IsTileWalkableOrOpenable'/>
+<use f='codebrowser/src/cdogs/door.c' l='56' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='56' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='272' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='235' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='134' u='r' c='DrawBufferFix'/>
+<use f='codebrowser/src/cdogs/tile.c' l='102' u='r' c='TileIsClear'/>

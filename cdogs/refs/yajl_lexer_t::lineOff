@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='70' type='size_t'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='737' u='r' c='yajl_lex_current_line'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='69'>/* the overal line and char offset into the data */</doc>

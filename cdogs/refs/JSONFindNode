@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='61' type='json_t * JSONFindNode(json_t * node, const char * path)'/>
+<doc f='codebrowser/src/cdogs/json_utils.h' l='59'>// Try to load a JSON node using a slash-delimited &quot;path&quot;
+// If at any point the path fails, NULL is returned.</doc>
+<use f='codebrowser/src/cdogs/config_json.c' l='68' u='c' c='ConfigLoadJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='80' u='c' c='ConfigLoadJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='91' u='c' c='ConfigLoadJSON'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='183' ll='205' type='json_t * JSONFindNode(json_t * node, const char * path)'/>

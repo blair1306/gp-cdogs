@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9053' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9212' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9213' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9356' u='r' c='nk_tt__GetGlyfOffset'/>
+<offset>96</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='9053'>/* number of glyphs, needed for range checking */</doc>

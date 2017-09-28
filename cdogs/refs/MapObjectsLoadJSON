@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='132' type='void MapObjectsLoadJSON(CArray * classes, json_t * root)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='146' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='243' u='c' c='MapObjectsInit'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='257' ll='292' type='void MapObjectsLoadJSON(CArray * classes, json_t * root)'/>

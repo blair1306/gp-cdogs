@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='147' type='int GunGetNumClasses(const GunClasses * g)'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='327' ll='330' type='int GunGetNumClasses(const GunClasses * g)'/>

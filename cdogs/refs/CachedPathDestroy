@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/path_cache.h' l='57' type='void CachedPathDestroy(CachedPath * c)'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='45' u='c' c='AIContextDestroy'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='445' u='c' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='549' u='c' c='AIGoto'/>
+<def f='codebrowser/src/cdogs/path_cache.c' l='48' ll='61' type='void CachedPathDestroy(CachedPath * c)'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='85' u='c' c='PathCacheClear'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='144' u='c' c='PathCacheCreate'/>

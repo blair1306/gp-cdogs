@@ -1,0 +1,18 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3077' ll='3101'/>
+<size>256</size>
+<mbr r='nk_style_progress::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_progress::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_progress::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_progress::border_color' o='768' t='struct nk_color'/>
+<mbr r='nk_style_progress::cursor_normal' o='832' t='struct nk_style_item'/>
+<mbr r='nk_style_progress::cursor_hover' o='1088' t='struct nk_style_item'/>
+<mbr r='nk_style_progress::cursor_active' o='1344' t='struct nk_style_item'/>
+<mbr r='nk_style_progress::cursor_border_color' o='1600' t='struct nk_color'/>
+<mbr r='nk_style_progress::rounding' o='1632' t='float'/>
+<mbr r='nk_style_progress::border' o='1664' t='float'/>
+<mbr r='nk_style_progress::cursor_border' o='1696' t='float'/>
+<mbr r='nk_style_progress::cursor_rounding' o='1728' t='float'/>
+<mbr r='nk_style_progress::padding' o='1760' t='struct nk_vec2'/>
+<mbr r='nk_style_progress::userdata' o='1856' t='nk_handle'/>
+<mbr r='nk_style_progress::draw_begin' o='1920' t='void (*)(struct nk_command_buffer *, nk_handle)'/>
+<mbr r='nk_style_progress::draw_end' o='1984' t='void (*)(struct nk_command_buffer *, nk_handle)'/>

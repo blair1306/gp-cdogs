@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='123' type='TileItemKind'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='231' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='243' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='244' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='484' u='r' c='CheckPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='506' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='895' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='997' u='r' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1212' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='389' u='r' c='AIGetObjectRunningInto'/>
+<use f='codebrowser/src/cdogs/automap.c' l='296' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='471' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='487' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='544' u='r' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='903' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='272' u='r' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='361' u='r' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='310' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='427' u='r' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='376' u='r' c='DrawChatters'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='100' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='132' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/los.c' l='207' u='r' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/map.c' l='193' u='r' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='207' u='r' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/objs.c' l='239' u='r' c='CanHit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='459' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='445' u='w' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='96' u='w' c='PickupAdd'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/json/json.h' l='333' type='enum json_error json_saxy_parse(struct json_saxy_parser_status * jsps, struct json_saxy_functions * jsf, char c)'/>
+<doc f='codebrowser/src/json/json.h' l='326'>/**
+Function to perform a SAX-like parsing of any JSON document or document fragment that is passed to it
+@param jsps a structure holding the status information of the current parser
+@param jsf a structure holding the function pointers to the event functions
+@param c the character to be parsed
+@return a json_error code informing how the parsing went
+**/</doc>
+<def f='codebrowser/src/json/json.c' l='2819' ll='4209' type='enum json_error json_saxy_parse(struct json_saxy_parser_status * jsps, struct json_saxy_functions * jsf, char c)'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='327' type='void *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='326'>/** Context data for the compressor. Must be non-NULL. */</doc>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='642' u='w' c='enet_host_compress_with_range_coder'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='643' u='r' c='enet_host_compress_with_range_coder'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='106' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='157' u='r' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='158' u='r' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='286' u='r' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='287' u='r' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='292' u='w' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1024' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1027' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1687' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1690' u='r' c='enet_protocol_send_outgoing_commands'/>

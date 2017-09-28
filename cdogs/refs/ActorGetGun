@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='197' type='Weapon * ActorGetGun(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='108' u='c' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='230' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='635' u='c' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='703' u='c' c='ActorTryShoot'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1311' ll='1314' type='Weapon * ActorGetGun(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1317' u='c' c='ActorGetGunMuzzleOffset'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1331' u='c' c='ActorCanFire'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1349' u='c' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/ai.c' l='478' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='293' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='297' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='393' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='865' u='c' c='GotoObjective'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='86' u='c' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='305' u='c' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='518' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='162' u='c' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='165' u='c' c='DrawWeaponStatus'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2156' type='const nk_rune * nk_font_default_glyph_ranges()'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='10752' ll='10757' macro='1' type='const nk_rune * nk_font_default_glyph_ranges()'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10816' u='c' c='nk_font_baker_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11556' u='c' c='nk_font_config'/>

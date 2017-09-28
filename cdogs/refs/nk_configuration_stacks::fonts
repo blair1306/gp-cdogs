@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3639' type='struct nk_config_stack_user_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16509' u='m' c='nk_style_set_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16521' u='a' c='nk_style_push_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16542' u='a' c='nk_style_pop_font'/>
+<offset>19776</offset>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='80' type='double'/>
+<dec f='codebrowser/src/cdogs/particle.h' l='96' type='double'/>
+<offset>384</offset>
+<use f='codebrowser/src/cdogs/emitter.c' l='63' u='w' c='EmitterStart'/>
+<use f='codebrowser/src/cdogs/particle.c' l='318' u='w' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='358' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='440' u='w' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='440' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='513' u='w' c='GunAddBrass'/>

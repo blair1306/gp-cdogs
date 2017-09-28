@@ -1,0 +1,19 @@
+<dec f='include/SDL2/SDL_keyboard.h' l='120' type='const char * SDL_GetScancodeName(SDL_Scancode scancode)'/>
+<doc f='include/SDL2/SDL_keyboard.h' l='111'>/**
+ *  \brief Get a human-readable name for a scancode.
+ *
+ *  \return A pointer to the name for the scancode.
+ *          If the scancode doesn&apos;t have a name, this function returns
+ *          an empty string (&quot;&quot;).
+ *
+ *  \sa SDL_Scancode
+ */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='422' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='423' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='424' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='425' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='426' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='427' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='428' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='429' u='c' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/menu.c' l='841' u='c' c='MenuDisplaySubmenus'/>

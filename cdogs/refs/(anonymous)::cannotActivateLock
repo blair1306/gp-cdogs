@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='97' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/triggers.c' l='252' u='r' c='TriggerTryActivate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='254' u='w' c='TriggerTryActivate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='262' u='r' c='TriggerCannotActivate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='267' u='w' c='TriggerSetCannotActivate'/>

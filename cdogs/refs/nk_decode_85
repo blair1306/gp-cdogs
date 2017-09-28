@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11514' ll='11535' macro='1' type='void nk_decode_85(unsigned char * dst, const unsigned char * src)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11807' u='c' c='nk_font_atlas_add_compressed_base85'/>

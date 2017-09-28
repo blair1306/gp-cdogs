@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1654' type='int nk_contextual_begin(struct nk_context * , nk_flags , struct nk_vec2 , struct nk_rect trigger_bounds)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21836' ll='21890' macro='1' type='int nk_contextual_begin(struct nk_context * ctx, nk_flags flags, struct nk_vec2 size, struct nk_rect trigger_bounds)'/>

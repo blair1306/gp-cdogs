@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='117' type='_Bool AIContextSetState(AIContext * c, const AIState s)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='623' u='c' c='ActorSetAIState'/>
+<def f='codebrowser/src/cdogs/ai_context.c' l='84' ll='94' macro='1' type='_Bool AIContextSetState(AIContext * c, const AIState s)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1640' type='int nk_combo_begin_image_text(struct nk_context * , const char * selected, int , struct nk_image , struct nk_vec2 size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22518' ll='22608' macro='1' type='int nk_combo_begin_image_text(struct nk_context * ctx, const char * selected, int len, struct nk_image img, struct nk_vec2 size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22616' u='c' c='nk_combo_begin_image_label'/>

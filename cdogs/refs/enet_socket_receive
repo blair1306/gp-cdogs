@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='499' type='int enet_socket_receive(ENetSocket , ENetAddress * , ENetBuffer * , size_t )'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1208' u='c' c='enet_protocol_receive_incoming_commands'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='475' ll='518' type='int enet_socket_receive(ENetSocket socket, ENetAddress * address, ENetBuffer * buffers, size_t bufferCount)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='237' u='c' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='230' u='c' c='PollListener'/>

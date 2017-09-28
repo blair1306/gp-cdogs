@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='749' type='void nk_input_glyph(struct nk_context * , const char * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12126' ll='12143' macro='1' type='void nk_input_glyph(struct nk_context * ctx, const char * glyph)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12152' u='c' c='nk_input_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12162' u='c' c='nk_input_unicode'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='322' u='c' c='nk_sdl_handle_event'/>

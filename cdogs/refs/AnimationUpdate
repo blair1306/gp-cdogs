@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='64' type='void AnimationUpdate(Animation * a, const int ticks)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='186' u='c' c='UpdateActorState'/>
+<def f='codebrowser/src/cdogs/animation.c' l='65' ll='101' type='void AnimationUpdate(Animation * a, const int ticks)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='568' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='569' u='c' c='Draw'/>

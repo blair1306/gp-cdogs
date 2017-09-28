@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_image.h' l='85' type='SDL_Surface * IMG_Load(const char * file)'/>
+<doc f='include/SDL2/SDL_image.h' l='84'>/* Convenience functions */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='191' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='123' u='c' c='BrushLoadGuideImage'/>

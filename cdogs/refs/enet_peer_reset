@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='579' type='void enet_peer_reset(ENetPeer * )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='131' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='154' u='c' c='enet_host_destroy'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='371' ll='425' type='void enet_peer_reset(ENetPeer * peer)'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='517' u='c' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='559' u='c' c='enet_peer_disconnect'/>
+<doc f='codebrowser/src/cdogs/enet/peer.c' l='366'>/** Forcefully disconnects a peer.
+    @param peer peer to forcefully disconnect
+    @remarks The foreign host represented by the peer is not notified of the disconnection and will timeout
+    on its connection to the local host.
+*/</doc>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='87' u='c' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='143' u='c' c='enet_protocol_notify_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='151' u='c' c='enet_protocol_notify_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='812' u='c' c='enet_protocol_handle_disconnect'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='86' type='void KeyPostPoll(keyboard_t * keyboard, Uint32 ticks)'/>
+<use f='codebrowser/src/cdogs/events.c' l='206' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='110' ll='170' type='void KeyPostPoll(keyboard_t * keyboard, Uint32 ticks)'/>

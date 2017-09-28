@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/draw/draw.c' l='95' ll='117' type='void DrawWallColumn(int y, Vec2i pos, Tile * tile)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='232' u='c' c='DrawWallsAndThings'/>

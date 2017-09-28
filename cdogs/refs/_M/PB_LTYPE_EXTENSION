@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='166'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='164'>/* Extension pseudo-field
+ * The field contains a pointer to pb_extension_t */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='77' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='677' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='361' u='c'/>

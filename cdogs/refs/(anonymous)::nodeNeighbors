@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='41' type='void (*)(ASNeighborList, void *, void *)'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/AStar.h' l='41'>// add nodes to the neighbor list if they are connected to this node</doc>
+<use f='codebrowser/src/cdogs/AStar.c' l='435' u='r' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='469' u='r' c='ASPathCreate'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='92' type='Vec2i'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogs/map_object.c' l='351' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='615' u='r' c='MapObjectGetPlacementPos'/>

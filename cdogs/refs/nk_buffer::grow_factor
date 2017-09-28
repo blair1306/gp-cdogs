@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2254' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6078' u='w' c='nk_buffer_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6200' u='r' c='nk_buffer_alloc'/>
+<offset>640</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2253'>/* memory and size of the current memory block */</doc>

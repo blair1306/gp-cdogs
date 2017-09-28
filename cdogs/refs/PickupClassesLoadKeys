@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='90' type='void PickupClassesLoadKeys(CArray * classes)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='58' u='c' c='CampaignSettingInit'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='139' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='194' u='c' c='PickupClassesInit'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='296' ll='312' type='void PickupClassesLoadKeys(CArray * classes)'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/compress.c' l='36' type='5'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='309' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='310' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='608' u='r' c='enet_range_coder_decompress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='609' u='r' c='enet_range_coder_decompress'/>

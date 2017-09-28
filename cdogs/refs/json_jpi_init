@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/json/json.h' l='305' type='void json_jpi_init(struct json_parsing_info * jpi)'/>
+<doc f='codebrowser/src/json/json.h' l='300'>/**
+This function takes care of the tedious task of initializing any instance of 
+struct json_parsing_info
+@param jpi a pointer to a struct json_parsing_info instance
+**/</doc>
+<use f='codebrowser/src/json/json.c' l='200' u='c' c='json_stream_parse'/>
+<def f='codebrowser/src/json/json.c' l='1372' ll='1383' type='void json_jpi_init(struct json_parsing_info * jpi)'/>
+<use f='codebrowser/src/json/json.c' l='2802' u='c' c='json_parse_document'/>

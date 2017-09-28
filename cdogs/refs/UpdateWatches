@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='130' type='void UpdateWatches(CArray * mapTriggers, const int ticks)'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='277' ll='289' type='void UpdateWatches(CArray * mapTriggers, const int ticks)'/>
+<use f='codebrowser/src/game.c' l='601' u='c' c='RunGameUpdate'/>

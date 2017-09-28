@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9065' ll='9068'/>
+<size>10</size>
+<mbr r='nk_tt_vertex::x' o='0' t='short'/>
+<mbr r='nk_tt_vertex::y' o='16' t='short'/>
+<mbr r='nk_tt_vertex::cx' o='32' t='short'/>
+<mbr r='nk_tt_vertex::cy' o='48' t='short'/>
+<mbr r='nk_tt_vertex::type' o='64' t='unsigned char'/>
+<mbr r='nk_tt_vertex::padding' o='72' t='unsigned char'/>

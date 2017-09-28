@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='52' type='void PicManagerLoadDir(PicManager * pm, const char * path, const char * prefix, map_t pics, map_t sprites)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='208' u='c' c='LoadArchivePics'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='187' ll='259' type='void PicManagerLoadDir(PicManager * pm, const char * path, const char * prefix, map_t pics, map_t sprites)'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='247' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='251' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='269' u='c' c='PicManagerLoad'/>

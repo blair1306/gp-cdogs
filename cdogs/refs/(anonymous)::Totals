@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/player.h' l='49' type='NPlayerStats'/>
+<use f='codebrowser/src/briefing_screens.c' l='522' u='m' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='525' u='m' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='526' u='m' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='527' u='m' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='528' u='m' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='529' u='m' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='730' u='m' c='DrawPlayerSummary'/>
+<offset>1120</offset>
+<use f='codebrowser/src/cdogs/damage.c' l='97' u='m' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/damage.c' l='102' u='m' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/damage.c' l='107' u='m' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='76' u='r' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='86' u='w' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='436' u='m' c='PlayerScore'/>
+<use f='codebrowser/src/hiscores.c' l='117' u='a' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/hiscores.c' l='117' u='r' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/hiscores.c' l='171' u='m' c='EnterTable'/>
+<use f='codebrowser/src/hiscores.c' l='179' u='m' c='EnterTable'/>
+<use f='codebrowser/src/screens_end.c' l='98' u='m' c='GetModeScore'/>
+<use f='codebrowser/src/screens_end.c' l='100' u='m' c='GetModeScore'/>
+<use f='codebrowser/src/screens_end.c' l='243' u='m' c='PlayerListCustomDraw'/>
+<use f='codebrowser/src/screens_end.c' l='248' u='m' c='PlayerListCustomDraw'/>
+<use f='codebrowser/src/screens_end.c' l='425' u='m' c='DogfightScoresUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='426' u='m' c='DogfightScoresUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='426' u='m' c='DogfightScoresUpdate'/>

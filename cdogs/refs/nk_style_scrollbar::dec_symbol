@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3128' type='enum nk_symbol_type'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14635' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14724' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16181' u='w' c='nk_style_from_table'/>
+<offset>4704</offset>

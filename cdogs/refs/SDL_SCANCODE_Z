@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_scancode.h' l='79' type='29'/>
+<use f='codebrowser/src/cdogs/config.c' l='657' u='r' c='ConfigDefault'/>

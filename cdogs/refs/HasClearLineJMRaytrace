@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/algorithms.h' l='41' type='_Bool HasClearLineJMRaytrace(const Vec2i from, const Vec2i to, HasClearLineData * data)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='221' u='c' c='AIHasClearLine'/>
+<def f='codebrowser/src/cdogs/algorithms.c' l='146' ll='154' macro='1' type='_Bool HasClearLineJMRaytrace(const Vec2i from, const Vec2i to, HasClearLineData * data)'/>
+<use f='codebrowser/src/cdogs/los.c' l='128' u='c' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='133' u='c' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='138' u='c' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='143' u='c' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='541' u='c' c='SoundPlayAtPlusDistance'/>

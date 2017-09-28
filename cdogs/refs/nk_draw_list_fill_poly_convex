@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2910' type='void nk_draw_list_fill_poly_convex(struct nk_draw_list * , const struct nk_vec2 * points, const unsigned int count, struct nk_color , enum nk_anti_aliasing )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7955' ll='8079' macro='1' type='void nk_draw_list_fill_poly_convex(struct nk_draw_list * list, const struct nk_vec2 * points, const unsigned int points_count, struct nk_color color, enum nk_anti_aliasing aliasing)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8202' u='c' c='nk_draw_list_path_fill'/>

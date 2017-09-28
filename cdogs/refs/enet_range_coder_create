@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='595' type='void * enet_range_coder_create()'/>
+<def f='codebrowser/src/cdogs/enet/compress.c' l='48' ll='56' type='void * enet_range_coder_create()'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='642' u='c' c='enet_host_compress_with_range_coder'/>

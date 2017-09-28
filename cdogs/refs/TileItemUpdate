@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='165' type='void TileItemUpdate(TTileItem * t, const int ticks)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='135' u='c' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='149' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/objs.c' l='495' u='c' c='UpdateObjects'/>
+<def f='codebrowser/src/cdogs/tile.c' l='127' ll='131' type='void TileItemUpdate(TTileItem * t, const int ticks)'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='16' type='const pb_field_t *'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='10' u='w' c='pb_field_iter_begin'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='36' u='r' c='pb_field_iter_next'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='16'>/* Start of the pb_field_t array */</doc>

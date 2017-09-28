@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_video.h' l='975' type='void * SDL_GL_GetProcAddress(const char * proc)'/>
+<doc f='include/SDL2/SDL_video.h' l='972'>/**
+ *  \brief Get the address of an OpenGL function.
+ */</doc>

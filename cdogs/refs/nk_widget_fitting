@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1408' type='enum nk_widget_layout_states nk_widget_fitting(struct nk_rect * , struct nk_context * , struct nk_vec2 )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19642' ll='19674' macro='1' type='enum nk_widget_layout_states nk_widget_fitting(struct nk_rect * bounds, struct nk_context * ctx, struct nk_vec2 item_padding)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21911' u='c' c='nk_contextual_item_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21945' u='c' c='nk_contextual_item_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21980' u='c' c='nk_contextual_item_symbol_text'/>

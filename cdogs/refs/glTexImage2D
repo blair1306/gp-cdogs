@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_opengl.h' l='1342' type='void glTexImage2D(GLenum target, GLint level, GLint internalFormat, GLsizei width, GLsizei height, GLint border, GLenum format, GLenum type, const GLvoid * pixels)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='61' u='c' c='nk_sdl_device_upload_atlas'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='794' u='c' c='LoadTexFromPic'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='818' u='c' c='LoadMultiChannelTexFromPic'/>

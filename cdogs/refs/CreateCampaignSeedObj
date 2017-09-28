@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='67' type='UIObject * CreateCampaignSeedObj(const Vec2i pos, CampaignOptions * co)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1407' u='c' c='CreateClassicMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='76' u='c' c='CreateCaveMapObjs'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='141' ll='153' type='UIObject * CreateCampaignSeedObj(const Vec2i pos, CampaignOptions * co)'/>

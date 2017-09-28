@@ -1,0 +1,74 @@
+<dec f='codebrowser/src/cdogs/yajl_utils.h' l='61' type='yajl_val YAJLFindNode(yajl_val node, const char * path)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='127' u='c' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='127' u='c' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='127' u='c' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='157' u='c' c='LoadFrameOffsets'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='157' u='c' c='LoadFrameOffsets'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='157' u='c' c='LoadFrameOffsets'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='182' u='c' c='LoadDirOffsets'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='182' u='c' c='LoadDirOffsets'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='182' u='c' c='LoadDirOffsets'/>
+<doc f='codebrowser/src/cdogs/yajl_utils.h' l='51'>/*
+void LoadSoundFromNode(Mix_Chunk **value, json_t *node, const char *name);
+// Load a const Pic * based on a name
+void LoadPic(const Pic **value, json_t *node, const char *name);
+// Load an array of const GunDescription *
+void LoadBulletGuns(CArray *guns, json_t *node, const char *name);
+void LoadColor(color_t *c, json_t *node, const char *name);
+*/
+// Try to load a JSON node using a slash-delimited &quot;path&quot;
+// If at any point the path fails, NULL is returned.</doc>
+<use f='codebrowser/src/cdogs/font_utils.c' l='50' u='c' c='FontLoadFromJSON'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='165' u='c' c='YAJLGetStr'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='165' u='c' c='YAJLGetStr'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='165' u='c' c='YAJLGetStr'/>
+<def f='codebrowser/src/cdogs/yajl_utils.c' l='220' ll='246' type='yajl_val YAJLFindNode(yajl_val node, const char * path)'/>
+<doc f='codebrowser/src/cdogs/yajl_utils.c' l='171'>/*
+void LoadSoundFromNode(Mix_Chunk **value, json_t *node, const char *name)
+{
+	if (json_find_first_label(node, name) == NULL)
+	{
+		return;
+	}
+	if (!TryLoadValue(&amp;node, name))
+	{
+		return;
+	}
+	*value = StrSound(node-&gt;text);
+}
+void LoadPic(const Pic **value, json_t *node, const char *name)
+{
+	if (json_find_first_label(node, name))
+	{
+		char *tmp = GetString(node, name);
+		*value = PicManagerGetPic(&amp;gPicManager, tmp);
+		CFREE(tmp);
+	}
+}
+void LoadBulletGuns(CArray *guns, json_t *node, const char *name)
+{
+	node = json_find_first_label(node, name);
+	if (node == NULL || node-&gt;child == NULL)
+	{
+		return;
+	}
+	CArrayInit(guns, sizeof(const GunDescription *));
+	for (json_t *gun = node-&gt;child-&gt;child; gun; gun = gun-&gt;next)
+	{
+		const GunDescription *g = StrGunDescription(gun-&gt;text);
+		CArrayPushBack(guns, &amp;g);
+	}
+}
+void LoadColor(color_t *c, json_t *node, const char *name)
+{
+	if (json_find_first_label(node, name) == NULL)
+	{
+		return;
+	}
+	if (!TryLoadValue(&amp;node, name))
+	{
+		return;
+	}
+	*c = StrColor(node-&gt;text);
+}
+*/</doc>

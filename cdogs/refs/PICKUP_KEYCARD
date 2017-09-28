@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='43' type='4'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='596' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/automap.c' l='299' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/objs.c' l='127' c='AddPickupAtObject'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='192' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='46' u='r' c='StrPickupType'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='248' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='307' u='r' c='PickupClassesLoadKeys'/>

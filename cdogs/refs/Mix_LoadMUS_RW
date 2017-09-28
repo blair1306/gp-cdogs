@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_mixer.h' l='155' type='Mix_Music * Mix_LoadMUS_RW(SDL_RWops * src, int freesrc)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='153'>/* Load a music file from an SDL_RWop object (Ogg and MikMod specific currently)
+   Matt Campbell (matt@campbellhome.dhs.org) April 2000 */</doc>

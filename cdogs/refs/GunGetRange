@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='167' type='int GunGetRange(const GunDescription * g)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='294' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='310' u='c' c='DrawLaserSight'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='574' ll='591' type='int GunGetRange(const GunDescription * g)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='594' u='c' c='IsLongRange'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='598' u='c' c='IsShortRange'/>

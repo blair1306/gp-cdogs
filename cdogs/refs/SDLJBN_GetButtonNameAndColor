@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.h' l='55' type='int SDLJBN_GetButtonNameAndColor(SDL_Joystick * joystick, SDL_GameControllerButton button, char * s, Uint8 * r, Uint8 * g, Uint8 * b)'/>
+<doc f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.h' l='48'>/**
+ * Get the button name and color for an SDL_GameControllerButton
+ * Arguments can be set to NULL if they are not required
+ * Use SDLJBN_GetError to get the error reason
+ *
+ * \return -1 on error; 0 on success
+ */</doc>
+<def f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='349' ll='392' type='int SDLJBN_GetButtonNameAndColor(SDL_Joystick * joystick, SDL_GameControllerButton button, char * s, Uint8 * r, Uint8 * g, Uint8 * b)'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='326' u='c' c='JoyButtonNameColor'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='331' macro='1' u='c'/>

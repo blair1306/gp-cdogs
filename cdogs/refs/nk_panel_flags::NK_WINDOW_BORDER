@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1088' type='1'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17116' u='r' c='nk_panel_get_border'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17227' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17549' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21371' u='r' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21580' u='r' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21675' u='r' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21778' u='r' c='nk_tooltip_begin'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='372' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='445' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='484' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='505' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='535' u='r' c='Draw'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1088'>/* Draws a border around the window to visually separate the window from the background */</doc>

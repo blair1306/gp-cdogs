@@ -1,0 +1,23 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3685' ll='3724'/>
+<size>16592</size>
+<mbr r='nk_context::input' o='0' t='struct nk_input'/>
+<mbr r='nk_context::style' o='2752' t='struct nk_style'/>
+<mbr r='nk_context::memory' o='63040' t='struct nk_buffer'/>
+<mbr r='nk_context::clip' o='64000' t='struct nk_clipboard'/>
+<mbr r='nk_context::last_widget_state' o='64192' t='nk_flags'/>
+<mbr r='nk_context::button_behavior' o='64224' t='enum nk_button_behavior'/>
+<mbr r='nk_context::stacks' o='64256' t='struct nk_configuration_stacks'/>
+<mbr r='nk_context::delta_time_seconds' o='86208' t='float'/>
+<mbr r='nk_context::draw_list' o='86272' t='struct nk_draw_list'/>
+<mbr r='nk_context::text_edit' o='88128' t='struct nk_text_edit'/>
+<mbr r='nk_context::overlay' o='131200' t='struct nk_command_buffer'/>
+<mbr r='nk_context::build' o='131712' t='int'/>
+<mbr r='nk_context::use_pool' o='131744' t='int'/>
+<mbr r='nk_context::pool' o='131776' t='struct nk_pool'/>
+<mbr r='nk_context::begin' o='132352' t='struct nk_window *'/>
+<mbr r='nk_context::end' o='132416' t='struct nk_window *'/>
+<mbr r='nk_context::active' o='132480' t='struct nk_window *'/>
+<mbr r='nk_context::current' o='132544' t='struct nk_window *'/>
+<mbr r='nk_context::freelist' o='132608' t='struct nk_page_element *'/>
+<mbr r='nk_context::count' o='132672' t='unsigned int'/>
+<mbr r='nk_context::seq' o='132704' t='unsigned int'/>

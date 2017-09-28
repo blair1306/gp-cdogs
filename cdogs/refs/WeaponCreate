@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='148' type='Weapon WeaponCreate(const GunDescription * gun)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='593' u='c' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1197' u='c' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1205' u='c' c='ActorAdd'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='332' ll='342' type='Weapon WeaponCreate(const GunDescription * gun)'/>

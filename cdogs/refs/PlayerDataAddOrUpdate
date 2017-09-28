@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/player.h' l='70' type='void PlayerDataAddOrUpdate(const NPlayerData pd)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='76' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/player.c' l='47' ll='95' type='void PlayerDataAddOrUpdate(const NPlayerData pd)'/>
+<use f='codebrowser/src/tests/player_test.c' l='99' u='c' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='101' u='c' c='_cbehave_feature_assign_unused'/>

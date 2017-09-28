@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/font.h' l='88' type='void FontStrCenter(const char * s)'/>
+<def f='codebrowser/src/cdogs/font.c' l='321' ll='328' type='void FontStrCenter(const char * s)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='852' u='c' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='859' u='c' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='863' u='c' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='867' u='c' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='872' u='c' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='880' u='c' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='532' u='c' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='635' u='c' c='Save'/>

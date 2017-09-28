@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2230' type='1'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6074' u='r' c='nk_buffer_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6193' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6196' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16660' u='r' c='nk_pool_init'/>

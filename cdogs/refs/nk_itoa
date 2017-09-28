@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4663' ll='4686' macro='1' type='char * nk_itoa(char * s, long n)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15607' u='c' c='nk_do_property'/>

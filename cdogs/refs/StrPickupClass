@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='71' type='PickupClass * StrPickupClass(const char * s)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='379' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='504' u='c' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/objective.c' l='129' u='c' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='93' u='c' c='PickupAdd'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='51' ll='77' type='PickupClass * StrPickupClass(const char * s)'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='99' u='c' c='IntPickupClass'/>

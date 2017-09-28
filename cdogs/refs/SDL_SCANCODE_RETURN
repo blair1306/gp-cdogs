@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_scancode.h' l='92' type='40'/>
+<use f='codebrowser/src/cdogs/events.c' l='372' u='r' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='497' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='606' c='Save'/>

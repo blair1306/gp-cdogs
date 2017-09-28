@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='135' type='char [256]'/>
+<offset>6368</offset>
+<use f='codebrowser/src/cdogs/files.c' l='377' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map.c' l='271' u='r' c='MapShowExitArea'/>
+<use f='codebrowser/src/cdogs/map.c' l='273' u='r' c='MapShowExitArea'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='346' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='232' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='237' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='109' u='r' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='144' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='144' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='221' u='r' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='484' u='r' c='MissionDrawExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='488' u='r' c='MissionDrawExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='896' u='r' c='MissionChangeExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='896' u='r' c='MissionChangeExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='896' u='r' c='MissionChangeExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='900' u='r' c='MissionChangeExitStyle'/>

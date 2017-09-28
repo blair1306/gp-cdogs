@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='143' type='void pb_close_string_substream(pb_istream_t * stream, pb_istream_t * substream)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='324' ll='331' type='void pb_close_string_substream(pb_istream_t * stream, pb_istream_t * substream)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='375' u='c' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='584' u='c' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='872' u='c' c='pb_decode_delimited'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1135' u='c' c='pb_dec_submessage'/>

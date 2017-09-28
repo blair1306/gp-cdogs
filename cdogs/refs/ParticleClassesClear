@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='103' type='void ParticleClassesClear(CArray * classes)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='75' u='c' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='103' u='c' c='ParticleClassesTerminate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='105' u='c' c='ParticleClassesTerminate'/>
+<def f='codebrowser/src/cdogs/particle.c' l='108' ll='116' type='void ParticleClassesClear(CArray * classes)'/>

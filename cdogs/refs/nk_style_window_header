@@ -1,0 +1,17 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3271' ll='3294'/>
+<size>504</size>
+<mbr r='nk_style_window_header::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_window_header::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_window_header::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_window_header::close_button' o='768' t='struct nk_style_button'/>
+<mbr r='nk_style_window_header::minimize_button' o='2176' t='struct nk_style_button'/>
+<mbr r='nk_style_window_header::close_symbol' o='3584' t='enum nk_symbol_type'/>
+<mbr r='nk_style_window_header::minimize_symbol' o='3616' t='enum nk_symbol_type'/>
+<mbr r='nk_style_window_header::maximize_symbol' o='3648' t='enum nk_symbol_type'/>
+<mbr r='nk_style_window_header::label_normal' o='3680' t='struct nk_color'/>
+<mbr r='nk_style_window_header::label_hover' o='3712' t='struct nk_color'/>
+<mbr r='nk_style_window_header::label_active' o='3744' t='struct nk_color'/>
+<mbr r='nk_style_window_header::align' o='3776' t='enum nk_style_header_align'/>
+<mbr r='nk_style_window_header::padding' o='3808' t='struct nk_vec2'/>
+<mbr r='nk_style_window_header::label_padding' o='3872' t='struct nk_vec2'/>
+<mbr r='nk_style_window_header::spacing' o='3936' t='struct nk_vec2'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='334' type='_Bool'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='650' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='98' u='w' c='NMakeMissionComplete'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='377'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='377'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='378' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='378' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='377'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='377'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='378' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='378' u='r'/>

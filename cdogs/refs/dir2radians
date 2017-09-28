@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='111' type='double [8]'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='47' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actors.c' l='152' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1248' u='r' c='ActorAdd'/>
+<def f='codebrowser/src/cdogs/defs.c' l='106' ll='116' type='double [8]'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='309' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='501' u='r' c='GunAddBrass'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='534' u='r' c='GetMuzzleOffset'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4568' ll='4587' macro='1' type='int nk_string_float_limit(char * string, int prec)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15612' u='c' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15616' u='c' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15712' u='c' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15717' u='c' c='nk_do_property'/>

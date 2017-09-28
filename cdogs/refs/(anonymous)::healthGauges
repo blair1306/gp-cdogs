@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='51' type='HealthGauge [4]'/>
+<offset>3200</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='83' u='a' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='121' u='a' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='719' u='a' c='DrawPlayerAreas'/>

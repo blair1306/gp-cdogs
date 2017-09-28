@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='60' type='_Bool AmmoIsLow(const Ammo * a, const int amount)'/>
+<def f='codebrowser/src/cdogs/ammo.c' l='168' ll='172' macro='1' type='_Bool AmmoIsLow(const Ammo * a, const int amount)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='307' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='315' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='240' u='c' c='DrawWeaponStatus'/>

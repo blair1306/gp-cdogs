@@ -1,0 +1,14 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='89' ll='93'/>
+<size>8</size>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='79'>/**
+ * Portable internet address structure. 
+ *
+ * The host must be specified in network byte-order, and the port must be in host 
+ * byte-order. The constant ENET_HOST_ANY may be used to specify the default 
+ * server host. The constant ENET_HOST_BROADCAST may be used to specify the
+ * broadcast address (255.255.255.255).  This makes sense for enet_host_connect,
+ * but not for enet_host_create.  Once a server responds to a broadcast, the
+ * address is updated from ENET_HOST_BROADCAST to the server&apos;s actual IP address.
+ */</doc>
+<mbr r='_ENetAddress::host' o='0' t='enet_uint32'/>
+<mbr r='_ENetAddress::port' o='32' t='enet_uint16'/>

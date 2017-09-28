@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3117' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14583' u='r' c='nk_draw_scrollbar'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14656' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14657' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14658' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14659' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14745' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14746' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14747' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14748' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16188' u='w' c='nk_style_from_table'/>
+<offset>1632</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3116'>/* properties */</doc>

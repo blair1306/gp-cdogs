@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='93' type='42'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='102' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='102' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='102' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='102' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='452' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='521' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='191' u='r' c='ObjRemove'/>

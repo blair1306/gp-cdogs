@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='70' type='_Bool'/>
+<offset>1088</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='141' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='149' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='150' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='250' u='r' c='DrawActorPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='296' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='340' u='r' c='DrawActorHighlight'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2877' type='void nk_draw_list_setup(struct nk_draw_list * , const struct nk_convert_config * , struct nk_buffer * cmds, struct nk_buffer * vertices, struct nk_buffer * elements)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7322' ll='7339' macro='1' type='void nk_draw_list_setup(struct nk_draw_list * canvas, const struct nk_convert_config * config, struct nk_buffer * cmds, struct nk_buffer * vertices, struct nk_buffer * elements)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8475' u='c' c='nk_convert'/>

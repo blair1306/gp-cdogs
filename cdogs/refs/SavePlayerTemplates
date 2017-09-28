@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/player_template.h' l='46' type='void SavePlayerTemplates(const CArray * templates, const char * filename)'/>
+<def f='codebrowser/src/cdogs/player_template.c' l='140' ll='186' type='void SavePlayerTemplates(const CArray * templates, const char * filename)'/>
+<use f='codebrowser/src/player_select_menus.c' l='380' u='c' c='PostInputSaveTemplate'/>

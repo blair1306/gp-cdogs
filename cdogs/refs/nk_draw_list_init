@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2876' type='void nk_draw_list_init(struct nk_draw_list * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7308' ll='7320' macro='1' type='void nk_draw_list_init(struct nk_draw_list * list)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16737' u='c' c='nk_setup'/>

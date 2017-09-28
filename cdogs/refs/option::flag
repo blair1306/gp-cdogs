@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/XGetopt.h' l='110' type='int *'/>
+<use f='codebrowser/src/XGetopt.c' l='236' u='r' c='lookup_longopt'/>
+<use f='codebrowser/src/XGetopt.c' l='239' u='r' c='lookup_longopt'/>
+<offset>128</offset>
+<doc f='codebrowser/src/XGetopt.h' l='109'>/** pointer to a flag to be set if the option is present */</doc>

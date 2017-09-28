@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='59' type='0'/>
+<use f='codebrowser/src/briefing_screens.c' l='784' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/actors.c' l='549' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/ai.c' l='554' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='696' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='162' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/objective.c' l='59' c='ObjectiveTypeStr'/>
+<use f='codebrowser/src/cdogs/objective.c' l='70' u='r' c='StrObjectiveType'/>
+<use f='codebrowser/src/cdogs/objective.c' l='76' u='r' c='StrObjectiveType'/>
+<use f='codebrowser/src/cdogs/objective.c' l='82' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='566' u='r' c='MissionCheckObjectiveIsKill'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='119' c='DrawObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='429' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='489' c='CreateAddObjectiveSubObjs'/>

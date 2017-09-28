@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1490' type='int nk_check_text(struct nk_context * , const char * , int , int active)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20296' ll='20323' macro='1' type='int nk_check_text(struct nk_context * ctx, const char * text, int len, int active)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20334' u='c' c='nk_check_flags_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20349' u='c' c='nk_checkbox_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20373' u='c' c='nk_check_label'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2841' ll='2851'/>
+<size>32</size>
+<mbr r='nk_draw_command::elem_count' o='0' t='unsigned int'/>
+<mbr r='nk_draw_command::clip_rect' o='32' t='struct nk_rect'/>
+<mbr r='nk_draw_command::texture' o='192' t='nk_handle'/>

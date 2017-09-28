@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='143' type='void WeaponInitialize(GunClasses * g)'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='69' ll='74' type='void WeaponInitialize(GunClasses * g)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='631' u='c' c='BulletAndWeaponInitialize'/>

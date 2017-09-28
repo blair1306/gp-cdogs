@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_hints.h' l='662' type='SDL_bool SDL_SetHint(const char * name, const char * value)'/>
+<doc f='include/SDL2/SDL_hints.h' l='657'>/**
+ *  \brief Set a hint with normal priority
+ *
+ *  \return SDL_TRUE if the hint was set, SDL_FALSE otherwise
+ */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='285' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='101' u='c' c='CharEditor'/>

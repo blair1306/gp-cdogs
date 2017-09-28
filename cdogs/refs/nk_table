@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3649' ll='3654'/>
+<size>488</size>
+<mbr r='nk_table::seq' o='0' t='unsigned int'/>
+<mbr r='nk_table::keys' o='32' t='nk_hash [58]'/>
+<mbr r='nk_table::values' o='1888' t='nk_uint [58]'/>
+<mbr r='nk_table::next' o='3776' t='struct nk_table *'/>
+<mbr r='nk_table::prev' o='3840' t='struct nk_table *'/>

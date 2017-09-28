@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='132' type='int'/>
+<offset>1280</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='236' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='237' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='239' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='485' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='546' u='r' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='548' u='w' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='550' u='r' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='552' u='w' c='OnHit'/>
+<use f='codebrowser/src/cdogs/tile.c' l='129' u='w' c='TileItemUpdate'/>
+<use f='codebrowser/src/cdogs/tile.c' l='129' u='r' c='TileItemUpdate'/>
+<use f='codebrowser/src/cdogs/tile.c' l='129' u='r' c='TileItemUpdate'/>

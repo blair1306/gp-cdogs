@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2248' type='struct nk_allocator'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6079' u='w' c='nk_buffer_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6135' u='m' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6135' u='m' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6139' u='m' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6139' u='m' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6146' u='m' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6146' u='m' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6195' u='m' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6195' u='m' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6196' u='m' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6196' u='m' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6279' u='m' c='nk_buffer_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6280' u='m' c='nk_buffer_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6281' u='m' c='nk_buffer_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6281' u='m' c='nk_buffer_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16780' u='a' c='nk_init_custom'/>
+<offset>256</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2247'>/* buffer marker to free a buffer to a certain offset */</doc>

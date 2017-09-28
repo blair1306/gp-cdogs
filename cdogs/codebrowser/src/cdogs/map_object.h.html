@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>map_object.h source code [codebrowser/src/cdogs/map_object.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/map_object.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='map_object.h.html'>map_object.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin</i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2017, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="../json/json.h.html">&lt;json/json.h&gt;</a></u></td></tr>
+<tr><th id="52">52</th><td><u>#include <a href="ammo.h.html">"ammo.h"</a></u></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="pic_manager.h.html">"pic_manager.h"</a></u></td></tr>
+<tr><th id="54">54</th><td><u>#include <a href="pickup_class.h.html">"pickup_class.h"</a></u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="57">57</th><td>{</td></tr>
+<tr><th id="58">58</th><td>	<dfn class="enum" id="PLACEMENT_NONE" title='PLACEMENT_NONE' data-ref="PLACEMENT_NONE">PLACEMENT_NONE</dfn> = <var>0</var>,</td></tr>
+<tr><th id="59">59</th><td>	<dfn class="enum" id="PLACEMENT_OUTSIDE" title='PLACEMENT_OUTSIDE' data-ref="PLACEMENT_OUTSIDE">PLACEMENT_OUTSIDE</dfn>,</td></tr>
+<tr><th id="60">60</th><td>	<dfn class="enum" id="PLACEMENT_INSIDE" title='PLACEMENT_INSIDE' data-ref="PLACEMENT_INSIDE">PLACEMENT_INSIDE</dfn>,</td></tr>
+<tr><th id="61">61</th><td>	<dfn class="enum" id="PLACEMENT_NO_WALLS" title='PLACEMENT_NO_WALLS' data-ref="PLACEMENT_NO_WALLS">PLACEMENT_NO_WALLS</dfn>,</td></tr>
+<tr><th id="62">62</th><td>	<dfn class="enum" id="PLACEMENT_ONE_WALL" title='PLACEMENT_ONE_WALL' data-ref="PLACEMENT_ONE_WALL">PLACEMENT_ONE_WALL</dfn>,</td></tr>
+<tr><th id="63">63</th><td>	<dfn class="enum" id="PLACEMENT_ONE_OR_MORE_WALLS" title='PLACEMENT_ONE_OR_MORE_WALLS' data-ref="PLACEMENT_ONE_OR_MORE_WALLS">PLACEMENT_ONE_OR_MORE_WALLS</dfn>,</td></tr>
+<tr><th id="64">64</th><td>	<dfn class="enum" id="PLACEMENT_FREE_IN_FRONT" title='PLACEMENT_FREE_IN_FRONT' data-ref="PLACEMENT_FREE_IN_FRONT">PLACEMENT_FREE_IN_FRONT</dfn>,</td></tr>
+<tr><th id="65">65</th><td>	<dfn class="enum" id="PLACEMENT_ON_WALL" title='PLACEMENT_ON_WALL' data-ref="PLACEMENT_ON_WALL">PLACEMENT_ON_WALL</dfn>,</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>	<dfn class="enum" id="PLACEMENT_COUNT" title='PLACEMENT_COUNT' data-ref="PLACEMENT_COUNT">PLACEMENT_COUNT</dfn></td></tr>
+<tr><th id="68">68</th><td>} <dfn class="typedef" id="PlacementFlags" title='PlacementFlags' data-type='enum PlacementFlags' data-ref="PlacementFlags">PlacementFlags</dfn>;</td></tr>
+<tr><th id="69">69</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="PlacementFlagStr" title='PlacementFlagStr' data-ref="PlacementFlagStr">PlacementFlagStr</dfn>(<em>const</em> <em>int</em> <dfn class="local col2 decl" id="2532i" title='i' data-type='const int' data-ref="2532i">i</dfn>);</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="72">72</th><td>{</td></tr>
+<tr><th id="73">73</th><td>	<dfn class="enum" id="MAP_OBJECT_TYPE_NORMAL" title='MAP_OBJECT_TYPE_NORMAL' data-ref="MAP_OBJECT_TYPE_NORMAL">MAP_OBJECT_TYPE_NORMAL</dfn>,</td></tr>
+<tr><th id="74">74</th><td>	<dfn class="enum" id="MAP_OBJECT_TYPE_PICKUP_SPAWNER" title='MAP_OBJECT_TYPE_PICKUP_SPAWNER' data-ref="MAP_OBJECT_TYPE_PICKUP_SPAWNER">MAP_OBJECT_TYPE_PICKUP_SPAWNER</dfn></td></tr>
+<tr><th id="75">75</th><td>} <dfn class="typedef" id="MapObjectType" title='MapObjectType' data-type='enum MapObjectType' data-ref="MapObjectType">MapObjectType</dfn>;</td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td><i>// Pickups to spawn when map objects are destroyed</i></td></tr>
+<tr><th id="78">78</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="79">79</th><td>{</td></tr>
+<tr><th id="80">80</th><td>	<a class="typedef" href="pickup_class.h.html#PickupType" title='PickupType' data-type='enum PickupType' data-ref="PickupType">PickupType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="81">81</th><td>	<em>double</em> <dfn class="decl" id="(anonymous)::SpawnChance" title='(anonymous struct)::SpawnChance' data-ref="(anonymous)::SpawnChance">SpawnChance</dfn>;</td></tr>
+<tr><th id="82">82</th><td>} <dfn class="typedef" id="MapObjectDestroySpawn" title='MapObjectDestroySpawn' data-type='struct MapObjectDestroySpawn' data-ref="MapObjectDestroySpawn">MapObjectDestroySpawn</dfn>;</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><i>// A static map object, taking up an entire tile</i></td></tr>
+<tr><th id="85">85</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="86">86</th><td>{</td></tr>
+<tr><th id="87">87</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Name" title='(anonymous struct)::Name' data-ref="(anonymous)::Name">Name</dfn>;</td></tr>
+<tr><th id="88">88</th><td>	<a class="typedef" href="cpic.h.html#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> <dfn class="decl" id="(anonymous)::Pic" title='(anonymous struct)::Pic' data-ref="(anonymous)::Pic">Pic</dfn>;</td></tr>
+<tr><th id="89">89</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Offset" title='(anonymous struct)::Offset' data-ref="(anonymous)::Offset">Offset</dfn>;</td></tr>
+<tr><th id="90">90</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Wreck" title='(anonymous struct)::Wreck' data-ref="(anonymous)::Wreck">Wreck</dfn>;</td></tr>
+<tr><th id="91">91</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Size" title='(anonymous struct)::Size' data-ref="(anonymous)::Size">Size</dfn>;</td></tr>
+<tr><th id="92">92</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::PosOffset" title='(anonymous struct)::PosOffset' data-ref="(anonymous)::PosOffset">PosOffset</dfn>;</td></tr>
+<tr><th id="93">93</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Health" title='(anonymous struct)::Health' data-ref="(anonymous)::Health">Health</dfn>;</td></tr>
+<tr><th id="94">94</th><td>	<i>// Guns that are fired when this map object is destroyed</i></td></tr>
+<tr><th id="95">95</th><td><i>	// i.e. explosion on destruction</i></td></tr>
+<tr><th id="96">96</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::DestroyGuns" title='(anonymous struct)::DestroyGuns' data-ref="(anonymous)::DestroyGuns">DestroyGuns</dfn>;	<i>// of const GunDescription *</i></td></tr>
+<tr><th id="97">97</th><td>	<i>// Bit field composed of bits shifted by PlacementFlags</i></td></tr>
+<tr><th id="98">98</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Flags" title='(anonymous struct)::Flags' data-ref="(anonymous)::Flags">Flags</dfn>;</td></tr>
+<tr><th id="99">99</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::DrawLast" title='(anonymous struct)::DrawLast' data-ref="(anonymous)::DrawLast">DrawLast</dfn>;</td></tr>
+<tr><th id="100">100</th><td>	<a class="typedef" href="#MapObjectType" title='MapObjectType' data-type='enum MapObjectType' data-ref="MapObjectType">MapObjectType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="101">101</th><td>	<b>union</b></td></tr>
+<tr><th id="102">102</th><td>	{</td></tr>
+<tr><th id="103">103</th><td>		<em>const</em> <a class="typedef" href="pickup_class.h.html#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="decl" id="(anonymousstruct)::(anonymous)::PickupClass" title='(anonymous struct)::(anonymous union)::PickupClass' data-ref="(anonymousstruct)::(anonymous)::PickupClass">PickupClass</dfn>;</td></tr>
+<tr><th id="104">104</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="105">105</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::DestroySpawn" title='(anonymous struct)::DestroySpawn' data-ref="(anonymous)::DestroySpawn">DestroySpawn</dfn>;	<i>// of MapObjectDestroySpawn</i></td></tr>
+<tr><th id="106">106</th><td>} <dfn class="typedef" id="MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</dfn>;</td></tr>
+<tr><th id="107">107</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="108">108</th><td>{</td></tr>
+<tr><th id="109">109</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Classes" title='(anonymous struct)::Classes' data-ref="(anonymous)::Classes">Classes</dfn>;	<i>// of MapObject</i></td></tr>
+<tr><th id="110">110</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::CustomClasses" title='(anonymous struct)::CustomClasses' data-ref="(anonymous)::CustomClasses">CustomClasses</dfn>;	<i>// of MapObject</i></td></tr>
+<tr><th id="111">111</th><td>	<i>// Names of special types of map objects; for editor support</i></td></tr>
+<tr><th id="112">112</th><td><i>	// Reset on load</i></td></tr>
+<tr><th id="113">113</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Destructibles" title='(anonymous struct)::Destructibles' data-ref="(anonymous)::Destructibles">Destructibles</dfn>;	<i>// of char *</i></td></tr>
+<tr><th id="114">114</th><td>	<i>// Map objects that match "blood%d" - left over when actors die</i></td></tr>
+<tr><th id="115">115</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Bloods" title='(anonymous struct)::Bloods' data-ref="(anonymous)::Bloods">Bloods</dfn>;	<i>// of char *</i></td></tr>
+<tr><th id="116">116</th><td>} <dfn class="typedef" id="MapObjects" title='MapObjects' data-type='struct MapObjects' data-ref="MapObjects">MapObjects</dfn>;</td></tr>
+<tr><th id="117">117</th><td><b>extern</b> <a class="typedef" href="#MapObjects" title='MapObjects' data-type='struct MapObjects' data-ref="MapObjects">MapObjects</a> <dfn class="decl" id="gMapObjects" title='gMapObjects' data-ref="gMapObjects">gMapObjects</dfn>;</td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td><a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="decl" id="StrMapObject" title='StrMapObject' data-ref="StrMapObject">StrMapObject</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="2533s" title='s' data-type='const char *' data-ref="2533s">s</dfn>);</td></tr>
+<tr><th id="120">120</th><td><i>// Legacy map objects, integer based</i></td></tr>
+<tr><th id="121">121</th><td><a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="decl" id="IntMapObject" title='IntMapObject' data-ref="IntMapObject">IntMapObject</dfn>(<em>const</em> <em>int</em> <dfn class="local col4 decl" id="2534m" title='m' data-type='const int' data-ref="2534m">m</dfn>);</td></tr>
+<tr><th id="122">122</th><td><i>// Get map object by index; used by editor</i></td></tr>
+<tr><th id="123">123</th><td><a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="decl" id="IndexMapObject" title='IndexMapObject' data-ref="IndexMapObject">IndexMapObject</dfn>(<em>const</em> <em>int</em> <dfn class="local col5 decl" id="2535i" title='i' data-type='const int' data-ref="2535i">i</dfn>);</td></tr>
+<tr><th id="124">124</th><td><i>// Get index of destructible map object; used by editor</i></td></tr>
+<tr><th id="125">125</th><td><em>int</em> <dfn class="decl" id="DestructibleMapObjectIndex" title='DestructibleMapObjectIndex' data-ref="DestructibleMapObjectIndex">DestructibleMapObjectIndex</dfn>(<em>const</em> <a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="local col6 decl" id="2536mo" title='mo' data-type='const MapObject *' data-ref="2536mo">mo</dfn>);</td></tr>
+<tr><th id="126">126</th><td><a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="decl" id="RandomBloodMapObject" title='RandomBloodMapObject' data-ref="RandomBloodMapObject">RandomBloodMapObject</dfn>(<em>const</em> <a class="typedef" href="#MapObjects" title='MapObjects' data-type='struct MapObjects' data-ref="MapObjects">MapObjects</a> *<dfn class="local col7 decl" id="2537mo" title='mo' data-type='const MapObjects *' data-ref="2537mo">mo</dfn>);</td></tr>
+<tr><th id="127">127</th><td><em>int</em> <dfn class="decl" id="MapObjectGetFlags" title='MapObjectGetFlags' data-ref="MapObjectGetFlags">MapObjectGetFlags</dfn>(<em>const</em> <a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="local col8 decl" id="2538mo" title='mo' data-type='const MapObject *' data-ref="2538mo">mo</dfn>);</td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><em>void</em> <dfn class="decl" id="MapObjectsInit" title='MapObjectsInit' data-ref="MapObjectsInit">MapObjectsInit</dfn>(</td></tr>
+<tr><th id="130">130</th><td>	<a class="typedef" href="#MapObjects" title='MapObjects' data-type='struct MapObjects' data-ref="MapObjects">MapObjects</a> *<dfn class="local col9 decl" id="2539classes" title='classes' data-type='MapObjects *' data-ref="2539classes">classes</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="2540filename" title='filename' data-type='const char *' data-ref="2540filename">filename</dfn>,</td></tr>
+<tr><th id="131">131</th><td>	<em>const</em> <a class="typedef" href="ammo.h.html#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> *<dfn class="local col1 decl" id="2541ammo" title='ammo' data-type='const AmmoClasses *' data-ref="2541ammo">ammo</dfn>, <em>const</em> <a class="typedef" href="weapon.h.html#GunClasses" title='GunClasses' data-type='struct GunClasses' data-ref="GunClasses">GunClasses</a> *<dfn class="local col2 decl" id="2542guns" title='guns' data-type='const GunClasses *' data-ref="2542guns">guns</dfn>);</td></tr>
+<tr><th id="132">132</th><td><em>void</em> <dfn class="decl" id="MapObjectsLoadJSON" title='MapObjectsLoadJSON' data-ref="MapObjectsLoadJSON">MapObjectsLoadJSON</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col3 decl" id="2543classes" title='classes' data-type='CArray *' data-ref="2543classes">classes</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col4 decl" id="2544root" title='root' data-type='json_t *' data-ref="2544root">root</dfn>);</td></tr>
+<tr><th id="133">133</th><td><em>void</em> <dfn class="decl" id="MapObjectsLoadAmmoAndGunSpawners" title='MapObjectsLoadAmmoAndGunSpawners' data-ref="MapObjectsLoadAmmoAndGunSpawners">MapObjectsLoadAmmoAndGunSpawners</dfn>(</td></tr>
+<tr><th id="134">134</th><td>	<a class="typedef" href="#MapObjects" title='MapObjects' data-type='struct MapObjects' data-ref="MapObjects">MapObjects</a> *<dfn class="local col5 decl" id="2545classes" title='classes' data-type='MapObjects *' data-ref="2545classes">classes</dfn>, <em>const</em> <a class="typedef" href="ammo.h.html#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> *<dfn class="local col6 decl" id="2546ammo" title='ammo' data-type='const AmmoClasses *' data-ref="2546ammo">ammo</dfn>, <em>const</em> <a class="typedef" href="weapon.h.html#GunClasses" title='GunClasses' data-type='struct GunClasses' data-ref="GunClasses">GunClasses</a> *<dfn class="local col7 decl" id="2547guns" title='guns' data-type='const GunClasses *' data-ref="2547guns">guns</dfn>,</td></tr>
+<tr><th id="135">135</th><td>	<em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col8 decl" id="2548isCustom" title='isCustom' data-type='const _Bool' data-ref="2548isCustom">isCustom</dfn>);</td></tr>
+<tr><th id="136">136</th><td><em>void</em> <dfn class="decl" id="MapObjectsClear" title='MapObjectsClear' data-ref="MapObjectsClear">MapObjectsClear</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col9 decl" id="2549classes" title='classes' data-type='CArray *' data-ref="2549classes">classes</dfn>);</td></tr>
+<tr><th id="137">137</th><td><em>void</em> <dfn class="decl" id="MapObjectsTerminate" title='MapObjectsTerminate' data-ref="MapObjectsTerminate">MapObjectsTerminate</dfn>(<a class="typedef" href="#MapObjects" title='MapObjects' data-type='struct MapObjects' data-ref="MapObjects">MapObjects</a> *<dfn class="local col0 decl" id="2550classes" title='classes' data-type='MapObjects *' data-ref="2550classes">classes</dfn>);</td></tr>
+<tr><th id="138">138</th><td><em>int</em> <dfn class="decl" id="MapObjectsCount" title='MapObjectsCount' data-ref="MapObjectsCount">MapObjectsCount</dfn>(<em>const</em> <a class="typedef" href="#MapObjects" title='MapObjects' data-type='struct MapObjects' data-ref="MapObjects">MapObjects</a> *<dfn class="local col1 decl" id="2551classes" title='classes' data-type='const MapObjects *' data-ref="2551classes">classes</dfn>);</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td><em>const</em> <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="decl" id="MapObjectGetPic" title='MapObjectGetPic' data-ref="MapObjectGetPic">MapObjectGetPic</dfn>(<em>const</em> <a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="local col2 decl" id="2552mo" title='mo' data-type='const MapObject *' data-ref="2552mo">mo</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> *<dfn class="local col3 decl" id="2553offset" title='offset' data-type='Vec2i *' data-ref="2553offset">offset</dfn>);</td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapObjectIsTileOK" title='MapObjectIsTileOK' data-ref="MapObjectIsTileOK">MapObjectIsTileOK</dfn>(</td></tr>
+<tr><th id="143">143</th><td>	<em>const</em> <a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="local col4 decl" id="2554obj" title='obj' data-type='const MapObject *' data-ref="2554obj">obj</dfn>, <em>unsigned</em> <em>short</em> <dfn class="local col5 decl" id="2555tile" title='tile' data-type='unsigned short' data-ref="2555tile">tile</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col6 decl" id="2556isEmpty" title='isEmpty' data-type='const _Bool' data-ref="2556isEmpty">isEmpty</dfn>,</td></tr>
+<tr><th id="144">144</th><td>	<em>unsigned</em> <em>short</em> <dfn class="local col7 decl" id="2557tileAbove" title='tileAbove' data-type='unsigned short' data-ref="2557tileAbove">tileAbove</dfn>);</td></tr>
+<tr><th id="145">145</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapObjectIsTileOKStrict" title='MapObjectIsTileOKStrict' data-ref="MapObjectIsTileOKStrict">MapObjectIsTileOKStrict</dfn>(</td></tr>
+<tr><th id="146">146</th><td>	<em>const</em> <a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="local col8 decl" id="2558obj" title='obj' data-type='const MapObject *' data-ref="2558obj">obj</dfn>, <em>const</em> <em>unsigned</em> <em>short</em> <dfn class="local col9 decl" id="2559tile" title='tile' data-type='const unsigned short' data-ref="2559tile">tile</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col0 decl" id="2560isEmpty" title='isEmpty' data-type='const _Bool' data-ref="2560isEmpty">isEmpty</dfn>,</td></tr>
+<tr><th id="147">147</th><td>	<em>const</em> <em>unsigned</em> <em>short</em> <dfn class="local col1 decl" id="2561tileAbove" title='tileAbove' data-type='const unsigned short' data-ref="2561tileAbove">tileAbove</dfn>, <em>const</em> <em>unsigned</em> <em>short</em> <dfn class="local col2 decl" id="2562tileBelow" title='tileBelow' data-type='const unsigned short' data-ref="2562tileBelow">tileBelow</dfn>,</td></tr>
+<tr><th id="148">148</th><td>	<em>const</em> <em>int</em> <dfn class="local col3 decl" id="2563numWallsAdjacent" title='numWallsAdjacent' data-type='const int' data-ref="2563numWallsAdjacent">numWallsAdjacent</dfn>, <em>const</em> <em>int</em> <dfn class="local col4 decl" id="2564numWallsAround" title='numWallsAround' data-type='const int' data-ref="2564numWallsAround">numWallsAround</dfn>);</td></tr>
+<tr><th id="149">149</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="MapObjectGetPlacementPos" title='MapObjectGetPlacementPos' data-ref="MapObjectGetPlacementPos">MapObjectGetPlacementPos</dfn>(<em>const</em> <a class="typedef" href="#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="local col5 decl" id="2565mo" title='mo' data-type='const MapObject *' data-ref="2565mo">mo</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col6 decl" id="2566tilePos" title='tilePos' data-type='const Vec2i' data-ref="2566tilePos">tilePos</dfn>);</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

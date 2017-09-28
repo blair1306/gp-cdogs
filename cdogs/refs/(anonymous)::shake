@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='47' type='ScreenShake'/>
+<offset>4416</offset>
+<use f='codebrowser/src/cdogs/camera.c' l='47' u='w' c='CameraInit'/>
+<use f='codebrowser/src/cdogs/camera.c' l='114' u='w' c='CameraUpdate'/>
+<use f='codebrowser/src/cdogs/camera.c' l='114' u='r' c='CameraUpdate'/>
+<use f='codebrowser/src/cdogs/camera.c' l='128' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='165' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='166' u='r' c='HandleGameEvent'/>

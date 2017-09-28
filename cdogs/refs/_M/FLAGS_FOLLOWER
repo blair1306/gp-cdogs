@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='78'/>
+<use f='codebrowser/src/cdogs/ai.c' l='392' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='451' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='500' u='c'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='600' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='560' u='c'/>

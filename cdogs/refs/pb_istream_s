@@ -1,0 +1,19 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='28' ll='46'/>
+<size>32</size>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='15'>/* Structure for defining custom input streams. You will need to provide
+ * a callback function to read the bytes from your storage, which can be
+ * for example a file or a network socket.
+ * 
+ * The callback must conform to these rules:
+ *
+ * 1) Return false on IO errors. This will cause decoding to abort.
+ * 2) You can use state to store your own data (e.g. buffer pointer),
+ *    and rely on pb_read to verify that no-body reads past bytes_left.
+ * 3) Your callback may be used with substreams, in which case bytes_left
+ *    is different than from the main stream. Don&apos;t use bytes_left to compute
+ *    any pointers.
+ */</doc>
+<mbr r='pb_istream_s::callback' o='0' t='_Bool (*)(pb_istream_t *, uint8_t *, size_t)'/>
+<mbr r='pb_istream_s::state' o='64' t='void *'/>
+<mbr r='pb_istream_s::bytes_left' o='128' t='size_t'/>
+<mbr r='pb_istream_s::errmsg' o='192' t='const char *'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='99' type='_Bool CanHit(const int flags, const int uid, const TTileItem * target)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='237' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='444' u='c' c='HitItemFunc'/>
+<def f='codebrowser/src/cdogs/objs.c' l='237' ll='250' macro='1' type='_Bool CanHit(const int flags, const int uid, const TTileItem * target)'/>

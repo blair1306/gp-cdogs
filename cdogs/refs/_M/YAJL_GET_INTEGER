@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='180'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='178'>/** Get the 64bit (long long) integer representation of a number.  You should
+ *  check type first, perhaps using YAJL_IS_INTEGER */</doc>
+<use f='codebrowser/src/cdogs/font_utils.c' l='53' u='c'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='54' u='c'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='55' u='c'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='56' u='c'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='137' u='c'/>

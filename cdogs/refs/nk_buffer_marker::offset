@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2241' type='nk_size'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6236' u='w' c='nk_buffer_mark'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6237' u='w' c='nk_buffer_mark'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6247' u='r' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6249' u='r' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6254' u='r' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6256' u='r' c='nk_buffer_reset'/>
+<offset>64</offset>

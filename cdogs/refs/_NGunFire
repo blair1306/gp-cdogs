@@ -1,0 +1,11 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='303' ll='314'/>
+<size>164</size>
+<mbr r='_NGunFire::UID' o='0' t='int32_t'/>
+<mbr r='_NGunFire::PlayerUID' o='32' t='int32_t'/>
+<mbr r='_NGunFire::Gun' o='64' t='char [128]'/>
+<mbr r='_NGunFire::MuzzleFullPos' o='1088' t='NVec2i'/>
+<mbr r='_NGunFire::Z' o='1152' t='int32_t'/>
+<mbr r='_NGunFire::Angle' o='1184' t='float'/>
+<mbr r='_NGunFire::Sound' o='1216' t='_Bool'/>
+<mbr r='_NGunFire::Flags' o='1248' t='uint32_t'/>
+<mbr r='_NGunFire::IsGun' o='1280' t='_Bool'/>

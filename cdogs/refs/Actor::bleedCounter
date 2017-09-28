@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='153' type='int'/>
+<offset>5120</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='923' u='w' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='924' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='928' u='w' c='UpdateAllActors'/>

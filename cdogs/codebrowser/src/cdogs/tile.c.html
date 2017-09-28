@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>tile.c source code [codebrowser/src/cdogs/tile.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/tile.c'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='tile.c.html'>tile.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin</i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2014, 2016-2017 Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#include <a href="tile.h.html">"tile.h"</a></u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="actors.h.html">"actors.h"</a></u></td></tr>
+<tr><th id="52">52</th><td><u>#include <a href="objs.h.html">"objs.h"</a></u></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="pickup.h.html">"pickup.h"</a></u></td></tr>
+<tr><th id="54">54</th><td><u>#include <a href="triggers.h.html">"triggers.h"</a></u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> <dfn class="decl def" id="TileNone" title='TileNone' data-ref="TileNone">TileNone</dfn>(<em>void</em>)</td></tr>
+<tr><th id="58">58</th><td>{</td></tr>
+<tr><th id="59">59</th><td>	<a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> <dfn class="local col1 decl" id="1t" title='t' data-type='Tile' data-ref="1t">t</dfn>;</td></tr>
+<tr><th id="60">60</th><td>	<a class="ref" href="#TileInit" title='TileInit' data-ref="TileInit">TileInit</a>(&amp;<a class="local col1 ref" href="#1t" title='t' data-ref="1t">t</a>);</td></tr>
+<tr><th id="61">61</th><td>	<a class="local col1 ref" href="#1t" title='t' data-ref="1t">t</a>.<a class="ref" href="tile.h.html#(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</a> = <a class="enum" href="tile.h.html#MAPTILE_NO_WALK" title='MAPTILE_NO_WALK' data-ref="MAPTILE_NO_WALK">MAPTILE_NO_WALK</a> | <a class="enum" href="tile.h.html#MAPTILE_IS_NOTHING" title='MAPTILE_IS_NOTHING' data-ref="MAPTILE_IS_NOTHING">MAPTILE_IS_NOTHING</a>;</td></tr>
+<tr><th id="62">62</th><td>	<b>return</b> <a class="local col1 ref" href="#1t" title='t' data-ref="1t">t</a>;</td></tr>
+<tr><th id="63">63</th><td>}</td></tr>
+<tr><th id="64">64</th><td><em>void</em> <dfn class="decl def" id="TileInit" title='TileInit' data-ref="TileInit">TileInit</dfn>(<a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col2 decl" id="2t" title='t' data-type='Tile *' data-ref="2t">t</dfn>)</td></tr>
+<tr><th id="65">65</th><td>{</td></tr>
+<tr><th id="66">66</th><td>	<a class="ref" href="../../../include/string.h.html#memset" title='memset' data-ref="memset">memset</a>(<a class="local col2 ref" href="#2t" title='t' data-ref="2t">t</a>, <var>0</var>, <b>sizeof</b> *<a class="local col2 ref" href="#2t" title='t' data-ref="2t">t</a>);</td></tr>
+<tr><th id="67">67</th><td>	<a class="ref" href="c_array.h.html#CArrayInit" title='CArrayInit' data-ref="CArrayInit">CArrayInit</a>(&amp;<a class="local col2 ref" href="#2t" title='t' data-ref="2t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::triggers" title='(anonymous struct)::triggers' data-ref="(anonymous)::triggers">triggers</a>, <b>sizeof</b>(<a class="typedef" href="triggers.h.html#Trigger" title='Trigger' data-type='struct Trigger' data-ref="Trigger">Trigger</a> *));</td></tr>
+<tr><th id="68">68</th><td>	<a class="ref" href="c_array.h.html#CArrayInit" title='CArrayInit' data-ref="CArrayInit">CArrayInit</a>(&amp;<a class="local col2 ref" href="#2t" title='t' data-ref="2t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::things" title='(anonymous struct)::things' data-ref="(anonymous)::things">things</a>, <b>sizeof</b>(<a class="typedef" href="tile.h.html#ThingId" title='ThingId' data-type='struct ThingId' data-ref="ThingId">ThingId</a>));</td></tr>
+<tr><th id="69">69</th><td>	<a class="local col2 ref" href="#2t" title='t' data-ref="2t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::pic" title='(anonymous struct)::pic' data-ref="(anonymous)::pic">pic</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="70">70</th><td>	<a class="local col2 ref" href="#2t" title='t' data-ref="2t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::picAlt" title='(anonymous struct)::picAlt' data-ref="(anonymous)::picAlt">picAlt</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="71">71</th><td>}</td></tr>
+<tr><th id="72">72</th><td><em>void</em> <dfn class="decl def" id="TileDestroy" title='TileDestroy' data-ref="TileDestroy">TileDestroy</dfn>(<a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col3 decl" id="3t" title='t' data-type='Tile *' data-ref="3t">t</dfn>)</td></tr>
+<tr><th id="73">73</th><td>{</td></tr>
+<tr><th id="74">74</th><td>	<a class="ref" href="c_array.h.html#CArrayTerminate" title='CArrayTerminate' data-ref="CArrayTerminate">CArrayTerminate</a>(&amp;<a class="local col3 ref" href="#3t" title='t' data-ref="3t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::triggers" title='(anonymous struct)::triggers' data-ref="(anonymous)::triggers">triggers</a>);</td></tr>
+<tr><th id="75">75</th><td>	<a class="ref" href="c_array.h.html#CArrayTerminate" title='CArrayTerminate' data-ref="CArrayTerminate">CArrayTerminate</a>(&amp;<a class="local col3 ref" href="#3t" title='t' data-ref="3t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::things" title='(anonymous struct)::things' data-ref="(anonymous)::things">things</a>);</td></tr>
+<tr><th id="76">76</th><td>}</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="IsTileItemInsideTile" title='IsTileItemInsideTile' data-ref="IsTileItemInsideTile">IsTileItemInsideTile</dfn>(<a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col4 decl" id="4i" title='i' data-type='TTileItem *' data-ref="4i">i</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col5 decl" id="5tilePos" title='tilePos' data-type='Vec2i' data-ref="5tilePos">tilePos</dfn>)</td></tr>
+<tr><th id="79">79</th><td>{</td></tr>
+<tr><th id="80">80</th><td>	<b>return</b></td></tr>
+<tr><th id="81">81</th><td>		<a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::x" title='TileItem::x' data-ref="TileItem::x">x</a> - <a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::size" title='TileItem::size' data-ref="TileItem::size">size</a>.<a class="ref" href="vector.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a> / <var>2</var> &gt;= <a class="local col5 ref" href="#5tilePos" title='tilePos' data-ref="5tilePos">tilePos</a>.<a class="ref" href="vector.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a> * <a class="macro" href="tile.h.html#59" title="16" data-ref="_M/TILE_WIDTH">TILE_WIDTH</a> &amp;&amp;</td></tr>
+<tr><th id="82">82</th><td>		<a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::x" title='TileItem::x' data-ref="TileItem::x">x</a> + <a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::size" title='TileItem::size' data-ref="TileItem::size">size</a>.<a class="ref" href="vector.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a> / <var>2</var> &lt; (<a class="local col5 ref" href="#5tilePos" title='tilePos' data-ref="5tilePos">tilePos</a>.<a class="ref" href="vector.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a> + <var>1</var>) * <a class="macro" href="tile.h.html#59" title="16" data-ref="_M/TILE_WIDTH">TILE_WIDTH</a> &amp;&amp;</td></tr>
+<tr><th id="83">83</th><td>		<a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::y" title='TileItem::y' data-ref="TileItem::y">y</a> - <a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::size" title='TileItem::size' data-ref="TileItem::size">size</a>.<a class="ref" href="vector.h.html#(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</a> / <var>2</var> &gt;= <a class="local col5 ref" href="#5tilePos" title='tilePos' data-ref="5tilePos">tilePos</a>.<a class="ref" href="vector.h.html#(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</a> * <a class="macro" href="tile.h.html#60" title="12" data-ref="_M/TILE_HEIGHT">TILE_HEIGHT</a> &amp;&amp;</td></tr>
+<tr><th id="84">84</th><td>		<a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::y" title='TileItem::y' data-ref="TileItem::y">y</a> + <a class="local col4 ref" href="#4i" title='i' data-ref="4i">i</a>-&gt;<a class="ref" href="tile.h.html#TileItem::size" title='TileItem::size' data-ref="TileItem::size">size</a>.<a class="ref" href="vector.h.html#(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</a> / <var>2</var> &lt; (<a class="local col5 ref" href="#5tilePos" title='tilePos' data-ref="5tilePos">tilePos</a>.<a class="ref" href="vector.h.html#(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</a> + <var>1</var>) * <a class="macro" href="tile.h.html#60" title="12" data-ref="_M/TILE_HEIGHT">TILE_HEIGHT</a>;</td></tr>
+<tr><th id="85">85</th><td>}</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="TileCanSee" title='TileCanSee' data-ref="TileCanSee">TileCanSee</dfn>(<a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col6 decl" id="6t" title='t' data-type='Tile *' data-ref="6t">t</dfn>)</td></tr>
+<tr><th id="88">88</th><td>{</td></tr>
+<tr><th id="89">89</th><td>	<b>return</b> !(<a class="local col6 ref" href="#6t" title='t' data-ref="6t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</a> &amp; <a class="enum" href="tile.h.html#MAPTILE_NO_SEE" title='MAPTILE_NO_SEE' data-ref="MAPTILE_NO_SEE">MAPTILE_NO_SEE</a>);</td></tr>
+<tr><th id="90">90</th><td>}</td></tr>
+<tr><th id="91">91</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="TileCanWalk" title='TileCanWalk' data-ref="TileCanWalk">TileCanWalk</dfn>(<em>const</em> <a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col7 decl" id="7t" title='t' data-type='const Tile *' data-ref="7t">t</dfn>)</td></tr>
+<tr><th id="92">92</th><td>{</td></tr>
+<tr><th id="93">93</th><td>	<b>return</b> !(<a class="local col7 ref" href="#7t" title='t' data-ref="7t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</a> &amp; <a class="enum" href="tile.h.html#MAPTILE_NO_WALK" title='MAPTILE_NO_WALK' data-ref="MAPTILE_NO_WALK">MAPTILE_NO_WALK</a>);</td></tr>
+<tr><th id="94">94</th><td>}</td></tr>
+<tr><th id="95">95</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="TileIsNormalFloor" title='TileIsNormalFloor' data-ref="TileIsNormalFloor">TileIsNormalFloor</dfn>(<em>const</em> <a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col8 decl" id="8t" title='t' data-type='const Tile *' data-ref="8t">t</dfn>)</td></tr>
+<tr><th id="96">96</th><td>{</td></tr>
+<tr><th id="97">97</th><td>	<b>return</b> <a class="local col8 ref" href="#8t" title='t' data-ref="8t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</a> &amp; <a class="enum" href="tile.h.html#MAPTILE_IS_NORMAL_FLOOR" title='MAPTILE_IS_NORMAL_FLOOR' data-ref="MAPTILE_IS_NORMAL_FLOOR">MAPTILE_IS_NORMAL_FLOOR</a>;</td></tr>
+<tr><th id="98">98</th><td>}</td></tr>
+<tr><th id="99">99</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="TileIsClear" title='TileIsClear' data-ref="TileIsClear">TileIsClear</dfn>(<em>const</em> <a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col9 decl" id="9t" title='t' data-type='const Tile *' data-ref="9t">t</dfn>)</td></tr>
+<tr><th id="100">100</th><td>{</td></tr>
+<tr><th id="101">101</th><td>	<i>// Check if tile is normal floor</i></td></tr>
+<tr><th id="102">102</th><td>	<em>const</em> <em>int</em> <dfn class="local col0 decl" id="10normalFloorFlags" title='normalFloorFlags' data-type='const int' data-ref="10normalFloorFlags">normalFloorFlags</dfn> = <a class="enum" href="tile.h.html#MAPTILE_IS_NORMAL_FLOOR" title='MAPTILE_IS_NORMAL_FLOOR' data-ref="MAPTILE_IS_NORMAL_FLOOR">MAPTILE_IS_NORMAL_FLOOR</a> | <a class="enum" href="tile.h.html#MAPTILE_OFFSET_PIC" title='MAPTILE_OFFSET_PIC' data-ref="MAPTILE_OFFSET_PIC">MAPTILE_OFFSET_PIC</a>;</td></tr>
+<tr><th id="103">103</th><td>	<b>if</b> (<a class="local col9 ref" href="#9t" title='t' data-ref="9t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</a> &amp; ~<a class="local col0 ref" href="#10normalFloorFlags" title='normalFloorFlags' data-ref="10normalFloorFlags">normalFloorFlags</a>) <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="104">104</th><td>	<i>// Check if tile has no things on it, excluding particles</i></td></tr>
+<tr><th id="105">105</th><td>	<a class="macro" href="c_array.h.html#56" title="for (int _ca_index = 0; _ca_index &lt; (int)(t-&gt;things).size; _ca_index++) { const ThingId *tid = CArrayGet(&amp;(t-&gt;things), _ca_index);" data-ref="_M/CA_FOREACH">CA_FOREACH</a>(<em>const</em> <a class="typedef" href="tile.h.html#ThingId" title='ThingId' data-type='struct ThingId' data-ref="ThingId">ThingId</a>, <dfn class="local col1 decl" id="11tid" title='tid' data-type='const ThingId *' data-ref="11tid">tid</dfn>, <a class="local col9 ref" href="#9t" title='t' data-ref="9t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::things" title='(anonymous struct)::things' data-ref="(anonymous)::things">things</a>)</td></tr>
+<tr><th id="106">106</th><td>		<b>if</b> (<a class="local col1 ref" href="#105" title='tid' data-ref="11tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Kind" title='(anonymous struct)::Kind' data-ref="(anonymous)::Kind">Kind</a> != <a class="enum" href="tile.h.html#KIND_PARTICLE" title='KIND_PARTICLE' data-ref="KIND_PARTICLE">KIND_PARTICLE</a>) <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="107">107</th><td>	<a class="macro" href="c_array.h.html#60" title="}" data-ref="_M/CA_FOREACH_END">CA_FOREACH_END</a>()</td></tr>
+<tr><th id="108">108</th><td>	<b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="109">109</th><td>}</td></tr>
+<tr><th id="110">110</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="TileHasCharacter" title='TileHasCharacter' data-ref="TileHasCharacter">TileHasCharacter</dfn>(<a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col2 decl" id="12t" title='t' data-type='Tile *' data-ref="12t">t</dfn>)</td></tr>
+<tr><th id="111">111</th><td>{</td></tr>
+<tr><th id="112">112</th><td>	<a class="macro" href="c_array.h.html#56" title="for (int _ca_index = 0; _ca_index &lt; (int)(t-&gt;things).size; _ca_index++) { const ThingId *tid = CArrayGet(&amp;(t-&gt;things), _ca_index);" data-ref="_M/CA_FOREACH">CA_FOREACH</a>(<em>const</em> <a class="typedef" href="tile.h.html#ThingId" title='ThingId' data-type='struct ThingId' data-ref="ThingId">ThingId</a>, <dfn class="local col3 decl" id="13tid" title='tid' data-type='const ThingId *' data-ref="13tid">tid</dfn>, <a class="local col2 ref" href="#12t" title='t' data-ref="12t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::things" title='(anonymous struct)::things' data-ref="(anonymous)::things">things</a>)</td></tr>
+<tr><th id="113">113</th><td>		<b>if</b> (<a class="local col3 ref" href="#112" title='tid' data-ref="13tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Kind" title='(anonymous struct)::Kind' data-ref="(anonymous)::Kind">Kind</a> == <a class="enum" href="tile.h.html#KIND_CHARACTER" title='KIND_CHARACTER' data-ref="KIND_CHARACTER">KIND_CHARACTER</a>)</td></tr>
+<tr><th id="114">114</th><td>		{</td></tr>
+<tr><th id="115">115</th><td>			<b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="116">116</th><td>		}</td></tr>
+<tr><th id="117">117</th><td>	<a class="macro" href="c_array.h.html#60" title="}" data-ref="_M/CA_FOREACH_END">CA_FOREACH_END</a>()</td></tr>
+<tr><th id="118">118</th><td>	<b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="119">119</th><td>}</td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><em>void</em> <dfn class="decl def" id="TileSetAlternateFloor" title='TileSetAlternateFloor' data-ref="TileSetAlternateFloor">TileSetAlternateFloor</dfn>(<a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col4 decl" id="14t" title='t' data-type='Tile *' data-ref="14t">t</dfn>, <a class="typedef" href="cpic.h.html#NamedPic" title='NamedPic' data-type='struct NamedPic' data-ref="NamedPic">NamedPic</a> *<dfn class="local col5 decl" id="15p" title='p' data-type='NamedPic *' data-ref="15p">p</dfn>)</td></tr>
+<tr><th id="122">122</th><td>{</td></tr>
+<tr><th id="123">123</th><td>	<a class="local col4 ref" href="#14t" title='t' data-ref="14t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::pic" title='(anonymous struct)::pic' data-ref="(anonymous)::pic">pic</a> = <a class="local col5 ref" href="#15p" title='p' data-ref="15p">p</a>;</td></tr>
+<tr><th id="124">124</th><td>	<a class="local col4 ref" href="#14t" title='t' data-ref="14t">t</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</a> &amp;= ~<a class="enum" href="tile.h.html#MAPTILE_IS_NORMAL_FLOOR" title='MAPTILE_IS_NORMAL_FLOOR' data-ref="MAPTILE_IS_NORMAL_FLOOR">MAPTILE_IS_NORMAL_FLOOR</a>;</td></tr>
+<tr><th id="125">125</th><td>}</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><em>void</em> <dfn class="decl def" id="TileItemUpdate" title='TileItemUpdate' data-ref="TileItemUpdate">TileItemUpdate</dfn>(<a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col6 decl" id="16t" title='t' data-type='TTileItem *' data-ref="16t">t</dfn>, <em>const</em> <em>int</em> <dfn class="local col7 decl" id="17ticks" title='ticks' data-type='const int' data-ref="17ticks">ticks</dfn>)</td></tr>
+<tr><th id="128">128</th><td>{</td></tr>
+<tr><th id="129">129</th><td>	<a class="local col6 ref" href="#16t" title='t' data-ref="16t">t</a>-&gt;<a class="ref" href="tile.h.html#TileItem::SoundLock" title='TileItem::SoundLock' data-ref="TileItem::SoundLock">SoundLock</a> = <a class="macro" href="utils.h.html#143" title="((0) &gt; (t-&gt;SoundLock - ticks) ? (0) : (t-&gt;SoundLock - ticks))" data-ref="_M/MAX">MAX</a>(<var>0</var>, <a class="local col6 ref" href="#16t" title='t' data-ref="16t">t</a>-&gt;<a class="ref" href="tile.h.html#TileItem::SoundLock" title='TileItem::SoundLock' data-ref="TileItem::SoundLock">SoundLock</a> - <a class="local col7 ref" href="#17ticks" title='ticks' data-ref="17ticks">ticks</a>);</td></tr>
+<tr><th id="130">130</th><td>	<a class="ref" href="cpic.h.html#CPicUpdate" title='CPicUpdate' data-ref="CPicUpdate">CPicUpdate</a>(&amp;<a class="local col6 ref" href="#16t" title='t' data-ref="16t">t</a>-&gt;<a class="ref" href="tile.h.html#TileItem::CPic" title='TileItem::CPic' data-ref="TileItem::CPic">CPic</a>, <a class="local col7 ref" href="#17ticks" title='ticks' data-ref="17ticks">ticks</a>);</td></tr>
+<tr><th id="131">131</th><td>}</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td><a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="decl def" id="ThingIdGetTileItem" title='ThingIdGetTileItem' data-ref="ThingIdGetTileItem">ThingIdGetTileItem</dfn>(<em>const</em> <a class="typedef" href="tile.h.html#ThingId" title='ThingId' data-type='struct ThingId' data-ref="ThingId">ThingId</a> *<dfn class="local col8 decl" id="18tid" title='tid' data-type='const ThingId *' data-ref="18tid">tid</dfn>)</td></tr>
+<tr><th id="135">135</th><td>{</td></tr>
+<tr><th id="136">136</th><td>	<a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col9 decl" id="19ti" title='ti' data-type='TTileItem *' data-ref="19ti">ti</dfn> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="137">137</th><td>	<b>switch</b> (<a class="local col8 ref" href="#18tid" title='tid' data-ref="18tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Kind" title='(anonymous struct)::Kind' data-ref="(anonymous)::Kind">Kind</a>)</td></tr>
+<tr><th id="138">138</th><td>	{</td></tr>
+<tr><th id="139">139</th><td>	<b>case</b> <a class="enum" href="tile.h.html#KIND_CHARACTER" title='KIND_CHARACTER' data-ref="KIND_CHARACTER">KIND_CHARACTER</a>:</td></tr>
+<tr><th id="140">140</th><td>		<a class="local col9 ref" href="#19ti" title='ti' data-ref="19ti">ti</a> = &amp;((<a class="typedef" href="actors.h.html#TActor" title='TActor' data-type='struct Actor' data-ref="TActor">TActor</a> *)<a class="ref" href="c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="ref" href="actors.h.html#gActors" title='gActors' data-ref="gActors">gActors</a>, <a class="local col8 ref" href="#18tid" title='tid' data-ref="18tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Id" title='(anonymous struct)::Id' data-ref="(anonymous)::Id">Id</a>))-&gt;<a class="ref" href="actors.h.html#Actor::tileItem" title='Actor::tileItem' data-ref="Actor::tileItem">tileItem</a>;</td></tr>
+<tr><th id="141">141</th><td>		<b>break</b>;</td></tr>
+<tr><th id="142">142</th><td>	<b>case</b> <a class="enum" href="tile.h.html#KIND_PARTICLE" title='KIND_PARTICLE' data-ref="KIND_PARTICLE">KIND_PARTICLE</a>:</td></tr>
+<tr><th id="143">143</th><td>		<a class="local col9 ref" href="#19ti" title='ti' data-ref="19ti">ti</a> = &amp;((<a class="typedef" href="particle.h.html#Particle" title='Particle' data-type='struct Particle' data-ref="Particle">Particle</a> *)<a class="ref" href="c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="ref" href="particle.h.html#gParticles" title='gParticles' data-ref="gParticles">gParticles</a>, <a class="local col8 ref" href="#18tid" title='tid' data-ref="18tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Id" title='(anonymous struct)::Id' data-ref="(anonymous)::Id">Id</a>))-&gt;<a class="ref" href="particle.h.html#(anonymous)::tileItem" title='(anonymous struct)::tileItem' data-ref="(anonymous)::tileItem">tileItem</a>;</td></tr>
+<tr><th id="144">144</th><td>		<b>break</b>;</td></tr>
+<tr><th id="145">145</th><td>	<b>case</b> <a class="enum" href="tile.h.html#KIND_MOBILEOBJECT" title='KIND_MOBILEOBJECT' data-ref="KIND_MOBILEOBJECT">KIND_MOBILEOBJECT</a>:</td></tr>
+<tr><th id="146">146</th><td>		<a class="local col9 ref" href="#19ti" title='ti' data-ref="19ti">ti</a> = &amp;((<a class="typedef" href="objs.h.html#TMobileObject" title='TMobileObject' data-type='struct MobileObject' data-ref="TMobileObject">TMobileObject</a> *)<a class="ref" href="c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(</td></tr>
+<tr><th id="147">147</th><td>			&amp;<a class="ref" href="objs.h.html#gMobObjs" title='gMobObjs' data-ref="gMobObjs">gMobObjs</a>, <a class="local col8 ref" href="#18tid" title='tid' data-ref="18tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Id" title='(anonymous struct)::Id' data-ref="(anonymous)::Id">Id</a>))-&gt;<a class="ref" href="objs.h.html#MobileObject::tileItem" title='MobileObject::tileItem' data-ref="MobileObject::tileItem">tileItem</a>;</td></tr>
+<tr><th id="148">148</th><td>		<b>break</b>;</td></tr>
+<tr><th id="149">149</th><td>	<b>case</b> <a class="enum" href="tile.h.html#KIND_OBJECT" title='KIND_OBJECT' data-ref="KIND_OBJECT">KIND_OBJECT</a>:</td></tr>
+<tr><th id="150">150</th><td>		<a class="local col9 ref" href="#19ti" title='ti' data-ref="19ti">ti</a> = &amp;((<a class="typedef" href="objs.h.html#TObject" title='TObject' data-type='struct TObject' data-ref="TObject">TObject</a> *)<a class="ref" href="c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="ref" href="objs.h.html#gObjs" title='gObjs' data-ref="gObjs">gObjs</a>, <a class="local col8 ref" href="#18tid" title='tid' data-ref="18tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Id" title='(anonymous struct)::Id' data-ref="(anonymous)::Id">Id</a>))-&gt;<a class="ref" href="objs.h.html#(anonymous)::tileItem" title='(anonymous struct)::tileItem' data-ref="(anonymous)::tileItem">tileItem</a>;</td></tr>
+<tr><th id="151">151</th><td>		<b>break</b>;</td></tr>
+<tr><th id="152">152</th><td>	<b>case</b> <a class="enum" href="tile.h.html#KIND_PICKUP" title='KIND_PICKUP' data-ref="KIND_PICKUP">KIND_PICKUP</a>:</td></tr>
+<tr><th id="153">153</th><td>		<a class="local col9 ref" href="#19ti" title='ti' data-ref="19ti">ti</a> = &amp;((<a class="typedef" href="pickup.h.html#Pickup" title='Pickup' data-type='struct Pickup' data-ref="Pickup">Pickup</a> *)<a class="ref" href="c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="ref" href="pickup.h.html#gPickups" title='gPickups' data-ref="gPickups">gPickups</a>, <a class="local col8 ref" href="#18tid" title='tid' data-ref="18tid">tid</a>-&gt;<a class="ref" href="tile.h.html#(anonymous)::Id" title='(anonymous struct)::Id' data-ref="(anonymous)::Id">Id</a>))-&gt;<a class="ref" href="pickup.h.html#(anonymous)::tileItem" title='(anonymous struct)::tileItem' data-ref="(anonymous)::tileItem">tileItem</a>;</td></tr>
+<tr><th id="154">154</th><td>		<b>break</b>;</td></tr>
+<tr><th id="155">155</th><td>	<b>default</b>:</td></tr>
+<tr><th id="156">156</th><td>		<a class="macro" href="utils.h.html#83" title="{ volatile _Bool isOk = 0; if (!isOk) { static char _buf[1024]; sprintf( _buf, &quot;In %s %d:%s: &quot; &quot;unknown tile item to get&quot; &quot; (&quot; &quot;false&quot; &quot;)&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/cdogs/tile.c&quot;, 156, __FUNCTION__); ; ((0) ? (void) (0) : __assert_fail (&quot;0&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/cdogs/tile.c&quot;, 156, __PRETTY_FUNCTION__)); }}" data-ref="_M/CASSERT">CASSERT</a>(<span class="macro" title="0" data-ref="_M/false">false</span>, <q>"unknown tile item to get"</q>);</td></tr>
+<tr><th id="157">157</th><td>		<b>break</b>;</td></tr>
+<tr><th id="158">158</th><td>	}</td></tr>
+<tr><th id="159">159</th><td>	<b>return</b> <a class="local col9 ref" href="#19ti" title='ti' data-ref="19ti">ti</a>;</td></tr>
+<tr><th id="160">160</th><td>}</td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="TileItemDrawLast" title='TileItemDrawLast' data-ref="TileItemDrawLast">TileItemDrawLast</dfn>(<em>const</em> <a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col0 decl" id="20t" title='t' data-type='const TTileItem *' data-ref="20t">t</dfn>)</td></tr>
+<tr><th id="163">163</th><td>{</td></tr>
+<tr><th id="164">164</th><td>	<b>return</b> <a class="local col0 ref" href="#20t" title='t' data-ref="20t">t</a>-&gt;<a class="ref" href="tile.h.html#TileItem::flags" title='TileItem::flags' data-ref="TileItem::flags">flags</a> &amp; <a class="macro" href="tile.h.html#97" title="256" data-ref="_M/TILEITEM_DRAW_LAST">TILEITEM_DRAW_LAST</a>;</td></tr>
+<tr><th id="165">165</th><td>}</td></tr>
+<tr><th id="166">166</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

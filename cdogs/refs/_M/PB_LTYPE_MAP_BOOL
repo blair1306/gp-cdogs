@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='455'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='454'>/* The mapping from protobuf types to LTYPEs is done using these macros. */</doc>

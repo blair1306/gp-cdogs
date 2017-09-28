@@ -1,0 +1,5 @@
+<def f='codebrowser/src/tests/pic_test.c' l='43' macro='1' type='void _cbehave_feature_PicLoad(void * _state)'/>
+<use f='codebrowser/src/tests/pic_test.c' l='79' macro='1' u='r'/>
+<use f='codebrowser/src/tests/pic_test.c' l='79' macro='1' u='r'/>
+<use f='codebrowser/src/tests/pic_test.c' l='79' macro='1' u='r'/>
+<use f='codebrowser/src/tests/pic_test.c' l='79' macro='1' u='r'/>

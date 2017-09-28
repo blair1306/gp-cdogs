@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='391' type='size_t'/>
+<offset>87872</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='100' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='332' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='439' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='350' u='w' c='enet_peer_on_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='362' u='w' c='enet_peer_on_disconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='597' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='597' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='614' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='614' u='r' c='NetServerSendMsg'/>

@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='153' type='double pow(double __x, double __y)'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='74' u='c' c='PowerupSpawnerUpdate'/>

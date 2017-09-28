@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='68' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/cpic.c' l='111' u='a' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='112' u='w' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='112' u='r' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='112' u='r' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='202' u='w' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='202' u='r' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='219' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='221' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='224' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='240' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='241' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='154' u='w' c='LoadParticleClass'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='98' type='unsigned int'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='95'>/** Signals whether the \em i and \em d members are
+             * valid. See \c YAJL_NUMBER_INT_VALID and
+             * \c YAJL_NUMBER_DOUBLE_VALID. */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='310' u='w' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='316' u='w' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='322' u='w' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='133' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='141' macro='1' u='r'/>

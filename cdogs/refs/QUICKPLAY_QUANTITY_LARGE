@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/config.h' l='120' type='3'/>
+<use f='codebrowser/src/cdogs/config.c' l='200' c='QuickPlayQuantityStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='210' u='r' c='StrQuickPlayQuantity'/>
+<use f='codebrowser/src/cdogs/config.c' l='699' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='703' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='707' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='711' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='715' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='719' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='723' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='727' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='732' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='92' c='GenerateQuickPlayMapSize'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='116' c='GenerateQuickPlayParam'/>

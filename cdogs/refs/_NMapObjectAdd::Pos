@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='327' type='NVec2i'/>
+<offset>1056</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1041' u='w' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/map.c' l='395' u='w' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='540' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='545' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='545' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='545' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='545' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='231' u='w' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='465' u='r' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='469' u='m' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='469' u='m' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='469' u='m' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='469' u='m' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='111'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='111'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='111'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='111'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

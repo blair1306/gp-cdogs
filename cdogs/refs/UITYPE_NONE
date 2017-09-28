@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='42' type='0'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='957' u='r' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1055' u='r' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1105' u='r' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1181' u='r' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1340' u='r' c='CreateCampaignObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1379' u='r' c='CreateMissionObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1398' u='r' c='CreateClassicMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1563' u='r' c='CreateMapItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1655' u='r' c='CreateCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1685' u='r' c='CreateSpecialCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='66' u='r' c='CreateCaveMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='295' u='r' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='291' u='r' c='CreateStaticMapObjs'/>

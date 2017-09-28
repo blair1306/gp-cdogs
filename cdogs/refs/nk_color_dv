@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1799' type='void nk_color_dv(double * rgba_out, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5494' ll='5498' macro='1' type='void nk_color_dv(double * c, struct nk_color in)'/>

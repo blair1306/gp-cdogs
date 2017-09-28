@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='42' type='float (*)(void *, void *, void *)'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/AStar.h' l='42'>// estimated cost to transition from the first node to the second node -- optional, uses 0 if not specified</doc>
+<use f='codebrowser/src/cdogs/AStar.c' l='210' u='r' c='GetPathCostHeuristic'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='211' u='r' c='GetPathCostHeuristic'/>

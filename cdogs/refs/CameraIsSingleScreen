@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='65' type='_Bool CameraIsSingleScreen()'/>
+<use f='codebrowser/src/cdogs/camera.c' l='169' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/camera.c' l='424' ll='454' macro='1' type='_Bool CameraIsSingleScreen()'/>
+<use f='codebrowser/src/game.c' l='116' u='c' c='GetPlayerCenter'/>

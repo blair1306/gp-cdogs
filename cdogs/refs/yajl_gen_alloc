@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='118' type='yajl_gen yajl_gen_alloc(const yajl_alloc_funcs * allocFuncs)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='97' ll='126' type='yajl_gen yajl_gen_alloc(const yajl_alloc_funcs * afs)'/>

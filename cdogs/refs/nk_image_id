@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1827' type='struct nk_image nk_image_id(int )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5712' ll='5724' macro='1' type='struct nk_image nk_image_id(int id)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='733' u='c' c='nk_combo_separator_image'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='747' u='c' c='nk_combo_separator_image'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='848' u='c' c='DrawCharacter'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1098' type='1024'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='3476' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17185' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17399' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18072' u='r' c='nk_begin_titled'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1098'>/* Prevents window of scaling, moving or getting focus */</doc>

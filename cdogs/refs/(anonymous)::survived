@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/player.h' l='52' type='int'/>
+<use f='codebrowser/src/briefing_screens.c' l='482' u='r' c='AreAnySurvived'/>
+<use f='codebrowser/src/briefing_screens.c' l='517' u='r' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='717' u='r' c='DrawPlayerSummary'/>
+<use f='codebrowser/src/briefing_screens.c' l='733' u='r' c='DrawPlayerSummary'/>
+<use f='codebrowser/src/briefing_screens.c' l='738' u='r' c='DrawPlayerSummary'/>
+<offset>1248</offset>
+<doc f='codebrowser/src/cdogs/player.h' l='51'>// Used for end-of-game score tallying</doc>
+<use f='codebrowser/src/game.c' l='308' u='w' c='RunGameOnExit'/>
+<use f='codebrowser/src/hiscores.c' l='106' u='r' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/hiscores.c' l='114' u='r' c='HighScoresScreenUpdate'/>

@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/socket_type.h' l='29' type='2'/>
+<doc f='include/x86_64-linux-gnu/bits/socket_type.h' l='29'>/* Connectionless, unreliable datagrams
+				   of fixed maximum length.  */</doc>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='301' macro='1' u='r'/>

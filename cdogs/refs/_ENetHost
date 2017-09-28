@@ -1,0 +1,54 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='358' ll='396'/>
+<size>11024</size>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='342'>/** An ENet host for communicating with peers.
+  *
+  * No fields should be modified unless otherwise stated.
+
+    @sa enet_host_create()
+    @sa enet_host_destroy()
+    @sa enet_host_connect()
+    @sa enet_host_service()
+    @sa enet_host_flush()
+    @sa enet_host_broadcast()
+    @sa enet_host_compress()
+    @sa enet_host_compress_with_range_coder()
+    @sa enet_host_channel_limit()
+    @sa enet_host_bandwidth_limit()
+    @sa enet_host_bandwidth_throttle()
+  */</doc>
+<mbr r='_ENetHost::socket' o='0' t='ENetSocket'/>
+<mbr r='_ENetHost::address' o='32' t='ENetAddress'/>
+<mbr r='_ENetHost::incomingBandwidth' o='96' t='enet_uint32'/>
+<mbr r='_ENetHost::outgoingBandwidth' o='128' t='enet_uint32'/>
+<mbr r='_ENetHost::bandwidthThrottleEpoch' o='160' t='enet_uint32'/>
+<mbr r='_ENetHost::mtu' o='192' t='enet_uint32'/>
+<mbr r='_ENetHost::randomSeed' o='224' t='enet_uint32'/>
+<mbr r='_ENetHost::recalculateBandwidthLimits' o='256' t='int'/>
+<mbr r='_ENetHost::peers' o='320' t='ENetPeer *'/>
+<mbr r='_ENetHost::peerCount' o='384' t='size_t'/>
+<mbr r='_ENetHost::channelLimit' o='448' t='size_t'/>
+<mbr r='_ENetHost::serviceTime' o='512' t='enet_uint32'/>
+<mbr r='_ENetHost::dispatchQueue' o='576' t='ENetList'/>
+<mbr r='_ENetHost::continueSending' o='704' t='int'/>
+<mbr r='_ENetHost::packetSize' o='768' t='size_t'/>
+<mbr r='_ENetHost::headerFlags' o='832' t='enet_uint16'/>
+<mbr r='_ENetHost::commands' o='848' t='ENetProtocol [32]'/>
+<mbr r='_ENetHost::commandCount' o='13184' t='size_t'/>
+<mbr r='_ENetHost::buffers' o='13248' t='ENetBuffer [65]'/>
+<mbr r='_ENetHost::bufferCount' o='21568' t='size_t'/>
+<mbr r='_ENetHost::checksum' o='21632' t='ENetChecksumCallback'/>
+<mbr r='_ENetHost::compressor' o='21696' t='ENetCompressor'/>
+<mbr r='_ENetHost::packetData' o='21952' t='enet_uint8 [2][4096]'/>
+<mbr r='_ENetHost::receivedAddress' o='87488' t='ENetAddress'/>
+<mbr r='_ENetHost::receivedData' o='87552' t='enet_uint8 *'/>
+<mbr r='_ENetHost::receivedDataLength' o='87616' t='size_t'/>
+<mbr r='_ENetHost::totalSentData' o='87680' t='enet_uint32'/>
+<mbr r='_ENetHost::totalSentPackets' o='87712' t='enet_uint32'/>
+<mbr r='_ENetHost::totalReceivedData' o='87744' t='enet_uint32'/>
+<mbr r='_ENetHost::totalReceivedPackets' o='87776' t='enet_uint32'/>
+<mbr r='_ENetHost::intercept' o='87808' t='ENetInterceptCallback'/>
+<mbr r='_ENetHost::connectedPeers' o='87872' t='size_t'/>
+<mbr r='_ENetHost::bandwidthLimitedPeers' o='87936' t='size_t'/>
+<mbr r='_ENetHost::duplicatePeers' o='88000' t='size_t'/>
+<mbr r='_ENetHost::maximumPacketSize' o='88064' t='size_t'/>
+<mbr r='_ENetHost::maximumWaitingData' o='88128' t='size_t'/>

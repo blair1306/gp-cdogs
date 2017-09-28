@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2124' type='struct nk_font_glyph *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11135' u='r' c='nk_font_text_width'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11171' u='r' c='nk_font_query_font_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11195' u='r' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11197' u='r' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11207' u='r' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11228' u='w' c='nk_font_init'/>
+<offset>704</offset>

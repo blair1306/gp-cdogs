@@ -1,0 +1,9 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='217' ll='229'/>
+<size>19</size>
+<mbr r='pb_field_s::tag' o='0' t='pb_size_t'/>
+<mbr r='pb_field_s::type' o='16' t='pb_type_t'/>
+<mbr r='pb_field_s::data_offset' o='24' t='pb_size_t'/>
+<mbr r='pb_field_s::size_offset' o='40' t='pb_ssize_t'/>
+<mbr r='pb_field_s::data_size' o='56' t='pb_size_t'/>
+<mbr r='pb_field_s::array_size' o='72' t='pb_size_t'/>
+<mbr r='pb_field_s::ptr' o='88' t='const void *'/>

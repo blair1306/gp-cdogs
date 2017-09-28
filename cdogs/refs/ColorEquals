@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/color.h' l='115' type='_Bool ColorEquals(const color_t a, const color_t b)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='238' u='c' c='DrawMap'/>
+<def f='codebrowser/src/cdogs/color.c' l='196' ll='199' macro='1' type='_Bool ColorEquals(const color_t a, const color_t b)'/>
+<use f='codebrowser/src/menu.c' l='295' u='c' c='DisplayMenuItem'/>
+<use f='codebrowser/src/tests/color_test.c' l='210' u='c' c='_cbehave_feature_StrColor'/>
+<use f='codebrowser/src/tests/color_test.c' l='221' u='c' c='_cbehave_feature_StrColor'/>

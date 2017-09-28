@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/map.h' l='96' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/map.h' l='96'>// of Tile</doc>
+<use f='codebrowser/src/cdogs/map.c' l='125' u='a' c='MapGetTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='614' u='a' c='MapTerminate'/>
+<use f='codebrowser/src/cdogs/map.c' l='626' u='a' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='642' u='a' c='MapLoad'/>

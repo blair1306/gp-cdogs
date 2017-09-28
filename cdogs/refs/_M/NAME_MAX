@@ -1,0 +1,6 @@
+<dec f='include/linux/limits.h' l='11'/>
+<use f='include/dirent.h' l='235' u='a'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='89' u='a'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='669' u='a'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='670' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='670' u='c'/>

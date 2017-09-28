@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='178' type='double ceil(double __x)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='369' u='c' c='GetConstrainedFullPos'/>

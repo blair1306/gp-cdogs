@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='44' type='char *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='538' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='w' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='r' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='r' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='r' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='185' u='r' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='185' u='r' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='186' u='w' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='206' u='r' c='CharacterClassFree'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='206' u='r' c='CharacterClassFree'/>

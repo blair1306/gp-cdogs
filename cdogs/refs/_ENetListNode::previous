@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/list.h' l='13' type='struct _ENetListNode *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/enet/list.c' l='17' u='w' c='enet_list_clear'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='25' u='w' c='enet_list_insert'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='25' u='r' c='enet_list_insert'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='28' u='r' c='enet_list_insert'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='29' u='w' c='enet_list_insert'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='37' u='r' c='enet_list_remove'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='38' u='w' c='enet_list_remove'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='38' u='r' c='enet_list_remove'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='49' u='r' c='enet_list_move'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='50' u='w' c='enet_list_move'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='50' u='r' c='enet_list_move'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='52' u='w' c='enet_list_move'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='52' u='r' c='enet_list_move'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='55' u='r' c='enet_list_move'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='56' u='w' c='enet_list_move'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='725' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='738' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='753' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='769' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='810' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='858' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='860' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='891' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='893' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='562' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='564' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='678' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='680' macro='1' u='r'/>

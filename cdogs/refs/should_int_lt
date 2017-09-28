@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='182' type='void should_int_lt(int val1, int val2, void * state, const char * file, int line)'/>
+<def f='codebrowser/src/tests/cbehave/cbehave.c' l='67' ll='81' type='void should_int_lt(int val1, int val2, void * state, const char * file, int line)'/>

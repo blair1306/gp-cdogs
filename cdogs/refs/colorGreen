@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/color.h' l='45' type='color_t'/>
+<use f='codebrowser/src/briefing_screens.c' l='628' u='r' c='MissionSummaryMenuDraw'/>
+<def f='codebrowser/src/cdogs/color.c' l='39' type='color_t'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='100' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='493' u='r' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='217' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/objective.c' l='87' u='r' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/cdogs/player.c' l='169' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='170' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='171' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='597' u='r' c='AddCharacter'/>
+<use f='codebrowser/src/screens_end.c' l='255' u='r' c='PlayerListCustomDraw'/>
+<use f='codebrowser/src/screens_end.c' l='261' u='r' c='PlayerListCustomDraw'/>

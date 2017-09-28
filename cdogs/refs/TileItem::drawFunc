@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='127' type='TileItemDrawFunc'/>
+<offset>384</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1214' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='908' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='320' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/particle.c' l='447' u='w' c='ParticleAdd'/>

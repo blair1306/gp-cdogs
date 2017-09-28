@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='381' type='ENetCompressor'/>
+<offset>21696</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='106' u='m' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='107' u='m' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='108' u='m' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='109' u='m' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='157' u='m' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='157' u='m' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='158' u='m' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='158' u='m' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='286' u='m' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='286' u='m' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='287' u='m' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='287' u='m' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='290' u='w' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='292' u='m' c='enet_host_compress'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1024' u='m' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1024' u='m' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1027' u='m' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1027' u='m' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1687' u='m' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1687' u='m' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1690' u='m' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1690' u='m' c='enet_protocol_send_outgoing_commands'/>

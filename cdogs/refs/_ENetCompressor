@@ -1,0 +1,8 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='324' ll='334'/>
+<size>32</size>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='322'>/** An ENet packet compressor for compressing UDP packets before socket sends or receives.
+ */</doc>
+<mbr r='_ENetCompressor::context' o='0' t='void *'/>
+<mbr r='_ENetCompressor::compress' o='64' t='size_t (*)(void *, const ENetBuffer *, size_t, size_t, enet_uint8 *, size_t)'/>
+<mbr r='_ENetCompressor::decompress' o='128' t='size_t (*)(void *, const enet_uint8 *, size_t, enet_uint8 *, size_t)'/>
+<mbr r='_ENetCompressor::destroy' o='192' t='void (*)(void *)'/>

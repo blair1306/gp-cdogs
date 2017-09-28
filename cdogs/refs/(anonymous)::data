@@ -1,0 +1,70 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='34' type='void *'/>
+<dec f='include/SDL2/SDL_joystick.h' l='69' type='Uint8 [16]'/>
+<offset>0</offset>
+<dec f='codebrowser/src/cdogs/enet/include/enet/unix.h' l='31' type='void *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='741' u='r' c='FindObjectivesSortedByDistance'/>
+<dec f='codebrowser/src/cdogs/algorithms.h' l='37' type='void *'/>
+<dec f='codebrowser/src/cdogs/algorithms.h' l='47' type='void *'/>
+<dec f='codebrowser/src/cdogs/algorithms.h' l='57' type='void *'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='219' u='w' c='AIHasClearLine'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/algorithms.c' l='143' u='r' c='HasClearLineBresenham'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='152' u='r' c='HasClearLineJMRaytrace'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='162' u='r' c='BresenhamLineDraw'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='171' u='r' c='JMRaytraceLineDraw'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='177' u='r' c='CFloodFill'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='179' u='r' c='CFloodFill'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='36' u='w' c='CArrayInit'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='51' u='w' c='CArrayReserve'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='51' u='r' c='CArrayReserve'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='51' u='r' c='CArrayReserve'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='51' u='r' c='CArrayReserve'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='125' u='r' c='CArrayGet'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='138' u='r' c='CArrayRemoveIf'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='165' u='r' c='CArrayFillZero'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='189' u='r' c='CArrayTerminate'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='189' u='r' c='CArrayTerminate'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='302' u='w' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='173' u='r' c='DrawBufferSortDisplayList'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='148' u='w' c='DrawLine'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='260' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='279' u='r' c='enet_range_coder_compress'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='151' u='r' c='enet_crc32'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1048' u='w' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1205' u='w' c='enet_protocol_receive_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1285' u='w' c='enet_protocol_send_acknowledgements'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1376' u='w' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1389' u='w' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1558' u='w' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1570' u='w' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1676' u='w' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1718' u='w' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/los.c' l='124' u='w' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='356' u='w' c='CheckCorridorsAroundTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='532' u='w' c='MissionStaticTrySetKey'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='134' u='w' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='235' u='w' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='228' u='w' c='PollListener'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='258' u='w' c='PollListener'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='303' u='r' c='FindStylePics'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='539' u='w' c='SoundPlayAtPlusDistance'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='144' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='157' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='204' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='208' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='210' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='488' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='514' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='89' u='w' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='240' u='w' c='EditorBrushPaintLine'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='338' u='w' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='286' u='r' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='358' u='r' c='CreateAddCharacterSubObjs'/>
+<dec f='codebrowser/src/player_select_menus.h' l='58' type='PlayerSelectMenuData'/>
+<use f='codebrowser/src/player_select_menus.c' l='428' u='a' c='PlayerSelectMenusCreate'/>
+<offset>1024</offset>
+<dec f='codebrowser/src/weapon_menu.h' l='42' type='WeaponMenuData'/>
+<offset>1024</offset>
+<use f='codebrowser/src/screens_end.c' l='86' u='r' c='PlayerListNew'/>
+<use f='codebrowser/src/weapon_menu.c' l='148' u='a' c='WeaponMenuCreate'/>

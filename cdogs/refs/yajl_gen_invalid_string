@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='56' type='7'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='53'>/** returned from yajl_gen_string() when the yajl_gen_validate_utf8
+         *  option is enabled and an invalid was passed by client code.
+         */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='267' u='r' c='yajl_gen_string'/>

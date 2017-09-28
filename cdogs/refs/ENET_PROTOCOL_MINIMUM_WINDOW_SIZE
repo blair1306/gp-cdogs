@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='15' type='4096'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='210' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='212' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='213' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='377' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='381' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='383' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='384' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='393' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='398' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='399' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='770' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='773' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='775' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='776' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='961' u='r' c='enet_protocol_handle_verify_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='962' u='r' c='enet_protocol_handle_verify_connect'/>

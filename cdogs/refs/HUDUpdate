@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='64' type='void HUDUpdate(HUD * hud, int ms)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='113' u='c' c='CameraUpdate'/>
+<def f='codebrowser/src/cdogs/hud/hud.c' l='98' ll='123' type='void HUDUpdate(HUD * hud, int ms)'/>

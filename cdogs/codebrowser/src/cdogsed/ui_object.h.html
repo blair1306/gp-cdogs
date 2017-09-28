@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ui_object.h source code [codebrowser/src/cdogsed/ui_object.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="_UIObject "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogsed/ui_object.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogsed</a>/<a href='ui_object.h.html'>ui_object.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i> A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i> </i></td></tr>
+<tr><th id="5">5</th><td><i> Copyright (c) 2013-2014, 2016 Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i> All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i> </i></td></tr>
+<tr><th id="8">8</th><td><i> Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i> modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i> </i></td></tr>
+<tr><th id="11">11</th><td><i> Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i> list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i> Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i> this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i> and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i> </i></td></tr>
+<tr><th id="17">17</th><td><i> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i> AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i> IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i> ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i> LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i> CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i> SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i> INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i> CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i> ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i> POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i> */</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../cdogs/c_array.h.html">&lt;cdogs/c_array.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../cdogs/grafx.h.html">&lt;cdogs/grafx.h&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="../cdogs/pic.h.html">&lt;cdogs/pic.h&gt;</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="../cdogs/vector.h.html">&lt;cdogs/vector.h&gt;</a></u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><u>#include <a href="editor_brush.h.html">"editor_brush.h"</a></u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="41">41</th><td>{</td></tr>
+<tr><th id="42">42</th><td>	<dfn class="enum" id="UITYPE_NONE" title='UITYPE_NONE' data-ref="UITYPE_NONE">UITYPE_NONE</dfn>,</td></tr>
+<tr><th id="43">43</th><td>	<dfn class="enum" id="UITYPE_LABEL" title='UITYPE_LABEL' data-ref="UITYPE_LABEL">UITYPE_LABEL</dfn>,</td></tr>
+<tr><th id="44">44</th><td>	<dfn class="enum" id="UITYPE_TEXTBOX" title='UITYPE_TEXTBOX' data-ref="UITYPE_TEXTBOX">UITYPE_TEXTBOX</dfn>,</td></tr>
+<tr><th id="45">45</th><td>	<dfn class="enum" id="UITYPE_BUTTON" title='UITYPE_BUTTON' data-ref="UITYPE_BUTTON">UITYPE_BUTTON</dfn>,	<i>// click button with picture</i></td></tr>
+<tr><th id="46">46</th><td>	<dfn class="enum" id="UITYPE_CONTEXT_MENU" title='UITYPE_CONTEXT_MENU' data-ref="UITYPE_CONTEXT_MENU">UITYPE_CONTEXT_MENU</dfn>,	<i>// appear on mouse click</i></td></tr>
+<tr><th id="47">47</th><td>	<dfn class="enum" id="UITYPE_CUSTOM" title='UITYPE_CUSTOM' data-ref="UITYPE_CUSTOM">UITYPE_CUSTOM</dfn></td></tr>
+<tr><th id="48">48</th><td>} <dfn class="typedef" id="UIType" title='UIType' data-type='enum UIType' data-ref="UIType">UIType</dfn>;</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/UI_SELECT_ONLY" data-ref="_M/UI_SELECT_ONLY">UI_SELECT_ONLY</dfn>							1</u></td></tr>
+<tr><th id="51">51</th><td><u>#define <dfn class="macro" id="_M/UI_LEAVE_YC" data-ref="_M/UI_LEAVE_YC">UI_LEAVE_YC</dfn>								2</u></td></tr>
+<tr><th id="52">52</th><td><u>#define <dfn class="macro" id="_M/UI_LEAVE_XC" data-ref="_M/UI_LEAVE_XC">UI_LEAVE_XC</dfn>								4</u></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/UI_SELECT_ONLY_FIRST" data-ref="_M/UI_SELECT_ONLY_FIRST">UI_SELECT_ONLY_FIRST</dfn>					8</u></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/UI_ENABLED_WHEN_PARENT_HIGHLIGHTED_ONLY" data-ref="_M/UI_ENABLED_WHEN_PARENT_HIGHLIGHTED_ONLY">UI_ENABLED_WHEN_PARENT_HIGHLIGHTED_ONLY</dfn>	16</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_UIObject" title='_UIObject' data-ref="_UIObject"><a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a></dfn></td></tr>
+<tr><th id="57">57</th><td>{</td></tr>
+<tr><th id="58">58</th><td>	<a class="typedef" href="#UIType" title='UIType' data-type='enum UIType' data-ref="UIType">UIType</a> <dfn class="decl" id="_UIObject::Type" title='_UIObject::Type' data-ref="_UIObject::Type">Type</dfn>;</td></tr>
+<tr><th id="59">59</th><td>	<em>int</em> <dfn class="decl" id="_UIObject::Id" title='_UIObject::Id' data-ref="_UIObject::Id">Id</dfn>;</td></tr>
+<tr><th id="60">60</th><td>	<em>int</em> <dfn class="decl" id="_UIObject::Id2" title='_UIObject::Id2' data-ref="_UIObject::Id2">Id2</dfn>;</td></tr>
+<tr><th id="61">61</th><td>	<em>int</em> <dfn class="decl" id="_UIObject::Flags" title='_UIObject::Flags' data-ref="_UIObject::Flags">Flags</dfn>;</td></tr>
+<tr><th id="62">62</th><td>	<a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="_UIObject::Pos" title='_UIObject::Pos' data-ref="_UIObject::Pos">Pos</dfn>;</td></tr>
+<tr><th id="63">63</th><td>	<a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="_UIObject::Size" title='_UIObject::Size' data-ref="_UIObject::Size">Size</dfn>;</td></tr>
+<tr><th id="64">64</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::IsVisible" title='_UIObject::IsVisible' data-ref="_UIObject::IsVisible">IsVisible</dfn>;</td></tr>
+<tr><th id="65">65</th><td>	<i>// TODO: memory leak with dynamically allocated tooltips</i></td></tr>
+<tr><th id="66">66</th><td>	<em>char</em> *<dfn class="decl" id="_UIObject::Tooltip" title='_UIObject::Tooltip' data-ref="_UIObject::Tooltip">Tooltip</dfn>;</td></tr>
+<tr><th id="67">67</th><td>	<b>struct</b> <a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a> *<dfn class="decl" id="_UIObject::Parent" title='_UIObject::Parent' data-ref="_UIObject::Parent">Parent</dfn>;</td></tr>
+<tr><th id="68">68</th><td>	<a class="typedef" href="../cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="_UIObject::Children" title='_UIObject::Children' data-ref="_UIObject::Children">Children</dfn>;	<i>// of UIObject *</i></td></tr>
+<tr><th id="69">69</th><td>	<b>struct</b> <a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a> *<dfn class="decl" id="_UIObject::Highlighted" title='_UIObject::Highlighted' data-ref="_UIObject::Highlighted">Highlighted</dfn>;</td></tr>
+<tr><th id="70">70</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::DoNotHighlight" title='_UIObject::DoNotHighlight' data-ref="_UIObject::DoNotHighlight">DoNotHighlight</dfn>;</td></tr>
+<tr><th id="71">71</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::IsBackground" title='_UIObject::IsBackground' data-ref="_UIObject::IsBackground">IsBackground</dfn>;</td></tr>
+<tr><th id="72">72</th><td>	<b>union</b></td></tr>
+<tr><th id="73">73</th><td>	{</td></tr>
+<tr><th id="74">74</th><td>		<i>// Labels</i></td></tr>
+<tr><th id="75">75</th><td>		<em>const</em> <em>char</em> *(*<dfn class="decl" id="_UIObject::(anonymous)::LabelFunc" title='_UIObject::(anonymous union)::LabelFunc' data-ref="_UIObject::(anonymous)::LabelFunc">LabelFunc</dfn>)(<b>struct</b> <a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a> *, <em>void</em> *);</td></tr>
+<tr><th id="76">76</th><td>		<i>// Text boxes</i></td></tr>
+<tr><th id="77">77</th><td>		<b>struct</b></td></tr>
+<tr><th id="78">78</th><td>		{</td></tr>
+<tr><th id="79">79</th><td>			<em>char</em> *(*<dfn class="decl" id="_UIObject::(anonymousunion)::(anonymous)::TextLinkFunc" title='_UIObject::(anonymous union)::(anonymous struct)::TextLinkFunc' data-ref="_UIObject::(anonymousunion)::(anonymous)::TextLinkFunc">TextLinkFunc</dfn>)(<b>struct</b> <a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a> *, <em>void</em> *);</td></tr>
+<tr><th id="80">80</th><td>			<em>int</em> <dfn class="decl" id="_UIObject::(anonymousunion)::(anonymous)::MaxLen" title='_UIObject::(anonymous union)::(anonymous struct)::MaxLen' data-ref="_UIObject::(anonymousunion)::(anonymous)::MaxLen">MaxLen</dfn>;	<i>// Buffer should hold MaxLen + 1</i></td></tr>
+<tr><th id="81">81</th><td>			<em>char</em> **(*<dfn class="decl" id="_UIObject::(anonymousunion)::(anonymous)::TextSourceFunc" title='_UIObject::(anonymous union)::(anonymous struct)::TextSourceFunc' data-ref="_UIObject::(anonymousunion)::(anonymous)::TextSourceFunc">TextSourceFunc</dfn>)(<em>void</em> *);</td></tr>
+<tr><th id="82">82</th><td>			<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::(anonymousunion)::(anonymous)::IsEditable" title='_UIObject::(anonymous union)::(anonymous struct)::IsEditable' data-ref="_UIObject::(anonymousunion)::(anonymous)::IsEditable">IsEditable</dfn>;</td></tr>
+<tr><th id="83">83</th><td>			<em>char</em> *<dfn class="decl" id="_UIObject::(anonymousunion)::(anonymous)::Hint" title='_UIObject::(anonymous union)::(anonymous struct)::Hint' data-ref="_UIObject::(anonymousunion)::(anonymous)::Hint">Hint</dfn>;</td></tr>
+<tr><th id="84">84</th><td>		} <dfn class="decl" id="_UIObject::(anonymous)::Textbox" title='_UIObject::(anonymous union)::Textbox' data-ref="_UIObject::(anonymous)::Textbox">Textbox</dfn>;</td></tr>
+<tr><th id="85">85</th><td>		<i>// Button</i></td></tr>
+<tr><th id="86">86</th><td>		<b>struct</b></td></tr>
+<tr><th id="87">87</th><td>		{</td></tr>
+<tr><th id="88">88</th><td>			<a class="typedef" href="../cdogs/pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="decl" id="_UIObject::(anonymousunion)::(anonymous)::Pic" title='_UIObject::(anonymous union)::(anonymous struct)::Pic' data-ref="_UIObject::(anonymousunion)::(anonymous)::Pic">Pic</dfn>;</td></tr>
+<tr><th id="89">89</th><td>			<em>int</em> (*<dfn class="decl" id="_UIObject::(anonymousunion)::(anonymous)::IsDownFunc" title='_UIObject::(anonymous union)::(anonymous struct)::IsDownFunc' data-ref="_UIObject::(anonymousunion)::(anonymous)::IsDownFunc">IsDownFunc</dfn>)(<em>void</em> *);	<i>// whether the button is down</i></td></tr>
+<tr><th id="90">90</th><td>		} <dfn class="decl" id="_UIObject::(anonymous)::Button" title='_UIObject::(anonymous union)::Button' data-ref="_UIObject::(anonymous)::Button">Button</dfn>;</td></tr>
+<tr><th id="91">91</th><td>		<i>// Custom</i></td></tr>
+<tr><th id="92">92</th><td>		<em>void</em> (*<dfn class="decl" id="_UIObject::(anonymous)::CustomDrawFunc" title='_UIObject::(anonymous union)::CustomDrawFunc' data-ref="_UIObject::(anonymous)::CustomDrawFunc">CustomDrawFunc</dfn>)(<b>struct</b> <a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a> *, <a class="typedef" href="../cdogs/grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col3 decl" id="13g" title='g' data-type='GraphicsDevice *' data-ref="13g">g</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a>, <em>void</em> *);</td></tr>
+<tr><th id="93">93</th><td>	} <dfn class="decl" id="_UIObject::u" title='_UIObject::u' data-ref="_UIObject::u">u</dfn>;</td></tr>
+<tr><th id="94">94</th><td>	<em>char</em> *<dfn class="decl" id="_UIObject::Label" title='_UIObject::Label' data-ref="_UIObject::Label">Label</dfn>;</td></tr>
+<tr><th id="95">95</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::IsDynamicLabel" title='_UIObject::IsDynamicLabel' data-ref="_UIObject::IsDynamicLabel">IsDynamicLabel</dfn>;</td></tr>
+<tr><th id="96">96</th><td>	<em>void</em> *<dfn class="decl" id="_UIObject::Data" title='_UIObject::Data' data-ref="_UIObject::Data">Data</dfn>;</td></tr>
+<tr><th id="97">97</th><td>	<em>int</em> <dfn class="decl" id="_UIObject::IsDynamicData" title='_UIObject::IsDynamicData' data-ref="_UIObject::IsDynamicData">IsDynamicData</dfn>;</td></tr>
+<tr><th id="98">98</th><td>	<em>void</em> (*<dfn class="decl" id="_UIObject::ChangeFunc" title='_UIObject::ChangeFunc' data-ref="_UIObject::ChangeFunc">ChangeFunc</dfn>)(<em>void</em> *, <em>int</em> <dfn class="local col4 decl" id="14d" title='d' data-type='int' data-ref="14d">d</dfn>);</td></tr>
+<tr><th id="99">99</th><td>	<i>// Function that's called when the control is activated with shift key held</i></td></tr>
+<tr><th id="100">100</th><td>	<em>void</em> (*<dfn class="decl" id="_UIObject::ChangeFuncAlt" title='_UIObject::ChangeFuncAlt' data-ref="_UIObject::ChangeFuncAlt">ChangeFuncAlt</dfn>)(<em>void</em> *, <em>int</em> <dfn class="local col5 decl" id="15d" title='d' data-type='int' data-ref="15d">d</dfn>);</td></tr>
+<tr><th id="101">101</th><td>	<i>// Whether the change func disables parent context menus (default true)</i></td></tr>
+<tr><th id="102">102</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::ChangeDisablesContext" title='_UIObject::ChangeDisablesContext' data-ref="_UIObject::ChangeDisablesContext">ChangeDisablesContext</dfn>;</td></tr>
+<tr><th id="103">103</th><td>	<i>// Whether calling the change func changes the file (i.e. requires save)</i></td></tr>
+<tr><th id="104">104</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::ChangesData" title='_UIObject::ChangesData' data-ref="_UIObject::ChangesData">ChangesData</dfn>;</td></tr>
+<tr><th id="105">105</th><td>	<i>// Whether calling the change func requires a reload</i></td></tr>
+<tr><th id="106">106</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="_UIObject::ReloadData" title='_UIObject::ReloadData' data-ref="_UIObject::ReloadData">ReloadData</dfn>;</td></tr>
+<tr><th id="107">107</th><td>	<em>void</em> (*<dfn class="decl" id="_UIObject::OnFocusFunc" title='_UIObject::OnFocusFunc' data-ref="_UIObject::OnFocusFunc">OnFocusFunc</dfn>)(<b>struct</b> <a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a> *, <em>void</em> *);</td></tr>
+<tr><th id="108">108</th><td>	<i>// Returns whether mission changed</i></td></tr>
+<tr><th id="109">109</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> (*<dfn class="decl" id="_UIObject::OnUnfocusFunc" title='_UIObject::OnUnfocusFunc' data-ref="_UIObject::OnUnfocusFunc">OnUnfocusFunc</dfn>)(<em>void</em> *);</td></tr>
+<tr><th id="110">110</th><td>	<i>// Optional function to check whether this UI object should be visible</i></td></tr>
+<tr><th id="111">111</th><td>	<em>void</em> (*<dfn class="decl" id="_UIObject::CheckVisible" title='_UIObject::CheckVisible' data-ref="_UIObject::CheckVisible">CheckVisible</dfn>)(<b>struct</b> <a class="type" href="#_UIObject" title='_UIObject' data-ref="_UIObject">_UIObject</a> *, <em>void</em> *);</td></tr>
+<tr><th id="112">112</th><td>} <dfn class="typedef" id="UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</dfn>;</td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="decl" id="UIObjectCreate" title='UIObjectCreate' data-ref="UIObjectCreate">UIObjectCreate</dfn>(<a class="typedef" href="#UIType" title='UIType' data-type='enum UIType' data-ref="UIType">UIType</a> <dfn class="local col6 decl" id="16type" title='type' data-type='UIType' data-ref="16type">type</dfn>, <em>int</em> <dfn class="local col7 decl" id="17id" title='id' data-type='int' data-ref="17id">id</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col8 decl" id="18pos" title='pos' data-type='Vec2i' data-ref="18pos">pos</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="19size" title='size' data-type='Vec2i' data-ref="19size">size</dfn>);</td></tr>
+<tr><th id="115">115</th><td><em>void</em> <dfn class="decl" id="UIObjectSetDynamicLabel" title='UIObjectSetDynamicLabel' data-ref="UIObjectSetDynamicLabel">UIObjectSetDynamicLabel</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col0 decl" id="20o" title='o' data-type='UIObject *' data-ref="20o">o</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="21label" title='label' data-type='const char *' data-ref="21label">label</dfn>);</td></tr>
+<tr><th id="116">116</th><td><em>void</em> <dfn class="decl" id="UIButtonSetPic" title='UIButtonSetPic' data-ref="UIButtonSetPic">UIButtonSetPic</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col2 decl" id="22o" title='o' data-type='UIObject *' data-ref="22o">o</dfn>, <a class="typedef" href="../cdogs/pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="local col3 decl" id="23pic" title='pic' data-type='Pic *' data-ref="23pic">pic</dfn>);</td></tr>
+<tr><th id="117">117</th><td><a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="decl" id="UIObjectCopy" title='UIObjectCopy' data-ref="UIObjectCopy">UIObjectCopy</dfn>(<em>const</em> <a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col4 decl" id="24o" title='o' data-type='const UIObject *' data-ref="24o">o</dfn>);</td></tr>
+<tr><th id="118">118</th><td><em>void</em> <dfn class="decl" id="UIObjectDestroy" title='UIObjectDestroy' data-ref="UIObjectDestroy">UIObjectDestroy</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col5 decl" id="25o" title='o' data-type='UIObject *' data-ref="25o">o</dfn>);</td></tr>
+<tr><th id="119">119</th><td><em>void</em> <dfn class="decl" id="UIObjectAddChild" title='UIObjectAddChild' data-ref="UIObjectAddChild">UIObjectAddChild</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col6 decl" id="26o" title='o' data-type='UIObject *' data-ref="26o">o</dfn>, <a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col7 decl" id="27c" title='c' data-type='UIObject *' data-ref="27c">c</dfn>);</td></tr>
+<tr><th id="120">120</th><td><em>void</em> <dfn class="decl" id="UITabAddChild" title='UITabAddChild' data-ref="UITabAddChild">UITabAddChild</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col8 decl" id="28o" title='o' data-type='UIObject *' data-ref="28o">o</dfn>, <a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col9 decl" id="29c" title='c' data-type='UIObject *' data-ref="29c">c</dfn>, <em>char</em> *<dfn class="local col0 decl" id="30label" title='label' data-type='char *' data-ref="30label">label</dfn>);</td></tr>
+<tr><th id="121">121</th><td><em>void</em> <dfn class="decl" id="UIObjectHighlight" title='UIObjectHighlight' data-ref="UIObjectHighlight">UIObjectHighlight</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col1 decl" id="31o" title='o' data-type='UIObject *' data-ref="31o">o</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col2 decl" id="32shift" title='shift' data-type='const _Bool' data-ref="32shift">shift</dfn>);</td></tr>
+<tr><th id="122">122</th><td><i>// Returns whether mission changed</i></td></tr>
+<tr><th id="123">123</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="UIObjectUnhighlight" title='UIObjectUnhighlight' data-ref="UIObjectUnhighlight">UIObjectUnhighlight</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col3 decl" id="33o" title='o' data-type='UIObject *' data-ref="33o">o</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col4 decl" id="34unhighlightParents" title='unhighlightParents' data-type='const _Bool' data-ref="34unhighlightParents">unhighlightParents</dfn>);</td></tr>
+<tr><th id="124">124</th><td><em>int</em> <dfn class="decl" id="UIObjectIsHighlighted" title='UIObjectIsHighlighted' data-ref="UIObjectIsHighlighted">UIObjectIsHighlighted</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col5 decl" id="35o" title='o' data-type='UIObject *' data-ref="35o">o</dfn>);</td></tr>
+<tr><th id="125">125</th><td><a class="typedef" href="editor_brush.h.html#EditorResult" title='EditorResult' data-type='enum EditorResult' data-ref="EditorResult">EditorResult</a> <dfn class="decl" id="UIObjectChange" title='UIObjectChange' data-ref="UIObjectChange">UIObjectChange</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col6 decl" id="36o" title='o' data-type='UIObject *' data-ref="36o">o</dfn>, <em>const</em> <em>int</em> <dfn class="local col7 decl" id="37d" title='d' data-type='const int' data-ref="37d">d</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col8 decl" id="38shift" title='shift' data-type='const _Bool' data-ref="38shift">shift</dfn>);</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><i>// Add and delete chars from the highlighted text box</i></td></tr>
+<tr><th id="128">128</th><td><i>// Returns whether a change has been made</i></td></tr>
+<tr><th id="129">129</th><td><a class="typedef" href="editor_brush.h.html#EditorResult" title='EditorResult' data-type='enum EditorResult' data-ref="EditorResult">EditorResult</a> <dfn class="decl" id="UIObjectAddChar" title='UIObjectAddChar' data-ref="UIObjectAddChar">UIObjectAddChar</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col9 decl" id="39o" title='o' data-type='UIObject *' data-ref="39o">o</dfn>, <em>char</em> <dfn class="local col0 decl" id="40c" title='c' data-type='char' data-ref="40c">c</dfn>);</td></tr>
+<tr><th id="130">130</th><td><a class="typedef" href="editor_brush.h.html#EditorResult" title='EditorResult' data-type='enum EditorResult' data-ref="EditorResult">EditorResult</a> <dfn class="decl" id="UIObjectDelChar" title='UIObjectDelChar' data-ref="UIObjectDelChar">UIObjectDelChar</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col1 decl" id="41o" title='o' data-type='UIObject *' data-ref="41o">o</dfn>);</td></tr>
+<tr><th id="131">131</th><td></td></tr>
+<tr><th id="132">132</th><td><em>void</em> <dfn class="decl" id="UIObjectDraw" title='UIObjectDraw' data-ref="UIObjectDraw">UIObjectDraw</dfn>(</td></tr>
+<tr><th id="133">133</th><td>	<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col2 decl" id="42o" title='o' data-type='UIObject *' data-ref="42o">o</dfn>, <a class="typedef" href="../cdogs/grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col3 decl" id="43g" title='g' data-type='GraphicsDevice *' data-ref="43g">g</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col4 decl" id="44pos" title='pos' data-type='Vec2i' data-ref="44pos">pos</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col5 decl" id="45mouse" title='mouse' data-type='Vec2i' data-ref="45mouse">mouse</dfn>, <a class="typedef" href="../cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col6 decl" id="46drawObjs" title='drawObjs' data-type='CArray *' data-ref="46drawObjs">drawObjs</dfn>);</td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><i>// Get the UIObject that is at pos (e.g. for mouse clicks)</i></td></tr>
+<tr><th id="136">136</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="UITryGetObject" title='UITryGetObject' data-ref="UITryGetObject">UITryGetObject</dfn>(<a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="local col7 decl" id="47o" title='o' data-type='UIObject *' data-ref="47o">o</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col8 decl" id="48pos" title='pos' data-type='Vec2i' data-ref="48pos">pos</dfn>, <a class="typedef" href="#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> **<dfn class="local col9 decl" id="49out" title='out' data-type='UIObject **' data-ref="49out">out</dfn>);</td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><em>void</em> <dfn class="decl" id="UITooltipDraw" title='UITooltipDraw' data-ref="UITooltipDraw">UITooltipDraw</dfn>(<a class="typedef" href="../cdogs/grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col0 decl" id="50device" title='device' data-type='GraphicsDevice *' data-ref="50device">device</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col1 decl" id="51pos" title='pos' data-type='Vec2i' data-ref="51pos">pos</dfn>, <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="52s" title='s' data-type='const char *' data-ref="52s">s</dfn>);</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='cdogsed.c.html'>codebrowser/src/cdogsed/cdogsed.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

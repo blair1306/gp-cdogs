@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1351' type='int nk_group_begin(struct nk_context * , const char * title, nk_flags )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21408' ll='21439' macro='1' type='int nk_group_begin(struct nk_context * ctx, const char * title, nk_flags flags)'/>

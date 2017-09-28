@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_color.c' l='181' type='3'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='247' c='MissionColorChange'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='263' c='CampaignGetMissionColor'/>

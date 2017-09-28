@@ -1,0 +1,9 @@
+<dec f='include/SDL2/SDL_render.h' l='665' type='int SDL_RenderClear(SDL_Renderer * renderer)'/>
+<doc f='include/SDL2/SDL_render.h' l='658'>/**
+ *  \brief Clear the current rendering target with the drawing color
+ *
+ *  This function clears the entire rendering target, ignoring the viewport.
+ *
+ *  \return 0 on success, or -1 on error
+ */</doc>
+<use f='codebrowser/src/cdogs/blit.c' l='412' u='c' c='BlitFlip'/>

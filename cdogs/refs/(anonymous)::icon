@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='89' type='SDL_Surface *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/grafx.c' l='191' u='w' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='249' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='381' u='r' c='GraphicsTerminate'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='114' u='r' c='CharEditor'/>

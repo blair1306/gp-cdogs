@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='45' type='4'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='127' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='130' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='164' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='167' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='167' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='182' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='189' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='189' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='51' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='53' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='54' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='55' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='56' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='94' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='122' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='196' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='259' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='357' u='r' c='handle_start_array'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='495' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='149' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='153' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='153' macro='1' u='r'/>

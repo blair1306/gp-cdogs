@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/player.h' l='88' type='int GetNumPlayersScreen(const PlayerData ** p)'/>
+<doc f='codebrowser/src/cdogs/player.h' l='86'>// Get number of players that should be shown on screen, for splitscreen modes
+// Optionally gets the first matching player</doc>
+<use f='codebrowser/src/cdogs/camera.c' l='124' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='662' u='c' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='736' u='c' c='DrawDeathmatchScores'/>
+<def f='codebrowser/src/cdogs/player.c' l='287' ll='298' type='int GetNumPlayersScreen(const PlayerData ** p)'/>

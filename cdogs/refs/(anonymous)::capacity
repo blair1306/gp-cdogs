@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='37' type='size_t'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/c_array.c' l='39' u='w' c='CArrayInit'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='43' u='r' c='CArrayReserve'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='47' u='w' c='CArrayReserve'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='48' u='r' c='CArrayReserve'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='56' u='r' c='GrowIfFull'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='58' u='r' c='GrowIfFull'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='58' u='r' c='GrowIfFull'/>

@@ -1,0 +1,45 @@
+<dec f='codebrowser/src/cdogs/map.h' l='65' type='1'/>
+<use f='codebrowser/src/cdogs/door.c' l='78' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='78' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/map.c' l='89' c='IMapTypeStr'/>
+<use f='codebrowser/src/cdogs/map.c' l='101' u='r' c='StrIMapType'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='164' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='249' u='r' c='W'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='304' u='r' c='MapMakeRoom'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='357' u='r' c='MapTryBuildWall'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='459' u='r' c='MapGrowWall'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='557' u='r' c='TryPlaceDoorTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='558' u='r' c='TryPlaceDoorTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='559' u='r' c='TryPlaceDoorTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='637' c='MapIsAreaClearOrRoom'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='670' c='MapIsAreaClearOrWall'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='737' c='MapGetRoomOverlapSize'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='786' c='MapGetRoomOverlapSize'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='828' c='MapIsLessThanTwoWallOverlaps'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='862' c='MapIsLessThanTwoWallOverlaps'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='897' u='r' c='MapMakePillar'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='53' u='r' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='92' u='r' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='93' u='r' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='95' u='r' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='140' u='r' c='LinkDisconnectedAreas'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='329' u='r' c='FixCorridors'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='388' u='r' c='FixCorridorOnTile'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='441' c='MapIsAreaClearForCaveSquare'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='504' c='MapIsAreaClearForCaveRoom'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='544' c='MapIsAreaClearForCaveRoom'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='619' u='r' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='632' u='r' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='159' u='r' c='MapSetupPerimeter'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='461' u='r' c='FindWallRun'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='462' u='r' c='FindWallRun'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='463' u='r' c='FindWallRun'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='561' u='r' c='MapObjectIsTileOK'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='132' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='134' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='140' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='142' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='160' c='MissionTrySetTile'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='42' u='r' c='EditorBrushInit'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='260' u='r' c='EditorBrushPaintRoom'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='519' u='r' c='EditorBrushStopPainting'/>

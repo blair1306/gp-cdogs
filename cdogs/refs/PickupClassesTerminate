@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='92' type='void PickupClassesTerminate(PickupClasses * classes)'/>
+<use f='codebrowser/src/cdogs.c' l='291' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='321' ll='329' type='void PickupClassesTerminate(PickupClasses * classes)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1396' u='c' c='main'/>

@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_gamecontroller.h' l='182' type='const char * SDL_GameControllerName(SDL_GameController * gamecontroller)'/>
+<doc f='include/SDL2/SDL_gamecontroller.h' l='179'>/**
+ *  Return the name for this currently opened controller
+ */</doc>
+<use f='codebrowser/src/cdogs/joystick.c' l='306' u='c' c='JoyName'/>

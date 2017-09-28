@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='674' type='const pb_field_t [2]'/>
+<def f='codebrowser/src/cdogs/proto/msg.pb.c' l='52' ll='55' type='const pb_field_t [2]'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='58' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='58' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='61' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='61' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='62' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='62' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='58' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='58' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='61' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='61' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='62' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='62' u='a'/>

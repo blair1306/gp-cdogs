@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='52' type='Vec2i Vec2iNorm(Vec2i v)'/>
+<doc f='codebrowser/src/cdogs/vector.h' l='51'>// TODO: due to rounding, this will always return unit component vectors</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='907' u='c' c='UpdateAllActors'/>
+<def f='codebrowser/src/cdogs/vector.c' l='91' ll='102' type='Vec2i Vec2iNorm(Vec2i v)'/>

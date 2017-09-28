@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='18610' ll='18658' macro='1' type='void nk_panel_layout(const struct nk_context * ctx, struct nk_window * win, float height, int cols)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18673' u='c' c='nk_row_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18722' u='c' c='nk_layout_row_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18799' u='c' c='nk_layout_row'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18836' u='c' c='nk_layout_row_template_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18980' u='c' c='nk_layout_space_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19122' u='c' c='nk_panel_alloc_row'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='54' type='int ModeMaxRoundsWon(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='131' ll='144' type='int ModeMaxRoundsWon(const GameMode mode)'/>
+<use f='codebrowser/src/screens_end.c' l='430' u='c' c='DogfightScoresUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='431' u='c' c='DogfightScoresUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='431' u='c' c='DogfightScoresUpdate'/>

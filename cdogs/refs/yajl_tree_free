@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='137' type='void yajl_tree_free(yajl_val v)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='151' u='c' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='66' u='c' c='FontLoadFromJSON'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='81' u='c' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='98' u='c' c='yajl_array_free'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='477' ll='503' type='void yajl_tree_free(yajl_val v)'/>

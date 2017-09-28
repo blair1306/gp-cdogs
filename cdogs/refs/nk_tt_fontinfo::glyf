@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9054' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9204' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9208' u='r' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9360' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9361' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9363' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9364' u='r' c='nk_tt__GetGlyfOffset'/>
+<offset>192</offset>

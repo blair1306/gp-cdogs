@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='90' type='int (*)(void *, const unsigned char *, size_t)'/>
+<offset>448</offset>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='390' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='398' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='399' u='r' c='yajl_do_parse'/>

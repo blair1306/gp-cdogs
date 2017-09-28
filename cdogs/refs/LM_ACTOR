@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/log.h' l='40' type='3'/>
+<use f='codebrowser/src/cdogs/actors.c' l='591' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='591' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='591' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1162' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1162' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1162' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1176' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1176' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1176' u='r' c='ActorAdd'/>

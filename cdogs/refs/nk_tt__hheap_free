@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9722' ll='9727' macro='1' type='void nk_tt__hheap_free(struct nk_tt__hheap * hh, void * p)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9995' u='c' c='nk_tt__rasterize_sorted_edges'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='162' type='NActorDie'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1047' u='m' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='331' u='m' c='HandleGameEvent'/>

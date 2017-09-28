@@ -1,0 +1,10 @@
+<def f='codebrowser/src/tests/autosave_test.c' l='69' macro='1' type='void _cbehave_feature_save_and_load(void * _state)'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='187' macro='1' u='r'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='187' macro='1' u='r'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='187' macro='1' u='r'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='187' macro='1' u='r'/>
+<def f='codebrowser/src/tests/config_test.c' l='56' macro='1' type='void _cbehave_feature_save_and_load(void * _state)'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>

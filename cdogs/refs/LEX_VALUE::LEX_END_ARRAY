@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/json/json.c' l='40' type='8'/>
+<use f='codebrowser/src/json/json.c' l='1422' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2634' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2700' c='json_parse_fragment'/>

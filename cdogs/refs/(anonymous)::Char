@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/cdogs/player.h' l='42' type='Character'/>
+<use f='codebrowser/src/briefing_screens.c' l='715' u='a' c='DrawPlayerSummary'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='175' u='m' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1306' u='a' c='ActorGetCharacter'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='241' u='a' c='ActorGetCharacterMutable'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='276' u='a' c='DrawLives'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='65' u='a' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='67' u='m' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='77' u='m' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='64' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='73' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='74' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='76' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='78' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='87' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='94' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='94' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='128' u='m' c='PlayerTerminate'/>
+<use f='codebrowser/src/cdogs/player.c' l='128' u='m' c='PlayerTerminate'/>
+<use f='codebrowser/src/menu_utils.c' l='76' u='a' c='MenuDisplayPlayer'/>
+<use f='codebrowser/src/player_select_menus.c' l='185' u='a' c='PostInputFaceMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='214' u='m' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='301' u='m' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='318' u='m' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='319' u='m' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='321' u='m' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='323' u='m' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='m' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='m' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='m' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='m' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='m' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='379' u='m' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='529' u='a' c='ShuffleAppearance'/>
+<use f='codebrowser/src/screens_end.c' l='237' u='a' c='PlayerListCustomDraw'/>

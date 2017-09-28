@@ -1,0 +1,13 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9050' ll='9057'/>
+<size>48</size>
+<mbr r='nk_tt_fontinfo::data' o='0' t='const unsigned char *'/>
+<mbr r='nk_tt_fontinfo::fontstart' o='64' t='int'/>
+<mbr r='nk_tt_fontinfo::numGlyphs' o='96' t='int'/>
+<mbr r='nk_tt_fontinfo::loca' o='128' t='int'/>
+<mbr r='nk_tt_fontinfo::head' o='160' t='int'/>
+<mbr r='nk_tt_fontinfo::glyf' o='192' t='int'/>
+<mbr r='nk_tt_fontinfo::hhea' o='224' t='int'/>
+<mbr r='nk_tt_fontinfo::hmtx' o='256' t='int'/>
+<mbr r='nk_tt_fontinfo::kern' o='288' t='int'/>
+<mbr r='nk_tt_fontinfo::index_map' o='320' t='int'/>
+<mbr r='nk_tt_fontinfo::indexToLocFormat' o='352' t='int'/>

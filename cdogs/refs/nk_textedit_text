@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2443' type='void nk_textedit_text(struct nk_text_edit * , const char * , int total_len)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12679' ll='12727' macro='1' type='void nk_textedit_text(struct nk_text_edit * state, const char * text, int total_len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15028' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15037' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15040' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15075' u='c' c='nk_do_edit'/>

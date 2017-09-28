@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='6127' ll='6164' macro='1' type='void * nk_buffer_realloc(struct nk_buffer * b, nk_size capacity, nk_size * size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6202' u='c' c='nk_buffer_alloc'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='52' type='_Bool NetDecode(ENetPacket * packet, void * dest, const pb_field_t * fields)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='391' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='447' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='463' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='283' u='c' c='OnReceive'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='51' ll='59' macro='1' type='_Bool NetDecode(ENetPacket * packet, void * dest, const pb_field_t * fields)'/>

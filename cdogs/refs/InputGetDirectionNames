@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/events.h' l='84' type='void InputGetDirectionNames(char * buf, const input_device_e d, const int dIndex)'/>
+<doc f='codebrowser/src/cdogs/events.h' l='83'>// Return a string that shows the direction controls for an input device</doc>
+<use f='codebrowser/src/cdogs/camera.c' l='419' u='c' c='CameraDrawMode'/>
+<def f='codebrowser/src/cdogs/events.c' l='459' ll='489' type='void InputGetDirectionNames(char * buf, const input_device_e d, const int dIndex)'/>
+<use f='codebrowser/src/menu_utils.c' l='92' u='c' c='MenuDisplayPlayerControls'/>

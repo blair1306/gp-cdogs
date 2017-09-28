@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='235' ll='240'/>
+<size>20</size>
+<mbr r='_NActorMove::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorMove::Pos' o='32' t='NVec2i'/>
+<mbr r='_NActorMove::MoveVel' o='96' t='NVec2i'/>

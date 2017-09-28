@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2759' type='int nk_input_has_mouse_click_down_in_rect(const struct nk_input * , enum nk_buttons , struct nk_rect , int down)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12186' ll='12194' macro='1' type='int nk_input_has_mouse_click_down_in_rect(const struct nk_input * i, enum nk_buttons id, struct nk_rect b, int down)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12203' u='c' c='nk_input_is_mouse_click_in_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12214' u='c' c='nk_input_is_mouse_click_down_in_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14196' u='c' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14391' u='c' c='nk_progress_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14501' u='c' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15462' u='c' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17210' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17611' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18083' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19592' u='c' c='nk_widget_has_mouse_click_down'/>

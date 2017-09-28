@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_buf.h source code [codebrowser/src/cdogs/yajl/yajl_buf.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl_buf.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl_buf.h.html'>yajl_buf.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="17">ifndef</span> <span class="macro" data-ref="_M/__YAJL_BUF_H__">__YAJL_BUF_H__</span></u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/__YAJL_BUF_H__" data-ref="_M/__YAJL_BUF_H__">__YAJL_BUF_H__</dfn></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="api/yajl_common.h.html">"api/yajl_common.h"</a></u></td></tr>
+<tr><th id="21">21</th><td><u>#include <a href="yajl_alloc.h.html">"yajl_alloc.h"</a></u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><i>/*</i></td></tr>
+<tr><th id="24">24</th><td><i> * Implementation/performance notes.  If this were moved to a header</i></td></tr>
+<tr><th id="25">25</th><td><i> * only implementation using #define's where possible we might be </i></td></tr>
+<tr><th id="26">26</th><td><i> * able to sqeeze a little performance out of the guy by killing function</i></td></tr>
+<tr><th id="27">27</th><td><i> * call overhead.  YMMV.</i></td></tr>
+<tr><th id="28">28</th><td><i> */</i></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="31">31</th><td><i class="doc"> * yajl_buf is a buffer with exponential growth.  the buffer ensures that</i></td></tr>
+<tr><th id="32">32</th><td><i class="doc"> * you are always null padded.</i></td></tr>
+<tr><th id="33">33</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="34">34</th><td><b>typedef</b> <b>struct</b> <dfn class="type" id="yajl_buf_t" title='yajl_buf_t' data-ref="yajl_buf_t"><a class="type" href="#yajl_buf_t" title='yajl_buf_t' data-ref="yajl_buf_t">yajl_buf_t</a></dfn> * <dfn class="typedef" id="yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</dfn>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><i>/* allocate a new buffer */</i></td></tr>
+<tr><th id="37">37</th><td><a class="typedef" href="#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="decl" id="yajl_buf_alloc" title='yajl_buf_alloc' data-ref="yajl_buf_alloc">yajl_buf_alloc</dfn>(<a class="typedef" href="../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> * <dfn class="local col6 decl" id="66alloc" title='alloc' data-type='yajl_alloc_funcs *' data-ref="66alloc">alloc</dfn>);</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><i>/* free the buffer */</i></td></tr>
+<tr><th id="40">40</th><td><em>void</em> <dfn class="decl" id="yajl_buf_free" title='yajl_buf_free' data-ref="yajl_buf_free">yajl_buf_free</dfn>(<a class="typedef" href="#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col7 decl" id="67buf" title='buf' data-type='yajl_buf' data-ref="67buf">buf</dfn>);</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><i>/* append a number of bytes to the buffer */</i></td></tr>
+<tr><th id="43">43</th><td><em>void</em> <dfn class="decl" id="yajl_buf_append" title='yajl_buf_append' data-ref="yajl_buf_append">yajl_buf_append</dfn>(<a class="typedef" href="#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col8 decl" id="68buf" title='buf' data-type='yajl_buf' data-ref="68buf">buf</dfn>, <em>const</em> <em>void</em> * <dfn class="local col9 decl" id="69data" title='data' data-type='const void *' data-ref="69data">data</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="70len" title='len' data-type='size_t' data-ref="70len">len</dfn>);</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><i>/* empty the buffer */</i></td></tr>
+<tr><th id="46">46</th><td><em>void</em> <dfn class="decl" id="yajl_buf_clear" title='yajl_buf_clear' data-ref="yajl_buf_clear">yajl_buf_clear</dfn>(<a class="typedef" href="#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col1 decl" id="71buf" title='buf' data-type='yajl_buf' data-ref="71buf">buf</dfn>);</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><i>/* get a pointer to the beginning of the buffer */</i></td></tr>
+<tr><th id="49">49</th><td><em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="decl" id="yajl_buf_data" title='yajl_buf_data' data-ref="yajl_buf_data">yajl_buf_data</dfn>(<a class="typedef" href="#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col2 decl" id="72buf" title='buf' data-type='yajl_buf' data-ref="72buf">buf</dfn>);</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><i>/* get the length of the buffer */</i></td></tr>
+<tr><th id="52">52</th><td><span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="yajl_buf_len" title='yajl_buf_len' data-ref="yajl_buf_len">yajl_buf_len</dfn>(<a class="typedef" href="#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col3 decl" id="73buf" title='buf' data-type='yajl_buf' data-ref="73buf">buf</dfn>);</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td><i>/* truncate the buffer */</i></td></tr>
+<tr><th id="55">55</th><td><em>void</em> <dfn class="decl" id="yajl_buf_truncate" title='yajl_buf_truncate' data-ref="yajl_buf_truncate">yajl_buf_truncate</dfn>(<a class="typedef" href="#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col4 decl" id="74buf" title='buf' data-type='yajl_buf' data-ref="74buf">buf</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col5 decl" id="75len" title='len' data-type='size_t' data-ref="75len">len</dfn>);</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><u>#<span data-ppcond="17">endif</span></u></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='yajl.c.html'>codebrowser/src/cdogs/yajl/yajl.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

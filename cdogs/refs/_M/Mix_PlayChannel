@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_mixer.h' l='533'/>
+<doc f='include/SDL2/SDL_mixer.h' l='527'>/* Play an audio chunk on a specific channel.
+   If the specified channel is -1, play on the first free channel.
+   If &apos;loops&apos; is greater than zero, loop the sound that many times.
+   If &apos;loops&apos; is -1, loop inifinitely (~65000 times).
+   Returns which channel was used to play the sound.
+*/</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='401' u='c'/>

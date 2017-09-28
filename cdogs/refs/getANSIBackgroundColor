@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/rlutil/rlutil.h' l='440' ll='452' macro='1' type='RLUTIL_STRING_T getANSIBackgroundColor(const int c)'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='486' u='c' c='setBackgroundColor'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config_old.h' l='34' type='_Bool ConfigIsOld(FILE * f)'/>
+<use f='codebrowser/src/cdogs/config.c' l='307' u='c' c='ConfigGetVersion'/>
+<def f='codebrowser/src/cdogs/config_old.c' l='32' ll='39' macro='1' type='_Bool ConfigIsOld(FILE * f)'/>
+<def f='codebrowser/src/tests/pic_test.c' l='27' ll='31' macro='1' type='_Bool ConfigIsOld(FILE * f)'/>

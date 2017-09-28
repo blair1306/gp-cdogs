@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1090' type='4'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17247' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17579' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18051' u='r' c='nk_begin_titled'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1090'>/* The scalable flag indicates that a window can be scaled by user input by dragging a scaler icon at the button of the window */</doc>

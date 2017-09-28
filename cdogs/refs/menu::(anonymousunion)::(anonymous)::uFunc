@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/menu.h' l='203' type='union (anonymous union at /home/jon/workspace/cdogs-sdl/src/menu.h:199:4)'/>
+<offset>320</offset>
+<use f='codebrowser/src/menu.c' l='488' u='m' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='492' u='m' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='514' u='m' c='MenuCreateOptionUpDownFunc'/>
+<use f='codebrowser/src/menu.c' l='544' u='m' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='785' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='789' u='m' c='MenuDisplaySubmenus'/>

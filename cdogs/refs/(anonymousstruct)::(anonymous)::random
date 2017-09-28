@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='83' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogs/sounds.h:79:3)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/sounds.c' l='128' u='m' c='SoundLoad'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='142' u='m' c='SoundLoad'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='301' u='m' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='301' u='m' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='304' u='m' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='580' u='m' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='581' u='m' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='582' u='m' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='584' u='m' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='586' u='m' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='587' u='m' c='SoundDataGet'/>

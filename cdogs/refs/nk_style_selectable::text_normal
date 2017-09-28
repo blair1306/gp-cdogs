@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3015' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14065' u='r' c='nk_draw_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16094' u='w' c='nk_style_from_table'/>
+<offset>1536</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3014'>/* text color (inactive) */</doc>

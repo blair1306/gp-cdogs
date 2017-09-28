@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='42' type='1'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1254' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='381' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='506' u='r' c='Follow'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='56' c='AIStateGetChatterText'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='362' u='r' c='AICoopGetCmdNormal'/>

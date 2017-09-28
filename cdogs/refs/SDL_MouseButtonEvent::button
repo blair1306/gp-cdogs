@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_events.h' l='251' type='Uint8'/>
+<offset>128</offset>
+<doc f='include/SDL2/SDL_events.h' l='251'>/**&lt; The mouse button index */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='148' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='152' u='r' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='305' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='307' u='r' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='309' u='r' c='nk_sdl_handle_event'/>

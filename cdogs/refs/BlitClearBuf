@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='95' type='void BlitClearBuf(GraphicsDevice * g)'/>
+<use f='codebrowser/src/briefing_screens.c' l='108' u='c' c='CampaignIntroDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='315' u='c' c='MissionBriefingDraw'/>
+<def f='codebrowser/src/cdogs/blit.c' l='400' ll='403' type='void BlitClearBuf(GraphicsDevice * g)'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='315' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='79' u='c' c='GrafxDrawBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='195' u='c' c='Display'/>
+<use f='codebrowser/src/game.c' l='297' u='c' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='723' u='c' c='RunGameDraw'/>
+<use f='codebrowser/src/game.c' l='728' u='c' c='RunGameDraw'/>
+<use f='codebrowser/src/hiscores.c' l='323' u='c' c='HighScoreDraw'/>
+<use f='codebrowser/src/menu.c' l='192' u='c' c='MenuDraw'/>
+<use f='codebrowser/src/password.c' l='291' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/prep.c' l='467' u='c' c='PlayerSelectionDraw'/>
+<use f='codebrowser/src/prep.c' l='931' u='c' c='PlayerEquipDraw'/>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3718' type='struct nk_window *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16827' u='w' c='nk_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17941' u='w' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17947' u='r' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17950' u='r' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17952' u='w' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17953' u='r' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17954' u='r' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17956' u='r' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17969' u='r' c='nk_remove_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17975' u='r' c='nk_remove_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17976' u='w' c='nk_remove_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17987' u='r' c='nk_remove_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17988' u='r' c='nk_remove_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17989' u='r' c='nk_remove_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18106' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18125' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18135' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18503' u='r' c='nk_window_set_focus'/>
+<offset>132416</offset>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/menu.h' l='128' type='_Bool'/>
+<offset>192</offset>
+<use f='codebrowser/src/menu.c' l='216' u='r' c='MoveIndexToNextEnabledSubmenu'/>
+<use f='codebrowser/src/menu.c' l='247' u='w' c='MenuDisableSubmenu'/>
+<use f='codebrowser/src/menu.c' l='253' u='w' c='MenuEnableSubmenu'/>
+<use f='codebrowser/src/menu.c' l='552' u='w' c='MenuCreateSeparator'/>
+<use f='codebrowser/src/menu.c' l='767' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/password.c' l='375' u='w' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='389' u='w' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='392' u='w' c='MenuCreateStart'/>
+<use f='codebrowser/src/player_select_menus.c' l='416' u='w' c='CheckReenableLoadMenu'/>

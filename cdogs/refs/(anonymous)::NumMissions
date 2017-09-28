@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/campaign_entry.h' l='39' type='int'/>
+<offset>224</offset>
+<use f='codebrowser/src/briefing_screens.c' l='416' u='r' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='84' u='w' c='CampaignEntryTryLoad'/>
+<use f='codebrowser/src/mainmenu.c' l='386' u='r' c='MenuCreateCampaignItem'/>

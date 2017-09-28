@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_events.h' l='539' type='SDL_ControllerDeviceEvent'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_events.h' l='539'>/**&lt; Game Controller device event data */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='99' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='119' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='124' u='m' c='EventPoll'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2862' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7406' u='w' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7559' u='w' c='nk_draw_list_alloc_elements'/>
+<offset>1600</offset>

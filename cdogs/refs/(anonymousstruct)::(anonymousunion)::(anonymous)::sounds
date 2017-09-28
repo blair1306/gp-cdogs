@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='81' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/sounds.h' l='81'>// of Mix_Chunk *</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='128' u='a' c='SoundLoad'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='142' u='a' c='SoundLoad'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='301' u='m' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='301' u='a' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='304' u='a' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='581' u='m' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='584' u='m' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='586' u='a' c='SoundDataGet'/>

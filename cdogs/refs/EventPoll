@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/events.h' l='56' type='void EventPoll(EventHandlers * handlers, Uint32 ticks)'/>
+<def f='codebrowser/src/cdogs/events.c' l='65' ll='208' type='void EventPoll(EventHandlers * handlers, Uint32 ticks)'/>
+<use f='codebrowser/src/cdogs/events.c' l='496' u='c' c='GetKey'/>
+<use f='codebrowser/src/cdogs/events.c' l='508' u='c' c='EventWaitKeyOrText'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1268' u='c' c='EditCampaign'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='339' u='c' c='HandleEvents'/>
+<use f='codebrowser/src/game_loop.c' l='203' u='c' c='LoopRunnerRunInner'/>

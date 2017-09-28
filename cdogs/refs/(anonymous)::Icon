@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='95' type='const Pic *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='168' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='169' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='289' u='r' c='PickupClassesLoadGuns'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='189' u='w' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='162' u='r' c='CharEditor'/>
+<use f='codebrowser/src/weapon_menu.c' l='263' u='r' c='DisplayGunIcon'/>
+<use f='codebrowser/src/weapon_menu.c' l='264' u='r' c='DisplayGunIcon'/>
+<use f='codebrowser/src/weapon_menu.c' l='265' u='r' c='DisplayGunIcon'/>
+<use f='codebrowser/src/weapon_menu.c' l='276' u='r' c='DisplayDescriptionGunIcon'/>
+<use f='codebrowser/src/weapon_menu.c' l='277' u='r' c='DisplayDescriptionGunIcon'/>

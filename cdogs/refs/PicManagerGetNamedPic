@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='59' type='NamedPic * PicManagerGetNamedPic(const PicManager * pm, const char * name)'/>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='58'>// Note: return ptr to NamedPic so we can store that instead of the name</doc>
+<use f='codebrowser/src/cdogs/door.c' l='369' u='c' c='GetDoorPic'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='93' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='95' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='436' ll='450' type='NamedPic * PicManagerGetNamedPic(const PicManager * pm, const char * name)'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='453' u='c' c='PicManagerGetPic'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='486' u='c' c='PicManagerGetMaskedPic'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='593' u='c' c='PicManagerGetExitPic'/>

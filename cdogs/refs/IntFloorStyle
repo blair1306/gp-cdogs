@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pics.h' l='76' type='const char * IntFloorStyle(const int i)'/>
+<use f='codebrowser/src/cdogs/files.c' l='375' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='212' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='107' u='c' c='MissionInit'/>
+<def f='codebrowser/src/cdogs/pics.c' l='48' ll='55' type='const char * IntFloorStyle(const int i)'/>

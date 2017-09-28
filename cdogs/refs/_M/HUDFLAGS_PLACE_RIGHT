@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/hud/hud_defs.h' l='35'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='310' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='324' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='349' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='418' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='707' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='220' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='267' u='c'/>

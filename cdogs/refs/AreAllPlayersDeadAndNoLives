@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/player.h' l='89' type='_Bool AreAllPlayersDeadAndNoLives()'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='855' u='c' c='DrawMissionState'/>
+<def f='codebrowser/src/cdogs/player.c' l='300' ll='309' macro='1' type='_Bool AreAllPlayersDeadAndNoLives()'/>
+<use f='codebrowser/src/game.c' l='710' u='c' c='CheckMissionCompletion'/>

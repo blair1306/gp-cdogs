@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_mixer.h' l='149' type='Mix_Chunk * Mix_LoadWAV_RW(SDL_RWops * src, int freesrc)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='148'>/* Load a wave file or a music (.mod .s3m .it .xm) file */</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='163' macro='1' u='c'/>

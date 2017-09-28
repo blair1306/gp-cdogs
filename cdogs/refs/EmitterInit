@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/emitter.h' l='44' type='void EmitterInit(Emitter * em, const ParticleClass * p, const Vec2i offset, const int minSpeed, const int maxSpeed, const int minDZ, const int maxDZ, double minRotation, double maxRotation)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1273' u='c' c='GoreEmitterInit'/>
+<def f='codebrowser/src/cdogs/emitter.c' l='33' ll='47' type='void EmitterInit(Emitter * em, const ParticleClass * p, const Vec2i offset, const int minSpeed, const int maxSpeed, const int minDZ, const int maxDZ, double minRotation, double maxRotation)'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='67' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/cpic.c' l='223' u='w' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='226' u='r' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='228' u='w' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='237' u='w' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='243' u='w' c='CPicUpdate'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='262' u='r' c='CPicGetPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='263' u='r' c='CPicGetPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='267' u='r' c='CPicGetPic'/>

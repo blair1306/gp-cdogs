@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/prep.h' l='74' type='GameLoopData * ScreenWaitForGameStart()'/>
+<doc f='codebrowser/src/prep.h' l='73'>// Wait for the game to start</doc>
+<use f='codebrowser/src/prep.c' l='920' u='c' c='PlayerEquipUpdate'/>
+<def f='codebrowser/src/prep.c' l='940' ll='949' type='GameLoopData * ScreenWaitForGameStart()'/>

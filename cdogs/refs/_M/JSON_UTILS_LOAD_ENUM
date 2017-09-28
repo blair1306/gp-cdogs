@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='68'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='74' u='c'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='140' u='c'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='203' u='c'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='370' u='c'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='399' u='c'/>
+<use f='codebrowser/src/cdogs/objective.c' l='101' u='c'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='229' u='c'/>

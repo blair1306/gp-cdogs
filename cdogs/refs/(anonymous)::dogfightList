@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='47' type='campaign_list_t'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/campaigns.c' l='97' u='a' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='110' u='a' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='124' u='a' c='UnloadAllCampaigns'/>
+<use f='codebrowser/src/mainmenu.c' l='258' u='a' c='MenuCreateStart'/>
+<use f='codebrowser/src/mainmenu.c' l='265' u='a' c='MenuCreateStart'/>

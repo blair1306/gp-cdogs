@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='75' type='char * MakePlacementFlagTooltip(const MapObject * mo)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1617' u='c' c='MapItemObjFunc'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='362' ll='409' type='char * MakePlacementFlagTooltip(const MapObject * mo)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='609' u='c' c='ObjectiveDestroyObjFunc'/>

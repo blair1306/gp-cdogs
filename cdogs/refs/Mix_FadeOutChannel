@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_mixer.h' l='568' type='int Mix_FadeOutChannel(int which, int ms)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='564'>/* Halt a channel, fading it out progressively till it&apos;s silent
+   The ms parameter indicates the number of milliseconds the fading
+   will take.
+ */</doc>

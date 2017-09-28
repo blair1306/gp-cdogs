@@ -1,0 +1,9 @@
+<dec f='include/SDL2/SDL_surface.h' l='130' type='void SDL_FreeSurface(SDL_Surface * surface)'/>
+<use f='codebrowser/src/cdogs/font.c' l='119' u='c' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='381' u='c' c='GraphicsTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='106' u='c' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='182' u='c' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='56' u='c' c='EditorBrushTerminate'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='122' u='c' c='BrushLoadGuideImage'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='126' u='c' c='BrushLoadGuideImage'/>
+<use f='codebrowser/src/tests/pic_test.c' l='74' u='c' c='_cbehave_feature_PicLoad'/>

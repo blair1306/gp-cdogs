@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='57' type='void MouseOnWheel(Mouse * m, const Sint32 x, const Sint32 y)'/>
+<use f='codebrowser/src/cdogs/events.c' l='156' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/mouse.c' l='87' ll='90' type='void MouseOnWheel(Mouse * m, const Sint32 x, const Sint32 y)'/>

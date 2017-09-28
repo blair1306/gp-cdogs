@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/grafx_bg.h' l='43' type='void GrafxMakeBackground(GraphicsDevice * device, DrawBuffer * buffer, CampaignOptions * co, struct MissionOptions * mo, Map * map, HSV tint, const _Bool isEditor, Vec2i pos, GrafxDrawExtra * extra)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='53' u='c' c='GrafxMakeRandomBackground'/>
+<def f='codebrowser/src/cdogs/grafx_bg.c' l='94' ll='118' type='void GrafxMakeBackground(GraphicsDevice * device, DrawBuffer * buffer, CampaignOptions * co, struct MissionOptions * mo, Map * map, HSV tint, const _Bool isEditor, Vec2i pos, GrafxDrawExtra * extra)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='156' u='c' c='MakeBackground'/>

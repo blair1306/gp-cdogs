@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2273' type='void nk_buffer_mark(struct nk_buffer * , enum nk_buffer_allocation_type type)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6229' ll='6238' macro='1' type='void nk_buffer_mark(struct nk_buffer * buffer, enum nk_buffer_allocation_type type)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7762' u='c' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8000' u='c' c='nk_draw_list_fill_poly_convex'/>

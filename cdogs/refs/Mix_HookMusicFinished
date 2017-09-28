@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_mixer.h' l='213' type='void Mix_HookMusicFinished(void (*)(void) music_finished)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='210'>/* Add your own callback for when the music has finished playing or when it is
+ * stopped from a call to Mix_HaltMusic.
+ */</doc>

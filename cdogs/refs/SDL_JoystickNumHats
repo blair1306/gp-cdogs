@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_joystick.h' l='167' type='int SDL_JoystickNumHats(SDL_Joystick * joystick)'/>
+<doc f='include/SDL2/SDL_joystick.h' l='164'>/**
+ *  Get the number of POV hats on a joystick.
+ */</doc>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='61' type='Vec2i Vec2iReal2Full(Vec2i v)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='128' u='c' c='PlaceAwayFromPlayers'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='144' u='c' c='PlaceAwayFromPlayers'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='194' u='c' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/actors.c' l='450' u='c' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='388' u='c' c='AIGetObjectRunningInto'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='342' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='343' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='344' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='363' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='364' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='365' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='51' u='c' c='EmitterStart'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='541' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='638' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='126' u='c' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='159' u='c' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/objs.c' l='169' u='c' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='103' u='c' c='TryPlacePickup'/>
+<def f='codebrowser/src/cdogs/vector.c' l='132' ll='135' type='Vec2i Vec2iReal2Full(Vec2i v)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='503' u='c' c='GunAddBrass'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='528' u='c' c='GunGetMuzzleOffset'/>

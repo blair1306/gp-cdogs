@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1407' type='enum nk_widget_layout_states nk_widget(struct nk_rect * , const struct nk_context * )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19341' u='c' c='nk_tree_state_base'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19596' ll='19640' macro='1' type='enum nk_widget_layout_states nk_widget(struct nk_rect * bounds, const struct nk_context * ctx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19662' u='c' c='nk_widget_fitting'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19908' u='c' c='nk_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19984' u='c' c='nk_button_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20030' u='c' c='nk_button_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20063' u='c' c='nk_button_symbol_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20098' u='c' c='nk_button_image_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20134' u='c' c='nk_button_symbol_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20181' u='c' c='nk_button_image_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20232' u='c' c='nk_selectable_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20262' u='c' c='nk_selectable_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20317' u='c' c='nk_check_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20412' u='c' c='nk_option_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20471' u='c' c='nk_slider_float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20532' u='c' c='nk_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20664' u='c' c='nk_edit_buffer'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20786' u='c' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20957' u='c' c='nk_color_pick'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20995' u='c' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22107' u='c' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22197' u='c' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22277' u='c' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22366' u='c' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22460' u='c' c='nk_combo_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22540' u='c' c='nk_combo_begin_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22843' u='c' c='nk_menu_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22873' u='c' c='nk_menu_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22899' u='c' c='nk_menu_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22925' u='c' c='nk_menu_begin_image_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22956' u='c' c='nk_menu_begin_symbol_text'/>

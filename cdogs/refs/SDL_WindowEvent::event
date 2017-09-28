@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_events.h' l='176' type='Uint8'/>
+<offset>96</offset>
+<doc f='include/SDL2/SDL_events.h' l='176'>/**&lt; ::SDL_WindowEventID */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='159' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='324' u='r' c='HandleEvents'/>

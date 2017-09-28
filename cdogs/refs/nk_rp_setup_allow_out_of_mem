@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8674' ll='8692' macro='1' type='void nk_rp_setup_allow_out_of_mem(struct nk_rp_context * context, int allow_out_of_mem)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8713' u='c' c='nk_rp_init_target'/>

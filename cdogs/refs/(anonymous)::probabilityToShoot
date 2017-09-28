@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/character.h' l='39' type='int'/>
+<offset>64</offset>
+<dec f='codebrowser/src/cdogs/files.h' l='90' type='int32_t'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1122' u='r' c='IsUnarmedBot'/>
+<use f='codebrowser/src/cdogs/ai.c' l='248' u='r' c='WillFire'/>
+<use f='codebrowser/src/cdogs/character.c' l='145' u='a' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='173' u='r' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/files.c' l='309' u='w' c='load_character'/>
+<use f='codebrowser/src/cdogs/files.c' l='326' u='w' c='ConvertCharacter'/>
+<use f='codebrowser/src/cdogs/files.c' l='326' u='r' c='ConvertCharacter'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='145' u='w' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='149' u='w' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='153' u='w' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='545' u='a' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='609' u='w' c='AddCharacter'/>

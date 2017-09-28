@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/AStar.c' l='44' type='void *'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='400' u='r' c='NeighborListDestroy'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='400' u='r' c='NeighborListDestroy'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='411' u='r' c='NeighborListGetNodeKey'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='w' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='424' u='r' c='ASNeighborListAdd'/>
+<offset>256</offset>

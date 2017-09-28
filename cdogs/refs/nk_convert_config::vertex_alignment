@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='905' type='nk_size'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7539' u='r' c='nk_draw_list_alloc_vertices'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='122' u='w' c='nk_sdl_render'/>
+<offset>448</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='905'>/* vertex alignment: Can be optained by NK_ALIGNOF */</doc>

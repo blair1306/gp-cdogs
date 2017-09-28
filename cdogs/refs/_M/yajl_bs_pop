@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_bytestack.h' l='63'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_bytestack.h' l='62'>/* removes the top item of the stack, returns nothing */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='342' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='411' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='448' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='476' u='c'/>

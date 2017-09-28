@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/player.h' l='97' type='Vec2i PlayersGetMidpoint()'/>
+<use f='codebrowser/src/cdogs/camera.c' l='181' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='390' u='c' c='DrawSharedRadar'/>
+<def f='codebrowser/src/cdogs/player.c' l='360' ll='367' type='Vec2i PlayersGetMidpoint()'/>
+<use f='codebrowser/src/game.c' l='554' u='c' c='RunGameUpdate'/>

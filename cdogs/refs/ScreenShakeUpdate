@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/screen_shake.h' l='42' type='ScreenShake ScreenShakeUpdate(ScreenShake s, int ticks)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='114' u='c' c='CameraUpdate'/>
+<def f='codebrowser/src/cdogs/screen_shake.c' l='70' ll='75' type='ScreenShake ScreenShakeUpdate(ScreenShake s, int ticks)'/>

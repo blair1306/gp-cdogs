@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10067' ll='10133' macro='1' type='void nk_tt__sort_edges_quicksort(struct nk_tt__edge * p, int n)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10125' u='c' c='nk_tt__sort_edges_quicksort'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10129' u='c' c='nk_tt__sort_edges_quicksort'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10138' u='c' c='nk_tt__sort_edges'/>

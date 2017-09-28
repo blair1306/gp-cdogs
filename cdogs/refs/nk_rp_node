@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8644' ll='8647'/>
+<size>16</size>
+<mbr r='nk_rp_node::x' o='0' t='nk_rp_coord'/>
+<mbr r='nk_rp_node::y' o='16' t='nk_rp_coord'/>
+<mbr r='nk_rp_node::next' o='64' t='struct nk_rp_node *'/>

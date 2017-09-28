@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/events.h' l='75' type='EventWaitResult EventWaitForAnyKeyOrButton()'/>
+<use f='codebrowser/src/briefing_screens.c' l='85' u='c' c='CampaignIntroInput'/>
+<def f='codebrowser/src/cdogs/events.c' l='516' ll='545' type='EventWaitResult EventWaitForAnyKeyOrButton()'/>
+<use f='codebrowser/src/hiscores.c' l='331' u='c' c='HighScoreUpdate'/>

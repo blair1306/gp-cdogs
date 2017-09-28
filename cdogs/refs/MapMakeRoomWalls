@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='69' type='void MapMakeRoomWalls(Map * map, const RoomParams r)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='334' ll='345' type='void MapMakeRoomWalls(Map * map, const RoomParams r)'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='644' u='c' c='MapBuildRoom'/>
+<dec f='codebrowser/src/cdogs/map_classic.c' l='239' type='void MapMakeRoomWalls(Map * map, const RoomParams r)'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='309' u='c' c='MapBuildRoom'/>

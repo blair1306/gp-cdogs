@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='158' type='void RealPath(const char * src, char * dest)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='278' u='c' c='MapArchiveSave'/>
+<def f='codebrowser/src/cdogs/utils.c' l='138' ll='236' type='void RealPath(const char * src, char * dest)'/>
+<use f='codebrowser/src/cdogs/utils.c' l='249' u='c' c='RelPath'/>
+<use f='codebrowser/src/cdogs/utils.c' l='250' u='c' c='RelPath'/>
+<use f='codebrowser/src/cdogs/utils.c' l='365' u='c' c='GetDataFilePath'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='565' u='c' c='TryOpen'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1373' u='c' c='main'/>

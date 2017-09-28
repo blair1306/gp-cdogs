@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='64' type='void JoyRemoved(const Sint32 which)'/>
+<use f='codebrowser/src/cdogs/events.c' l='119' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='198' ll='210' type='void JoyRemoved(const Sint32 which)'/>

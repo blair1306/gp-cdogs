@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='462' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11933' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17003' u='m' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17004' u='m' c='nk_build'/>
+<offset>192</offset>

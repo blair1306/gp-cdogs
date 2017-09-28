@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='102' type='int'/>
+<offset>416</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='66' u='r' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='67' u='r' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='491' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='228' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='291' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='291' u='r' c='LoadGunDescription'/>

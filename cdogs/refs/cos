@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='63' type='double cos(double __x)'/>
+<use f='codebrowser/src/cdogs/defs.c' l='122' u='c' c='GetVectorsForRadians'/>
+<use f='codebrowser/src/cdogs/defs.c' l='130' u='c' c='GetFullVectorsForRadians'/>
+<use f='codebrowser/src/cdogs/vector.c' l='51' u='c' c='Vec2iFromPolar'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/yajl_utils.h' l='41' type='void YAJLBool(_Bool * value, yajl_val node, const char * name)'/>
+<doc f='codebrowser/src/cdogs/yajl_utils.h' l='35'>/*
+void AddIntPair(json_t *parent, const char *name, int number);
+void AddBoolPair(json_t *parent, const char *name, int value);
+void AddStringPair(json_t *parent, const char *name, const char *s);
+void AddColorPair(json_t *parent, const char *name, const color_t c);
+*/</doc>
+<use f='codebrowser/src/cdogs/font_utils.c' l='61' u='c' c='FontLoadFromJSON'/>
+<def f='codebrowser/src/cdogs/yajl_utils.c' l='123' ll='130' type='void YAJLBool(_Bool * value, yajl_val node, const char * name)'/>

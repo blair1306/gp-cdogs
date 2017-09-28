@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1405' type='34'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13538' u='r' c='nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13881' u='r' c='nk_toggle_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14206' u='r' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14397' u='r' c='nk_progress_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14510' u='r' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15082' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15487' u='r' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15768' u='r' c='nk_color_picker_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15772' u='r' c='nk_color_picker_behavior'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1405'>/* widget is currently activated */</doc>

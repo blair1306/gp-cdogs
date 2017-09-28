@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='172' type='NRemoveBullet'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='422' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='395' u='m' c='UpdateMobileObjects'/>

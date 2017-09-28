@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/color.h' l='116' type='_Bool HSVEquals(const HSV a, const HSV b)'/>
+<def f='codebrowser/src/cdogs/color.c' l='200' ll='205' macro='1' type='_Bool HSVEquals(const HSV a, const HSV b)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='67' u='c' c='GrafxDrawBackground'/>

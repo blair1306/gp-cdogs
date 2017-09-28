@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2893' type='void nk_draw_list_path_curve_to(struct nk_draw_list * , struct nk_vec2 p2, struct nk_vec2 p3, struct nk_vec2 p4, unsigned int num_segments)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8167' ll='8193' macro='1' type='void nk_draw_list_path_curve_to(struct nk_draw_list * list, struct nk_vec2 p2, struct nk_vec2 p3, struct nk_vec2 p4, unsigned int num_segments)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8343' u='c' c='nk_draw_list_stroke_curve'/>

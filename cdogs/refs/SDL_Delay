@@ -1,0 +1,11 @@
+<dec f='include/SDL2/SDL_timer.h' l='71' type='void SDL_Delay(Uint32 ms)'/>
+<doc f='include/SDL2/SDL_timer.h' l='68'>/**
+ * \brief Wait a specified number of milliseconds before returning.
+ */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='498' u='c' c='GetKey'/>
+<use f='codebrowser/src/cdogs/events.c' l='510' u='c' c='EventWaitKeyOrText'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='556' u='c' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='629' u='c' c='Save'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1264' u='c' c='EditCampaign'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='183' u='c' c='CharEditor'/>
+<use f='codebrowser/src/game_loop.c' l='195' u='c' c='LoopRunnerRunInner'/>

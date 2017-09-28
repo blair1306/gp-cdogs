@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='65' type='void NetServerClose(NetServer * n)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='58' u='c' c='NetServerTerminate'/>
+<def f='codebrowser/src/cdogs/net_server.c' l='145' ll='157' type='void NetServerClose(NetServer * n)'/>
+<use f='codebrowser/src/mainmenu.c' l='104' u='c' c='MainMenuOnEnter'/>

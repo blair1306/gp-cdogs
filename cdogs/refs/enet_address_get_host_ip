@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='541' type='int enet_address_get_host_ip(const ENetAddress * address, char * hostName, size_t nameLength)'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='176' ll='194' type='int enet_address_get_host_ip(const ENetAddress * address, char * name, size_t nameLength)'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='249' u='c' c='enet_address_get_host'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='156' u='c' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='257' u='c' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='109' u='c' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='193' u='c' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='236' u='c' c='PollListener'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='351' u='c' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='388' u='c' c='OnDisconnect'/>
+<use f='codebrowser/src/mainmenu.c' l='435' u='c' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/prep.c' l='152' u='c' c='ScreenWaitForCampaignDef'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/menu.h' l='273' type='void MenuSetPostEnterFunc(menu_t * menu, MenuFunc func, void * data, const _Bool isDynamicData)'/>
+<use f='codebrowser/src/mainmenu.c' l='304' u='c' c='CreateStartGameMode'/>
+<use f='codebrowser/src/mainmenu.c' l='416' u='c' c='CreateJoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='455' u='c' c='CreateLANServerMenuItems'/>
+<def f='codebrowser/src/menu.c' l='378' ll='384' type='void MenuSetPostEnterFunc(menu_t * menu, MenuFunc func, void * data, const _Bool isDynamicData)'/>
+<use f='codebrowser/src/player_select_menus.c' l='354' u='c' c='CreateUseTemplateMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='405' u='c' c='CreateSaveTemplateMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='495' u='c' c='PlayerSelectMenusCreate'/>

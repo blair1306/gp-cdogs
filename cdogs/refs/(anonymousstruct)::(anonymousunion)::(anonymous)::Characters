@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='183' type='CArray'/>
+<offset>512</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='183'>// of CharacterPositions</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='520' u='m' c='SaveStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='520' u='a' c='SaveStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='639' u='a' c='LoadStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='669' u='a' c='LoadStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='93' u='a' c='MapStaticLoadDynamic'/>
+<use f='codebrowser/src/cdogs/mission.c' l='172' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='172' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='204' u='a' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='76' u='a' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='345' u='m' c='MissionStaticTryAddCharacter'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='345' u='a' c='MissionStaticTryAddCharacter'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='360' u='a' c='MissionStaticTryAddCharacter'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='368' u='m' c='MissionStaticTryRemoveCharacterAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='368' u='a' c='MissionStaticTryRemoveCharacterAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='378' u='a' c='MissionStaticTryRemoveCharacterAt'/>

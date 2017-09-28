@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='418' type='2'/>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='411'>/** a peer has disconnected.  This event is generated on a successful 
+     * completion of a disconnect initiated by enet_peer_disconnect, if 
+     * a peer has timed out, or if a connection request intialized by 
+     * enet_host_connect has timed out.  The peer field contains the peer 
+     * which disconnected. The data field contains user supplied data 
+     * describing the disconnection, or 0, if none is available.
+     */</doc>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='83' u='r' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='147' u='r' c='enet_protocol_notify_disconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='310' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='202' c='NetServerPoll'/>

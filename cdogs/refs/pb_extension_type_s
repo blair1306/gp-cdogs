@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='316' ll='336'/>
+<size>24</size>
+<mbr r='pb_extension_type_s::decode' o='0' t='_Bool (*)(pb_istream_t *, pb_extension_t *, uint32_t, pb_wire_type_t)'/>
+<mbr r='pb_extension_type_s::encode' o='64' t='_Bool (*)(pb_ostream_t *, const pb_extension_t *)'/>
+<mbr r='pb_extension_type_s::arg' o='128' t='const void *'/>

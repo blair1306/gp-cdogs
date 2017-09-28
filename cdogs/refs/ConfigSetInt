@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/config.h' l='229' type='void ConfigSetInt(Config * c, const char * name, const int value)'/>
+<doc f='codebrowser/src/cdogs/config.h' l='227'>// Set config value
+// Min/max range is also checked and enforced</doc>
+<def f='codebrowser/src/cdogs/config.c' l='515' ll='520' type='void ConfigSetInt(Config * c, const char * name, const int value)'/>
+<use f='codebrowser/src/cdogs/config.c' l='538' u='c' c='ConfigTrySetFromString'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='170' u='c' c='CampaignChangeSeed'/>
+<use f='codebrowser/src/command_line.c' l='148' u='c' c='ParseArgs'/>

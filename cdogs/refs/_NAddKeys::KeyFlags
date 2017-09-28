@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='262' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='627' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='450' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='195' u='w' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='371'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='371'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='372' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='372' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='371'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='371'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='372' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='372' u='r'/>

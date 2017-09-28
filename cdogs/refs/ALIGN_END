@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/font.h' l='54' type='2'/>
+<use f='codebrowser/src/briefing_screens.c' l='583' u='r' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='618' u='r' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/cdogs/font.c' l='312' c='GetAlign'/>
+<use f='codebrowser/src/cdogs/font.c' l='405' c='Vec2iAligned'/>
+<use f='codebrowser/src/cdogs/font.c' l='416' c='Vec2iAligned'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='58' u='r' c='FPSCounterDraw'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='59' u='r' c='FPSCounterDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='139' u='r' c='HUDDrawGauge'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='145' u='r' c='HUDDrawGauge'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='264' u='r' c='DrawLives'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='269' u='r' c='DrawLives'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='420' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='424' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='743' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='269' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='273' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='65' u='r' c='WallClockDraw'/>
+<use f='codebrowser/src/mainmenu.c' l='351' u='r' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='271' u='r' c='ShowControls'/>
+<use f='codebrowser/src/menu.c' l='630' u='r' c='MenuDisplayItems'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/rlutil/rlutil.h' l='579' ll='599' macro='1' type='void setString(RLUTIL_STRING_T str)'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='605' u='c' c='setChar'/>

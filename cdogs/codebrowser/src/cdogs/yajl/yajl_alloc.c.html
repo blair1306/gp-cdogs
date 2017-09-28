@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_alloc.c source code [codebrowser/src/cdogs/yajl/yajl_alloc.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl_alloc.c'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl_alloc.c.html'>yajl_alloc.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> *<span class="command"> \file</span> yajl_alloc.h</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> * default memory allocation routines for yajl which use malloc/realloc and</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> * free</i></td></tr>
+<tr><th id="21">21</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><u>#include <a href="yajl_alloc.h.html">"yajl_alloc.h"</a></u></td></tr>
+<tr><th id="24">24</th><td><u>#include <a href="../../../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><em>static</em> <em>void</em> * <dfn class="tu decl def" id="yajl_internal_malloc" title='yajl_internal_malloc' data-type='void * yajl_internal_malloc(void * ctx, size_t sz)' data-ref="yajl_internal_malloc">yajl_internal_malloc</dfn>(<em>void</em> *<dfn class="local col1 decl" id="1ctx" title='ctx' data-type='void *' data-ref="1ctx">ctx</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="2sz" title='sz' data-type='size_t' data-ref="2sz">sz</dfn>)</td></tr>
+<tr><th id="27">27</th><td>{</td></tr>
+<tr><th id="28">28</th><td>    (<em>void</em>)<a class="local col1 ref" href="#1ctx" title='ctx' data-ref="1ctx">ctx</a>;</td></tr>
+<tr><th id="29">29</th><td>    <b>return</b> <a class="ref" href="../../../../include/stdlib.h.html#malloc" title='malloc' data-ref="malloc">malloc</a>(<a class="local col2 ref" href="#2sz" title='sz' data-ref="2sz">sz</a>);</td></tr>
+<tr><th id="30">30</th><td>}</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><em>static</em> <em>void</em> * <dfn class="tu decl def" id="yajl_internal_realloc" title='yajl_internal_realloc' data-type='void * yajl_internal_realloc(void * ctx, void * previous, size_t sz)' data-ref="yajl_internal_realloc">yajl_internal_realloc</dfn>(<em>void</em> *<dfn class="local col3 decl" id="3ctx" title='ctx' data-type='void *' data-ref="3ctx">ctx</dfn>, <em>void</em> * <dfn class="local col4 decl" id="4previous" title='previous' data-type='void *' data-ref="4previous">previous</dfn>,</td></tr>
+<tr><th id="33">33</th><td>                                    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col5 decl" id="5sz" title='sz' data-type='size_t' data-ref="5sz">sz</dfn>)</td></tr>
+<tr><th id="34">34</th><td>{</td></tr>
+<tr><th id="35">35</th><td>    (<em>void</em>)<a class="local col3 ref" href="#3ctx" title='ctx' data-ref="3ctx">ctx</a>;</td></tr>
+<tr><th id="36">36</th><td>    <b>return</b> <a class="ref" href="../../../../include/stdlib.h.html#realloc" title='realloc' data-ref="realloc">realloc</a>(<a class="local col4 ref" href="#4previous" title='previous' data-ref="4previous">previous</a>, <a class="local col5 ref" href="#5sz" title='sz' data-ref="5sz">sz</a>);</td></tr>
+<tr><th id="37">37</th><td>}</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="yajl_internal_free" title='yajl_internal_free' data-type='void yajl_internal_free(void * ctx, void * ptr)' data-ref="yajl_internal_free">yajl_internal_free</dfn>(<em>void</em> *<dfn class="local col6 decl" id="6ctx" title='ctx' data-type='void *' data-ref="6ctx">ctx</dfn>, <em>void</em> * <dfn class="local col7 decl" id="7ptr" title='ptr' data-type='void *' data-ref="7ptr">ptr</dfn>)</td></tr>
+<tr><th id="40">40</th><td>{</td></tr>
+<tr><th id="41">41</th><td>    (<em>void</em>)<a class="local col6 ref" href="#6ctx" title='ctx' data-ref="6ctx">ctx</a>;</td></tr>
+<tr><th id="42">42</th><td>    <a class="ref" href="../../../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col7 ref" href="#7ptr" title='ptr' data-ref="7ptr">ptr</a>);</td></tr>
+<tr><th id="43">43</th><td>}</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><em>void</em> <dfn class="decl def" id="yajl_set_default_alloc_funcs" title='yajl_set_default_alloc_funcs' data-ref="yajl_set_default_alloc_funcs">yajl_set_default_alloc_funcs</dfn>(<a class="typedef" href="api/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> * <dfn class="local col8 decl" id="8yaf" title='yaf' data-type='yajl_alloc_funcs *' data-ref="8yaf">yaf</dfn>)</td></tr>
+<tr><th id="46">46</th><td>{</td></tr>
+<tr><th id="47">47</th><td>    <a class="local col8 ref" href="#8yaf" title='yaf' data-ref="8yaf">yaf</a>-&gt;<a class="ref" href="api/yajl_common.h.html#(anonymous)::malloc" title='(anonymous struct)::malloc' data-ref="(anonymous)::malloc">malloc</a> = <a class="tu ref" href="#yajl_internal_malloc" title='yajl_internal_malloc' data-use='r' data-ref="yajl_internal_malloc">yajl_internal_malloc</a>;</td></tr>
+<tr><th id="48">48</th><td>    <a class="local col8 ref" href="#8yaf" title='yaf' data-ref="8yaf">yaf</a>-&gt;<a class="ref" href="api/yajl_common.h.html#(anonymous)::free" title='(anonymous struct)::free' data-ref="(anonymous)::free">free</a> = <a class="tu ref" href="#yajl_internal_free" title='yajl_internal_free' data-use='r' data-ref="yajl_internal_free">yajl_internal_free</a>;</td></tr>
+<tr><th id="49">49</th><td>    <a class="local col8 ref" href="#8yaf" title='yaf' data-ref="8yaf">yaf</a>-&gt;<a class="ref" href="api/yajl_common.h.html#(anonymous)::realloc" title='(anonymous struct)::realloc' data-ref="(anonymous)::realloc">realloc</a> = <a class="tu ref" href="#yajl_internal_realloc" title='yajl_internal_realloc' data-use='r' data-ref="yajl_internal_realloc">yajl_internal_realloc</a>;</td></tr>
+<tr><th id="50">50</th><td>    <a class="local col8 ref" href="#8yaf" title='yaf' data-ref="8yaf">yaf</a>-&gt;<a class="ref" href="api/yajl_common.h.html#(anonymous)::ctx" title='(anonymous struct)::ctx' data-ref="(anonymous)::ctx">ctx</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="51">51</th><td>}</td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/log.h' l='41' type='4'/>
+<use f='codebrowser/src/cdogs/music.c' l='57' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='57' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='57' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='385' u='r' c='SoundPlayAtPosition'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='385' u='r' c='SoundPlayAtPosition'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='385' u='r' c='SoundPlayAtPosition'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='410' u='r' c='GetChannel'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='410' u='r' c='GetChannel'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='410' u='r' c='GetChannel'/>

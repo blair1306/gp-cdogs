@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>pb_decode.h source code [codebrowser/src/cdogs/proto/nanopb/pb_decode.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="pb_istream_s "/>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/proto/nanopb/pb_decode.h'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>cdogs</a>/<a href='..'>proto</a>/<a href='./'>nanopb</a>/<a href='pb_decode.h.html'>pb_decode.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/* pb_decode.h: Functions to decode protocol buffers. Depends on pb_decode.c.</i></td></tr>
+<tr><th id="2">2</th><td><i> * The main function is pb_decode. You also need an input stream, and the</i></td></tr>
+<tr><th id="3">3</th><td><i> * field descriptions created by nanopb_generator.py.</i></td></tr>
+<tr><th id="4">4</th><td><i> */</i></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#<span data-ppcond="6">ifndef</span> <span class="macro" data-ref="_M/PB_DECODE_H_INCLUDED">PB_DECODE_H_INCLUDED</span></u></td></tr>
+<tr><th id="7">7</th><td><u>#define <dfn class="macro" id="_M/PB_DECODE_H_INCLUDED" data-ref="_M/PB_DECODE_H_INCLUDED">PB_DECODE_H_INCLUDED</dfn></u></td></tr>
+<tr><th id="8">8</th><td></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="pb.h.html">"pb.h"</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#<span data-ppcond="11">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="12">12</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="13">13</th><td><u>#<span data-ppcond="11">endif</span></u></td></tr>
+<tr><th id="14">14</th><td></td></tr>
+<tr><th id="15">15</th><td><i>/* Structure for defining custom input streams. You will need to provide</i></td></tr>
+<tr><th id="16">16</th><td><i> * a callback function to read the bytes from your storage, which can be</i></td></tr>
+<tr><th id="17">17</th><td><i> * for example a file or a network socket.</i></td></tr>
+<tr><th id="18">18</th><td><i> * </i></td></tr>
+<tr><th id="19">19</th><td><i> * The callback must conform to these rules:</i></td></tr>
+<tr><th id="20">20</th><td><i> *</i></td></tr>
+<tr><th id="21">21</th><td><i> * 1) Return false on IO errors. This will cause decoding to abort.</i></td></tr>
+<tr><th id="22">22</th><td><i> * 2) You can use state to store your own data (e.g. buffer pointer),</i></td></tr>
+<tr><th id="23">23</th><td><i> *    and rely on pb_read to verify that no-body reads past bytes_left.</i></td></tr>
+<tr><th id="24">24</th><td><i> * 3) Your callback may be used with substreams, in which case bytes_left</i></td></tr>
+<tr><th id="25">25</th><td><i> *    is different than from the main stream. Don't use bytes_left to compute</i></td></tr>
+<tr><th id="26">26</th><td><i> *    any pointers.</i></td></tr>
+<tr><th id="27">27</th><td><i> */</i></td></tr>
+<tr><th id="28">28</th><td><b>struct</b> <dfn class="type def" id="pb_istream_s" title='pb_istream_s' data-ref="pb_istream_s">pb_istream_s</dfn></td></tr>
+<tr><th id="29">29</th><td>{</td></tr>
+<tr><th id="30">30</th><td><u>#<span data-ppcond="30">ifdef</span> <span class="macro" data-ref="_M/PB_BUFFER_ONLY">PB_BUFFER_ONLY</span></u></td></tr>
+<tr><th id="31">31</th><td>    <i>/* Callback pointer is not used in buffer-only configuration.</i></td></tr>
+<tr><th id="32">32</th><td><i>     * Having an int pointer here allows binary compatibility but</i></td></tr>
+<tr><th id="33">33</th><td><i>     * gives an error if someone tries to assign callback function.</i></td></tr>
+<tr><th id="34">34</th><td><i>     */</i></td></tr>
+<tr><th id="35">35</th><td>    <em>int</em> *callback;</td></tr>
+<tr><th id="36">36</th><td><u>#<span data-ppcond="30">else</span></u></td></tr>
+<tr><th id="37">37</th><td>    <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> (*<dfn class="decl" id="pb_istream_s::callback" title='pb_istream_s::callback' data-ref="pb_istream_s::callback">callback</dfn>)(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col1 decl" id="1stream" title='stream' data-type='pb_istream_t *' data-ref="1stream">stream</dfn>, <a class="typedef" href="../../../../../include/stdint.h.html#uint8_t" title='uint8_t' data-type='unsigned char' data-ref="uint8_t">uint8_t</a> *<dfn class="local col2 decl" id="2buf" title='buf' data-type='uint8_t *' data-ref="2buf">buf</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="3count" title='count' data-type='size_t' data-ref="3count">count</dfn>);</td></tr>
+<tr><th id="38">38</th><td><u>#<span data-ppcond="30">endif</span></u></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td>    <em>void</em> *<dfn class="decl" id="pb_istream_s::state" title='pb_istream_s::state' data-ref="pb_istream_s::state">state</dfn>; <i>/* Free field for use by callback implementation */</i></td></tr>
+<tr><th id="41">41</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="pb_istream_s::bytes_left" title='pb_istream_s::bytes_left' data-ref="pb_istream_s::bytes_left">bytes_left</dfn>;</td></tr>
+<tr><th id="42">42</th><td>    </td></tr>
+<tr><th id="43">43</th><td><u>#<span data-ppcond="43">ifndef</span> <span class="macro" data-ref="_M/PB_NO_ERRMSG">PB_NO_ERRMSG</span></u></td></tr>
+<tr><th id="44">44</th><td>    <em>const</em> <em>char</em> *<dfn class="decl" id="pb_istream_s::errmsg" title='pb_istream_s::errmsg' data-ref="pb_istream_s::errmsg">errmsg</dfn>;</td></tr>
+<tr><th id="45">45</th><td><u>#<span data-ppcond="43">endif</span></u></td></tr>
+<tr><th id="46">46</th><td>};</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><i>/***************************</i></td></tr>
+<tr><th id="49">49</th><td><i> * Main decoding functions *</i></td></tr>
+<tr><th id="50">50</th><td><i> ***************************/</i></td></tr>
+<tr><th id="51">51</th><td> </td></tr>
+<tr><th id="52">52</th><td><i>/* Decode a single protocol buffers message from input stream into a C structure.</i></td></tr>
+<tr><th id="53">53</th><td><i> * Returns true on success, false on any failure.</i></td></tr>
+<tr><th id="54">54</th><td><i> * The actual struct pointed to by dest must match the description in fields.</i></td></tr>
+<tr><th id="55">55</th><td><i> * Callback fields of the destination structure must be initialized by caller.</i></td></tr>
+<tr><th id="56">56</th><td><i> * All other fields will be initialized by this function.</i></td></tr>
+<tr><th id="57">57</th><td><i> *</i></td></tr>
+<tr><th id="58">58</th><td><i> * Example usage:</i></td></tr>
+<tr><th id="59">59</th><td><i> *    MyMessage msg = {};</i></td></tr>
+<tr><th id="60">60</th><td><i> *    uint8_t buffer[64];</i></td></tr>
+<tr><th id="61">61</th><td><i> *    pb_istream_t stream;</i></td></tr>
+<tr><th id="62">62</th><td><i> *    </i></td></tr>
+<tr><th id="63">63</th><td><i> *    // ... read some data into buffer ...</i></td></tr>
+<tr><th id="64">64</th><td><i> *</i></td></tr>
+<tr><th id="65">65</th><td><i> *    stream = pb_istream_from_buffer(buffer, count);</i></td></tr>
+<tr><th id="66">66</th><td><i> *    pb_decode(&amp;stream, MyMessage_fields, &amp;msg);</i></td></tr>
+<tr><th id="67">67</th><td><i> */</i></td></tr>
+<tr><th id="68">68</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode" title='pb_decode' data-ref="pb_decode">pb_decode</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col4 decl" id="4stream" title='stream' data-type='pb_istream_t *' data-ref="4stream">stream</dfn>, <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> <dfn class="local col5 decl" id="5fields" title='fields' data-type='const pb_field_t *' data-ref="5fields">fields</dfn>[], <em>void</em> *<dfn class="local col6 decl" id="6dest_struct" title='dest_struct' data-type='void *' data-ref="6dest_struct">dest_struct</dfn>);</td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td><i>/* Same as pb_decode, except does not initialize the destination structure</i></td></tr>
+<tr><th id="71">71</th><td><i> * to default values. This is slightly faster if you need no default values</i></td></tr>
+<tr><th id="72">72</th><td><i> * and just do memset(struct, 0, sizeof(struct)) yourself.</i></td></tr>
+<tr><th id="73">73</th><td><i> *</i></td></tr>
+<tr><th id="74">74</th><td><i> * This can also be used for 'merging' two messages, i.e. update only the</i></td></tr>
+<tr><th id="75">75</th><td><i> * fields that exist in the new message.</i></td></tr>
+<tr><th id="76">76</th><td><i> *</i></td></tr>
+<tr><th id="77">77</th><td><i> * Note: If this function returns with an error, it will not release any</i></td></tr>
+<tr><th id="78">78</th><td><i> * dynamically allocated fields. You will need to call pb_release() yourself.</i></td></tr>
+<tr><th id="79">79</th><td><i> */</i></td></tr>
+<tr><th id="80">80</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode_noinit" title='pb_decode_noinit' data-ref="pb_decode_noinit">pb_decode_noinit</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col7 decl" id="7stream" title='stream' data-type='pb_istream_t *' data-ref="7stream">stream</dfn>, <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> <dfn class="local col8 decl" id="8fields" title='fields' data-type='const pb_field_t *' data-ref="8fields">fields</dfn>[], <em>void</em> *<dfn class="local col9 decl" id="9dest_struct" title='dest_struct' data-type='void *' data-ref="9dest_struct">dest_struct</dfn>);</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td><i>/* Same as pb_decode, except expects the stream to start with the message size</i></td></tr>
+<tr><th id="83">83</th><td><i> * encoded as varint. Corresponds to parseDelimitedFrom() in Google's</i></td></tr>
+<tr><th id="84">84</th><td><i> * protobuf API.</i></td></tr>
+<tr><th id="85">85</th><td><i> */</i></td></tr>
+<tr><th id="86">86</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode_delimited" title='pb_decode_delimited' data-ref="pb_decode_delimited">pb_decode_delimited</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col0 decl" id="10stream" title='stream' data-type='pb_istream_t *' data-ref="10stream">stream</dfn>, <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> <dfn class="local col1 decl" id="11fields" title='fields' data-type='const pb_field_t *' data-ref="11fields">fields</dfn>[], <em>void</em> *<dfn class="local col2 decl" id="12dest_struct" title='dest_struct' data-type='void *' data-ref="12dest_struct">dest_struct</dfn>);</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><u>#<span data-ppcond="88">ifdef</span> <span class="macro" data-ref="_M/PB_ENABLE_MALLOC">PB_ENABLE_MALLOC</span></u></td></tr>
+<tr><th id="89">89</th><td><i>/* Release any allocated pointer fields. If you use dynamic allocation, you should</i></td></tr>
+<tr><th id="90">90</th><td><i> * call this for any successfully decoded message when you are done with it. If</i></td></tr>
+<tr><th id="91">91</th><td><i> * pb_decode() returns with an error, the message is already released.</i></td></tr>
+<tr><th id="92">92</th><td><i> */</i></td></tr>
+<tr><th id="93">93</th><td><em>void</em> pb_release(<em>const</em> pb_field_t fields[], <em>void</em> *dest_struct);</td></tr>
+<tr><th id="94">94</th><td><u>#<span data-ppcond="88">endif</span></u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td><i>/**************************************</i></td></tr>
+<tr><th id="98">98</th><td><i> * Functions for manipulating streams *</i></td></tr>
+<tr><th id="99">99</th><td><i> **************************************/</i></td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><i>/* Create an input stream for reading from a memory buffer.</i></td></tr>
+<tr><th id="102">102</th><td><i> *</i></td></tr>
+<tr><th id="103">103</th><td><i> * Alternatively, you can use a custom stream that reads directly from e.g.</i></td></tr>
+<tr><th id="104">104</th><td><i> * a file or a network socket.</i></td></tr>
+<tr><th id="105">105</th><td><i> */</i></td></tr>
+<tr><th id="106">106</th><td><a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> <dfn class="decl" id="pb_istream_from_buffer" title='pb_istream_from_buffer' data-ref="pb_istream_from_buffer">pb_istream_from_buffer</dfn>(<a class="typedef" href="../../../../../include/stdint.h.html#uint8_t" title='uint8_t' data-type='unsigned char' data-ref="uint8_t">uint8_t</a> *<dfn class="local col3 decl" id="13buf" title='buf' data-type='uint8_t *' data-ref="13buf">buf</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col4 decl" id="14bufsize" title='bufsize' data-type='size_t' data-ref="14bufsize">bufsize</dfn>);</td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td><i>/* Function to read from a pb_istream_t. You can use this if you need to</i></td></tr>
+<tr><th id="109">109</th><td><i> * read some custom header data, or to read data in field callbacks.</i></td></tr>
+<tr><th id="110">110</th><td><i> */</i></td></tr>
+<tr><th id="111">111</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_read" title='pb_read' data-ref="pb_read">pb_read</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col5 decl" id="15stream" title='stream' data-type='pb_istream_t *' data-ref="15stream">stream</dfn>, <a class="typedef" href="../../../../../include/stdint.h.html#uint8_t" title='uint8_t' data-type='unsigned char' data-ref="uint8_t">uint8_t</a> *<dfn class="local col6 decl" id="16buf" title='buf' data-type='uint8_t *' data-ref="16buf">buf</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col7 decl" id="17count" title='count' data-type='size_t' data-ref="17count">count</dfn>);</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td></td></tr>
+<tr><th id="114">114</th><td><i>/************************************************</i></td></tr>
+<tr><th id="115">115</th><td><i> * Helper functions for writing field callbacks *</i></td></tr>
+<tr><th id="116">116</th><td><i> ************************************************/</i></td></tr>
+<tr><th id="117">117</th><td></td></tr>
+<tr><th id="118">118</th><td><i>/* Decode the tag for the next field in the stream. Gives the wire type and</i></td></tr>
+<tr><th id="119">119</th><td><i> * field tag. At end of the message, returns false and sets eof to true. */</i></td></tr>
+<tr><th id="120">120</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode_tag" title='pb_decode_tag' data-ref="pb_decode_tag">pb_decode_tag</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col8 decl" id="18stream" title='stream' data-type='pb_istream_t *' data-ref="18stream">stream</dfn>, <a class="typedef" href="pb.h.html#pb_wire_type_t" title='pb_wire_type_t' data-type='enum pb_wire_type_t' data-ref="pb_wire_type_t">pb_wire_type_t</a> *<dfn class="local col9 decl" id="19wire_type" title='wire_type' data-type='pb_wire_type_t *' data-ref="19wire_type">wire_type</dfn>, <a class="typedef" href="../../../../../include/stdint.h.html#uint32_t" title='uint32_t' data-type='unsigned int' data-ref="uint32_t">uint32_t</a> *<dfn class="local col0 decl" id="20tag" title='tag' data-type='uint32_t *' data-ref="20tag">tag</dfn>, <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> *<dfn class="local col1 decl" id="21eof" title='eof' data-type='_Bool *' data-ref="21eof">eof</dfn>);</td></tr>
+<tr><th id="121">121</th><td></td></tr>
+<tr><th id="122">122</th><td><i>/* Skip the field payload data, given the wire type. */</i></td></tr>
+<tr><th id="123">123</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_skip_field" title='pb_skip_field' data-ref="pb_skip_field">pb_skip_field</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col2 decl" id="22stream" title='stream' data-type='pb_istream_t *' data-ref="22stream">stream</dfn>, <a class="typedef" href="pb.h.html#pb_wire_type_t" title='pb_wire_type_t' data-type='enum pb_wire_type_t' data-ref="pb_wire_type_t">pb_wire_type_t</a> <dfn class="local col3 decl" id="23wire_type" title='wire_type' data-type='pb_wire_type_t' data-ref="23wire_type">wire_type</dfn>);</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><i>/* Decode an integer in the varint format. This works for bool, enum, int32,</i></td></tr>
+<tr><th id="126">126</th><td><i> * int64, uint32 and uint64 field types. */</i></td></tr>
+<tr><th id="127">127</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode_varint" title='pb_decode_varint' data-ref="pb_decode_varint">pb_decode_varint</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col4 decl" id="24stream" title='stream' data-type='pb_istream_t *' data-ref="24stream">stream</dfn>, <a class="typedef" href="../../../../../include/stdint.h.html#uint64_t" title='uint64_t' data-type='unsigned long' data-ref="uint64_t">uint64_t</a> *<dfn class="local col5 decl" id="25dest" title='dest' data-type='uint64_t *' data-ref="25dest">dest</dfn>);</td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><i>/* Decode an integer in the zig-zagged svarint format. This works for sint32</i></td></tr>
+<tr><th id="130">130</th><td><i> * and sint64. */</i></td></tr>
+<tr><th id="131">131</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode_svarint" title='pb_decode_svarint' data-ref="pb_decode_svarint">pb_decode_svarint</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col6 decl" id="26stream" title='stream' data-type='pb_istream_t *' data-ref="26stream">stream</dfn>, <a class="typedef" href="../../../../../include/stdint.h.html#int64_t" title='int64_t' data-type='long' data-ref="int64_t">int64_t</a> *<dfn class="local col7 decl" id="27dest" title='dest' data-type='int64_t *' data-ref="27dest">dest</dfn>);</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td><i>/* Decode a fixed32, sfixed32 or float value. You need to pass a pointer to</i></td></tr>
+<tr><th id="134">134</th><td><i> * a 4-byte wide C variable. */</i></td></tr>
+<tr><th id="135">135</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode_fixed32" title='pb_decode_fixed32' data-ref="pb_decode_fixed32">pb_decode_fixed32</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col8 decl" id="28stream" title='stream' data-type='pb_istream_t *' data-ref="28stream">stream</dfn>, <em>void</em> *<dfn class="local col9 decl" id="29dest" title='dest' data-type='void *' data-ref="29dest">dest</dfn>);</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td><i>/* Decode a fixed64, sfixed64 or double value. You need to pass a pointer to</i></td></tr>
+<tr><th id="138">138</th><td><i> * a 8-byte wide C variable. */</i></td></tr>
+<tr><th id="139">139</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_decode_fixed64" title='pb_decode_fixed64' data-ref="pb_decode_fixed64">pb_decode_fixed64</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col0 decl" id="30stream" title='stream' data-type='pb_istream_t *' data-ref="30stream">stream</dfn>, <em>void</em> *<dfn class="local col1 decl" id="31dest" title='dest' data-type='void *' data-ref="31dest">dest</dfn>);</td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td><i>/* Make a limited-length substream for reading a PB_WT_STRING field. */</i></td></tr>
+<tr><th id="142">142</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="pb_make_string_substream" title='pb_make_string_substream' data-ref="pb_make_string_substream">pb_make_string_substream</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col2 decl" id="32stream" title='stream' data-type='pb_istream_t *' data-ref="32stream">stream</dfn>, <a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col3 decl" id="33substream" title='substream' data-type='pb_istream_t *' data-ref="33substream">substream</dfn>);</td></tr>
+<tr><th id="143">143</th><td><em>void</em> <dfn class="decl" id="pb_close_string_substream" title='pb_close_string_substream' data-ref="pb_close_string_substream">pb_close_string_substream</dfn>(<a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col4 decl" id="34stream" title='stream' data-type='pb_istream_t *' data-ref="34stream">stream</dfn>, <a class="typedef" href="pb.h.html#pb_istream_t" title='pb_istream_t' data-type='struct pb_istream_s' data-ref="pb_istream_t">pb_istream_t</a> *<dfn class="local col5 decl" id="35substream" title='substream' data-type='pb_istream_t *' data-ref="35substream">substream</dfn>);</td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td><u>#<span data-ppcond="145">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="146">146</th><td>} <i>/* extern "C" */</i></td></tr>
+<tr><th id="147">147</th><td><u>#<span data-ppcond="145">endif</span></u></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><u>#<span data-ppcond="6">endif</span></u></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../net_client.c.html'>codebrowser/src/cdogs/net_client.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

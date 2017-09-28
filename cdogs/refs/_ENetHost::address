@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='361' type='ENetAddress'/>
+<offset>32</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='361'>/**&lt; Internet address of the host */</doc>
+<use f='codebrowser/src/cdogs/enet/host.c' l='68' u='a' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='69' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='89' u='a' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='109' u='a' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='111' u='m' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='111' u='m' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='241' u='m' c='PollListener'/>

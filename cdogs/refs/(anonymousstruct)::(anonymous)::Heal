@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='158' type='NActorHeal'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='247' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='249' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='255' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='259' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='267' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='144' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='145' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='146' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='147' u='m' c='PickupPickup'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='215'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='210'>/**
+ * Initialize a singleton element
+ * @param ep   The element
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

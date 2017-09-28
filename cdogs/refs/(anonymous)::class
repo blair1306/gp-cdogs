@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='40' type='const PickupClass *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1009' u='r' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1015' u='r' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='594' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='614' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='788' u='r' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/automap.c' l='299' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/automap.c' l='302' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='526' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='93' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='98' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='123' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='129' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='146' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='157' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='170' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='171' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='182' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='183' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='195' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='235' u='r' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='288' u='r' c='PickupIsManual'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='300' u='r' c='GetPickupPic'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='301' u='r' c='GetPickupPic'/>

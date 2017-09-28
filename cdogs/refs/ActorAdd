@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='192' type='TActor * ActorAdd(NActorAdd aa)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1157' ll='1270' type='TActor * ActorAdd(NActorAdd aa)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='185' u='c' c='HandleGameEvent'/>

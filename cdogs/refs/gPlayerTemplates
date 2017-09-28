@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/player.h' l='64' type='CArray'/>
+<doc f='codebrowser/src/cdogs/player.h' l='64'>// of PlayerTemplate</doc>
+<use f='codebrowser/src/cdogs.c' l='242' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='310' u='a' c='main'/>
+<def f='codebrowser/src/cdogs/player.c' l='39' type='CArray'/>
+<use f='codebrowser/src/cdogs/player.c' l='136' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='138' u='a' c='PlayerDataDefault'/>
+<doc f='codebrowser/src/cdogs/player.c' l='37'>// Templates stored here as it is used by player
+// TODO: </doc>
+<use f='codebrowser/src/player_select_menus.c' l='315' u='a' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='331' u='m' c='PostEnterLoadTemplateNames'/>
+<use f='codebrowser/src/player_select_menus.c' l='339' u='a' c='PostEnterLoadTemplateNames'/>
+<use f='codebrowser/src/player_select_menus.c' l='343' u='m' c='PostEnterLoadTemplateNames'/>
+<use f='codebrowser/src/player_select_menus.c' l='367' u='m' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='371' u='a' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='374' u='a' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='380' u='a' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='416' u='m' c='CheckReenableLoadMenu'/>
+<def f='codebrowser/src/tests/player_test.c' l='16' type='CArray'/>

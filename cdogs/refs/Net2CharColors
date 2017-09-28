@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='63' type='CharColors Net2CharColors(const NCharColors c)'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='140' ll='149' type='CharColors Net2CharColors(const NCharColors c)'/>
+<use f='codebrowser/src/cdogs/player.c' l='78' u='c' c='PlayerDataAddOrUpdate'/>
+<def f='codebrowser/src/tests/player_test.c' l='58' ll='64' type='CharColors Net2CharColors(const NCharColors c)'/>

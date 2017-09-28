@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='119' type='MapObject * StrMapObject(const char * s)'/>
+<use f='codebrowser/src/cdogs/map.c' l='670' u='c' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='298' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='606' u='c' c='LoadMapObjectRef'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='615' u='c' c='LoadMapObjectRef'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='628' u='c' c='LoadMapObjectWreckRef'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='634' u='c' c='LoadMapObjectWreckRef'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='95' ll='114' type='MapObject * StrMapObject(const char * s)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='166' u='c' c='IntMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='187' u='c' c='DestructibleMapObjectIndex'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='200' u='c' c='RandomBloodMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='284' u='c' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='134' u='c' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objs.c' l='223' u='c' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='455' u='c' c='ObjAdd'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='209' u='c' c='MissionResetObjectiveIndex'/>

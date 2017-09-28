@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='44' type='SDL_Joystick *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/joystick.c' l='142' u='w' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='143' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='149' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='156' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='159' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='307' u='r' c='JoyName'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='327' u='r' c='JoyButtonNameColor'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='331' u='r' c='JoyButtonNameColor'/>

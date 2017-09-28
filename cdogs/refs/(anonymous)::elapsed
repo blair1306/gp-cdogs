@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/hud/fps.h' l='33' type='int'/>
+<dec f='codebrowser/src/cdogs/hud/wall_clock.h' l='33' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='37' u='w' c='FPSCounterInit'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='43' u='w' c='FPSCounterUpdate'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='44' u='r' c='FPSCounterUpdate'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='48' u='w' c='FPSCounterUpdate'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='46' u='w' c='WallClockInit'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='51' u='w' c='WallClockUpdate'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='53' u='r' c='WallClockUpdate'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='56' u='w' c='WallClockUpdate'/>

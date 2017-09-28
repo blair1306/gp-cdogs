@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3502' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17656' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17660' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17662' u='w' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20561' u='r' c='nk_edit_focus'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20598' u='r' c='nk_edit_string'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20669' u='w' c='nk_edit_buffer'/>
+<offset>32</offset>

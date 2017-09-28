@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11426' ll='11442' macro='1' type='unsigned char * nk_decompress_token(unsigned char * i)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11491' u='c' c='nk_decompress'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/hud/hud_defs.h' l='43'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='425' u='c'/>
+<doc f='codebrowser/src/cdogs/hud/hud_defs.h' l='41'>// A bit of padding for drawing HUD elements at bottom,
+// so that it doesn&apos;t overlap the objective information, clocks etc.</doc>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='274' u='c'/>

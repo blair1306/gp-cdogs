@@ -1,0 +1,5 @@
+<def f='codebrowser/src/tests/c_hashmap_test.c' l='62' macro='1' type='void _cbehave_feature_hashmap_remove(void * _state)'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='79' macro='1' u='r'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='79' macro='1' u='r'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='79' macro='1' u='r'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='79' macro='1' u='r'/>

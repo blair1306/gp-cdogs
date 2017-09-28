@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ammo.h source code [codebrowser/src/cdogs/ammo.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/ammo.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='ammo.h.html'>ammo.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2014, 2017 Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#pragma once</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="../json/json.h.html">&lt;json/json.h&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="pic.h.html">"pic.h"</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Name" title='(anonymous struct)::Name' data-ref="(anonymous)::Name">Name</dfn>;</td></tr>
+<tr><th id="38">38</th><td>	<em>const</em> <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="decl" id="(anonymous)::Pic" title='(anonymous struct)::Pic' data-ref="(anonymous)::Pic">Pic</dfn>;</td></tr>
+<tr><th id="39">39</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Sound" title='(anonymous struct)::Sound' data-ref="(anonymous)::Sound">Sound</dfn>;</td></tr>
+<tr><th id="40">40</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Amount" title='(anonymous struct)::Amount' data-ref="(anonymous)::Amount">Amount</dfn>;</td></tr>
+<tr><th id="41">41</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Max" title='(anonymous struct)::Max' data-ref="(anonymous)::Max">Max</dfn>;</td></tr>
+<tr><th id="42">42</th><td>} <dfn class="typedef" id="Ammo" title='Ammo' data-type='struct Ammo' data-ref="Ammo">Ammo</dfn>;</td></tr>
+<tr><th id="43">43</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="44">44</th><td>{</td></tr>
+<tr><th id="45">45</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Ammo" title='(anonymous struct)::Ammo' data-ref="(anonymous)::Ammo">Ammo</dfn>;	<i>// of Ammo</i></td></tr>
+<tr><th id="46">46</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::CustomAmmo" title='(anonymous struct)::CustomAmmo' data-ref="(anonymous)::CustomAmmo">CustomAmmo</dfn>;	<i>// of Ammo</i></td></tr>
+<tr><th id="47">47</th><td>} <dfn class="typedef" id="AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</dfn>;</td></tr>
+<tr><th id="48">48</th><td><b>extern</b> <a class="typedef" href="#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> <dfn class="decl" id="gAmmo" title='gAmmo' data-ref="gAmmo">gAmmo</dfn>;</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><a class="typedef" href="#Ammo" title='Ammo' data-type='struct Ammo' data-ref="Ammo">Ammo</a> *<dfn class="decl" id="StrAmmo" title='StrAmmo' data-ref="StrAmmo">StrAmmo</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2491s" title='s' data-type='const char *' data-ref="2491s">s</dfn>);</td></tr>
+<tr><th id="51">51</th><td><em>int</em> <dfn class="decl" id="StrAmmoId" title='StrAmmoId' data-ref="StrAmmoId">StrAmmoId</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="2492s" title='s' data-type='const char *' data-ref="2492s">s</dfn>);</td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><em>void</em> <dfn class="decl" id="AmmoInitialize" title='AmmoInitialize' data-ref="AmmoInitialize">AmmoInitialize</dfn>(<a class="typedef" href="#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> *<dfn class="local col3 decl" id="2493ammo" title='ammo' data-type='AmmoClasses *' data-ref="2493ammo">ammo</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2494path" title='path' data-type='const char *' data-ref="2494path">path</dfn>);</td></tr>
+<tr><th id="54">54</th><td><em>void</em> <dfn class="decl" id="AmmoLoadJSON" title='AmmoLoadJSON' data-ref="AmmoLoadJSON">AmmoLoadJSON</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col5 decl" id="2495ammo" title='ammo' data-type='CArray *' data-ref="2495ammo">ammo</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col6 decl" id="2496node" title='node' data-type='json_t *' data-ref="2496node">node</dfn>);</td></tr>
+<tr><th id="55">55</th><td><em>void</em> <dfn class="decl" id="AmmoClassesClear" title='AmmoClassesClear' data-ref="AmmoClassesClear">AmmoClassesClear</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col7 decl" id="2497ammo" title='ammo' data-type='CArray *' data-ref="2497ammo">ammo</dfn>);</td></tr>
+<tr><th id="56">56</th><td><em>void</em> <dfn class="decl" id="AmmoTerminate" title='AmmoTerminate' data-ref="AmmoTerminate">AmmoTerminate</dfn>(<a class="typedef" href="#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> *<dfn class="local col8 decl" id="2498ammo" title='ammo' data-type='AmmoClasses *' data-ref="2498ammo">ammo</dfn>);</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><a class="typedef" href="#Ammo" title='Ammo' data-type='struct Ammo' data-ref="Ammo">Ammo</a> *<dfn class="decl" id="AmmoGetById" title='AmmoGetById' data-ref="AmmoGetById">AmmoGetById</dfn>(<a class="typedef" href="#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> *<dfn class="local col9 decl" id="2499ammo" title='ammo' data-type='AmmoClasses *' data-ref="2499ammo">ammo</dfn>, <em>const</em> <em>int</em> <dfn class="local col0 decl" id="2500id" title='id' data-type='const int' data-ref="2500id">id</dfn>);</td></tr>
+<tr><th id="59">59</th><td><em>int</em> <dfn class="decl" id="AmmoGetNumClasses" title='AmmoGetNumClasses' data-ref="AmmoGetNumClasses">AmmoGetNumClasses</dfn>(<em>const</em> <a class="typedef" href="#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> *<dfn class="local col1 decl" id="2501ammo" title='ammo' data-type='const AmmoClasses *' data-ref="2501ammo">ammo</dfn>);</td></tr>
+<tr><th id="60">60</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="AmmoIsLow" title='AmmoIsLow' data-ref="AmmoIsLow">AmmoIsLow</dfn>(<em>const</em> <a class="typedef" href="#Ammo" title='Ammo' data-type='struct Ammo' data-ref="Ammo">Ammo</a> *<dfn class="local col2 decl" id="2502a" title='a' data-type='const Ammo *' data-ref="2502a">a</dfn>, <em>const</em> <em>int</em> <dfn class="local col3 decl" id="2503amount" title='amount' data-type='const int' data-ref="2503amount">amount</dfn>);</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/AMMO_STARTING_MULTIPLE" data-ref="_M/AMMO_STARTING_MULTIPLE">AMMO_STARTING_MULTIPLE</dfn> 2</u></td></tr>
+<tr><th id="63">63</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

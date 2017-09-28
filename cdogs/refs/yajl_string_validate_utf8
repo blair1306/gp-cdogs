@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_encode.h' l='32' type='int yajl_string_validate_utf8(const unsigned char * s, size_t len)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_encode.c' l='182' ll='220' type='int yajl_string_validate_utf8(const unsigned char * s, size_t len)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='266' u='c' c='yajl_gen_string'/>

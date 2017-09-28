@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/game_loop.h' l='57' type='GameLoopResult (*)(struct sGameLoopData *, LoopRunner *)'/>
+<offset>320</offset>
+<use f='codebrowser/src/game_loop.c' l='139' u='w' c='GameLoopDataNew'/>
+<use f='codebrowser/src/game_loop.c' l='214' u='r' c='LoopRunnerRunInner'/>

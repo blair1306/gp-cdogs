@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>font.h source code [codebrowser/src/cdogs/font.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/font.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='font.h.html'>font.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Copyright (c) 2014-2015, Cong Xu</i></td></tr>
+<tr><th id="3">3</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="6">6</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="9">9</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="11">11</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="12">12</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="13">13</th><td><i></i></td></tr>
+<tr><th id="14">14</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="15">15</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="16">16</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="17">17</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="18">18</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="19">19</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="20">20</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="21">21</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="23">23</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="24">24</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="25">25</th><td><i>*/</i></td></tr>
+<tr><th id="26">26</th><td><u>#pragma once</u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="../../../include/SDL2/SDL_surface.h.html">&lt;SDL_surface.h&gt;</a></u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="vector.h.html">"vector.h"</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><i>// Defines interfaces for bitmap fonts</i></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Size" title='(anonymous struct)::Size' data-ref="(anonymous)::Size">Size</dfn>;</td></tr>
+<tr><th id="38">38</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Stride" title='(anonymous struct)::Stride' data-ref="(anonymous)::Stride">Stride</dfn>;</td></tr>
+<tr><th id="39">39</th><td>	<b>struct</b></td></tr>
+<tr><th id="40">40</th><td>	{</td></tr>
+<tr><th id="41">41</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Left" title='(anonymous struct)::(anonymous struct)::Left' data-ref="(anonymousstruct)::(anonymous)::Left">Left</dfn>;</td></tr>
+<tr><th id="42">42</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Top" title='(anonymous struct)::(anonymous struct)::Top' data-ref="(anonymousstruct)::(anonymous)::Top">Top</dfn>;</td></tr>
+<tr><th id="43">43</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Right" title='(anonymous struct)::(anonymous struct)::Right' data-ref="(anonymousstruct)::(anonymous)::Right">Right</dfn>;</td></tr>
+<tr><th id="44">44</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Bottom" title='(anonymous struct)::(anonymous struct)::Bottom' data-ref="(anonymousstruct)::(anonymous)::Bottom">Bottom</dfn>;</td></tr>
+<tr><th id="45">45</th><td>	} <dfn class="decl" id="(anonymous)::Padding" title='(anonymous struct)::Padding' data-ref="(anonymous)::Padding">Padding</dfn>;</td></tr>
+<tr><th id="46">46</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Gap" title='(anonymous struct)::Gap' data-ref="(anonymous)::Gap">Gap</dfn>;</td></tr>
+<tr><th id="47">47</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Chars" title='(anonymous struct)::Chars' data-ref="(anonymous)::Chars">Chars</dfn>;	<i>// of Pic</i></td></tr>
+<tr><th id="48">48</th><td>} <dfn class="typedef" id="Font" title='Font' data-type='struct Font' data-ref="Font">Font</dfn>;</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="51">51</th><td>{</td></tr>
+<tr><th id="52">52</th><td>	<dfn class="enum" id="ALIGN_START" title='ALIGN_START' data-ref="ALIGN_START">ALIGN_START</dfn> = <var>0</var>,</td></tr>
+<tr><th id="53">53</th><td>	<dfn class="enum" id="ALIGN_CENTER" title='ALIGN_CENTER' data-ref="ALIGN_CENTER">ALIGN_CENTER</dfn>,</td></tr>
+<tr><th id="54">54</th><td>	<dfn class="enum" id="ALIGN_END" title='ALIGN_END' data-ref="ALIGN_END">ALIGN_END</dfn></td></tr>
+<tr><th id="55">55</th><td>} <dfn class="typedef" id="FontAlign" title='FontAlign' data-type='enum FontAlign' data-ref="FontAlign">FontAlign</dfn>;</td></tr>
+<tr><th id="56">56</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="57">57</th><td>{</td></tr>
+<tr><th id="58">58</th><td>	<a class="typedef" href="#FontAlign" title='FontAlign' data-type='enum FontAlign' data-ref="FontAlign">FontAlign</a> <dfn class="decl" id="(anonymous)::HAlign" title='(anonymous struct)::HAlign' data-ref="(anonymous)::HAlign">HAlign</dfn>;</td></tr>
+<tr><th id="59">59</th><td>	<a class="typedef" href="#FontAlign" title='FontAlign' data-type='enum FontAlign' data-ref="FontAlign">FontAlign</a> <dfn class="decl" id="(anonymous)::VAlign" title='(anonymous struct)::VAlign' data-ref="(anonymous)::VAlign">VAlign</dfn>;</td></tr>
+<tr><th id="60">60</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Area" title='(anonymous struct)::Area' data-ref="(anonymous)::Area">Area</dfn>;</td></tr>
+<tr><th id="61">61</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Pad" title='(anonymous struct)::Pad' data-ref="(anonymous)::Pad">Pad</dfn>;</td></tr>
+<tr><th id="62">62</th><td>	<a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="decl" id="(anonymous)::Mask" title='(anonymous struct)::Mask' data-ref="(anonymous)::Mask">Mask</dfn>;</td></tr>
+<tr><th id="63">63</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Blend" title='(anonymous struct)::Blend' data-ref="(anonymous)::Blend">Blend</dfn>;</td></tr>
+<tr><th id="64">64</th><td>} <dfn class="typedef" id="FontOpts" title='FontOpts' data-type='struct FontOpts' data-ref="FontOpts">FontOpts</dfn>;</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td><b>extern</b> <a class="typedef" href="#Font" title='Font' data-type='struct Font' data-ref="Font">Font</a> <dfn class="decl" id="gFont" title='gFont' data-ref="gFont">gFont</dfn>;</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><a class="typedef" href="#FontOpts" title='FontOpts' data-type='struct FontOpts' data-ref="FontOpts">FontOpts</a> <dfn class="decl" id="FontOptsNew" title='FontOptsNew' data-ref="FontOptsNew">FontOptsNew</dfn>(<em>void</em>);</td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td><em>void</em> <dfn class="decl" id="FontLoad" title='FontLoad' data-ref="FontLoad">FontLoad</dfn>(<a class="typedef" href="#Font" title='Font' data-type='struct Font' data-ref="Font">Font</a> *<dfn class="local col7 decl" id="477f" title='f' data-type='Font *' data-ref="477f">f</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="478imgPath" title='imgPath' data-type='const char *' data-ref="478imgPath">imgPath</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col9 decl" id="479isProportional" title='isProportional' data-type='const _Bool' data-ref="479isProportional">isProportional</dfn>);</td></tr>
+<tr><th id="71">71</th><td><em>void</em> <dfn class="decl" id="FontTerminate" title='FontTerminate' data-ref="FontTerminate">FontTerminate</dfn>(<a class="typedef" href="#Font" title='Font' data-type='struct Font' data-ref="Font">Font</a> *<dfn class="local col0 decl" id="480f" title='f' data-type='Font *' data-ref="480f">f</dfn>);</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><em>int</em> <dfn class="decl" id="FontW" title='FontW' data-ref="FontW">FontW</dfn>(<em>const</em> <em>char</em> <dfn class="local col1 decl" id="481c" title='c' data-type='const char' data-ref="481c">c</dfn>);</td></tr>
+<tr><th id="74">74</th><td><em>int</em> <dfn class="decl" id="FontH" title='FontH' data-ref="FontH">FontH</dfn>(<em>void</em>);</td></tr>
+<tr><th id="75">75</th><td><em>int</em> <dfn class="decl" id="FontStrW" title='FontStrW' data-ref="FontStrW">FontStrW</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="482s" title='s' data-type='const char *' data-ref="482s">s</dfn>);</td></tr>
+<tr><th id="76">76</th><td><em>int</em> <dfn class="decl" id="FontSubstrW" title='FontSubstrW' data-ref="FontSubstrW">FontSubstrW</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="483s" title='s' data-type='const char *' data-ref="483s">s</dfn>, <em>int</em> <dfn class="local col4 decl" id="484len" title='len' data-type='int' data-ref="484len">len</dfn>);</td></tr>
+<tr><th id="77">77</th><td><em>int</em> <dfn class="decl" id="FontStrH" title='FontStrH' data-ref="FontStrH">FontStrH</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="485s" title='s' data-type='const char *' data-ref="485s">s</dfn>);</td></tr>
+<tr><th id="78">78</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="FontStrSize" title='FontStrSize' data-ref="FontStrSize">FontStrSize</dfn>(<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="486s" title='s' data-type='const char *' data-ref="486s">s</dfn>);</td></tr>
+<tr><th id="79">79</th><td><em>int</em> <dfn class="decl" id="FontStrNumLines" title='FontStrNumLines' data-ref="FontStrNumLines">FontStrNumLines</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="487s" title='s' data-type='const char *' data-ref="487s">s</dfn>);</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><i>// Returns updated cursor position</i></td></tr>
+<tr><th id="82">82</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="FontCh" title='FontCh' data-ref="FontCh">FontCh</dfn>(<em>const</em> <em>char</em> <dfn class="local col8 decl" id="488c" title='c' data-type='const char' data-ref="488c">c</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="489pos" title='pos' data-type='const Vec2i' data-ref="489pos">pos</dfn>);</td></tr>
+<tr><th id="83">83</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="FontChMask" title='FontChMask' data-ref="FontChMask">FontChMask</dfn>(<em>const</em> <em>char</em> <dfn class="local col0 decl" id="490c" title='c' data-type='const char' data-ref="490c">c</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col1 decl" id="491pos" title='pos' data-type='const Vec2i' data-ref="491pos">pos</dfn>, <em>const</em> <a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="local col2 decl" id="492mask" title='mask' data-type='const color_t' data-ref="492mask">mask</dfn>);</td></tr>
+<tr><th id="84">84</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="FontStr" title='FontStr' data-ref="FontStr">FontStr</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="493s" title='s' data-type='const char *' data-ref="493s">s</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col4 decl" id="494pos" title='pos' data-type='Vec2i' data-ref="494pos">pos</dfn>);</td></tr>
+<tr><th id="85">85</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="FontStrMask" title='FontStrMask' data-ref="FontStrMask">FontStrMask</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="495s" title='s' data-type='const char *' data-ref="495s">s</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col6 decl" id="496pos" title='pos' data-type='Vec2i' data-ref="496pos">pos</dfn>, <em>const</em> <a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="local col7 decl" id="497mask" title='mask' data-type='const color_t' data-ref="497mask">mask</dfn>);</td></tr>
+<tr><th id="86">86</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="FontStrMaskWrap" title='FontStrMaskWrap' data-ref="FontStrMaskWrap">FontStrMaskWrap</dfn>(<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="498s" title='s' data-type='const char *' data-ref="498s">s</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="499pos" title='pos' data-type='Vec2i' data-ref="499pos">pos</dfn>, <a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="local col0 decl" id="500mask" title='mask' data-type='color_t' data-ref="500mask">mask</dfn>, <em>const</em> <em>int</em> <dfn class="local col1 decl" id="501width" title='width' data-type='const int' data-ref="501width">width</dfn>);</td></tr>
+<tr><th id="87">87</th><td><em>void</em> <dfn class="decl" id="FontStrOpt" title='FontStrOpt' data-ref="FontStrOpt">FontStrOpt</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="502s" title='s' data-type='const char *' data-ref="502s">s</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="503pos" title='pos' data-type='Vec2i' data-ref="503pos">pos</dfn>, <em>const</em> <a class="typedef" href="#FontOpts" title='FontOpts' data-type='struct FontOpts' data-ref="FontOpts">FontOpts</a> <dfn class="local col4 decl" id="504opts" title='opts' data-type='const FontOpts' data-ref="504opts">opts</dfn>);</td></tr>
+<tr><th id="88">88</th><td><em>void</em> <dfn class="decl" id="FontStrCenter" title='FontStrCenter' data-ref="FontStrCenter">FontStrCenter</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="505s" title='s' data-type='const char *' data-ref="505s">s</dfn>);</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><em>void</em> <dfn class="decl" id="FontSplitLines" title='FontSplitLines' data-ref="FontSplitLines">FontSplitLines</dfn>(<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="506text" title='text' data-type='const char *' data-ref="506text">text</dfn>, <em>char</em> *<dfn class="local col7 decl" id="507buf" title='buf' data-type='char *' data-ref="507buf">buf</dfn>, <em>const</em> <em>int</em> <dfn class="local col8 decl" id="508width" title='width' data-type='const int' data-ref="508width">width</dfn>);</td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="Vec2iAligned" title='Vec2iAligned' data-ref="Vec2iAligned">Vec2iAligned</dfn>(</td></tr>
+<tr><th id="93">93</th><td>	<em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="509v" title='v' data-type='const Vec2i' data-ref="509v">v</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col0 decl" id="510size" title='size' data-type='const Vec2i' data-ref="510size">size</dfn>,</td></tr>
+<tr><th id="94">94</th><td>	<em>const</em> <a class="typedef" href="#FontAlign" title='FontAlign' data-type='enum FontAlign' data-ref="FontAlign">FontAlign</a> <dfn class="local col1 decl" id="511hAlign" title='hAlign' data-type='const FontAlign' data-ref="511hAlign">hAlign</dfn>, <em>const</em> <a class="typedef" href="#FontAlign" title='FontAlign' data-type='enum FontAlign' data-ref="FontAlign">FontAlign</a> <dfn class="local col2 decl" id="512vAlign" title='vAlign' data-type='const FontAlign' data-ref="512vAlign">vAlign</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="513area" title='area' data-type='const Vec2i' data-ref="513area">area</dfn>);</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../briefing_screens.c.html'>codebrowser/src/briefing_screens.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='57' type='_Bool'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='754' u='w' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='767' u='w' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='239' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='209'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='209'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='209'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='209'/>

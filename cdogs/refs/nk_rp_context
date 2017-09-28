@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8649' ll='8660'/>
+<size>72</size>
+<mbr r='nk_rp_context::width' o='0' t='int'/>
+<mbr r='nk_rp_context::height' o='32' t='int'/>
+<mbr r='nk_rp_context::align' o='64' t='int'/>
+<mbr r='nk_rp_context::init_mode' o='96' t='int'/>
+<mbr r='nk_rp_context::heuristic' o='128' t='int'/>
+<mbr r='nk_rp_context::num_nodes' o='160' t='int'/>
+<mbr r='nk_rp_context::active_head' o='192' t='struct nk_rp_node *'/>
+<mbr r='nk_rp_context::free_head' o='256' t='struct nk_rp_node *'/>
+<mbr r='nk_rp_context::extra' o='320' t='struct nk_rp_node [2]'/>

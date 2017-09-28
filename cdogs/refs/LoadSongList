@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/gamedata.c' l='153' type='void LoadSongList(struct SongDef ** songList, const char * dirPath)'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='195' u='c' c='LoadSongs'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='197' u='c' c='LoadSongs'/>
+<def f='codebrowser/src/cdogs/gamedata.c' l='200' ll='245' type='void LoadSongList(struct SongDef ** songList, const char * dirPath)'/>

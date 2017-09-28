@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>namegen.c source code [codebrowser/src/namegen.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/namegen.c'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='namegen.c.html'>namegen.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Copyright (c) 2014, Cong Xu</i></td></tr>
+<tr><th id="3">3</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="6">6</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="9">9</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="11">11</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="12">12</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="13">13</th><td><i></i></td></tr>
+<tr><th id="14">14</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="15">15</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="16">16</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="17">17</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="18">18</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="19">19</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="20">20</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="21">21</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="23">23</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="24">24</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="25">25</th><td><i>*/</i></td></tr>
+<tr><th id="26">26</th><td><u>#include <a href="namegen.h.html">"namegen.h"</a></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#LoadFile" title='LoadFile' data-type='void LoadFile(CArray * strings, const char * filename)' data-ref="LoadFile">LoadFile</a>(<a class="typedef" href="cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col8 decl" id="8strings" title='strings' data-type='CArray *' data-ref="8strings">strings</dfn>, <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="9filename" title='filename' data-type='const char *' data-ref="9filename">filename</dfn>);</td></tr>
+<tr><th id="35">35</th><td><em>void</em> <dfn class="decl def" id="NameGenInit" title='NameGenInit' data-ref="NameGenInit">NameGenInit</dfn>(</td></tr>
+<tr><th id="36">36</th><td>	<a class="typedef" href="namegen.h.html#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="local col0 decl" id="10g" title='g' data-type='NameGen *' data-ref="10g">g</dfn>,</td></tr>
+<tr><th id="37">37</th><td>	<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="11prefixFile" title='prefixFile' data-type='const char *' data-ref="11prefixFile">prefixFile</dfn>, <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="12suffixFile" title='suffixFile' data-type='const char *' data-ref="12suffixFile">suffixFile</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="13suffixNameFile" title='suffixNameFile' data-type='const char *' data-ref="13suffixNameFile">suffixNameFile</dfn>)</td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayInit" title='CArrayInit' data-ref="CArrayInit">CArrayInit</a>(&amp;<a class="local col0 ref" href="#10g" title='g' data-ref="10g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::prefixes" title='(anonymous struct)::prefixes' data-ref="(anonymous)::prefixes">prefixes</a>, <b>sizeof</b>(<em>char</em> *));</td></tr>
+<tr><th id="40">40</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayInit" title='CArrayInit' data-ref="CArrayInit">CArrayInit</a>(&amp;<a class="local col0 ref" href="#10g" title='g' data-ref="10g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>, <b>sizeof</b>(<em>char</em> *));</td></tr>
+<tr><th id="41">41</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayInit" title='CArrayInit' data-ref="CArrayInit">CArrayInit</a>(&amp;<a class="local col0 ref" href="#10g" title='g' data-ref="10g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixNames" title='(anonymous struct)::suffixNames' data-ref="(anonymous)::suffixNames">suffixNames</a>, <b>sizeof</b>(<em>char</em> *));</td></tr>
+<tr><th id="42">42</th><td>	<a class="tu ref" href="#LoadFile" title='LoadFile' data-use='c' data-ref="LoadFile">LoadFile</a>(&amp;<a class="local col0 ref" href="#10g" title='g' data-ref="10g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::prefixes" title='(anonymous struct)::prefixes' data-ref="(anonymous)::prefixes">prefixes</a>, <a class="local col1 ref" href="#11prefixFile" title='prefixFile' data-ref="11prefixFile">prefixFile</a>);</td></tr>
+<tr><th id="43">43</th><td>	<a class="tu ref" href="#LoadFile" title='LoadFile' data-use='c' data-ref="LoadFile">LoadFile</a>(&amp;<a class="local col0 ref" href="#10g" title='g' data-ref="10g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>, <a class="local col2 ref" href="#12suffixFile" title='suffixFile' data-ref="12suffixFile">suffixFile</a>);</td></tr>
+<tr><th id="44">44</th><td>	<a class="tu ref" href="#LoadFile" title='LoadFile' data-use='c' data-ref="LoadFile">LoadFile</a>(&amp;<a class="local col0 ref" href="#10g" title='g' data-ref="10g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixNames" title='(anonymous struct)::suffixNames' data-ref="(anonymous)::suffixNames">suffixNames</a>, <a class="local col3 ref" href="#13suffixNameFile" title='suffixNameFile' data-ref="13suffixNameFile">suffixNameFile</a>);</td></tr>
+<tr><th id="45">45</th><td>}</td></tr>
+<tr><th id="46">46</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="LoadFile" title='LoadFile' data-type='void LoadFile(CArray * strings, const char * filename)' data-ref="LoadFile">LoadFile</dfn>(<a class="typedef" href="cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col4 decl" id="14strings" title='strings' data-type='CArray *' data-ref="14strings">strings</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="15filename" title='filename' data-type='const char *' data-ref="15filename">filename</dfn>)</td></tr>
+<tr><th id="47">47</th><td>{</td></tr>
+<tr><th id="48">48</th><td>	<a class="typedef" href="../../include/stdio.h.html#FILE" title='FILE' data-type='struct _IO_FILE' data-ref="FILE">FILE</a> *<dfn class="local col6 decl" id="16file" title='file' data-type='FILE *' data-ref="16file">file</dfn> = <a class="ref" href="../../include/stdio.h.html#fopen" title='fopen' data-ref="fopen">fopen</a>(<a class="local col5 ref" href="#15filename" title='filename' data-ref="15filename">filename</a>, <q>"r"</q>);</td></tr>
+<tr><th id="49">49</th><td>	<em>char</em> <dfn class="local col7 decl" id="17buf" title='buf' data-type='char [256]' data-ref="17buf">buf</dfn>[<var>256</var>];</td></tr>
+<tr><th id="50">50</th><td>	<b>while</b> (<a class="ref" href="../../include/stdio.h.html#fgets" title='fgets' data-ref="fgets">fgets</a>(<a class="local col7 ref" href="#17buf" title='buf' data-ref="17buf">buf</a>, <var>256</var>, <a class="local col6 ref" href="#16file" title='file' data-ref="16file">file</a>) != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="51">51</th><td>	{</td></tr>
+<tr><th id="52">52</th><td>		<em>char</em> *<dfn class="local col8 decl" id="18str" title='str' data-type='char *' data-ref="18str">str</dfn> = <a class="ref" href="../../include/stdlib.h.html#malloc" title='malloc' data-ref="malloc">malloc</a>(<a class="ref" href="../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col7 ref" href="#17buf" title='buf' data-ref="17buf">buf</a>) + <var>1</var>);</td></tr>
+<tr><th id="53">53</th><td>		<a class="ref" href="../../include/string.h.html#strncpy" title='strncpy' data-ref="strncpy">strncpy</a>(<a class="local col8 ref" href="#18str" title='str' data-ref="18str">str</a>, <a class="local col7 ref" href="#17buf" title='buf' data-ref="17buf">buf</a>, <a class="ref" href="../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col7 ref" href="#17buf" title='buf' data-ref="17buf">buf</a>) - <var>1</var>);</td></tr>
+<tr><th id="54">54</th><td>		<a class="local col8 ref" href="#18str" title='str' data-ref="18str">str</a>[<a class="ref" href="../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col7 ref" href="#17buf" title='buf' data-ref="17buf">buf</a>) - <var>1</var>] = <kbd>'\0'</kbd>;</td></tr>
+<tr><th id="55">55</th><td>		<a class="ref" href="cdogs/c_array.h.html#CArrayPushBack" title='CArrayPushBack' data-ref="CArrayPushBack">CArrayPushBack</a>(<a class="local col4 ref" href="#14strings" title='strings' data-ref="14strings">strings</a>, &amp;<a class="local col8 ref" href="#18str" title='str' data-ref="18str">str</a>);</td></tr>
+<tr><th id="56">56</th><td>	}</td></tr>
+<tr><th id="57">57</th><td>	<a class="ref" href="../../include/stdio.h.html#fclose" title='fclose' data-ref="fclose">fclose</a>(<a class="local col6 ref" href="#16file" title='file' data-ref="16file">file</a>);</td></tr>
+<tr><th id="58">58</th><td>}</td></tr>
+<tr><th id="59">59</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#UnloadStrings" title='UnloadStrings' data-type='void UnloadStrings(CArray * strings)' data-ref="UnloadStrings">UnloadStrings</a>(<a class="typedef" href="cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col9 decl" id="19strings" title='strings' data-type='CArray *' data-ref="19strings">strings</dfn>);</td></tr>
+<tr><th id="60">60</th><td><em>void</em> <dfn class="decl def" id="NameGenTerminate" title='NameGenTerminate' data-ref="NameGenTerminate">NameGenTerminate</dfn>(<a class="typedef" href="namegen.h.html#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="local col0 decl" id="20g" title='g' data-type='NameGen *' data-ref="20g">g</dfn>)</td></tr>
+<tr><th id="61">61</th><td>{</td></tr>
+<tr><th id="62">62</th><td>	<a class="tu ref" href="#UnloadStrings" title='UnloadStrings' data-use='c' data-ref="UnloadStrings">UnloadStrings</a>(&amp;<a class="local col0 ref" href="#20g" title='g' data-ref="20g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::prefixes" title='(anonymous struct)::prefixes' data-ref="(anonymous)::prefixes">prefixes</a>);</td></tr>
+<tr><th id="63">63</th><td>	<a class="tu ref" href="#UnloadStrings" title='UnloadStrings' data-use='c' data-ref="UnloadStrings">UnloadStrings</a>(&amp;<a class="local col0 ref" href="#20g" title='g' data-ref="20g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>);</td></tr>
+<tr><th id="64">64</th><td>	<a class="tu ref" href="#UnloadStrings" title='UnloadStrings' data-use='c' data-ref="UnloadStrings">UnloadStrings</a>(&amp;<a class="local col0 ref" href="#20g" title='g' data-ref="20g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixNames" title='(anonymous struct)::suffixNames' data-ref="(anonymous)::suffixNames">suffixNames</a>);</td></tr>
+<tr><th id="65">65</th><td>}</td></tr>
+<tr><th id="66">66</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="UnloadStrings" title='UnloadStrings' data-type='void UnloadStrings(CArray * strings)' data-ref="UnloadStrings">UnloadStrings</dfn>(<a class="typedef" href="cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col1 decl" id="21strings" title='strings' data-type='CArray *' data-ref="21strings">strings</dfn>)</td></tr>
+<tr><th id="67">67</th><td>{</td></tr>
+<tr><th id="68">68</th><td>	<b>for</b> (<em>int</em> <dfn class="local col2 decl" id="22i" title='i' data-type='int' data-ref="22i">i</dfn> = <var>0</var>; <a class="local col2 ref" href="#22i" title='i' data-ref="22i">i</a> &lt; (<em>int</em>)<a class="local col1 ref" href="#21strings" title='strings' data-ref="21strings">strings</a>-&gt;<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a>; <a class="local col2 ref" href="#22i" title='i' data-ref="22i">i</a>++)</td></tr>
+<tr><th id="69">69</th><td>	{</td></tr>
+<tr><th id="70">70</th><td>		<em>char</em> **<dfn class="local col3 decl" id="23str" title='str' data-type='char **' data-ref="23str">str</dfn> = <a class="ref" href="cdogs/c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(<a class="local col1 ref" href="#21strings" title='strings' data-ref="21strings">strings</a>, <a class="local col2 ref" href="#22i" title='i' data-ref="22i">i</a>);</td></tr>
+<tr><th id="71">71</th><td>		<a class="ref" href="../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(*<a class="local col3 ref" href="#23str" title='str' data-ref="23str">str</a>);</td></tr>
+<tr><th id="72">72</th><td>	}</td></tr>
+<tr><th id="73">73</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayTerminate" title='CArrayTerminate' data-ref="CArrayTerminate">CArrayTerminate</a>(<a class="local col1 ref" href="#21strings" title='strings' data-ref="21strings">strings</a>);</td></tr>
+<tr><th id="74">74</th><td>}</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td><em>static</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <a class="tu decl" href="#IsSameWord" title='IsSameWord' data-type='_Bool IsSameWord(const char * l, const char * r)' data-ref="IsSameWord">IsSameWord</a>(<em>const</em> <em>char</em> *<dfn class="local col4 decl" id="24l" title='l' data-type='const char *' data-ref="24l">l</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="25r" title='r' data-type='const char *' data-ref="25r">r</dfn>);</td></tr>
+<tr><th id="77">77</th><td><em>void</em> <dfn class="decl def" id="NameGenMake" title='NameGenMake' data-ref="NameGenMake">NameGenMake</dfn>(<em>const</em> <a class="typedef" href="namegen.h.html#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="local col6 decl" id="26g" title='g' data-type='const NameGen *' data-ref="26g">g</dfn>, <em>char</em> *<dfn class="local col7 decl" id="27buf" title='buf' data-type='char *' data-ref="27buf">buf</dfn>)</td></tr>
+<tr><th id="78">78</th><td>{</td></tr>
+<tr><th id="79">79</th><td>	<b>for</b> (;;)</td></tr>
+<tr><th id="80">80</th><td>	{</td></tr>
+<tr><th id="81">81</th><td>		<em>char</em> **<dfn class="local col8 decl" id="28prefix" title='prefix' data-type='char **' data-ref="28prefix">prefix</dfn> = <a class="ref" href="cdogs/c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::prefixes" title='(anonymous struct)::prefixes' data-ref="(anonymous)::prefixes">prefixes</a>, <a class="ref" href="../../include/stdlib.h.html#rand" title='rand' data-ref="rand">rand</a>() % <a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::prefixes" title='(anonymous struct)::prefixes' data-ref="(anonymous)::prefixes">prefixes</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a>);</td></tr>
+<tr><th id="82">82</th><td>		<em>int</em> <dfn class="local col9 decl" id="29suffixIndex" title='suffixIndex' data-type='int' data-ref="29suffixIndex">suffixIndex</dfn> = <a class="ref" href="../../include/stdlib.h.html#rand" title='rand' data-ref="rand">rand</a>() % (<a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a> + <a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixNames" title='(anonymous struct)::suffixNames' data-ref="(anonymous)::suffixNames">suffixNames</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a>);</td></tr>
+<tr><th id="83">83</th><td>		<em>char</em> **<dfn class="local col0 decl" id="30suffix" title='suffix' data-type='char **' data-ref="30suffix">suffix</dfn>;</td></tr>
+<tr><th id="84">84</th><td>		<b>if</b> (<a class="local col9 ref" href="#29suffixIndex" title='suffixIndex' data-ref="29suffixIndex">suffixIndex</a> &lt; (<em>int</em>)<a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a>)</td></tr>
+<tr><th id="85">85</th><td>		{</td></tr>
+<tr><th id="86">86</th><td>			<a class="local col0 ref" href="#30suffix" title='suffix' data-ref="30suffix">suffix</a> = <a class="ref" href="cdogs/c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>, <a class="local col9 ref" href="#29suffixIndex" title='suffixIndex' data-ref="29suffixIndex">suffixIndex</a>);</td></tr>
+<tr><th id="87">87</th><td>		}</td></tr>
+<tr><th id="88">88</th><td>		<b>else</b></td></tr>
+<tr><th id="89">89</th><td>		{</td></tr>
+<tr><th id="90">90</th><td>			<a class="local col0 ref" href="#30suffix" title='suffix' data-ref="30suffix">suffix</a> = <a class="ref" href="cdogs/c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(</td></tr>
+<tr><th id="91">91</th><td>				&amp;<a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixNames" title='(anonymous struct)::suffixNames' data-ref="(anonymous)::suffixNames">suffixNames</a>, <a class="local col9 ref" href="#29suffixIndex" title='suffixIndex' data-ref="29suffixIndex">suffixIndex</a> - (<em>int</em>)<a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a>);</td></tr>
+<tr><th id="92">92</th><td>		}</td></tr>
+<tr><th id="93">93</th><td>		<i>// Don't generate same prefix/suffix</i></td></tr>
+<tr><th id="94">94</th><td>		<b>if</b> (<a class="tu ref" href="#IsSameWord" title='IsSameWord' data-use='c' data-ref="IsSameWord">IsSameWord</a>(*<a class="local col8 ref" href="#28prefix" title='prefix' data-ref="28prefix">prefix</a>, *<a class="local col0 ref" href="#30suffix" title='suffix' data-ref="30suffix">suffix</a>))</td></tr>
+<tr><th id="95">95</th><td>		{</td></tr>
+<tr><th id="96">96</th><td>			<b>continue</b>;</td></tr>
+<tr><th id="97">97</th><td>		}</td></tr>
+<tr><th id="98">98</th><td>		<a class="ref" href="../../include/string.h.html#strcpy" title='strcpy' data-ref="strcpy">strcpy</a>(<a class="local col7 ref" href="#27buf" title='buf' data-ref="27buf">buf</a>, *<a class="local col8 ref" href="#28prefix" title='prefix' data-ref="28prefix">prefix</a>);</td></tr>
+<tr><th id="99">99</th><td>		<i>// Add a space if we're using a suffix name</i></td></tr>
+<tr><th id="100">100</th><td>		<b>if</b> (<a class="local col9 ref" href="#29suffixIndex" title='suffixIndex' data-ref="29suffixIndex">suffixIndex</a> &gt;= (<em>int</em>)<a class="local col6 ref" href="#26g" title='g' data-ref="26g">g</a>-&gt;<a class="ref" href="namegen.h.html#(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a>)</td></tr>
+<tr><th id="101">101</th><td>		{</td></tr>
+<tr><th id="102">102</th><td>			<a class="ref" href="../../include/string.h.html#strcat" title='strcat' data-ref="strcat">strcat</a>(<a class="local col7 ref" href="#27buf" title='buf' data-ref="27buf">buf</a>, <q>" "</q>);</td></tr>
+<tr><th id="103">103</th><td>		}</td></tr>
+<tr><th id="104">104</th><td>		<a class="ref" href="../../include/string.h.html#strcat" title='strcat' data-ref="strcat">strcat</a>(<a class="local col7 ref" href="#27buf" title='buf' data-ref="27buf">buf</a>, *<a class="local col0 ref" href="#30suffix" title='suffix' data-ref="30suffix">suffix</a>);</td></tr>
+<tr><th id="105">105</th><td>		<b>break</b>;</td></tr>
+<tr><th id="106">106</th><td>	}</td></tr>
+<tr><th id="107">107</th><td>}</td></tr>
+<tr><th id="108">108</th><td><em>static</em> <em>char</em> <a class="tu decl" href="#LowerCase" title='LowerCase' data-type='char LowerCase(const char c)' data-ref="LowerCase">LowerCase</a>(<em>const</em> <em>char</em> <dfn class="local col1 decl" id="31c" title='c' data-type='const char' data-ref="31c">c</dfn>);</td></tr>
+<tr><th id="109">109</th><td><em>static</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="tu decl def" id="IsSameWord" title='IsSameWord' data-type='_Bool IsSameWord(const char * l, const char * r)' data-ref="IsSameWord">IsSameWord</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="32l" title='l' data-type='const char *' data-ref="32l">l</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="33r" title='r' data-type='const char *' data-ref="33r">r</dfn>)</td></tr>
+<tr><th id="110">110</th><td>{</td></tr>
+<tr><th id="111">111</th><td>	<b>while</b> (*<a class="local col2 ref" href="#32l" title='l' data-ref="32l">l</a> &amp;&amp; *<a class="local col3 ref" href="#33r" title='r' data-ref="33r">r</a>)</td></tr>
+<tr><th id="112">112</th><td>	{</td></tr>
+<tr><th id="113">113</th><td>		<b>if</b> (<a class="tu ref" href="#LowerCase" title='LowerCase' data-use='c' data-ref="LowerCase">LowerCase</a>(*<a class="local col2 ref" href="#32l" title='l' data-ref="32l">l</a>) != <a class="tu ref" href="#LowerCase" title='LowerCase' data-use='c' data-ref="LowerCase">LowerCase</a>(*<a class="local col3 ref" href="#33r" title='r' data-ref="33r">r</a>))</td></tr>
+<tr><th id="114">114</th><td>		{</td></tr>
+<tr><th id="115">115</th><td>			<b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="116">116</th><td>		}</td></tr>
+<tr><th id="117">117</th><td>		<a class="local col2 ref" href="#32l" title='l' data-ref="32l">l</a>++;</td></tr>
+<tr><th id="118">118</th><td>		<a class="local col3 ref" href="#33r" title='r' data-ref="33r">r</a>++;</td></tr>
+<tr><th id="119">119</th><td>	}</td></tr>
+<tr><th id="120">120</th><td>	<b>if</b> (*<a class="local col2 ref" href="#32l" title='l' data-ref="32l">l</a> || *<a class="local col3 ref" href="#33r" title='r' data-ref="33r">r</a>)</td></tr>
+<tr><th id="121">121</th><td>	{</td></tr>
+<tr><th id="122">122</th><td>		<b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="123">123</th><td>	}</td></tr>
+<tr><th id="124">124</th><td>	<b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="125">125</th><td>}</td></tr>
+<tr><th id="126">126</th><td><em>static</em> <em>char</em> <dfn class="tu decl def" id="LowerCase" title='LowerCase' data-type='char LowerCase(const char c)' data-ref="LowerCase">LowerCase</dfn>(<em>const</em> <em>char</em> <dfn class="local col4 decl" id="34c" title='c' data-type='const char' data-ref="34c">c</dfn>)</td></tr>
+<tr><th id="127">127</th><td>{</td></tr>
+<tr><th id="128">128</th><td>	<b>if</b> (<a class="local col4 ref" href="#34c" title='c' data-ref="34c">c</a> &gt;= <kbd>'A'</kbd> &amp;&amp; <a class="local col4 ref" href="#34c" title='c' data-ref="34c">c</a> &lt;= <kbd>'Z'</kbd>)</td></tr>
+<tr><th id="129">129</th><td>	{</td></tr>
+<tr><th id="130">130</th><td>		<b>return</b> <a class="local col4 ref" href="#34c" title='c' data-ref="34c">c</a> - <var>32</var>;</td></tr>
+<tr><th id="131">131</th><td>	}</td></tr>
+<tr><th id="132">132</th><td>	<b>return</b> <a class="local col4 ref" href="#34c" title='c' data-ref="34c">c</a>;</td></tr>
+<tr><th id="133">133</th><td>}</td></tr>
+<tr><th id="134">134</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/autosave.h' l='51' type='MissionSave'/>
+<use f='codebrowser/src/autosave.c' l='58' u='m' c='AutosaveInit'/>
+<use f='codebrowser/src/autosave.c' l='58' u='m' c='AutosaveInit'/>
+<use f='codebrowser/src/autosave.c' l='59' u='m' c='AutosaveInit'/>
+<use f='codebrowser/src/autosave.c' l='60' u='m' c='AutosaveInit'/>
+<use f='codebrowser/src/autosave.c' l='159' u='a' c='AutosaveLoad'/>
+<use f='codebrowser/src/autosave.c' l='186' u='a' c='AutosaveSave'/>
+<use f='codebrowser/src/autosave.c' l='251' u='m' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='252' u='a' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='252' u='r' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='253' u='m' c='AutosaveAddMission'/>
+<offset>0</offset>
+<use f='codebrowser/src/briefing_screens.c' l='185' u='m' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='577' u='m' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='580' u='m' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/mainmenu.c' l='241' u='m' c='MenuCreateStart'/>
+<use f='codebrowser/src/mainmenu.c' l='275' u='m' c='MenuCreateStart'/>
+<use f='codebrowser/src/mainmenu.c' l='276' u='m' c='MenuCreateStart'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='59' u='m' c='_cbehave_feature_AutosaveInit'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='60' u='m' c='_cbehave_feature_AutosaveInit'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='61' u='m' c='_cbehave_feature_AutosaveInit'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='64' u='m' c='_cbehave_feature_AutosaveInit'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='65' u='m' c='_cbehave_feature_AutosaveInit'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='89' u='m' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='90' u='m' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='93' u='m' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='94' u='m' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='182' u='m' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='183' u='m' c='_cbehave_feature_mission_autosaves'/>

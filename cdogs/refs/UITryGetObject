@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='136' type='_Bool UITryGetObject(UIObject * o, Vec2i pos, UIObject ** out)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='781' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='784' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='826' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='830' u='c' c='HandleInput'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='527' ll='542' macro='1' type='_Bool UITryGetObject(UIObject * o, Vec2i pos, UIObject ** out)'/>

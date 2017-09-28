@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='37' type='3'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='152' u='r' c='LoadQuickPlayEntry'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='43' c='GameModeStr'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='67' c='IsGameOptionsNeeded'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='108' u='r' c='AreHealthPickupsAllowed'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='93' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/mission.c' l='402' u='r' c='CanCompleteMission'/>
+<use f='codebrowser/src/mainmenu.c' l='72' u='r' c='MainMenu'/>
+<use f='codebrowser/src/mainmenu.c' l='326' u='r' c='MenuCreateQuickPlay'/>
+<use f='codebrowser/src/prep.c' l='589' c='GameOptions'/>

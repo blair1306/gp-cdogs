@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1249' type='int nk_window_is_hovered(struct nk_context * )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17541' u='c' c='nk_panel_end'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18280' ll='18287' macro='1' type='int nk_window_is_hovered(struct nk_context * ctx)'/>

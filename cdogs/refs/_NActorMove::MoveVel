@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='238' type='NVec2i'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='409' u='r' c='ActorMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='828' u='w' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

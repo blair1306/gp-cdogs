@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='68' type='int hashmap_get_one(map_t in, any_t * arg, int remove)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='64'>/*
+ * Get any element. Return MAP_OK or MAP_MISSING.
+ * remove - should the element be removed from the hashmap
+ */</doc>

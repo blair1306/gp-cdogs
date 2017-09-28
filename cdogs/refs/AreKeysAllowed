@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='48' type='_Bool AreKeysAllowed(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='101' ll='104' macro='1' type='_Bool AreKeysAllowed(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/map.c' l='737' u='c' c='MapLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='119' u='c' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='54' u='c' c='MapStaticLoad'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='101' u='c' c='MapStaticLoadDynamic'/>

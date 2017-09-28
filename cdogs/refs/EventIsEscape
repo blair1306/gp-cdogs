@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/events.h' l='87' type='_Bool EventIsEscape(EventHandlers * handlers, const int * cmds, const int menuCmd)'/>
+<use f='codebrowser/src/briefing_screens.c' l='268' u='c' c='MissionBriefingInput'/>
+<use f='codebrowser/src/cdogs/events.c' l='539' u='c' c='EventWaitForAnyKeyOrButton'/>
+<def f='codebrowser/src/cdogs/events.c' l='551' ll='577' macro='1' type='_Bool EventIsEscape(EventHandlers * handlers, const int * cmds, const int menuCmd)'/>
+<use f='codebrowser/src/menu.c' l='173' u='c' c='MenuUpdate'/>
+<use f='codebrowser/src/password.c' l='175' u='c' c='EnterCodeScreenUpdate'/>
+<use f='codebrowser/src/prep.c' l='398' u='c' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='873' u='c' c='PlayerEquipUpdate'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='203' type='_Bool ActorHasGun(const TActor * a, const GunDescription * gun)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='587' u='c' c='ActorReplaceGun'/>
+<def f='codebrowser/src/cdogs/actors.c' l='609' ll='618' macro='1' type='_Bool ActorHasGun(const TActor * a, const GunDescription * gun)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='214' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='788' u='c' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='250' u='c' c='TryPickupGun'/>

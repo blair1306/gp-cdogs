@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_mixer.h' l='521' type='int Mix_GroupCount(int tag)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='518'>/* Returns the number of channels in a group. This is also a subtle
+   way to get the total number of channels when &apos;tag&apos; is -1
+ */</doc>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='310' type='menu_t * MenuCreateCustom(const char * name, MenuDisplayFunc displayFunc, MenuInputFunc inputFunc, void * data)'/>
+<def f='codebrowser/src/menu.c' l='568' ll='578' type='menu_t * MenuCreateCustom(const char * name, MenuDisplayFunc displayFunc, MenuInputFunc inputFunc, void * data)'/>
+<use f='codebrowser/src/player_select_menus.c' l='237' u='c' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='471' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/screens_end.c' l='129' u='c' c='PlayerListLoop'/>

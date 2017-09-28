@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/color.h' l='49' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='43' type='color_t'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='108' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/mainmenu.c' l='69' u='r' c='MainMenu'/>
+<use f='codebrowser/src/screens_end.c' l='399' u='r' c='VictoryDraw'/>
+<use f='codebrowser/src/screens_end.c' l='401' u='r' c='VictoryDraw'/>

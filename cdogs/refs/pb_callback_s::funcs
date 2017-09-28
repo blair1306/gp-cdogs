@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='293' type='union (anonymous union at /home/jon/workspace/cdogs-sdl/src/cdogs/proto/nanopb/pb.h:290:5)'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='289'>/* New function signature, which allows modifying arg contents in callback. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='568' u='m' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='580' u='m' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='601' u='m' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='278' u='m' c='encode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='280' u='m' c='encode_callback_field'/>

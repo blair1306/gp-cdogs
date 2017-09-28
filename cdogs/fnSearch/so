@@ -1,0 +1,11 @@
+SoundClear|SoundClear
+SoundInitialize|SoundInitialize
+SoundLoadDir|SoundLoadDir
+SoundPlay|SoundPlay
+SoundPlayAt|SoundPlayAt
+SoundPlayAtPlusDistance|SoundPlayAtPlusDistance
+SoundReconfigure|SoundReconfigure
+SoundSetEar|SoundSetEar
+SoundSetEars|SoundSetEars
+SoundSetEarsSide|SoundSetEarsSide
+SoundTerminate|SoundTerminate

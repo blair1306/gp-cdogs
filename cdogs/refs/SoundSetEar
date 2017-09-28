@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='140' type='void SoundSetEar(const _Bool isLeft, const int idx, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='305' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='311' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='457' ll='481' type='void SoundSetEar(const _Bool isLeft, const int idx, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='485' u='c' c='SoundSetEarsSide'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='486' u='c' c='SoundSetEarsSide'/>

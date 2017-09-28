@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='154' type='int tinydir_open_subdir_n(tinydir_dir * dir, size_t i)'/>
+<def f='codebrowser/src/tinydir/tinydir.h' l='509' ll='532' macro='1' type='int tinydir_open_subdir_n(tinydir_dir * dir, size_t i)'/>

@@ -1,0 +1,19 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9760' ll='9792' macro='1' type='void nk_tt__handle_clipped_edge(float * scanline, int x, struct nk_tt__active_edge * e, float x0, float y0, float x1, float y1)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9808' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9809' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9811' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9926' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9927' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9928' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9930' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9931' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9932' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9934' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9935' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9937' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9938' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9940' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9941' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9943' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9944' u='c' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9946' u='c' c='nk_tt__fill_active_edges_new'/>

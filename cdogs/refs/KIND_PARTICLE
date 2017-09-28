@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='88' type='1'/>
+<use f='codebrowser/src/cdogs/particle.c' l='445' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/tile.c' l='106' u='r' c='TileIsClear'/>
+<use f='codebrowser/src/cdogs/tile.c' l='142' c='ThingIdGetTileItem'/>

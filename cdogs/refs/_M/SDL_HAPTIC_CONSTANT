@@ -1,0 +1,10 @@
+<dec f='include/SDL2/SDL_haptic.h' l='152'/>
+<doc f='include/SDL2/SDL_haptic.h' l='145'>/**
+ *  \brief Constant effect supported.
+ *
+ *  Constant haptic effect.
+ *
+ *  \sa SDL_HapticCondition
+ */</doc>
+<use f='codebrowser/src/cdogs/joystick.c' l='174' u='c'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='178' u='c'/>

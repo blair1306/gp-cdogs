@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2239' ll='2242'/>
+<size>16</size>
+<mbr r='nk_buffer_marker::active' o='0' t='int'/>
+<mbr r='nk_buffer_marker::offset' o='64' t='nk_size'/>

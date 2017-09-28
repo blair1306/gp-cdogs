@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/game_loop.h' l='58' type='void (*)(struct sGameLoopData *)'/>
+<offset>384</offset>
+<use f='codebrowser/src/game_loop.c' l='140' u='w' c='GameLoopDataNew'/>
+<use f='codebrowser/src/game_loop.c' l='258' u='r' c='LoopRunnerRunInner'/>
+<use f='codebrowser/src/game_loop.c' l='260' u='r' c='LoopRunnerRunInner'/>

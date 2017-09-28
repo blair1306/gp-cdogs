@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/json/json.h' l='75' type='2'/>
+<doc f='codebrowser/src/json/json.h' l='75'>/*!&lt; the parsed document didn&apos;t ended */</doc>
+<use f='codebrowser/src/json/json.c' l='192' u='r' c='json_stream_parse'/>
+<use f='codebrowser/src/json/json.c' l='202' u='r' c='json_stream_parse'/>
+<use f='codebrowser/src/json/json.c' l='210' c='json_stream_parse'/>
+<use f='codebrowser/src/json/json.c' l='2269' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2329' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2361' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2389' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2520' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2675' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2740' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2781' u='r' c='json_parse_fragment'/>

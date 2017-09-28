@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='61' type='2'/>
+<use f='codebrowser/src/briefing_screens.c' l='805' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/files.c' l='350' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/map.c' l='748' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='763' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='586' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='181' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/objective.c' l='61' c='ObjectiveTypeStr'/>
+<use f='codebrowser/src/cdogs/objective.c' l='72' u='r' c='StrObjectiveType'/>
+<use f='codebrowser/src/cdogs/objective.c' l='83' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/cdogs/objective.c' l='114' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='132' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objs.c' l='158' u='r' c='ObjRemove'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='205' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='584' u='r' c='MissionCheckObjectiveIsDestroy'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='142' c='DrawObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='434' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='496' c='CreateAddObjectiveSubObjs'/>

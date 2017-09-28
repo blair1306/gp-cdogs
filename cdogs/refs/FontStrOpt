@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/font.h' l='87' type='void FontStrOpt(const char * s, Vec2i pos, const FontOpts opts)'/>
+<use f='codebrowser/src/briefing_screens.c' l='121' u='c' c='CampaignIntroDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='318' u='c' c='MissionBriefingDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='320' u='c' c='MissionBriefingDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='586' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='614' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='624' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='631' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='635' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='639' u='c' c='MissionSummaryMenuDraw'/>
+<def f='codebrowser/src/cdogs/font.c' l='281' ll='289' type='void FontStrOpt(const char * s, Vec2i pos, const FontOpts opts)'/>
+<use f='codebrowser/src/cdogs/font.c' l='327' u='c' c='FontStrCenter'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='62' u='c' c='FPSCounterDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='129' u='c' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='254' u='c' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='429' u='c' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='454' u='c' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='471' u='c' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='750' u='c' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='752' u='c' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='754' u='c' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='767' u='c' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='774' u='c' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='780' u='c' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='942' u='c' c='DrawMissionTime'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='280' u='c' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='68' u='c' c='WallClockDraw'/>
+<use f='codebrowser/src/cdogs/particle.c' l='486' u='c' c='DrawParticle'/>
+<use f='codebrowser/src/mainmenu.c' l='354' u='c' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='278' u='c' c='ShowControls'/>
+<use f='codebrowser/src/menu.c' l='601' u='c' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='633' u='c' c='MenuDisplayItems'/>
+<use f='codebrowser/src/password.c' l='305' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/screens_end.c' l='391' u='c' c='VictoryDraw'/>
+<use f='codebrowser/src/screens_end.c' l='394' u='c' c='VictoryDraw'/>

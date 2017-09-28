@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='90' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/files.c' l='401' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map.c' l='720' u='r' c='MapLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='363' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='282' u='w' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='300' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='280' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1214' u='w' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1604' u='w' c='MissionChangeMapItemDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1604' u='r' c='MissionChangeMapItemDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1604' u='r' c='MissionChangeMapItemDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1604' u='r' c='MissionChangeMapItemDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1604' u='r' c='MissionChangeMapItemDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='52' u='r' c='DisplayMapItemWithDensity'/>

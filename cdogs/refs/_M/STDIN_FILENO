@@ -1,0 +1,11 @@
+<dec f='include/unistd.h' l='213'/>
+<doc f='include/unistd.h' l='212'>/* Standard file descriptors.  */</doc>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='76' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='79' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='81' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='92' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='99' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='104' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='105' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='663' u='c'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='688' u='c'/>

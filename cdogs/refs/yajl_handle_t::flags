@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='58' type='unsigned int'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='74' u='w' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='94' u='w' c='yajl_config'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='95' u='w' c='yajl_config'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='126' u='r' c='yajl_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='127' u='r' c='yajl_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='146' u='r' c='yajl_complete_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='147' u='r' c='yajl_complete_parse'/>
+<offset>896</offset>
+<doc f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='57'>/* bitfield */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='175' u='r' c='yajl_do_finish'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='199' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='203' u='r' c='yajl_do_parse'/>

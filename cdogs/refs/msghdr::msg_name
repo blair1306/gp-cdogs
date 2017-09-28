@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='230' type='void *'/>
+<offset>0</offset>
+<doc f='include/x86_64-linux-gnu/bits/socket.h' l='230'>/* Address to send to/receive from.  */</doc>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='455' u='w' c='enet_socket_send'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='489' u='w' c='enet_socket_receive'/>

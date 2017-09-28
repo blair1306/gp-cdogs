@@ -1,0 +1,20 @@
+<def f='codebrowser/src/json/json.c' l='85' ll='100' type='void rcs_free(rcstring ** rcs)'/>
+<use f='codebrowser/src/json/json.c' l='640' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='658' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='800' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='3065' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3482' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3494' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3509' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3524' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3630' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3643' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3656' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3660' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3676' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3783' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3795' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4001' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4013' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4027' u='c' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4041' u='c' c='json_saxy_parse'/>

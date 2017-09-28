@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1801' type='nk_uint nk_color_u32(struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5458' ll='5466' macro='1' type='nk_uint nk_color_u32(struct nk_color in)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7632' u='c' c='nk_draw_vertex_color'/>

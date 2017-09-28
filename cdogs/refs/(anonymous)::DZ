@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='79' type='int'/>
+<dec f='codebrowser/src/cdogs/particle.h' l='95' type='int'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/emitter.c' l='62' u='w' c='EmitterStart'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='266' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='291' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='543' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='640' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/particle.c' l='296' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='304' u='w' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='304' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='308' u='w' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='313' u='w' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='315' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='439' u='w' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='439' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='512' u='w' c='GunAddBrass'/>

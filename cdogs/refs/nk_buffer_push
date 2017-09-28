@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2272' type='void nk_buffer_push(struct nk_buffer * , enum nk_buffer_allocation_type type, const void * memory, nk_size size, nk_size align)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6220' ll='6227' macro='1' type='void nk_buffer_push(struct nk_buffer * b, enum nk_buffer_allocation_type type, const void * memory, nk_size size, nk_size align)'/>

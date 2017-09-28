@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2397' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13313' u='r' c='nk_textedit_clear_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13325' u='r' c='nk_textedit_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13335' u='r' c='nk_textedit_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13345' u='r' c='nk_textedit_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14969' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15682' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20601' u='r' c='nk_edit_string'/>

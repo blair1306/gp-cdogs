@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1685' type='int nk_menu_begin_symbol_label(struct nk_context * , const char * , nk_flags align, enum nk_symbol_type , struct nk_vec2 size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22966' ll='22968' macro='1' type='int nk_menu_begin_symbol_label(struct nk_context * ctx, const char * title, nk_flags align, enum nk_symbol_type sym, struct nk_vec2 size)'/>

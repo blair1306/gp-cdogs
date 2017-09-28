@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>editor_ui.h source code [codebrowser/src/cdogsed/editor_ui.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogsed/editor_ui.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogsed</a>/<a href='editor_ui.h.html'>editor_ui.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin</i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003 Lucas Martin-King</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2014, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="ui_object.h.html">"ui_object.h"</a></u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="../cdogs/gamedata.h.html">&lt;cdogs/gamedata.h&gt;</a></u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><u>#include <a href="editor_brush.h.html">"editor_brush.h"</a></u></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><u>#define <dfn class="macro" id="_M/YC_CAMPAIGNTITLE" data-ref="_M/YC_CAMPAIGNTITLE">YC_CAMPAIGNTITLE</dfn>    0</u></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/YC_MISSIONTITLE" data-ref="_M/YC_MISSIONTITLE">YC_MISSIONTITLE</dfn>     2</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/YC_MISSIONLOOKS" data-ref="_M/YC_MISSIONLOOKS">YC_MISSIONLOOKS</dfn>     4</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/YC_MISSIONDESC" data-ref="_M/YC_MISSIONDESC">YC_MISSIONDESC</dfn>      5</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/YC_CHARACTERS" data-ref="_M/YC_CHARACTERS">YC_CHARACTERS</dfn>       6</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/YC_SPECIALS" data-ref="_M/YC_SPECIALS">YC_SPECIALS</dfn>         7</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/YC_ITEMS" data-ref="_M/YC_ITEMS">YC_ITEMS</dfn>            9</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/YC_OBJECTIVES" data-ref="_M/YC_OBJECTIVES">YC_OBJECTIVES</dfn>       10</u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><u>#define <dfn class="macro" id="_M/XC_CAMPAIGNTITLE" data-ref="_M/XC_CAMPAIGNTITLE">XC_CAMPAIGNTITLE</dfn>    0</u></td></tr>
+<tr><th id="68">68</th><td><u>#define <dfn class="macro" id="_M/XC_AUTHOR" data-ref="_M/XC_AUTHOR">XC_AUTHOR</dfn>           1</u></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/XC_CAMPAIGNDESC" data-ref="_M/XC_CAMPAIGNDESC">XC_CAMPAIGNDESC</dfn>     2</u></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/XC_MISSIONTITLE" data-ref="_M/XC_MISSIONTITLE">XC_MISSIONTITLE</dfn>     0</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/XC_MUSICFILE" data-ref="_M/XC_MUSICFILE">XC_MUSICFILE</dfn>        1</u></td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/XC_WALL" data-ref="_M/XC_WALL">XC_WALL</dfn>             0</u></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/XC_FLOOR" data-ref="_M/XC_FLOOR">XC_FLOOR</dfn>            1</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/XC_ROOM" data-ref="_M/XC_ROOM">XC_ROOM</dfn>             2</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/XC_DOORS" data-ref="_M/XC_DOORS">XC_DOORS</dfn>            3</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/XC_KEYS" data-ref="_M/XC_KEYS">XC_KEYS</dfn>             4</u></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/XC_EXIT" data-ref="_M/XC_EXIT">XC_EXIT</dfn>             5</u></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/XC_COLOR1" data-ref="_M/XC_COLOR1">XC_COLOR1</dfn>           6</u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/XC_COLOR2" data-ref="_M/XC_COLOR2">XC_COLOR2</dfn>           7</u></td></tr>
+<tr><th id="82">82</th><td><u>#define <dfn class="macro" id="_M/XC_COLOR3" data-ref="_M/XC_COLOR3">XC_COLOR3</dfn>           8</u></td></tr>
+<tr><th id="83">83</th><td><u>#define <dfn class="macro" id="_M/XC_COLOR4" data-ref="_M/XC_COLOR4">XC_COLOR4</dfn>           9</u></td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><a class="typedef" href="ui_object.h.html#UIObject" title='UIObject' data-type='struct _UIObject' data-ref="UIObject">UIObject</a> *<dfn class="decl" id="CreateMainObjs" title='CreateMainObjs' data-ref="CreateMainObjs">CreateMainObjs</dfn>(<a class="typedef" href="../cdogs/campaigns.h.html#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col3 decl" id="53co" title='co' data-type='CampaignOptions *' data-ref="53co">co</dfn>, <a class="typedef" href="editor_brush.h.html#EditorBrush" title='EditorBrush' data-type='struct EditorBrush' data-ref="EditorBrush">EditorBrush</a> *<dfn class="local col4 decl" id="54brush" title='brush' data-type='EditorBrush *' data-ref="54brush">brush</dfn>, <a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col5 decl" id="55size" title='size' data-type='Vec2i' data-ref="55size">size</dfn>);</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='cdogsed.c.html'>codebrowser/src/cdogsed/cdogsed.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2279' type='nk_size nk_buffer_total(struct nk_buffer * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6313' ll='6319' macro='1' type='nk_size nk_buffer_total(struct nk_buffer * buffer)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7462' u='c' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7488' u='c' c='nk_draw_list_command_last'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='34' type='int32_t'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='688' u='w' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='202' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='184'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='184'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='184'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='184'/>

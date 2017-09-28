@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='98' type='0'/>
+<use f='codebrowser/src/cdogs/defs.c' l='73' u='r' c='StrSpecialDamage'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='361' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='375' u='r' c='HandleGameEvent'/>

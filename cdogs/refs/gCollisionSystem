@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='61' type='CollisionSystem'/>
+<use f='codebrowser/src/cdogs.c' l='248' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='303' u='a' c='main'/>
+<use f='codebrowser/src/cdogs/actors.c' l='886' u='m' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='271' u='m' c='IsTileWalkableAroundObjects'/>
+<def f='codebrowser/src/cdogs/collision/collision.c' l='122' type='CollisionSystem'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='267' u='m' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='298' u='m' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='302' u='m' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='308' u='m' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='308' u='m' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/config_apply.c' l='40' u='a' c='ConfigApply'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1352' u='a' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1405' u='a' c='main'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='151' type='const char * StrGetFileExt(const char * filename)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='268' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='269' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='48' u='c' c='MapNewScan'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='49' u='c' c='MapNewScan'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='134' u='c' c='MapNewLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='135' u='c' c='MapNewLoad'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='130' u='c' c='SoundLoad'/>
+<def f='codebrowser/src/cdogs/utils.c' l='74' ll='82' type='const char * StrGetFileExt(const char * filename)'/>
+<doc f='codebrowser/src/cdogs/utils.c' l='70'>// From answer by ThiefMaster
+// http://stackoverflow.com/a/5309508/2038264
+// License: http://creativecommons.org/licenses/by-sa/3.0/
+// Author profile: http://stackoverflow.com/users/298479/thiefmaster</doc>

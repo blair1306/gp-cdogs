@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3314' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16487' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17120' u='r' c='nk_panel_get_border'/>
+<offset>4928</offset>

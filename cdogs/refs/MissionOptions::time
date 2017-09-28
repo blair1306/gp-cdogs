@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='221' type='int'/>
+<offset>384</offset>
+<use f='codebrowser/src/briefing_screens.c' l='498' u='r' c='GetTimeBonus'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='119' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='672' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='124' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='235' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='244' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='877' u='r' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='934' u='r' c='DrawMissionTime'/>
+<use f='codebrowser/src/cdogs/mission.c' l='381' u='w' c='MissionBegin'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='335' u='r' c='OnReceive'/>
+<use f='codebrowser/src/game.c' l='473' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='623' u='w' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='690' u='r' c='CheckMissionCompletion'/>

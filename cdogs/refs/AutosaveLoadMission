@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/autosave.h' l='62' type='void AutosaveLoadMission(Autosave * autosave, MissionSave * mission, const char * path)'/>
+<def f='codebrowser/src/autosave.c' l='256' ll='266' type='void AutosaveLoadMission(Autosave * autosave, MissionSave * mission, const char * path)'/>
+<use f='codebrowser/src/mainmenu.c' l='385' u='c' c='MenuCreateCampaignItem'/>
+<use f='codebrowser/src/password.c' l='358' u='c' c='EnterPassword'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='97' u='c' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='113' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='135' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='160' u='c' c='_cbehave_feature_mission_autosaves'/>

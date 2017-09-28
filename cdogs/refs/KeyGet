@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='92' type='SDL_Scancode KeyGet(const InputKeys * keys, const key_code_e keyCode)'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='199' ll='221' type='SDL_Scancode KeyGet(const InputKeys * keys, const key_code_e keyCode)'/>
+<use f='codebrowser/src/menu.c' l='839' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1096' u='c' c='KeyAvailable'/>

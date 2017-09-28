@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_keycode.h' l='319' type='0'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='59' u='r' c='KeyInit'/>

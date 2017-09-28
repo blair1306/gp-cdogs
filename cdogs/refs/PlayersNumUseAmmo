@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/player.h' l='99' type='int PlayersNumUseAmmo(const int ammoId)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1069' u='c' c='ActorAddAmmoPickup'/>
+<def f='codebrowser/src/cdogs/player.c' l='402' ll='421' type='int PlayersNumUseAmmo(const int ammoId)'/>
+<doc f='codebrowser/src/cdogs/player.c' l='401'>// Get the number of players that use this ammo</doc>
+<use f='codebrowser/src/cdogs/powerup.c' l='207' u='c' c='AmmoScale'/>

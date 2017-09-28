@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/algorithms.h' l='56' type='_Bool (*)(void *, Vec2i)'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/algorithms.c' l='177' u='r' c='CFloodFill'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='528' u='w' c='MissionStaticTrySetKey'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='333' u='w' c='EditorBrushStartPainting'/>

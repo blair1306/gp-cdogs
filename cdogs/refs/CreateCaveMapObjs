@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_cave.h' l='35' type='UIObject * CreateCaveMapObjs(Vec2i pos, CampaignOptions * co)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1188' u='c' c='CreateEditorObjs'/>
+<def f='codebrowser/src/cdogsed/editor_ui_cave.c' l='63' ll='177' type='UIObject * CreateCaveMapObjs(Vec2i pos, CampaignOptions * co)'/>

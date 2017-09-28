@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2512' type='10'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7080' u='r' c='nk_fill_arc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8533' c='nk_convert'/>

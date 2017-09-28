@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_alloc.h' l='28'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='64' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='42' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='58' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='114' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='107' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='93' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='132' u='c'/>

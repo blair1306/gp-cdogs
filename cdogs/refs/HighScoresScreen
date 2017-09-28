@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/hiscores.h' l='59' type='GameLoopData * HighScoresScreen(CampaignOptions * co, GraphicsDevice * g)'/>
+<use f='codebrowser/src/briefing_screens.c' l='468' u='c' c='MissionSummaryUpdate'/>
+<use f='codebrowser/src/game.c' l='659' u='c' c='NextLoop'/>
+<def f='codebrowser/src/hiscores.c' l='78' ll='87' type='GameLoopData * HighScoresScreen(CampaignOptions * co, GraphicsDevice * g)'/>
+<use f='codebrowser/src/screens_end.c' l='182' u='c' c='PlayerListUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='440' u='c' c='DogfightScoresUpdate'/>

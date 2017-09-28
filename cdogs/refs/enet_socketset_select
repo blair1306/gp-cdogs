@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='505' type='int enet_socketset_select(ENetSocket , ENetSocketSet * , ENetSocketSet * , enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='520' ll='529' type='int enet_socketset_select(ENetSocket maxSocket, ENetSocketSet * readSet, ENetSocketSet * writeSet, enet_uint32 timeout)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='227' u='c' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='220' u='c' c='PollListener'/>

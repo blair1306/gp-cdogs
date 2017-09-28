@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/map.h' l='145' type='Vec2i MapGetExitPos(const Map * m)'/>
+<doc f='codebrowser/src/cdogs/map.h' l='144'>// Returns the center of the tile that&apos;s the middle of the exit area</doc>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='47' u='c' c='PlaceActor'/>
+<use f='codebrowser/src/cdogs/ai.c' l='424' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='503' u='c' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='493' u='c' c='DrawObjectiveCompass'/>
+<def f='codebrowser/src/cdogs/map.c' l='298' ll='302' type='Vec2i MapGetExitPos(const Map * m)'/>

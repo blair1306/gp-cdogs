@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='61' type='Vec2i AIGetClosestPlayerPos(Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='512' u='c' c='Follow'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='176' ll='187' type='Vec2i AIGetClosestPlayerPos(Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='608' u='c' c='AIHuntClosest'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='314'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='306'>/**
+ * Insert the element nep into the ring before the first element
+ *   (..hp.. becomes ..hp..nep..)
+ * @param hp   Head of the ring
+ * @param nep  Element to insert
+ * @param elem The name of the element struct
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

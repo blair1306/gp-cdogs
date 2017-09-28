@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='142' type='Action * WatchAddAction(TWatch * w)'/>
+<use f='codebrowser/src/cdogs/door.c' l='133' u='c' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='193' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='197' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='208' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='226' u='c' c='CreateCloseDoorWatch'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='110' ll='116' type='Action * WatchAddAction(TWatch * w)'/>

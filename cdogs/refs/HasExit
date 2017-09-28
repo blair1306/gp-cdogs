@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='52' type='_Bool HasExit(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='42' u='c' c='PlaceActor'/>
+<use f='codebrowser/src/cdogs/automap.c' l='126' u='c' c='DisplayExit'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='121' ll='124' macro='1' type='_Bool HasExit(const GameMode mode)'/>

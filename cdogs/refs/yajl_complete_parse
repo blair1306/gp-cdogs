@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='189' type='yajl_status yajl_complete_parse(yajl_handle hand)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl.c' l='135' ll='151' type='yajl_status yajl_complete_parse(yajl_handle hand)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='438' u='c' c='yajl_tree_parse'/>

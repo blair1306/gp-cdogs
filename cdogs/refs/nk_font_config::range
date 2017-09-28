@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2104' type='const nk_rune *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10815' u='r' c='nk_font_baker_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10816' u='w' c='nk_font_baker_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10818' u='r' c='nk_font_baker_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10820' u='r' c='nk_font_baker_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10869' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10871' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10919' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10929' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11013' u='r' c='nk_font_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11556' u='w' c='nk_font_config'/>
+<offset>384</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2103'>/* extra pixel spacing between glyphs  */</doc>

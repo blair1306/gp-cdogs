@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config.h' l='47' type='const char * DifficultyStr(int d)'/>
+<def f='codebrowser/src/cdogs/config.c' l='43' ll='55' type='const char * DifficultyStr(int d)'/>
+<use f='codebrowser/src/cdogs/config.c' l='570' u='r' c='ConfigDefault'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2327' type='char * nk_str_at_rune(struct nk_str * , int pos, nk_rune * unicode, int * len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6489' u='c' c='nk_str_insert_at_rune'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6606' u='c' c='nk_str_remove_runes'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6645' u='c' c='nk_str_delete_runes'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6648' u='c' c='nk_str_delete_runes'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6662' ll='6697' macro='1' type='char * nk_str_at_rune(struct nk_str * str, int pos, nk_rune * unicode, int * len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12597' u='c' c='nk_is_word_boundary'/>

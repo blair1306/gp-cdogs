@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1797' type='void nk_color_fv(float * rgba_out, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5478' ll='5482' macro='1' type='void nk_color_fv(float * c, struct nk_color in)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7735' u='c' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7973' u='c' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8263' u='c' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8264' u='c' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8265' u='c' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8266' u='c' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8364' u='c' c='nk_draw_list_push_rect_uv'/>

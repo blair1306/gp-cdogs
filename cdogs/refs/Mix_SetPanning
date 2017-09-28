@@ -1,0 +1,26 @@
+<dec f='include/SDL2/SDL_mixer.h' l='375' type='int Mix_SetPanning(int channel, Uint8 left, Uint8 right)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='350'>/* Set the panning of a channel. The left and right channels are specified
+ *  as integers between 0 and 255, quietest to loudest, respectively.
+ *
+ * Technically, this is just individual volume control for a sample with
+ *  two (stereo) channels, so it can be used for more than just panning.
+ *  If you want real panning, call it like this:
+ *
+ *   Mix_SetPanning(channel, left, 255 - left);
+ *
+ * ...which isn&apos;t so hard.
+ *
+ * Setting (channel) to MIX_CHANNEL_POST registers this as a posteffect, and
+ *  the panning will be done to the final mixed stream before passing it on
+ *  to the audio device.
+ *
+ * This uses the Mix_RegisterEffect() API internally, and returns without
+ *  registering the effect function if the audio device is not configured
+ *  for stereo output. Setting both (left) and (right) to 255 causes this
+ *  effect to be unregistered, since that is the data&apos;s normal state.
+ *
+ * returns zero if error (no such channel or Mix_RegisterEffect() fails),
+ *  nonzero if panning effect enabled. Note that an audio device in mono
+ *  mode is a no-op, but this call will return successful in that case.
+ *  Error messages can be retrieved from Mix_GetError().
+ */</doc>

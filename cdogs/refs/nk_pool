@@ -1,0 +1,10 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3674' ll='3683'/>
+<size>72</size>
+<mbr r='nk_pool::alloc' o='0' t='struct nk_allocator'/>
+<mbr r='nk_pool::type' o='192' t='enum nk_allocation_type'/>
+<mbr r='nk_pool::page_count' o='224' t='unsigned int'/>
+<mbr r='nk_pool::pages' o='256' t='struct nk_page *'/>
+<mbr r='nk_pool::freelist' o='320' t='struct nk_page_element *'/>
+<mbr r='nk_pool::capacity' o='384' t='unsigned int'/>
+<mbr r='nk_pool::size' o='448' t='nk_size'/>
+<mbr r='nk_pool::cap' o='512' t='nk_size'/>

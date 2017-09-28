@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/config.h' l='132' type='5'/>
+<use f='codebrowser/src/cdogs/config.c' l='271' u='r' c='ConfigNewGroup'/>
+<use f='codebrowser/src/cdogs/config.c' l='290' u='r' c='ConfigDestroy'/>
+<use f='codebrowser/src/cdogs/config.c' l='301' u='r' c='ConfigGroupAdd'/>
+<use f='codebrowser/src/cdogs/config.c' l='301' u='r' c='ConfigGroupAdd'/>
+<use f='codebrowser/src/cdogs/config.c' l='322' u='r' c='ConfigGet'/>
+<use f='codebrowser/src/cdogs/config.c' l='362' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='399' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='433' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='467' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='511' u='r' c='ConfigGetGroup'/>
+<use f='codebrowser/src/cdogs/config.c' l='511' u='r' c='ConfigGetGroup'/>
+<use f='codebrowser/src/cdogs/config.c' l='549' c='ConfigTrySetFromString'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='147' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='233' c='ConfigSaveVisit'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='136' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='579' c='SendConfig'/>
+<use f='codebrowser/src/command_line.c' l='263' u='r' c='PrintConfig'/>
+<use f='codebrowser/src/menu.c' l='405' u='r' c='MenuCreateConfigOptions'/>
+<use f='codebrowser/src/menu.c' l='405' u='r' c='MenuCreateConfigOptions'/>
+<use f='codebrowser/src/menu.c' l='457' c='MenuAddConfigOptionsItem'/>

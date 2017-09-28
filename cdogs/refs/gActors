@@ -1,0 +1,51 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='170' type='CArray'/>
+<doc f='codebrowser/src/cdogs/actors.h' l='162'>// Store all actors in-line in an array
+// Destroying actors does not modify the array, only switches
+// a boolean flag isInUse to denote whether this instance is
+// in use.
+// Actors should be identified by index
+// There is a small chance of invalidating pointers if
+// actors are added and the array must be resized.
+// Therefore do not hold actor pointers and reuse.</doc>
+<doc f='codebrowser/src/cdogs/actors.h' l='170'>// of TActor</doc>
+<def f='codebrowser/src/cdogs/actors.c' l='96' type='CArray'/>
+<use f='codebrowser/src/cdogs/actors.c' l='248' u='a' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='508' u='a' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='868' u='m' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='868' u='a' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='898' u='a' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1127' u='a' c='ActorsInit'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1128' u='a' c='ActorsInit'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1133' u='m' c='ActorsTerminate'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1133' u='a' c='ActorsTerminate'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1137' u='a' c='ActorsTerminate'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1147' u='m' c='ActorsGetFreeIndex'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1147' u='a' c='ActorsGetFreeIndex'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1153' u='m' c='ActorsGetFreeIndex'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1167' u='m' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1171' u='a' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1173' u='a' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1293' u='m' c='ActorGetByUID'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1293' u='a' c='ActorGetByUID'/>
+<use f='codebrowser/src/cdogs/ai.c' l='325' u='m' c='AICommand'/>
+<use f='codebrowser/src/cdogs/ai.c' l='325' u='a' c='AICommand'/>
+<use f='codebrowser/src/cdogs/ai.c' l='518' u='m' c='AICommandLast'/>
+<use f='codebrowser/src/cdogs/ai.c' l='518' u='a' c='AICommandLast'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='683' u='m' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='683' u='a' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='91' u='m' c='AIGetClosestActor'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='91' u='a' c='AIGetClosestActor'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='475' u='a' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='274' u='a' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='312' u='a' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='395' u='a' c='DrawChatter'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='134' u='a' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/los.c' l='209' u='a' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/mission.c' l='314' u='m' c='ObjectiveActorsAlive'/>
+<use f='codebrowser/src/cdogs/mission.c' l='314' u='a' c='ObjectiveActorsAlive'/>
+<use f='codebrowser/src/cdogs/mission.c' l='494' u='m' c='MoreRescuesNeeded'/>
+<use f='codebrowser/src/cdogs/mission.c' l='494' u='a' c='MoreRescuesNeeded'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='429' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='429' u='a' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='242' u='a' c='CanHit'/>
+<use f='codebrowser/src/cdogs/tile.c' l='140' u='a' c='ThingIdGetTileItem'/>

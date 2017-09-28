@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='83' type='int'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='106' u='r' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='168' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='253' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='256' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='257' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='259' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='377' u='r' c='FireGuns'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='880' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='411' u='r' c='HandleGameEvent'/>

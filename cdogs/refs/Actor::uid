@@ -1,0 +1,45 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='124' type='int'/>
+<offset>992</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='124'>// unique ID across all actors</doc>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='38' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='53' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actors.c' l='219' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='237' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='241' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='248' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='429' u='r' c='OnMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='514' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='658' u='r' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='687' u='r' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/actors.c' l='706' u='r' c='ActorTryShoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='733' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='753' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='766' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='806' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='816' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='826' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='852' u='r' c='SlideActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='909' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='913' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1047' u='r' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1175' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1177' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1177' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1294' u='r' c='ActorGetByUID'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='280' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='283' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='578' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='475' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/damage.c' l='58' u='r' c='CanHitCharacter'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='373' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='435' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='340' u='r' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='350' u='r' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='144' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='180' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='258' u='r' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='271' u='r' c='TryPickupGun'/>
+<use f='codebrowser/src/game.c' l='93' u='r' c='PlayerSpecialCommands'/>
+<use f='codebrowser/src/game.c' l='584' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='590' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='590' u='r' c='RunGameUpdate'/>

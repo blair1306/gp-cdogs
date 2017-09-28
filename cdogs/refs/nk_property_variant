@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='15447' ll='15453'/>
+<size>40</size>
+<mbr r='nk_property_variant::kind' o='0' t='enum nk_property_kind'/>
+<mbr r='nk_property_variant::value' o='64' t='union nk_property'/>
+<mbr r='nk_property_variant::min_value' o='128' t='union nk_property'/>
+<mbr r='nk_property_variant::max_value' o='192' t='union nk_property'/>
+<mbr r='nk_property_variant::step' o='256' t='union nk_property'/>

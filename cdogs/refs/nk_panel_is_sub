@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17144' ll='17148' macro='1' type='int nk_panel_is_sub(enum nk_panel_type type)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17400' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17464' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17492' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17631' u='c' c='nk_panel_end'/>

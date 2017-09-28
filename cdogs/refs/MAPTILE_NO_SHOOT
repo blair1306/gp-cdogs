@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='75' type='4'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='501' u='r' c='CheckWall'/>
+<use f='codebrowser/src/cdogs/door.c' l='56' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='56' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='169' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/particle.c' l='375' u='r' c='CheckWall'/>

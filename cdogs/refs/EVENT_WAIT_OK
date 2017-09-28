@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/events.h' l='72' type='1'/>
+<use f='codebrowser/src/briefing_screens.c' l='92' u='r' c='CampaignIntroUpdate'/>
+<use f='codebrowser/src/briefing_screens.c' l='232' u='r' c='MissionBriefingOnExit'/>
+<use f='codebrowser/src/briefing_screens.c' l='263' u='r' c='MissionBriefingInput'/>
+<use f='codebrowser/src/briefing_screens.c' l='279' u='r' c='MissionBriefingUpdate'/>
+<use f='codebrowser/src/briefing_screens.c' l='301' u='r' c='MissionBriefingUpdate'/>
+<use f='codebrowser/src/cdogs/events.c' l='548' u='r' c='WaitResult'/>
+<use f='codebrowser/src/prep.c' l='355' u='r' c='PlayerSelectionOnExit'/>
+<use f='codebrowser/src/prep.c' l='389' u='r' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='447' u='r' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='830' u='r' c='PlayerEquipOnExit'/>
+<use f='codebrowser/src/prep.c' l='865' u='r' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='911' u='r' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='918' u='r' c='PlayerEquipUpdate'/>

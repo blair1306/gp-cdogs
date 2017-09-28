@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='7564' ll='7570' type='int nk_draw_vertex_layout_element_is_end_of_layout(const struct nk_draw_vertex_layout_element * element)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7699' u='c' c='nk_draw_vertex'/>

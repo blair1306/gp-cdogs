@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/XGetopt.c' l='63' type='2'/>
+<use f='codebrowser/src/XGetopt.c' l='297' u='r' c='getnextopt'/>
+<use f='codebrowser/src/XGetopt.c' l='339' u='r' c='getnextopt'/>
+<use f='codebrowser/src/XGetopt.c' l='355' u='r' c='getnextopt'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='56' type='NMissionComplete NMakeMissionComplete(const struct MissionOptions * mo, const Map * map)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='288' u='c' c='MissionSetMessageIfComplete'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='552' u='c' c='NetServerSendGameStartMessages'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='94' ll='102' type='NMissionComplete NMakeMissionComplete(const struct MissionOptions * mo, const Map * map)'/>

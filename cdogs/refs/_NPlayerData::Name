@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='369' type='char [20]'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/net_util.c' l='66' u='r' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='72' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='139' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='148' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='157' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='166' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='175' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='185' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='75'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='75'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='76' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='76' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='75'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='75'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='76' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='76' u='r'/>

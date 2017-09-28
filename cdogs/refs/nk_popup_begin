@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1611' type='int nk_popup_begin(struct nk_context * , enum nk_popup_type , const char * , nk_flags , struct nk_rect bounds)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21524' ll='21619' macro='1' type='int nk_popup_begin(struct nk_context * ctx, enum nk_popup_type type, const char * title, nk_flags flags, struct nk_rect rect)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21777' u='c' c='nk_tooltip_begin'/>

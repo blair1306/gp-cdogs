@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='84' type='int'/>
+<offset>288</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='256' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='262' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='262' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='266' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='286' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='290' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='290' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='290' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='881' u='w' c='BulletAdd'/>

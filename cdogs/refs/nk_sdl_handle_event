@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='20' type='int nk_sdl_handle_event(SDL_Event * evt)'/>
+<def f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='233' ll='329' macro='1' type='int nk_sdl_handle_event(SDL_Event * evt)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='336' u='c' c='HandleEvents'/>

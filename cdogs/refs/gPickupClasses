@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='68' type='PickupClasses'/>
+<use f='codebrowser/src/cdogs.c' l='245' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='291' u='a' c='main'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='58' u='m' c='CampaignSettingInit'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='80' u='m' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='81' u='m' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='134' u='m' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='136' u='m' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='138' u='m' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='139' u='m' c='MapNewLoadArchive'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='38' type='PickupClasses'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='57' u='m' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='57' u='m' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='63' u='m' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='63' u='m' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='69' u='m' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='69' u='m' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='123' u='m' c='KeyPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='123' u='m' c='KeyPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='150' u='m' c='StrPickupClassId'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='150' u='m' c='StrPickupClassId'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='153' u='m' c='StrPickupClassId'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='156' u='m' c='StrPickupClassId'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='156' u='m' c='StrPickupClassId'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='338' u='m' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='338' u='m' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='348' u='m' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='348' u='m' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='380' u='m' c='IntScorePickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='380' u='m' c='IntScorePickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='390' u='m' c='IntScorePickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='390' u='m' c='IntScorePickupClass'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1349' u='a' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1396' u='a' c='main'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='536' u='a' c='MissionChangeCollectObjectiveIndex'/>

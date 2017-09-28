@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/color.h' l='113' type='color_t ColorTint(color_t c, HSV hsv)'/>
+<doc f='codebrowser/src/cdogs/color.h' l='109'>// Multiply by HSV components; used for tinting
+// h: hue, if &gt;= 0 then the hue is forced to be this value
+// s: saturation, where all RGB components are shifted towards the average value
+// v: scale factor on the final components</doc>
+<use f='codebrowser/src/cdogs/blit.c' l='166' u='c' c='BlitBackground'/>
+<def f='codebrowser/src/cdogs/color.c' l='113' ll='194' type='color_t ColorTint(color_t c, HSV hsv)'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='201' u='c' c='DrawPointTint'/>
+<use f='codebrowser/src/cdogs/files.c' l='294' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='295' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='296' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='297' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='298' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='106' u='c' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='186' u='c' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='547' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/tests/color_test.c' l='134' u='c' c='_cbehave_feature_ColorTint'/>
+<use f='codebrowser/src/tests/color_test.c' l='153' u='c' c='_cbehave_feature_ColorTint'/>
+<use f='codebrowser/src/tests/color_test.c' l='173' u='c' c='_cbehave_feature_ColorTint'/>
+<use f='codebrowser/src/tests/color_test.c' l='193' u='c' c='_cbehave_feature_ColorTint'/>

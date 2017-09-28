@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='500'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='490'>/**
+ * Dump all ring pointers to STDERR, starting with the given element and
+ * looping all the way around the ring back to that element.  Aborts if
+ * an inconsistency is found.
+ *   (This is a no-op unless APR_RING_DEBUG is defined.)
+ * @param ep   The element
+ * @param elem The name of the element struct
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ * @param msg  Descriptive message
+ */</doc>

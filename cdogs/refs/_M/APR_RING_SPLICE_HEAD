@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='289'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='280'>/**
+ * Splice the sequence ep1..epN into the ring before the first element
+ *   (..hp.. becomes ..hp..ep1..epN..)
+ * @param hp   Head of the ring
+ * @param ep1  First element in the sequence to splice in
+ * @param epN  Last element in the sequence to splice in
+ * @param elem The name of the element struct
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

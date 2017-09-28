@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='79' type='NamedPic * PicManagerGetExitPic(PicManager * pm, const char * style, const _Bool isShadow)'/>
+<use f='codebrowser/src/cdogs/map.c' l='270' u='c' c='MapShowExitArea'/>
+<use f='codebrowser/src/cdogs/map.c' l='272' u='c' c='MapShowExitArea'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='588' ll='594' type='NamedPic * PicManagerGetExitPic(PicManager * pm, const char * style, const _Bool isShadow)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='488' u='c' c='MissionDrawExitStyle'/>

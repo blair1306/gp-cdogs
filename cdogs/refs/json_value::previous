@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/json/json.h' l='97' type='struct json_value *'/>
+<offset>192</offset>
+<doc f='codebrowser/src/json/json.h' l='97'>/*!&lt; The pointer pointing to the previous element in the FIFO sibling list */</doc>
+<use f='codebrowser/src/json/json.c' l='254' u='w' c='json_new_value'/>
+<use f='codebrowser/src/json/json.c' l='289' u='w' c='json_new_string'/>
+<use f='codebrowser/src/json/json.c' l='321' u='w' c='json_new_number'/>
+<use f='codebrowser/src/json/json.c' l='378' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='380' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='381' u='w' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='381' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='385' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='387' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='391' u='w' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='414' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='416' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='535' u='w' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='599' u='r' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='826' u='r' c='json_stream_output'/>

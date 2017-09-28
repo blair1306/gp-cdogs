@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/files.h' l='226' type='_Bool mkdir_deep(const char * path)'/>
+<def f='codebrowser/src/cdogs/files.c' l='601' ll='622' macro='1' type='_Bool mkdir_deep(const char * path)'/>
+<use f='codebrowser/src/cdogs/files.c' l='630' u='c' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='280' u='c' c='MapArchiveSave'/>

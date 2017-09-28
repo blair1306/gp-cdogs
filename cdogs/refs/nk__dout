@@ -1,0 +1,23 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11400' macro='1' type='unsigned char *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11406' u='r' c='nk__match'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11407' u='r' c='nk__match'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11407' u='w' c='nk__match'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11408' u='w' c='nk__match'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11409' u='w' c='nk__match'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11415' u='r' c='nk__lit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11416' u='r' c='nk__lit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11416' u='w' c='nk__lit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11417' u='w' c='nk__lit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11418' u='r' c='nk__lit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11419' u='w' c='nk__lit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11430' u='r' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11431' u='r' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11434' u='r' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11435' u='r' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11438' u='r' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11439' u='r' c='nk_decompress_token'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11488' u='w' c='nk_decompress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11494' u='r' c='nk_decompress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11495' u='r' c='nk_decompress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11504' u='r' c='nk_decompress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11505' u='r' c='nk_decompress'/>

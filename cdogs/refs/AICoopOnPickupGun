@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/ai_coop.h' l='36' type='void AICoopOnPickupGun(TActor * a, const int gunId)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1015' u='c' c='CheckManualPickupFunc'/>
+<def f='codebrowser/src/cdogs/ai_coop.c' l='931' ll='936' type='void AICoopOnPickupGun(TActor * a, const int gunId)'/>

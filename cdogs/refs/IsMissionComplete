@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='249' type='_Bool IsMissionComplete(const struct MissionOptions * options)'/>
+<def f='codebrowser/src/cdogs/mission.c' l='422' ll='455' macro='1' type='_Bool IsMissionComplete(const struct MissionOptions * mo)'/>
+<use f='codebrowser/src/game.c' l='678' u='c' c='CheckMissionCompletion'/>

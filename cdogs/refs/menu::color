@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='129' type='color_t'/>
+<offset>200</offset>
+<use f='codebrowser/src/mainmenu.c' l='389' u='w' c='MenuCreateCampaignItem'/>
+<use f='codebrowser/src/mainmenu.c' l='394' u='w' c='MenuCreateCampaignItem'/>
+<use f='codebrowser/src/menu.c' l='768' u='r' c='MenuDisplaySubmenus'/>

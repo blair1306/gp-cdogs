@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3404' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18675' u='r' c='nk_row_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19158' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19707' u='r' c='nk_spacing'/>

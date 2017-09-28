@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='62' type='int MapIsLessThanTwoWallOverlaps(Map * map, Vec2i pos, Vec2i size)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='803' ll='877' type='int MapIsLessThanTwoWallOverlaps(Map * map, Vec2i pos, Vec2i size)'/>
+<doc f='codebrowser/src/cdogs/map_build.c' l='802'>// Check that this area does not overlap two or more &quot;walls&quot;</doc>
+<use f='codebrowser/src/cdogs/map_classic.c' l='361' u='c' c='MapTryBuildPillar'/>

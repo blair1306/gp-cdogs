@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_scancode.h' l='45' type='0'/>
+<use f='codebrowser/src/cdogs/events.c' l='493' u='r' c='GetKey'/>
+<use f='codebrowser/src/cdogs/events.c' l='499' u='r' c='GetKey'/>
+<use f='codebrowser/src/cdogs/events.c' l='505' u='r' c='EventWaitKeyOrText'/>
+<use f='codebrowser/src/cdogs/events.c' l='511' u='r' c='EventWaitKeyOrText'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='219' u='r' c='KeyGet'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='976' u='r' c='HandleInput'/>
+<use f='codebrowser/src/menu.c' l='842' u='r' c='MenuDisplaySubmenus'/>

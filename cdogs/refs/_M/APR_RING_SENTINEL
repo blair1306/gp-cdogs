@@ -1,0 +1,63 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='162'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='100'>/**
+ * The Ring Sentinel
+ *
+ * This is the magic pointer value that occurs before the first and
+ * after the last elements in the ring, computed from the address of
+ * the ring&apos;s head.  The head itself isn&apos;t an element, but in order to
+ * get rid of all the special cases when dealing with the ends of the
+ * ring, we play typecasting games to make it look like one.
+ *
+ * Here is a diagram to illustrate the arrangements of the next and
+ * prev pointers of each element in a single ring. Note that they point
+ * to the start of each element, not to the APR_RING_ENTRY structure.
+ *
+ * &lt;pre&gt;
+ *     +-&gt;+------+&lt;-+  +-&gt;+------+&lt;-+  +-&gt;+------+&lt;-+
+ *     |  |struct|  |  |  |struct|  |  |  |struct|  |
+ *    /   | elem |   \/   | elem |   \/   | elem |  \
+ * ...    |      |   /\   |      |   /\   |      |   ...
+ *        +------+  |  |  +------+  |  |  +------+
+ *   ...--|prev  |  |  +--|ring  |  |  +--|prev  |
+ *        |  next|--+     | entry|--+     |  next|--...
+ *        +------+        +------+        +------+
+ *        | etc. |        | etc. |        | etc. |
+ *        :      :        :      :        :      :
+ * &lt;/pre&gt;
+ *
+ * The APR_RING_HEAD is nothing but a bare APR_RING_ENTRY. The prev
+ * and next pointers in the first and last elements don&apos;t actually
+ * point to the head, they point to a phantom place called the
+ * sentinel. Its value is such that last-&gt;next-&gt;next == first because
+ * the offset from the sentinel to the head&apos;s next pointer is the same
+ * as the offset from the start of an element to its next pointer.
+ * This also works in the opposite direction.
+ *
+ * &lt;pre&gt;
+ *        last                            first
+ *     +-&gt;+------+&lt;-+  +-&gt;sentinel&lt;-+  +-&gt;+------+&lt;-+
+ *     |  |struct|  |  |            |  |  |struct|  |
+ *    /   | elem |   \/              \/   | elem |  \
+ * ...    |      |   /\              /\   |      |   ...
+ *        +------+  |  |  +------+  |  |  +------+
+ *   ...--|prev  |  |  +--|ring  |  |  +--|prev  |
+ *        |  next|--+     |  head|--+     |  next|--...
+ *        +------+        +------+        +------+
+ *        | etc. |                        | etc. |
+ *        :      :                        :      :
+ * &lt;/pre&gt;
+ *
+ * Note that the offset mentioned above is different for each kind of
+ * ring that the element may be on, and each kind of ring has a unique
+ * name for its APR_RING_ENTRY in each element, and has its own type
+ * for its APR_RING_HEAD.
+ *
+ * Note also that if the offset is non-zero (which is required if an
+ * element has more than one APR_RING_ENTRY), the unreality of the
+ * sentinel may have bad implications on very perverse implementations
+ * of C -- see the warning in APR_RING_ENTRY.
+ *
+ * @param hp   The head of the ring
+ * @param elem The name of the element struct
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

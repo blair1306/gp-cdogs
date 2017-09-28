@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_mouse.h' l='281'/>
+<use f='codebrowser/src/cdogs/events.c' l='249' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='965' u='c'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='307' u='c'/>

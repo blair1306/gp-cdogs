@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='64' type='Vec2i MouseWheel(const Mouse * m)'/>
+<doc f='codebrowser/src/cdogs/mouse.h' l='63'>// Get wheel movement since last poll</doc>
+<use f='codebrowser/src/cdogs/events.c' l='243' u='c' c='GetMouseCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='244' u='c' c='GetMouseCmd'/>
+<def f='codebrowser/src/cdogs/mouse.c' l='165' ll='168' type='Vec2i MouseWheel(const Mouse * m)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='821' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='868' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='873' u='c' c='HandleInput'/>

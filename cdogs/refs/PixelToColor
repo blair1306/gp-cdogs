@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/pic.h' l='41' type='color_t PixelToColor(const SDL_PixelFormat * f, const Uint8 aShift, const Uint32 pixel)'/>
+<use f='codebrowser/src/cdogs/blit.c' l='114' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/blit.c' l='119' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/blit.c' l='165' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/blit.c' l='327' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/blit.c' l='388' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/blit.c' l='392' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='400' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='80' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='182' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='200' macro='1' u='c'/>
+<def f='codebrowser/src/cdogs/pic.c' l='38' ll='46' type='color_t PixelToColor(const SDL_PixelFormat * f, const Uint8 aShift, const Uint32 pixel)'/>
+<use f='codebrowser/src/cdogs/pic.c' l='167' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/pic.c' l='170' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/pic.c' l='173' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/pic.c' l='176' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='131' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='518' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='807' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1038' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='107' macro='1' u='c'/>
+<use f='codebrowser/src/player_select_menus.c' l='220' macro='1' u='c'/>
+<use f='codebrowser/src/player_select_menus.c' l='254' macro='1' u='c'/>
+<use f='codebrowser/src/player_select_menus.c' l='295' macro='1' u='c'/>
+<use f='codebrowser/src/tests/pic_test.c' l='69' macro='1' u='c'/>

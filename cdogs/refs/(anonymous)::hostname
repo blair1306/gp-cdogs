@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='46' type='char [32]'/>
+<offset>96</offset>
+<doc f='codebrowser/src/cdogs/net_server.h' l='45'>// Cache our hostname as it&apos;s potentially very slow to get</doc>
+<use f='codebrowser/src/cdogs/net_server.c' l='89' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='89' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='92' u='w' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='243' u='r' c='PollListener'/>

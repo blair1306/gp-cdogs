@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_mixer.h' l='81' type='int Mix_Init(int flags)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='77'>/* Loads dynamic libraries and prepares them for use.  Flags should be
+   one or more flags from MIX_InitFlags OR&apos;d together.
+   It returns the flags successfully initialized, or 0 on failure.
+ */</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='283' u='c' c='SoundTerminate'/>

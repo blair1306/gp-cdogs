@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='118' type='_Bool'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/files.c' l='426' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='444' u='r' c='SaveRooms'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='187' u='r' c='MapIsAreaClearForClassicRoom'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='487' u='a' c='LoadRooms'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='48' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='91' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='312' u='w' c='RandomRoomParams'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='263' u='r' c='MissionDrawEdgeRooms'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='728' u='w' c='MissionChangeEdgeRooms'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='729' u='r' c='MissionChangeEdgeRooms'/>

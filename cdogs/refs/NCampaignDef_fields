@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='673' type='const pb_field_t [4]'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='58' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='58' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='58' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='58' u='r'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='463' u='r' c='OnReceive'/>
+<def f='codebrowser/src/cdogs/proto/msg.pb.c' l='45' ll='50' type='const pb_field_t [4]'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/json/json.h' l='124' type='int (*)(void)'/>
+<offset>0</offset>
+<use f='codebrowser/src/json/json.c' l='2934' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='2935' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3496' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3511' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3526' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3645' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3663' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3797' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3816' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4015' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4029' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4134' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4135' u='r' c='json_saxy_parse'/>

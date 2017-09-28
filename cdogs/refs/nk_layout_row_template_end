@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1334' type='void nk_layout_row_template_end(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18913' ll='18963' macro='1' type='void nk_layout_row_template_end(struct nk_context * ctx)'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='97' type='int'/>
+<offset>960</offset>
+<use f='codebrowser/src/cdogs/grafx.c' l='82' u='w' c='Gfx_ModePrev'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='83' u='r' c='Gfx_ModePrev'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='85' u='w' c='Gfx_ModePrev'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='87' u='r' c='Gfx_ModePrev'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='93' u='w' c='Gfx_ModeNext'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='94' u='r' c='Gfx_ModeNext'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='96' u='w' c='Gfx_ModeNext'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='98' u='r' c='Gfx_ModeNext'/>

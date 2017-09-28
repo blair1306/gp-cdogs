@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2888' type='void nk_draw_list_path_clear(struct nk_draw_list * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8081' ll='8089' macro='1' type='void nk_draw_list_path_clear(struct nk_draw_list * list)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8203' u='c' c='nk_draw_list_path_fill'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8216' u='c' c='nk_draw_list_path_stroke'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/player_select_menus.h' l='52' type='ColorMenuData'/>
+<use f='codebrowser/src/player_select_menus.c' l='513' u='a' c='CreateCustomizeMenu'/>
+<offset>1024</offset>

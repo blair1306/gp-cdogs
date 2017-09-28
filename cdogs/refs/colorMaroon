@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/color.h' l='59' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='53' type='color_t'/>
+<use f='codebrowser/src/cdogs/files.c' l='656' u='r' c='RangeToColor'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='100' u='r' c='HealthGaugeDraw'/>

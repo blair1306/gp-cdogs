@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='122' type='void UpdateObjects(const int ticks)'/>
+<def f='codebrowser/src/cdogs/objs.c' l='488' ll='529' type='void UpdateObjects(const int ticks)'/>
+<use f='codebrowser/src/game.c' l='597' u='c' c='RunGameUpdate'/>

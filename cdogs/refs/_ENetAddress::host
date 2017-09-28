@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='91' type='enet_uint32'/>
+<use f='codebrowser/src/cdogs.c' l='267' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='269' u='r' c='main'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='90' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='301' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='301' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1013' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1013' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1015' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1057' u='w' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1057' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='112' u='a' c='enet_address_set_host_ip'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='139' u='w' c='enet_address_set_host'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='180' u='a' c='enet_address_get_host_ip'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='207' u='r' c='enet_address_get_host'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='264' u='r' c='enet_socket_bind'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='286' u='w' c='enet_socket_get_address'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='390' u='r' c='enet_socket_connect'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='415' u='w' c='enet_socket_accept'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='453' u='r' c='enet_socket_send'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='513' u='w' c='enet_socket_receive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='129' u='w' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='338' u='r' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='338' u='r' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='359' u='r' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='359' u='r' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='98' u='w' c='HostOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='129' u='w' c='ListenSocketTryOpen'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2074' type='const nk_rune *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11013' u='w' c='nk_font_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11196' u='r' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11200' u='r' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11203' u='r' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11204' u='r' c='nk_font_find_glyph'/>
+<offset>192</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2073'>/* number of glyphs of this font inside the glyph baking array output */</doc>

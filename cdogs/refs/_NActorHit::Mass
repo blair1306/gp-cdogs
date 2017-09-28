@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='224' type='float'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='549' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='355' u='w' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='235'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='235'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='235'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='235'/>

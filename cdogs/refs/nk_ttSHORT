@@ -1,0 +1,27 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9165' type='nk_short nk_ttSHORT(const nk_byte * p)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9310' u='c' c='nk_tt_FindGlyphIndex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9376' u='c' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9377' u='c' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9378' u='c' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9379' u='c' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9413' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9548' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9549' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9553' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9554' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9564' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9567' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9569' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9571' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9572' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9573' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9574' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9631' u='c' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9633' u='c' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9636' u='c' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9638' u='c' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9646' u='c' c='nk_tt_GetFontVMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9647' u='c' c='nk_tt_GetFontVMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9648' u='c' c='nk_tt_GetFontVMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9654' u='c' c='nk_tt_ScaleForPixelHeight'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9654' u='c' c='nk_tt_ScaleForPixelHeight'/>

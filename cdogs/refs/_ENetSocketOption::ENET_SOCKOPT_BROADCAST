@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='58' type='2'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='64' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='318' c='enet_socket_set_option'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='120' u='r' c='TryScanHost'/>

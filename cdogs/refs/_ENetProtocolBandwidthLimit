@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='120' ll='125'/>
+<size>12</size>
+<mbr r='_ENetProtocolBandwidthLimit::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolBandwidthLimit::incomingBandwidth' o='32' t='enet_uint32'/>
+<mbr r='_ENetProtocolBandwidthLimit::outgoingBandwidth' o='64' t='enet_uint32'/>

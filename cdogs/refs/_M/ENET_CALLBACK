@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/unix.h' l='35'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='12' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='13' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='14' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='123' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='329' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='331' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='333' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='337' u='c'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='340' u='c'/>

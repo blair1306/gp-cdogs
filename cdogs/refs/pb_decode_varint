@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='127' type='_Bool pb_decode_varint(pb_istream_t * stream, uint64_t * dest)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='196' ll='216' macro='1' type='_Bool pb_decode_varint(pb_istream_t * stream, uint64_t * dest)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='935' u='c' c='pb_decode_svarint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='991' u='c' c='pb_dec_varint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1009' u='c' c='pb_dec_uvarint'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='61' type='ASPath ASPathCopy(ASPath path)'/>
+<doc f='codebrowser/src/cdogs/AStar.h' l='59'>// if you want to make a copy of a path result, this function will do the job
+// you must call ASPathDestroy() with the resulting path to clean it up or it will cause a leak</doc>
+<def f='codebrowser/src/cdogs/AStar.c' l='530' ll='541' type='ASPath ASPathCopy(ASPath path)'/>

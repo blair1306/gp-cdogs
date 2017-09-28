@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='68' type='_Bool'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/grafx.c' l='213' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='417' u='r' c='GraphicsConfigSet'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='417' u='w' c='GraphicsConfigSet'/>

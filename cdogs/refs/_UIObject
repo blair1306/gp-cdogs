@@ -1,0 +1,28 @@
+<def f='codebrowser/src/cdogsed/ui_object.h' l='56' ll='112'/>
+<size>224</size>
+<mbr r='_UIObject::Type' o='0' t='UIType'/>
+<mbr r='_UIObject::Id' o='32' t='int'/>
+<mbr r='_UIObject::Id2' o='64' t='int'/>
+<mbr r='_UIObject::Flags' o='96' t='int'/>
+<mbr r='_UIObject::Pos' o='128' t='Vec2i'/>
+<mbr r='_UIObject::Size' o='192' t='Vec2i'/>
+<mbr r='_UIObject::IsVisible' o='256' t='_Bool'/>
+<mbr r='_UIObject::Tooltip' o='320' t='char *'/>
+<mbr r='_UIObject::Parent' o='384' t='struct _UIObject *'/>
+<mbr r='_UIObject::Children' o='448' t='CArray'/>
+<mbr r='_UIObject::Highlighted' o='704' t='struct _UIObject *'/>
+<mbr r='_UIObject::DoNotHighlight' o='768' t='_Bool'/>
+<mbr r='_UIObject::IsBackground' o='776' t='_Bool'/>
+<mbr r='_UIObject::u' o='832' t='union (anonymous union at /home/jon/workspace/cdogs-sdl/src/cdogsed/ui_object.h:72:2)'/>
+<mbr r='_UIObject::Label' o='1152' t='char *'/>
+<mbr r='_UIObject::IsDynamicLabel' o='1216' t='_Bool'/>
+<mbr r='_UIObject::Data' o='1280' t='void *'/>
+<mbr r='_UIObject::IsDynamicData' o='1344' t='int'/>
+<mbr r='_UIObject::ChangeFunc' o='1408' t='void (*)(void *, int)'/>
+<mbr r='_UIObject::ChangeFuncAlt' o='1472' t='void (*)(void *, int)'/>
+<mbr r='_UIObject::ChangeDisablesContext' o='1536' t='_Bool'/>
+<mbr r='_UIObject::ChangesData' o='1544' t='_Bool'/>
+<mbr r='_UIObject::ReloadData' o='1552' t='_Bool'/>
+<mbr r='_UIObject::OnFocusFunc' o='1600' t='void (*)(struct _UIObject *, void *)'/>
+<mbr r='_UIObject::OnUnfocusFunc' o='1664' t='_Bool (*)(void *)'/>
+<mbr r='_UIObject::CheckVisible' o='1728' t='void (*)(struct _UIObject *, void *)'/>

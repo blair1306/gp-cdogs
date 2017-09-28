@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='288' type='enet_uint32'/>
+<offset>1152</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='389' u='w' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='392' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='393' u='w' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='395' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='396' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='425' u='w' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='427' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='428' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='66' u='r' c='enet_peer_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='73' u='r' c='enet_peer_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='74' u='r' c='enet_peer_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='397' u='w' c='enet_peer_reset'/>

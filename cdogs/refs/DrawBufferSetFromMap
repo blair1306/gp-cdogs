@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='69' type='void DrawBufferSetFromMap(DrawBuffer * buffer, Map * map, Vec2i origin, int width)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='347' u='c' c='DoBuffer'/>
+<def f='codebrowser/src/cdogs/draw/draw_buffer.c' l='79' ll='123' type='void DrawBufferSetFromMap(DrawBuffer * buffer, Map * map, Vec2i origin, int width)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='64' u='c' c='GrafxDrawBackground'/>

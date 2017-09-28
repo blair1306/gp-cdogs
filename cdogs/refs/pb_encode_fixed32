@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='137' type='_Bool pb_encode_fixed32(pb_ostream_t * stream, const void * value)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='427' ll='440' macro='1' type='_Bool pb_encode_fixed32(pb_ostream_t * stream, const void * value)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='614' u='c' c='pb_enc_fixed32'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='58' type='void MousePostPoll(Mouse * mouse, Uint32 ticks)'/>
+<use f='codebrowser/src/cdogs/events.c' l='207' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/mouse.c' l='92' ll='136' type='void MousePostPoll(Mouse * mouse, Uint32 ticks)'/>

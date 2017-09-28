@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8769' ll='8863' macro='1' type='struct nk_rp__findresult nk_rp__skyline_find_best_pos(struct nk_rp_context * c, int width, int height)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8869' u='c' c='nk_rp__skyline_pack_rectangle'/>

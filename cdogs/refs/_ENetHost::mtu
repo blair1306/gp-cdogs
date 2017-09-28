@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='365' type='enet_uint32'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='85' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='413' u='r' c='enet_peer_reset'/>

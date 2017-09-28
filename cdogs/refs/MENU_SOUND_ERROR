@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='120' type='4'/>
+<use f='codebrowser/src/menu.c' l='880' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='1152' u='r' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/player_select_menus.c' l='108' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='120' u='r' c='HandleInputNameMenu'/>

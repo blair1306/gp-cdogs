@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='57' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/pickup_class.h' l='57'>// Refer to flags in mission.h</doc>
+<use f='codebrowser/src/cdogs/automap.c' l='302' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='195' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='308' u='w' c='PickupClassesLoadKeys'/>

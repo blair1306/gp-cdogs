@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='577' type='void enet_peer_ping_interval(ENetPeer * , enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='457' ll='461' type='void enet_peer_ping_interval(ENetPeer * peer, enet_uint32 pingInterval)'/>
+<doc f='codebrowser/src/cdogs/enet/peer.c' l='448'>/** Sets the interval at which pings will be sent to a peer. 
+    
+    Pings are used both to monitor the liveness of the connection and also to dynamically
+    adjust the throttle during periods of low traffic so that the throttle has reasonable
+    responsiveness during traffic spikes.
+
+    @param peer the peer to adjust
+    @param pingInterval the interval at which to send pings; defaults to ENET_PEER_PING_INTERVAL if 0
+*/</doc>

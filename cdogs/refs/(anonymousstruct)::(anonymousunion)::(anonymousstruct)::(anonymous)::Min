@@ -1,0 +1,42 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='168' type='int'/>
+<dec f='codebrowser/src/cdogs/mission.h' l='174' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/files.c' l='430' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='455' u='r' c='SaveClassicPillars'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='463' u='r' c='SaveClassicDoors'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='107' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='107' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='107' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='107' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='314' u='r' c='MapTryBuildPillar'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='502' u='a' c='LoadClassicPillars'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='514' u='a' c='LoadClassicDoors'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='55' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='58' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='247' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='250' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='251' u='r' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='333' u='r' c='MissionGetDoorMinStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='360' u='r' c='MissionGetPillarMinStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='772' u='w' c='MissionChangeDoorMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='773' u='r' c='MissionChangeDoorMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='773' u='r' c='MissionChangeDoorMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='773' u='r' c='MissionChangeDoorMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='773' u='r' c='MissionChangeDoorMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='775' u='r' c='MissionChangeDoorMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='775' u='r' c='MissionChangeDoorMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='783' u='w' c='MissionChangeDoorMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='784' u='r' c='MissionChangeDoorMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='784' u='r' c='MissionChangeDoorMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='796' u='w' c='MissionChangePillarMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='797' u='r' c='MissionChangePillarMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='797' u='r' c='MissionChangePillarMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='797' u='r' c='MissionChangePillarMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='797' u='r' c='MissionChangePillarMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='799' u='r' c='MissionChangePillarMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='799' u='r' c='MissionChangePillarMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='807' u='w' c='MissionChangePillarMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='808' u='r' c='MissionChangePillarMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='808' u='r' c='MissionChangePillarMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='83' u='w' c='InsertMission'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='84' u='w' c='InsertMission'/>

@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_surface.h' l='72' type='SDL_PixelFormat *'/>
+<offset>64</offset>
+<doc f='include/SDL2/SDL_surface.h' l='72'>/**&lt; Read-only */</doc>
+<use f='codebrowser/src/cdogs/font.c' l='65' u='r' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/pic.c' l='69' u='r' c='PicLoad'/>

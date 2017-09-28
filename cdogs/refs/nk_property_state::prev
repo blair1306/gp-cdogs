@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3514' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17648' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17652' u='w' c='nk_panel_end'/>
+<offset>32</offset>

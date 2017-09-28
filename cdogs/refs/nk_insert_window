@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17920' ll='17964' macro='1' type='void nk_insert_window(struct nk_context * ctx, struct nk_window * win, enum nk_window_insert_location loc)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18034' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18035' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18130' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18505' u='c' c='nk_window_set_focus'/>

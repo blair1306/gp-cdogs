@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/powerup.h' l='48' type='void PowerupSpawnerUpdate(PowerupSpawner * p, const int ticks)'/>
+<def f='codebrowser/src/cdogs/powerup.c' l='58' ll='95' type='void PowerupSpawnerUpdate(PowerupSpawner * p, const int ticks)'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='149' u='c' c='HealthSpawnerInit'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='201' u='c' c='AmmoSpawnerInit'/>
+<use f='codebrowser/src/game.c' l='603' u='c' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='605' u='c' c='RunGameUpdate'/>

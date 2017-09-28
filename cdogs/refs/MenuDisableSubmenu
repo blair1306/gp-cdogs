@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/menu.h' l='258' type='void MenuDisableSubmenu(menu_t * menu, int index)'/>
+<use f='codebrowser/src/mainmenu.c' l='278' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/mainmenu.c' l='281' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/mainmenu.c' l='496' u='c' c='CheckLANServers'/>
+<def f='codebrowser/src/menu.c' l='244' ll='249' type='void MenuDisableSubmenu(menu_t * menu, int idx)'/>
+<use f='codebrowser/src/weapon_menu.c' l='75' u='c' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='101' u='c' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='223' u='c' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='236' u='c' c='WeaponMenuCreate'/>

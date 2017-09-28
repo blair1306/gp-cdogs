@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='175' type='2'/>
+<use f='codebrowser/src/cdogs/events.c' l='289' c='GetGameCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='313' c='GetOnePlayerCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='385' u='r' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='435' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='475' c='InputGetDirectionNames'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='251' u='r' c='GameIsMouseUsed'/>
+<use f='codebrowser/src/cdogs/utils.c' l='397' c='InputDeviceName'/>
+<use f='codebrowser/src/menu_utils.c' l='107' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/prep.c' l='281' u='r' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/tests/player_test.c' l='124' u='r' c='_cbehave_feature_assign_unused'/>

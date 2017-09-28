@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='80' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogsed/ui_object.h' l='80'>// Buffer should hold MaxLen + 1</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1385' u='w' c='CreateMissionObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='73' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='435' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='310' u='r' c='UIObjectAddChar'/>

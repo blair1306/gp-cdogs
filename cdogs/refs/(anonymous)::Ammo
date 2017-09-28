@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='45' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/ammo.h' l='45'>// of Ammo</doc>
+<use f='codebrowser/src/cdogs/ammo.c' l='55' u='m' c='StrAmmoId'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='58' u='m' c='StrAmmoId'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='58' u='a' c='StrAmmoId'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='73' u='a' c='AmmoInitialize'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='94' u='a' c='AmmoInitialize'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='144' u='a' c='AmmoTerminate'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='145' u='a' c='AmmoTerminate'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='152' u='m' c='AmmoGetById'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='154' u='a' c='AmmoGetById'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='158' u='m' c='AmmoGetById'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='164' u='m' c='AmmoGetNumClasses'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='448' u='a' c='MapObjectsLoadAmmoAndGunSpawners'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='192' u='a' c='PickupClassesInit'/>

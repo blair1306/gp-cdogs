@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='48' type='void CArrayClear(CArray * a)'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='140' u='c' c='AmmoClassesClear'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='837' u='c' c='BulletClassesClear'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='128' ll='131' type='void CArrayClear(CArray * a)'/>
+<use f='codebrowser/src/cdogs/character.c' l='63' u='c' c='CharacterStoreResetOthers'/>
+<use f='codebrowser/src/cdogs/character.c' l='64' u='c' c='CharacterStoreResetOthers'/>
+<use f='codebrowser/src/cdogs/character.c' l='65' u='c' c='CharacterStoreResetOthers'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='201' u='c' c='CharacterClassesClear'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='64' u='c' c='TileCacheReset'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='192' u='c' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='224' u='c' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/files.c' l='405' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='279' u='c' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='416' u='c' c='ReloadDestructibles'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='516' u='c' c='MapObjectsClear'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='99' u='c' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='275' u='c' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='276' u='c' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/particle.c' l='115' u='c' c='ParticleClassesClear'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='87' u='c' c='PathCacheClear'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='296' u='c' c='FindStylePics'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='319' u='c' c='PickupClassesClear'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='318' u='c' c='WeaponClassesClear'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='86' u='c' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='103' u='c' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='125' u='c' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='144' u='c' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='163' u='c' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='180' u='c' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='198' u='c' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='651' u='c' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='291' u='c' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='60' u='c' c='MissionSelectWeapons'/>

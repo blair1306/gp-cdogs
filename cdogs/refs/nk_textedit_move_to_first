@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='12566' ll='12576' macro='1' type='void nk_textedit_move_to_first(struct nk_text_edit * state)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12788' u='c' c='nk_textedit_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12821' u='c' c='nk_textedit_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12906' u='c' c='nk_textedit_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13005' u='c' c='nk_textedit_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13028' u='c' c='nk_textedit_key'/>

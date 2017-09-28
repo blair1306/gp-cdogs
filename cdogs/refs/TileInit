@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='155' type='void TileInit(Tile * t)'/>
+<use f='codebrowser/src/cdogs/map.c' l='641' u='c' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/tile.c' l='60' u='c' c='TileNone'/>
+<def f='codebrowser/src/cdogs/tile.c' l='64' ll='71' type='void TileInit(Tile * t)'/>

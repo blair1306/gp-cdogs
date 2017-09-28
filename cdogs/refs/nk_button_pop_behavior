@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1483' type='int nk_button_pop_behavior(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19946' ll='19963' macro='1' type='int nk_button_pop_behavior(struct nk_context * ctx)'/>

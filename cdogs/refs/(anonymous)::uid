@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='68' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='253' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='479' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='538' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='94' u='r' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='454' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='517' u='r' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='534' u='r' c='ObjGetByUID'/>

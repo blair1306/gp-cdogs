@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='57' type='_Bool'/>
+<offset>808</offset>
+<use f='codebrowser/src/cdogs/particle.c' l='204' u='w' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='205' u='a' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='302' u='r' c='ParticleUpdate'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='112' type='void ParticleDestroy(CArray * particles, const int id)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='428' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/particle.c' l='245' u='c' c='ParticlesTerminate'/>
+<def f='codebrowser/src/cdogs/particle.c' l='452' ll='462' type='void ParticleDestroy(CArray * particles, const int id)'/>

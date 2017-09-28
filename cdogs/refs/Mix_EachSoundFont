@@ -1,0 +1,1 @@
+<dec f='include/SDL2/SDL_mixer.h' l='611' type='int Mix_EachSoundFont(int (*)(const char *, void *) function, void * data)'/>

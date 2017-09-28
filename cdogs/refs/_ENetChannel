@@ -1,0 +1,10 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='241' ll='251'/>
+<size>80</size>
+<mbr r='_ENetChannel::outgoingReliableSequenceNumber' o='0' t='enet_uint16'/>
+<mbr r='_ENetChannel::outgoingUnreliableSequenceNumber' o='16' t='enet_uint16'/>
+<mbr r='_ENetChannel::usedReliableWindows' o='32' t='enet_uint16'/>
+<mbr r='_ENetChannel::reliableWindows' o='48' t='enet_uint16 [16]'/>
+<mbr r='_ENetChannel::incomingReliableSequenceNumber' o='304' t='enet_uint16'/>
+<mbr r='_ENetChannel::incomingUnreliableSequenceNumber' o='320' t='enet_uint16'/>
+<mbr r='_ENetChannel::incomingReliableCommands' o='384' t='ENetList'/>
+<mbr r='_ENetChannel::incomingUnreliableCommands' o='512' t='ENetList'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2316' type='int nk_str_insert_text_utf8(struct nk_str * , int pos, const char * , int )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6500' u='c' c='nk_str_insert_text_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6506' u='c' c='nk_str_insert_str_char'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6509' ll='6523' macro='1' type='int nk_str_insert_text_utf8(struct nk_str * str, int pos, const char * text, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12707' u='c' c='nk_textedit_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12715' u='c' c='nk_textedit_text'/>

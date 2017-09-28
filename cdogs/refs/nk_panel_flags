@@ -1,0 +1,119 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='1087' ll='1099'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='969'>/* =============================================================================
+ *
+ *                                  WINDOW
+ *
+ * =============================================================================
+ * Windows are the main persistent state used inside nuklear and are life time
+ * controlled by simply &quot;retouching&quot; (i.e. calling) each window each frame.
+ * All widgets inside nuklear can only be added inside function pair `nk_begin_xxx`
+ * and `nk_end`. Calling any widgets outside these two functions will result in an
+ * assert in debug or no state change in release mode.
+ *
+ * Each window holds frame persistent state like position, size, flags, state tables,
+ * and some garbage collected internal persistent widget state. Each window
+ * is linked into a window stack list which determines the drawing and overlapping
+ * order. The topmost window thereby is the currently active window.
+ *
+ * To change window position inside the stack occurs either automatically by
+ * user input by being clicked on or programatically by calling `nk_window_focus`.
+ * Windows by default are visible unless explicitly being defined with flag
+ * `NK_WINDOW_HIDDEN`, the user clicked the close button on windows with flag
+ * `NK_WINDOW_CLOSABLE` or if a window was explicitly hidden by calling
+ * `nk_window_show`. To explicitly close and destroy a window call `nk_window_close`.
+ *
+ * Usage
+ * -------------------
+ * To create and keep a window you have to call one of the two `nk_begin_xxx`
+ * functions to start window declarations and `nk_end` at the end. Furthermore it
+ * is recommended to check the return value of `nk_begin_xxx` and only process
+ * widgets inside the window if the value is not 0. Either way you have to call
+ * `nk_end` at the end of window declarations. Furthmore do not attempt to
+ * nest `nk_begin_xxx` call which will hopefully result in an assert or if not
+ * in a segmation fault.
+ *
+ *      if (nk_begin_xxx(...) {
+ *          [... widgets ...]
+ *      }
+ *      nk_end(ctx);
+ *
+ * In the grand concept window and widget declarations need to occur after input
+ * handling and before drawing to screen. Not doing so can results in higher
+ * latency or at worst invalid behavior. Furthermore make sure that `nk_clear`
+ * is called at the end of the frame. While nuklears default platform backends
+ * already call `nk_clear` for you if you write your own backend not calling
+ * `nk_clear` can cause asserts or even worse undefined behavior.
+ *
+ *      struct nk_context ctx;
+ *      nk_init_xxx(&amp;ctx, ...);
+ *      while (1) {
+ *          Event evt;
+ *          nk_input_begin(&amp;ctx);
+ *          while (GetEvent(&amp;evt)) {
+ *              if (evt.type == MOUSE_MOVE)
+ *                  nk_input_motion(&amp;ctx, evt.motion.x, evt.motion.y);
+ *              else if (evt.type == [...]) {
+ *                  nk_input_xxx(...);
+ *              }
+ *          }
+ *          nk_input_end(&amp;ctx);
+ *
+ *          if (nk_begin_xxx(...) {
+ *              [...]
+ *          }
+ *          nk_end(ctx);
+ *
+ *          const struct nk_command *cmd = 0;
+ *          nk_foreach(cmd, &amp;ctx) {
+ *          case NK_COMMAND_LINE:
+ *              your_draw_line_function(...)
+ *              break;
+ *          case NK_COMMAND_RECT
+ *              your_draw_rect_function(...)
+ *              break;
+ *          case ...:
+ *              [...]
+ *          }
+ *          nk_clear(&amp;ctx);
+ *      }
+ *      nk_free(&amp;ctx);
+ *
+ *  Reference
+ *  -------------------
+ *  nk_begin                            - starts a new window; needs to be called every frame for every window (unless hidden) or otherwise the window gets removed
+ *  nk_begin_titled                     - extended window start with seperated title and identifier to allow multiple windows with same name but not title
+ *  nk_end                              - needs to be called at the end of the window building process to process scaling, scrollbars and general cleanup
+ *
+ *  nk_window_find                      - finds and returns the window with give name
+ *  nk_window_get_bounds                - returns a rectangle with screen position and size of the currently processed window.
+ *  nk_window_get_position              - returns the position of the currently processed window
+ *  nk_window_get_size                  - returns the size with width and height of the currently processed window
+ *  nk_window_get_width                 - returns the width of the currently processed window
+ *  nk_window_get_height                - returns the height of the currently processed window
+ *  nk_window_get_panel                 - returns the underlying panel which contains all processing state of the currnet window
+ *  nk_window_get_content_region        - returns the position and size of the currently visible and non-clipped space inside the currently processed window
+ *  nk_window_get_content_region_min    - returns the upper rectangle position of the currently visible and non-clipped space inside the currently processed window
+ *  nk_window_get_content_region_max    - returns the upper rectangle position of the currently visible and non-clipped space inside the currently processed window
+ *  nk_window_get_content_region_size   - returns the size of the currently visible and non-clipped space inside the currently processed window
+ *  nk_window_get_canvas                - returns the draw command buffer. Can be used to draw custom widgets
+ *
+ *  nk_window_has_focus                 - returns if the currently processed window is currently active
+ *  nk_window_is_collapsed              - returns if the window with given name is currently minimized/collapsed
+ *  nk_window_is_closed                 - returns if the currently processed window was closed
+ *  nk_window_is_hidden                 - returns if the currently processed window was hidden
+ *  nk_window_is_active                 - same as nk_window_has_focus for some reason
+ *  nk_window_is_hovered                - returns if the currently processed window is currently being hovered by mouse
+ *  nk_window_is_any_hovered            - return if any wndow currently hovered
+ *  nk_item_is_any_active               - returns if any window or widgets is currently hovered or active
+ *
+ *  nk_window_set_bounds                - updates position and size of the currently processed window
+ *  nk_window_set_position              - updates position of the currently process window
+ *  nk_window_set_size                  - updates the size of the currently processed window
+ *  nk_window_set_focus                 - set the currently processed window as active window
+ *
+ *  nk_window_close                     - closes the window with given window name which deletes the window at the end of the frame
+ *  nk_window_collapse                  - collapses the window with given window name
+ *  nk_window_collapse_if               - collapses the window with given window name if the given condition was met
+ *  nk_window_show                      - hides a visible or reshows a hidden window
+ *  nk_window_show_if                   - hides/shows a window depending on condition
+ */</doc>

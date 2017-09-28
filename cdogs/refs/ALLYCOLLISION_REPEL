@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='189' type='1'/>
+<use f='codebrowser/src/cdogs/actors.c' l='886' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='275' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/config.c' l='593' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/utils.c' l='413' c='AllyCollisionStr'/>
+<use f='codebrowser/src/cdogs/utils.c' l='422' u='r' c='StrAllyCollision'/>

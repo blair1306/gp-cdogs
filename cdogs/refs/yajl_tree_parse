@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='127' type='yajl_val yajl_tree_parse(const char * input, char * error_buffer, size_t error_buffer_size)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='403' ll='453' type='yajl_val yajl_tree_parse(const char * input, char * error_buffer, size_t error_buffer_size)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='400'>/*
+ * Public functions
+ */</doc>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='43' u='c' c='YAJLReadFile'/>

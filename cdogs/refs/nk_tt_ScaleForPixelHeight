@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9651' ll='9656' macro='1' type='float nk_tt_ScaleForPixelHeight(const struct nk_tt_fontinfo * info, float height)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10563' u='c' c='nk_tt_PackFontRangesGatherRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10600' u='c' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11006' u='c' c='nk_font_bake'/>

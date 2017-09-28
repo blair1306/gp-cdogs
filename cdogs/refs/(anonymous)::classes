@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/draw/char_sprites.h' l='49' type='map_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='48' u='r' c='StrCharSpriteClass'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='56' u='w' c='CharSpriteClassesInit'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='60' u='r' c='CharSpriteClassesInit'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='206' u='r' c='CharSpriteClassesTerminate'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='193' type='int StrAllyCollision(const char * str)'/>
+<use f='codebrowser/src/cdogs/config.c' l='595' u='r' c='ConfigDefault'/>
+<def f='codebrowser/src/cdogs/utils.c' l='419' ll='425' type='int StrAllyCollision(const char * s)'/>

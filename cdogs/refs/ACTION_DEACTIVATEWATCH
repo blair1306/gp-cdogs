@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='70' type='5'/>
+<use f='codebrowser/src/cdogs/door.c' l='194' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='201' c='ActionRun'/>

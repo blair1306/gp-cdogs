@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='38' ll='44'/>
+<size>16</size>
+<mbr r='_NActorHeal::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorHeal::PlayerUID' o='32' t='int32_t'/>
+<mbr r='_NActorHeal::Amount' o='64' t='int32_t'/>
+<mbr r='_NActorHeal::IsRandomSpawned' o='96' t='_Bool'/>

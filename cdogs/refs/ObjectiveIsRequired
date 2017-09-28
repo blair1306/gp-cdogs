@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='96' type='_Bool ObjectiveIsRequired(const Objective * o)'/>
+<use f='codebrowser/src/briefing_screens.c' l='594' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='609' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='633' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/cdogs/automap.c' l='149' u='c' c='DisplaySummary'/>
+<use f='codebrowser/src/cdogs/automap.c' l='160' u='c' c='DisplaySummary'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='951' u='c' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/mission.c' l='327' u='c' c='MissionHasRequiredObjectives'/>
+<def f='codebrowser/src/cdogs/objective.c' l='164' ll='167' macro='1' type='_Bool ObjectiveIsRequired(const Objective * o)'/>

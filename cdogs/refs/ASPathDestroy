@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='57' type='void ASPathDestroy(ASPath path)'/>
+<doc f='codebrowser/src/cdogs/AStar.h' l='56'>// paths created with ASPathCreate() must be destroyed or else it will leak memory</doc>
+<def f='codebrowser/src/cdogs/AStar.c' l='525' ll='528' type='void ASPathDestroy(ASPath path)'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='58' u='c' c='CachedPathDestroy'/>

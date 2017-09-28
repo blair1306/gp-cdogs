@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu_utils.h' l='50' type='void DisplayCharacterAndName(Vec2i pos, Character * c, const direction_e d, const char * name, const color_t color)'/>
+<use f='codebrowser/src/briefing_screens.c' l='713' u='c' c='DrawPlayerSummary'/>
+<def f='codebrowser/src/menu_utils.c' l='40' ll='50' type='void DisplayCharacterAndName(Vec2i pos, Character * c, const direction_e d, const char * name, const color_t color)'/>
+<use f='codebrowser/src/menu_utils.c' l='76' u='c' c='MenuDisplayPlayer'/>
+<doc f='codebrowser/src/menu_utils.c' l='38'>// Display a character and the player name above it, with the character
+// centered around the target position</doc>
+<use f='codebrowser/src/screens_end.c' l='236' u='c' c='PlayerListCustomDraw'/>

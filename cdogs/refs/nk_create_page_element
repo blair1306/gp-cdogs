@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17684' ll='17709' macro='1' type='struct nk_page_element * nk_create_page_element(struct nk_context * ctx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17749' u='c' c='nk_create_panel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17772' u='c' c='nk_create_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17865' u='c' c='nk_create_window'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='88' type='int'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='466' u='r' c='AStarFollow'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='474' u='w' c='AStarFollow'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='475' u='r' c='AStarFollow'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='488' u='r' c='AStarCloseToPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='493' u='r' c='AStarCloseToPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='548' u='w' c='AIGoto'/>

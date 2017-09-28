@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1741' type='void nk_style_from_table(struct nk_context * , const struct nk_color * )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15902' u='c' c='nk_style_default'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='15958' ll='16499' macro='1' type='void nk_style_from_table(struct nk_context * ctx, const struct nk_color * table)'/>

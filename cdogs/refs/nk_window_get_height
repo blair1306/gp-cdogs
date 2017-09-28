@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1165' type='float nk_window_get_height(const struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18202' ll='18209' macro='1' type='float nk_window_get_height(const struct nk_context * ctx)'/>

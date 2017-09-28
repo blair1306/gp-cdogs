@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1207' type='struct nk_command_buffer * nk_window_get_canvas(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18251' ll='18259' macro='1' type='struct nk_command_buffer * nk_window_get_canvas(struct nk_context * ctx)'/>

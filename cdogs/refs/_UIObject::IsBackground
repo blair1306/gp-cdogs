@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='71' type='_Bool'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='824' u='r' c='HandleInput'/>
+<offset>776</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='988' u='w' c='CreateMainObjs'/>

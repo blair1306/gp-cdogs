@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='14412' ll='14446' macro='1' type='void nk_draw_progress(struct nk_command_buffer * out, nk_flags state, const struct nk_style_progress * style, const struct nk_rect * bounds, const struct nk_rect * scursor, nk_size value, nk_size max)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14475' u='c' c='nk_do_progress'/>

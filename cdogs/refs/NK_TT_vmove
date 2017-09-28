@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9060' type='1'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9513' u='r' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10251' u='r' c='nk_tt_FlattenCurves'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10278' c='nk_tt_FlattenCurves'/>

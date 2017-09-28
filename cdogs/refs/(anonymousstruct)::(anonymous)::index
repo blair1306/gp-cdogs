@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='82' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/door.c' l='132' u='w' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='135' u='w' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='195' u='w' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='261' u='w' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='173' u='r' c='ActionRun'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='185' u='r' c='ActionRun'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='198' u='r' c='ActionRun'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='202' u='r' c='ActionRun'/>

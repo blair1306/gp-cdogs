@@ -1,0 +1,20 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2973' ll='3001'/>
+<size>240</size>
+<mbr r='nk_style_toggle::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_toggle::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_toggle::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_toggle::border_color' o='768' t='struct nk_color'/>
+<mbr r='nk_style_toggle::cursor_normal' o='832' t='struct nk_style_item'/>
+<mbr r='nk_style_toggle::cursor_hover' o='1088' t='struct nk_style_item'/>
+<mbr r='nk_style_toggle::text_normal' o='1344' t='struct nk_color'/>
+<mbr r='nk_style_toggle::text_hover' o='1376' t='struct nk_color'/>
+<mbr r='nk_style_toggle::text_active' o='1408' t='struct nk_color'/>
+<mbr r='nk_style_toggle::text_background' o='1440' t='struct nk_color'/>
+<mbr r='nk_style_toggle::text_alignment' o='1472' t='nk_flags'/>
+<mbr r='nk_style_toggle::padding' o='1504' t='struct nk_vec2'/>
+<mbr r='nk_style_toggle::touch_padding' o='1568' t='struct nk_vec2'/>
+<mbr r='nk_style_toggle::spacing' o='1632' t='float'/>
+<mbr r='nk_style_toggle::border' o='1664' t='float'/>
+<mbr r='nk_style_toggle::userdata' o='1728' t='nk_handle'/>
+<mbr r='nk_style_toggle::draw_begin' o='1792' t='void (*)(struct nk_command_buffer *, nk_handle)'/>
+<mbr r='nk_style_toggle::draw_end' o='1856' t='void (*)(struct nk_command_buffer *, nk_handle)'/>

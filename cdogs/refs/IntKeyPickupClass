@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='78' type='PickupClass * IntKeyPickupClass(const int style, const int i)'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='112' ll='115' type='PickupClass * IntKeyPickupClass(const int style, const int i)'/>

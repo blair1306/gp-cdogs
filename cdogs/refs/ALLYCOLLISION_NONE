@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='190' type='2'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='280' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/config.c' l='594' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/utils.c' l='414' c='AllyCollisionStr'/>
+<use f='codebrowser/src/cdogs/utils.c' l='423' u='r' c='StrAllyCollision'/>

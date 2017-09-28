@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_joystick.h' l='118' type='const char * SDL_JoystickName(SDL_Joystick * joystick)'/>
+<doc f='include/SDL2/SDL_joystick.h' l='114'>/**
+ *  Return the name for this currently opened joystick.
+ *  If no name can be found, this function returns NULL.
+ */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='373' u='c' c='SDLJBN_GetButtonNameAndColor'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='418' u='c' c='SDLJBN_GetAxisNameAndColor'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='307' u='c' c='JoyName'/>

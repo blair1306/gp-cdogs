@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='136' type='NMapObjectAdd'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1038' u='m' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1040' u='m' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1041' u='m' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1042' u='m' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1043' u='m' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='107' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='222' u='m' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='230' u='m' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='231' u='m' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='232' u='m' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='233' u='m' c='PlaceWreck'/>

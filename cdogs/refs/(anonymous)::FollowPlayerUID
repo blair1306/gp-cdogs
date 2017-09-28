@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='50' type='int'/>
+<offset>4480</offset>
+<doc f='codebrowser/src/cdogs/camera.h' l='49'>// UID of player to follow; only used if camera is in follow mode</doc>
+<use f='codebrowser/src/cdogs/camera.c' l='86' u='r' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='103' u='w' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='144' u='w' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='151' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='367' u='r' c='CameraDrawMode'/>

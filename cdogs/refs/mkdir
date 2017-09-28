@@ -1,0 +1,4 @@
+<dec f='include/x86_64-linux-gnu/sys/stat.h' l='320' type='int mkdir(const char * __path, __mode_t __mode)'/>
+<doc f='include/x86_64-linux-gnu/sys/stat.h' l='319'>/* Create a new directory named PATH, with permission bits MODE.  */</doc>
+<use f='codebrowser/src/cdogs/files.c' l='588' u='c' c='doMkdir'/>
+<use f='codebrowser/src/tests/utils_test.c' l='18' u='c' c='_cbehave_feature_path_funcs'/>

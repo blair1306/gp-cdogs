@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='106' type='void GraphicsInit(GraphicsDevice * device, Config * c)'/>
+<use f='codebrowser/src/cdogs.c' l='215' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='221' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/grafx.c' l='136' ll='145' type='void GraphicsInit(GraphicsDevice * device, Config * c)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1329' u='c' c='main'/>
+<use f='codebrowser/src/tests/pic_test.c' l='53' u='c' c='_cbehave_feature_PicLoad'/>

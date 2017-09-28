@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='205' type='_Bool ActorIsImmune(const TActor * actor, const special_damage_e damage)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1353' ll='1376' macro='1' type='_Bool ActorIsImmune(const TActor * actor, const special_damage_e damage)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1425' u='c' c='ActorTakeHit'/>
+<use f='codebrowser/src/cdogs/damage.c' l='73' u='c' c='CanDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='262' u='c' c='HasHitSound'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2700' type='void nk_stroke_rect(struct nk_command_buffer * , struct nk_rect , float rounding, float line_thickness, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6933' ll='6956' macro='1' type='void nk_stroke_rect(struct nk_command_buffer * b, struct nk_rect rect, float rounding, float line_thickness, struct nk_color c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13572' u='c' c='nk_draw_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14276' u='c' c='nk_draw_slider'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14438' u='c' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14444' u='c' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14583' u='c' c='nk_draw_scrollbar'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14591' u='c' c='nk_draw_scrollbar'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15102' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15542' u='c' c='nk_draw_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22132' u='c' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22216' u='c' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22303' u='c' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22393' u='c' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22479' u='c' c='nk_combo_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22564' u='c' c='nk_combo_begin_image_text'/>

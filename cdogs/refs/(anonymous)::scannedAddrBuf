@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='57' type='CArray'/>
+<offset>576</offset>
+<doc f='codebrowser/src/cdogs/net_client.h' l='56'>// Buffer of scanned addresses - new ones will be scanned here</doc>
+<doc f='codebrowser/src/cdogs/net_client.h' l='57'>// of ScanInfo</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='65' u='a' c='NetClientInit'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='83' u='a' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='97' u='r' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='98' u='w' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='99' u='a' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='276' u='a' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='337' u='m' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='337' u='a' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='355' u='a' c='Scanning'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='158' type='void GunFire(const GunDescription * g, const Vec2i fullPos, const int z, const double radians, const int flags, const int playerUID, const int uid, const _Bool playSound, const _Bool isGun)'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='51' u='c' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='376' u='c' c='FireGuns'/>
+<use f='codebrowser/src/cdogs/objs.c' l='171' u='c' c='ObjRemove'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='470' ll='487' type='void GunFire(const GunDescription * g, const Vec2i fullPos, const int z, const double radians, const int flags, const int playerUID, const int uid, const _Bool playSound, const _Bool isGun)'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/config.h' l='123' type='int StrQuickPlayQuantity(const char * str)'/>
+<def f='codebrowser/src/cdogs/config.c' l='205' ll='212' type='int StrQuickPlayQuantity(const char * s)'/>
+<use f='codebrowser/src/cdogs/config.c' l='700' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='704' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='708' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='712' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='716' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='720' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='724' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='728' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='733' u='r' c='ConfigDefault'/>

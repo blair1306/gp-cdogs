@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='81' type='enet_uint16'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='881' u='r' c='enet_protocol_handle_acknowledge'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1295' u='w' c='enet_protocol_send_acknowledgements'/>

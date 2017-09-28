@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2594' type='struct nk_vec2i'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7139' u='m' c='nk_fill_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7140' u='m' c='nk_fill_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8549' u='m' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8549' u='m' c='nk_convert'/>
+<offset>160</offset>

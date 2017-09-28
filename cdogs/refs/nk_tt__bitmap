@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9070' ll='9073'/>
+<size>24</size>
+<mbr r='nk_tt__bitmap::w' o='0' t='int'/>
+<mbr r='nk_tt__bitmap::h' o='32' t='int'/>
+<mbr r='nk_tt__bitmap::stride' o='64' t='int'/>
+<mbr r='nk_tt__bitmap::pixels' o='128' t='unsigned char *'/>

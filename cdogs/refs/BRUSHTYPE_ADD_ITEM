@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='56' type='9'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='353' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='184' u='r' c='BrushIsBrushTypeAddItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='54' u='r' c='BrushSetBrushTypeAddMapItem'/>

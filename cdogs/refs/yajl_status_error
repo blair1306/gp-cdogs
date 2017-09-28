@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='40' type='2'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='38' c='yajl_status_to_string'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='38'>/** An error occured during the parse.  Call yajl_get_error for
+         *  more information about the encountered error */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='170' u='r' c='yajl_do_finish'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='179' u='r' c='yajl_do_finish'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='217' u='r' c='yajl_do_parse'/>

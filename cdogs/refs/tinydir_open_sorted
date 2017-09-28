@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='143' type='int tinydir_open_sorted(tinydir_dir * dir, const char * path)'/>
+<def f='codebrowser/src/tinydir/tinydir.h' l='257' ll='318' macro='1' type='int tinydir_open_sorted(tinydir_dir * dir, const char * path)'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='526' u='c' c='tinydir_open_subdir_n'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='163' u='c' c='LoadCampaignsFromFolder'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='445' u='c' c='Open'/>

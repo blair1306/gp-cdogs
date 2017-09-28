@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='158' type='_Bool TileCanSee(Tile * t)'/>
+<use f='codebrowser/src/cdogs/map.c' l='241' u='c' c='MapChangeFloor'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='134' u='c' c='MapSetupTile'/>
+<def f='codebrowser/src/cdogs/tile.c' l='87' ll='90' macro='1' type='_Bool TileCanSee(Tile * t)'/>

@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_mixer.h' l='84' type='void Mix_Quit()'/>
+<doc f='include/SDL2/SDL_mixer.h' l='83'>/* Unloads libraries loaded with Mix_Init */</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='285' u='c' c='SoundTerminate'/>

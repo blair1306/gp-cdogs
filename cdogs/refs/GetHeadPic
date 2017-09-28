@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='85' type='const Pic * GetHeadPic(const CharacterClass * c, const direction_e dir, const gunstate_e gunState)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='180' u='c' c='GetCharacterPics'/>
+<def f='codebrowser/src/cdogs/draw/draw_actor.c' l='407' ll='415' type='const Pic * GetHeadPic(const CharacterClass * c, const direction_e dir, const gunstate_e gunState)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='478' u='c' c='DrawHead'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='153' u='c' c='CharEditor'/>

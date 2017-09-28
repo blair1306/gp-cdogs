@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/player.h' l='54' type='int'/>
+<dec f='codebrowser/src/cdogs/files.h' l='116' type='struct MissionOld *'/>
+<use f='codebrowser/src/briefing_screens.c' l='733' u='r' c='DrawPlayerSummary'/>
+<offset>2304</offset>
+<use f='codebrowser/src/cdogs/files.c' l='447' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='495' u='w' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='496' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='495' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='496' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='496' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='496' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='495' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='500' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='129' u='r' c='MapNewLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='129' u='r' c='MapNewLoad'/>
+<use f='codebrowser/src/hiscores.c' l='118' u='w' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/hiscores.c' l='122' u='w' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/hiscores.c' l='180' u='r' c='EnterTable'/>

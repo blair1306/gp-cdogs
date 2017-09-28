@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='10' ll='15'/>
+<size>24</size>
+<mbr r='_ENetCallbacks::malloc' o='0' t='void *(*)(size_t)'/>
+<mbr r='_ENetCallbacks::free' o='64' t='void (*)(void *)'/>
+<mbr r='_ENetCallbacks::no_memory' o='128' t='void (*)(void)'/>

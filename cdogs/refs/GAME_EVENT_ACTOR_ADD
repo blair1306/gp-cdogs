@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='68' type='19'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='203' u='r' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/ai.c' l='544' u='r' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='569' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='598' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='633' u='r' c='CreateEnemies'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='77' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='77' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='77' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='77' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='184' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='129' u='r' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='173' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='199' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='400' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='445' u='r' c='NetServerSendGameStartMessages'/>

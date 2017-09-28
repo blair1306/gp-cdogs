@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='99' type='CArray'/>
+<offset>2368</offset>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='99'>// of const GunDescription *</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='340' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='359' u='a' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='632' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='632' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='761' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='761' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='818' u='a' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='848' u='a' c='BulletClassFree'/>

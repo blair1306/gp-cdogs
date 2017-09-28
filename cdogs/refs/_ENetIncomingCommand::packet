@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='189' type='ENetPacket *'/>
+<offset>704</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='235' u='r' c='enet_peer_receive'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='283' u='r' c='enet_peer_remove_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='285' u='r' c='enet_peer_remove_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='287' u='r' c='enet_peer_remove_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='288' u='r' c='enet_peer_remove_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='949' u='w' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='583' u='r' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='609' u='r' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='610' u='r' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='612' u='r' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='705' u='r' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='727' u='r' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='728' u='r' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='730' u='r' c='enet_protocol_handle_send_unreliable_fragment'/>

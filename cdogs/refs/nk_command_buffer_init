@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='6808' ll='6820' macro='1' type='void nk_command_buffer_init(struct nk_command_buffer * cmdbuf, struct nk_buffer * buffer, enum nk_command_clipping clip)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16998' u='c' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18036' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21649' u='c' c='nk_nonblock_begin'/>

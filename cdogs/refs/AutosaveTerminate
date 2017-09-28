@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/autosave.h' l='58' type='void AutosaveTerminate(Autosave * autosave)'/>
+<def f='codebrowser/src/autosave.c' l='63' ll='69' type='void AutosaveTerminate(Autosave * autosave)'/>
+<use f='codebrowser/src/cdogs.c' l='309' u='c' c='main'/>

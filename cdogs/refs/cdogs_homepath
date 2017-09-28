@@ -1,0 +1,21 @@
+<def f='codebrowser/src/cdogs/files.c' l='528' type='char *'/>
+<use f='codebrowser/src/cdogs/files.c' l='537' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='539' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='545' u='w' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='545' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='545' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='545' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='546' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='552' u='w' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='552' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='552' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='553' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='554' u='r' c='GetHomeDirectory'/>
+<use f='codebrowser/src/cdogs/files.c' l='555' u='r' c='GetHomeDirectory'/>
+<doc f='codebrowser/src/cdogs/files.c' l='521'>/* GetHomeDirectory ()
+ *
+ * Uses environment variables to determine the users home directory.
+ * returns some sort of path (C string)
+ *
+ * It&apos;s an ugly piece of sh*t... :/
+ */</doc>

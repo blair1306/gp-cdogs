@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>actor_fire.h source code [codebrowser/src/cdogs/actor_fire.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/actor_fire.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='actor_fire.h.html'>actor_fire.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2017, Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#pragma once</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="actors.h.html">"actors.h"</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="weapon.h.html">"weapon.h"</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><em>void</em> <a class="decl" href="actor_fire.c.html#ActorFire" title='ActorFire' data-ref="ActorFire" id="ActorFire">ActorFire</a>(<a class="typedef" href="weapon.h.html#Weapon" title='Weapon' data-type='struct Weapon' data-ref="Weapon">Weapon</a> *<dfn class="local col1 decl" id="1w" title='w' data-type='Weapon *' data-ref="1w">w</dfn>, <em>const</em> <a class="typedef" href="actors.h.html#TActor" title='TActor' data-type='struct Actor' data-ref="TActor">TActor</a> *<dfn class="local col2 decl" id="2a" title='a' data-type='const TActor *' data-ref="2a">a</dfn>);</td></tr>
+<tr><th id="35">35</th><td><em>void</em> <a class="decl" href="actor_fire.c.html#ActorFireUpdate" title='ActorFireUpdate' data-ref="ActorFireUpdate" id="ActorFireUpdate">ActorFireUpdate</a>(<a class="typedef" href="weapon.h.html#Weapon" title='Weapon' data-type='struct Weapon' data-ref="Weapon">Weapon</a> *<dfn class="local col3 decl" id="3w" title='w' data-type='Weapon *' data-ref="3w">w</dfn>, <em>const</em> <a class="typedef" href="actors.h.html#TActor" title='TActor' data-type='struct Actor' data-ref="TActor">TActor</a> *<dfn class="local col4 decl" id="4a" title='a' data-type='const TActor *' data-ref="4a">a</dfn>, <em>const</em> <em>int</em> <dfn class="local col5 decl" id="5ticks" title='ticks' data-type='const int' data-ref="5ticks">ticks</dfn>);</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='actor_fire.c.html'>codebrowser/src/cdogs/actor_fire.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

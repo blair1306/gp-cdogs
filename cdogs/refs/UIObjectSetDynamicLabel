@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='115' type='void UIObjectSetDynamicLabel(UIObject * o, const char * label)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1169' u='c' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='323' u='c' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='321' u='c' c='CreateObjectiveObjs'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='73' ll='77' type='void UIObjectSetDynamicLabel(UIObject * o, const char * label)'/>

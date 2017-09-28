@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2250' type='enum nk_allocation_type'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6074' u='w' c='nk_buffer_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6091' u='w' c='nk_buffer_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6193' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6196' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6278' u='r' c='nk_buffer_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6455' u='r' c='nk_str_insert_at_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16775' u='r' c='nk_init_custom'/>
+<offset>448</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2249'>/* allocator callback for dynamic buffers */</doc>

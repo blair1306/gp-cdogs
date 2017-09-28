@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2335' type='int nk_str_len_char(struct nk_str * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6777' ll='6783' macro='1' type='int nk_str_len_char(struct nk_str * s)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12355' u='c' c='nk_textedit_layout_row'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15090' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15313' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15332' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15347' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15395' u='c' c='nk_do_edit'/>

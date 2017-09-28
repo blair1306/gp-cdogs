@@ -1,0 +1,11 @@
+<def f='codebrowser/src/XGetopt.h' l='103' ll='113'/>
+<size>32</size>
+<doc f='codebrowser/src/XGetopt.h' l='98'>/**
+ * Structure to describe a long option.
+ * The last item in the array of these descriptors must have all elements
+ * set to zero
+ */</doc>
+<mbr r='option::name' o='0' t='const char *'/>
+<mbr r='option::has_arg' o='64' t='int'/>
+<mbr r='option::flag' o='128' t='int *'/>
+<mbr r='option::val' o='192' t='int'/>

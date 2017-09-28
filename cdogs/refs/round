@@ -1,0 +1,10 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='319' type='double round(double __x)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='133' u='c' c='SeekTowards'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='134' u='c' c='SeekTowards'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='299' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='392' u='c' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='395' u='c' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='332' u='c' c='DrawLaserSightSingle'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='332' u='c' c='DrawLaserSightSingle'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='504' u='c' c='GunAddBrass'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='504' u='c' c='GunAddBrass'/>

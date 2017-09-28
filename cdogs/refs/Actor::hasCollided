@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='107' type='_Bool'/>
+<offset>896</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='205' u='w' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='304' u='w' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='823' u='r' c='ActorTryMove'/>

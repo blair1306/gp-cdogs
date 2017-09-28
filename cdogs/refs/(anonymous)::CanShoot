@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='119' type='_Bool'/>
+<offset>1216</offset>
+<use f='codebrowser/src/briefing_screens.c' l='551' u='r' c='GetNinjaBonus'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='42' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actors.c' l='233' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='297' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='143' u='r' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='269' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='279' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='300' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='300' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='560' u='r' c='GunHasMuzzle'/>

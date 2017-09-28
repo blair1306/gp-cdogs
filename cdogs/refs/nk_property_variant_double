@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='20740' ll='20751' macro='1' type='struct nk_property_variant nk_property_variant_double(double value, double min_value, double max_value, double step)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20880' u='c' c='nk_property_double'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20924' u='c' c='nk_propertyd'/>

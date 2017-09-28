@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='17' type='struct nk_context * nk_sdl_init(SDL_Window * win)'/>
+<def f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='202' ll='212' macro='1' type='struct nk_context * nk_sdl_init(SDL_Window * win)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='123' u='c' c='CharEditor'/>

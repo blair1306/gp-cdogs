@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='150' type='GunDescription * IdGunDescription(const int i)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1009' u='c' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='213' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='788' u='c' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='235' u='c' c='TryPickupGun'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='362' ll='375' type='GunDescription * IdGunDescription(const int i)'/>

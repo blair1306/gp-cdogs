@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='72' type='_Bool'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/cpic.c' l='128' u='w' c='CPicLoadNormal'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='141' u='w' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='151' u='w' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='208' u='w' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='208' u='r' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='283' u='r' c='CPicDraw'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='496' u='w' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/particle.c' l='128' u='w' c='LoadParticleClass'/>

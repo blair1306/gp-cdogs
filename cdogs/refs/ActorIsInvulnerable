@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='209' type='_Bool ActorIsInvulnerable(const TActor * a, const int flags, const int playerUID, const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1432' ll='1466' macro='1' type='_Bool ActorIsInvulnerable(const TActor * actor, const int flags, const int playerUID, const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/damage.c' l='77' u='c' c='CanDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='263' u='c' c='HasHitSound'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='101' type='3'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1399' c='ActorTakeSpecialDamage'/>
+<use f='codebrowser/src/cdogs/defs.c' l='70' u='r' c='StrSpecialDamage'/>

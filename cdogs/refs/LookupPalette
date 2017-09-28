@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/palette.h' l='35' type='Uint32 LookupPalette(unsigned char index)'/>
+<def f='codebrowser/src/cdogs/palette.c' l='302' ll='305' type='Uint32 LookupPalette(unsigned char idx)'/>

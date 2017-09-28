@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/XGetopt.h' l='91' type='0'/>
+<use f='codebrowser/src/XGetopt.c' l='204' c='lookup_longopt'/>
+<doc f='codebrowser/src/XGetopt.h' l='90'>/** this option has no argument */</doc>
+<use f='codebrowser/src/command_line.c' l='127' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='127' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='135' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='135' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='127' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='127' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='135' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='135' u='r' c='ParseArgs'/>

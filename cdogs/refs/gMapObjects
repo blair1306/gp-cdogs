@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='117' type='MapObjects'/>
+<use f='codebrowser/src/cdogs.c' l='247' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='290' u='a' c='main'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1039' u='a' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='82' u='m' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='142' u='m' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='146' u='m' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='149' u='a' c='MapNewLoadArchive'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='57' type='MapObjects'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='101' u='m' c='StrMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='101' u='m' c='StrMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='107' u='m' c='StrMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='107' u='m' c='StrMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='172' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='172' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='172' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='172' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='174' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='176' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='178' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='178' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='186' u='m' c='DestructibleMapObjectIndex'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='186' u='m' c='DestructibleMapObjectIndex'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='277' u='a' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='279' u='m' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='290' u='m' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='279' u='a' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1351' u='a' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1395' u='a' c='main'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='242' u='a' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='303' u='a' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='208' u='m' c='MissionResetObjectiveIndex'/>

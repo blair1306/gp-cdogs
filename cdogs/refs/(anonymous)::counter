@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='71' type='int'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='391' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='501' u='r' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='505' u='w' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='506' u='r' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='510' u='w' c='UpdateObjects'/>

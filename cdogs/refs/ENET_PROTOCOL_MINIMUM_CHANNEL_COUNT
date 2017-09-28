@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='17' type='1'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='74' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='75' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='180' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='181' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='305' u='r' c='enet_host_channel_limit'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='306' u='r' c='enet_host_channel_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='286' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='926' u='r' c='enet_protocol_handle_verify_connect'/>

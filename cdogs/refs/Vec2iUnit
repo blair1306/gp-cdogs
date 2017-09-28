@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='40' type='Vec2i Vec2iUnit()'/>
+<doc f='codebrowser/src/cdogs/vector.h' l='40'>// (1, 1)</doc>
+<use f='codebrowser/src/cdogs/automap.c' l='123' u='c' c='DisplayExit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='136' u='c' c='HUDDrawGauge'/>
+<def f='codebrowser/src/cdogs/vector.c' l='45' ll='48' type='Vec2i Vec2iUnit()'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='925' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='626' u='c' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='628' u='c' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='631' u='c' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='446' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='447' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='573' u='c' c='UITooltipDraw'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='574' u='c' c='UITooltipDraw'/>

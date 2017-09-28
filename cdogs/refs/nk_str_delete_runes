@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2324' type='void nk_str_delete_runes(struct nk_str * , int pos, int len)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6629' ll='6652' macro='1' type='void nk_str_delete_runes(struct nk_str * s, int pos, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12532' u='c' c='nk_textedit_delete'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12705' u='c' c='nk_textedit_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13203' u='c' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13255' u='c' c='nk_textedit_redo'/>

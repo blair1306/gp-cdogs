@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2734' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12052' u='m' c='nk_input_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12053' u='m' c='nk_input_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12085' u='m' c='nk_input_motion'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12086' u='m' c='nk_input_motion'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12238' u='m' c='nk_input_is_mouse_prev_hovering_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12238' u='m' c='nk_input_is_mouse_prev_hovering_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12238' u='m' c='nk_input_is_mouse_prev_hovering_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12238' u='m' c='nk_input_is_mouse_prev_hovering_rect'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='243' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='243' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='315' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='315' u='m' c='nk_sdl_handle_event'/>
+<offset>448</offset>

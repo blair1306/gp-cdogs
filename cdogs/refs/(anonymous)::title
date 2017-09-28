@@ -1,0 +1,19 @@
+<dec f='include/SDL2/SDL_messagebox.h' l='96' type='const char *'/>
+<offset>128</offset>
+<doc f='include/SDL2/SDL_messagebox.h' l='96'>/**&lt; UTF-8 title */</doc>
+<dec f='codebrowser/src/cdogs/files.h' l='112' type='char [40]'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/files.c' l='175' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='175' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='179' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='179' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='179' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='179' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='179' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='438' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='438' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='438' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='438' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='438' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='489' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='489' u='r' c='LoadCampaignOld'/>

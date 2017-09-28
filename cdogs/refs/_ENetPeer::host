@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='261' type='struct _ENetHost *'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='119' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='108' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='112' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='348' u='r' c='enet_peer_on_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='350' u='r' c='enet_peer_on_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='360' u='r' c='enet_peer_on_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='362' u='r' c='enet_peer_on_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='413' u='r' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='514' u='r' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='558' u='r' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='729' u='r' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='757' u='r' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='773' u='r' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='814' u='r' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='933' u='r' c='enet_peer_queue_incoming_command'/>

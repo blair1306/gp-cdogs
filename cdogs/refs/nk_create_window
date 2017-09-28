@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='16719' type='void * nk_create_window(struct nk_context * ctx)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='17861' ll='17869' macro='1' type='void * nk_create_window(struct nk_context * ctx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18029' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21552' u='c' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21645' u='c' c='nk_nonblock_begin'/>

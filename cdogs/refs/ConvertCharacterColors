@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/files.h' l='204' type='void ConvertCharacterColors(const int skin, const int arm, const int body, const int leg, const int hair, CharColors * c)'/>
+<use f='codebrowser/src/cdogs/character.c' l='90' u='c' c='CharacterLoadJSON'/>
+<def f='codebrowser/src/cdogs/files.c' l='288' ll='299' type='void ConvertCharacterColors(const int skin, const int arm, const int body, const int leg, const int hair, CharColors * c)'/>
+<use f='codebrowser/src/cdogs/files.c' l='329' u='c' c='ConvertCharacter'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='60' u='c' c='LoadPlayerTemplate'/>

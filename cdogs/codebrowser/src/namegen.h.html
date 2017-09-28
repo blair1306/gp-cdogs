@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>namegen.h source code [codebrowser/src/namegen.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/namegen.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='namegen.h.html'>namegen.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    Copyright (c) 2014, Cong Xu</i></td></tr>
+<tr><th id="3">3</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="6">6</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="9">9</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="11">11</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="12">12</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="13">13</th><td><i></i></td></tr>
+<tr><th id="14">14</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="15">15</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="16">16</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="17">17</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="18">18</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="19">19</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="20">20</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="21">21</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="23">23</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="24">24</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="25">25</th><td><i>*/</i></td></tr>
+<tr><th id="26">26</th><td><u>#<span data-ppcond="26">ifndef</span> <span class="macro" data-ref="_M/__NAMEGEN">__NAMEGEN</span></u></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/__NAMEGEN" data-ref="_M/__NAMEGEN">__NAMEGEN</dfn></u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="cdogs/c_array.h.html">&lt;cdogs/c_array.h&gt;</a></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="32">32</th><td>{</td></tr>
+<tr><th id="33">33</th><td>	<a class="typedef" href="cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::prefixes" title='(anonymous struct)::prefixes' data-ref="(anonymous)::prefixes">prefixes</dfn>;</td></tr>
+<tr><th id="34">34</th><td>	<a class="typedef" href="cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::suffixes" title='(anonymous struct)::suffixes' data-ref="(anonymous)::suffixes">suffixes</dfn>;</td></tr>
+<tr><th id="35">35</th><td>	<a class="typedef" href="cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::suffixNames" title='(anonymous struct)::suffixNames' data-ref="(anonymous)::suffixNames">suffixNames</dfn>;</td></tr>
+<tr><th id="36">36</th><td>} <dfn class="typedef" id="NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</dfn>;</td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><em>void</em> <a class="decl" href="namegen.c.html#NameGenInit" title='NameGenInit' data-ref="NameGenInit" id="NameGenInit">NameGenInit</a>(</td></tr>
+<tr><th id="39">39</th><td>	<a class="typedef" href="#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="local col1 decl" id="1g" title='g' data-type='NameGen *' data-ref="1g">g</dfn>,</td></tr>
+<tr><th id="40">40</th><td>	<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="2prefixFile" title='prefixFile' data-type='const char *' data-ref="2prefixFile">prefixFile</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="3suffixFile" title='suffixFile' data-type='const char *' data-ref="3suffixFile">suffixFile</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="4suffixNameFile" title='suffixNameFile' data-type='const char *' data-ref="4suffixNameFile">suffixNameFile</dfn>);</td></tr>
+<tr><th id="41">41</th><td><em>void</em> <a class="decl" href="namegen.c.html#NameGenTerminate" title='NameGenTerminate' data-ref="NameGenTerminate" id="NameGenTerminate">NameGenTerminate</a>(<a class="typedef" href="#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="local col5 decl" id="5g" title='g' data-type='NameGen *' data-ref="5g">g</dfn>);</td></tr>
+<tr><th id="42">42</th><td><em>void</em> <a class="decl" href="namegen.c.html#NameGenMake" title='NameGenMake' data-ref="NameGenMake" id="NameGenMake">NameGenMake</a>(<em>const</em> <a class="typedef" href="#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="local col6 decl" id="6g" title='g' data-type='const NameGen *' data-ref="6g">g</dfn>, <em>char</em> *<dfn class="local col7 decl" id="7buf" title='buf' data-type='char *' data-ref="7buf">buf</dfn>);</td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><u>#<span data-ppcond="26">endif</span></u></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='namegen.c.html'>codebrowser/src/namegen.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

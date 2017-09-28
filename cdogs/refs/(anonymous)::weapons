@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/player.h' l='45' type='const GunDescription *[3]'/>
+<use f='codebrowser/src/briefing_screens.c' l='551' u='r' c='GetNinjaBonus'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1197' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='894' u='w' c='AICoopSelectWeapons'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='907' u='w' c='AICoopSelectWeapons'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='912' u='w' c='AICoopSelectWeapons'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='922' u='r' c='PlayerHasWeapon'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='72' u='r' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='82' u='w' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/prep.c' l='794' u='r' c='RemoveUnavailableWeapons'/>
+<use f='codebrowser/src/prep.c' l='798' u='w' c='RemoveUnavailableWeapons'/>
+<use f='codebrowser/src/prep.c' l='798' u='r' c='RemoveUnavailableWeapons'/>
+<use f='codebrowser/src/weapon_menu.c' l='52' u='r' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='64' u='w' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='86' u='r' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='130' u='r' c='DisplayEquippedWeapons'/>
+<use f='codebrowser/src/weapon_menu.c' l='221' u='r' c='WeaponMenuCreate'/>

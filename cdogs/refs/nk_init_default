@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='549' type='int nk_init_default(struct nk_context * , const struct nk_user_font * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16742' ll='16750' macro='1' type='int nk_init_default(struct nk_context * ctx, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='206' u='c' c='nk_sdl_init'/>

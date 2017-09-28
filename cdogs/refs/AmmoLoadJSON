@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='54' type='void AmmoLoadJSON(CArray * ammo, json_t * node)'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='94' u='c' c='AmmoInitialize'/>
+<def f='codebrowser/src/cdogs/ammo.c' l='103' ll='120' type='void AmmoLoadJSON(CArray * ammo, json_t * node)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='117' u='c' c='MapNewLoadArchive'/>

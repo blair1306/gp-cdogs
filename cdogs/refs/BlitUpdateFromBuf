@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='96' type='void BlitUpdateFromBuf(GraphicsDevice * g, SDL_Texture * t)'/>
+<use f='codebrowser/src/briefing_screens.c' l='135' u='c' c='CampaignIntroDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='339' u='c' c='MissionBriefingDraw'/>
+<def f='codebrowser/src/cdogs/blit.c' l='404' ll='407' type='void BlitUpdateFromBuf(GraphicsDevice * g, SDL_Texture * t)'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='316' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='338' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='78' u='c' c='GrafxDrawBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='249' u='c' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='490' u='c' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='534' u='c' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='600' u='c' c='Save'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='637' u='c' c='Save'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='702' u='c' c='HelpScreen'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='113' u='c' c='ConfirmScreen'/>
+<use f='codebrowser/src/game.c' l='199' u='c' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game.c' l='298' u='c' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='725' u='c' c='RunGameDraw'/>
+<use f='codebrowser/src/game.c' l='743' u='c' c='RunGameDraw'/>
+<use f='codebrowser/src/hiscores.c' l='326' u='c' c='HighScoreDraw'/>
+<use f='codebrowser/src/menu.c' l='195' u='c' c='MenuDraw'/>
+<use f='codebrowser/src/password.c' l='332' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/prep.c' l='512' u='c' c='PlayerSelectionDraw'/>
+<use f='codebrowser/src/prep.c' l='936' u='c' c='PlayerEquipDraw'/>

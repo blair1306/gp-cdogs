@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='42' type='void CArrayCopy(CArray * dst, const CArray * src)'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='62' ll='71' type='void CArrayCopy(CArray * dst, const CArray * src)'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='103' u='c' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/mission.c' l='153' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='154' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='155' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='158' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='170' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='171' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='172' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='173' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='174' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='260' u='c' c='SetupWeapons'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='220' u='c' c='MissionStaticLayout'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character.h' l='85' type='void CharacterShuffleAppearance(Character * c)'/>
+<def f='codebrowser/src/cdogs/character.c' l='279' ll='301' type='void CharacterShuffleAppearance(Character * c)'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='126' u='c' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/player_select_menus.c' l='530' u='c' c='ShuffleAppearance'/>

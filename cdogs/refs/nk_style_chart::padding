@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3211' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16314' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21008' u='m' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21009' u='m' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21010' u='m' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21011' u='m' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21012' u='m' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21012' u='m' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21013' u='m' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21013' u='m' c='nk_chart_begin_colored'/>
+<offset>416</offset>

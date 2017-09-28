@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='309' type='ENetList'/>
+<offset>1920</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='125' u='a' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='319' u='a' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='575' u='a' c='enet_peer_disconnect_later'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='575' u='a' c='enet_peer_disconnect_later'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='196' u='a' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='197' u='a' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='207' u='a' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='264' u='a' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='264' u='a' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='267' u='a' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='904' u='a' c='enet_protocol_handle_acknowledge'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='904' u='a' c='enet_protocol_handle_acknowledge'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1409' u='a' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1409' u='a' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1419' u='a' c='enet_protocol_check_timeouts'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1422' u='a' c='enet_protocol_check_timeouts'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1454' u='a' c='enet_protocol_check_timeouts'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1455' u='a' c='enet_protocol_check_timeouts'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1455' u='a' c='enet_protocol_check_timeouts'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1550' u='a' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1550' u='a' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1553' u='a' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1620' u='a' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1620' u='a' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1632' u='a' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1632' u='a' c='enet_protocol_send_outgoing_commands'/>

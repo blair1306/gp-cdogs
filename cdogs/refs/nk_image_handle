@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1825' type='struct nk_image nk_image_handle(nk_handle )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5683' ll='5695' macro='1' type='struct nk_image nk_image_handle(nk_handle handle)'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='103' type='Mix_Chunk *'/>
+<dec f='codebrowser/src/cdogs/ammo.h' l='39' type='char *'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/ammo.c' l='128' u='w' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='138' u='r' c='AmmoClassesClear'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='138' u='r' c='AmmoClassesClear'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='478' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='480' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='188' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='279' u='r' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='230' u='a' c='LoadGunDescription'/>

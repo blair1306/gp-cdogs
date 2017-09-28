@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='74' type='1'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='430' u='r' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/map.c' l='363' u='r' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='90' u='r' c='StrMapObjectType'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='376' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='503' u='r' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/objs.c' l='498' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1638' u='r' c='DrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='313' u='r' c='AddPickupSpawnerBrushObjFunc'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='65' type='Vec2i MapGetRandomTile(const Map * map)'/>
+<use f='codebrowser/src/cdogs/map.c' l='478' u='c' c='MapTryPlaceBlowup'/>
+<use f='codebrowser/src/cdogs/map.c' l='517' u='c' c='MapPlaceCard'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='273' ll='276' type='Vec2i MapGetRandomTile(const Map * map)'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='354' u='c' c='MapTryBuildWall'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='409' u='c' c='PlaceSquares'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='467' u='c' c='PlaceRooms'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='106' u='c' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='167' u='c' c='MapTryBuildSquare'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='319' u='c' c='MapTryBuildPillar'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='68' type='3'/>
+<use f='codebrowser/src/cdogs/door.c' l='209' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='227' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='268' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='294' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='193' c='ActionRun'/>

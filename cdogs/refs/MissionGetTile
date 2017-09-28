@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='35' type='unsigned short MissionGetTile(Mission * m, Vec2i pos)'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='201' ll='209' type='unsigned short MissionGetTile(Mission * m, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='275' u='c' c='TryAddMapObject'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='281' u='c' c='TryAddMapObject'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='335' u='c' c='MissionStaticTryAddCharacter'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='390' u='c' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='463' u='c' c='MissionStaticTryAddKey'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='543' u='c' c='MissionIsTileSame'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='328' u='c' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='336' u='c' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='346' u='c' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='347' u='c' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='449' u='c' c='MissionIsTileSame'/>

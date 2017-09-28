@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu_utils.h' l='46' type='void MenuDisplayPlayerControls(const menu_t * menu, GraphicsDevice * g, const Vec2i pos, const Vec2i size, const void * data)'/>
+<doc f='codebrowser/src/menu_utils.h' l='45'>// Data is PlayerUID</doc>
+<def f='codebrowser/src/menu_utils.c' l='79' ll='143' type='void MenuDisplayPlayerControls(const menu_t * menu, GraphicsDevice * g, const Vec2i pos, const Vec2i size, const void * data)'/>
+<use f='codebrowser/src/player_select_menus.c' l='490' u='r' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='243' u='r' c='WeaponMenuCreate'/>

@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='84' type='_Bool'/>
+<offset>2304</offset>
+<dec f='codebrowser/src/cdogs/objs.h' l='73' type='_Bool'/>
+<dec f='codebrowser/src/cdogs/pickup.h' l='43' type='_Bool'/>
+<offset>1480</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='479' u='r' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='585' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='658' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='523' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='536' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='70' u='r' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/objs.c' l='70' u='r' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/objs.c' l='412' u='r' c='ObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='439' u='r' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='466' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='477' u='r' c='ObjDestroy'/>
+<use f='codebrowser/src/cdogs/objs.c' l='477' u='r' c='ObjDestroy'/>
+<use f='codebrowser/src/cdogs/objs.c' l='479' u='w' c='ObjDestroy'/>
+<use f='codebrowser/src/cdogs/objs.c' l='491' u='r' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/particle.c' l='243' u='r' c='ParticlesTerminate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='257' u='r' c='ParticlesUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='408' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='442' u='w' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='455' u='r' c='ParticleDestroy'/>
+<use f='codebrowser/src/cdogs/particle.c' l='455' u='r' c='ParticleDestroy'/>
+<use f='codebrowser/src/cdogs/particle.c' l='461' u='w' c='ParticleDestroy'/>
+<use f='codebrowser/src/cdogs/particle.c' l='467' u='r' c='DrawParticle'/>
+<use f='codebrowser/src/cdogs/particle.c' l='467' u='r' c='DrawParticle'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='51' u='r' c='PickupsTerminate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='67' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='77' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='104' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='109' u='r' c='PickupDestroy'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='109' u='r' c='PickupDestroy'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='111' u='w' c='PickupDestroy'/>

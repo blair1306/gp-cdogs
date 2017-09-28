@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='74' type='0'/>
+<use f='codebrowser/src/cdogs/actors.c' l='890' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='890' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='415' u='r' c='HitItem'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='415' u='r' c='HitItem'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='146' u='r' c='CalcCollisionTeam'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='271' u='r' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='278' u='r' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='279' u='r' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/particle.c' l='329' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='329' u='r' c='ParticleUpdate'/>

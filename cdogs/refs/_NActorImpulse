@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='228' ll='233'/>
+<size>20</size>
+<mbr r='_NActorImpulse::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorImpulse::Vel' o='32' t='NVec2i'/>
+<mbr r='_NActorImpulse::Pos' o='96' t='NVec2i'/>

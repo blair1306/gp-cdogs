@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/font.h' l='73' type='int FontW(const char c)'/>
+<def f='codebrowser/src/cdogs/font.c' l='130' ll='134' type='int FontW(const char c)'/>
+<use f='codebrowser/src/cdogs/font.c' l='161' u='c' c='FontSubstrW'/>
+<use f='codebrowser/src/cdogs/font.c' l='370' u='c' c='FontSplitLines'/>
+<use f='codebrowser/src/cdogs/font.c' l='383' u='c' c='FontSplitLines'/>
+<use f='codebrowser/src/cdogs/font.c' l='389' u='c' c='FontSplitLines'/>
+<use f='codebrowser/src/menu.c' l='714' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='724' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='808' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/password.c' l='295' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/password.c' l='295' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/password.c' l='311' u='c' c='EnterCodeScreenDraw'/>

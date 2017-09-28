@@ -1,0 +1,39 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='371' type='NCharColors'/>
+<offset>1184</offset>
+<use f='codebrowser/src/cdogs/net_util.c' l='68' u='w' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='78' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='141' u='w' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='150' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='151' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='152' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='153' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='154' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='159' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='160' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='161' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='162' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='163' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='168' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='169' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='170' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='171' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='172' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='177' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='178' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='179' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='180' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='181' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='187' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='188' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='189' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='190' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='191' u='m' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='77'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='77'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='77'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='77'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

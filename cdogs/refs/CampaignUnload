@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/gamedata.h' l='84' type='void CampaignUnload(CampaignOptions * co)'/>
+<use f='codebrowser/src/briefing_screens.c' l='79' u='c' c='CampaignIntroOnExit'/>
+<use f='codebrowser/src/briefing_screens.c' l='238' u='c' c='MissionBriefingOnExit'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='49' u='c' c='CampaignTerminate'/>
+<def f='codebrowser/src/cdogs/gamedata.c' l='120' ll='127' type='void CampaignUnload(CampaignOptions * co)'/>
+<use f='codebrowser/src/prep.c' l='165' u='c' c='CheckCampaignDefComplete'/>
+<use f='codebrowser/src/prep.c' l='225' u='c' c='NumPlayersUpdate'/>
+<use f='codebrowser/src/prep.c' l='380' u='c' c='PlayerSelectionOnExit'/>
+<use f='codebrowser/src/prep.c' l='662' u='c' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/prep.c' l='855' u='c' c='PlayerEquipOnExit'/>
+<use f='codebrowser/src/prep.c' l='960' u='c' c='CheckGameStart'/>

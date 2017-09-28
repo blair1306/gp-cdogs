@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='93' type='double'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='93'>/*&lt; double value, if representable. */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='320' u='w' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='145' macro='1' u='r'/>

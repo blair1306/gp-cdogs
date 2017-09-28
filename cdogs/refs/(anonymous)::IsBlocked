@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/algorithms.h' l='36' type='_Bool (*)(void *, Vec2i)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='218' u='w' c='AIHasClearLine'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/algorithms.c' l='142' u='r' c='HasClearLineBresenham'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='151' u='r' c='HasClearLineJMRaytrace'/>
+<use f='codebrowser/src/cdogs/los.c' l='123' u='w' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='538' u='w' c='SoundPlayAtPlusDistance'/>

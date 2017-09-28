@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='14184' ll='14226' macro='1' type='float nk_slider_behavior(nk_flags * state, struct nk_rect * logical_cursor, struct nk_rect * visual_cursor, struct nk_input * in, struct nk_rect bounds, float slider_min, float slider_max, float slider_value, float slider_step, float slider_steps)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14368' u='c' c='nk_do_slider'/>

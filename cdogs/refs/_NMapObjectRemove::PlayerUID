@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='135' type='int32_t'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/objs.c' l='96' u='w' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='160' u='r' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='163' u='r' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='172' u='r' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='129'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='129'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='130' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='130' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='129'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='129'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='130' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='130' u='r'/>

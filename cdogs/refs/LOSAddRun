@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/los.h' l='43' type='_Bool LOSAddRun(NExploreTiles * runs, _Bool * run, const Vec2i tile, const _Bool explored)'/>
+<use f='codebrowser/src/cdogs/los.c' l='176' u='c' c='LOSCalcFrom'/>
+<def f='codebrowser/src/cdogs/los.c' l='250' ll='276' macro='1' type='_Bool LOSAddRun(NExploreTiles * runs, _Bool * run, const Vec2i tile, const _Bool explored)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='507' u='c' c='NetServerSendGameStartMessages'/>

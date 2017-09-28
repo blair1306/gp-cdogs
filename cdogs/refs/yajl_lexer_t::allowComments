@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='88' type='unsigned int'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='110' u='w' c='yajl_lex_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='613' u='r' c='yajl_lex_lex'/>
+<offset>352</offset>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='87'>/* shall we allow comments? */</doc>

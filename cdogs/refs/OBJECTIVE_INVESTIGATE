@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='63' type='4'/>
+<use f='codebrowser/src/briefing_screens.c' l='812' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='717' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/objective.c' l='63' c='ObjectiveTypeStr'/>
+<use f='codebrowser/src/cdogs/objective.c' l='74' u='r' c='StrObjectiveType'/>
+<use f='codebrowser/src/cdogs/objective.c' l='88' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/game.c' l='666' u='r' c='CheckMissionCompletion'/>

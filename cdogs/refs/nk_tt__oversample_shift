@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10539' ll='10550' macro='1' type='float nk_tt__oversample_shift(int oversample)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10609' u='c' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10610' u='c' c='nk_tt_PackFontRangesRenderIntoRects'/>

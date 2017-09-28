@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/json/json.c' l='43' type='11'/>
+<use f='codebrowser/src/json/json.c' l='1533' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2219' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2347' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2409' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2576' c='json_parse_fragment'/>

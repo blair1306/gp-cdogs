@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_encode.c source code [codebrowser/src/cdogs/yajl/yajl_encode.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl_encode.c'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl_encode.c.html'>yajl_encode.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#include <a href="yajl_encode.h.html">"yajl_encode.h"</a></u></td></tr>
+<tr><th id="18">18</th><td></td></tr>
+<tr><th id="19">19</th><td><u>#include <a href="../../../../include/assert.h.html">&lt;assert.h&gt;</a></u></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="../../../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="21">21</th><td><u>#include <a href="../../../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="22">22</th><td><u>#include <a href="../../../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="CharToHex" title='CharToHex' data-type='void CharToHex(unsigned char c, char * hexBuf)' data-ref="CharToHex">CharToHex</dfn>(<em>unsigned</em> <em>char</em> <dfn class="local col1 decl" id="41c" title='c' data-type='unsigned char' data-ref="41c">c</dfn>, <em>char</em> * <dfn class="local col2 decl" id="42hexBuf" title='hexBuf' data-type='char *' data-ref="42hexBuf">hexBuf</dfn>)</td></tr>
+<tr><th id="25">25</th><td>{</td></tr>
+<tr><th id="26">26</th><td>    <em>const</em> <em>char</em> * <dfn class="local col3 decl" id="43hexchar" title='hexchar' data-type='const char *' data-ref="43hexchar">hexchar</dfn> = <q>"0123456789ABCDEF"</q>;</td></tr>
+<tr><th id="27">27</th><td>    <a class="local col2 ref" href="#42hexBuf" title='hexBuf' data-ref="42hexBuf">hexBuf</a>[<var>0</var>] = <a class="local col3 ref" href="#43hexchar" title='hexchar' data-ref="43hexchar">hexchar</a>[<a class="local col1 ref" href="#41c" title='c' data-ref="41c">c</a> &gt;&gt; <var>4</var>];</td></tr>
+<tr><th id="28">28</th><td>    <a class="local col2 ref" href="#42hexBuf" title='hexBuf' data-ref="42hexBuf">hexBuf</a>[<var>1</var>] = <a class="local col3 ref" href="#43hexchar" title='hexchar' data-ref="43hexchar">hexchar</a>[<a class="local col1 ref" href="#41c" title='c' data-ref="41c">c</a> &amp; <var>0x0F</var>];</td></tr>
+<tr><th id="29">29</th><td>}</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><em>void</em></td></tr>
+<tr><th id="32">32</th><td><dfn class="decl def" id="yajl_string_encode" title='yajl_string_encode' data-ref="yajl_string_encode">yajl_string_encode</dfn>(<em>const</em> <a class="typedef" href="api/yajl_gen.h.html#yajl_print_t" title='yajl_print_t' data-type='void (*)(void *, const char *, size_t)' data-ref="yajl_print_t">yajl_print_t</a> <dfn class="local col4 decl" id="44print" title='print' data-type='const yajl_print_t' data-ref="44print">print</dfn>,</td></tr>
+<tr><th id="33">33</th><td>                   <em>void</em> * <dfn class="local col5 decl" id="45ctx" title='ctx' data-type='void *' data-ref="45ctx">ctx</dfn>,</td></tr>
+<tr><th id="34">34</th><td>                   <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col6 decl" id="46str" title='str' data-type='const unsigned char *' data-ref="46str">str</dfn>,</td></tr>
+<tr><th id="35">35</th><td>                   <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col7 decl" id="47len" title='len' data-type='size_t' data-ref="47len">len</dfn>,</td></tr>
+<tr><th id="36">36</th><td>                   <em>int</em> <dfn class="local col8 decl" id="48escape_solidus" title='escape_solidus' data-type='int' data-ref="48escape_solidus">escape_solidus</dfn>)</td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col9 decl" id="49beg" title='beg' data-type='size_t' data-ref="49beg">beg</dfn> = <var>0</var>;</td></tr>
+<tr><th id="39">39</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="50end" title='end' data-type='size_t' data-ref="50end">end</dfn> = <var>0</var>;</td></tr>
+<tr><th id="40">40</th><td>    <em>char</em> <dfn class="local col1 decl" id="51hexBuf" title='hexBuf' data-type='char [7]' data-ref="51hexBuf">hexBuf</dfn>[<var>7</var>];</td></tr>
+<tr><th id="41">41</th><td>    <a class="local col1 ref" href="#51hexBuf" title='hexBuf' data-ref="51hexBuf">hexBuf</a>[<var>0</var>] = <kbd>'\\'</kbd>; <a class="local col1 ref" href="#51hexBuf" title='hexBuf' data-ref="51hexBuf">hexBuf</a>[<var>1</var>] = <kbd>'u'</kbd>; <a class="local col1 ref" href="#51hexBuf" title='hexBuf' data-ref="51hexBuf">hexBuf</a>[<var>2</var>] = <kbd>'0'</kbd>; <a class="local col1 ref" href="#51hexBuf" title='hexBuf' data-ref="51hexBuf">hexBuf</a>[<var>3</var>] = <kbd>'0'</kbd>;</td></tr>
+<tr><th id="42">42</th><td>    <a class="local col1 ref" href="#51hexBuf" title='hexBuf' data-ref="51hexBuf">hexBuf</a>[<var>6</var>] = <var>0</var>;</td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td>    <b>while</b> (<a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a> &lt; <a class="local col7 ref" href="#47len" title='len' data-ref="47len">len</a>) {</td></tr>
+<tr><th id="45">45</th><td>        <em>const</em> <em>char</em> * <dfn class="local col2 decl" id="52escaped" title='escaped' data-type='const char *' data-ref="52escaped">escaped</dfn> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="46">46</th><td>        <b>switch</b> (<a class="local col6 ref" href="#46str" title='str' data-ref="46str">str</a>[<a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a>]) {</td></tr>
+<tr><th id="47">47</th><td>            <b>case</b> <kbd>'\r'</kbd>: <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\r"</q>; <b>break</b>;</td></tr>
+<tr><th id="48">48</th><td>            <b>case</b> <kbd>'\n'</kbd>: <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\n"</q>; <b>break</b>;</td></tr>
+<tr><th id="49">49</th><td>            <b>case</b> <kbd>'\\'</kbd>: <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\\\"</q>; <b>break</b>;</td></tr>
+<tr><th id="50">50</th><td>            <i>/* it is not required to escape a solidus in JSON:</i></td></tr>
+<tr><th id="51">51</th><td><i>             * read sec. 2.5: <a href="http://www.ietf.org/rfc/rfc4627.txt">http://www.ietf.org/rfc/rfc4627.txt</a></i></td></tr>
+<tr><th id="52">52</th><td><i>             * specifically, this production from the grammar:</i></td></tr>
+<tr><th id="53">53</th><td><i>             *   unescaped = %x20-21 / %x23-5B / %x5D-10FFFF</i></td></tr>
+<tr><th id="54">54</th><td><i>             */</i></td></tr>
+<tr><th id="55">55</th><td>            <b>case</b> <kbd>'/'</kbd>: <b>if</b> (<a class="local col8 ref" href="#48escape_solidus" title='escape_solidus' data-ref="48escape_solidus">escape_solidus</a>) <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\/"</q>; <b>break</b>;</td></tr>
+<tr><th id="56">56</th><td>            <b>case</b> <kbd>'"'</kbd>: <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\\""</q>; <b>break</b>;</td></tr>
+<tr><th id="57">57</th><td>            <b>case</b> <kbd>'\f'</kbd>: <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\f"</q>; <b>break</b>;</td></tr>
+<tr><th id="58">58</th><td>            <b>case</b> <kbd>'\b'</kbd>: <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\b"</q>; <b>break</b>;</td></tr>
+<tr><th id="59">59</th><td>            <b>case</b> <kbd>'\t'</kbd>: <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <q>"\\t"</q>; <b>break</b>;</td></tr>
+<tr><th id="60">60</th><td>            <b>default</b>:</td></tr>
+<tr><th id="61">61</th><td>                <b>if</b> ((<em>unsigned</em> <em>char</em>) <a class="local col6 ref" href="#46str" title='str' data-ref="46str">str</a>[<a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a>] &lt; <var>32</var>) {</td></tr>
+<tr><th id="62">62</th><td>                    <a class="tu ref" href="#CharToHex" title='CharToHex' data-use='c' data-ref="CharToHex">CharToHex</a>(<a class="local col6 ref" href="#46str" title='str' data-ref="46str">str</a>[<a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a>], <a class="local col1 ref" href="#51hexBuf" title='hexBuf' data-ref="51hexBuf">hexBuf</a> + <var>4</var>);</td></tr>
+<tr><th id="63">63</th><td>                    <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> = <a class="local col1 ref" href="#51hexBuf" title='hexBuf' data-ref="51hexBuf">hexBuf</a>;</td></tr>
+<tr><th id="64">64</th><td>                }</td></tr>
+<tr><th id="65">65</th><td>                <b>break</b>;</td></tr>
+<tr><th id="66">66</th><td>        }</td></tr>
+<tr><th id="67">67</th><td>        <b>if</b> (<a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) {</td></tr>
+<tr><th id="68">68</th><td>            <a class="local col4 ref" href="#44print" title='print' data-ref="44print">print</a>(<a class="local col5 ref" href="#45ctx" title='ctx' data-ref="45ctx">ctx</a>, (<em>const</em> <em>char</em> *) (<a class="local col6 ref" href="#46str" title='str' data-ref="46str">str</a> + <a class="local col9 ref" href="#49beg" title='beg' data-ref="49beg">beg</a>), <a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a> - <a class="local col9 ref" href="#49beg" title='beg' data-ref="49beg">beg</a>);</td></tr>
+<tr><th id="69">69</th><td>            <a class="local col4 ref" href="#44print" title='print' data-ref="44print">print</a>(<a class="local col5 ref" href="#45ctx" title='ctx' data-ref="45ctx">ctx</a>, <a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a>, (<em>unsigned</em> <em>int</em>)<a class="ref" href="../../../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col2 ref" href="#52escaped" title='escaped' data-ref="52escaped">escaped</a>));</td></tr>
+<tr><th id="70">70</th><td>            <a class="local col9 ref" href="#49beg" title='beg' data-ref="49beg">beg</a> = ++<a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a>;</td></tr>
+<tr><th id="71">71</th><td>        } <b>else</b> {</td></tr>
+<tr><th id="72">72</th><td>            ++<a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a>;</td></tr>
+<tr><th id="73">73</th><td>        }</td></tr>
+<tr><th id="74">74</th><td>    }</td></tr>
+<tr><th id="75">75</th><td>    <a class="local col4 ref" href="#44print" title='print' data-ref="44print">print</a>(<a class="local col5 ref" href="#45ctx" title='ctx' data-ref="45ctx">ctx</a>, (<em>const</em> <em>char</em> *) (<a class="local col6 ref" href="#46str" title='str' data-ref="46str">str</a> + <a class="local col9 ref" href="#49beg" title='beg' data-ref="49beg">beg</a>), <a class="local col0 ref" href="#50end" title='end' data-ref="50end">end</a> - <a class="local col9 ref" href="#49beg" title='beg' data-ref="49beg">beg</a>);</td></tr>
+<tr><th id="76">76</th><td>}</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="hexToDigit" title='hexToDigit' data-type='void hexToDigit(unsigned int * val, const unsigned char * hex)' data-ref="hexToDigit">hexToDigit</dfn>(<em>unsigned</em> <em>int</em> * <dfn class="local col3 decl" id="53val" title='val' data-type='unsigned int *' data-ref="53val">val</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col4 decl" id="54hex" title='hex' data-type='const unsigned char *' data-ref="54hex">hex</dfn>)</td></tr>
+<tr><th id="79">79</th><td>{</td></tr>
+<tr><th id="80">80</th><td>    <em>unsigned</em> <em>int</em> <dfn class="local col5 decl" id="55i" title='i' data-type='unsigned int' data-ref="55i">i</dfn>;</td></tr>
+<tr><th id="81">81</th><td>    <b>for</b> (<a class="local col5 ref" href="#55i" title='i' data-ref="55i">i</a>=<var>0</var>;<a class="local col5 ref" href="#55i" title='i' data-ref="55i">i</a>&lt;<var>4</var>;<a class="local col5 ref" href="#55i" title='i' data-ref="55i">i</a>++) {</td></tr>
+<tr><th id="82">82</th><td>        <em>unsigned</em> <em>char</em> <dfn class="local col6 decl" id="56c" title='c' data-type='unsigned char' data-ref="56c">c</dfn> = <a class="local col4 ref" href="#54hex" title='hex' data-ref="54hex">hex</a>[<a class="local col5 ref" href="#55i" title='i' data-ref="55i">i</a>];</td></tr>
+<tr><th id="83">83</th><td>        <b>if</b> (<a class="local col6 ref" href="#56c" title='c' data-ref="56c">c</a> &gt;= <kbd>'A'</kbd>) <a class="local col6 ref" href="#56c" title='c' data-ref="56c">c</a> = (<a class="local col6 ref" href="#56c" title='c' data-ref="56c">c</a> &amp; ~<var>0x20</var>) - <var>7</var>;</td></tr>
+<tr><th id="84">84</th><td>        <a class="local col6 ref" href="#56c" title='c' data-ref="56c">c</a> -= <kbd>'0'</kbd>;</td></tr>
+<tr><th id="85">85</th><td>        <a class="macro" href="../../../../include/assert.h.html#88" title="((!(c &amp; 0xF0)) ? (void) (0) : __assert_fail (&quot;!(c &amp; 0xF0)&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/cdogs/yajl/yajl_encode.c&quot;, 85, __PRETTY_FUNCTION__))" data-ref="_M/assert">assert</a>(!(<a class="local col6 ref" href="#56c" title='c' data-ref="56c">c</a> &amp; <var>0xF0</var>));</td></tr>
+<tr><th id="86">86</th><td>        *<a class="local col3 ref" href="#53val" title='val' data-ref="53val">val</a> = (*<a class="local col3 ref" href="#53val" title='val' data-ref="53val">val</a> &lt;&lt; <var>4</var>) | <a class="local col6 ref" href="#56c" title='c' data-ref="56c">c</a>;</td></tr>
+<tr><th id="87">87</th><td>    }</td></tr>
+<tr><th id="88">88</th><td>}</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="Utf32toUtf8" title='Utf32toUtf8' data-type='void Utf32toUtf8(unsigned int codepoint, char * utf8Buf)' data-ref="Utf32toUtf8">Utf32toUtf8</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="57codepoint" title='codepoint' data-type='unsigned int' data-ref="57codepoint">codepoint</dfn>, <em>char</em> * <dfn class="local col8 decl" id="58utf8Buf" title='utf8Buf' data-type='char *' data-ref="58utf8Buf">utf8Buf</dfn>) </td></tr>
+<tr><th id="91">91</th><td>{</td></tr>
+<tr><th id="92">92</th><td>    <b>if</b> (<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &lt; <var>0x80</var>) {</td></tr>
+<tr><th id="93">93</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>0</var>] = (<em>char</em>) <a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a>;</td></tr>
+<tr><th id="94">94</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>1</var>] = <var>0</var>;</td></tr>
+<tr><th id="95">95</th><td>    } <b>else</b> <b>if</b> (<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &lt; <var>0x0800</var>) {</td></tr>
+<tr><th id="96">96</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>0</var>] = (<em>char</em>) ((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &gt;&gt; <var>6</var>) | <var>0xC0</var>);</td></tr>
+<tr><th id="97">97</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>1</var>] = (<em>char</em>) ((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &amp; <var>0x3F</var>) | <var>0x80</var>);</td></tr>
+<tr><th id="98">98</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>2</var>] = <var>0</var>;</td></tr>
+<tr><th id="99">99</th><td>    } <b>else</b> <b>if</b> (<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &lt; <var>0x10000</var>) {</td></tr>
+<tr><th id="100">100</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>0</var>] = (<em>char</em>) ((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &gt;&gt; <var>12</var>) | <var>0xE0</var>);</td></tr>
+<tr><th id="101">101</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>1</var>] = (<em>char</em>) (((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &gt;&gt; <var>6</var>) &amp; <var>0x3F</var>) | <var>0x80</var>);</td></tr>
+<tr><th id="102">102</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>2</var>] = (<em>char</em>) ((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &amp; <var>0x3F</var>) | <var>0x80</var>);</td></tr>
+<tr><th id="103">103</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>3</var>] = <var>0</var>;</td></tr>
+<tr><th id="104">104</th><td>    } <b>else</b> <b>if</b> (<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &lt; <var>0x200000</var>) {</td></tr>
+<tr><th id="105">105</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>0</var>] =(<em>char</em>)((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &gt;&gt; <var>18</var>) | <var>0xF0</var>);</td></tr>
+<tr><th id="106">106</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>1</var>] =(<em>char</em>)(((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &gt;&gt; <var>12</var>) &amp; <var>0x3F</var>) | <var>0x80</var>);</td></tr>
+<tr><th id="107">107</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>2</var>] =(<em>char</em>)(((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &gt;&gt; <var>6</var>) &amp; <var>0x3F</var>) | <var>0x80</var>);</td></tr>
+<tr><th id="108">108</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>3</var>] =(<em>char</em>)((<a class="local col7 ref" href="#57codepoint" title='codepoint' data-ref="57codepoint">codepoint</a> &amp; <var>0x3F</var>) | <var>0x80</var>);</td></tr>
+<tr><th id="109">109</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>4</var>] = <var>0</var>;</td></tr>
+<tr><th id="110">110</th><td>    } <b>else</b> {</td></tr>
+<tr><th id="111">111</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>0</var>] = <kbd>'?'</kbd>;</td></tr>
+<tr><th id="112">112</th><td>        <a class="local col8 ref" href="#58utf8Buf" title='utf8Buf' data-ref="58utf8Buf">utf8Buf</a>[<var>1</var>] = <var>0</var>;</td></tr>
+<tr><th id="113">113</th><td>    }</td></tr>
+<tr><th id="114">114</th><td>}</td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td><em>void</em> <dfn class="decl def" id="yajl_string_decode" title='yajl_string_decode' data-ref="yajl_string_decode">yajl_string_decode</dfn>(<a class="typedef" href="yajl_buf.h.html#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col9 decl" id="59buf" title='buf' data-type='yajl_buf' data-ref="59buf">buf</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col0 decl" id="60str" title='str' data-type='const unsigned char *' data-ref="60str">str</dfn>,</td></tr>
+<tr><th id="117">117</th><td>                        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col1 decl" id="61len" title='len' data-type='size_t' data-ref="61len">len</dfn>)</td></tr>
+<tr><th id="118">118</th><td>{</td></tr>
+<tr><th id="119">119</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="62beg" title='beg' data-type='size_t' data-ref="62beg">beg</dfn> = <var>0</var>;</td></tr>
+<tr><th id="120">120</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="63end" title='end' data-type='size_t' data-ref="63end">end</dfn> = <var>0</var>;    </td></tr>
+<tr><th id="121">121</th><td></td></tr>
+<tr><th id="122">122</th><td>    <b>while</b> (<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a> &lt; <a class="local col1 ref" href="#61len" title='len' data-ref="61len">len</a>) {</td></tr>
+<tr><th id="123">123</th><td>        <b>if</b> (<a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a>[<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>] == <kbd>'\\'</kbd>) {</td></tr>
+<tr><th id="124">124</th><td>            <em>char</em> <dfn class="local col4 decl" id="64utf8Buf" title='utf8Buf' data-type='char [5]' data-ref="64utf8Buf">utf8Buf</dfn>[<var>5</var>];</td></tr>
+<tr><th id="125">125</th><td>            <em>const</em> <em>char</em> * <dfn class="local col5 decl" id="65unescaped" title='unescaped' data-type='const char *' data-ref="65unescaped">unescaped</dfn> = <q>"?"</q>;</td></tr>
+<tr><th id="126">126</th><td>            <a class="ref" href="yajl_buf.h.html#yajl_buf_append" title='yajl_buf_append' data-ref="yajl_buf_append">yajl_buf_append</a>(<a class="local col9 ref" href="#59buf" title='buf' data-ref="59buf">buf</a>, <a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a> + <a class="local col2 ref" href="#62beg" title='beg' data-ref="62beg">beg</a>, <a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a> - <a class="local col2 ref" href="#62beg" title='beg' data-ref="62beg">beg</a>);</td></tr>
+<tr><th id="127">127</th><td>            <b>switch</b> (<a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a>[++<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>]) {</td></tr>
+<tr><th id="128">128</th><td>                <b>case</b> <kbd>'r'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"\r"</q>; <b>break</b>;</td></tr>
+<tr><th id="129">129</th><td>                <b>case</b> <kbd>'n'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"\n"</q>; <b>break</b>;</td></tr>
+<tr><th id="130">130</th><td>                <b>case</b> <kbd>'\\'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"\\"</q>; <b>break</b>;</td></tr>
+<tr><th id="131">131</th><td>                <b>case</b> <kbd>'/'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"/"</q>; <b>break</b>;</td></tr>
+<tr><th id="132">132</th><td>                <b>case</b> <kbd>'"'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"\""</q>; <b>break</b>;</td></tr>
+<tr><th id="133">133</th><td>                <b>case</b> <kbd>'f'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"\f"</q>; <b>break</b>;</td></tr>
+<tr><th id="134">134</th><td>                <b>case</b> <kbd>'b'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"\b"</q>; <b>break</b>;</td></tr>
+<tr><th id="135">135</th><td>                <b>case</b> <kbd>'t'</kbd>: <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"\t"</q>; <b>break</b>;</td></tr>
+<tr><th id="136">136</th><td>                <b>case</b> <kbd>'u'</kbd>: {</td></tr>
+<tr><th id="137">137</th><td>                    <em>unsigned</em> <em>int</em> <dfn class="local col6 decl" id="66codepoint" title='codepoint' data-type='unsigned int' data-ref="66codepoint">codepoint</dfn> = <var>0</var>;</td></tr>
+<tr><th id="138">138</th><td>                    <a class="tu ref" href="#hexToDigit" title='hexToDigit' data-use='c' data-ref="hexToDigit">hexToDigit</a>(&amp;<a class="local col6 ref" href="#66codepoint" title='codepoint' data-ref="66codepoint">codepoint</a>, <a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a> + ++<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>);</td></tr>
+<tr><th id="139">139</th><td>                    <a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>+=<var>3</var>;</td></tr>
+<tr><th id="140">140</th><td>                    <i>/* check if this is a surrogate */</i></td></tr>
+<tr><th id="141">141</th><td>                    <b>if</b> ((<a class="local col6 ref" href="#66codepoint" title='codepoint' data-ref="66codepoint">codepoint</a> &amp; <var>0xFC00</var>) == <var>0xD800</var>) {</td></tr>
+<tr><th id="142">142</th><td>                        <a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>++;</td></tr>
+<tr><th id="143">143</th><td>                        <b>if</b> (<a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a>[<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>] == <kbd>'\\'</kbd> &amp;&amp; <a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a>[<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a> + <var>1</var>] == <kbd>'u'</kbd>) {</td></tr>
+<tr><th id="144">144</th><td>                            <em>unsigned</em> <em>int</em> <dfn class="local col7 decl" id="67surrogate" title='surrogate' data-type='unsigned int' data-ref="67surrogate">surrogate</dfn> = <var>0</var>;</td></tr>
+<tr><th id="145">145</th><td>                            <a class="tu ref" href="#hexToDigit" title='hexToDigit' data-use='c' data-ref="hexToDigit">hexToDigit</a>(&amp;<a class="local col7 ref" href="#67surrogate" title='surrogate' data-ref="67surrogate">surrogate</a>, <a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a> + <a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a> + <var>2</var>);</td></tr>
+<tr><th id="146">146</th><td>                            <a class="local col6 ref" href="#66codepoint" title='codepoint' data-ref="66codepoint">codepoint</a> =</td></tr>
+<tr><th id="147">147</th><td>                                (((<a class="local col6 ref" href="#66codepoint" title='codepoint' data-ref="66codepoint">codepoint</a> &amp; <var>0x3F</var>) &lt;&lt; <var>10</var>) | </td></tr>
+<tr><th id="148">148</th><td>                                 ((((<a class="local col6 ref" href="#66codepoint" title='codepoint' data-ref="66codepoint">codepoint</a> &gt;&gt; <var>6</var>) &amp; <var>0xF</var>) + <var>1</var>) &lt;&lt; <var>16</var>) | </td></tr>
+<tr><th id="149">149</th><td>                                 (<a class="local col7 ref" href="#67surrogate" title='surrogate' data-ref="67surrogate">surrogate</a> &amp; <var>0x3FF</var>));</td></tr>
+<tr><th id="150">150</th><td>                            <a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a> += <var>5</var>;</td></tr>
+<tr><th id="151">151</th><td>                        } <b>else</b> {</td></tr>
+<tr><th id="152">152</th><td>                            <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <q>"?"</q>;</td></tr>
+<tr><th id="153">153</th><td>                            <b>break</b>;</td></tr>
+<tr><th id="154">154</th><td>                        }</td></tr>
+<tr><th id="155">155</th><td>                    }</td></tr>
+<tr><th id="156">156</th><td>                    </td></tr>
+<tr><th id="157">157</th><td>                    <a class="tu ref" href="#Utf32toUtf8" title='Utf32toUtf8' data-use='c' data-ref="Utf32toUtf8">Utf32toUtf8</a>(<a class="local col6 ref" href="#66codepoint" title='codepoint' data-ref="66codepoint">codepoint</a>, <a class="local col4 ref" href="#64utf8Buf" title='utf8Buf' data-ref="64utf8Buf">utf8Buf</a>);</td></tr>
+<tr><th id="158">158</th><td>                    <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a> = <a class="local col4 ref" href="#64utf8Buf" title='utf8Buf' data-ref="64utf8Buf">utf8Buf</a>;</td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td>                    <b>if</b> (<a class="local col6 ref" href="#66codepoint" title='codepoint' data-ref="66codepoint">codepoint</a> == <var>0</var>) {</td></tr>
+<tr><th id="161">161</th><td>                        <a class="ref" href="yajl_buf.h.html#yajl_buf_append" title='yajl_buf_append' data-ref="yajl_buf_append">yajl_buf_append</a>(<a class="local col9 ref" href="#59buf" title='buf' data-ref="59buf">buf</a>, <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a>, <var>1</var>);</td></tr>
+<tr><th id="162">162</th><td>                        <a class="local col2 ref" href="#62beg" title='beg' data-ref="62beg">beg</a> = ++<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>;</td></tr>
+<tr><th id="163">163</th><td>                        <b>continue</b>;</td></tr>
+<tr><th id="164">164</th><td>                    }</td></tr>
+<tr><th id="165">165</th><td></td></tr>
+<tr><th id="166">166</th><td>                    <b>break</b>;</td></tr>
+<tr><th id="167">167</th><td>                }</td></tr>
+<tr><th id="168">168</th><td>                <b>default</b>:</td></tr>
+<tr><th id="169">169</th><td>                    <a class="macro" href="../../../../include/assert.h.html#88" title="((&quot;this should never happen&quot; == ((void*)0)) ? (void) (0) : __assert_fail (&quot;\&quot;this should never happen\&quot; == NULL&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/cdogs/yajl/yajl_encode.c&quot;, 169, __PRETTY_FUNCTION__))" data-ref="_M/assert">assert</a>(<q>"this should never happen"</q> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>);</td></tr>
+<tr><th id="170">170</th><td>            }</td></tr>
+<tr><th id="171">171</th><td>            <a class="ref" href="yajl_buf.h.html#yajl_buf_append" title='yajl_buf_append' data-ref="yajl_buf_append">yajl_buf_append</a>(<a class="local col9 ref" href="#59buf" title='buf' data-ref="59buf">buf</a>, <a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a>, (<em>unsigned</em> <em>int</em>)<a class="ref" href="../../../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col5 ref" href="#65unescaped" title='unescaped' data-ref="65unescaped">unescaped</a>));</td></tr>
+<tr><th id="172">172</th><td>            <a class="local col2 ref" href="#62beg" title='beg' data-ref="62beg">beg</a> = ++<a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>;</td></tr>
+<tr><th id="173">173</th><td>        } <b>else</b> {</td></tr>
+<tr><th id="174">174</th><td>            <a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a>++;</td></tr>
+<tr><th id="175">175</th><td>        }</td></tr>
+<tr><th id="176">176</th><td>    }</td></tr>
+<tr><th id="177">177</th><td>    <a class="ref" href="yajl_buf.h.html#yajl_buf_append" title='yajl_buf_append' data-ref="yajl_buf_append">yajl_buf_append</a>(<a class="local col9 ref" href="#59buf" title='buf' data-ref="59buf">buf</a>, <a class="local col0 ref" href="#60str" title='str' data-ref="60str">str</a> + <a class="local col2 ref" href="#62beg" title='beg' data-ref="62beg">beg</a>, <a class="local col3 ref" href="#63end" title='end' data-ref="63end">end</a> - <a class="local col2 ref" href="#62beg" title='beg' data-ref="62beg">beg</a>);</td></tr>
+<tr><th id="178">178</th><td>}</td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td><u>#define <dfn class="macro" id="_M/ADV_PTR" data-ref="_M/ADV_PTR">ADV_PTR</dfn> <a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a>++; if (!(<a class="local col9 ref" href="#69len" title='len' data-ref="69len">len</a>--)) return 0;</u></td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><em>int</em> <dfn class="decl def" id="yajl_string_validate_utf8" title='yajl_string_validate_utf8' data-ref="yajl_string_validate_utf8">yajl_string_validate_utf8</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col8 decl" id="68s" title='s' data-type='const unsigned char *' data-ref="68s">s</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col9 decl" id="69len" title='len' data-type='size_t' data-ref="69len">len</dfn>)</td></tr>
+<tr><th id="183">183</th><td>{</td></tr>
+<tr><th id="184">184</th><td>    <b>if</b> (!<a class="local col9 ref" href="#69len" title='len' data-ref="69len">len</a>) <b>return</b> <var>1</var>;</td></tr>
+<tr><th id="185">185</th><td>    <b>if</b> (!<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a>) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="186">186</th><td>    </td></tr>
+<tr><th id="187">187</th><td>    <b>while</b> (<a class="local col9 ref" href="#69len" title='len' data-ref="69len">len</a>--) {</td></tr>
+<tr><th id="188">188</th><td>        <i>/* single byte */</i></td></tr>
+<tr><th id="189">189</th><td>        <b>if</b> (*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &lt;= <var>0x7f</var>) {</td></tr>
+<tr><th id="190">190</th><td>            <i>/* noop */</i></td></tr>
+<tr><th id="191">191</th><td>        }</td></tr>
+<tr><th id="192">192</th><td>        <i>/* two byte */</i> </td></tr>
+<tr><th id="193">193</th><td>        <b>else</b> <b>if</b> ((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>5</var>) == <var>0x6</var>) {</td></tr>
+<tr><th id="194">194</th><td>            <a class="macro" href="#180" title="s++; if (!(len--)) return 0;" data-ref="_M/ADV_PTR">ADV_PTR</a>;</td></tr>
+<tr><th id="195">195</th><td>            <b>if</b> (!((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>6</var>) == <var>0x2</var>)) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="196">196</th><td>        }</td></tr>
+<tr><th id="197">197</th><td>        <i>/* three byte */</i></td></tr>
+<tr><th id="198">198</th><td>        <b>else</b> <b>if</b> ((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>4</var>) == <var>0x0e</var>) {</td></tr>
+<tr><th id="199">199</th><td>            <a class="macro" href="#180" title="s++; if (!(len--)) return 0;" data-ref="_M/ADV_PTR">ADV_PTR</a>;</td></tr>
+<tr><th id="200">200</th><td>            <b>if</b> (!((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>6</var>) == <var>0x2</var>)) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="201">201</th><td>            <a class="macro" href="#180" title="s++; if (!(len--)) return 0;" data-ref="_M/ADV_PTR">ADV_PTR</a>;</td></tr>
+<tr><th id="202">202</th><td>            <b>if</b> (!((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>6</var>) == <var>0x2</var>)) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="203">203</th><td>        }</td></tr>
+<tr><th id="204">204</th><td>        <i>/* four byte */</i>        </td></tr>
+<tr><th id="205">205</th><td>        <b>else</b> <b>if</b> ((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>3</var>) == <var>0x1e</var>) {</td></tr>
+<tr><th id="206">206</th><td>            <a class="macro" href="#180" title="s++; if (!(len--)) return 0;" data-ref="_M/ADV_PTR">ADV_PTR</a>;</td></tr>
+<tr><th id="207">207</th><td>            <b>if</b> (!((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>6</var>) == <var>0x2</var>)) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="208">208</th><td>            <a class="macro" href="#180" title="s++; if (!(len--)) return 0;" data-ref="_M/ADV_PTR">ADV_PTR</a>;</td></tr>
+<tr><th id="209">209</th><td>            <b>if</b> (!((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>6</var>) == <var>0x2</var>)) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="210">210</th><td>            <a class="macro" href="#180" title="s++; if (!(len--)) return 0;" data-ref="_M/ADV_PTR">ADV_PTR</a>;</td></tr>
+<tr><th id="211">211</th><td>            <b>if</b> (!((*<a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a> &gt;&gt; <var>6</var>) == <var>0x2</var>)) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="212">212</th><td>        } <b>else</b> {</td></tr>
+<tr><th id="213">213</th><td>            <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="214">214</th><td>        }</td></tr>
+<tr><th id="215">215</th><td>        </td></tr>
+<tr><th id="216">216</th><td>        <a class="local col8 ref" href="#68s" title='s' data-ref="68s">s</a>++;</td></tr>
+<tr><th id="217">217</th><td>    }</td></tr>
+<tr><th id="218">218</th><td>    </td></tr>
+<tr><th id="219">219</th><td>    <b>return</b> <var>1</var>;</td></tr>
+<tr><th id="220">220</th><td>}</td></tr>
+<tr><th id="221">221</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

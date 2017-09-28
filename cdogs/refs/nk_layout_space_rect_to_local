@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1344' type='struct nk_rect nk_layout_space_rect_to_local(struct nk_context * , struct nk_rect )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19099' ll='19114' macro='1' type='struct nk_rect nk_layout_space_rect_to_local(struct nk_context * ctx, struct nk_rect ret)'/>

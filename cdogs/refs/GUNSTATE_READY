@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='86' type='0'/>
+<use f='codebrowser/src/cdogs/actors.c' l='703' u='r' c='ActorTryShoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='707' u='r' c='ActorTryShoot'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='449' u='r' c='GetGunPic'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='462' u='r' c='DrawCharacterSimple'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='478' u='r' c='DrawHead'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='337' u='r' c='WeaponCreate'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='153' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='838' u='r' c='DrawCharacter'/>

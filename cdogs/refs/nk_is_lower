@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4127' macro='1' type='int nk_is_lower(int c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4545' u='c' c='nk_strmatch_fuzzy_text'/>

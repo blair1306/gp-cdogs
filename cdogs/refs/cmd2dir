@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='109' type='int [16]'/>
+<use f='codebrowser/src/cdogs/actors.c' l='683' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/ai.c' l='270' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/ai.c' l='273' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/ai.c' l='480' macro='1' u='r'/>
+<def f='codebrowser/src/cdogs/defs.c' l='76' ll='93' type='int [16]'/>

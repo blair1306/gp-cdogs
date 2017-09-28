@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='377' type='uint32_t'/>
+<offset>4736</offset>
+<use f='codebrowser/src/cdogs/net_server.c' l='415' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='415' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='77' u='w' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='87' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='227' u='w' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='240' u='w' c='PlayerDataMissionReset'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='83' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='83' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='83' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='83' u='r'/>

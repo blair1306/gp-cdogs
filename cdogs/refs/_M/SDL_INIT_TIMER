@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL.h' l='75'/>
+<doc f='include/SDL2/SDL.h' l='74'>/* @{ */</doc>
+<use f='codebrowser/src/cdogs.c' l='178' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1305' u='c'/>

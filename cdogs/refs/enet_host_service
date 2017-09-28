@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='564' type='int enet_host_service(ENetHost * , ENetEvent * , enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/protocol.c' l='1787' ll='1912' type='int enet_host_service(ENetHost * host, ENetEvent * event, enet_uint32 timeout)'/>
+<doc f='codebrowser/src/cdogs/enet/protocol.c' l='1774'>/** Waits for events on the host specified and shuttles packets between
+    the host and its peers.
+
+    @param host    host to service
+    @param event   an event structure where event details will be placed if one occurs
+                   if event == NULL then no events will be delivered
+    @param timeout number of milliseconds that ENet should wait for events
+    @retval &gt; 0 if an event occurred within the specified time limit
+    @retval 0 if no event occurred
+    @retval &lt; 0 on failure
+    @remarks enet_host_service should be called fairly regularly for adequate performance
+    @ingroup host
+*/</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='169' u='c' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='296' u='c' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='178' u='c' c='NetServerPoll'/>

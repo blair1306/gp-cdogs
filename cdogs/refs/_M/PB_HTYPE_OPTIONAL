@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='175'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='350' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='700' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='242' u='c'/>

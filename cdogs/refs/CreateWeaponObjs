@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_weapons.h' l='36' type='UIObject * CreateWeaponObjs(CampaignOptions * co)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1310' u='c' c='CreateEditorObjs'/>
+<doc f='codebrowser/src/cdogsed/editor_ui_weapons.h' l='35'>// Create a context menu for selecting available weapons for the mission</doc>
+<def f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='160' ll='192' type='UIObject * CreateWeaponObjs(CampaignOptions * co)'/>

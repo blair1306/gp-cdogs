@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map.h' l='125' type='int MapHasLockedRooms(Map * map)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='590' u='c' c='InitializeBadGuys'/>
+<def f='codebrowser/src/cdogs/map.c' l='402' ll='405' type='int MapHasLockedRooms(Map * map)'/>
+<use f='codebrowser/src/cdogs/map.c' l='432' u='c' c='MapTryPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map.c' l='472' u='c' c='MapTryPlaceBlowup'/>

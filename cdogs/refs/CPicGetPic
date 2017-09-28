@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='98' type='const Pic * CPicGetPic(const CPic * p, const int idx)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='100' u='c' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='180' u='c' c='CPicGetSize'/>
+<def f='codebrowser/src/cdogs/cpic.c' l='252' ll='272' type='const Pic * CPicGetPic(const CPic * p, const int idx)'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='277' u='c' c='CPicDraw'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='414' u='c' c='GetHeadPic'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='543' u='c' c='MapObjectGetPic'/>
+<use f='codebrowser/src/cdogs/particle.c' l='474' u='c' c='DrawParticle'/>

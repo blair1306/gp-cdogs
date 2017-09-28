@@ -1,0 +1,14 @@
+<def f='codebrowser/src/cdogs/rlutil/rlutil.h' l='520' ll='526' macro='1' type='void resetColor()'/>
+<use f='codebrowser/src/cdogs/log.c' l='166' u='c' c='LogResetColor'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='47' u='c' c='should_int_equal'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='63' u='c' c='should_int_gt'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='79' u='c' c='should_int_lt'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='95' u='c' c='should_int_ge'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='111' u='c' c='should_int_le'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='136' u='c' c='should_str_equal'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='157' u='c' c='should_mem_equal'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='170' u='c' c='should_be_bool'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='246' u='c' c='cbehave_feature_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='263' u='c' c='_cbehave_runner'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='282' u='c' c='_cbehave_runner'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='290' u='c' c='_cbehave_runner'/>

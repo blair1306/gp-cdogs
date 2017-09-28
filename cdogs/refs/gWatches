@@ -1,0 +1,15 @@
+<def f='codebrowser/src/cdogs/triggers.c' l='59' type='CArray'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='95' u='a' c='WatchNew'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='96' u='a' c='WatchNew'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='96' u='m' c='WatchNew'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='120' u='m' c='ActivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='120' u='a' c='ActivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='139' u='m' c='DeactivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='139' u='a' c='DeactivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='151' u='a' c='WatchesInit'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='155' u='m' c='WatchesTerminate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='155' u='a' c='WatchesTerminate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='159' u='a' c='WatchesTerminate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='279' u='m' c='UpdateWatches'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='279' u='a' c='UpdateWatches'/>
+<doc f='codebrowser/src/cdogs/triggers.c' l='59'>// of TWatch</doc>

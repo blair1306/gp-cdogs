@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1624' type='void nk_combobox_string(struct nk_context * , const char * items_separated_by_zeros, int * selected, int count, int item_height, struct nk_vec2 size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22771' ll='22773' macro='1' type='void nk_combobox_string(struct nk_context * ctx, const char * items_separated_by_zeros, int * selected, int count, int item_height, struct nk_vec2 size)'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='150' type='color_t'/>
+<offset>46656</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='149'>// Colour ranges</doc>
+<use f='codebrowser/src/cdogs/files.c' l='415' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='375' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='79' u='r' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='167' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='317' u='w' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='324' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='112' u='w' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='162' u='w' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='162' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='291' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='403' u='r' c='MissionDrawWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='244' u='w' c='MissionColorChange'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='260' u='r' c='CampaignGetMissionColor'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/config.h' l='210' type='void ConfigResetChanged(Config * c)'/>
+<doc f='codebrowser/src/cdogs/config.h' l='209'>// Reset the changed value to the last value</doc>
+<def f='codebrowser/src/cdogs/config.c' l='376' ll='408' type='void ConfigResetChanged(Config * c)'/>
+<use f='codebrowser/src/cdogs/config.c' l='401' u='c' c='ConfigResetChanged'/>
+<use f='codebrowser/src/mainmenu.c' l='107' u='c' c='MainMenuOnEnter'/>
+<use f='codebrowser/src/menu.c' l='1348' u='c' c='PostInputConfigApply'/>
+<use f='codebrowser/src/prep.c' l='671' u='c' c='GameOptionsUpdate'/>

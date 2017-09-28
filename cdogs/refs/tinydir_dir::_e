@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='130' type='struct dirent *'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='241' u='a' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='244' u='r' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='345' u='w' c='tinydir_close'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='377' u='a' c='tinydir_next'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='382' u='r' c='tinydir_next'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='411' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='422' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='435' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='449' u='r' c='tinydir_readfile'/>
+<offset>33024</offset>

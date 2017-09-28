@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='112' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogs/weapon.h:108:2)'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='314' u='m' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='314' u='m' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='443' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='443' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='444' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='451' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='238' u='m' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='239' u='m' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='m' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='m' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='m' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='m' c='LoadGunDescription'/>

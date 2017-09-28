@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='108' type='double'/>
+<offset>1024</offset>
+<use f='codebrowser/src/cdogs/ai_context.c' l='38' u='w' c='AIContextNew'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='284' u='w' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='289' u='w' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='299' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='321' u='r' c='AICoopGetCmdNormal'/>

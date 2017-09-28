@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/menu.h' l='157' type='struct menu *'/>
+<offset>1024</offset>
+<doc f='codebrowser/src/menu.h' l='157'>// if in change key mode, and which item</doc>
+<use f='codebrowser/src/menu.c' l='155' u='r' c='MenuUpdate'/>
+<use f='codebrowser/src/menu.c' l='336' u='w' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='830' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1126' u='r' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1127' u='r' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1154' u='w' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1332' u='w' c='MenuActivate'/>

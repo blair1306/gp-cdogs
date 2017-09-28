@@ -1,0 +1,76 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='50' type='CArray'/>
+<dec f='codebrowser/src/cdogs/particle.h' l='63' type='CArray'/>
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='108' type='CArray'/>
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='65' type='CArray'/>
+<dec f='codebrowser/src/cdogs/map_object.h' l='110' type='CArray'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/character_class.h' l='50'>// of CharacterClass</doc>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='108'>// of BulletClass</doc>
+<doc f='codebrowser/src/cdogs/particle.h' l='63'>// of ParticleClass</doc>
+<doc f='codebrowser/src/cdogs/map_object.h' l='110'>// of MapObject</doc>
+<doc f='codebrowser/src/cdogs/pickup_class.h' l='65'>// of PickupClass</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='75' u='m' c='StrBulletClass'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='75' u='a' c='StrBulletClass'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='569' u='a' c='BulletInitialize'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='796' u='a' c='BulletLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='828' u='a' c='BulletTerminate'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='829' u='a' c='BulletTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='75' u='a' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='77' u='a' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='78' u='a' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='80' u='a' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='82' u='a' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/character.c' l='284' u='m' c='CharacterShuffleAppearance'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='43' u='m' c='StrCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='43' u='a' c='StrCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='87' u='m' c='IndexCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='87' u='m' c='IndexCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='94' u='a' c='IndexCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='108' u='m' c='CharacterClassIndex'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='108' u='a' c='CharacterClassIndex'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='122' u='a' c='CharacterClassesInitialize'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='212' u='a' c='CharacterClassesTerminate'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='213' u='a' c='CharacterClassesTerminate'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='97' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='104' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='111' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='134' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='136' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='138' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='142' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='146' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='101' u='m' c='StrMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='101' u='a' c='StrMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='172' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='172' u='m' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='178' u='a' c='IndexMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='224' u='a' c='MapObjectsInit'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='418' u='a' c='ReloadDestructibles'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='442' u='a' c='MapObjectsLoadAmmoAndGunSpawners'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='443' u='a' c='MapObjectsLoadAmmoAndGunSpawners'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='522' u='a' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='523' u='a' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='536' u='m' c='MapObjectsCount'/>
+<use f='codebrowser/src/cdogs/particle.c' l='57' u='a' c='ParticleClassesInit'/>
+<use f='codebrowser/src/cdogs/particle.c' l='105' u='a' c='ParticleClassesTerminate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='106' u='a' c='ParticleClassesTerminate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='217' u='m' c='StrParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='217' u='a' c='StrParticleClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='57' u='m' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='57' u='a' c='StrPickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='141' u='a' c='PickupClassGetById'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='150' u='m' c='StrPickupClassId'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='150' u='a' c='StrPickupClassId'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='173' u='a' c='PickupClassesInit'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='325' u='a' c='PickupClassesTerminate'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='326' u='a' c='PickupClassesTerminate'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='348' u='m' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='348' u='a' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='369' u='m' c='PickupClassesGetScoreCount'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='369' u='a' c='PickupClassesGetScoreCount'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='390' u='m' c='IntScorePickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='390' u='a' c='IntScorePickupClass'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='249' u='m' c='NumCharacterClasses'/>
+<use f='codebrowser/src/player_select_menus.c' l='174' u='m' c='CreateFaceMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='174' u='a' c='CreateFaceMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='193' u='a' c='PostInputFaceMenu'/>

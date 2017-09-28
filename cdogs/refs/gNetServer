@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='52' type='NetServer'/>
+<use f='codebrowser/src/cdogs.c' l='213' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='287' u='a' c='main'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='133' u='a' c='GameEventsEnqueue'/>
+<def f='codebrowser/src/cdogs/net_server.c' l='49' type='NetServer'/>
+<use f='codebrowser/src/game.c' l='274' u='a' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game_loop.c' l='211' u='a' c='LoopRunnerRunInner'/>
+<use f='codebrowser/src/game_loop.c' l='230' u='a' c='LoopRunnerRunInner'/>
+<use f='codebrowser/src/mainmenu.c' l='104' u='a' c='MainMenuOnEnter'/>
+<use f='codebrowser/src/prep.c' l='710' u='a' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/prep.c' l='849' u='a' c='PlayerEquipOnExit'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='81' type='void DrawHead(const Character * c, const direction_e dir, const Vec2i pos)'/>
+<use f='codebrowser/src/briefing_screens.c' l='788' u='c' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/briefing_screens.c' l='795' u='c' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/automap.c' l='90' u='c' c='DisplayPlayer'/>
+<def f='codebrowser/src/cdogs/draw/draw_actor.c' l='475' ll='482' type='void DrawHead(const Character * c, const direction_e dir, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='276' u='c' c='DrawLives'/>

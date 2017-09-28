@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='59' type='Vec2i Net2Vec2i(const NVec2i v)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='408' u='c' c='ActorMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='409' u='c' c='ActorMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1261' u='c' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='853' u='c' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='88' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='161' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='209' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='224' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='225' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='384' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='398' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='414' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='417' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='433' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='501' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='549' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='566' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='580' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='629' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='663' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='664' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='104' ll='107' type='Vec2i Net2Vec2i(const NVec2i v)'/>
+<use f='codebrowser/src/cdogs/objs.c' l='465' u='c' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='100' u='c' c='PickupAdd'/>

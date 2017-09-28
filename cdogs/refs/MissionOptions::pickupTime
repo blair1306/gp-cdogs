@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='223' type='int'/>
+<offset>416</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='222'>// Time when players first entered pickup area</doc>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='672' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='877' u='r' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/mission.c' l='382' u='w' c='MissionBegin'/>
+<use f='codebrowser/src/game.c' l='690' u='r' c='CheckMissionCompletion'/>

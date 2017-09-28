@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='63' type='CArray'/>
+<offset>448</offset>
+<doc f='codebrowser/src/cdogs/draw/draw_buffer.h' l='63'>// of const TTileItem *, to determine draw order</doc>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='192' u='a' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='203' u='a' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='208' u='m' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='208' u='a' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='224' u='a' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='279' u='a' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='283' u='m' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='283' u='a' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='68' u='a' c='DrawBufferInit'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='69' u='a' c='DrawBufferInit'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='76' u='a' c='DrawBufferTerminate'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='173' u='m' c='DrawBufferSortDisplayList'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='174' u='m' c='DrawBufferSortDisplayList'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='175' u='m' c='DrawBufferSortDisplayList'/>

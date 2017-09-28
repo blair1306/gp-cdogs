@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2374' ll='2378'/>
+<size>24</size>
+<mbr r='nk_clipboard::userdata' o='0' t='nk_handle'/>
+<mbr r='nk_clipboard::paste' o='64' t='nk_plugin_paste'/>
+<mbr r='nk_clipboard::copy' o='128' t='nk_plugin_copy'/>

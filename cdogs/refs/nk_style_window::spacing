@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3319' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16480' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18573' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18574' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18600' u='r' c='nk_layout_row_calculate_usable_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18632' u='r' c='nk_panel_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19120' u='r' c='nk_panel_alloc_row'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19151' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19337' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21467' u='r' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22661' u='r' c='nk_combo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22695' u='r' c='nk_combo_separator'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22748' u='r' c='nk_combo_callback'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='705' u='r' c='nk_combo_separator_image'/>
+<offset>5056</offset>

@@ -1,0 +1,11 @@
+<dec f='include/SDL2/SDL_scancode.h' l='93' type='41'/>
+<use f='codebrowser/src/cdogs/events.c' l='356' u='r' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='429' u='r' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='564' u='r' c='EventIsEscape'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='506' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='616' c='Save'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1130' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='341' u='r' c='HandleEvents'/>
+<use f='codebrowser/src/game.c' l='377' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/menu.c' l='1080' u='r' c='KeyAvailable'/>
+<use f='codebrowser/src/menu.c' l='1128' u='r' c='MenuProcessChangeKey'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='62' type='Animation AnimationGetActorAnimation(const ActorAnimation aa)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='102' u='c' c='ActorSetState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1249' u='c' c='ActorAdd'/>
+<def f='codebrowser/src/cdogs/animation.c' l='55' ll='63' type='Animation AnimationGetActorAnimation(const ActorAnimation aa)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='194' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='165' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='167' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='471' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='477' u='c' c='Draw'/>

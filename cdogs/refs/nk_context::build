@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3714' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16825' u='w' c='nk_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16846' u='w' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17057' u='r' c='nk__begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17059' u='w' c='nk__begin'/>
+<offset>131712</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3713'>/* windows */</doc>

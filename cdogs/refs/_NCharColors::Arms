@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='290' type='NColor'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/net_util.c' l='134' u='w' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='144' u='r' c='Net2CharColors'/>
+<use f='codebrowser/src/cdogs/player.c' l='151' u='w' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='160' u='w' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='169' u='w' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='178' u='w' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='188' u='w' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='59'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='60' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

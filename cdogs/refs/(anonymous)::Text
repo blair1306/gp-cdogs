@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='97' type='char [128]'/>
+<offset>448</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='452' u='r' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='267' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='294' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='545' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='641' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>

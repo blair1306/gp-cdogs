@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='160' type='_Bool TileIsNormalFloor(const Tile * t)'/>
+<use f='codebrowser/src/cdogs/map.c' l='678' u='c' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='110' u='c' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='121' u='c' c='MapSetupTilesAndWalls'/>
+<def f='codebrowser/src/cdogs/tile.c' l='95' ll='98' macro='1' type='_Bool TileIsNormalFloor(const Tile * t)'/>

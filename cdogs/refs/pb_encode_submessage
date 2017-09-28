@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='148' type='_Bool pb_encode_submessage(pb_ostream_t * stream, const pb_field_t * fields, const void * src_struct)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='380' u='c' c='pb_encode_delimited'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='507' ll='555' macro='1' type='_Bool pb_encode_submessage(pb_ostream_t * stream, const pb_field_t * fields, const void * src_struct)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='667' u='c' c='pb_enc_submessage'/>

@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='142' type='void SoundPlayAt(SoundDevice * device, Mix_Chunk * data, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='536' u='c' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='541' u='c' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='606' u='c' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='644' u='c' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1266' u='c' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1347' u='c' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='280' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='926' u='c' c='PlayHitSound'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='929' u='c' c='PlayHitSound'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='932' u='c' c='PlayHitSound'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='159' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='213' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='251' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='382' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='480' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='604' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='633' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='204' u='c' c='ObjRemove'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='495' ll='498' type='void SoundPlayAt(SoundDevice * device, Mix_Chunk * data, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='206' u='c' c='ActionRun'/>

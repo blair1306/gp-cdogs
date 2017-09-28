@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='86' type='int (*)(void *, const unsigned char *, size_t)'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='84'>/** strings are returned as pointers into the JSON text when,
+         * possible, as a result, they are _not_ null padded */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='242' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='243' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='248' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='251' u='r' c='yajl_do_parse'/>

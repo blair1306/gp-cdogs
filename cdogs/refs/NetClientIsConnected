@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='78' type='_Bool NetClientIsConnected(const NetClient * n)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='189' u='c' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='508' u='c' c='NetClientSendMsg'/>
+<def f='codebrowser/src/cdogs/net_client.c' l='517' ll='520' macro='1' type='_Bool NetClientIsConnected(const NetClient * n)'/>
+<use f='codebrowser/src/game.c' l='612' u='c' c='RunGameUpdate'/>
+<use f='codebrowser/src/prep.c' l='958' u='c' c='CheckGameStart'/>

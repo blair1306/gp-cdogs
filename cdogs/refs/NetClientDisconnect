@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='72' type='void NetClientDisconnect(NetClient * n)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='69' u='c' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='153' u='c' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='192' u='c' c='NetClientTryConnect'/>
+<def f='codebrowser/src/cdogs/net_client.c' l='262' ll='277' type='void NetClientDisconnect(NetClient * n)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='312' u='c' c='NetClientPoll'/>
+<use f='codebrowser/src/mainmenu.c' l='103' u='c' c='MainMenuOnEnter'/>

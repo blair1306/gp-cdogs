@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='496' type='ENetSocket enet_socket_accept(ENetSocket , ENetAddress * )'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='399' ll='420' type='ENetSocket enet_socket_accept(ENetSocket socket, ENetAddress * address)'/>

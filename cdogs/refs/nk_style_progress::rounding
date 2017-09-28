@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3091' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14437' u='r' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14438' u='r' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14443' u='r' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14444' u='r' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16165' u='w' c='nk_style_from_table'/>
+<offset>1632</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3090'>/* properties */</doc>

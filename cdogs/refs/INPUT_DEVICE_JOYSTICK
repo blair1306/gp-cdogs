@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='176' type='3'/>
+<use f='codebrowser/src/cdogs/events.c' l='109' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='123' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='292' c='GetGameCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='316' c='GetOnePlayerCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='380' u='r' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='449' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='478' c='InputGetDirectionNames'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='555' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/utils.c' l='399' c='InputDeviceName'/>
+<use f='codebrowser/src/menu_utils.c' l='111' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/prep.c' l='290' u='r' c='AssignPlayerInputDevices'/>

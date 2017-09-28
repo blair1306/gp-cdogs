@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='80' type='_Bool pb_decode_noinit(pb_istream_t * stream, const pb_field_t * fields, void * dest_struct)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='751' ll='847' macro='1' type='_Bool pb_decode_noinit(pb_istream_t * stream, const pb_field_t * fields, void * dest_struct)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='853' u='c' c='pb_decode'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1133' u='c' c='pb_dec_submessage'/>

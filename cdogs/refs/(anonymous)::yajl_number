@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='81' type='int (*)(void *, const char *, size_t)'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='79'>/** A callback which passes the string representation of the number
+         *  back to the client.  Will be used for all numbers when present */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='281' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='282' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='306' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='307' u='r' c='yajl_do_parse'/>

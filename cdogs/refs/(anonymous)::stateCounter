@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='138' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/weapon.c' l='340' u='w' c='WeaponCreate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='444' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='446' u='w' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='446' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='446' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='447' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='545' u='w' c='WeaponSetState'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='550' u='w' c='WeaponSetState'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='553' u='w' c='WeaponSetState'/>

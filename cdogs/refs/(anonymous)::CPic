@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='64' type='CPic'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='646' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='910' u='r' c='BulletAdd'/>

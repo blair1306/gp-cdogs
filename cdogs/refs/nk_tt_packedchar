@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9020' ll='9025'/>
+<size>28</size>
+<mbr r='nk_tt_packedchar::x0' o='0' t='unsigned short'/>
+<mbr r='nk_tt_packedchar::y0' o='16' t='unsigned short'/>
+<mbr r='nk_tt_packedchar::x1' o='32' t='unsigned short'/>
+<mbr r='nk_tt_packedchar::y1' o='48' t='unsigned short'/>
+<mbr r='nk_tt_packedchar::xoff' o='64' t='float'/>
+<mbr r='nk_tt_packedchar::yoff' o='96' t='float'/>
+<mbr r='nk_tt_packedchar::xadvance' o='128' t='float'/>
+<mbr r='nk_tt_packedchar::xoff2' o='160' t='float'/>
+<mbr r='nk_tt_packedchar::yoff2' o='192' t='float'/>

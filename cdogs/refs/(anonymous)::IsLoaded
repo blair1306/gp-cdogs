@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='65' type='_Bool'/>
+<offset>1760</offset>
+<use f='codebrowser/src/cdogs.c' l='278' u='r' c='main'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='87' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='87' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='96' u='w' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='110' u='w' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='114' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='118' u='r' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='122' u='w' c='CampaignUnload'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='455' u='r' c='OnReceive'/>
+<use f='codebrowser/src/mainmenu.c' l='95' u='r' c='MainMenuOnEnter'/>
+<use f='codebrowser/src/mainmenu.c' l='160' u='r' c='MainMenuUpdate'/>
+<use f='codebrowser/src/mainmenu.c' l='170' u='r' c='MainMenuUpdate'/>
+<use f='codebrowser/src/prep.c' l='160' u='r' c='CheckCampaignDefComplete'/>
+<use f='codebrowser/src/prep.c' l='652' u='r' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/prep.c' l='966' u='r' c='CheckGameStart'/>

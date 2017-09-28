@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/config.h' l='150' type='char *'/>
+<dec f='codebrowser/src/cdogs/config.h' l='150' type='double'/>
+<dec f='codebrowser/src/cdogs/config.h' l='150' type='_Bool'/>
+<dec f='codebrowser/src/cdogs/config.h' l='164' type='int'/>
+<dec f='codebrowser/src/cdogs/config.h' l='164' type='int'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogs/config.c' l='234' u='w' c='ConfigNewInt'/>
+<use f='codebrowser/src/cdogs/config.c' l='247' u='w' c='ConfigNewFloat'/>
+<use f='codebrowser/src/menu.c' l='437' u='r' c='MenuAddConfigOptionsItem'/>

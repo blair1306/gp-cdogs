@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/list.h' l='23' type='void enet_list_clear(ENetList * )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='113' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='124' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='125' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='126' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='127' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='128' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='129' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='227' u='c' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='228' u='c' c='enet_host_connect'/>
+<def f='codebrowser/src/cdogs/enet/list.c' l='13' ll='18' type='void enet_list_clear(ENetList * list)'/>
+<doc f='codebrowser/src/cdogs/enet/list.c' l='8'>/** 
+    @defgroup list ENet linked list utility functions
+    @ingroup private
+    @{
+*/</doc>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='140' u='c' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='352' u='c' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='353' u='c' c='enet_protocol_handle_connect'/>

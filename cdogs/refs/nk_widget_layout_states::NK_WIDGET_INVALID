@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1393' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19607' u='r' c='nk_widget'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19636' u='r' c='nk_widget'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19657' u='r' c='nk_widget_fitting'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22108' u='r' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22198' u='r' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22278' u='r' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22461' u='r' c='nk_combo_begin_image'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1393'>/* The widget cannot be seen and is completely out of view */</doc>

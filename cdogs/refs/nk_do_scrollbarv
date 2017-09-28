@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='14595' ll='14683' macro='1' type='float nk_do_scrollbarv(nk_flags * state, struct nk_command_buffer * out, struct nk_rect scroll, int has_scrolling, float offset, float target, float step, float button_pixel_inc, const struct nk_style_scrollbar * style, struct nk_input * in, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15266' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17512' u='c' c='nk_panel_end'/>

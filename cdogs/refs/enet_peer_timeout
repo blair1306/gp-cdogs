@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='578' type='void enet_peer_timeout(ENetPeer * , enet_uint32 , enet_uint32 , enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='480' ll='486' type='void enet_peer_timeout(ENetPeer * peer, enet_uint32 timeoutLimit, enet_uint32 timeoutMinimum, enet_uint32 timeoutMaximum)'/>
+<doc f='codebrowser/src/cdogs/enet/peer.c' l='463'>/** Sets the timeout parameters for a peer.
+
+    The timeout parameter control how and when a peer will timeout from a failure to acknowledge
+    reliable traffic. Timeout values use an exponential backoff mechanism, where if a reliable
+    packet is not acknowledge within some multiple of the average RTT plus a variance tolerance, 
+    the timeout will be doubled until it reaches a set limit. If the timeout is thus at this
+    limit and reliable packets have been sent but not acknowledged within a certain minimum time 
+    period, the peer will be disconnected. Alternatively, if reliable packets have been sent
+    but not acknowledged for a certain maximum time period, the peer will be disconnected regardless
+    of the current timeout limit value.
+    
+    @param peer the peer to adjust
+    @param timeoutLimit the timeout limit; defaults to ENET_PEER_TIMEOUT_LIMIT if 0
+    @param timeoutMinimum the timeout minimum; defaults to ENET_PEER_TIMEOUT_MINIMUM if 0
+    @param timeoutMaximum the timeout maximum; defaults to ENET_PEER_TIMEOUT_MAXIMUM if 0
+*/</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='184' u='c' c='NetClientTryConnect'/>

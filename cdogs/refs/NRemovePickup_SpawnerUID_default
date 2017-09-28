@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='392' type='const int32_t'/>
+<def f='codebrowser/src/cdogs/proto/msg.pb.c' l='19' type='const int32_t'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='282' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='282' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='282' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='282' u='a'/>

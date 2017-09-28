@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='162' type='void GetDataFilePath(char * buf, const char * path)'/>
+<use f='codebrowser/src/autosave.c' l='99' u='c' c='LoadMissionNode'/>
+<use f='codebrowser/src/cdogs.c' l='198' u='c' c='main'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='80' u='c' c='AmmoInitialize'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='81' u='c' c='CampaignEntryTryLoad'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='99' u='c' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='107' u='c' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='125' u='c' c='CharacterClassesInitialize'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='59' u='c' c='CharSpriteClassesInit'/>
+<use f='codebrowser/src/cdogs/font.c' l='56' u='c' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='36' u='c' c='FontLoadFromJSON'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='102' u='c' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='190' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='43' u='c' c='JoyInit'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='49' u='c' c='JoyInit'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='229' u='c' c='MapObjectsInit'/>
+<use f='codebrowser/src/cdogs/music.c' l='97' u='c' c='MusicPlayGame'/>
+<use f='codebrowser/src/cdogs/music.c' l='104' u='c' c='MusicPlayGame'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='467' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/particle.c' l='60' u='c' c='ParticleClassesInit'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='268' u='c' c='PicManagerLoad'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='177' u='c' c='PickupClassesInit'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='190' u='c' c='SoundInitialize'/>
+<def f='codebrowser/src/cdogs/utils.c' l='347' ll='366' type='void GetDataFilePath(char * buf, const char * path)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='615' u='c' c='BulletAndWeaponInitialize'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='632' u='c' c='BulletAndWeaponInitialize'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1312' u='c' c='main'/>
+<use f='codebrowser/src/credits.c' l='50' u='c' c='LoadCredits'/>
+<use f='codebrowser/src/prep.c' l='317' u='c' c='PlayerSelection'/>
+<use f='codebrowser/src/prep.c' l='318' u='c' c='PlayerSelection'/>
+<use f='codebrowser/src/prep.c' l='319' u='c' c='PlayerSelection'/>

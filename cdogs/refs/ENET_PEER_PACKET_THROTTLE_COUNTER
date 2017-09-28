@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='222' type='7'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1344' u='r' c='enet_protocol_send_unreliable_outgoing_commands'/>

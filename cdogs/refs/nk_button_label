@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1464' type='int nk_button_label(struct nk_context * , const char * title)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20005' ll='20006' macro='1' type='int nk_button_label(struct nk_context * ctx, const char * title)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='384' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='390' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='394' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='398' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='404' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='449' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='454' u='c' c='Draw'/>

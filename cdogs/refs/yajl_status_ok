@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='35' type='0'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='32' c='yajl_status_to_string'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='34'>/** no error was encountered */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='164' u='r' c='yajl_do_finish'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='173' u='r' c='yajl_do_finish'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='181' u='r' c='yajl_do_finish'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='214' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='237' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='385' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='429' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='454' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='482' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='439' u='r' c='yajl_tree_parse'/>

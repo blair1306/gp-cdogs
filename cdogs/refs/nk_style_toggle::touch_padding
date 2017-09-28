@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2993' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14000' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14001' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14002' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14003' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16061' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16080' u='w' c='nk_style_from_table'/>
+<offset>1568</offset>

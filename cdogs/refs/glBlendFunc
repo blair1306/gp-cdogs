@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_opengl.h' l='808' type='void glBlendFunc(GLenum sfactor, GLenum dfactor)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='85' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='119' u='c' c='CharEditor'/>

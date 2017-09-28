@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='64' type='size_t ASPathGetCount(ASPath path)'/>
+<doc f='codebrowser/src/cdogs/AStar.h' l='63'>// fetches the number of nodes in the path</doc>
+<def f='codebrowser/src/cdogs/AStar.c' l='543' ll='546' type='size_t ASPathGetCount(ASPath path)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='444' u='c' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='488' u='c' c='AStarCloseToPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='500' u='c' c='AStarCloseToPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='555' u='c' c='AIGoto'/>

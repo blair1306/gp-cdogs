@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='12326' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12364' u='w' c='nk_textedit_layout_row'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12379' u='w' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12388' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12484' u='r' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12485' u='r' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12503' u='r' c='nk_textedit_find_charpos'/>
+<offset>96</offset>

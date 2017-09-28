@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='52'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='107' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='120' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='188' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='425' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='512' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='541' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='555' u='c'/>
+<doc f='codebrowser/src/tinydir/tinydir.h' l='50'>/* types */</doc>

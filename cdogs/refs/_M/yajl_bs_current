@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_bytestack.h' l='50'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='75' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='78' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='166' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='197' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='334' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='361' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='405' u='c'/>

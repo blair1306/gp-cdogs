@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_pixels.h' l='308' type='Uint32'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogs/pic.c' l='44' u='r' c='PixelToColor'/>
+<use f='codebrowser/src/cdogs/pic.c' l='52' u='r' c='ColorToPixel'/>

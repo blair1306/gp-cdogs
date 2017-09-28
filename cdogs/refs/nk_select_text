@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1516' type='int nk_select_text(struct nk_context * , const char * , int , nk_flags align, int value)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20269' ll='20271' macro='1' type='int nk_select_text(struct nk_context * ctx, const char * str, int len, nk_flags align, int value)'/>

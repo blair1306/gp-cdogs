@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='139' type='NConfig'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='118' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='125' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='128' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='131' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='134' u='m' c='HandleGameEvent'/>

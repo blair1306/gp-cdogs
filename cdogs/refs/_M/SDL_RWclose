@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_rwops.h' l='189'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='115' u='c'/>

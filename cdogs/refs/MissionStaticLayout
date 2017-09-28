@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='37' type='void MissionStaticLayout(Mission * m, Vec2i oldSize)'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='211' ll='258' type='void MissionStaticLayout(Mission * m, Vec2i oldSize)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='664' u='c' c='MissionChangeWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='679' u='c' c='MissionChangeHeight'/>

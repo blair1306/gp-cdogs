@@ -1,0 +1,9 @@
+<dec f='include/SDL2/SDL_mixer.h' l='226' type='void Mix_ChannelFinished(void (*)(int) channel_finished)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='218'>/*
+ * Add your own callback when a channel has finished playing. NULL
+ *  to disable callback. The callback may be called from the mixer&apos;s audio
+ *  callback or it could be called as a result of Mix_HaltChannel(), etc.
+ *  do not call SDL_LockAudio() from this callback; you will either be
+ *  inside the audio callback, or SDL_mixer will explicitly lock the audio
+ *  before calling your callback.
+ */</doc>

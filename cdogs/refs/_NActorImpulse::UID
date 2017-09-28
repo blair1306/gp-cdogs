@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='229' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='909' u='w' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='913' u='w' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='221' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='340' u='w' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='195'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='195'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='196' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='196' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='195'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='195'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='196' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='196' u='r'/>
+<use f='codebrowser/src/game.c' l='584' u='w' c='RunGameUpdate'/>

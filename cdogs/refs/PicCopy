@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/pic.h' l='52' type='Pic PicCopy(const Pic * src)'/>
+<def f='codebrowser/src/cdogs/pic.c' l='87' ll='94' type='Pic PicCopy(const Pic * src)'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='513' u='c' c='PicManagerGenerateMaskedPic'/>

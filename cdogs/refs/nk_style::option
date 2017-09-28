@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3343' type='struct nk_style_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16067' u='a' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20416' u='a' c='nk_option_text'/>
+<offset>4992</offset>

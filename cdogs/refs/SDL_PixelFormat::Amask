@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_pixels.h' l='309' type='Uint32'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/blit.c' l='210' u='r' c='Blit'/>
+<use f='codebrowser/src/cdogs/blit.c' l='274' u='r' c='BlitMasked'/>
+<use f='codebrowser/src/cdogs/blit.c' l='281' u='r' c='BlitMasked'/>

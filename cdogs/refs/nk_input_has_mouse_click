@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2757' type='int nk_input_has_mouse_click(const struct nk_input * , enum nk_buttons )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12165' ll='12172' macro='1' type='int nk_input_has_mouse_click(const struct nk_input * i, enum nk_buttons id)'/>

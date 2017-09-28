@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='36' type='10'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='34'>/* we differentiate between integers and doubles to allow the
+     * parser to interpret the number without re-scanning */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='380' u='r' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='279' c='yajl_do_parse'/>

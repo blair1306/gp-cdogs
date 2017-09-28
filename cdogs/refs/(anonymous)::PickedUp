@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='44' type='_Bool'/>
+<offset>1488</offset>
+<use f='codebrowser/src/cdogs/pickup.c' l='102' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='118' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='224' u='w' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='287' u='r' c='PickupIsManual'/>

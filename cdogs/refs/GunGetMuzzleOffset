@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='153' type='Vec2i GunGetMuzzleOffset(const GunDescription * desc, const CharSprites * cs, const direction_e dir)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1319' u='c' c='ActorGetGunMuzzleOffset'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='518' ll='529' type='Vec2i GunGetMuzzleOffset(const GunDescription * desc, const CharSprites * cs, const direction_e dir)'/>

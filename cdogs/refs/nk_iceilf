@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4619' ll='4630' macro='1' type='int nk_iceilf(float x)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9684' u='c' c='nk_tt_GetGlyphBitmapBoxSubpixel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9685' u='c' c='nk_tt_GetGlyphBitmapBoxSubpixel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21493' u='c' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21493' u='c' c='nk_list_view_begin'/>

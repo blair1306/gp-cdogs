@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='130' type='char *'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='282' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='624' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='w' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='626' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='711' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='746' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='746' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='746' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='746' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='844' u='r' c='BulletClassFree'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='844' u='r' c='BulletClassFree'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='926' u='r' c='PlayHitSound'/>

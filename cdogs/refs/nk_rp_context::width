@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='8650' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8690' u='r' c='nk_rp_setup_allow_out_of_mem'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8710' u='w' c='nk_rp_init_target'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8783' u='r' c='nk_rp__skyline_find_best_pos'/>
+<offset>0</offset>

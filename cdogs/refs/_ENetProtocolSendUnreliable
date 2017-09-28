@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='152' ll='157'/>
+<size>8</size>
+<mbr r='_ENetProtocolSendUnreliable::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolSendUnreliable::unreliableSequenceNumber' o='32' t='enet_uint16'/>
+<mbr r='_ENetProtocolSendUnreliable::dataLength' o='48' t='enet_uint16'/>

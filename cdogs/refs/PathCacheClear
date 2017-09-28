@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/path_cache.h' l='65' type='void PathCacheClear(PathCache * pc)'/>
+<doc f='codebrowser/src/cdogs/path_cache.h' l='62'>// Clear all entries in cache
+// This is done when the underlying map changes, changing paths
+// e.g. keys</doc>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='646' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='213' u='c' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='472' u='c' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='78' u='c' c='PathCacheTerminate'/>
+<def f='codebrowser/src/cdogs/path_cache.c' l='82' ll='89' type='void PathCacheClear(PathCache * pc)'/>

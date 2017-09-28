@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2914' type='void nk_draw_list_add_text(struct nk_draw_list * , const struct nk_user_font * , struct nk_rect , const char * text, int len, float font_height, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8407' ll='8456' macro='1' type='void nk_draw_list_add_text(struct nk_draw_list * list, const struct nk_user_font * font, struct nk_rect rect, const char * text, int len, float font_height, struct nk_color fg)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8580' u='c' c='nk_convert'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='119' type='3'/>
+<use f='codebrowser/src/mainmenu.c' l='299' u='r' c='CreateStartGameMode'/>
+<use f='codebrowser/src/mainmenu.c' l='449' u='r' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/menu.c' l='877' c='MenuPlaySound'/>

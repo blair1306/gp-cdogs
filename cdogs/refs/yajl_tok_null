@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='30' type='7'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='593' u='r' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='262' c='yajl_do_parse'/>

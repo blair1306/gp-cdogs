@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='5902' macro='1' type='const nk_uint [5]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5910' u='r' c='nk_utf_validate'/>

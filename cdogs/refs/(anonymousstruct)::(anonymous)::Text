@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='73' type='char *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='w' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='431' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='459' u='r' c='ParticleDestroy'/>
+<use f='codebrowser/src/cdogs/particle.c' l='459' u='r' c='ParticleDestroy'/>
+<use f='codebrowser/src/cdogs/particle.c' l='487' u='r' c='DrawParticle'/>

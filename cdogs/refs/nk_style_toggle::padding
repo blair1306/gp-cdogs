@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2992' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13996' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13996' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13997' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13997' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14012' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14013' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14014' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14015' u='m' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16060' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16079' u='w' c='nk_style_from_table'/>
+<offset>1504</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2991'>/* properties */</doc>

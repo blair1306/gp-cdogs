@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2995' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13920' u='r' c='nk_draw_checkbox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13963' u='r' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14012' u='r' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14013' u='r' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14014' u='r' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14015' u='r' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16063' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16082' u='w' c='nk_style_from_table'/>
+<offset>1664</offset>

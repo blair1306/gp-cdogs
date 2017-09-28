@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='249' type='ENetList'/>
+<offset>384</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='227' u='a' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='331' u='a' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='789' u='a' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='790' u='a' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='805' u='a' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='810' u='a' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='858' u='a' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='859' u='a' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='352' u='a' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='562' u='a' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='563' u='a' c='enet_protocol_handle_send_fragment'/>

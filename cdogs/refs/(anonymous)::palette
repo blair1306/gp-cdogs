@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/player_select_menus.h' l='41' type='const Pic *'/>
+<use f='codebrowser/src/player_select_menus.c' l='209' u='w' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='216' u='r' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='218' u='r' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='221' u='r' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='221' u='r' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='248' u='r' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='250' u='r' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='252' u='r' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='255' u='r' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='255' u='r' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='292' u='r' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='293' u='r' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='296' u='r' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='296' u='r' c='HandleInputColorMenu'/>
+<offset>64</offset>

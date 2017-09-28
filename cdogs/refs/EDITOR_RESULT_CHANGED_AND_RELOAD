@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='109' type='3'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='266' u='r' c='Change'/>
+<doc f='codebrowser/src/cdogsed/editor_brush.h' l='107'>// Note: deliberately set so that bit checking works, i.e.
+	// er &amp; EDITOR_RESULT_CHANGED, er &amp; EDITOR_RESULT_RELOAD</doc>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='358' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='365' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='374' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='381' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='391' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='398' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='407' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='414' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='423' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='430' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='571' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='640' u='r' c='EditorBrushStopPainting'/>

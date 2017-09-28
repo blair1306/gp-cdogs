@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10314' ll='10332' macro='1' type='void nk_tt_Rasterize(struct nk_tt__bitmap * result, float flatness_in_pixels, struct nk_tt_vertex * vertices, int num_verts, float scale_x, float scale_y, float shift_x, float shift_y, int x_off, int y_off, int invert, struct nk_allocator * alloc)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10352' u='c' c='nk_tt_MakeGlyphBitmapSubpixel'/>

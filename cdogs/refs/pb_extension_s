@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='338' ll='355'/>
+<size>32</size>
+<mbr r='pb_extension_s::type' o='0' t='const pb_extension_type_t *'/>
+<mbr r='pb_extension_s::dest' o='64' t='void *'/>
+<mbr r='pb_extension_s::next' o='128' t='pb_extension_t *'/>
+<mbr r='pb_extension_s::found' o='192' t='_Bool'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1655' type='int nk_contextual_item_text(struct nk_context * , const char * , int , nk_flags align)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21892' ll='21921' macro='1' type='int nk_contextual_item_text(struct nk_context * ctx, const char * text, int len, nk_flags alignment)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21924' u='c' c='nk_contextual_item_label'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22619' u='c' c='nk_combo_item_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22971' u='c' c='nk_menu_item_text'/>

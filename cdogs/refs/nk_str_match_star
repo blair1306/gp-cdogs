@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='4126' type='int nk_str_match_star(int c, const char * regexp, const char * text)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4405' u='c' c='nk_str_match_here'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4413' ll='4421' macro='1' type='int nk_str_match_star(int c, const char * regexp, const char * text)'/>

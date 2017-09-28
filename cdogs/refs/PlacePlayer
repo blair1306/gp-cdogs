@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actor_placement.h' l='38' type='Vec2i PlacePlayer(Map * map, const PlayerData * p, const Vec2i firstPos, const _Bool pumpEvents)'/>
+<def f='codebrowser/src/cdogs/actor_placement.c' l='170' ll='214' type='Vec2i PlacePlayer(Map * map, const PlayerData * p, const Vec2i firstPos, const _Bool pumpEvents)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='346' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='327' u='c' c='OnReceive'/>
+<use f='codebrowser/src/game.c' l='237' u='c' c='RunGameOnEnter'/>

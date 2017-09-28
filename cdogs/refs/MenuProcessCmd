@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='256' type='void MenuProcessCmd(MenuSystem * ms, int cmd)'/>
+<use f='codebrowser/src/menu.c' l='164' u='c' c='MenuUpdate'/>
+<def f='codebrowser/src/menu.c' l='951' ll='997' type='void MenuProcessCmd(MenuSystem * ms, int cmd)'/>
+<use f='codebrowser/src/prep.c' l='418' u='c' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='891' u='c' c='PlayerEquipUpdate'/>

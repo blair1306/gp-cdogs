@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/character.h' l='40' type='int'/>
+<offset>96</offset>
+<dec f='codebrowser/src/cdogs/files.h' l='91' type='int32_t'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogs/ai.c' l='360' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='444' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/character.c' l='146' u='a' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='174' u='r' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/files.c' l='310' u='w' c='load_character'/>
+<use f='codebrowser/src/cdogs/files.c' l='327' u='w' c='ConvertCharacter'/>
+<use f='codebrowser/src/cdogs/files.c' l='327' u='r' c='ConvertCharacter'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='155' u='w' c='SetupQuickPlayEnemy'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='548' u='a' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='610' u='w' c='AddCharacter'/>

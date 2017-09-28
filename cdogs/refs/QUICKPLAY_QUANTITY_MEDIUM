@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='119' type='2'/>
+<use f='codebrowser/src/cdogs/config.c' l='199' c='QuickPlayQuantityStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='209' u='r' c='StrQuickPlayQuantity'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='88' c='GenerateQuickPlayMapSize'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='114' c='GenerateQuickPlayParam'/>

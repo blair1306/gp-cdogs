@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl_utils.h' l='43' type='void YAJLDouble(double * value, yajl_val node, const char * name)'/>
+<def f='codebrowser/src/cdogs/yajl_utils.c' l='139' ll='146' type='void YAJLDouble(double * value, yajl_val node, const char * name)'/>

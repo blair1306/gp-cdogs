@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='81' type='PickupClass * PickupClassGetById(PickupClasses * classes, const int id)'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='132' ll='143' type='PickupClass * PickupClassGetById(PickupClasses * classes, const int id)'/>

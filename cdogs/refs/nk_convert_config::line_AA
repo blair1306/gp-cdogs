@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='897' type='enum nk_anti_aliasing'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8215' u='r' c='nk_draw_list_path_stroke'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='129' u='w' c='nk_sdl_render'/>
+<offset>32</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='897'>/* line anti-aliasing flag can be turned off if you are tight on memory */</doc>

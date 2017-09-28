@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='186' type='void ActorSetAIState(TActor * actor, const AIState s)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='621' ll='631' type='void ActorSetAIState(TActor * actor, const AIState s)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1254' u='c' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1420' u='c' c='ActorTakeHit'/>
+<doc f='codebrowser/src/cdogs/actors.c' l='620'>// Set AI state and possibly say something based on the state</doc>
+<use f='codebrowser/src/cdogs/ai.c' l='358' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='381' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='407' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='412' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='437' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='442' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='471' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='485' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='506' u='c' c='Follow'/>
+<use f='codebrowser/src/cdogs/ai.c' l='511' u='c' c='Follow'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='76' u='c' c='AICoopGetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='264' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='279' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='351' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='362' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='507' u='c' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='524' u='c' c='TryCompleteNearbyObjective'/>

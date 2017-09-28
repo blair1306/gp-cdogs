@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='162' type='_Bool TileHasCharacter(Tile * t)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='357' u='c' c='UpdateBullet'/>
+<def f='codebrowser/src/cdogs/tile.c' l='110' ll='119' macro='1' type='_Bool TileHasCharacter(Tile * t)'/>

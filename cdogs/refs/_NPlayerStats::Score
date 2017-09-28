@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='159' type='int32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/briefing_screens.c' l='522' u='w' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='525' u='w' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='526' u='w' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='527' u='w' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='528' u='w' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='529' u='w' c='ApplyBonuses'/>
+<use f='codebrowser/src/briefing_screens.c' l='727' u='r' c='DrawPlayerSummary'/>
+<use f='codebrowser/src/briefing_screens.c' l='730' u='r' c='DrawPlayerSummary'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='439' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='443' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='199' u='r' c='DrawScoreUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='435' u='w' c='PlayerScore'/>
+<use f='codebrowser/src/cdogs/player.c' l='436' u='w' c='PlayerScore'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='67'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='67'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='68' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='68' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='67'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='67'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='68' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='68' u='r'/>
+<use f='codebrowser/src/hiscores.c' l='171' u='r' c='EnterTable'/>
+<use f='codebrowser/src/hiscores.c' l='179' u='r' c='EnterTable'/>
+<use f='codebrowser/src/screens_end.c' l='100' u='r' c='GetModeScore'/>
+<use f='codebrowser/src/screens_end.c' l='243' u='r' c='PlayerListCustomDraw'/>
+<use f='codebrowser/src/screens_end.c' l='425' u='w' c='DogfightScoresUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='426' u='r' c='DogfightScoresUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='426' u='r' c='DogfightScoresUpdate'/>

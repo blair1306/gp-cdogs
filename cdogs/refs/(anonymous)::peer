@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='46' type='ENetPeer *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='70' u='w' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='160' u='w' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='161' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='184' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='264' u='r' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='267' u='r' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='268' u='w' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='286' u='r' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='514' u='r' c='NetClientSendMsg'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='519' u='r' c='NetClientIsConnected'/>
+<use f='codebrowser/src/prep.c' l='152' u='r' c='ScreenWaitForCampaignDef'/>
+<use f='codebrowser/src/prep.c' l='154' u='r' c='ScreenWaitForCampaignDef'/>

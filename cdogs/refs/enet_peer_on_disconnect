@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='593' type='void enet_peer_on_disconnect(ENetPeer * )'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='354' ll='364' type='void enet_peer_on_disconnect(ENetPeer * peer)'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='374' u='c' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='552' u='c' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='41' u='c' c='enet_protocol_change_state'/>

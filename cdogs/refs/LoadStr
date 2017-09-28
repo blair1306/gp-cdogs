@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='49' type='void LoadStr(char ** value, json_t * node, const char * name)'/>
+<doc f='codebrowser/src/cdogs/json_utils.h' l='48'>// remember to free</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='638' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='684' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='693' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='700' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='768' u='c' c='LoadHitsound'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='182' u='c' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='90' u='c' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='101' u='c' c='CPicLoadJSON'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='123' ll='130' type='void LoadStr(char ** value, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='335' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='339' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='345' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/particle.c' l='160' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='175' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='176' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='193' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='201' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='209' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='217' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='254' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='262' u='c' c='LoadGunDescription'/>

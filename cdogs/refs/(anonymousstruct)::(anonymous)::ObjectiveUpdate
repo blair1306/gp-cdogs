@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='182' type='NObjectiveUpdate'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='612' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='613' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='619' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='620' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='349' u='m' c='UpdateMissionObjective'/>
+<use f='codebrowser/src/cdogs/mission.c' l='350' u='m' c='UpdateMissionObjective'/>
+<use f='codebrowser/src/game.c' l='671' u='m' c='CheckMissionCompletion'/>
+<use f='codebrowser/src/game.c' l='672' u='m' c='CheckMissionCompletion'/>

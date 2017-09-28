@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='122' type='int'/>
+<offset>928</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='120'>// -1 if human character (get from player data), otherwise index into
+	// CharacterStore OtherChars</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='1189' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1308' u='r' c='ActorGetCharacter'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='243' u='r' c='ActorGetCharacterMutable'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='436' u='r' c='NetServerSendGameStartMessages'/>

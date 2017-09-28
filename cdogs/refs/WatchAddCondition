@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='139' type='Condition * WatchAddCondition(TWatch * w, const ConditionType type, const int counterMax, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/door.c' l='181' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='183' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='185' u='c' c='CreateCloseDoorWatch'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='98' ll='109' type='Condition * WatchAddCondition(TWatch * w, const ConditionType type, const int counterMax, const Vec2i pos)'/>

@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='196' type='const Character * ActorGetCharacter(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='525' u='c' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='525' u='c' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='538' u='c' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='785' u='c' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1121' u='c' c='IsUnarmedBot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1190' u='c' c='ActorAdd'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1302' ll='1309' type='const Character * ActorGetCharacter(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1318' u='c' c='ActorGetGunMuzzleOffset'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1520' u='c' c='ActorGetHealthPercent'/>
+<use f='codebrowser/src/cdogs/ai.c' l='191' u='c' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='245' u='c' c='WillFire'/>
+<use f='codebrowser/src/cdogs/ai.c' l='348' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='495' u='c' c='Follow'/>
+<use f='codebrowser/src/cdogs/automap.c' l='90' u='c' c='DisplayPlayer'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='79' u='c' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/mission.c' l='496' u='c' c='MoreRescuesNeeded'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='140' u='c' c='PickupPickup'/>

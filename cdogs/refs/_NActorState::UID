@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='69' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='733' u='w' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='806' u='w' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='816' u='w' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='142' u='r' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='192' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='404' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='177'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='177'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='178' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='178' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='177'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='177'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='178' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='178' u='r'/>

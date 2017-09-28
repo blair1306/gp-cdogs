@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/los.h' l='45' type='_Bool LOSTileIsVisible(Map * map, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='156' u='c' c='DrawBufferFix'/>
+<use f='codebrowser/src/cdogs/los.c' l='247' u='c' c='IsTileVisibleNonObstruction'/>
+<def f='codebrowser/src/cdogs/los.c' l='278' ll='282' macro='1' type='_Bool LOSTileIsVisible(Map * map, const Vec2i pos)'/>

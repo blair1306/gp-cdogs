@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_common.h' l='68' type='void *'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_common.h' l='67'>/** a context pointer that will be passed to above allocation routines */</doc>
+<dec f='codebrowser/src/cdogs/include/yajl/yajl_common.h' l='68' type='void *'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='64' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='76' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='108' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='114' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='172' macro='1' u='r'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/include/yajl/yajl_common.h' l='67'>/** a context pointer that will be passed to above allocation routines */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_alloc.c' l='50' u='w' c='yajl_set_default_alloc_funcs'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='42' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='51' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='58' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='67' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='68' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='114' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='140' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='107' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='120' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='93' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='132' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='141' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='371' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='445' macro='1' u='r'/>

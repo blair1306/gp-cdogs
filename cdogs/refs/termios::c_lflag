@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/termios.h' l='33' type='tcflag_t'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='78' u='w' c='getch'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='94' u='w' c='kbhit'/>
+<offset>96</offset>
+<doc f='include/x86_64-linux-gnu/bits/termios.h' l='33'>/* local mode flags */</doc>

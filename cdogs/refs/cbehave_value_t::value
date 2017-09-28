@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='228' type='void *'/>
+<offset>128</offset>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='324' u='r' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='401' u='w' c='add_value'/>

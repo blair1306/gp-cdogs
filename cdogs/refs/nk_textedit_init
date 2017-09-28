@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2440' type='void nk_textedit_init(struct nk_text_edit * , struct nk_allocator * , nk_size size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='13329' ll='13337' macro='1' type='void nk_textedit_init(struct nk_text_edit * state, struct nk_allocator * alloc, nk_size size)'/>

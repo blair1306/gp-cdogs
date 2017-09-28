@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='454' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7737' u='w' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7975' u='w' c='nk_draw_list_fill_poly_convex'/>
+<offset>96</offset>

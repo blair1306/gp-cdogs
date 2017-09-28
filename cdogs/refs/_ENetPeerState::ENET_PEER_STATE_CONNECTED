@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='199' type='5'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='269' u='r' c='enet_host_broadcast'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='358' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='380' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='421' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='455' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='475' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='106' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='345' u='r' c='enet_peer_on_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='357' u='r' c='enet_peer_on_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='439' u='r' c='enet_peer_ping'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='543' u='r' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='550' u='r' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='572' u='r' c='enet_peer_disconnect_later'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='38' u='r' c='enet_protocol_change_state'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='72' u='r' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='91' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='126' u='r' c='enet_protocol_notify_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='430' u='r' c='enet_protocol_handle_send_reliable'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='453' u='r' c='enet_protocol_handle_send_unsequenced'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='498' u='r' c='enet_protocol_handle_send_unreliable'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='529' u='r' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='639' u='r' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='744' u='r' c='enet_protocol_handle_ping'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='753' u='r' c='enet_protocol_handle_bandwidth_limit'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='787' u='r' c='enet_protocol_handle_throttle_configure'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='808' u='r' c='enet_protocol_handle_disconnect'/>

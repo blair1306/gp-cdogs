@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='16985' ll='17045' macro='1' type='void nk_build(struct nk_context * ctx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17058' u='c' c='nk__begin'/>

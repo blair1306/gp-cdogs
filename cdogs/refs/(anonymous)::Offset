@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='82' type='Vec2i'/>
+<dec f='codebrowser/src/cdogs/map_object.h' l='89' type='Vec2i'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='105' u='w' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='282' u='r' c='CPicDraw'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='322' u='w' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='323' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='499' u='w' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='542' u='r' c='MapObjectGetPic'/>
+<use f='codebrowser/src/cdogs/objs.c' l='73' u='w' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/objs.c' l='73' u='r' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/particle.c' l='475' u='w' c='DrawParticle'/>

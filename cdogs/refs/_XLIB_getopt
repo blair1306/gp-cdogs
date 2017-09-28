@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/XGetopt.h' l='75' type='int _XLIB_getopt(int argc, char ** argv, const char * optstring)'/>
+<def f='codebrowser/src/XGetopt.c' l='422' macro='1' type='int _XLIB_getopt(int argc, char ** argv, const char * optstring)'/>
+<doc f='codebrowser/src/XGetopt.c' l='419'>/**
+ * Scan the command-line parameters for options in the form \b -x.
+ */</doc>
+<doc f='codebrowser/src/XGetopt.h' l='115'>/** Scan the command-line parameters for options in the form {\em -x}. */</doc>

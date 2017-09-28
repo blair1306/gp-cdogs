@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_opengl.h' l='213'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='153' u='c'/>

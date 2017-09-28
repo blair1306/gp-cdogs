@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/damage.h' l='59' type='void DamageActor(TActor * victim, const int power, const int hitterPlayerUID)'/>
+<def f='codebrowser/src/cdogs/damage.c' l='81' ll='89' type='void DamageActor(TActor * victim, const int power, const int hitterPlayerUID)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='534' u='c' c='HandleGameEvent'/>

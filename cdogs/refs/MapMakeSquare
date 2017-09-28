@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='66' type='void MapMakeSquare(Map * map, Vec2i pos, Vec2i size)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='879' ll='889' type='void MapMakeSquare(Map * map, Vec2i pos, Vec2i size)'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='415' u='c' c='PlaceSquares'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='171' u='c' c='MapTryBuildSquare'/>

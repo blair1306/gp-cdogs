@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/los.h' l='37' type='void LOSReset(LineOfSight * los)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='166' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/los.c' l='58' ll='62' type='void LOSReset(LineOfSight * los)'/>
+<doc f='codebrowser/src/cdogs/los.c' l='57'>// Reset lines of sight by setting all cells to unseen</doc>
+<use f='codebrowser/src/game.c' l='500' u='c' c='RunGameUpdate'/>

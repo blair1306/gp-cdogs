@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2702' type='void nk_stroke_arc(struct nk_command_buffer * , float cx, float cy, float radius, float a_min, float a_max, float line_thickness, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7054' ll='7070' macro='1' type='void nk_stroke_arc(struct nk_command_buffer * b, float cx, float cy, float radius, float a_min, float a_max, float line_thickness, struct nk_color c)'/>

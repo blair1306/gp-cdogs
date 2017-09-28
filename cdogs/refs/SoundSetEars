@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='141' type='void SoundSetEars(Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='157' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='219' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='489' ll='493' type='void SoundSetEars(Vec2i pos)'/>

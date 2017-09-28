@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='131' type='Vec2i'/>
+<offset>1216</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='913' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='294' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='296' u='r' c='DrawThing'/>

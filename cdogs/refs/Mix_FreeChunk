@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_mixer.h' l='167' type='void Mix_FreeChunk(Mix_Chunk * chunk)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='166'>/* Free an audio chunk previously loaded */</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='298' u='c' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='302' u='c' c='SoundDataTerminate'/>

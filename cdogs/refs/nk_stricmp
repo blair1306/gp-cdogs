@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1859' type='int nk_stricmp(const char * s1, const char * s2)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4350' ll='4371' macro='1' type='int nk_stricmp(const char * s1, const char * s2)'/>

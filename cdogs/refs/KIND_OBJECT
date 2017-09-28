@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='90' type='3'/>
+<use f='codebrowser/src/cdogs/actors.c' l='231' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='251' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='235' u='r' c='IsTileWalkable'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='260' u='r' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='389' u='r' c='AIGetObjectRunningInto'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='477' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='427' u='r' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/objs.c' l='243' c='CanHit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='266' c='HasHitSound'/>
+<use f='codebrowser/src/cdogs/objs.c' l='302' c='Damage'/>
+<use f='codebrowser/src/cdogs/objs.c' l='459' u='r' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/tile.c' l='149' c='ThingIdGetTileItem'/>

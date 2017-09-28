@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/player_template.h' l='37' type='char *'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/player.c' l='140' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='50' u='w' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='72' u='r' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='72' u='r' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='123' u='r' c='PlayerTemplatesTerminate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='123' u='r' c='PlayerTemplatesTerminate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='132' u='r' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='318' u='r' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='377' u='r' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='377' u='r' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='w' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='r' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='r' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='378' u='r' c='PostInputSaveTemplate'/>

@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='179' type='4'/>
+<doc f='codebrowser/src/cdogs/utils.h' l='178'>// Fake device used for co-op AI</doc>
+<use f='codebrowser/src/cdogs/events.c' l='452' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='481' c='InputGetDirectionNames'/>
+<use f='codebrowser/src/cdogs/player.c' l='278' u='r' c='GetNumPlayers'/>
+<use f='codebrowser/src/cdogs/player.c' l='316' u='r' c='GetFirstPlayer'/>
+<use f='codebrowser/src/cdogs/player.c' l='336' u='r' c='IsPlayerHuman'/>
+<use f='codebrowser/src/cdogs/player.c' l='356' u='r' c='IsPlayerScreen'/>
+<use f='codebrowser/src/cdogs/utils.c' l='401' c='InputDeviceName'/>
+<use f='codebrowser/src/game.c' l='521' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/menu_utils.c' l='130' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/prep.c' l='369' u='r' c='PlayerSelectionOnExit'/>
+<use f='codebrowser/src/prep.c' l='775' u='r' c='PlayerEquip'/>

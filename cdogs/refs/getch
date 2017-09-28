@@ -1,0 +1,8 @@
+<def f='codebrowser/src/cdogs/rlutil/rlutil.h' l='72' ll='83' macro='1' type='int getch()'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='350' u='c' c='getkey'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='354' u='c' c='getkey'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='369' u='c' c='getkey'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='389' u='c' c='getkey'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='390' u='c' c='getkey'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='406' u='c' c='nb_getch'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='716' u='c' c='anykey'/>

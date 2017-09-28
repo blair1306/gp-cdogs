@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/json/json.c' l='33' type='1'/>
+<use f='codebrowser/src/json/json.c' l='1484' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1526' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1575' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1603' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1630' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1657' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1684' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1697' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1711' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1726' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1740' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1754' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1768' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1783' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1797' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1811' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1826' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1860' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1899' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1953' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1981' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2028' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2064' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2092' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2131' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2139' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2170' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2364' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2527' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2678' c='json_parse_fragment'/>

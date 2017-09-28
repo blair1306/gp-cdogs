@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map_new.h' l='36' type='int MapNewScan(const char * filename, char ** title, int * numMissions)'/>
+<doc f='codebrowser/src/cdogs/map_new.h' l='35'>// allocates title</doc>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='41' u='c' c='IsCampaignOK'/>
+<def f='codebrowser/src/cdogs/map_new.c' l='42' ll='82' type='int MapNewScan(const char * filename, char ** title, int * numMissions)'/>
+<def f='codebrowser/src/tests/autosave_test.c' l='10' ll='18' type='int MapNewScan(const char * filename, const _Bool isArchive, char ** title, int * numMissions)'/>
+<doc f='codebrowser/src/tests/autosave_test.c' l='9'>// Stubs</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3048' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14247' u='r' c='nk_draw_slider'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16115' u='w' c='nk_style_from_table'/>
+<offset>864</offset>

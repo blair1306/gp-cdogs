@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='104' type='const ParticleClass * StrParticleClass(const ParticleClasses * classes, const char * name)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='448' u='c' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1274' u='c' c='GoreEmitterInit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='696' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='703' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='263' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='288' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='538' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='637' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/particle.c' l='210' ll='231' type='const ParticleClass * StrParticleClass(const ParticleClasses * classes, const char * name)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='257' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='265' u='c' c='LoadGunDescription'/>

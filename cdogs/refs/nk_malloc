@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='6048' ll='6049' macro='1' type='void * nk_malloc(nk_handle unused, void * old, nk_size size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6058' u='r' c='nk_buffer_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6334' u='r' c='nk_str_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11571' u='r' c='nk_font_atlas_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11574' u='r' c='nk_font_atlas_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16747' u='r' c='nk_init_default'/>

@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>defs.h source code [codebrowser/src/cdogs/defs.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/defs.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='defs.h.html'>defs.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin </i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King </i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2014-2015, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="vector.h.html">"vector.h"</a></u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><i>// Defines</i></td></tr>
+<tr><th id="54">54</th><td><u>#define <dfn class="macro" id="_M/BODY_UNARMED" data-ref="_M/BODY_UNARMED">BODY_UNARMED</dfn>        0</u></td></tr>
+<tr><th id="55">55</th><td><u>#define <dfn class="macro" id="_M/BODY_ARMED" data-ref="_M/BODY_ARMED">BODY_ARMED</dfn>          1</u></td></tr>
+<tr><th id="56">56</th><td><u>#define <dfn class="macro" id="_M/BODY_COUNT" data-ref="_M/BODY_COUNT">BODY_COUNT</dfn>          2</u></td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><i>// Commands</i></td></tr>
+<tr><th id="59">59</th><td><u>#define <dfn class="macro" id="_M/CMD_LEFT" data-ref="_M/CMD_LEFT">CMD_LEFT</dfn>            1</u></td></tr>
+<tr><th id="60">60</th><td><u>#define <dfn class="macro" id="_M/CMD_RIGHT" data-ref="_M/CMD_RIGHT">CMD_RIGHT</dfn>           2</u></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/CMD_UP" data-ref="_M/CMD_UP">CMD_UP</dfn>              4</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/CMD_DOWN" data-ref="_M/CMD_DOWN">CMD_DOWN</dfn>            8</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/CMD_BUTTON1" data-ref="_M/CMD_BUTTON1">CMD_BUTTON1</dfn>        16</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/CMD_BUTTON2" data-ref="_M/CMD_BUTTON2">CMD_BUTTON2</dfn>        32</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/CMD_MAP" data-ref="_M/CMD_MAP">CMD_MAP</dfn>            64</u></td></tr>
+<tr><th id="66">66</th><td><u>#define <dfn class="macro" id="_M/CMD_ESC" data-ref="_M/CMD_ESC">CMD_ESC</dfn>           128</u></td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><i>// Command macros</i></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/Left" data-ref="_M/Left">Left</dfn>(x)       (((x) &amp; CMD_LEFT) != 0)</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/Right" data-ref="_M/Right">Right</dfn>(x)      (((x) &amp; CMD_RIGHT) != 0)</u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/Up" data-ref="_M/Up">Up</dfn>(x)         (((x) &amp; CMD_UP) != 0)</u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/Down" data-ref="_M/Down">Down</dfn>(x)       (((x) &amp; CMD_DOWN) != 0)</u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/Button1" data-ref="_M/Button1">Button1</dfn>(x)    (((x) &amp; CMD_BUTTON1) != 0)</u></td></tr>
+<tr><th id="74">74</th><td><u>#define <dfn class="macro" id="_M/Button2" data-ref="_M/Button2">Button2</dfn>(x)    (((x) &amp; CMD_BUTTON2) != 0)</u></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/AnyButton" data-ref="_M/AnyButton">AnyButton</dfn>(x)  (((x) &amp; (CMD_BUTTON1 | CMD_BUTTON2)) != 0)</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/CMD_HAS_DIRECTION" data-ref="_M/CMD_HAS_DIRECTION">CMD_HAS_DIRECTION</dfn>(x)\</u></td></tr>
+<tr><th id="77">77</th><td><u>	((x) &amp; (CMD_LEFT | CMD_RIGHT | CMD_UP | CMD_DOWN))</u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><i>// Reverse directions for command</i></td></tr>
+<tr><th id="80">80</th><td><em>int</em> <dfn class="decl" id="CmdGetReverse" title='CmdGetReverse' data-ref="CmdGetReverse">CmdGetReverse</dfn>(<em>int</em> <dfn class="local col7 decl" id="427cmd" title='cmd' data-type='int' data-ref="427cmd">cmd</dfn>);</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td><i>// Directions</i></td></tr>
+<tr><th id="83">83</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="84">84</th><td>{</td></tr>
+<tr><th id="85">85</th><td>	<dfn class="enum" id="DIRECTION_UP" title='DIRECTION_UP' data-ref="DIRECTION_UP">DIRECTION_UP</dfn>,</td></tr>
+<tr><th id="86">86</th><td>	<dfn class="enum" id="DIRECTION_UPRIGHT" title='DIRECTION_UPRIGHT' data-ref="DIRECTION_UPRIGHT">DIRECTION_UPRIGHT</dfn>,</td></tr>
+<tr><th id="87">87</th><td>	<dfn class="enum" id="DIRECTION_RIGHT" title='DIRECTION_RIGHT' data-ref="DIRECTION_RIGHT">DIRECTION_RIGHT</dfn>,</td></tr>
+<tr><th id="88">88</th><td>	<dfn class="enum" id="DIRECTION_DOWNRIGHT" title='DIRECTION_DOWNRIGHT' data-ref="DIRECTION_DOWNRIGHT">DIRECTION_DOWNRIGHT</dfn>,</td></tr>
+<tr><th id="89">89</th><td>	<dfn class="enum" id="DIRECTION_DOWN" title='DIRECTION_DOWN' data-ref="DIRECTION_DOWN">DIRECTION_DOWN</dfn>,</td></tr>
+<tr><th id="90">90</th><td>	<dfn class="enum" id="DIRECTION_DOWNLEFT" title='DIRECTION_DOWNLEFT' data-ref="DIRECTION_DOWNLEFT">DIRECTION_DOWNLEFT</dfn>,</td></tr>
+<tr><th id="91">91</th><td>	<dfn class="enum" id="DIRECTION_LEFT" title='DIRECTION_LEFT' data-ref="DIRECTION_LEFT">DIRECTION_LEFT</dfn>,</td></tr>
+<tr><th id="92">92</th><td>	<dfn class="enum" id="DIRECTION_UPLEFT" title='DIRECTION_UPLEFT' data-ref="DIRECTION_UPLEFT">DIRECTION_UPLEFT</dfn>,</td></tr>
+<tr><th id="93">93</th><td>	<dfn class="enum" id="DIRECTION_COUNT" title='DIRECTION_COUNT' data-ref="DIRECTION_COUNT">DIRECTION_COUNT</dfn></td></tr>
+<tr><th id="94">94</th><td>} <dfn class="typedef" id="direction_e" title='direction_e' data-type='enum direction_e' data-ref="direction_e">direction_e</dfn>;</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="97">97</th><td>{</td></tr>
+<tr><th id="98">98</th><td>	<dfn class="enum" id="SPECIAL_NONE" title='SPECIAL_NONE' data-ref="SPECIAL_NONE">SPECIAL_NONE</dfn>,</td></tr>
+<tr><th id="99">99</th><td>	<dfn class="enum" id="SPECIAL_FLAME" title='SPECIAL_FLAME' data-ref="SPECIAL_FLAME">SPECIAL_FLAME</dfn>,</td></tr>
+<tr><th id="100">100</th><td>	<dfn class="enum" id="SPECIAL_POISON" title='SPECIAL_POISON' data-ref="SPECIAL_POISON">SPECIAL_POISON</dfn>,</td></tr>
+<tr><th id="101">101</th><td>	<dfn class="enum" id="SPECIAL_PETRIFY" title='SPECIAL_PETRIFY' data-ref="SPECIAL_PETRIFY">SPECIAL_PETRIFY</dfn>,</td></tr>
+<tr><th id="102">102</th><td>	<dfn class="enum" id="SPECIAL_CONFUSE" title='SPECIAL_CONFUSE' data-ref="SPECIAL_CONFUSE">SPECIAL_CONFUSE</dfn></td></tr>
+<tr><th id="103">103</th><td>} <dfn class="typedef" id="special_damage_e" title='special_damage_e' data-type='enum special_damage_e' data-ref="special_damage_e">special_damage_e</dfn>;</td></tr>
+<tr><th id="104">104</th><td><a class="typedef" href="#special_damage_e" title='special_damage_e' data-type='enum special_damage_e' data-ref="special_damage_e">special_damage_e</a> <dfn class="decl" id="StrSpecialDamage" title='StrSpecialDamage' data-ref="StrSpecialDamage">StrSpecialDamage</dfn>(<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="428s" title='s' data-type='const char *' data-ref="428s">s</dfn>);</td></tr>
+<tr><th id="105">105</th><td></td></tr>
+<tr><th id="106">106</th><td><u>#define <dfn class="macro" id="_M/Z_FACTOR" data-ref="_M/Z_FACTOR">Z_FACTOR</dfn> 16	// the number of increments used for Z</u></td></tr>
+<tr><th id="107">107</th><td></td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="cmd2dir" title='cmd2dir' data-ref="cmd2dir">cmd2dir</dfn>[<var>16</var>];</td></tr>
+<tr><th id="110">110</th><td><b>extern</b> <em>int</em> <dfn class="decl" id="dir2cmd" title='dir2cmd' data-ref="dir2cmd">dir2cmd</dfn>[<var>8</var>];</td></tr>
+<tr><th id="111">111</th><td><b>extern</b> <em>double</em> <dfn class="decl" id="dir2radians" title='dir2radians' data-ref="dir2radians">dir2radians</dfn>[<var>8</var>];</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td><u>#define <dfn class="macro" id="_M/CmdToDirection" data-ref="_M/CmdToDirection">CmdToDirection</dfn>(c)   cmd2dir[(c)&amp;15]</u></td></tr>
+<tr><th id="114">114</th><td><u>#define <dfn class="macro" id="_M/DirectionToCmd" data-ref="_M/DirectionToCmd">DirectionToCmd</dfn>(d)   dir2cmd[(d)&amp;7]</u></td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td><em>void</em> <dfn class="decl" id="GetVectorsForRadians" title='GetVectorsForRadians' data-ref="GetVectorsForRadians">GetVectorsForRadians</dfn>(<em>const</em> <em>double</em> <dfn class="local col9 decl" id="429radians" title='radians' data-type='const double' data-ref="429radians">radians</dfn>, <em>double</em> *<dfn class="local col0 decl" id="430x" title='x' data-type='double *' data-ref="430x">x</dfn>, <em>double</em> *<dfn class="local col1 decl" id="431y" title='y' data-type='double *' data-ref="431y">y</dfn>);</td></tr>
+<tr><th id="117">117</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="GetFullVectorsForRadians" title='GetFullVectorsForRadians' data-ref="GetFullVectorsForRadians">GetFullVectorsForRadians</dfn>(<em>double</em> <dfn class="local col2 decl" id="432radians" title='radians' data-type='double' data-ref="432radians">radians</dfn>);</td></tr>
+<tr><th id="118">118</th><td><em>double</em> <dfn class="decl" id="Vec2iToRadians" title='Vec2iToRadians' data-ref="Vec2iToRadians">Vec2iToRadians</dfn>(<em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="433v" title='v' data-type='const Vec2i' data-ref="433v">v</dfn>);</td></tr>
+<tr><th id="119">119</th><td><a class="typedef" href="#direction_e" title='direction_e' data-type='enum direction_e' data-ref="direction_e">direction_e</a> <dfn class="decl" id="RadiansToDirection" title='RadiansToDirection' data-ref="RadiansToDirection">RadiansToDirection</dfn>(<em>const</em> <em>double</em> <dfn class="local col4 decl" id="434r" title='r' data-type='const double' data-ref="434r">r</dfn>);</td></tr>
+<tr><th id="120">120</th><td><a class="typedef" href="#direction_e" title='direction_e' data-type='enum direction_e' data-ref="direction_e">direction_e</a> <dfn class="decl" id="DirectionOpposite" title='DirectionOpposite' data-ref="DirectionOpposite">DirectionOpposite</dfn>(<em>const</em> <a class="typedef" href="#direction_e" title='direction_e' data-type='enum direction_e' data-ref="direction_e">direction_e</a> <dfn class="local col5 decl" id="435d" title='d' data-type='const direction_e' data-ref="435d">d</dfn>);</td></tr>
+<tr><th id="121">121</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

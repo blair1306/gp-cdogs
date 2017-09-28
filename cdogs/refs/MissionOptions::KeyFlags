@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='217' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/briefing_screens.c' l='491' u='r' c='GetAccessBonus'/>
+<use f='codebrowser/src/cdogs/actors.c' l='440' u='r' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='460' u='r' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='530' u='r' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='315' u='r' c='IsTileWalkableOrOpenable'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='627' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='917' u='r' c='DrawKeycards'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='450' u='r' c='NetServerSendGameStartMessages'/>

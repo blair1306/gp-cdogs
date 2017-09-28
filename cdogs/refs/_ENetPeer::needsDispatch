@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='314' type='int'/>
+<offset>2560</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='309' u='r' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='313' u='w' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='727' u='r' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='731' u='w' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='755' u='r' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='759' u='w' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='771' u='r' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='775' u='w' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='812' u='r' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='816' u='w' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='51' u='r' c='enet_protocol_dispatch_state'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='55' u='w' c='enet_protocol_dispatch_state'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='66' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='104' u='w' c='enet_protocol_dispatch_incoming_commands'/>

@@ -1,0 +1,9 @@
+<dec f='include/SDL2/SDL_video.h' l='999' type='int SDL_GL_SetAttribute(SDL_GLattr attr, int value)'/>
+<doc f='include/SDL2/SDL_video.h' l='996'>/**
+ *  \brief Set an OpenGL window attribute before window creation.
+ */</doc>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='103' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='104' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='105' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='106' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='107' u='c' c='CharEditor'/>

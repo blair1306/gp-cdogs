@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='300' type='enet_uint32'/>
+<offset>1536</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='64' u='r' c='enet_peer_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='79' u='r' c='enet_peer_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='409' u='w' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='875' u='w' c='enet_protocol_handle_acknowledge'/>

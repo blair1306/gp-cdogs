@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='79' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='468' u='r' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='478' u='r' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='537' u='w' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='540' u='w' c='TryCompleteNearbyObjective'/>

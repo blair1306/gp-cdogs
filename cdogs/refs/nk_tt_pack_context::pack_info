@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9040' type='void *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10379' u='w' c='nk_tt_PackBegin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10396' u='r' c='nk_tt_PackEnd'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10898' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10943' u='r' c='nk_font_bake_pack'/>
+<offset>0</offset>

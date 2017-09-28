@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/log.h' l='49' type='LogModule StrLogModule(const char * s)'/>
+<def f='codebrowser/src/cdogs/log.c' l='61' ll='68' type='LogModule StrLogModule(const char * s)'/>
+<use f='codebrowser/src/command_line.c' l='183' u='c' c='ParseArgs'/>

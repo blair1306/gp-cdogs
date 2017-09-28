@@ -1,0 +1,29 @@
+<def f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='68' ll='94'/>
+<size>64</size>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='49'>/* Impact of the stream parsing feature on the lexer:
+ *
+ * YAJL support stream parsing.  That is, the ability to parse the first
+ * bits of a chunk of JSON before the last bits are available (still on
+ * the network or disk).  This makes the lexer more complex.  The
+ * responsibility of the lexer is to handle transparently the case where
+ * a chunk boundary falls in the middle of a token.  This is
+ * accomplished is via a buffer and a character reading abstraction.
+ *
+ * Overview of implementation
+ *
+ * When we lex to end of input string before end of token is hit, we
+ * copy all of the input text composing the token into our lexBuf.
+ *
+ * Every time we read a character, we do so through the readChar function.
+ * readChar&apos;s responsibility is to handle pulling all chars from the buffer
+ * before pulling chars from input text
+ */</doc>
+<mbr r='yajl_lexer_t::lineOff' o='0' t='size_t'/>
+<mbr r='yajl_lexer_t::charOff' o='64' t='size_t'/>
+<mbr r='yajl_lexer_t::error' o='128' t='yajl_lex_error'/>
+<mbr r='yajl_lexer_t::buf' o='192' t='yajl_buf'/>
+<mbr r='yajl_lexer_t::bufOff' o='256' t='size_t'/>
+<mbr r='yajl_lexer_t::bufInUse' o='320' t='unsigned int'/>
+<mbr r='yajl_lexer_t::allowComments' o='352' t='unsigned int'/>
+<mbr r='yajl_lexer_t::validateUTF8' o='384' t='unsigned int'/>
+<mbr r='yajl_lexer_t::alloc' o='448' t='yajl_alloc_funcs *'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='63' type='SDL_JoystickID JoyAdded(const Sint32 which)'/>
+<use f='codebrowser/src/cdogs/events.c' l='99' u='c' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='67' u='c' c='JoyInit'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='125' ll='197' type='SDL_JoystickID JoyAdded(const Sint32 which)'/>

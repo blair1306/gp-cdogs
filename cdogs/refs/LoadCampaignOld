@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/files.h' l='210' type='int LoadCampaignOld(const char * filename, CampaignSettingOld * setting)'/>
+<def f='codebrowser/src/cdogs/files.c' l='459' ll='519' type='int LoadCampaignOld(const char * filename, CampaignSettingOld * setting)'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='124' u='c' c='MapNewLoad'/>

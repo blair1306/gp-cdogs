@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='255' type='int KeycardCount(int flags)'/>
+<doc f='codebrowser/src/cdogs/mission.h' l='254'>// Count the number of keys in the flags</doc>
+<use f='codebrowser/src/briefing_screens.c' l='491' u='c' c='GetAccessBonus'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='460' u='c' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='530' u='c' c='TryCompleteNearbyObjective'/>
+<def f='codebrowser/src/cdogs/mission.c' l='517' ll='525' type='int KeycardCount(int flags)'/>

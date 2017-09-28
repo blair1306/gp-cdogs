@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='51' type='void PicManagerLoad(PicManager * pm, const char * path)'/>
+<use f='codebrowser/src/cdogs.c' l='231' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='260' ll='270' type='void PicManagerLoad(PicManager * pm, const char * path)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1338' u='c' c='main'/>

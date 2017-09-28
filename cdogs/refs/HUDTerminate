@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='59' type='void HUDTerminate(HUD * hud)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='53' u='c' c='CameraTerminate'/>
+<def f='codebrowser/src/cdogs/hud/hud.c' l='87' ll='90' type='void HUDTerminate(HUD * hud)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='33' type='void MissionConvertToType(Mission * m, Map * map, MapType type)'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='35' ll='103' type='void MissionConvertToType(Mission * m, Map * map, MapType type)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='835' u='c' c='MissionChangeType'/>

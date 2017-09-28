@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='79' type='MapObject *'/>
+<offset>0</offset>
+<use f='codebrowser/src/briefing_screens.c' l='808' u='r' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/files.c' l='351' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/map.c' l='485' u='r' c='MapTryPlaceBlowup'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='587' u='r' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='185' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/objective.c' l='115' u='w' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='134' u='w' c='ObjectiveLoadJSON'/>
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='75' type='MapObject *'/>
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='43' type='MapObject *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='356' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='209' u='w' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='211' u='r' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='211' u='r' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='505' u='r' c='MissionDrawDestroyObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='546' u='w' c='MissionSetDestroyObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='55' u='w' c='BrushSetBrushTypeAddMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='55' u='r' c='BrushSetBrushTypeAddMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='85' u='r' c='DrawPickupSpawner'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='143' u='r' c='DrawObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='270' u='w' c='AddMapItemBrushObjFunc'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='281' u='r' c='DrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='322' u='w' c='AddPickupSpawnerBrushObjFunc'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='89' type='int (*)(void *)'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogsed/ui_object.h' l='89'>// whether the button is down</doc>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='304' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='312' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='320' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='328' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='336' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='344' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='352' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='360' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='367' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='377' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='387' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='436' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='436' u='r' c='UIObjectDrawAndAddChildren'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2978' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13919' u='r' c='nk_draw_checkbox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13962' u='r' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16062' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16081' u='w' c='nk_style_from_table'/>
+<offset>768</offset>

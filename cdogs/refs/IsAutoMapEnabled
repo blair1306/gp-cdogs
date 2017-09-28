@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='45' type='_Bool IsAutoMapEnabled(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='85' ll='88' macro='1' type='_Bool IsAutoMapEnabled(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='476' u='c' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='726' u='c' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/game.c' l='435' u='c' c='RunGameInput'/>

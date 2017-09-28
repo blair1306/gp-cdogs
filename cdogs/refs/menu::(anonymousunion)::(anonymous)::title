@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='146' type='char [64]'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='333' u='r' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='595' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='601' u='r' c='MenuDisplay'/>

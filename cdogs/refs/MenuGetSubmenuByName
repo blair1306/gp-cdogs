@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='260' type='menu_t * MenuGetSubmenuByName(menu_t * menu, const char * name)'/>
+<def f='codebrowser/src/menu.c' l='256' ll='265' type='menu_t * MenuGetSubmenuByName(menu_t * menu, const char * name)'/>
+<use f='codebrowser/src/player_select_menus.c' l='413' u='c' c='CheckReenableLoadMenu'/>
+<use f='codebrowser/src/screens_end.c' l='162' u='c' c='PlayerListOnEnter'/>

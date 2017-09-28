@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/game_loop.h' l='78' type='void LoopRunnerChange(LoopRunner * l, GameLoopData * newData)'/>
+<use f='codebrowser/src/briefing_screens.c' l='95' u='c' c='CampaignIntroUpdate'/>
+<use f='codebrowser/src/briefing_screens.c' l='303' u='c' c='MissionBriefingUpdate'/>
+<use f='codebrowser/src/briefing_screens.c' l='457' u='c' c='MissionSummaryUpdate'/>
+<use f='codebrowser/src/briefing_screens.c' l='467' u='c' c='MissionSummaryUpdate'/>
+<use f='codebrowser/src/game.c' l='645' u='c' c='NextLoop'/>
+<use f='codebrowser/src/game.c' l='648' u='c' c='NextLoop'/>
+<use f='codebrowser/src/game.c' l='652' u='c' c='NextLoop'/>
+<use f='codebrowser/src/game.c' l='659' u='c' c='NextLoop'/>
+<def f='codebrowser/src/game_loop.c' l='345' ll='349' type='void LoopRunnerChange(LoopRunner * l, GameLoopData * newData)'/>
+<use f='codebrowser/src/password.c' l='435' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/password.c' l='438' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/password.c' l='447' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/prep.c' l='247' u='c' c='NumPlayersUpdate'/>
+<use f='codebrowser/src/prep.c' l='450' u='c' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='454' u='c' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='920' u='c' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='972' u='c' c='CheckGameStart'/>
+<use f='codebrowser/src/screens_end.c' l='181' u='c' c='PlayerListUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='435' u='c' c='DogfightScoresUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='439' u='c' c='DogfightScoresUpdate'/>

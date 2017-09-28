@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='74'/>
+<doc f='codebrowser/src/cdogs/actors.h' l='73'>// Special flags</doc>
+<use f='codebrowser/src/cdogs/ai.c' l='401' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='466' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='596' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='552' u='c'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='216' type='_Bool ActorIsLowHealth(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='921' u='c' c='UpdateAllActors'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1524' ll='1527' macro='1' type='_Bool ActorIsLowHealth(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='119' u='c' c='HealthGaugeDraw'/>

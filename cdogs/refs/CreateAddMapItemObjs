@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='68' type='UIObject * CreateAddMapItemObjs(const Vec2i pos, _Bool (*)(UIObject *, MapObject *, void *) objFunc, void * data, const size_t dataSize, const _Bool expandDown)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1586' u='c' c='CreateMapItemObjs'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='187' ll='207' type='UIObject * CreateAddMapItemObjs(const Vec2i pos, _Bool (*)(UIObject *, MapObject *, void *) objFunc, void * data, const size_t dataSize, const _Bool expandDown)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='443' u='c' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='221' u='c' c='CreateAddItemObjs'/>

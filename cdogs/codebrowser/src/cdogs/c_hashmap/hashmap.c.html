@@ -1,0 +1,438 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>hashmap.c source code [codebrowser/src/cdogs/c_hashmap/hashmap.c] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="_hashmap_element,hashmap_map "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/c_hashmap/hashmap.c'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>c_hashmap</a>/<a href='hashmap.c.html'>hashmap.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Generic map implementation.</i></td></tr>
+<tr><th id="3">3</th><td><i> */</i></td></tr>
+<tr><th id="4">4</th><td><u>#include <a href="hashmap.h.html">"hashmap.h"</a></u></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="7">7</th><td><u>#include <a href="../../../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="../../../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="9">9</th><td><u>#include <a href="../../../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="10">10</th><td></td></tr>
+<tr><th id="11">11</th><td><u>#define <dfn class="macro" id="_M/INITIAL_SIZE" data-ref="_M/INITIAL_SIZE">INITIAL_SIZE</dfn> (256)</u></td></tr>
+<tr><th id="12">12</th><td><u>#define <dfn class="macro" id="_M/MAX_CHAIN_LENGTH" data-ref="_M/MAX_CHAIN_LENGTH">MAX_CHAIN_LENGTH</dfn> (8)</u></td></tr>
+<tr><th id="13">13</th><td></td></tr>
+<tr><th id="14">14</th><td><i>/* We need to keep keys and values */</i></td></tr>
+<tr><th id="15">15</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_hashmap_element" title='_hashmap_element' data-ref="_hashmap_element"><a class="type" href="#_hashmap_element" title='_hashmap_element' data-ref="_hashmap_element">_hashmap_element</a></dfn>{</td></tr>
+<tr><th id="16">16</th><td>	<em>char</em>* <dfn class="tu decl" id="_hashmap_element::key" title='_hashmap_element::key' data-type='char *' data-ref="_hashmap_element::key">key</dfn>;</td></tr>
+<tr><th id="17">17</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="tu decl" id="_hashmap_element::in_use" title='_hashmap_element::in_use' data-type='_Bool' data-ref="_hashmap_element::in_use">in_use</dfn>;</td></tr>
+<tr><th id="18">18</th><td>	<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="tu decl" id="_hashmap_element::data" title='_hashmap_element::data' data-type='any_t' data-ref="_hashmap_element::data">data</dfn>;</td></tr>
+<tr><th id="19">19</th><td>} <dfn class="typedef" id="hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</dfn>;</td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><i>/* A hashmap has some maximum size and current size,</i></td></tr>
+<tr><th id="22">22</th><td><i> * as well as the data to hold. */</i></td></tr>
+<tr><th id="23">23</th><td><b>struct</b> <dfn class="type def" id="hashmap_map" title='hashmap_map' data-ref="hashmap_map">hashmap_map</dfn>{</td></tr>
+<tr><th id="24">24</th><td>	<em>int</em> <dfn class="decl" id="hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</dfn>;</td></tr>
+<tr><th id="25">25</th><td>	<em>int</em> <dfn class="decl" id="hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</dfn>;</td></tr>
+<tr><th id="26">26</th><td>	<a class="typedef" href="#hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</a> *<dfn class="decl" id="hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</dfn>;</td></tr>
+<tr><th id="27">27</th><td>};</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><i>/*</i></td></tr>
+<tr><th id="30">30</th><td><i> * Return an empty hashmap, or NULL on failure.</i></td></tr>
+<tr><th id="31">31</th><td><i> */</i></td></tr>
+<tr><th id="32">32</th><td><a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="decl def" id="hashmap_new" title='hashmap_new' data-ref="hashmap_new">hashmap_new</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="33">33</th><td>	<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col1 decl" id="1m" title='m' data-type='map_t' data-ref="1m">m</dfn> = <a class="ref" href="../../../../include/stdlib.h.html#malloc" title='malloc' data-ref="malloc">malloc</a>(<b>sizeof</b>(<b>struct</b> <a class="type" href="#hashmap_map" title='hashmap_map' data-ref="hashmap_map">hashmap_map</a>));</td></tr>
+<tr><th id="34">34</th><td>	<b>if</b>(!<a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>) <b>goto</b> <a class="lbl" href="#2err" data-ref="2err">err</a>;</td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td>	<a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a> = (<a class="typedef" href="#hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</a>*) <a class="ref" href="../../../../include/stdlib.h.html#calloc" title='calloc' data-ref="calloc">calloc</a>(<a class="macro" href="#11" title="(256)" data-ref="_M/INITIAL_SIZE">INITIAL_SIZE</a>, <b>sizeof</b>(<a class="typedef" href="#hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</a>));</td></tr>
+<tr><th id="37">37</th><td>	<b>if</b>(!<a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>) <b>goto</b> <a class="lbl" href="#2err" data-ref="2err">err</a>;</td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td>	<a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a> = <a class="macro" href="#11" title="(256)" data-ref="_M/INITIAL_SIZE">INITIAL_SIZE</a>;</td></tr>
+<tr><th id="40">40</th><td>	<a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>-&gt;<a class="ref" href="#hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</a> = <var>0</var>;</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td>	<b>return</b> <a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>;</td></tr>
+<tr><th id="43">43</th><td>	<dfn class="lbl" id="2err" data-ref="2err">err</dfn>:</td></tr>
+<tr><th id="44">44</th><td>		<b>if</b> (<a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>)</td></tr>
+<tr><th id="45">45</th><td>			<a class="ref" href="#hashmap_free" title='hashmap_free' data-ref="hashmap_free">hashmap_free</a>(<a class="local col1 ref" href="#1m" title='m' data-ref="1m">m</a>);</td></tr>
+<tr><th id="46">46</th><td>		<b>return</b> <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="47">47</th><td>}</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><i>/* The implementation here was originally done by Gary S. Brown.  I have</i></td></tr>
+<tr><th id="50">50</th><td><i>   borrowed the tables directly, and made some minor changes to the</i></td></tr>
+<tr><th id="51">51</th><td><i>   crc32-function (including changing the interface). //ylo */</i></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td>  <i>/* ============================================================= */</i></td></tr>
+<tr><th id="54">54</th><td>  <i>/*  COPYRIGHT (C) 1986 Gary S. Brown.  You may use this program, or       */</i></td></tr>
+<tr><th id="55">55</th><td>  <i>/*  code or tables extracted from it, as desired without restriction.     */</i></td></tr>
+<tr><th id="56">56</th><td>  <i>/*                                                                        */</i></td></tr>
+<tr><th id="57">57</th><td>  <i>/*  First, the polynomial itself and its table of feedback terms.  The    */</i></td></tr>
+<tr><th id="58">58</th><td>  <i>/*  polynomial is                                                         */</i></td></tr>
+<tr><th id="59">59</th><td>  <i>/*  X^32+X^26+X^23+X^22+X^16+X^12+X^11+X^10+X^8+X^7+X^5+X^4+X^2+X^1+X^0   */</i></td></tr>
+<tr><th id="60">60</th><td>  <i>/*                                                                        */</i></td></tr>
+<tr><th id="61">61</th><td>  <i>/*  Note that we take it "backwards" and put the highest-order term in    */</i></td></tr>
+<tr><th id="62">62</th><td>  <i>/*  the lowest-order bit.  The X^32 term is "implied"; the LSB is the     */</i></td></tr>
+<tr><th id="63">63</th><td>  <i>/*  X^31 term, etc.  The X^0 term (usually shown as "+1") results in      */</i></td></tr>
+<tr><th id="64">64</th><td>  <i>/*  the MSB being 1.                                                      */</i></td></tr>
+<tr><th id="65">65</th><td>  <i>/*                                                                        */</i></td></tr>
+<tr><th id="66">66</th><td>  <i>/*  Note that the usual hardware shift register implementation, which     */</i></td></tr>
+<tr><th id="67">67</th><td>  <i>/*  is what we're using (we're merely optimizing it by doing eight-bit    */</i></td></tr>
+<tr><th id="68">68</th><td>  <i>/*  chunks at a time) shifts bits into the lowest-order term.  In our     */</i></td></tr>
+<tr><th id="69">69</th><td>  <i>/*  implementation, that means shifting towards the right.  Why do we     */</i></td></tr>
+<tr><th id="70">70</th><td>  <i>/*  do it this way?  Because the calculated CRC must be transmitted in    */</i></td></tr>
+<tr><th id="71">71</th><td>  <i>/*  order from highest-order term to lowest-order term.  UARTs transmit   */</i></td></tr>
+<tr><th id="72">72</th><td>  <i>/*  characters in order from LSB to MSB.  By storing the CRC this way,    */</i></td></tr>
+<tr><th id="73">73</th><td>  <i>/*  we hand it to the UART in the order low-byte to high-byte; the UART   */</i></td></tr>
+<tr><th id="74">74</th><td>  <i>/*  sends each low-bit to hight-bit; and the result is transmission bit   */</i></td></tr>
+<tr><th id="75">75</th><td>  <i>/*  by bit from highest- to lowest-order term without requiring any bit   */</i></td></tr>
+<tr><th id="76">76</th><td>  <i>/*  shuffling on our part.  Reception works similarly.                    */</i></td></tr>
+<tr><th id="77">77</th><td>  <i>/*                                                                        */</i></td></tr>
+<tr><th id="78">78</th><td>  <i>/*  The feedback terms table consists of 256, 32-bit entries.  Notes:     */</i></td></tr>
+<tr><th id="79">79</th><td>  <i>/*                                                                        */</i></td></tr>
+<tr><th id="80">80</th><td>  <i>/*      The table can be generated at runtime if desired; code to do so   */</i></td></tr>
+<tr><th id="81">81</th><td>  <i>/*      is shown later.  It might not be obvious, but the feedback        */</i></td></tr>
+<tr><th id="82">82</th><td>  <i>/*      terms simply represent the results of eight shift/xor opera-      */</i></td></tr>
+<tr><th id="83">83</th><td>  <i>/*      tions for all combinations of data and CRC register values.       */</i></td></tr>
+<tr><th id="84">84</th><td>  <i>/*                                                                        */</i></td></tr>
+<tr><th id="85">85</th><td>  <i>/*      The values must be right-shifted by eight bits by the "updcrc"    */</i></td></tr>
+<tr><th id="86">86</th><td>  <i>/*      logic; the shift must be unsigned (bring in zeroes).  On some     */</i></td></tr>
+<tr><th id="87">87</th><td>  <i>/*      hardware you could probably optimize the shift in assembler by    */</i></td></tr>
+<tr><th id="88">88</th><td>  <i>/*      using byte-swap instructions.                                     */</i></td></tr>
+<tr><th id="89">89</th><td>  <i>/*      polynomial $edb88320                                              */</i></td></tr>
+<tr><th id="90">90</th><td>  <i>/*                                                                        */</i></td></tr>
+<tr><th id="91">91</th><td>  <i  data-doc="crc32_tab">/*  --------------------------------------------------------------------  */</i></td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td><em>static</em> <em>unsigned</em> <em>long</em> <dfn class="tu decl def" id="crc32_tab" title='crc32_tab' data-type='unsigned long [256]' data-ref="crc32_tab">crc32_tab</dfn>[] = {</td></tr>
+<tr><th id="94">94</th><td>      <var>0x00000000L</var>, <var>0x77073096L</var>, <var>0xee0e612cL</var>, <var>0x990951baL</var>, <var>0x076dc419L</var>,</td></tr>
+<tr><th id="95">95</th><td>      <var>0x706af48fL</var>, <var>0xe963a535L</var>, <var>0x9e6495a3L</var>, <var>0x0edb8832L</var>, <var>0x79dcb8a4L</var>,</td></tr>
+<tr><th id="96">96</th><td>      <var>0xe0d5e91eL</var>, <var>0x97d2d988L</var>, <var>0x09b64c2bL</var>, <var>0x7eb17cbdL</var>, <var>0xe7b82d07L</var>,</td></tr>
+<tr><th id="97">97</th><td>      <var>0x90bf1d91L</var>, <var>0x1db71064L</var>, <var>0x6ab020f2L</var>, <var>0xf3b97148L</var>, <var>0x84be41deL</var>,</td></tr>
+<tr><th id="98">98</th><td>      <var>0x1adad47dL</var>, <var>0x6ddde4ebL</var>, <var>0xf4d4b551L</var>, <var>0x83d385c7L</var>, <var>0x136c9856L</var>,</td></tr>
+<tr><th id="99">99</th><td>      <var>0x646ba8c0L</var>, <var>0xfd62f97aL</var>, <var>0x8a65c9ecL</var>, <var>0x14015c4fL</var>, <var>0x63066cd9L</var>,</td></tr>
+<tr><th id="100">100</th><td>      <var>0xfa0f3d63L</var>, <var>0x8d080df5L</var>, <var>0x3b6e20c8L</var>, <var>0x4c69105eL</var>, <var>0xd56041e4L</var>,</td></tr>
+<tr><th id="101">101</th><td>      <var>0xa2677172L</var>, <var>0x3c03e4d1L</var>, <var>0x4b04d447L</var>, <var>0xd20d85fdL</var>, <var>0xa50ab56bL</var>,</td></tr>
+<tr><th id="102">102</th><td>      <var>0x35b5a8faL</var>, <var>0x42b2986cL</var>, <var>0xdbbbc9d6L</var>, <var>0xacbcf940L</var>, <var>0x32d86ce3L</var>,</td></tr>
+<tr><th id="103">103</th><td>      <var>0x45df5c75L</var>, <var>0xdcd60dcfL</var>, <var>0xabd13d59L</var>, <var>0x26d930acL</var>, <var>0x51de003aL</var>,</td></tr>
+<tr><th id="104">104</th><td>      <var>0xc8d75180L</var>, <var>0xbfd06116L</var>, <var>0x21b4f4b5L</var>, <var>0x56b3c423L</var>, <var>0xcfba9599L</var>,</td></tr>
+<tr><th id="105">105</th><td>      <var>0xb8bda50fL</var>, <var>0x2802b89eL</var>, <var>0x5f058808L</var>, <var>0xc60cd9b2L</var>, <var>0xb10be924L</var>,</td></tr>
+<tr><th id="106">106</th><td>      <var>0x2f6f7c87L</var>, <var>0x58684c11L</var>, <var>0xc1611dabL</var>, <var>0xb6662d3dL</var>, <var>0x76dc4190L</var>,</td></tr>
+<tr><th id="107">107</th><td>      <var>0x01db7106L</var>, <var>0x98d220bcL</var>, <var>0xefd5102aL</var>, <var>0x71b18589L</var>, <var>0x06b6b51fL</var>,</td></tr>
+<tr><th id="108">108</th><td>      <var>0x9fbfe4a5L</var>, <var>0xe8b8d433L</var>, <var>0x7807c9a2L</var>, <var>0x0f00f934L</var>, <var>0x9609a88eL</var>,</td></tr>
+<tr><th id="109">109</th><td>      <var>0xe10e9818L</var>, <var>0x7f6a0dbbL</var>, <var>0x086d3d2dL</var>, <var>0x91646c97L</var>, <var>0xe6635c01L</var>,</td></tr>
+<tr><th id="110">110</th><td>      <var>0x6b6b51f4L</var>, <var>0x1c6c6162L</var>, <var>0x856530d8L</var>, <var>0xf262004eL</var>, <var>0x6c0695edL</var>,</td></tr>
+<tr><th id="111">111</th><td>      <var>0x1b01a57bL</var>, <var>0x8208f4c1L</var>, <var>0xf50fc457L</var>, <var>0x65b0d9c6L</var>, <var>0x12b7e950L</var>,</td></tr>
+<tr><th id="112">112</th><td>      <var>0x8bbeb8eaL</var>, <var>0xfcb9887cL</var>, <var>0x62dd1ddfL</var>, <var>0x15da2d49L</var>, <var>0x8cd37cf3L</var>,</td></tr>
+<tr><th id="113">113</th><td>      <var>0xfbd44c65L</var>, <var>0x4db26158L</var>, <var>0x3ab551ceL</var>, <var>0xa3bc0074L</var>, <var>0xd4bb30e2L</var>,</td></tr>
+<tr><th id="114">114</th><td>      <var>0x4adfa541L</var>, <var>0x3dd895d7L</var>, <var>0xa4d1c46dL</var>, <var>0xd3d6f4fbL</var>, <var>0x4369e96aL</var>,</td></tr>
+<tr><th id="115">115</th><td>      <var>0x346ed9fcL</var>, <var>0xad678846L</var>, <var>0xda60b8d0L</var>, <var>0x44042d73L</var>, <var>0x33031de5L</var>,</td></tr>
+<tr><th id="116">116</th><td>      <var>0xaa0a4c5fL</var>, <var>0xdd0d7cc9L</var>, <var>0x5005713cL</var>, <var>0x270241aaL</var>, <var>0xbe0b1010L</var>,</td></tr>
+<tr><th id="117">117</th><td>      <var>0xc90c2086L</var>, <var>0x5768b525L</var>, <var>0x206f85b3L</var>, <var>0xb966d409L</var>, <var>0xce61e49fL</var>,</td></tr>
+<tr><th id="118">118</th><td>      <var>0x5edef90eL</var>, <var>0x29d9c998L</var>, <var>0xb0d09822L</var>, <var>0xc7d7a8b4L</var>, <var>0x59b33d17L</var>,</td></tr>
+<tr><th id="119">119</th><td>      <var>0x2eb40d81L</var>, <var>0xb7bd5c3bL</var>, <var>0xc0ba6cadL</var>, <var>0xedb88320L</var>, <var>0x9abfb3b6L</var>,</td></tr>
+<tr><th id="120">120</th><td>      <var>0x03b6e20cL</var>, <var>0x74b1d29aL</var>, <var>0xead54739L</var>, <var>0x9dd277afL</var>, <var>0x04db2615L</var>,</td></tr>
+<tr><th id="121">121</th><td>      <var>0x73dc1683L</var>, <var>0xe3630b12L</var>, <var>0x94643b84L</var>, <var>0x0d6d6a3eL</var>, <var>0x7a6a5aa8L</var>,</td></tr>
+<tr><th id="122">122</th><td>      <var>0xe40ecf0bL</var>, <var>0x9309ff9dL</var>, <var>0x0a00ae27L</var>, <var>0x7d079eb1L</var>, <var>0xf00f9344L</var>,</td></tr>
+<tr><th id="123">123</th><td>      <var>0x8708a3d2L</var>, <var>0x1e01f268L</var>, <var>0x6906c2feL</var>, <var>0xf762575dL</var>, <var>0x806567cbL</var>,</td></tr>
+<tr><th id="124">124</th><td>      <var>0x196c3671L</var>, <var>0x6e6b06e7L</var>, <var>0xfed41b76L</var>, <var>0x89d32be0L</var>, <var>0x10da7a5aL</var>,</td></tr>
+<tr><th id="125">125</th><td>      <var>0x67dd4accL</var>, <var>0xf9b9df6fL</var>, <var>0x8ebeeff9L</var>, <var>0x17b7be43L</var>, <var>0x60b08ed5L</var>,</td></tr>
+<tr><th id="126">126</th><td>      <var>0xd6d6a3e8L</var>, <var>0xa1d1937eL</var>, <var>0x38d8c2c4L</var>, <var>0x4fdff252L</var>, <var>0xd1bb67f1L</var>,</td></tr>
+<tr><th id="127">127</th><td>      <var>0xa6bc5767L</var>, <var>0x3fb506ddL</var>, <var>0x48b2364bL</var>, <var>0xd80d2bdaL</var>, <var>0xaf0a1b4cL</var>,</td></tr>
+<tr><th id="128">128</th><td>      <var>0x36034af6L</var>, <var>0x41047a60L</var>, <var>0xdf60efc3L</var>, <var>0xa867df55L</var>, <var>0x316e8eefL</var>,</td></tr>
+<tr><th id="129">129</th><td>      <var>0x4669be79L</var>, <var>0xcb61b38cL</var>, <var>0xbc66831aL</var>, <var>0x256fd2a0L</var>, <var>0x5268e236L</var>,</td></tr>
+<tr><th id="130">130</th><td>      <var>0xcc0c7795L</var>, <var>0xbb0b4703L</var>, <var>0x220216b9L</var>, <var>0x5505262fL</var>, <var>0xc5ba3bbeL</var>,</td></tr>
+<tr><th id="131">131</th><td>      <var>0xb2bd0b28L</var>, <var>0x2bb45a92L</var>, <var>0x5cb36a04L</var>, <var>0xc2d7ffa7L</var>, <var>0xb5d0cf31L</var>,</td></tr>
+<tr><th id="132">132</th><td>      <var>0x2cd99e8bL</var>, <var>0x5bdeae1dL</var>, <var>0x9b64c2b0L</var>, <var>0xec63f226L</var>, <var>0x756aa39cL</var>,</td></tr>
+<tr><th id="133">133</th><td>      <var>0x026d930aL</var>, <var>0x9c0906a9L</var>, <var>0xeb0e363fL</var>, <var>0x72076785L</var>, <var>0x05005713L</var>,</td></tr>
+<tr><th id="134">134</th><td>      <var>0x95bf4a82L</var>, <var>0xe2b87a14L</var>, <var>0x7bb12baeL</var>, <var>0x0cb61b38L</var>, <var>0x92d28e9bL</var>,</td></tr>
+<tr><th id="135">135</th><td>      <var>0xe5d5be0dL</var>, <var>0x7cdcefb7L</var>, <var>0x0bdbdf21L</var>, <var>0x86d3d2d4L</var>, <var>0xf1d4e242L</var>,</td></tr>
+<tr><th id="136">136</th><td>      <var>0x68ddb3f8L</var>, <var>0x1fda836eL</var>, <var>0x81be16cdL</var>, <var>0xf6b9265bL</var>, <var>0x6fb077e1L</var>,</td></tr>
+<tr><th id="137">137</th><td>      <var>0x18b74777L</var>, <var>0x88085ae6L</var>, <var>0xff0f6a70L</var>, <var>0x66063bcaL</var>, <var>0x11010b5cL</var>,</td></tr>
+<tr><th id="138">138</th><td>      <var>0x8f659effL</var>, <var>0xf862ae69L</var>, <var>0x616bffd3L</var>, <var>0x166ccf45L</var>, <var>0xa00ae278L</var>,</td></tr>
+<tr><th id="139">139</th><td>      <var>0xd70dd2eeL</var>, <var>0x4e048354L</var>, <var>0x3903b3c2L</var>, <var>0xa7672661L</var>, <var>0xd06016f7L</var>,</td></tr>
+<tr><th id="140">140</th><td>      <var>0x4969474dL</var>, <var>0x3e6e77dbL</var>, <var>0xaed16a4aL</var>, <var>0xd9d65adcL</var>, <var>0x40df0b66L</var>,</td></tr>
+<tr><th id="141">141</th><td>      <var>0x37d83bf0L</var>, <var>0xa9bcae53L</var>, <var>0xdebb9ec5L</var>, <var>0x47b2cf7fL</var>, <var>0x30b5ffe9L</var>,</td></tr>
+<tr><th id="142">142</th><td>      <var>0xbdbdf21cL</var>, <var>0xcabac28aL</var>, <var>0x53b39330L</var>, <var>0x24b4a3a6L</var>, <var>0xbad03605L</var>,</td></tr>
+<tr><th id="143">143</th><td>      <var>0xcdd70693L</var>, <var>0x54de5729L</var>, <var>0x23d967bfL</var>, <var>0xb3667a2eL</var>, <var>0xc4614ab8L</var>,</td></tr>
+<tr><th id="144">144</th><td>      <var>0x5d681b02L</var>, <var>0x2a6f2b94L</var>, <var>0xb40bbe37L</var>, <var>0xc30c8ea1L</var>, <var>0x5a05df1bL</var>,</td></tr>
+<tr><th id="145">145</th><td>      <var>0x2d02ef8dL</var></td></tr>
+<tr><th id="146">146</th><td>   };</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td><i  data-doc="crc32">/* Return a 32-bit CRC of the contents of the buffer. */</i></td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td><em>static</em> <em>unsigned</em> <em>long</em> <dfn class="tu decl def" id="crc32" title='crc32' data-type='unsigned long crc32(const unsigned char * s, unsigned int len)' data-ref="crc32">crc32</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col3 decl" id="3s" title='s' data-type='const unsigned char *' data-ref="3s">s</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col4 decl" id="4len" title='len' data-type='unsigned int' data-ref="4len">len</dfn>)</td></tr>
+<tr><th id="151">151</th><td>{</td></tr>
+<tr><th id="152">152</th><td>  <em>unsigned</em> <em>int</em> <dfn class="local col5 decl" id="5i" title='i' data-type='unsigned int' data-ref="5i">i</dfn>;</td></tr>
+<tr><th id="153">153</th><td>  <em>unsigned</em> <em>long</em> <dfn class="local col6 decl" id="6crc32val" title='crc32val' data-type='unsigned long' data-ref="6crc32val">crc32val</dfn>;</td></tr>
+<tr><th id="154">154</th><td>  </td></tr>
+<tr><th id="155">155</th><td>  <a class="local col6 ref" href="#6crc32val" title='crc32val' data-ref="6crc32val">crc32val</a> = <var>0</var>;</td></tr>
+<tr><th id="156">156</th><td>  <b>for</b> (<a class="local col5 ref" href="#5i" title='i' data-ref="5i">i</a> = <var>0</var>;  <a class="local col5 ref" href="#5i" title='i' data-ref="5i">i</a> &lt; <a class="local col4 ref" href="#4len" title='len' data-ref="4len">len</a>;  <a class="local col5 ref" href="#5i" title='i' data-ref="5i">i</a> ++)</td></tr>
+<tr><th id="157">157</th><td>    {</td></tr>
+<tr><th id="158">158</th><td>      <a class="local col6 ref" href="#6crc32val" title='crc32val' data-ref="6crc32val">crc32val</a> =</td></tr>
+<tr><th id="159">159</th><td>	<a class="tu ref" href="#crc32_tab" title='crc32_tab' data-use='r' data-ref="crc32_tab">crc32_tab</a>[(<a class="local col6 ref" href="#6crc32val" title='crc32val' data-ref="6crc32val">crc32val</a> ^ <a class="local col3 ref" href="#3s" title='s' data-ref="3s">s</a>[<a class="local col5 ref" href="#5i" title='i' data-ref="5i">i</a>]) &amp; <var>0xff</var>] ^</td></tr>
+<tr><th id="160">160</th><td>	  (<a class="local col6 ref" href="#6crc32val" title='crc32val' data-ref="6crc32val">crc32val</a> &gt;&gt; <var>8</var>);</td></tr>
+<tr><th id="161">161</th><td>    }</td></tr>
+<tr><th id="162">162</th><td>  <b>return</b> <a class="local col6 ref" href="#6crc32val" title='crc32val' data-ref="6crc32val">crc32val</a>;</td></tr>
+<tr><th id="163">163</th><td>}</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td><i  data-doc="hashmap_hash_int">/*</i></td></tr>
+<tr><th id="166">166</th><td><i  data-doc="hashmap_hash_int"> * Hashing function for a string</i></td></tr>
+<tr><th id="167">167</th><td><i  data-doc="hashmap_hash_int"> */</i></td></tr>
+<tr><th id="168">168</th><td><em>static</em> <em>unsigned</em> <em>int</em> <dfn class="tu decl def" id="hashmap_hash_int" title='hashmap_hash_int' data-type='unsigned int hashmap_hash_int(const map_t m, const char * keystring)' data-ref="hashmap_hash_int">hashmap_hash_int</dfn>(<em>const</em> <a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col7 decl" id="7m" title='m' data-type='const map_t' data-ref="7m">m</dfn>, <em>const</em> <em>char</em>* <dfn class="local col8 decl" id="8keystring" title='keystring' data-type='const char *' data-ref="8keystring">keystring</dfn>){</td></tr>
+<tr><th id="169">169</th><td></td></tr>
+<tr><th id="170">170</th><td>    <em>unsigned</em> <em>long</em> <dfn class="local col9 decl" id="9key" title='key' data-type='unsigned long' data-ref="9key">key</dfn> = <a class="tu ref" href="#crc32" title='crc32' data-use='c' data-ref="crc32">crc32</a>((<em>const</em> <em>unsigned</em> <em>char</em>*)<a class="local col8 ref" href="#8keystring" title='keystring' data-ref="8keystring">keystring</a>, <a class="ref" href="../../../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col8 ref" href="#8keystring" title='keystring' data-ref="8keystring">keystring</a>));</td></tr>
+<tr><th id="171">171</th><td></td></tr>
+<tr><th id="172">172</th><td>	<i>/* Robert Jenkins' 32 bit Mix Function */</i></td></tr>
+<tr><th id="173">173</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> += (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &lt;&lt; <var>12</var>);</td></tr>
+<tr><th id="174">174</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> ^= (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &gt;&gt; <var>22</var>);</td></tr>
+<tr><th id="175">175</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> += (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &lt;&lt; <var>4</var>);</td></tr>
+<tr><th id="176">176</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> ^= (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &gt;&gt; <var>9</var>);</td></tr>
+<tr><th id="177">177</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> += (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &lt;&lt; <var>10</var>);</td></tr>
+<tr><th id="178">178</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> ^= (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &gt;&gt; <var>2</var>);</td></tr>
+<tr><th id="179">179</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> += (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &lt;&lt; <var>7</var>);</td></tr>
+<tr><th id="180">180</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> ^= (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &gt;&gt; <var>12</var>);</td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td>	<i>/* Knuth's Multiplicative Method */</i></td></tr>
+<tr><th id="183">183</th><td>	<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> = (<a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> &gt;&gt; <var>3</var>) * <var>2654435761</var>;</td></tr>
+<tr><th id="184">184</th><td></td></tr>
+<tr><th id="185">185</th><td>	<b>return</b> <a class="local col9 ref" href="#9key" title='key' data-ref="9key">key</a> % <a class="local col7 ref" href="#7m" title='m' data-ref="7m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>;</td></tr>
+<tr><th id="186">186</th><td>}</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td><i  data-doc="hashmap_hash">/*</i></td></tr>
+<tr><th id="189">189</th><td><i  data-doc="hashmap_hash"> * Return the integer of the location in data</i></td></tr>
+<tr><th id="190">190</th><td><i  data-doc="hashmap_hash"> * to store the point to the item, or MAP_FULL.</i></td></tr>
+<tr><th id="191">191</th><td><i  data-doc="hashmap_hash"> */</i></td></tr>
+<tr><th id="192">192</th><td><em>static</em> <em>int</em> <dfn class="tu decl def" id="hashmap_hash" title='hashmap_hash' data-type='int hashmap_hash(map_t m, const char * key)' data-ref="hashmap_hash">hashmap_hash</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col0 decl" id="10m" title='m' data-type='map_t' data-ref="10m">m</dfn>, <em>const</em> <em>char</em>* <dfn class="local col1 decl" id="11key" title='key' data-type='const char *' data-ref="11key">key</dfn>){</td></tr>
+<tr><th id="193">193</th><td>	<em>int</em> <dfn class="local col2 decl" id="12curr" title='curr' data-type='int' data-ref="12curr">curr</dfn>;</td></tr>
+<tr><th id="194">194</th><td>	<em>int</em> <dfn class="local col3 decl" id="13i" title='i' data-type='int' data-ref="13i">i</dfn>;</td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td>	<i>/* If full, return immediately */</i></td></tr>
+<tr><th id="197">197</th><td>	<b>if</b>(<a class="local col0 ref" href="#10m" title='m' data-ref="10m">m</a>-&gt;<a class="ref" href="#hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</a> &gt;= (<a class="local col0 ref" href="#10m" title='m' data-ref="10m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>/<var>2</var>)) <b>return</b> <a class="macro" href="hashmap.h.html#12" title="-2" data-ref="_M/MAP_FULL">MAP_FULL</a>;</td></tr>
+<tr><th id="198">198</th><td></td></tr>
+<tr><th id="199">199</th><td>	<i>/* Find the best index */</i></td></tr>
+<tr><th id="200">200</th><td>	<a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a> = <a class="tu ref" href="#hashmap_hash_int" title='hashmap_hash_int' data-use='c' data-ref="hashmap_hash_int">hashmap_hash_int</a>(<a class="local col0 ref" href="#10m" title='m' data-ref="10m">m</a>, <a class="local col1 ref" href="#11key" title='key' data-ref="11key">key</a>);</td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td>	<i>/* Linear probing */</i></td></tr>
+<tr><th id="203">203</th><td>	<b>for</b>(<a class="local col3 ref" href="#13i" title='i' data-ref="13i">i</a> = <var>0</var>; <a class="local col3 ref" href="#13i" title='i' data-ref="13i">i</a>&lt; <a class="macro" href="#12" title="(8)" data-ref="_M/MAX_CHAIN_LENGTH">MAX_CHAIN_LENGTH</a>; <a class="local col3 ref" href="#13i" title='i' data-ref="13i">i</a>++){</td></tr>
+<tr><th id="204">204</th><td>		<b>if</b>(<a class="local col0 ref" href="#10m" title='m' data-ref="10m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a> == <var>0</var>)</td></tr>
+<tr><th id="205">205</th><td>			<b>return</b> <a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a>;</td></tr>
+<tr><th id="206">206</th><td></td></tr>
+<tr><th id="207">207</th><td>		<b>if</b>(<a class="local col0 ref" href="#10m" title='m' data-ref="10m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a> == <var>1</var> &amp;&amp; (<a class="ref" href="../../../../include/string.h.html#strcmp" title='strcmp' data-ref="strcmp">strcmp</a>(<a class="local col0 ref" href="#10m" title='m' data-ref="10m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>,<a class="local col1 ref" href="#11key" title='key' data-ref="11key">key</a>)==<var>0</var>))</td></tr>
+<tr><th id="208">208</th><td>			<b>return</b> <a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a>;</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td>		<a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a> = (<a class="local col2 ref" href="#12curr" title='curr' data-ref="12curr">curr</a> + <var>1</var>) % <a class="local col0 ref" href="#10m" title='m' data-ref="10m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>;</td></tr>
+<tr><th id="211">211</th><td>	}</td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td>	<b>return</b> <a class="macro" href="hashmap.h.html#12" title="-2" data-ref="_M/MAP_FULL">MAP_FULL</a>;</td></tr>
+<tr><th id="214">214</th><td>}</td></tr>
+<tr><th id="215">215</th><td></td></tr>
+<tr><th id="216">216</th><td><i  data-doc="hashmap_rehash">/*</i></td></tr>
+<tr><th id="217">217</th><td><i  data-doc="hashmap_rehash"> * Doubles the size of the hashmap, and rehashes all the elements</i></td></tr>
+<tr><th id="218">218</th><td><i  data-doc="hashmap_rehash"> */</i></td></tr>
+<tr><th id="219">219</th><td><em>static</em> <em>int</em> <dfn class="tu decl def" id="hashmap_rehash" title='hashmap_rehash' data-type='int hashmap_rehash(map_t m)' data-ref="hashmap_rehash">hashmap_rehash</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col4 decl" id="14m" title='m' data-type='map_t' data-ref="14m">m</dfn>){</td></tr>
+<tr><th id="220">220</th><td>	<em>int</em> <dfn class="local col5 decl" id="15i" title='i' data-type='int' data-ref="15i">i</dfn>;</td></tr>
+<tr><th id="221">221</th><td>	<em>int</em> <dfn class="local col6 decl" id="16old_size" title='old_size' data-type='int' data-ref="16old_size">old_size</dfn>;</td></tr>
+<tr><th id="222">222</th><td>	<a class="typedef" href="#hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</a>* <dfn class="local col7 decl" id="17curr" title='curr' data-type='hashmap_element *' data-ref="17curr">curr</dfn>;</td></tr>
+<tr><th id="223">223</th><td></td></tr>
+<tr><th id="224">224</th><td>	<i>/* Setup the new elements */</i></td></tr>
+<tr><th id="225">225</th><td>	<a class="typedef" href="#hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</a>* <dfn class="local col8 decl" id="18temp" title='temp' data-type='hashmap_element *' data-ref="18temp">temp</dfn> = (<a class="typedef" href="#hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</a> *)</td></tr>
+<tr><th id="226">226</th><td>		<a class="ref" href="../../../../include/stdlib.h.html#calloc" title='calloc' data-ref="calloc">calloc</a>(<var>2</var> * <a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>, <b>sizeof</b>(<a class="typedef" href="#hashmap_element" title='hashmap_element' data-type='struct _hashmap_element' data-ref="hashmap_element">hashmap_element</a>));</td></tr>
+<tr><th id="227">227</th><td>	<b>if</b>(!<a class="local col8 ref" href="#18temp" title='temp' data-ref="18temp">temp</a>) <b>return</b> <a class="macro" href="hashmap.h.html#13" title="-1" data-ref="_M/MAP_OMEM">MAP_OMEM</a>;</td></tr>
+<tr><th id="228">228</th><td></td></tr>
+<tr><th id="229">229</th><td>	<i>/* Update the array */</i></td></tr>
+<tr><th id="230">230</th><td>	<a class="local col7 ref" href="#17curr" title='curr' data-ref="17curr">curr</a> = <a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>;</td></tr>
+<tr><th id="231">231</th><td>	<a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a> = <a class="local col8 ref" href="#18temp" title='temp' data-ref="18temp">temp</a>;</td></tr>
+<tr><th id="232">232</th><td></td></tr>
+<tr><th id="233">233</th><td>	<i>/* Update the size */</i></td></tr>
+<tr><th id="234">234</th><td>	<a class="local col6 ref" href="#16old_size" title='old_size' data-ref="16old_size">old_size</a> = <a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>;</td></tr>
+<tr><th id="235">235</th><td>	<a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a> = <var>2</var> * <a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>;</td></tr>
+<tr><th id="236">236</th><td>	<a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>-&gt;<a class="ref" href="#hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</a> = <var>0</var>;</td></tr>
+<tr><th id="237">237</th><td></td></tr>
+<tr><th id="238">238</th><td>	<i>/* Rehash the elements */</i></td></tr>
+<tr><th id="239">239</th><td>	<b>for</b>(<a class="local col5 ref" href="#15i" title='i' data-ref="15i">i</a> = <var>0</var>; <a class="local col5 ref" href="#15i" title='i' data-ref="15i">i</a> &lt; <a class="local col6 ref" href="#16old_size" title='old_size' data-ref="16old_size">old_size</a>; <a class="local col5 ref" href="#15i" title='i' data-ref="15i">i</a>++){</td></tr>
+<tr><th id="240">240</th><td>        <em>int</em> <dfn class="local col9 decl" id="19status" title='status' data-type='int' data-ref="19status">status</dfn>;</td></tr>
+<tr><th id="241">241</th><td></td></tr>
+<tr><th id="242">242</th><td>        <b>if</b> (<a class="local col7 ref" href="#17curr" title='curr' data-ref="17curr">curr</a>[<a class="local col5 ref" href="#15i" title='i' data-ref="15i">i</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a> == <var>0</var>)</td></tr>
+<tr><th id="243">243</th><td>            <b>continue</b>;</td></tr>
+<tr><th id="244">244</th><td>            </td></tr>
+<tr><th id="245">245</th><td>		<a class="local col9 ref" href="#19status" title='status' data-ref="19status">status</a> = <a class="ref" href="#hashmap_put" title='hashmap_put' data-ref="hashmap_put">hashmap_put</a>(<a class="local col4 ref" href="#14m" title='m' data-ref="14m">m</a>, <a class="local col7 ref" href="#17curr" title='curr' data-ref="17curr">curr</a>[<a class="local col5 ref" href="#15i" title='i' data-ref="15i">i</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>, <a class="local col7 ref" href="#17curr" title='curr' data-ref="17curr">curr</a>[<a class="local col5 ref" href="#15i" title='i' data-ref="15i">i</a>].<a class="tu ref" href="#_hashmap_element::data" title='_hashmap_element::data' data-use='r' data-ref="_hashmap_element::data">data</a>);</td></tr>
+<tr><th id="246">246</th><td>		<b>if</b> (<a class="local col9 ref" href="#19status" title='status' data-ref="19status">status</a> != <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>)</td></tr>
+<tr><th id="247">247</th><td>			<b>return</b> <a class="local col9 ref" href="#19status" title='status' data-ref="19status">status</a>;</td></tr>
+<tr><th id="248">248</th><td>	}</td></tr>
+<tr><th id="249">249</th><td></td></tr>
+<tr><th id="250">250</th><td>	<a class="ref" href="../../../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col7 ref" href="#17curr" title='curr' data-ref="17curr">curr</a>);</td></tr>
+<tr><th id="251">251</th><td></td></tr>
+<tr><th id="252">252</th><td>	<b>return</b> <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>;</td></tr>
+<tr><th id="253">253</th><td>}</td></tr>
+<tr><th id="254">254</th><td></td></tr>
+<tr><th id="255">255</th><td><i>/*</i></td></tr>
+<tr><th id="256">256</th><td><i> * Add a pointer to the hashmap with some key</i></td></tr>
+<tr><th id="257">257</th><td><i> */</i></td></tr>
+<tr><th id="258">258</th><td><em>int</em> <dfn class="decl def" id="hashmap_put" title='hashmap_put' data-ref="hashmap_put">hashmap_put</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col0 decl" id="20m" title='m' data-type='map_t' data-ref="20m">m</dfn>, <em>const</em> <em>char</em>* <dfn class="local col1 decl" id="21key" title='key' data-type='const char *' data-ref="21key">key</dfn>, <a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="local col2 decl" id="22value" title='value' data-type='any_t' data-ref="22value">value</dfn>){</td></tr>
+<tr><th id="259">259</th><td>	<em>int</em> <dfn class="local col3 decl" id="23index" title='index' data-type='int' data-ref="23index">index</dfn>;</td></tr>
+<tr><th id="260">260</th><td></td></tr>
+<tr><th id="261">261</th><td>	<i>/* Find a place to put our value */</i></td></tr>
+<tr><th id="262">262</th><td>	<a class="local col3 ref" href="#23index" title='index' data-ref="23index">index</a> = <a class="tu ref" href="#hashmap_hash" title='hashmap_hash' data-use='c' data-ref="hashmap_hash">hashmap_hash</a>(<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>, <a class="local col1 ref" href="#21key" title='key' data-ref="21key">key</a>);</td></tr>
+<tr><th id="263">263</th><td>	<b>while</b>(<a class="local col3 ref" href="#23index" title='index' data-ref="23index">index</a> == <a class="macro" href="hashmap.h.html#12" title="-2" data-ref="_M/MAP_FULL">MAP_FULL</a>){</td></tr>
+<tr><th id="264">264</th><td>		<b>if</b> (<a class="tu ref" href="#hashmap_rehash" title='hashmap_rehash' data-use='c' data-ref="hashmap_rehash">hashmap_rehash</a>(<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>) == <a class="macro" href="hashmap.h.html#13" title="-1" data-ref="_M/MAP_OMEM">MAP_OMEM</a>) {</td></tr>
+<tr><th id="265">265</th><td>			<b>return</b> <a class="macro" href="hashmap.h.html#13" title="-1" data-ref="_M/MAP_OMEM">MAP_OMEM</a>;</td></tr>
+<tr><th id="266">266</th><td>		}</td></tr>
+<tr><th id="267">267</th><td>		<a class="local col3 ref" href="#23index" title='index' data-ref="23index">index</a> = <a class="tu ref" href="#hashmap_hash" title='hashmap_hash' data-use='c' data-ref="hashmap_hash">hashmap_hash</a>(<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>, <a class="local col1 ref" href="#21key" title='key' data-ref="21key">key</a>);</td></tr>
+<tr><th id="268">268</th><td>	}</td></tr>
+<tr><th id="269">269</th><td></td></tr>
+<tr><th id="270">270</th><td>	<i>/* Set the data */</i></td></tr>
+<tr><th id="271">271</th><td>	<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col3 ref" href="#23index" title='index' data-ref="23index">index</a>].<a class="tu ref" href="#_hashmap_element::data" title='_hashmap_element::data' data-use='w' data-ref="_hashmap_element::data">data</a> = <a class="local col2 ref" href="#22value" title='value' data-ref="22value">value</a>;</td></tr>
+<tr><th id="272">272</th><td>	<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col3 ref" href="#23index" title='index' data-ref="23index">index</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='w' data-ref="_hashmap_element::key">key</a> = <a class="ref" href="../../../../include/stdlib.h.html#malloc" title='malloc' data-ref="malloc">malloc</a>(<a class="ref" href="../../../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col1 ref" href="#21key" title='key' data-ref="21key">key</a>) + <var>1</var>);</td></tr>
+<tr><th id="273">273</th><td>	<a class="ref" href="../../../../include/string.h.html#strcpy" title='strcpy' data-ref="strcpy">strcpy</a>(<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col3 ref" href="#23index" title='index' data-ref="23index">index</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>, <a class="local col1 ref" href="#21key" title='key' data-ref="21key">key</a>);</td></tr>
+<tr><th id="274">274</th><td>	<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col3 ref" href="#23index" title='index' data-ref="23index">index</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='w' data-ref="_hashmap_element::in_use">in_use</a> = <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="275">275</th><td>	<a class="local col0 ref" href="#20m" title='m' data-ref="20m">m</a>-&gt;<a class="ref" href="#hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</a>++; </td></tr>
+<tr><th id="276">276</th><td></td></tr>
+<tr><th id="277">277</th><td>	<b>return</b> <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>;</td></tr>
+<tr><th id="278">278</th><td>}</td></tr>
+<tr><th id="279">279</th><td></td></tr>
+<tr><th id="280">280</th><td><i>/*</i></td></tr>
+<tr><th id="281">281</th><td><i> * Get your pointer out of the hashmap with a key</i></td></tr>
+<tr><th id="282">282</th><td><i> */</i></td></tr>
+<tr><th id="283">283</th><td><em>int</em> <dfn class="decl def" id="hashmap_get" title='hashmap_get' data-ref="hashmap_get">hashmap_get</dfn>(<em>const</em> <a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col4 decl" id="24m" title='m' data-type='const map_t' data-ref="24m">m</dfn>, <em>const</em> <em>char</em>* <dfn class="local col5 decl" id="25key" title='key' data-type='const char *' data-ref="25key">key</dfn>, <a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> *<dfn class="local col6 decl" id="26arg" title='arg' data-type='any_t *' data-ref="26arg">arg</dfn>){</td></tr>
+<tr><th id="284">284</th><td>	<em>int</em> <dfn class="local col7 decl" id="27curr" title='curr' data-type='int' data-ref="27curr">curr</dfn>;</td></tr>
+<tr><th id="285">285</th><td>	<em>int</em> <dfn class="local col8 decl" id="28i" title='i' data-type='int' data-ref="28i">i</dfn>;</td></tr>
+<tr><th id="286">286</th><td></td></tr>
+<tr><th id="287">287</th><td>	<i>/* Find data location */</i></td></tr>
+<tr><th id="288">288</th><td>	<a class="local col7 ref" href="#27curr" title='curr' data-ref="27curr">curr</a> = <a class="tu ref" href="#hashmap_hash_int" title='hashmap_hash_int' data-use='c' data-ref="hashmap_hash_int">hashmap_hash_int</a>(<a class="local col4 ref" href="#24m" title='m' data-ref="24m">m</a>, <a class="local col5 ref" href="#25key" title='key' data-ref="25key">key</a>);</td></tr>
+<tr><th id="289">289</th><td></td></tr>
+<tr><th id="290">290</th><td>	<i>/* Linear probing, if necessary */</i></td></tr>
+<tr><th id="291">291</th><td>	<b>for</b>(<a class="local col8 ref" href="#28i" title='i' data-ref="28i">i</a> = <var>0</var>; <a class="local col8 ref" href="#28i" title='i' data-ref="28i">i</a>&lt;<a class="macro" href="#12" title="(8)" data-ref="_M/MAX_CHAIN_LENGTH">MAX_CHAIN_LENGTH</a>; <a class="local col8 ref" href="#28i" title='i' data-ref="28i">i</a>++){</td></tr>
+<tr><th id="292">292</th><td></td></tr>
+<tr><th id="293">293</th><td>        <em>int</em> <dfn class="local col9 decl" id="29in_use" title='in_use' data-type='int' data-ref="29in_use">in_use</dfn> = <a class="local col4 ref" href="#24m" title='m' data-ref="24m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col7 ref" href="#27curr" title='curr' data-ref="27curr">curr</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a>;</td></tr>
+<tr><th id="294">294</th><td>        <b>if</b> (<a class="local col9 ref" href="#29in_use" title='in_use' data-ref="29in_use">in_use</a> == <var>1</var>){</td></tr>
+<tr><th id="295">295</th><td>            <b>if</b> (<a class="ref" href="../../../../include/string.h.html#strcmp" title='strcmp' data-ref="strcmp">strcmp</a>(<a class="local col4 ref" href="#24m" title='m' data-ref="24m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col7 ref" href="#27curr" title='curr' data-ref="27curr">curr</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>,<a class="local col5 ref" href="#25key" title='key' data-ref="25key">key</a>)==<var>0</var>){</td></tr>
+<tr><th id="296">296</th><td>                *<a class="local col6 ref" href="#26arg" title='arg' data-ref="26arg">arg</a> = (<a class="local col4 ref" href="#24m" title='m' data-ref="24m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col7 ref" href="#27curr" title='curr' data-ref="27curr">curr</a>].<a class="tu ref" href="#_hashmap_element::data" title='_hashmap_element::data' data-use='r' data-ref="_hashmap_element::data">data</a>);</td></tr>
+<tr><th id="297">297</th><td>                <b>return</b> <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>;</td></tr>
+<tr><th id="298">298</th><td>            }</td></tr>
+<tr><th id="299">299</th><td>		}</td></tr>
+<tr><th id="300">300</th><td></td></tr>
+<tr><th id="301">301</th><td>		<a class="local col7 ref" href="#27curr" title='curr' data-ref="27curr">curr</a> = (<a class="local col7 ref" href="#27curr" title='curr' data-ref="27curr">curr</a> + <var>1</var>) % <a class="local col4 ref" href="#24m" title='m' data-ref="24m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>;</td></tr>
+<tr><th id="302">302</th><td>	}</td></tr>
+<tr><th id="303">303</th><td></td></tr>
+<tr><th id="304">304</th><td>	*<a class="local col6 ref" href="#26arg" title='arg' data-ref="26arg">arg</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="305">305</th><td></td></tr>
+<tr><th id="306">306</th><td>	<i>/* Not found */</i></td></tr>
+<tr><th id="307">307</th><td>	<b>return</b> <a class="macro" href="hashmap.h.html#11" title="-3" data-ref="_M/MAP_MISSING">MAP_MISSING</a>;</td></tr>
+<tr><th id="308">308</th><td>}</td></tr>
+<tr><th id="309">309</th><td></td></tr>
+<tr><th id="310">310</th><td><i>/*</i></td></tr>
+<tr><th id="311">311</th><td><i> * Iterate the function parameter over each element in the hashmap.  The</i></td></tr>
+<tr><th id="312">312</th><td><i> * additional any_t argument is passed to the function as its first</i></td></tr>
+<tr><th id="313">313</th><td><i> * argument and the hashmap element is the second.</i></td></tr>
+<tr><th id="314">314</th><td><i> */</i></td></tr>
+<tr><th id="315">315</th><td><em>int</em> <dfn class="decl def" id="hashmap_iterate" title='hashmap_iterate' data-ref="hashmap_iterate">hashmap_iterate</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col0 decl" id="30m" title='m' data-type='map_t' data-ref="30m">m</dfn>, <a class="typedef" href="hashmap.h.html#PFany" title='PFany' data-type='int (*)(any_t, any_t)' data-ref="PFany">PFany</a> <dfn class="local col1 decl" id="31f" title='f' data-type='PFany' data-ref="31f">f</dfn>, <a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="local col2 decl" id="32item" title='item' data-type='any_t' data-ref="32item">item</dfn>) {</td></tr>
+<tr><th id="316">316</th><td>	<em>int</em> <dfn class="local col3 decl" id="33i" title='i' data-type='int' data-ref="33i">i</dfn>;</td></tr>
+<tr><th id="317">317</th><td></td></tr>
+<tr><th id="318">318</th><td>	<i>/* On empty hashmap, return immediately */</i></td></tr>
+<tr><th id="319">319</th><td>	<b>if</b> (<a class="ref" href="#hashmap_length" title='hashmap_length' data-ref="hashmap_length">hashmap_length</a>(<a class="local col0 ref" href="#30m" title='m' data-ref="30m">m</a>) &lt;= <var>0</var>)</td></tr>
+<tr><th id="320">320</th><td>		<b>return</b> <a class="macro" href="hashmap.h.html#11" title="-3" data-ref="_M/MAP_MISSING">MAP_MISSING</a>;	</td></tr>
+<tr><th id="321">321</th><td></td></tr>
+<tr><th id="322">322</th><td>	<i>/* Linear probing */</i></td></tr>
+<tr><th id="323">323</th><td>	<b>for</b>(<a class="local col3 ref" href="#33i" title='i' data-ref="33i">i</a> = <var>0</var>; <a class="local col3 ref" href="#33i" title='i' data-ref="33i">i</a>&lt; <a class="local col0 ref" href="#30m" title='m' data-ref="30m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>; <a class="local col3 ref" href="#33i" title='i' data-ref="33i">i</a>++)</td></tr>
+<tr><th id="324">324</th><td>		<b>if</b>(<a class="local col0 ref" href="#30m" title='m' data-ref="30m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col3 ref" href="#33i" title='i' data-ref="33i">i</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a> != <var>0</var>) {</td></tr>
+<tr><th id="325">325</th><td>			<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="local col4 decl" id="34data" title='data' data-type='any_t' data-ref="34data">data</dfn> = (<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a>) (<a class="local col0 ref" href="#30m" title='m' data-ref="30m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col3 ref" href="#33i" title='i' data-ref="33i">i</a>].<a class="tu ref" href="#_hashmap_element::data" title='_hashmap_element::data' data-use='r' data-ref="_hashmap_element::data">data</a>);</td></tr>
+<tr><th id="326">326</th><td>			<em>int</em> <dfn class="local col5 decl" id="35status" title='status' data-type='int' data-ref="35status">status</dfn> = <a class="local col1 ref" href="#31f" title='f' data-ref="31f">f</a>(<a class="local col2 ref" href="#32item" title='item' data-ref="32item">item</a>, <a class="local col4 ref" href="#34data" title='data' data-ref="34data">data</a>);</td></tr>
+<tr><th id="327">327</th><td>			<b>if</b> (<a class="local col5 ref" href="#35status" title='status' data-ref="35status">status</a> != <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>) {</td></tr>
+<tr><th id="328">328</th><td>				<b>return</b> <a class="local col5 ref" href="#35status" title='status' data-ref="35status">status</a>;</td></tr>
+<tr><th id="329">329</th><td>			}</td></tr>
+<tr><th id="330">330</th><td>		}</td></tr>
+<tr><th id="331">331</th><td></td></tr>
+<tr><th id="332">332</th><td>    <b>return</b> <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>;</td></tr>
+<tr><th id="333">333</th><td>}</td></tr>
+<tr><th id="334">334</th><td></td></tr>
+<tr><th id="335">335</th><td><i>/*</i></td></tr>
+<tr><th id="336">336</th><td><i> * Remove an element with that key from the map</i></td></tr>
+<tr><th id="337">337</th><td><i> */</i></td></tr>
+<tr><th id="338">338</th><td><em>int</em> <dfn class="decl def" id="hashmap_remove" title='hashmap_remove' data-ref="hashmap_remove">hashmap_remove</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col6 decl" id="36m" title='m' data-type='map_t' data-ref="36m">m</dfn>, <em>char</em>* <dfn class="local col7 decl" id="37key" title='key' data-type='char *' data-ref="37key">key</dfn>){</td></tr>
+<tr><th id="339">339</th><td>	<em>int</em> <dfn class="local col8 decl" id="38i" title='i' data-type='int' data-ref="38i">i</dfn>;</td></tr>
+<tr><th id="340">340</th><td>	<em>int</em> <dfn class="local col9 decl" id="39curr" title='curr' data-type='int' data-ref="39curr">curr</dfn>;</td></tr>
+<tr><th id="341">341</th><td></td></tr>
+<tr><th id="342">342</th><td>	<i>/* Find key */</i></td></tr>
+<tr><th id="343">343</th><td>	<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a> = <a class="tu ref" href="#hashmap_hash_int" title='hashmap_hash_int' data-use='c' data-ref="hashmap_hash_int">hashmap_hash_int</a>(<a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>, <a class="local col7 ref" href="#37key" title='key' data-ref="37key">key</a>);</td></tr>
+<tr><th id="344">344</th><td></td></tr>
+<tr><th id="345">345</th><td>	<i>/* Linear probing, if necessary */</i></td></tr>
+<tr><th id="346">346</th><td>	<b>for</b>(<a class="local col8 ref" href="#38i" title='i' data-ref="38i">i</a> = <var>0</var>; <a class="local col8 ref" href="#38i" title='i' data-ref="38i">i</a>&lt;<a class="macro" href="#12" title="(8)" data-ref="_M/MAX_CHAIN_LENGTH">MAX_CHAIN_LENGTH</a>; <a class="local col8 ref" href="#38i" title='i' data-ref="38i">i</a>++){</td></tr>
+<tr><th id="347">347</th><td></td></tr>
+<tr><th id="348">348</th><td>        <em>int</em> <dfn class="local col0 decl" id="40in_use" title='in_use' data-type='int' data-ref="40in_use">in_use</dfn> = <a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a>;</td></tr>
+<tr><th id="349">349</th><td>        <b>if</b> (<a class="local col0 ref" href="#40in_use" title='in_use' data-ref="40in_use">in_use</a> == <var>1</var>){</td></tr>
+<tr><th id="350">350</th><td>            <b>if</b> (<a class="ref" href="../../../../include/string.h.html#strcmp" title='strcmp' data-ref="strcmp">strcmp</a>(<a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>,<a class="local col7 ref" href="#37key" title='key' data-ref="37key">key</a>)==<var>0</var>){</td></tr>
+<tr><th id="351">351</th><td>                <i>/* Blank out the fields */</i></td></tr>
+<tr><th id="352">352</th><td>                <a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='w' data-ref="_hashmap_element::in_use">in_use</a> = <var>0</var>;</td></tr>
+<tr><th id="353">353</th><td>                <a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a>].<a class="tu ref" href="#_hashmap_element::data" title='_hashmap_element::data' data-use='w' data-ref="_hashmap_element::data">data</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="354">354</th><td>				<a class="ref" href="../../../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>);</td></tr>
+<tr><th id="355">355</th><td>                <a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='w' data-ref="_hashmap_element::key">key</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="356">356</th><td></td></tr>
+<tr><th id="357">357</th><td>                <i>/* Reduce the size */</i></td></tr>
+<tr><th id="358">358</th><td>                <a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</a>--;</td></tr>
+<tr><th id="359">359</th><td>                <b>return</b> <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>;</td></tr>
+<tr><th id="360">360</th><td>            }</td></tr>
+<tr><th id="361">361</th><td>		}</td></tr>
+<tr><th id="362">362</th><td>		<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a> = (<a class="local col9 ref" href="#39curr" title='curr' data-ref="39curr">curr</a> + <var>1</var>) % <a class="local col6 ref" href="#36m" title='m' data-ref="36m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>;</td></tr>
+<tr><th id="363">363</th><td>	}</td></tr>
+<tr><th id="364">364</th><td></td></tr>
+<tr><th id="365">365</th><td>	<i>/* Data not found */</i></td></tr>
+<tr><th id="366">366</th><td>	<b>return</b> <a class="macro" href="hashmap.h.html#11" title="-3" data-ref="_M/MAP_MISSING">MAP_MISSING</a>;</td></tr>
+<tr><th id="367">367</th><td>}</td></tr>
+<tr><th id="368">368</th><td></td></tr>
+<tr><th id="369">369</th><td><em>static</em> <em>int</em> <a class="tu decl" href="#hashmap_destroy_item_callback" title='hashmap_destroy_item_callback' data-type='int hashmap_destroy_item_callback(any_t a, any_t b)' data-ref="hashmap_destroy_item_callback">hashmap_destroy_item_callback</a>(<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="local col1 decl" id="41a" title='a' data-type='any_t' data-ref="41a">a</dfn>, <a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="local col2 decl" id="42b" title='b' data-type='any_t' data-ref="42b">b</dfn>);</td></tr>
+<tr><th id="370">370</th><td></td></tr>
+<tr><th id="371">371</th><td><em>void</em> <dfn class="decl def" id="hashmap_clear" title='hashmap_clear' data-ref="hashmap_clear">hashmap_clear</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col3 decl" id="43m" title='m' data-type='map_t' data-ref="43m">m</dfn>, <em>void</em>(*<dfn class="local col4 decl" id="44callback" title='callback' data-type='void (*)(any_t)' data-ref="44callback">callback</dfn>)(<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a>)){</td></tr>
+<tr><th id="372">372</th><td>	<a class="ref" href="#hashmap_iterate" title='hashmap_iterate' data-ref="hashmap_iterate">hashmap_iterate</a>(<a class="local col3 ref" href="#43m" title='m' data-ref="43m">m</a>, <a class="tu ref" href="#hashmap_destroy_item_callback" title='hashmap_destroy_item_callback' data-use='r' data-ref="hashmap_destroy_item_callback">hashmap_destroy_item_callback</a>, &amp;<a class="local col4 ref" href="#44callback" title='callback' data-ref="44callback">callback</a>);</td></tr>
+<tr><th id="373">373</th><td>	<i>// Deallocate keys</i></td></tr>
+<tr><th id="374">374</th><td>	<b>if</b> (<a class="local col3 ref" href="#43m" title='m' data-ref="43m">m</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="375">375</th><td>	{</td></tr>
+<tr><th id="376">376</th><td>		<b>for</b> (<em>int</em> <dfn class="local col5 decl" id="45i" title='i' data-type='int' data-ref="45i">i</dfn> = <var>0</var>; <a class="local col5 ref" href="#45i" title='i' data-ref="45i">i</a>&lt; <a class="local col3 ref" href="#43m" title='m' data-ref="43m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>; <a class="local col5 ref" href="#45i" title='i' data-ref="45i">i</a>++)</td></tr>
+<tr><th id="377">377</th><td>			<b>if</b> (<a class="local col3 ref" href="#43m" title='m' data-ref="43m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col5 ref" href="#45i" title='i' data-ref="45i">i</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a>) {</td></tr>
+<tr><th id="378">378</th><td>				<a class="local col3 ref" href="#43m" title='m' data-ref="43m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col5 ref" href="#45i" title='i' data-ref="45i">i</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='w' data-ref="_hashmap_element::in_use">in_use</a> = <var>0</var>;</td></tr>
+<tr><th id="379">379</th><td>				<a class="ref" href="../../../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col3 ref" href="#43m" title='m' data-ref="43m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col5 ref" href="#45i" title='i' data-ref="45i">i</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>);</td></tr>
+<tr><th id="380">380</th><td>			}</td></tr>
+<tr><th id="381">381</th><td>		<a class="local col3 ref" href="#43m" title='m' data-ref="43m">m</a>-&gt;<a class="ref" href="#hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</a> = <var>0</var>;</td></tr>
+<tr><th id="382">382</th><td>	}</td></tr>
+<tr><th id="383">383</th><td>}</td></tr>
+<tr><th id="384">384</th><td></td></tr>
+<tr><th id="385">385</th><td><i>/* Deallocate the hashmap */</i></td></tr>
+<tr><th id="386">386</th><td><em>void</em> <dfn class="decl def" id="hashmap_free" title='hashmap_free' data-ref="hashmap_free">hashmap_free</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col6 decl" id="46m" title='m' data-type='map_t' data-ref="46m">m</dfn>){</td></tr>
+<tr><th id="387">387</th><td>	<i>// Deallocate keys</i></td></tr>
+<tr><th id="388">388</th><td>	<b>if</b> (<a class="local col6 ref" href="#46m" title='m' data-ref="46m">m</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="389">389</th><td>	{</td></tr>
+<tr><th id="390">390</th><td>		<b>for</b> (<em>int</em> <dfn class="local col7 decl" id="47i" title='i' data-type='int' data-ref="47i">i</dfn> = <var>0</var>; <a class="local col7 ref" href="#47i" title='i' data-ref="47i">i</a>&lt; <a class="local col6 ref" href="#46m" title='m' data-ref="46m">m</a>-&gt;<a class="ref" href="#hashmap_map::table_size" title='hashmap_map::table_size' data-ref="hashmap_map::table_size">table_size</a>; <a class="local col7 ref" href="#47i" title='i' data-ref="47i">i</a>++)</td></tr>
+<tr><th id="391">391</th><td>			<b>if</b> (<a class="local col6 ref" href="#46m" title='m' data-ref="46m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col7 ref" href="#47i" title='i' data-ref="47i">i</a>].<a class="tu ref" href="#_hashmap_element::in_use" title='_hashmap_element::in_use' data-use='r' data-ref="_hashmap_element::in_use">in_use</a>) {</td></tr>
+<tr><th id="392">392</th><td>				<a class="ref" href="../../../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col6 ref" href="#46m" title='m' data-ref="46m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>[<a class="local col7 ref" href="#47i" title='i' data-ref="47i">i</a>].<a class="tu ref" href="#_hashmap_element::key" title='_hashmap_element::key' data-use='r' data-ref="_hashmap_element::key">key</a>);</td></tr>
+<tr><th id="393">393</th><td>			}</td></tr>
+<tr><th id="394">394</th><td>		<a class="ref" href="../../../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col6 ref" href="#46m" title='m' data-ref="46m">m</a>-&gt;<a class="ref" href="#hashmap_map::data" title='hashmap_map::data' data-ref="hashmap_map::data">data</a>);</td></tr>
+<tr><th id="395">395</th><td>	}</td></tr>
+<tr><th id="396">396</th><td>	<a class="ref" href="../../../../include/stdlib.h.html#free" title='free' data-ref="free">free</a>(<a class="local col6 ref" href="#46m" title='m' data-ref="46m">m</a>);</td></tr>
+<tr><th id="397">397</th><td>}</td></tr>
+<tr><th id="398">398</th><td></td></tr>
+<tr><th id="399">399</th><td><em>void</em> <dfn class="decl def" id="hashmap_destroy" title='hashmap_destroy' data-ref="hashmap_destroy">hashmap_destroy</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col8 decl" id="48in" title='in' data-type='map_t' data-ref="48in">in</dfn>, <em>void</em> (*<dfn class="local col9 decl" id="49callback" title='callback' data-type='void (*)(any_t)' data-ref="49callback">callback</dfn>)(<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a>)){</td></tr>
+<tr><th id="400">400</th><td>	<i>// Pass the callback into the first argument</i></td></tr>
+<tr><th id="401">401</th><td><i>	// Note: pass pointer to function-pointer because standard C does not</i></td></tr>
+<tr><th id="402">402</th><td><i>	// support function/data pointer conversion</i></td></tr>
+<tr><th id="403">403</th><td>	<a class="ref" href="#hashmap_iterate" title='hashmap_iterate' data-ref="hashmap_iterate">hashmap_iterate</a>(<a class="local col8 ref" href="#48in" title='in' data-ref="48in">in</a>, <a class="tu ref" href="#hashmap_destroy_item_callback" title='hashmap_destroy_item_callback' data-use='r' data-ref="hashmap_destroy_item_callback">hashmap_destroy_item_callback</a>, &amp;<a class="local col9 ref" href="#49callback" title='callback' data-ref="49callback">callback</a>);</td></tr>
+<tr><th id="404">404</th><td>	<a class="ref" href="#hashmap_free" title='hashmap_free' data-ref="hashmap_free">hashmap_free</a>(<a class="local col8 ref" href="#48in" title='in' data-ref="48in">in</a>);</td></tr>
+<tr><th id="405">405</th><td>}</td></tr>
+<tr><th id="406">406</th><td></td></tr>
+<tr><th id="407">407</th><td><em>static</em> <em>int</em> <dfn class="tu decl def" id="hashmap_destroy_item_callback" title='hashmap_destroy_item_callback' data-type='int hashmap_destroy_item_callback(any_t a, any_t b)' data-ref="hashmap_destroy_item_callback">hashmap_destroy_item_callback</dfn>(<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="local col0 decl" id="50a" title='a' data-type='any_t' data-ref="50a">a</dfn>, <a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a> <dfn class="local col1 decl" id="51b" title='b' data-type='any_t' data-ref="51b">b</dfn>)</td></tr>
+<tr><th id="408">408</th><td>{</td></tr>
+<tr><th id="409">409</th><td>	<em>void</em> (**<dfn class="local col2 decl" id="52callback" title='callback' data-type='void (**)(any_t)' data-ref="52callback">callback</dfn>)(<a class="typedef" href="hashmap.h.html#any_t" title='any_t' data-type='void *' data-ref="any_t">any_t</a>) = <a class="local col0 ref" href="#50a" title='a' data-ref="50a">a</a>;</td></tr>
+<tr><th id="410">410</th><td>	<b>if</b> (<a class="local col2 ref" href="#52callback" title='callback' data-ref="52callback">callback</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) {</td></tr>
+<tr><th id="411">411</th><td>		(*<a class="local col2 ref" href="#52callback" title='callback' data-ref="52callback">callback</a>)(<a class="local col1 ref" href="#51b" title='b' data-ref="51b">b</a>);</td></tr>
+<tr><th id="412">412</th><td>	}</td></tr>
+<tr><th id="413">413</th><td>	<b>return</b> <a class="macro" href="hashmap.h.html#14" title="0" data-ref="_M/MAP_OK">MAP_OK</a>;</td></tr>
+<tr><th id="414">414</th><td>}</td></tr>
+<tr><th id="415">415</th><td></td></tr>
+<tr><th id="416">416</th><td><i>/* Return the length of the hashmap */</i></td></tr>
+<tr><th id="417">417</th><td><em>int</em> <dfn class="decl def" id="hashmap_length" title='hashmap_length' data-ref="hashmap_length">hashmap_length</dfn>(<a class="typedef" href="hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col3 decl" id="53m" title='m' data-type='map_t' data-ref="53m">m</dfn>){</td></tr>
+<tr><th id="418">418</th><td>	<b>if</b>(<a class="local col3 ref" href="#53m" title='m' data-ref="53m">m</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) <b>return</b> <a class="local col3 ref" href="#53m" title='m' data-ref="53m">m</a>-&gt;<a class="ref" href="#hashmap_map::size" title='hashmap_map::size' data-ref="hashmap_map::size">size</a>;</td></tr>
+<tr><th id="419">419</th><td>	<b>else</b> <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="420">420</th><td>}</td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

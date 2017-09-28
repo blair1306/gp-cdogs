@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='468'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='462'>/**
+ * Print a single pointer value to STDERR
+ *   (This is a no-op unless APR_RING_DEBUG is defined.)
+ * @param msg Descriptive message
+ * @param ptr Pointer value to print
+ */</doc>

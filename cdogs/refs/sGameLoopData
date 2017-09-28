@@ -1,0 +1,15 @@
+<def f='codebrowser/src/game_loop.h' l='50' ll='64'/>
+<size>72</size>
+<doc f='codebrowser/src/game_loop.h' l='49'>// Generic game loop manager, with callbacks for update/draw</doc>
+<mbr r='sGameLoopData::Data' o='0' t='void *'/>
+<mbr r='sGameLoopData::OnTerminate' o='64' t='void (*)(struct sGameLoopData *)'/>
+<mbr r='sGameLoopData::OnEnter' o='128' t='void (*)(struct sGameLoopData *)'/>
+<mbr r='sGameLoopData::OnExit' o='192' t='void (*)(struct sGameLoopData *)'/>
+<mbr r='sGameLoopData::InputFunc' o='256' t='void (*)(struct sGameLoopData *)'/>
+<mbr r='sGameLoopData::UpdateFunc' o='320' t='GameLoopResult (*)(struct sGameLoopData *, LoopRunner *)'/>
+<mbr r='sGameLoopData::DrawFunc' o='384' t='void (*)(struct sGameLoopData *)'/>
+<mbr r='sGameLoopData::FPS' o='448' t='int'/>
+<mbr r='sGameLoopData::InputEverySecondFrame' o='480' t='_Bool'/>
+<mbr r='sGameLoopData::Frames' o='512' t='int'/>
+<mbr r='sGameLoopData::HasDrawnFirst' o='544' t='_Bool'/>
+<mbr r='sGameLoopData::IsUsed' o='552' t='_Bool'/>

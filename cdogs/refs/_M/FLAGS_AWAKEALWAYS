@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='83'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1223' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='376' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='562' u='c'/>

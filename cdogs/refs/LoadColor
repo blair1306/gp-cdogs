@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='57' type='void LoadColor(color_t * c, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/character.c' l='97' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='98' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='99' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='100' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='101' u='c' c='CharacterLoadJSON'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='170' ll='181' type='void LoadColor(color_t * c, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='324' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='325' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='326' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='327' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='64' u='c' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='65' u='c' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='66' u='c' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='67' u='c' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='68' u='c' c='LoadPlayerTemplate'/>

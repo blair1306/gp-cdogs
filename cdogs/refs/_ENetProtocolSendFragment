@@ -1,0 +1,9 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='166' ll='175'/>
+<size>24</size>
+<mbr r='_ENetProtocolSendFragment::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolSendFragment::startSequenceNumber' o='32' t='enet_uint16'/>
+<mbr r='_ENetProtocolSendFragment::dataLength' o='48' t='enet_uint16'/>
+<mbr r='_ENetProtocolSendFragment::fragmentCount' o='64' t='enet_uint32'/>
+<mbr r='_ENetProtocolSendFragment::fragmentNumber' o='96' t='enet_uint32'/>
+<mbr r='_ENetProtocolSendFragment::totalLength' o='128' t='enet_uint32'/>
+<mbr r='_ENetProtocolSendFragment::fragmentOffset' o='160' t='enet_uint32'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/player_select_menus.h' l='61' type='void PlayerSelectMenusCreate(PlayerSelectMenu * menu, int numPlayers, int player, const int playerUID, EventHandlers * handlers, GraphicsDevice * graphics, const NameGen * ng)'/>
+<def f='codebrowser/src/player_select_menus.c' l='421' ll='496' type='void PlayerSelectMenusCreate(PlayerSelectMenu * menu, int numPlayers, int player, const int playerUID, EventHandlers * handlers, GraphicsDevice * graphics, const NameGen * ng)'/>
+<use f='codebrowser/src/prep.c' l='331' u='c' c='PlayerSelection'/>

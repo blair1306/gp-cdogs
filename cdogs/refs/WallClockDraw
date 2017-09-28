@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/hud/wall_clock.h' l='40' type='void WallClockDraw(WallClock * clock)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='646' u='c' c='HUDDraw'/>
+<def f='codebrowser/src/cdogs/hud/wall_clock.c' l='59' ll='69' type='void WallClockDraw(WallClock * wc)'/>

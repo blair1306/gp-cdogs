@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='52' type='6'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='50'>/** A print callback was passed in, so there is no internal
+         * buffer to get from */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='357' u='r' c='yajl_gen_get_buf'/>

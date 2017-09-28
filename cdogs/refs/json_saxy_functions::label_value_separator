@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/json/json.h' l='133' type='int (*)(void)'/>
+<offset>576</offset>
+<use f='codebrowser/src/json/json.c' l='2970' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='2971' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3527' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3678' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3679' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3835' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='3836' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4043' u='r' c='json_saxy_parse'/>
+<use f='codebrowser/src/json/json.c' l='4044' u='r' c='json_saxy_parse'/>

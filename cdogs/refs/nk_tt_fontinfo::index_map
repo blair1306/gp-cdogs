@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9055' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9219' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9230' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9237' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9242' u='r' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9252' u='r' c='nk_tt_FindGlyphIndex'/>
+<offset>320</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='9055'>/* a cmap mapping for our chosen character encoding */</doc>

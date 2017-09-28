@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3124' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14621' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14711' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16187' u='w' c='nk_style_from_table'/>
+<offset>1824</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3123'>/* optional buttons */</doc>

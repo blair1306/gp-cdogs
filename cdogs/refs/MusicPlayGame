@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/music.h' l='54' type='void MusicPlayGame(SoundDevice * device, const char * missionPath, const char * music)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='370' u='c' c='MissionBegin'/>
+<def f='codebrowser/src/cdogs/music.c' l='84' ll='115' type='void MusicPlayGame(SoundDevice * device, const char * missionPath, const char * music)'/>

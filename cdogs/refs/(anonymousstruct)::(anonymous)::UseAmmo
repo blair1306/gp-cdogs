@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='161' type='NActorUseAmmo'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='658' u='m' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='659' u='m' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='660' u='m' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='661' u='m' c='Shoot'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='147' u='m' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='302' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='305' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='306' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='308' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='308' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='309' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='314' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='409' u='m' c='OnReceive'/>

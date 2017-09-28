@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='50' type='_Bool IsMultiplayer(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='111' ll='114' macro='1' type='_Bool IsMultiplayer(const GameMode mode)'/>

@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='138' type='void SoundPlay(SoundDevice * device, Mix_Chunk * data)'/>
+<use f='codebrowser/src/briefing_screens.c' l='75' u='c' c='CampaignIntroOnExit'/>
+<use f='codebrowser/src/briefing_screens.c' l='234' u='c' c='MissionBriefingOnExit'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='319' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='324' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='673' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='372' u='c' c='OnConnect'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='446' ll='454' type='void SoundPlay(SoundDevice * device, Mix_Chunk * data)'/>
+<use f='codebrowser/src/game.c' l='440' u='c' c='RunGameInput'/>
+<use f='codebrowser/src/menu.c' l='869' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='872' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='875' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='878' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='881' u='c' c='MenuPlaySound'/>
+<use f='codebrowser/src/password.c' l='157' u='c' c='EnterCodeScreenOnExit'/>
+<use f='codebrowser/src/password.c' l='161' u='c' c='EnterCodeScreenOnExit'/>
+<use f='codebrowser/src/password.c' l='201' u='c' c='EnterCodeScreenUpdate'/>
+<use f='codebrowser/src/password.c' l='229' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='234' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='243' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='248' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='256' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='264' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='272' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/password.c' l='281' u='c' c='PasswordEntry'/>
+<use f='codebrowser/src/player_select_menus.c' l='543' u='c' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/prep.c' l='276' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/prep.c' l='283' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/prep.c' l='292' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/screens_end.c' l='172' u='c' c='PlayerListOnExit'/>
+<use f='codebrowser/src/screens_end.c' l='304' u='c' c='PlayerListInput'/>
+<use f='codebrowser/src/screens_end.c' l='309' u='c' c='PlayerListInput'/>
+<use f='codebrowser/src/screens_end.c' l='314' u='c' c='PlayerListInput'/>
+<use f='codebrowser/src/screens_end.c' l='339' u='c' c='ScreenVictory'/>
+<use f='codebrowser/src/screens_end.c' l='448' u='c' c='ScreenDogfightFinalScores'/>
+<use f='codebrowser/src/screens_end.c' l='457' u='c' c='ScreenDeathmatchFinalScores'/>
+<use f='codebrowser/src/weapon_menu.c' l='66' u='c' c='WeaponSelect'/>

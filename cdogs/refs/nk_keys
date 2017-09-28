@@ -1,0 +1,49 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='660' ll='694'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='612'>/*  The input API is responsible for holding the current input state composed of
+ *  mouse, key and text input states.
+ *  It is worth noting that no direct os or window handling is done in nuklear.
+ *  Instead all input state has to be provided by platform specific code. This in one hand
+ *  expects more work from the user and complicates usage but on the other hand
+ *  provides simple abstraction over a big number of platforms, libraries and other
+ *  already provided functionality.
+ *
+ *  Usage
+ *  -------------------
+ *  Input state needs to be provided to nuklear by first calling `nk_input_begin`
+ *  which reset internal state like delta mouse position and button transistions.
+ *  After `nk_input_begin` all current input state needs to be provided. This includes
+ *  mouse motion, button and key pressed and released, text input and scrolling.
+ *  Both event- or state-based input handling are supported by this API
+ *  and should work without problems. Finally after all input state has been
+ *  mirrored `nk_input_end` needs to be called to finish input process.
+ *
+ *      struct nk_context ctx;
+ *      nk_init_xxx(&amp;ctx, ...);
+ *      while (1) {
+ *          Event evt;
+ *          nk_input_begin(&amp;ctx);
+ *          while (GetEvent(&amp;evt)) {
+ *              if (evt.type == MOUSE_MOVE)
+ *                  nk_input_motion(&amp;ctx, evt.motion.x, evt.motion.y);
+ *              else if (evt.type == ...) {
+ *                  ...
+ *              }
+ *          }
+ *          nk_input_end(&amp;ctx);
+ *          [...]
+ *          nk_clear(&amp;ctx);
+ *      }
+ *      nk_free(&amp;ctx);
+ *
+ *  Reference
+ *  -------------------
+ *  nk_input_begin      - Begins the input mirroring process. Needs to be called before all other `nk_input_xxx` calls
+ *  nk_input_motion     - Mirrors mouse cursor position
+ *  nk_input_key        - Mirrors key state with either pressed or released
+ *  nk_input_button     - Mirrors mouse button state with either pressed or released
+ *  nk_input_scroll     - Mirrors mouse scroll values
+ *  nk_input_char       - Adds a single ASCII text character into an internal text buffer
+ *  nk_input_glyph      - Adds a single multi-byte UTF-8 character into an internal text buffer
+ *  nk_input_unicode    - Adds a single unicode rune into an internal text buffer
+ *  nk_input_end        - Ends the input mirroring process by calculating state changes. Don&apos;t call any `nk_input_xxx` function referenced above after this call
+ */</doc>

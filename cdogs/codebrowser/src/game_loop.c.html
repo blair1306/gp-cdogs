@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>game_loop.c source code [codebrowser/src/game_loop.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/game_loop.c'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='game_loop.c.html'>game_loop.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (c) 2014, 2016-2017 Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i></i></td></tr>
+<tr><th id="11">11</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i>*/</i></td></tr>
+<tr><th id="29">29</th><td><u>#include <a href="game_loop.h.html">"game_loop.h"</a></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../include/SDL2/SDL_timer.h.html">&lt;SDL_timer.h&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="cdogs/config.h.html">"config.h"</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="cdogs/events.h.html">"events.h"</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="cdogs/net_client.h.html">"net_client.h"</a></u></td></tr>
+<tr><th id="36">36</th><td><u>#include <a href="cdogs/net_server.h.html">"net_server.h"</a></u></td></tr>
+<tr><th id="37">37</th><td><u>#include <a href="cdogs/sounds.h.html">"sounds.h"</a></u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><u>#<span data-ppcond="39">ifdef</span> <span class="macro" data-ref="_M/__EMSCRIPTEN__">__EMSCRIPTEN__</span></u></td></tr>
+<tr><th id="40">40</th><td><u>#include &lt;emscripten.h&gt;</u></td></tr>
+<tr><th id="41">41</th><td><u>#include &lt;cdogs/files.h&gt;</u></td></tr>
+<tr><th id="42">42</th><td><u>#include &lt;cdogs/config_io.h&gt;</u></td></tr>
+<tr><th id="43">43</th><td><u>#include &lt;cdogs/config_json.h&gt;</u></td></tr>
+<tr><th id="44">44</th><td><u>#include &lt;autosave.h&gt;</u></td></tr>
+<tr><th id="45">45</th><td><u>#include &lt;hiscores.h&gt;</u></td></tr>
+<tr><th id="46">46</th><td><u>#include &lt;cdogs/character_class.h&gt;</u></td></tr>
+<tr><th id="47">47</th><td><u>#include &lt;cdogs/player_template.h&gt;</u></td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>bool emscripten_fs_ready = false;</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><em>void</em> emscriptenLoadFiles() {</td></tr>
+<tr><th id="52">52</th><td>    <i>// options.cnf</i></td></tr>
+<tr><th id="53">53</th><td>    FILE *file_options = fopen(GetConfigFilePath(CONFIG_FILE),<q>"r"</q>);</td></tr>
+<tr><th id="54">54</th><td>    <b>if</b> (file_options) {</td></tr>
+<tr><th id="55">55</th><td>        fclose(file_options);</td></tr>
+<tr><th id="56">56</th><td>        ConfigLoadJSON(&amp;gConfig, GetConfigFilePath(CONFIG_FILE));</td></tr>
+<tr><th id="57">57</th><td>        ConfigApply(&amp;gConfig);</td></tr>
+<tr><th id="58">58</th><td>    }</td></tr>
+<tr><th id="59">59</th><td>    <b>else</b> {</td></tr>
+<tr><th id="60">60</th><td>        ConfigSave(&amp;gConfig, GetConfigFilePath(CONFIG_FILE));</td></tr>
+<tr><th id="61">61</th><td>    }</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td>    <i>// autosave.json</i></td></tr>
+<tr><th id="64">64</th><td>    FILE *file_autosave = fopen(GetConfigFilePath(AUTOSAVE_FILE),<q>"r"</q>);</td></tr>
+<tr><th id="65">65</th><td>    <b>if</b> (file_autosave) {</td></tr>
+<tr><th id="66">66</th><td>        fclose(file_autosave);</td></tr>
+<tr><th id="67">67</th><td>        AutosaveLoad(&amp;gAutosave, GetConfigFilePath(AUTOSAVE_FILE));</td></tr>
+<tr><th id="68">68</th><td>    }</td></tr>
+<tr><th id="69">69</th><td>    <b>else</b> {</td></tr>
+<tr><th id="70">70</th><td>        AutosaveSave(&amp;gAutosave, GetConfigFilePath(AUTOSAVE_FILE));</td></tr>
+<tr><th id="71">71</th><td>    }</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td>    <i>// scores.dat</i></td></tr>
+<tr><th id="74">74</th><td>    FILE *file_scores = fopen(GetConfigFilePath(SCORES_FILE),<q>"r"</q>);</td></tr>
+<tr><th id="75">75</th><td>    <b>if</b> (file_scores) {</td></tr>
+<tr><th id="76">76</th><td>        fclose(file_scores);</td></tr>
+<tr><th id="77">77</th><td>    }</td></tr>
+<tr><th id="78">78</th><td>    <b>else</b> {</td></tr>
+<tr><th id="79">79</th><td>        SaveHighScores();</td></tr>
+<tr><th id="80">80</th><td>    }</td></tr>
+<tr><th id="81">81</th><td></td></tr>
+<tr><th id="82">82</th><td>    <i>// players.cnf</i></td></tr>
+<tr><th id="83">83</th><td>    FILE *file_players = fopen(GetConfigFilePath(PLAYER_TEMPLATE_FILE),<q>"r"</q>);</td></tr>
+<tr><th id="84">84</th><td>    <b>if</b> (file_players) {</td></tr>
+<tr><th id="85">85</th><td>        fclose(file_players);</td></tr>
+<tr><th id="86">86</th><td>        PlayerTemplatesLoad(&amp;gPlayerTemplates, &amp;gCharacterClasses, PLAYER_TEMPLATE_FILE);</td></tr>
+<tr><th id="87">87</th><td>    }</td></tr>
+<tr><th id="88">88</th><td>    <b>else</b> {</td></tr>
+<tr><th id="89">89</th><td>        SavePlayerTemplates(&amp;gPlayerTemplates, PLAYER_TEMPLATE_FILE);</td></tr>
+<tr><th id="90">90</th><td>    }</td></tr>
+<tr><th id="91">91</th><td>}</td></tr>
+<tr><th id="92">92</th><td></td></tr>
+<tr><th id="93">93</th><td>bool emscriptenPersistData() {</td></tr>
+<tr><th id="94">94</th><td>    <b>if</b> (emscripten_fs_ready)</td></tr>
+<tr><th id="95">95</th><td>        <b>return</b> true;</td></tr>
+<tr><th id="96">96</th><td></td></tr>
+<tr><th id="97">97</th><td>    <b>if</b>(emscripten_run_script_int(<q>"Module.syncdone"</q>) == <var>1</var>) {</td></tr>
+<tr><th id="98">98</th><td>        FILE *config_file = fopen(GetConfigFilePath(CONFIG_FILE),<q>"r"</q>);</td></tr>
+<tr><th id="99">99</th><td>        <b>if</b> (config_file == NULL) {</td></tr>
+<tr><th id="100">100</th><td>            <i>//persist Emscripten current data to Indexed Db</i></td></tr>
+<tr><th id="101">101</th><td>            EM_ASM(</td></tr>
+<tr><th id="102">102</th><td>                Module.print(<q>"Start File sync.."</q>);</td></tr>
+<tr><th id="103">103</th><td>                Module.syncdone = <var>0</var>;</td></tr>
+<tr><th id="104">104</th><td>                FS.syncfs(false, function(err) {</td></tr>
+<tr><th id="105">105</th><td>                    assert(!err);</td></tr>
+<tr><th id="106">106</th><td>                    Module.print(<q>"End File sync.."</q>);</td></tr>
+<tr><th id="107">107</th><td>                    Module.syncdone = <var>1</var>;</td></tr>
+<tr><th id="108">108</th><td>                });</td></tr>
+<tr><th id="109">109</th><td>            );</td></tr>
+<tr><th id="110">110</th><td>            emscriptenLoadFiles();</td></tr>
+<tr><th id="111">111</th><td>            <b>return</b> false;</td></tr>
+<tr><th id="112">112</th><td>        }</td></tr>
+<tr><th id="113">113</th><td>        <b>else</b> {</td></tr>
+<tr><th id="114">114</th><td>            fclose(config_file);</td></tr>
+<tr><th id="115">115</th><td>            emscripten_fs_ready = true;</td></tr>
+<tr><th id="116">116</th><td>            emscriptenLoadFiles();</td></tr>
+<tr><th id="117">117</th><td>            <b>return</b> true;</td></tr>
+<tr><th id="118">118</th><td>        }</td></tr>
+<tr><th id="119">119</th><td>    }</td></tr>
+<tr><th id="120">120</th><td>    <b>return</b> false;</td></tr>
+<tr><th id="121">121</th><td>}</td></tr>
+<tr><th id="122">122</th><td><u>#<span data-ppcond="39">endif</span></u></td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="decl def" id="GameLoopDataNew" title='GameLoopDataNew' data-ref="GameLoopDataNew">GameLoopDataNew</dfn>(</td></tr>
+<tr><th id="125">125</th><td>	<em>void</em> *<dfn class="local col1 decl" id="1data" title='data' data-type='void *' data-ref="1data">data</dfn>,</td></tr>
+<tr><th id="126">126</th><td>	<em>void</em> (*<dfn class="local col2 decl" id="2onTerminate" title='onTerminate' data-type='void (*)(GameLoopData *)' data-ref="2onTerminate">onTerminate</dfn>)(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *),</td></tr>
+<tr><th id="127">127</th><td>	<em>void</em> (*<dfn class="local col3 decl" id="3onEnter" title='onEnter' data-type='void (*)(GameLoopData *)' data-ref="3onEnter">onEnter</dfn>)(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *), <em>void</em> (*<dfn class="local col4 decl" id="4onExit" title='onExit' data-type='void (*)(GameLoopData *)' data-ref="4onExit">onExit</dfn>)(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *),</td></tr>
+<tr><th id="128">128</th><td>	<em>void</em> (*<dfn class="local col5 decl" id="5inputFunc" title='inputFunc' data-type='void (*)(GameLoopData *)' data-ref="5inputFunc">inputFunc</dfn>)(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *),</td></tr>
+<tr><th id="129">129</th><td>	<a class="typedef" href="game_loop.h.html#GameLoopResult" title='GameLoopResult' data-type='enum GameLoopResult' data-ref="GameLoopResult">GameLoopResult</a> (*<dfn class="local col6 decl" id="6updateFunc" title='updateFunc' data-type='GameLoopResult (*)(GameLoopData *, LoopRunner *)' data-ref="6updateFunc">updateFunc</dfn>)(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *, <a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *),</td></tr>
+<tr><th id="130">130</th><td>	<em>void</em> (*<dfn class="local col7 decl" id="7drawFunc" title='drawFunc' data-type='void (*)(GameLoopData *)' data-ref="7drawFunc">drawFunc</dfn>)(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *))</td></tr>
+<tr><th id="131">131</th><td>{</td></tr>
+<tr><th id="132">132</th><td>	<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col8 decl" id="8g" title='g' data-type='GameLoopData *' data-ref="8g">g</dfn>;</td></tr>
+<tr><th id="133">133</th><td>	<a class="macro" href="cdogs/utils.h.html#117" title="{ g = calloc(1, sizeof *g); { if (g == ((void*)0) &amp;&amp; (sizeof *g) &gt; 0) { if (debug &amp;&amp; (2 &lt;= debug_level)) { fprintf(stderr, &quot;[%s:%d] %s(): &quot;, &quot;/home/jon/workspace/cdogs-sdl/src/game_loop.c&quot;, 133, __FUNCTION__); fprintf(stderr, &quot;CCALLOC&quot; &quot;(&quot; &quot;g&quot; &quot; size %d) failed\n&quot;, (int)(sizeof *g)); }; exit(1); } if (debug &amp;&amp; (2 &lt;= debug_level)) { fprintf(stderr, &quot;[%s:%d] %s(): &quot;, &quot;/home/jon/workspace/cdogs-sdl/src/game_loop.c&quot;, 133, __FUNCTION__); fprintf(stderr, &quot;CCALLOC&quot; &quot;(&quot; &quot;g&quot; &quot; size %d) at 0x%p\n&quot;, (int)(sizeof *g), g); };}}" data-ref="_M/CCALLOC">CCALLOC</a>(<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>, <b>sizeof</b> *<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>);</td></tr>
+<tr><th id="134">134</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::Data" title='sGameLoopData::Data' data-ref="sGameLoopData::Data">Data</a> = <a class="local col1 ref" href="#1data" title='data' data-ref="1data">data</a>;</td></tr>
+<tr><th id="135">135</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnTerminate" title='sGameLoopData::OnTerminate' data-ref="sGameLoopData::OnTerminate">OnTerminate</a> = <a class="local col2 ref" href="#2onTerminate" title='onTerminate' data-ref="2onTerminate">onTerminate</a>;</td></tr>
+<tr><th id="136">136</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnEnter" title='sGameLoopData::OnEnter' data-ref="sGameLoopData::OnEnter">OnEnter</a> = <a class="local col3 ref" href="#3onEnter" title='onEnter' data-ref="3onEnter">onEnter</a>;</td></tr>
+<tr><th id="137">137</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnExit" title='sGameLoopData::OnExit' data-ref="sGameLoopData::OnExit">OnExit</a> = <a class="local col4 ref" href="#4onExit" title='onExit' data-ref="4onExit">onExit</a>;</td></tr>
+<tr><th id="138">138</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::InputFunc" title='sGameLoopData::InputFunc' data-ref="sGameLoopData::InputFunc">InputFunc</a> = <a class="local col5 ref" href="#5inputFunc" title='inputFunc' data-ref="5inputFunc">inputFunc</a>;</td></tr>
+<tr><th id="139">139</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::UpdateFunc" title='sGameLoopData::UpdateFunc' data-ref="sGameLoopData::UpdateFunc">UpdateFunc</a> = <a class="local col6 ref" href="#6updateFunc" title='updateFunc' data-ref="6updateFunc">updateFunc</a>;</td></tr>
+<tr><th id="140">140</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::DrawFunc" title='sGameLoopData::DrawFunc' data-ref="sGameLoopData::DrawFunc">DrawFunc</a> = <a class="local col7 ref" href="#7drawFunc" title='drawFunc' data-ref="7drawFunc">drawFunc</a>;</td></tr>
+<tr><th id="141">141</th><td>	<a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::FPS" title='sGameLoopData::FPS' data-ref="sGameLoopData::FPS">FPS</a> = <var>30</var>;</td></tr>
+<tr><th id="142">142</th><td>	<b>return</b> <a class="local col8 ref" href="#8g" title='g' data-ref="8g">g</a>;</td></tr>
+<tr><th id="143">143</th><td>}</td></tr>
+<tr><th id="144">144</th><td></td></tr>
+<tr><th id="145">145</th><td><em>static</em> <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<a class="tu decl" href="#GetCurrentLoop" title='GetCurrentLoop' data-type='GameLoopData * GetCurrentLoop(LoopRunner * l)' data-ref="GetCurrentLoop">GetCurrentLoop</a>(<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="local col9 decl" id="9l" title='l' data-type='LoopRunner *' data-ref="9l">l</dfn>);</td></tr>
+<tr><th id="146">146</th><td></td></tr>
+<tr><th id="147">147</th><td><a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> <dfn class="decl def" id="LoopRunnerNew" title='LoopRunnerNew' data-ref="LoopRunnerNew">LoopRunnerNew</dfn>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col0 decl" id="10newData" title='newData' data-type='GameLoopData *' data-ref="10newData">newData</dfn>)</td></tr>
+<tr><th id="148">148</th><td>{</td></tr>
+<tr><th id="149">149</th><td>	<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> <dfn class="local col1 decl" id="11l" title='l' data-type='LoopRunner' data-ref="11l">l</dfn>;</td></tr>
+<tr><th id="150">150</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayInit" title='CArrayInit' data-ref="CArrayInit">CArrayInit</a>(&amp;<a class="local col1 ref" href="#11l" title='l' data-ref="11l">l</a>.<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>, <b>sizeof</b>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *));</td></tr>
+<tr><th id="151">151</th><td>	<b>if</b> (<a class="local col0 ref" href="#10newData" title='newData' data-ref="10newData">newData</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="152">152</th><td>	{</td></tr>
+<tr><th id="153">153</th><td>		<a class="ref" href="#LoopRunnerPush" title='LoopRunnerPush' data-ref="LoopRunnerPush">LoopRunnerPush</a>(&amp;<a class="local col1 ref" href="#11l" title='l' data-ref="11l">l</a>, <a class="local col0 ref" href="#10newData" title='newData' data-ref="10newData">newData</a>);</td></tr>
+<tr><th id="154">154</th><td>	}</td></tr>
+<tr><th id="155">155</th><td>	<b>return</b> <a class="local col1 ref" href="#11l" title='l' data-ref="11l">l</a>;</td></tr>
+<tr><th id="156">156</th><td>}</td></tr>
+<tr><th id="157">157</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#GameLoopTerminate" title='GameLoopTerminate' data-type='void GameLoopTerminate(GameLoopData * data)' data-ref="GameLoopTerminate">GameLoopTerminate</a>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col2 decl" id="12data" title='data' data-type='GameLoopData *' data-ref="12data">data</dfn>);</td></tr>
+<tr><th id="158">158</th><td><em>void</em> <dfn class="decl def" id="LoopRunnerTerminate" title='LoopRunnerTerminate' data-ref="LoopRunnerTerminate">LoopRunnerTerminate</dfn>(<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="local col3 decl" id="13l" title='l' data-type='LoopRunner *' data-ref="13l">l</dfn>)</td></tr>
+<tr><th id="159">159</th><td>{</td></tr>
+<tr><th id="160">160</th><td>	<b>for</b> (<em>int</em> <dfn class="local col4 decl" id="14i" title='i' data-type='int' data-ref="14i">i</dfn> = (<em>int</em>)<a class="local col3 ref" href="#13l" title='l' data-ref="13l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a> - <var>1</var>; <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a> &gt;= <var>0</var>; <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a>--)</td></tr>
+<tr><th id="161">161</th><td>	{</td></tr>
+<tr><th id="162">162</th><td>		<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col5 decl" id="15g" title='g' data-type='GameLoopData *' data-ref="15g">g</dfn> = <a class="ref" href="cdogs/c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="local col3 ref" href="#13l" title='l' data-ref="13l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>, <a class="local col4 ref" href="#14i" title='i' data-ref="14i">i</a>);</td></tr>
+<tr><th id="163">163</th><td>		<a class="tu ref" href="#GameLoopTerminate" title='GameLoopTerminate' data-use='c' data-ref="GameLoopTerminate">GameLoopTerminate</a>(<a class="local col5 ref" href="#15g" title='g' data-ref="15g">g</a>);</td></tr>
+<tr><th id="164">164</th><td>	}</td></tr>
+<tr><th id="165">165</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayTerminate" title='CArrayTerminate' data-ref="CArrayTerminate">CArrayTerminate</a>(&amp;<a class="local col3 ref" href="#13l" title='l' data-ref="13l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>);</td></tr>
+<tr><th id="166">166</th><td>}</td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#GameLoopOnEnter" title='GameLoopOnEnter' data-type='void GameLoopOnEnter(GameLoopData * data)' data-ref="GameLoopOnEnter">GameLoopOnEnter</a>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col6 decl" id="16data" title='data' data-type='GameLoopData *' data-ref="16data">data</dfn>);</td></tr>
+<tr><th id="169">169</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#GameLoopOnExit" title='GameLoopOnExit' data-type='void GameLoopOnExit(GameLoopData * data)' data-ref="GameLoopOnExit">GameLoopOnExit</a>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col7 decl" id="17data" title='data' data-type='GameLoopData *' data-ref="17data">data</dfn>);</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="172">172</th><td>{</td></tr>
+<tr><th id="173">173</th><td>	<a class="typedef" href="game_loop.h.html#GameLoopResult" title='GameLoopResult' data-type='enum GameLoopResult' data-ref="GameLoopResult">GameLoopResult</a> <dfn class="tu decl" id="(anonymous)::Result" title='(anonymous struct)::Result' data-type='GameLoopResult' data-ref="(anonymous)::Result">Result</dfn>;</td></tr>
+<tr><th id="174">174</th><td>	<a class="typedef" href="../../include/SDL2/SDL_stdinc.h.html#Uint32" title='Uint32' data-type='int' data-ref="Uint32">Uint32</a> <dfn class="tu decl" id="(anonymous)::TicksNow" title='(anonymous struct)::TicksNow' data-type='Uint32' data-ref="(anonymous)::TicksNow">TicksNow</dfn>;</td></tr>
+<tr><th id="175">175</th><td>	<a class="typedef" href="../../include/SDL2/SDL_stdinc.h.html#Uint32" title='Uint32' data-type='int' data-ref="Uint32">Uint32</a> <dfn class="tu decl" id="(anonymous)::TicksElapsed" title='(anonymous struct)::TicksElapsed' data-type='Uint32' data-ref="(anonymous)::TicksElapsed">TicksElapsed</dfn>;</td></tr>
+<tr><th id="176">176</th><td>	<em>int</em> <dfn class="tu decl" id="(anonymous)::FrameDurationMs" title='(anonymous struct)::FrameDurationMs' data-type='int' data-ref="(anonymous)::FrameDurationMs">FrameDurationMs</dfn>;</td></tr>
+<tr><th id="177">177</th><td>	<em>int</em> <dfn class="tu decl" id="(anonymous)::FramesSkipped" title='(anonymous struct)::FramesSkipped' data-type='int' data-ref="(anonymous)::FramesSkipped">FramesSkipped</dfn>;</td></tr>
+<tr><th id="178">178</th><td>	<em>int</em> <dfn class="tu decl" id="(anonymous)::MaxFrameskip" title='(anonymous struct)::MaxFrameskip' data-type='int' data-ref="(anonymous)::MaxFrameskip">MaxFrameskip</dfn>;</td></tr>
+<tr><th id="179">179</th><td>} <dfn class="typedef" id="LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</dfn>;</td></tr>
+<tr><th id="180">180</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="181">181</th><td>{</td></tr>
+<tr><th id="182">182</th><td>    <a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="tu decl" id="(anonymous)::l" title='(anonymous struct)::l' data-type='LoopRunner *' data-ref="(anonymous)::l">l</dfn>;</td></tr>
+<tr><th id="183">183</th><td>    <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="tu decl" id="(anonymous)::data" title='(anonymous struct)::data' data-type='GameLoopData *' data-ref="(anonymous)::data">data</dfn>;</td></tr>
+<tr><th id="184">184</th><td>    <a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> <dfn class="tu decl" id="(anonymous)::p" title='(anonymous struct)::p' data-type='LoopRunParams' data-ref="(anonymous)::p">p</dfn>;</td></tr>
+<tr><th id="185">185</th><td>}<dfn class="typedef" id="LoopRunInnerData" title='LoopRunInnerData' data-type='struct LoopRunInnerData' data-ref="LoopRunInnerData">LoopRunInnerData</dfn>;</td></tr>
+<tr><th id="186">186</th><td><em>static</em> <a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> <a class="tu decl" href="#LoopRunParamsNew" title='LoopRunParamsNew' data-type='LoopRunParams LoopRunParamsNew(const GameLoopData * data)' data-ref="LoopRunParamsNew">LoopRunParamsNew</a>(<em>const</em> <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col8 decl" id="18data" title='data' data-type='const GameLoopData *' data-ref="18data">data</dfn>);</td></tr>
+<tr><th id="187">187</th><td><em>static</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <a class="tu decl" href="#LoopRunParamsShouldSleep" title='LoopRunParamsShouldSleep' data-type='_Bool LoopRunParamsShouldSleep(LoopRunParams * p)' data-ref="LoopRunParamsShouldSleep">LoopRunParamsShouldSleep</a>(<a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> *<dfn class="local col9 decl" id="19p" title='p' data-type='LoopRunParams *' data-ref="19p">p</dfn>);</td></tr>
+<tr><th id="188">188</th><td><em>static</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <a class="tu decl" href="#LoopRunParamsShouldSkip" title='LoopRunParamsShouldSkip' data-type='_Bool LoopRunParamsShouldSkip(LoopRunParams * p)' data-ref="LoopRunParamsShouldSkip">LoopRunParamsShouldSkip</a>(<a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> *<dfn class="local col0 decl" id="20p" title='p' data-type='LoopRunParams *' data-ref="20p">p</dfn>);</td></tr>
+<tr><th id="189">189</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="LoopRunnerRunInner" title='LoopRunnerRunInner' data-ref="LoopRunnerRunInner">LoopRunnerRunInner</dfn>(<a class="typedef" href="#LoopRunInnerData" title='LoopRunInnerData' data-type='struct LoopRunInnerData' data-ref="LoopRunInnerData">LoopRunInnerData</a> *<dfn class="local col1 decl" id="21ctx" title='ctx' data-type='LoopRunInnerData *' data-ref="21ctx">ctx</dfn>)</td></tr>
+<tr><th id="190">190</th><td>{</td></tr>
+<tr><th id="191">191</th><td><u>#<span data-ppcond="191">ifndef</span> <span class="macro" data-ref="_M/__EMSCRIPTEN__">__EMSCRIPTEN__</span></u></td></tr>
+<tr><th id="192">192</th><td>    <i>// Frame rate control</i></td></tr>
+<tr><th id="193">193</th><td>    <b>if</b> (<a class="tu ref" href="#LoopRunParamsShouldSleep" title='LoopRunParamsShouldSleep' data-use='c' data-ref="LoopRunParamsShouldSleep">LoopRunParamsShouldSleep</a>(&amp;(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::p" title='(anonymous struct)::p' data-use='a' data-ref="(anonymous)::p">p</a>)))</td></tr>
+<tr><th id="194">194</th><td>    {</td></tr>
+<tr><th id="195">195</th><td>        <a class="ref" href="../../include/SDL2/SDL_timer.h.html#SDL_Delay" title='SDL_Delay' data-ref="SDL_Delay">SDL_Delay</a>(<var>1</var>);</td></tr>
+<tr><th id="196">196</th><td>        <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="197">197</th><td>    }</td></tr>
+<tr><th id="198">198</th><td><u>#<span data-ppcond="191">endif</span></u></td></tr>
+<tr><th id="199">199</th><td></td></tr>
+<tr><th id="200">200</th><td>    <i>// Input</i></td></tr>
+<tr><th id="201">201</th><td>    <b>if</b> ((<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::Frames" title='sGameLoopData::Frames' data-ref="sGameLoopData::Frames">Frames</a> &amp; <var>1</var>) || !<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::InputEverySecondFrame" title='sGameLoopData::InputEverySecondFrame' data-ref="sGameLoopData::InputEverySecondFrame">InputEverySecondFrame</a>)</td></tr>
+<tr><th id="202">202</th><td>    {</td></tr>
+<tr><th id="203">203</th><td>        <a class="ref" href="cdogs/events.h.html#EventPoll" title='EventPoll' data-ref="EventPoll">EventPoll</a>(&amp;<a class="ref" href="cdogs/events.h.html#gEventHandlers" title='gEventHandlers' data-ref="gEventHandlers">gEventHandlers</a>, <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::p" title='(anonymous struct)::p' data-use='m' data-ref="(anonymous)::p">p</a>.<a class="tu ref" href="#(anonymous)::TicksNow" title='(anonymous struct)::TicksNow' data-use='r' data-ref="(anonymous)::TicksNow">TicksNow</a>);</td></tr>
+<tr><th id="204">204</th><td>        <b>if</b> (<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::InputFunc" title='sGameLoopData::InputFunc' data-ref="sGameLoopData::InputFunc">InputFunc</a>)</td></tr>
+<tr><th id="205">205</th><td>        {</td></tr>
+<tr><th id="206">206</th><td>            <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::InputFunc" title='sGameLoopData::InputFunc' data-ref="sGameLoopData::InputFunc">InputFunc</a>(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>);</td></tr>
+<tr><th id="207">207</th><td>        }</td></tr>
+<tr><th id="208">208</th><td>    }</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td>    <a class="ref" href="cdogs/net_client.h.html#NetClientPoll" title='NetClientPoll' data-ref="NetClientPoll">NetClientPoll</a>(&amp;<a class="ref" href="cdogs/net_client.h.html#gNetClient" title='gNetClient' data-ref="gNetClient">gNetClient</a>);</td></tr>
+<tr><th id="211">211</th><td>    <a class="ref" href="cdogs/net_server.h.html#NetServerPoll" title='NetServerPoll' data-ref="NetServerPoll">NetServerPoll</a>(&amp;<a class="ref" href="cdogs/net_server.h.html#gNetServer" title='gNetServer' data-ref="gNetServer">gNetServer</a>);</td></tr>
+<tr><th id="212">212</th><td></td></tr>
+<tr><th id="213">213</th><td>    <i>// Update</i></td></tr>
+<tr><th id="214">214</th><td>    <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::p" title='(anonymous struct)::p' data-use='m' data-ref="(anonymous)::p">p</a>.<a class="tu ref" href="#(anonymous)::Result" title='(anonymous struct)::Result' data-use='w' data-ref="(anonymous)::Result">Result</a> = <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::UpdateFunc" title='sGameLoopData::UpdateFunc' data-ref="sGameLoopData::UpdateFunc">UpdateFunc</a>(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>, <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::l" title='(anonymous struct)::l' data-use='r' data-ref="(anonymous)::l">l</a>);</td></tr>
+<tr><th id="215">215</th><td>    <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col2 decl" id="22newData" title='newData' data-type='GameLoopData *' data-ref="22newData">newData</dfn> = <a class="tu ref" href="#GetCurrentLoop" title='GetCurrentLoop' data-use='c' data-ref="GetCurrentLoop">GetCurrentLoop</a>(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::l" title='(anonymous struct)::l' data-use='r' data-ref="(anonymous)::l">l</a>);</td></tr>
+<tr><th id="216">216</th><td>    <b>if</b> (<a class="local col2 ref" href="#22newData" title='newData' data-ref="22newData">newData</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="217">217</th><td>    {</td></tr>
+<tr><th id="218">218</th><td>        <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="219">219</th><td>    }</td></tr>
+<tr><th id="220">220</th><td>    <b>else</b> <b>if</b> (<a class="local col2 ref" href="#22newData" title='newData' data-ref="22newData">newData</a> != <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>)</td></tr>
+<tr><th id="221">221</th><td>    {</td></tr>
+<tr><th id="222">222</th><td>        <i>// State change; restart loop</i></td></tr>
+<tr><th id="223">223</th><td>        <a class="tu ref" href="#GameLoopOnExit" title='GameLoopOnExit' data-use='c' data-ref="GameLoopOnExit">GameLoopOnExit</a>(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>);</td></tr>
+<tr><th id="224">224</th><td>        <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='w' data-ref="(anonymous)::data">data</a> = <a class="local col2 ref" href="#22newData" title='newData' data-ref="22newData">newData</a>;</td></tr>
+<tr><th id="225">225</th><td>        <a class="tu ref" href="#GameLoopOnEnter" title='GameLoopOnEnter' data-use='c' data-ref="GameLoopOnEnter">GameLoopOnEnter</a>(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>);</td></tr>
+<tr><th id="226">226</th><td>        <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::p" title='(anonymous struct)::p' data-use='w' data-ref="(anonymous)::p">p</a> = <a class="tu ref" href="#LoopRunParamsNew" title='LoopRunParamsNew' data-use='c' data-ref="LoopRunParamsNew">LoopRunParamsNew</a>(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>);</td></tr>
+<tr><th id="227">227</th><td>        <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="228">228</th><td>    }</td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td>    <a class="ref" href="cdogs/net_server.h.html#NetServerFlush" title='NetServerFlush' data-ref="NetServerFlush">NetServerFlush</a>(&amp;<a class="ref" href="cdogs/net_server.h.html#gNetServer" title='gNetServer' data-ref="gNetServer">gNetServer</a>);</td></tr>
+<tr><th id="231">231</th><td>    <a class="ref" href="cdogs/net_client.h.html#NetClientFlush" title='NetClientFlush' data-ref="NetClientFlush">NetClientFlush</a>(&amp;<a class="ref" href="cdogs/net_client.h.html#gNetClient" title='gNetClient' data-ref="gNetClient">gNetClient</a>);</td></tr>
+<tr><th id="232">232</th><td></td></tr>
+<tr><th id="233">233</th><td>    <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col3 decl" id="23draw" title='draw' data-type='_Bool' data-ref="23draw">draw</dfn> = !<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::HasDrawnFirst" title='sGameLoopData::HasDrawnFirst' data-ref="sGameLoopData::HasDrawnFirst">HasDrawnFirst</a>;</td></tr>
+<tr><th id="234">234</th><td>    <b>switch</b> (<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::p" title='(anonymous struct)::p' data-use='m' data-ref="(anonymous)::p">p</a>.<a class="tu ref" href="#(anonymous)::Result" title='(anonymous struct)::Result' data-use='r' data-ref="(anonymous)::Result">Result</a>)</td></tr>
+<tr><th id="235">235</th><td>    {</td></tr>
+<tr><th id="236">236</th><td>    <b>case</b> <a class="enum" href="game_loop.h.html#UPDATE_RESULT_OK" title='UPDATE_RESULT_OK' data-ref="UPDATE_RESULT_OK">UPDATE_RESULT_OK</a>:</td></tr>
+<tr><th id="237">237</th><td>        <i>// Do nothing</i></td></tr>
+<tr><th id="238">238</th><td>        <b>break</b>;</td></tr>
+<tr><th id="239">239</th><td>    <b>case</b> <a class="enum" href="game_loop.h.html#UPDATE_RESULT_DRAW" title='UPDATE_RESULT_DRAW' data-ref="UPDATE_RESULT_DRAW">UPDATE_RESULT_DRAW</a>:</td></tr>
+<tr><th id="240">240</th><td>        <a class="local col3 ref" href="#23draw" title='draw' data-ref="23draw">draw</a> = <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="241">241</th><td>        <b>break</b>;</td></tr>
+<tr><th id="242">242</th><td>    <b>default</b>:</td></tr>
+<tr><th id="243">243</th><td>        <a class="macro" href="cdogs/utils.h.html#83" title="{ volatile _Bool isOk = 0; if (!isOk) { static char _buf[1024]; sprintf( _buf, &quot;In %s %d:%s: &quot; &quot;Unknown loop result&quot; &quot; (&quot; &quot;false&quot; &quot;)&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/game_loop.c&quot;, 243, __FUNCTION__); ; ((0) ? (void) (0) : __assert_fail (&quot;0&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/game_loop.c&quot;, 243, __PRETTY_FUNCTION__)); }}" data-ref="_M/CASSERT">CASSERT</a>(<span class="macro" title="0" data-ref="_M/false">false</span>, <q>"Unknown loop result"</q>);</td></tr>
+<tr><th id="244">244</th><td>        <b>break</b>;</td></tr>
+<tr><th id="245">245</th><td>    }</td></tr>
+<tr><th id="246">246</th><td>    <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::Frames" title='sGameLoopData::Frames' data-ref="sGameLoopData::Frames">Frames</a>++;</td></tr>
+<tr><th id="247">247</th><td><u>#<span data-ppcond="247">ifndef</span> <span class="macro" data-ref="_M/__EMSCRIPTEN__">__EMSCRIPTEN__</span></u></td></tr>
+<tr><th id="248">248</th><td>    <i>// frame skip</i></td></tr>
+<tr><th id="249">249</th><td>    <b>if</b> (<a class="tu ref" href="#LoopRunParamsShouldSkip" title='LoopRunParamsShouldSkip' data-use='c' data-ref="LoopRunParamsShouldSkip">LoopRunParamsShouldSkip</a>(&amp;(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::p" title='(anonymous struct)::p' data-use='a' data-ref="(anonymous)::p">p</a>)))</td></tr>
+<tr><th id="250">250</th><td>    {</td></tr>
+<tr><th id="251">251</th><td>        <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="252">252</th><td>    }</td></tr>
+<tr><th id="253">253</th><td><u>#<span data-ppcond="247">endif</span></u></td></tr>
+<tr><th id="254">254</th><td></td></tr>
+<tr><th id="255">255</th><td>    <i>// Draw</i></td></tr>
+<tr><th id="256">256</th><td>    <b>if</b> (<a class="local col3 ref" href="#23draw" title='draw' data-ref="23draw">draw</a>)</td></tr>
+<tr><th id="257">257</th><td>    {</td></tr>
+<tr><th id="258">258</th><td>        <b>if</b> (<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::DrawFunc" title='sGameLoopData::DrawFunc' data-ref="sGameLoopData::DrawFunc">DrawFunc</a>)</td></tr>
+<tr><th id="259">259</th><td>        {</td></tr>
+<tr><th id="260">260</th><td>            <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::DrawFunc" title='sGameLoopData::DrawFunc' data-ref="sGameLoopData::DrawFunc">DrawFunc</a>(<a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>);</td></tr>
+<tr><th id="261">261</th><td>            <a class="ref" href="cdogs/blit.h.html#BlitFlip" title='BlitFlip' data-ref="BlitFlip">BlitFlip</a>(&amp;<a class="ref" href="cdogs/grafx.h.html#gGraphicsDevice" title='gGraphicsDevice' data-ref="gGraphicsDevice">gGraphicsDevice</a>);</td></tr>
+<tr><th id="262">262</th><td>        }</td></tr>
+<tr><th id="263">263</th><td>        <a class="local col1 ref" href="#21ctx" title='ctx' data-ref="21ctx">ctx</a>-&gt;<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='r' data-ref="(anonymous)::data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::HasDrawnFirst" title='sGameLoopData::HasDrawnFirst' data-ref="sGameLoopData::HasDrawnFirst">HasDrawnFirst</a> = <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="264">264</th><td>    }</td></tr>
+<tr><th id="265">265</th><td></td></tr>
+<tr><th id="266">266</th><td>    <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="267">267</th><td>}</td></tr>
+<tr><th id="268">268</th><td></td></tr>
+<tr><th id="269">269</th><td><u>#<span data-ppcond="269">ifdef</span> <span class="macro" data-ref="_M/__EMSCRIPTEN__">__EMSCRIPTEN__</span></u></td></tr>
+<tr><th id="270">270</th><td><em>void</em> EmscriptenMainLoop(<em>void</em> *arg)</td></tr>
+<tr><th id="271">271</th><td>{</td></tr>
+<tr><th id="272">272</th><td>    <b>if</b> (!emscriptenPersistData())</td></tr>
+<tr><th id="273">273</th><td>        <b>return</b>;</td></tr>
+<tr><th id="274">274</th><td></td></tr>
+<tr><th id="275">275</th><td>    LoopRunnerRunInner((LoopRunInnerData *)arg);</td></tr>
+<tr><th id="276">276</th><td>}</td></tr>
+<tr><th id="277">277</th><td><u>#<span data-ppcond="269">endif</span></u></td></tr>
+<tr><th id="278">278</th><td><em>void</em> <dfn class="decl def" id="LoopRunnerRun" title='LoopRunnerRun' data-ref="LoopRunnerRun">LoopRunnerRun</dfn>(<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="local col4 decl" id="24l" title='l' data-type='LoopRunner *' data-ref="24l">l</dfn>)</td></tr>
+<tr><th id="279">279</th><td>{</td></tr>
+<tr><th id="280">280</th><td>	<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col5 decl" id="25data" title='data' data-type='GameLoopData *' data-ref="25data">data</dfn> = <a class="tu ref" href="#GetCurrentLoop" title='GetCurrentLoop' data-use='c' data-ref="GetCurrentLoop">GetCurrentLoop</a>(<a class="local col4 ref" href="#24l" title='l' data-ref="24l">l</a>);</td></tr>
+<tr><th id="281">281</th><td>	<b>if</b> (<a class="local col5 ref" href="#25data" title='data' data-ref="25data">data</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="282">282</th><td>	{</td></tr>
+<tr><th id="283">283</th><td>		<b>return</b>;</td></tr>
+<tr><th id="284">284</th><td>	}</td></tr>
+<tr><th id="285">285</th><td>	<a class="tu ref" href="#GameLoopOnEnter" title='GameLoopOnEnter' data-use='c' data-ref="GameLoopOnEnter">GameLoopOnEnter</a>(<a class="local col5 ref" href="#25data" title='data' data-ref="25data">data</a>);</td></tr>
+<tr><th id="286">286</th><td></td></tr>
+<tr><th id="287">287</th><td>    <a class="typedef" href="#LoopRunInnerData" title='LoopRunInnerData' data-type='struct LoopRunInnerData' data-ref="LoopRunInnerData">LoopRunInnerData</a> <dfn class="local col6 decl" id="26ctx" title='ctx' data-type='LoopRunInnerData' data-ref="26ctx">ctx</dfn>;</td></tr>
+<tr><th id="288">288</th><td>    <a class="local col6 ref" href="#26ctx" title='ctx' data-ref="26ctx">ctx</a>.<a class="tu ref" href="#(anonymous)::l" title='(anonymous struct)::l' data-use='w' data-ref="(anonymous)::l">l</a> = <a class="local col4 ref" href="#24l" title='l' data-ref="24l">l</a>;</td></tr>
+<tr><th id="289">289</th><td>    <a class="local col6 ref" href="#26ctx" title='ctx' data-ref="26ctx">ctx</a>.<a class="tu ref" href="#(anonymous)::data" title='(anonymous struct)::data' data-use='w' data-ref="(anonymous)::data">data</a> = <a class="local col5 ref" href="#25data" title='data' data-ref="25data">data</a>;</td></tr>
+<tr><th id="290">290</th><td>    <a class="local col6 ref" href="#26ctx" title='ctx' data-ref="26ctx">ctx</a>.<a class="tu ref" href="#(anonymous)::p" title='(anonymous struct)::p' data-use='w' data-ref="(anonymous)::p">p</a> = <a class="tu ref" href="#LoopRunParamsNew" title='LoopRunParamsNew' data-use='c' data-ref="LoopRunParamsNew">LoopRunParamsNew</a>(<a class="local col5 ref" href="#25data" title='data' data-ref="25data">data</a>);</td></tr>
+<tr><th id="291">291</th><td></td></tr>
+<tr><th id="292">292</th><td><u>#<span data-ppcond="292">ifdef</span> <span class="macro" data-ref="_M/__EMSCRIPTEN__">__EMSCRIPTEN__</span></u></td></tr>
+<tr><th id="293">293</th><td>    <i>// TODO use GameLoopData-&gt;FPS instead of 30?</i></td></tr>
+<tr><th id="294">294</th><td>    emscripten_set_main_loop_arg(EmscriptenMainLoop, &amp;ctx, FPS_FRAMELIMIT, <var>1</var>);</td></tr>
+<tr><th id="295">295</th><td><u>#<span data-ppcond="292">else</span></u></td></tr>
+<tr><th id="296">296</th><td>	<b>for</b> (;;)</td></tr>
+<tr><th id="297">297</th><td>	{</td></tr>
+<tr><th id="298">298</th><td>        <b>if</b> (!<a class="ref" href="#LoopRunnerRunInner" title='LoopRunnerRunInner' data-ref="LoopRunnerRunInner">LoopRunnerRunInner</a>(&amp;<a class="local col6 ref" href="#26ctx" title='ctx' data-ref="26ctx">ctx</a>))</td></tr>
+<tr><th id="299">299</th><td>        {</td></tr>
+<tr><th id="300">300</th><td>            <b>break</b>;</td></tr>
+<tr><th id="301">301</th><td>        }</td></tr>
+<tr><th id="302">302</th><td>	}</td></tr>
+<tr><th id="303">303</th><td><u>#<span data-ppcond="292">endif</span></u></td></tr>
+<tr><th id="304">304</th><td>	<a class="tu ref" href="#GameLoopOnExit" title='GameLoopOnExit' data-use='c' data-ref="GameLoopOnExit">GameLoopOnExit</a>(<a class="local col5 ref" href="#25data" title='data' data-ref="25data">data</a>);</td></tr>
+<tr><th id="305">305</th><td>}</td></tr>
+<tr><th id="306">306</th><td><em>static</em> <a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> <dfn class="tu decl def" id="LoopRunParamsNew" title='LoopRunParamsNew' data-type='LoopRunParams LoopRunParamsNew(const GameLoopData * data)' data-ref="LoopRunParamsNew">LoopRunParamsNew</dfn>(<em>const</em> <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col7 decl" id="27data" title='data' data-type='const GameLoopData *' data-ref="27data">data</dfn>)</td></tr>
+<tr><th id="307">307</th><td>{</td></tr>
+<tr><th id="308">308</th><td>	<a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> <dfn class="local col8 decl" id="28p" title='p' data-type='LoopRunParams' data-ref="28p">p</dfn>;</td></tr>
+<tr><th id="309">309</th><td>	<a class="local col8 ref" href="#28p" title='p' data-ref="28p">p</a>.<a class="tu ref" href="#(anonymous)::Result" title='(anonymous struct)::Result' data-use='w' data-ref="(anonymous)::Result">Result</a> = <a class="enum" href="game_loop.h.html#UPDATE_RESULT_OK" title='UPDATE_RESULT_OK' data-ref="UPDATE_RESULT_OK">UPDATE_RESULT_OK</a>;</td></tr>
+<tr><th id="310">310</th><td>	<a class="local col8 ref" href="#28p" title='p' data-ref="28p">p</a>.<a class="tu ref" href="#(anonymous)::TicksNow" title='(anonymous struct)::TicksNow' data-use='w' data-ref="(anonymous)::TicksNow">TicksNow</a> = <a class="ref" href="../../include/SDL2/SDL_timer.h.html#SDL_GetTicks" title='SDL_GetTicks' data-ref="SDL_GetTicks">SDL_GetTicks</a>();</td></tr>
+<tr><th id="311">311</th><td>	<a class="local col8 ref" href="#28p" title='p' data-ref="28p">p</a>.<a class="tu ref" href="#(anonymous)::TicksElapsed" title='(anonymous struct)::TicksElapsed' data-use='w' data-ref="(anonymous)::TicksElapsed">TicksElapsed</a> = <var>0</var>;</td></tr>
+<tr><th id="312">312</th><td>	<a class="local col8 ref" href="#28p" title='p' data-ref="28p">p</a>.<a class="tu ref" href="#(anonymous)::FrameDurationMs" title='(anonymous struct)::FrameDurationMs' data-use='w' data-ref="(anonymous)::FrameDurationMs">FrameDurationMs</a> = <var>1000</var> / <a class="local col7 ref" href="#27data" title='data' data-ref="27data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::FPS" title='sGameLoopData::FPS' data-ref="sGameLoopData::FPS">FPS</a>;</td></tr>
+<tr><th id="313">313</th><td>	<a class="local col8 ref" href="#28p" title='p' data-ref="28p">p</a>.<a class="tu ref" href="#(anonymous)::FramesSkipped" title='(anonymous struct)::FramesSkipped' data-use='w' data-ref="(anonymous)::FramesSkipped">FramesSkipped</a> = <var>0</var>;</td></tr>
+<tr><th id="314">314</th><td>	<a class="local col8 ref" href="#28p" title='p' data-ref="28p">p</a>.<a class="tu ref" href="#(anonymous)::MaxFrameskip" title='(anonymous struct)::MaxFrameskip' data-use='w' data-ref="(anonymous)::MaxFrameskip">MaxFrameskip</a> = <a class="local col7 ref" href="#27data" title='data' data-ref="27data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::FPS" title='sGameLoopData::FPS' data-ref="sGameLoopData::FPS">FPS</a> / <var>5</var>;</td></tr>
+<tr><th id="315">315</th><td>	<b>return</b> <a class="local col8 ref" href="#28p" title='p' data-ref="28p">p</a>;</td></tr>
+<tr><th id="316">316</th><td>}</td></tr>
+<tr><th id="317">317</th><td><em>static</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="tu decl def" id="LoopRunParamsShouldSleep" title='LoopRunParamsShouldSleep' data-type='_Bool LoopRunParamsShouldSleep(LoopRunParams * p)' data-ref="LoopRunParamsShouldSleep">LoopRunParamsShouldSleep</dfn>(<a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> *<dfn class="local col9 decl" id="29p" title='p' data-type='LoopRunParams *' data-ref="29p">p</dfn>)</td></tr>
+<tr><th id="318">318</th><td>{</td></tr>
+<tr><th id="319">319</th><td>	<em>const</em> <a class="typedef" href="../../include/SDL2/SDL_stdinc.h.html#Uint32" title='Uint32' data-type='int' data-ref="Uint32">Uint32</a> <dfn class="local col0 decl" id="30ticksThen" title='ticksThen' data-type='const Uint32' data-ref="30ticksThen">ticksThen</dfn> = <a class="local col9 ref" href="#29p" title='p' data-ref="29p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksNow" title='(anonymous struct)::TicksNow' data-use='r' data-ref="(anonymous)::TicksNow">TicksNow</a>;</td></tr>
+<tr><th id="320">320</th><td>	<a class="local col9 ref" href="#29p" title='p' data-ref="29p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksNow" title='(anonymous struct)::TicksNow' data-use='w' data-ref="(anonymous)::TicksNow">TicksNow</a> = <a class="ref" href="../../include/SDL2/SDL_timer.h.html#SDL_GetTicks" title='SDL_GetTicks' data-ref="SDL_GetTicks">SDL_GetTicks</a>();</td></tr>
+<tr><th id="321">321</th><td>	<a class="local col9 ref" href="#29p" title='p' data-ref="29p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksElapsed" title='(anonymous struct)::TicksElapsed' data-use='w' data-ref="(anonymous)::TicksElapsed">TicksElapsed</a> += <a class="local col9 ref" href="#29p" title='p' data-ref="29p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksNow" title='(anonymous struct)::TicksNow' data-use='r' data-ref="(anonymous)::TicksNow">TicksNow</a> - <a class="local col0 ref" href="#30ticksThen" title='ticksThen' data-ref="30ticksThen">ticksThen</a>;</td></tr>
+<tr><th id="322">322</th><td>	<b>return</b> (<em>int</em>)<a class="local col9 ref" href="#29p" title='p' data-ref="29p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksElapsed" title='(anonymous struct)::TicksElapsed' data-use='r' data-ref="(anonymous)::TicksElapsed">TicksElapsed</a> &lt; <a class="local col9 ref" href="#29p" title='p' data-ref="29p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::FrameDurationMs" title='(anonymous struct)::FrameDurationMs' data-use='r' data-ref="(anonymous)::FrameDurationMs">FrameDurationMs</a>;</td></tr>
+<tr><th id="323">323</th><td>}</td></tr>
+<tr><th id="324">324</th><td><em>static</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="tu decl def" id="LoopRunParamsShouldSkip" title='LoopRunParamsShouldSkip' data-type='_Bool LoopRunParamsShouldSkip(LoopRunParams * p)' data-ref="LoopRunParamsShouldSkip">LoopRunParamsShouldSkip</dfn>(<a class="typedef" href="#LoopRunParams" title='LoopRunParams' data-type='struct LoopRunParams' data-ref="LoopRunParams">LoopRunParams</a> *<dfn class="local col1 decl" id="31p" title='p' data-type='LoopRunParams *' data-ref="31p">p</dfn>)</td></tr>
+<tr><th id="325">325</th><td>{</td></tr>
+<tr><th id="326">326</th><td>	<a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksElapsed" title='(anonymous struct)::TicksElapsed' data-use='w' data-ref="(anonymous)::TicksElapsed">TicksElapsed</a> -= <a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::FrameDurationMs" title='(anonymous struct)::FrameDurationMs' data-use='r' data-ref="(anonymous)::FrameDurationMs">FrameDurationMs</a>;</td></tr>
+<tr><th id="327">327</th><td>	<i>// frame skip</i></td></tr>
+<tr><th id="328">328</th><td>	<b>if</b> ((<em>int</em>)<a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksElapsed" title='(anonymous struct)::TicksElapsed' data-use='r' data-ref="(anonymous)::TicksElapsed">TicksElapsed</a> &gt; <a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::FrameDurationMs" title='(anonymous struct)::FrameDurationMs' data-use='r' data-ref="(anonymous)::FrameDurationMs">FrameDurationMs</a>)</td></tr>
+<tr><th id="329">329</th><td>	{</td></tr>
+<tr><th id="330">330</th><td>		<a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::FramesSkipped" title='(anonymous struct)::FramesSkipped' data-use='w' data-ref="(anonymous)::FramesSkipped">FramesSkipped</a>++;</td></tr>
+<tr><th id="331">331</th><td>		<b>if</b> (<a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::FramesSkipped" title='(anonymous struct)::FramesSkipped' data-use='r' data-ref="(anonymous)::FramesSkipped">FramesSkipped</a> == <a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::MaxFrameskip" title='(anonymous struct)::MaxFrameskip' data-use='r' data-ref="(anonymous)::MaxFrameskip">MaxFrameskip</a>)</td></tr>
+<tr><th id="332">332</th><td>		{</td></tr>
+<tr><th id="333">333</th><td>			<i>// We've skipped too many frames; give up</i></td></tr>
+<tr><th id="334">334</th><td>			<a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::TicksElapsed" title='(anonymous struct)::TicksElapsed' data-use='w' data-ref="(anonymous)::TicksElapsed">TicksElapsed</a> = <var>0</var>;</td></tr>
+<tr><th id="335">335</th><td>		}</td></tr>
+<tr><th id="336">336</th><td>		<b>else</b></td></tr>
+<tr><th id="337">337</th><td>		{</td></tr>
+<tr><th id="338">338</th><td>			<b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="339">339</th><td>		}</td></tr>
+<tr><th id="340">340</th><td>	}</td></tr>
+<tr><th id="341">341</th><td>	<a class="local col1 ref" href="#31p" title='p' data-ref="31p">p</a>-&gt;<a class="tu ref" href="#(anonymous)::FramesSkipped" title='(anonymous struct)::FramesSkipped' data-use='w' data-ref="(anonymous)::FramesSkipped">FramesSkipped</a> = <var>0</var>;</td></tr>
+<tr><th id="342">342</th><td>	<b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="343">343</th><td>}</td></tr>
+<tr><th id="344">344</th><td></td></tr>
+<tr><th id="345">345</th><td><em>void</em> <dfn class="decl def" id="LoopRunnerChange" title='LoopRunnerChange' data-ref="LoopRunnerChange">LoopRunnerChange</dfn>(<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="local col2 decl" id="32l" title='l' data-type='LoopRunner *' data-ref="32l">l</dfn>, <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col3 decl" id="33newData" title='newData' data-type='GameLoopData *' data-ref="33newData">newData</dfn>)</td></tr>
+<tr><th id="346">346</th><td>{</td></tr>
+<tr><th id="347">347</th><td>	<a class="ref" href="#LoopRunnerPop" title='LoopRunnerPop' data-ref="LoopRunnerPop">LoopRunnerPop</a>(<a class="local col2 ref" href="#32l" title='l' data-ref="32l">l</a>);</td></tr>
+<tr><th id="348">348</th><td>	<a class="ref" href="#LoopRunnerPush" title='LoopRunnerPush' data-ref="LoopRunnerPush">LoopRunnerPush</a>(<a class="local col2 ref" href="#32l" title='l' data-ref="32l">l</a>, <a class="local col3 ref" href="#33newData" title='newData' data-ref="33newData">newData</a>);</td></tr>
+<tr><th id="349">349</th><td>}</td></tr>
+<tr><th id="350">350</th><td><em>void</em> <dfn class="decl def" id="LoopRunnerPush" title='LoopRunnerPush' data-ref="LoopRunnerPush">LoopRunnerPush</dfn>(<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="local col4 decl" id="34l" title='l' data-type='LoopRunner *' data-ref="34l">l</dfn>, <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col5 decl" id="35newData" title='newData' data-type='GameLoopData *' data-ref="35newData">newData</dfn>)</td></tr>
+<tr><th id="351">351</th><td>{</td></tr>
+<tr><th id="352">352</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayPushBack" title='CArrayPushBack' data-ref="CArrayPushBack">CArrayPushBack</a>(&amp;<a class="local col4 ref" href="#34l" title='l' data-ref="34l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>, &amp;<a class="local col5 ref" href="#35newData" title='newData' data-ref="35newData">newData</a>);</td></tr>
+<tr><th id="353">353</th><td>	<a class="local col5 ref" href="#35newData" title='newData' data-ref="35newData">newData</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::IsUsed" title='sGameLoopData::IsUsed' data-ref="sGameLoopData::IsUsed">IsUsed</a> = <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="354">354</th><td>}</td></tr>
+<tr><th id="355">355</th><td><em>void</em> <dfn class="decl def" id="LoopRunnerPop" title='LoopRunnerPop' data-ref="LoopRunnerPop">LoopRunnerPop</dfn>(<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="local col6 decl" id="36l" title='l' data-type='LoopRunner *' data-ref="36l">l</dfn>)</td></tr>
+<tr><th id="356">356</th><td>{</td></tr>
+<tr><th id="357">357</th><td>	<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col7 decl" id="37data" title='data' data-type='GameLoopData *' data-ref="37data">data</dfn> = <a class="tu ref" href="#GetCurrentLoop" title='GetCurrentLoop' data-use='c' data-ref="GetCurrentLoop">GetCurrentLoop</a>(<a class="local col6 ref" href="#36l" title='l' data-ref="36l">l</a>);</td></tr>
+<tr><th id="358">358</th><td>	<a class="local col7 ref" href="#37data" title='data' data-ref="37data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::IsUsed" title='sGameLoopData::IsUsed' data-ref="sGameLoopData::IsUsed">IsUsed</a> = <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="359">359</th><td>	<a class="ref" href="cdogs/c_array.h.html#CArrayDelete" title='CArrayDelete' data-ref="CArrayDelete">CArrayDelete</a>(&amp;<a class="local col6 ref" href="#36l" title='l' data-ref="36l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>, <a class="local col6 ref" href="#36l" title='l' data-ref="36l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a> - <var>1</var>);</td></tr>
+<tr><th id="360">360</th><td>}</td></tr>
+<tr><th id="361">361</th><td></td></tr>
+<tr><th id="362">362</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="GameLoopTerminate" title='GameLoopTerminate' data-type='void GameLoopTerminate(GameLoopData * data)' data-ref="GameLoopTerminate">GameLoopTerminate</dfn>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col8 decl" id="38data" title='data' data-type='GameLoopData *' data-ref="38data">data</dfn>)</td></tr>
+<tr><th id="363">363</th><td>{</td></tr>
+<tr><th id="364">364</th><td>	<b>if</b> (<a class="local col8 ref" href="#38data" title='data' data-ref="38data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnTerminate" title='sGameLoopData::OnTerminate' data-ref="sGameLoopData::OnTerminate">OnTerminate</a>)</td></tr>
+<tr><th id="365">365</th><td>	{</td></tr>
+<tr><th id="366">366</th><td>		<a class="local col8 ref" href="#38data" title='data' data-ref="38data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnTerminate" title='sGameLoopData::OnTerminate' data-ref="sGameLoopData::OnTerminate">OnTerminate</a>(<a class="local col8 ref" href="#38data" title='data' data-ref="38data">data</a>);</td></tr>
+<tr><th id="367">367</th><td>	}</td></tr>
+<tr><th id="368">368</th><td>	<a class="macro" href="cdogs/utils.h.html#133" title="{ if (debug &amp;&amp; (2 &lt;= debug_level)) { fprintf(stderr, &quot;[%s:%d] %s(): &quot;, &quot;/home/jon/workspace/cdogs-sdl/src/game_loop.c&quot;, 368, __FUNCTION__); fprintf(stderr, &quot;CFREE(&quot; &quot;data&quot; &quot;) at 0x%p\n&quot;, data); }; free(data);}" data-ref="_M/CFREE">CFREE</a>(<a class="local col8 ref" href="#38data" title='data' data-ref="38data">data</a>);</td></tr>
+<tr><th id="369">369</th><td>}</td></tr>
+<tr><th id="370">370</th><td></td></tr>
+<tr><th id="371">371</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="GameLoopOnEnter" title='GameLoopOnEnter' data-type='void GameLoopOnEnter(GameLoopData * data)' data-ref="GameLoopOnEnter">GameLoopOnEnter</dfn>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col9 decl" id="39data" title='data' data-type='GameLoopData *' data-ref="39data">data</dfn>)</td></tr>
+<tr><th id="372">372</th><td>{</td></tr>
+<tr><th id="373">373</th><td>	<b>if</b> (<a class="local col9 ref" href="#39data" title='data' data-ref="39data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnEnter" title='sGameLoopData::OnEnter' data-ref="sGameLoopData::OnEnter">OnEnter</a>)</td></tr>
+<tr><th id="374">374</th><td>	{</td></tr>
+<tr><th id="375">375</th><td>		<a class="local col9 ref" href="#39data" title='data' data-ref="39data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnEnter" title='sGameLoopData::OnEnter' data-ref="sGameLoopData::OnEnter">OnEnter</a>(<a class="local col9 ref" href="#39data" title='data' data-ref="39data">data</a>);</td></tr>
+<tr><th id="376">376</th><td>	}</td></tr>
+<tr><th id="377">377</th><td>	<a class="ref" href="cdogs/events.h.html#EventReset" title='EventReset' data-ref="EventReset">EventReset</a>(</td></tr>
+<tr><th id="378">378</th><td>		&amp;<a class="ref" href="cdogs/events.h.html#gEventHandlers" title='gEventHandlers' data-ref="gEventHandlers">gEventHandlers</a>,</td></tr>
+<tr><th id="379">379</th><td>		<a class="ref" href="cdogs/events.h.html#gEventHandlers" title='gEventHandlers' data-ref="gEventHandlers">gEventHandlers</a>.<a class="ref" href="cdogs/events.h.html#(anonymous)::mouse" title='(anonymous struct)::mouse' data-ref="(anonymous)::mouse">mouse</a>.<a class="ref" href="cdogs/mouse.h.html#(anonymous)::cursor" title='(anonymous struct)::cursor' data-ref="(anonymous)::cursor">cursor</a>, <a class="ref" href="cdogs/events.h.html#gEventHandlers" title='gEventHandlers' data-ref="gEventHandlers">gEventHandlers</a>.<a class="ref" href="cdogs/events.h.html#(anonymous)::mouse" title='(anonymous struct)::mouse' data-ref="(anonymous)::mouse">mouse</a>.<a class="ref" href="cdogs/mouse.h.html#(anonymous)::trail" title='(anonymous struct)::trail' data-ref="(anonymous)::trail">trail</a>);</td></tr>
+<tr><th id="380">380</th><td>}</td></tr>
+<tr><th id="381">381</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="GameLoopOnExit" title='GameLoopOnExit' data-type='void GameLoopOnExit(GameLoopData * data)' data-ref="GameLoopOnExit">GameLoopOnExit</dfn>(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="local col0 decl" id="40data" title='data' data-type='GameLoopData *' data-ref="40data">data</dfn>)</td></tr>
+<tr><th id="382">382</th><td>{</td></tr>
+<tr><th id="383">383</th><td>	<b>if</b> (<a class="local col0 ref" href="#40data" title='data' data-ref="40data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnExit" title='sGameLoopData::OnExit' data-ref="sGameLoopData::OnExit">OnExit</a>)</td></tr>
+<tr><th id="384">384</th><td>	{</td></tr>
+<tr><th id="385">385</th><td>		<a class="local col0 ref" href="#40data" title='data' data-ref="40data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::OnExit" title='sGameLoopData::OnExit' data-ref="sGameLoopData::OnExit">OnExit</a>(<a class="local col0 ref" href="#40data" title='data' data-ref="40data">data</a>);</td></tr>
+<tr><th id="386">386</th><td>	}</td></tr>
+<tr><th id="387">387</th><td>	<b>if</b> (!<a class="local col0 ref" href="#40data" title='data' data-ref="40data">data</a>-&gt;<a class="ref" href="game_loop.h.html#sGameLoopData::IsUsed" title='sGameLoopData::IsUsed' data-ref="sGameLoopData::IsUsed">IsUsed</a>)</td></tr>
+<tr><th id="388">388</th><td>	{</td></tr>
+<tr><th id="389">389</th><td>		<a class="tu ref" href="#GameLoopTerminate" title='GameLoopTerminate' data-use='c' data-ref="GameLoopTerminate">GameLoopTerminate</a>(<a class="local col0 ref" href="#40data" title='data' data-ref="40data">data</a>);</td></tr>
+<tr><th id="390">390</th><td>	}</td></tr>
+<tr><th id="391">391</th><td>}</td></tr>
+<tr><th id="392">392</th><td></td></tr>
+<tr><th id="393">393</th><td><em>static</em> <a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> *<dfn class="tu decl def" id="GetCurrentLoop" title='GetCurrentLoop' data-type='GameLoopData * GetCurrentLoop(LoopRunner * l)' data-ref="GetCurrentLoop">GetCurrentLoop</dfn>(<a class="typedef" href="game_loop.h.html#LoopRunner" title='LoopRunner' data-type='struct LoopRunner' data-ref="LoopRunner">LoopRunner</a> *<dfn class="local col1 decl" id="41l" title='l' data-type='LoopRunner *' data-ref="41l">l</dfn>)</td></tr>
+<tr><th id="394">394</th><td>{</td></tr>
+<tr><th id="395">395</th><td>	<b>if</b> (<a class="local col1 ref" href="#41l" title='l' data-ref="41l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a> == <var>0</var>)</td></tr>
+<tr><th id="396">396</th><td>	{</td></tr>
+<tr><th id="397">397</th><td>		<b>return</b> <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="398">398</th><td>	}</td></tr>
+<tr><th id="399">399</th><td>	<b>return</b> *(<a class="typedef" href="game_loop.h.html#GameLoopData" title='GameLoopData' data-type='struct sGameLoopData' data-ref="GameLoopData">GameLoopData</a> **)<a class="ref" href="cdogs/c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="local col1 ref" href="#41l" title='l' data-ref="41l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>, <a class="local col1 ref" href="#41l" title='l' data-ref="41l">l</a>-&gt;<a class="ref" href="game_loop.h.html#(anonymous)::Loops" title='(anonymous struct)::Loops' data-ref="(anonymous)::Loops">Loops</a>.<a class="ref" href="cdogs/c_array.h.html#(anonymous)::size" title='(anonymous struct)::size' data-ref="(anonymous)::size">size</a> - <var>1</var>);</td></tr>
+<tr><th id="400">400</th><td>}</td></tr>
+<tr><th id="401">401</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

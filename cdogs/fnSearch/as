@@ -1,0 +1,6 @@
+ASNeighborListAdd|ASNeighborListAdd
+ASPathCopy|ASPathCopy
+ASPathCreate|ASPathCreate
+ASPathDestroy|ASPathDestroy
+ASPathGetCount|ASPathGetCount
+ASPathGetNode|ASPathGetNode

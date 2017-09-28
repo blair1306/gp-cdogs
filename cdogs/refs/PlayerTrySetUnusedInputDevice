@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/player.h' l='108' type='_Bool PlayerTrySetUnusedInputDevice(PlayerData * p, const input_device_e d, const int idx)'/>
+<def f='codebrowser/src/cdogs/player.c' l='453' ll='466' macro='1' type='_Bool PlayerTrySetUnusedInputDevice(PlayerData * p, const input_device_e d, const int idx)'/>
+<use f='codebrowser/src/prep.c' l='274' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/prep.c' l='281' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/prep.c' l='290' u='c' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/tests/player_test.c' l='109' u='c' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='124' u='c' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='140' u='c' c='_cbehave_feature_assign_unused'/>

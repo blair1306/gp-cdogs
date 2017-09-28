@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='62' type='1'/>
+<use f='codebrowser/src/cdogs/actors.c' l='681' u='r' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/actors.c' l='778' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/config.c' l='88' c='SwitchMoveStyleStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='97' u='r' c='StrSwitchMoveStyle'/>

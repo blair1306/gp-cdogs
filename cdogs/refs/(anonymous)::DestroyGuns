@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='96' type='CArray'/>
+<offset>896</offset>
+<doc f='codebrowser/src/cdogs/map_object.h' l='94'>// Guns that are fired when this map object is destroyed
+	// i.e. explosion on destruction</doc>
+<doc f='codebrowser/src/cdogs/map_object.h' l='96'>// of const GunDescription *</doc>
+<use f='codebrowser/src/cdogs/map_object.c' l='353' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='513' u='a' c='MapObjectsClear'/>
+<use f='codebrowser/src/cdogs/objs.c' l='170' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='170' u='a' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='485' u='m' c='ObjIsDangerous'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='390' u='m' c='MakePlacementFlagTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='393' u='m' c='MakePlacementFlagTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='399' u='a' c='MakePlacementFlagTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='290' u='m' c='MakeMapObjectTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='293' u='m' c='MakeMapObjectTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='299' u='a' c='MakeMapObjectTooltip'/>

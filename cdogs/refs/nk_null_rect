@@ -1,0 +1,13 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3901' macro='1' type='const struct nk_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4008' u='r' c='nk_get_null_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6830' u='r' c='nk_command_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7338' u='r' c='nk_draw_list_setup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7413' u='r' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7514' u='r' c='nk_draw_list_push_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8099' u='r' c='nk_draw_list_path_line_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16916' u='r' c='nk_start_buffer'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17401' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21587' u='r' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21683' u='r' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21739' u='r' c='nk_popup_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21773' u='m' c='nk_tooltip_begin'/>

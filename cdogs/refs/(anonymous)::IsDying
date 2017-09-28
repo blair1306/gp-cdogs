@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='71' type='_Bool'/>
+<offset>1096</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='142' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='154' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='252' u='r' c='DrawActorPics'/>

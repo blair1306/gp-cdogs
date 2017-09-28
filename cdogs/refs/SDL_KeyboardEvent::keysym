@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_events.h' l='196' type='SDL_Keysym'/>
+<offset>128</offset>
+<doc f='include/SDL2/SDL_events.h' l='196'>/**&lt; The key that was pressed or released */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='88' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='91' u='r' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='252' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='315' u='r' c='HandleEvents'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='318' u='r' c='HandleEvents'/>

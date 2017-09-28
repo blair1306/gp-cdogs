@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='106'/>
+<use f='codebrowser/src/cdogs/actors.c' l='451' u='c'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='106' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='308' u='c'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='56' u='c'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='265' u='c'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='290' u='c'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='542' u='c'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='639' u='c'/>
+<use f='codebrowser/src/cdogs/particle.c' l='476' u='c'/>
+<use f='codebrowser/src/cdogs/particle.c' l='487' u='c'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='171' u='c'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='243' u='c'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='61' type='void CharacterClassesLoadJSON(CArray * classes, json_t * root)'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='139' u='c' c='CharacterClassesInitialize'/>
+<def f='codebrowser/src/cdogs/character_class.c' l='149' ll='167' type='void CharacterClassesLoadJSON(CArray * classes, json_t * root)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='103' u='c' c='MapNewLoadArchive'/>

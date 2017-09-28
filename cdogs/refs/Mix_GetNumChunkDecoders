@@ -1,0 +1,20 @@
+<dec f='include/SDL2/SDL_mixer.h' l='189' type='int Mix_GetNumChunkDecoders()'/>
+<doc f='include/SDL2/SDL_mixer.h' l='170'>/* Get a list of chunk/music decoders that this build of SDL_mixer provides.
+   This list can change between builds AND runs of the program, if external
+   libraries that add functionality become available.
+   You must successfully call Mix_OpenAudio() before calling these functions.
+   This API is only available in SDL_mixer 1.2.9 and later.
+
+   // usage...
+   int i;
+   const int total = Mix_GetNumChunkDecoders();
+   for (i = 0; i &lt; total; i++)
+       printf(&quot;Supported chunk decoder: [%s]\n&quot;, Mix_GetChunkDecoder(i));
+
+   Appearing in this list doesn&apos;t promise your specific audio file will
+   decode...but it&apos;s handy to know if you have, say, a functioning Timidity
+   install.
+
+   These return values are static, read-only data; do not modify or free it.
+   The pointers remain valid until you call Mix_CloseAudio().
+*/</doc>

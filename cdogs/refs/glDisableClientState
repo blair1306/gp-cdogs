@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_opengl.h' l='853' type='void glDisableClientState(GLenum cap)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='162' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='163' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='164' u='c' c='nk_sdl_render'/>

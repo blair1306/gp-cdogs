@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/ui_object.c' l='526' type='_Bool UITryGetObjectImpl(UIObject * o, const Vec2i pos, UIObject ** out)'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='541' u='c' c='UITryGetObject'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='543' ll='565' macro='1' type='_Bool UITryGetObjectImpl(UIObject * o, const Vec2i pos, UIObject ** out)'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='554' u='c' c='UITryGetObjectImpl'/>

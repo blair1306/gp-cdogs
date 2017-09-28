@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2858' type='struct nk_buffer *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7334' u='w' c='nk_draw_list_setup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7399' u='r' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7400' u='r' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7423' u='r' c='nk_draw_list_alloc_path'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7428' u='r' c='nk_draw_list_alloc_path'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7441' u='r' c='nk_draw_list_path_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7457' u='r' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7461' u='r' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7462' u='r' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7487' u='r' c='nk_draw_list_command_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7488' u='r' c='nk_draw_list_command_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8086' u='r' c='nk_draw_list_path_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8201' u='r' c='nk_draw_list_path_fill'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8213' u='r' c='nk_draw_list_path_stroke'/>
+<offset>1408</offset>

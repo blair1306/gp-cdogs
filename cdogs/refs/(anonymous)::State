@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='97' type='AIState'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='628' u='r' c='ActorSetAIState'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='86' u='r' c='AIContextSetState'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='87' u='w' c='AIContextSetState'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='453' u='r' c='TryCompleteNearbyObjective'/>

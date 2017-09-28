@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='145' type='CArray'/>
+<offset>13632</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='145'>// of GunDescription *</doc>
+<use f='codebrowser/src/cdogs/files.c' l='405' u='a' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='411' u='a' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='370' u='a' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='307' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='120' u='a' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='158' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='158' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='196' u='a' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/mission.c' l='277' u='a' c='SetupMission'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='288' u='a' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='538' u='m' c='GetWeaponCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='60' u='a' c='MissionSelectWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='67' u='m' c='MissionSelectWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='71' u='a' c='MissionSelectWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='85' u='a' c='AddAllWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='91' u='a' c='AddAllWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='122' u='m' c='MissionChangeWeapon'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='122' u='a' c='MissionChangeWeapon'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='132' u='a' c='MissionChangeWeapon'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='136' u='a' c='MissionChangeWeapon'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='142' u='m' c='HasWeapon'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='142' u='a' c='HasWeapon'/>

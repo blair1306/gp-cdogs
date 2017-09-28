@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/hud/hud_defs.h' l='36'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='335' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='360' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='422' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='712' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='271' u='c'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='893' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7836' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7901' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7922' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8034' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8071' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8281' u='r' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8282' u='r' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8283' u='r' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8284' u='r' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11964' u='w' c='nk_font_atlas_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11968' u='m' c='nk_font_atlas_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11969' u='m' c='nk_font_atlas_end'/>
+<offset>64</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='893'>/* coordinates to a white pixel in the texture  */</doc>

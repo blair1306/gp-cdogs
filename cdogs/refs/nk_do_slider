@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='14289' ll='14377' macro='1' type='float nk_do_slider(nk_flags * state, struct nk_command_buffer * out, struct nk_rect bounds, float min, float val, float max, float step, const struct nk_style_slider * style, struct nk_input * in, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20476' u='c' c='nk_slider_float'/>

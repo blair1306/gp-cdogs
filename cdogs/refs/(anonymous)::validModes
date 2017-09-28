@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='96' type='CArray'/>
+<offset>704</offset>
+<doc f='codebrowser/src/cdogs/grafx.h' l='96'>// of Vec2i, w x h</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='85' u='m' c='Gfx_ModePrev'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='87' u='a' c='Gfx_ModePrev'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='94' u='m' c='Gfx_ModeNext'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='98' u='a' c='Gfx_ModeNext'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='103' u='m' c='FindValidMode'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='103' u='a' c='FindValidMode'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='122' u='m' c='AddGraphicsMode'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='125' u='a' c='AddGraphicsMode'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='133' u='a' c='AddGraphicsMode'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='139' u='a' c='GraphicsInit'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='380' u='a' c='GraphicsTerminate'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/log.h' l='60' type='void LogModuleSetLevel(const LogModule m, const LogLevel l)'/>
+<def f='codebrowser/src/cdogs/log.c' l='76' ll='86' type='void LogModuleSetLevel(const LogModule m, const LogLevel l)'/>
+<use f='codebrowser/src/command_line.c' l='183' u='c' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='192' u='c' c='ParseArgs'/>

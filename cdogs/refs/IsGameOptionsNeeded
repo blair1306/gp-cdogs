@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='42' type='_Bool IsGameOptionsNeeded(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='54' ll='73' macro='1' type='_Bool IsGameOptionsNeeded(const GameMode mode)'/>
+<use f='codebrowser/src/prep.c' l='655' u='c' c='GameOptionsUpdate'/>

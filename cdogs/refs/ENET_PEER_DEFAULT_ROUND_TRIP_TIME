@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='219' type='500'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='407' u='r' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='408' u='r' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='411' u='r' c='enet_peer_reset'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9699' ll='9720' macro='1' type='void * nk_tt__hheap_alloc(struct nk_tt__hheap * hh, nk_size size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9745' u='c' c='nk_tt__new_active'/>

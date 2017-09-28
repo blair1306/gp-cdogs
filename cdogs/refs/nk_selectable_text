@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1512' type='int nk_selectable_text(struct nk_context * , const char * , int , nk_flags align, int * value)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20209' ll='20237' macro='1' type='int nk_selectable_text(struct nk_context * ctx, const char * str, int len, nk_flags align, int * value)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20271' u='c' c='nk_select_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20274' u='c' c='nk_selectable_label'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20281' u='c' c='nk_select_label'/>

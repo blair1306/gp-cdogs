@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='713' type='const pb_field_t [3]'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='a'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='a'/>
+<def f='codebrowser/src/cdogs/proto/msg.pb.c' l='353' ll='357' type='const pb_field_t [3]'/>

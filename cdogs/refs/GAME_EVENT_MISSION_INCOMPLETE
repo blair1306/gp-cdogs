@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='105' type='50'/>
+<doc f='codebrowser/src/cdogs/game_events.h' l='104'>// Left pickup area</doc>
+<use f='codebrowser/src/cdogs/game_events.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='112' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='667' c='HandleGameEvent'/>
+<use f='codebrowser/src/game.c' l='686' u='r' c='CheckMissionCompletion'/>

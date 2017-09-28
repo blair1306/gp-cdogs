@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3393' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21094' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21095' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21097' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21098' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21103' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21103' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21103' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21103' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21118' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21118' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21136' u='m' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21137' u='m' c='nk_chart_push_line'/>
+<offset>224</offset>

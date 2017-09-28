@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/pic.h' l='35' type='Vec2i'/>
+<offset>64</offset>
+<dec f='codebrowser/src/cdogs/emitter.h' l='35' type='Vec2i'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/blit.c' l='87' u='m' c='BlitPicHighlight'/>
+<use f='codebrowser/src/cdogs/blit.c' l='99' u='m' c='BlitPicHighlight'/>
+<use f='codebrowser/src/cdogs/blit.c' l='133' u='r' c='BlitBackground'/>
+<use f='codebrowser/src/cdogs/blit.c' l='182' u='r' c='Blit'/>
+<use f='codebrowser/src/cdogs/blit.c' l='245' u='r' c='BlitMasked'/>
+<use f='codebrowser/src/cdogs/blit.c' l='293' u='r' c='BlitCharMultichannel'/>
+<use f='codebrowser/src/cdogs/blit.c' l='355' u='r' c='BlitBlend'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='40' u='w' c='EmitterInit'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='51' u='r' c='EmitterStart'/>
+<use f='codebrowser/src/cdogs/font.c' l='104' u='w' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/pic.c' l='60' u='w' c='PicLoad'/>
+<use f='codebrowser/src/cdogs/pic.c' l='158' u='w' c='PicTrim'/>
+<use f='codebrowser/src/game.c' l='268' u='m' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game.c' l='269' u='m' c='RunGameOnEnter'/>
+<use f='codebrowser/src/tests/pic_test.c' l='65' u='w' c='_cbehave_feature_PicLoad'/>

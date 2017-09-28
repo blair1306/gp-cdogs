@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='71' type='9'/>
+<doc f='codebrowser/src/menu.h' l='71'>// redefine key</doc>
+<use f='codebrowser/src/mainmenu.c' l='637' u='r' c='MenuCreateOptionChangeKey'/>
+<use f='codebrowser/src/menu.c' l='818' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='827' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1331' c='MenuActivate'/>

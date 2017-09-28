@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='43' type='nk_byte [4]'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='116' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='116' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='116' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='116' u='a' c='nk_sdl_render'/>
+<offset>128</offset>

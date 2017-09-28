@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='56' type='const CharacterClass * IntCharacterClass(const int face)'/>
+<doc f='codebrowser/src/cdogs/character_class.h' l='55'>// Legacy character class from &quot;face&quot; index</doc>
+<use f='codebrowser/src/cdogs/character.c' l='83' u='c' c='CharacterLoadJSON'/>
+<def f='codebrowser/src/cdogs/character_class.c' l='78' ll='81' type='const CharacterClass * IntCharacterClass(const int face)'/>
+<use f='codebrowser/src/cdogs/files.c' l='322' u='c' c='ConvertCharacter'/>

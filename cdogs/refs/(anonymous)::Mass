@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='75' type='double'/>
+<offset>896</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='542' u='r' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='675' u='w' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='679' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='372' u='r' c='HandleGameEvent'/>

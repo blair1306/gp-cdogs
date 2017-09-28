@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='86' type='CArray'/>
+<doc f='codebrowser/src/cdogs/particle.h' l='86'>// of Particle</doc>
+<use f='codebrowser/src/cdogs/gamedata.c' l='140' u='a' c='MissionOptionsTerminate'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='428' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='525' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='273' u='a' c='SetupMission'/>
+<def f='codebrowser/src/cdogs/particle.c' l='39' type='CArray'/>
+<use f='codebrowser/src/cdogs/particle.c' l='466' u='a' c='DrawParticle'/>
+<use f='codebrowser/src/cdogs/tile.c' l='143' u='a' c='ThingIdGetTileItem'/>
+<use f='codebrowser/src/game.c' l='599' u='a' c='RunGameUpdate'/>

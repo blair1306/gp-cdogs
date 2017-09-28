@@ -1,0 +1,36 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2219' ll='2226'/>
+<size>48</size>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2191'>/*  A basic (double)-buffer with linear allocation and resetting as only
+    freeing policy. The buffer&apos;s main purpose is to control all memory management
+    inside the GUI toolkit and still leave memory control as much as possible in
+    the hand of the user while also making sure the library is easy to use if
+    not as much control is needed.
+    In general all memory inside this library can be provided from the user in
+    three different ways.
+
+    The first way and the one providing most control is by just passing a fixed
+    size memory block. In this case all control lies in the hand of the user
+    since he can exactly control where the memory comes from and how much memory
+    the library should consume. Of course using the fixed size API removes the
+    ability to automatically resize a buffer if not enough memory is provided so
+    you have to take over the resizing. While being a fixed sized buffer sounds
+    quite limiting, it is very effective in this library since the actual memory
+    consumption is quite stable and has a fixed upper bound for a lot of cases.
+
+    If you don&apos;t want to think about how much memory the library should allocate
+    at all time or have a very dynamic UI with unpredictable memory consumption
+    habits but still want control over memory allocation you can use the dynamic
+    allocator based API. The allocator consists of two callbacks for allocating
+    and freeing memory and optional userdata so you can plugin your own allocator.
+
+    The final and easiest way can be used by defining
+    NK_INCLUDE_DEFAULT_ALLOCATOR which uses the standard library memory
+    allocation functions malloc and free and takes over complete control over
+    memory in this library.
+*/</doc>
+<mbr r='nk_memory_status::memory' o='0' t='void *'/>
+<mbr r='nk_memory_status::type' o='64' t='unsigned int'/>
+<mbr r='nk_memory_status::size' o='128' t='nk_size'/>
+<mbr r='nk_memory_status::allocated' o='192' t='nk_size'/>
+<mbr r='nk_memory_status::needed' o='256' t='nk_size'/>
+<mbr r='nk_memory_status::calls' o='320' t='nk_size'/>

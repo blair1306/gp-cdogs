@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='120' type='char * GrafxGetModeStr()'/>
+<def f='codebrowser/src/cdogs/grafx.c' l='436' ll='443' type='char * GrafxGetModeStr()'/>
+<use f='codebrowser/src/mainmenu.c' l='557' u='r' c='MenuCreateOptionsGraphics'/>

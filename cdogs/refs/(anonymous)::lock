@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='135' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='59' u='w' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='66' u='r' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='67' u='r' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='68' u='r' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actors.c' l='260' u='w' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/ai.c' l='478' u='w' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='297' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='393' u='r' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='865' u='r' c='GotoObjective'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='177' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='184' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='189' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='195' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='195' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='338' u='w' c='WeaponCreate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='429' u='w' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='430' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='432' u='w' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='467' u='r' c='WeaponIsLocked'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='550' u='r' c='WeaponSetState'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='550' u='r' c='WeaponSetState'/>

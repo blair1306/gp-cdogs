@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='75'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1448' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1450' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='250' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='333' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='452' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='118' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='136' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='164' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='606' u='c'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='148' u='c'/>
+<use f='codebrowser/src/cdogs/damage.c' l='94' u='c'/>
+<use f='codebrowser/src/cdogs/objs.c' l='363' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='555' u='c'/>

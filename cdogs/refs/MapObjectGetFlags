@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='127' type='int MapObjectGetFlags(const MapObject * mo)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1042' u='c' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/map.c' l='396' u='c' c='MapTryPlaceOneObject'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='202' ll='215' type='int MapObjectGetFlags(const MapObject * mo)'/>
+<use f='codebrowser/src/cdogs/objs.c' l='232' u='c' c='PlaceWreck'/>

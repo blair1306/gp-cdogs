@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='953' type='const struct nk_draw_command * nk__draw_end(const struct nk_context * , const struct nk_buffer * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8604' ll='8606' macro='1' type='const struct nk_draw_command * nk__draw_end(const struct nk_context * ctx, const struct nk_buffer * buffer)'/>

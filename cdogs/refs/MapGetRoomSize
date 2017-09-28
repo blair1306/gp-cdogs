@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='67' type='Vec2i MapGetRoomSize(const RoomParams r, const int doorMin)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='278' ll='287' type='Vec2i MapGetRoomSize(const RoomParams r, const int doorMin)'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='468' u='c' c='PlaceRooms'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='109' u='c' c='MapClassicLoad'/>

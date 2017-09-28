@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='248' type='_Bool MissionAllObjectivesComplete(const struct MissionOptions * mo)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='407' u='c' c='CanCompleteMission'/>
+<def f='codebrowser/src/cdogs/mission.c' l='410' ll='417' macro='1' type='_Bool MissionAllObjectivesComplete(const struct MissionOptions * mo)'/>
+<use f='codebrowser/src/game.c' l='636' u='c' c='NextLoop'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='285' type='enet_uint32'/>
+<offset>1056</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='285'>/**&lt; mean packet loss of reliable packets as a ratio with respect to the constant ENET_PEER_PACKET_LOSS_SCALE */</doc>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='394' u='w' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1660' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1662' u='w' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1662' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1663' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1667' u='w' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1667' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1668' u='r' c='enet_protocol_send_outgoing_commands'/>

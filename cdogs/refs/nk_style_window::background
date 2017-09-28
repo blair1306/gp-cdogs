@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3299' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16468' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17423' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17430' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17439' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17447' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18631' u='r' c='nk_panel_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19353' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19743' u='r' c='nk_text_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19771' u='r' c='nk_text_wrap_colored'/>
+<offset>4288</offset>

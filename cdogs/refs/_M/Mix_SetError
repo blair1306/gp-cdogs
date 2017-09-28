@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='622'/>
+<doc f='include/SDL2/SDL_mixer.h' l='621'>/* We&apos;ll use SDL for reporting errors */</doc>

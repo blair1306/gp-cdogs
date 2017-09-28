@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='75'/>
+<use f='codebrowser/src/cdogs/map.c' l='432' u='c'/>
+<use f='codebrowser/src/cdogs/map.c' l='472' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='172' u='c'/>

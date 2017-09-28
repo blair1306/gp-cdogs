@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='152' type='int tinydir_readfile_n(const tinydir_dir * dir, tinydir_file * file, size_t i)'/>
+<def f='codebrowser/src/tinydir/tinydir.h' l='489' ll='507' macro='1' type='int tinydir_readfile_n(const tinydir_dir * dir, tinydir_file * file, size_t i)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='172' u='c' c='LoadCampaignsFromFolder'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='454' u='c' c='Open'/>

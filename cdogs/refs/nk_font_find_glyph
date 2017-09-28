@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2180' type='const struct nk_font_glyph * nk_font_find_glyph(struct nk_font * , nk_rune unicode)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11147' u='c' c='nk_font_text_width'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11176' u='c' c='nk_font_query_font_glyph'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='11186' ll='11211' macro='1' type='const struct nk_font_glyph * nk_font_find_glyph(struct nk_font * font, nk_rune unicode)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11231' u='c' c='nk_font_init'/>

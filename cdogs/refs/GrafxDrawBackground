@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/grafx_bg.h' l='39' type='void GrafxDrawBackground(GraphicsDevice * g, DrawBuffer * buffer, HSV tint, Vec2i pos, GrafxDrawExtra * extra)'/>
+<def f='codebrowser/src/cdogs/grafx_bg.c' l='60' ll='80' type='void GrafxDrawBackground(GraphicsDevice * g, DrawBuffer * buffer, HSV tint, Vec2i pos, GrafxDrawExtra * extra)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='90' u='c' c='GrafxRedrawBackground'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='116' u='c' c='GrafxMakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='193' u='c' c='Display'/>

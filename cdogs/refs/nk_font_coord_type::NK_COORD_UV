@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2061' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11554' u='r' c='nk_font_config'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2061'>/* texture coordinates inside font glyphs are clamped between 0-1 */</doc>

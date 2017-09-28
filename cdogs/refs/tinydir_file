@@ -1,0 +1,8 @@
+<def f='codebrowser/src/tinydir/tinydir.h' l='105' ll='116'/>
+<size>4512</size>
+<mbr r='tinydir_file::path' o='0' t='char [4096]'/>
+<mbr r='tinydir_file::name' o='32768' t='char [256]'/>
+<mbr r='tinydir_file::extension' o='34816' t='char *'/>
+<mbr r='tinydir_file::is_dir' o='34880' t='int'/>
+<mbr r='tinydir_file::is_reg' o='34912' t='int'/>
+<mbr r='tinydir_file::_s' o='34944' t='struct stat'/>

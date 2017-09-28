@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='83' type='int PicManagerGetExitStyleIndex(PicManager * pm, const char * style)'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='616' ll='625' type='int PicManagerGetExitStyleIndex(PicManager * pm, const char * style)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='484' u='c' c='MissionDrawExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='896' u='c' c='MissionChangeExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='896' u='c' c='MissionChangeExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='896' u='c' c='MissionChangeExitStyle'/>

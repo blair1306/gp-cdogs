@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='62' type='void HUDDisplayMessage(HUD * hud, const char * msg, int ticks)'/>
+<doc f='codebrowser/src/cdogs/hud/hud.h' l='61'>// Set ticks to -1 to display a message indefinitely</doc>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='174' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='652' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='679' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/hud/hud.c' l='92' ll='96' type='void HUDDisplayMessage(HUD * hud, const char * msg, int ticks)'/>

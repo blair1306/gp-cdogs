@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='63' type='void CollisionSystemInit(CollisionSystem * cs)'/>
+<use f='codebrowser/src/cdogs.c' l='248' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/collision/collision.c' l='124' ll='128' type='void CollisionSystemInit(CollisionSystem * cs)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1352' u='c' c='main'/>

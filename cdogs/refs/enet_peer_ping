@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='576' type='void enet_peer_ping(ENetPeer * )'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='434' ll='446' type='void enet_peer_ping(ENetPeer * peer)'/>
+<doc f='codebrowser/src/cdogs/enet/peer.c' l='427'>/** Sends a ping request to a peer.
+    @param peer destination for the ping request
+    @remarks ping requests factor into the mean round trip time as designated by the 
+    roundTripTime field in the ENetPeer structure.  ENet automatically pings all connected
+    peers at regular intervals, however, this function may be called to ensure more
+    frequent ping requests.
+*/</doc>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1636' u='c' c='enet_protocol_send_outgoing_commands'/>

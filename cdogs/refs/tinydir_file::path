@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='107' type='char [4096]'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='443' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='444' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='452' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='454' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='524' u='r' c='tinydir_open_subdir_n'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='185' u='r' c='LoadCampaignsFromFolder'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='191' u='r' c='LoadCampaignsFromFolder'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='80' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='80' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='87' u='r' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='233' u='r' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='240' u='r' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='208' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='208' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='213' u='r' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='247' u='r' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='252' u='r' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='210' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='210' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='228' u='r' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='232' u='r' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='469' u='r' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='471' u='r' c='Open'/>

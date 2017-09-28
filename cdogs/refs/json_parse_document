@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/json/json.h' l='323' type='enum json_error json_parse_document(json_t ** root, const char * text)'/>
+<doc f='codebrowser/src/json/json.h' l='317'>/**
+Produces a document tree from a JSON markup text string that contains a complete document
+@param root a reference to a pointer to a json_t type. The function allocates memory to the passed pointer and sets up the value
+@param text a c-string containing a complete JSON text document
+@return a pointer to the new document tree or NULL if some error occurred
+**/</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='183' u='c' c='ReadArchiveJSON'/>
+<def f='codebrowser/src/json/json.c' l='2786' ll='2816' type='enum json_error json_parse_document(json_t ** root, const char * text)'/>
+<use f='codebrowser/src/tests/json_test.c' l='47' u='c' c='_cbehave_feature_json_format_string'/>

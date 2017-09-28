@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='132' ll='138'/>
+<size>16</size>
+<mbr r='_NMapObjectRemove::UID' o='0' t='uint32_t'/>
+<mbr r='_NMapObjectRemove::ActorUID' o='32' t='int32_t'/>
+<mbr r='_NMapObjectRemove::PlayerUID' o='64' t='int32_t'/>
+<mbr r='_NMapObjectRemove::Flags' o='96' t='uint32_t'/>

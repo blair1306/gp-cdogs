@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='89' type='int'/>
+<offset>416</offset>
+<doc f='codebrowser/src/cdogs/objs.h' l='88'>// Don&apos;t trigger special effects too frequently</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='151' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='151' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='151' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='554' u='r' c='OnHit'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='556' u='w' c='OnHit'/>

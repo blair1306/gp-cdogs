@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/grafx_bg.h' l='48' type='void GrafxMakeRandomBackground(GraphicsDevice * device, CampaignOptions * co, struct MissionOptions * mo, Map * map)'/>
+<use f='codebrowser/src/cdogs/config_apply.c' l='54' u='c' c='ConfigApply'/>
+<def f='codebrowser/src/cdogs/grafx_bg.c' l='41' ll='58' type='void GrafxMakeRandomBackground(GraphicsDevice * device, CampaignOptions * co, struct MissionOptions * mo, Map * map)'/>
+<use f='codebrowser/src/mainmenu.c' l='101' u='c' c='MainMenuOnEnter'/>

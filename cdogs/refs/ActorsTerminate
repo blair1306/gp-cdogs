@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='189' type='void ActorsTerminate()'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1131' ll='1138' type='void ActorsTerminate()'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='136' u='c' c='MissionOptionsTerminate'/>

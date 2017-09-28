@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='201' type='char *(*)(void)'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='488' u='w' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='514' u='w' c='MenuCreateOptionUpDownFunc'/>
+<use f='codebrowser/src/menu.c' l='785' u='r' c='MenuDisplaySubmenus'/>

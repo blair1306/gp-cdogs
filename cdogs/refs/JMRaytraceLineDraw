@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/algorithms.h' l='50' type='void JMRaytraceLineDraw(const Vec2i from, const Vec2i to, AlgoLineDrawData * data)'/>
+<def f='codebrowser/src/cdogs/algorithms.c' l='165' ll='173' type='void JMRaytraceLineDraw(const Vec2i from, const Vec2i to, AlgoLineDrawData * data)'/>

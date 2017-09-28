@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1849' type='struct nk_rect nk_rectv(const float * xywh)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4037' ll='4041' macro='1' type='struct nk_rect nk_rectv(const float * r)'/>

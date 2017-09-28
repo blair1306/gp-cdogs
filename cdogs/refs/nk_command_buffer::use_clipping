@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2692' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6816' u='w' c='nk_command_buffer_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6940' u='r' c='nk_stroke_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6965' u='r' c='nk_fill_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6990' u='r' c='nk_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7015' u='r' c='nk_stroke_circle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7038' u='r' c='nk_fill_circle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7097' u='r' c='nk_stroke_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7126' u='r' c='nk_fill_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7219' u='r' c='nk_draw_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7243' u='r' c='nk_push_custom'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7271' u='r' c='nk_draw_text'/>
+<offset>192</offset>

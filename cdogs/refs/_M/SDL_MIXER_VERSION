@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_mixer.h' l='48'/>
+<doc f='include/SDL2/SDL_mixer.h' l='45'>/* This macro can be used to fill a version structure with the compile-time
+ * version of the SDL_mixer library.
+ */</doc>

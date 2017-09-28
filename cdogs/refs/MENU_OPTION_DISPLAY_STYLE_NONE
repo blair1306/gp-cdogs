@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='81' type='0'/>
+<use f='codebrowser/src/menu.c' l='470' u='r' c='MenuCreateOptionToggle'/>
+<use f='codebrowser/src/menu.c' l='524' u='r' c='MenuCreateVoidFunc'/>
+<use f='codebrowser/src/menu.c' l='781' c='MenuDisplaySubmenus'/>

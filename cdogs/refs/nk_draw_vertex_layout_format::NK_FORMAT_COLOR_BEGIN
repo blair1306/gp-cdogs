@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2817' type='8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='2818'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7577' u='r' c='nk_draw_vertex_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7579' u='r' c='nk_draw_vertex_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7645' u='r' c='nk_draw_vertex_element'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7646' u='r' c='nk_draw_vertex_element'/>

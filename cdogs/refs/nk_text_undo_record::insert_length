@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2382' type='short'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13054' u='r' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13083' u='r' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13138' u='w' c='nk_textedit_createundo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13164' u='w' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13165' u='r' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13181' u='w' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13207' u='r' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13210' u='r' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13211' u='r' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13213' u='r' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13233' u='r' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13234' u='w' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13241' u='r' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13242' u='w' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13247' u='r' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13250' u='r' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13258' u='r' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13261' u='r' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13263' u='r' c='nk_textedit_redo'/>
+<offset>32</offset>

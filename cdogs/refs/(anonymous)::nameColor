@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/credits.h' l='69' type='color_t'/>
+<offset>352</offset>
+<use f='codebrowser/src/credits.c' l='63' u='w' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='126' u='r' c='ShowCredits'/>

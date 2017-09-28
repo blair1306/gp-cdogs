@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='73' type='void HUDNumPopupsDrawPlayer(const HUDNumPopups * popups, const int idx, const int drawFlags)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='720' u='c' c='DrawPlayerAreas'/>
+<def f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='168' ll='172' type='void HUDNumPopupsDrawPlayer(const HUDNumPopups * popups, const int idx, const int drawFlags)'/>

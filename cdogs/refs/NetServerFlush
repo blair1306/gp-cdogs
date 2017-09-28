@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='68' type='void NetServerFlush(NetServer * n)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='212' u='c' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='339' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='375' u='c' c='OnConnect'/>
+<def f='codebrowser/src/cdogs/net_server.c' l='400' ll='404' type='void NetServerFlush(NetServer * n)'/>
+<use f='codebrowser/src/game_loop.c' l='230' u='c' c='LoopRunnerRunInner'/>

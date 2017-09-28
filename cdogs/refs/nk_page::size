@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3669' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16692' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16700' u='r' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16708' u='w' c='nk_pool_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16711' u='w' c='nk_pool_alloc'/>
+<offset>0</offset>

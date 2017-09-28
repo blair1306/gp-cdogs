@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/AStar.c' l='40' type='const ASPathNodeSource *'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='393' u='w' c='NeighborListCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='411' u='r' c='NeighborListGetNodeKey'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='424' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='424' u='r' c='ASNeighborListAdd'/>
+<offset>0</offset>

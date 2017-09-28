@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='127' type='yajl_gen_status yajl_gen_double(yajl_gen hand, double number)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='231' ll='246' type='yajl_gen_status yajl_gen_double(yajl_gen g, double number)'/>

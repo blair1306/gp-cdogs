@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/map.h' l='138' type='_Bool MapIsFullPosOKforPlayer(const Map * map, const Vec2i pos, const _Bool allowAllTiles)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='69' u='c' c='PlaceActor'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='87' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='87' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='87' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='87' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='87' u='c' c='PlaceActorNear'/>
+<def f='codebrowser/src/cdogs/map.c' l='800' ll='814' macro='1' type='_Bool MapIsFullPosOKforPlayer(const Map * map, const Vec2i pos, const _Bool allowAllTiles)'/>

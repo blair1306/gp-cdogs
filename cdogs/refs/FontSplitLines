@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/font.h' l='90' type='void FontSplitLines(const char * text, char * buf, const int width)'/>
+<use f='codebrowser/src/briefing_screens.c' l='130' u='c' c='CampaignIntroDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='202' u='c' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/cdogs/font.c' l='277' u='c' c='FontStrMaskWrap'/>
+<def f='codebrowser/src/cdogs/font.c' l='330' ll='393' type='void FontSplitLines(const char * text, char * buf, const int width)'/>
+<use f='codebrowser/src/weapon_menu.c' l='201' u='c' c='WeaponMenuCreate'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='43' type='Vec2i Vec2iFromPolar(const double r, const double th)'/>
+<doc f='codebrowser/src/cdogs/vector.h' l='41'>// r radius, theta radians; result will be rounded
+// Note: 0 radians is north, continuing clockwise</doc>
+<use f='codebrowser/src/cdogs/emitter.c' l='59' u='c' c='EmitterStart'/>
+<def f='codebrowser/src/cdogs/vector.c' l='49' ll='52' type='Vec2i Vec2iFromPolar(const double r, const double th)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='534' u='c' c='GetMuzzleOffset'/>

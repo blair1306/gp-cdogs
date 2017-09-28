@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='99' type='void CPicDraw(GraphicsDevice * g, const CPic * p, const Vec2i pos, const CPicDrawContext * context)'/>
+<def f='codebrowser/src/cdogs/cpic.c' l='273' ll='291' type='void CPicDraw(GraphicsDevice * g, const CPic * p, const Vec2i pos, const CPicDrawContext * context)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='302' u='c' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/particle.c' l='477' u='c' c='DrawParticle'/>

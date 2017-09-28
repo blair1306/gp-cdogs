@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='420'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='419'>/* Optional fields don&apos;t need a has_ variable, as information would be redundant */</doc>

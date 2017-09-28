@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_video.h' l='1083' type='void SDL_GL_SwapWindow(SDL_Window * window)'/>
+<doc f='include/SDL2/SDL_video.h' l='1079'>/**
+ * \brief Swap the OpenGL buffers for a window, if double-buffering is
+ *        supported.
+ */</doc>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='578' u='c' c='Draw'/>

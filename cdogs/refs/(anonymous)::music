@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='98' type='Mix_Music *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/music.c' l='61' u='w' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='62' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='71' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='128' u='r' c='MusicStop'/>
+<use f='codebrowser/src/cdogs/music.c' l='131' u='r' c='MusicStop'/>
+<use f='codebrowser/src/cdogs/music.c' l='132' u='w' c='MusicStop'/>

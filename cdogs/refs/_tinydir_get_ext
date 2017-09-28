@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='157' type='void _tinydir_get_ext(tinydir_file * file)'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='459' u='c' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='504' u='c' c='tinydir_readfile_n'/>
+<def f='codebrowser/src/tinydir/tinydir.h' l='619' ll='631' macro='1' type='void _tinydir_get_ext(tinydir_file * file)'/>

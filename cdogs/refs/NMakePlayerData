@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='54' type='NPlayerData NMakePlayerData(const PlayerData * p)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='412' u='c' c='NetServerSendGameStartMessages'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='62' ll='81' type='NPlayerData NMakePlayerData(const PlayerData * p)'/>
+<use f='codebrowser/src/cdogs/player.c' l='234' u='c' c='PlayerDataMissionReset'/>
+<use f='codebrowser/src/prep.c' l='840' u='c' c='PlayerEquipOnExit'/>
+<def f='codebrowser/src/tests/player_test.c' l='65' ll='70' type='NPlayerData NMakePlayerData(const PlayerData * p)'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2713' type='void nk_fill_polygon(struct nk_command_buffer * , float * , int point_count, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7168' ll='7188' macro='1' type='void nk_fill_polygon(struct nk_command_buffer * b, float * points, int point_count, struct nk_color col)'/>

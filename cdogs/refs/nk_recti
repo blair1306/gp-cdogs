@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='458'/>
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1847' type='struct nk_rect nk_recti(int x, int y, int w, int h)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4020' ll='4029' macro='1' type='struct nk_rect nk_recti(int x, int y, int w, int h)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4046' u='c' c='nk_rectiv'/>
+<size>8</size>
+<mbr r='nk_recti::x' o='0' t='short'/>
+<mbr r='nk_recti::y' o='16' t='short'/>
+<mbr r='nk_recti::w' o='32' t='short'/>
+<mbr r='nk_recti::h' o='48' t='short'/>

@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/menu.h' l='152' type='int'/>
+<offset>864</offset>
+<doc f='codebrowser/src/menu.h' l='152'>// 0 means unlimited</doc>
+<use f='codebrowser/src/mainmenu.c' l='361' u='w' c='MenuCreateCampaigns'/>
+<use f='codebrowser/src/menu.c' l='339' u='w' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='652' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='659' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='670' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='671' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='707' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1188' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1188' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1188' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1188' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1189' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/player_select_menus.c' l='170' u='w' c='CreateFaceMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='353' u='w' c='CreateUseTemplateMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='404' u='w' c='CreateSaveTemplateMenu'/>
+<use f='codebrowser/src/weapon_menu.c' l='189' u='w' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='258' u='r' c='DisplayGunIcon'/>
+<use f='codebrowser/src/weapon_menu.c' l='258' u='r' c='DisplayGunIcon'/>

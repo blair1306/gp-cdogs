@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/files.c' l='320' ll='334' type='void ConvertCharacter(Character * c, TBadGuy * b)'/>
+<use f='codebrowser/src/cdogs/files.c' l='455' u='c' c='ConvertCampaignSetting'/>

@@ -1,0 +1,46 @@
+<dec f='include/stdio.h' l='237' type='int fclose(FILE * __stream)'/>
+<doc f='include/stdio.h' l='233'>/* Close STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/autosave.c' l='167' u='c' c='AutosaveLoad'/>
+<use f='codebrowser/src/autosave.c' l='198' u='c' c='AutosaveSave'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='99' u='c' c='AmmoInitialize'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='144' u='c' c='CharacterClassesInitialize'/>
+<use f='codebrowser/src/cdogs/config_io.c' l='51' u='c' c='ConfigLoad'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='106' u='c' c='ConfigLoadJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='201' u='c' c='ConfigSaveJSON'/>
+<use f='codebrowser/src/cdogs/files.c' l='140' u='c' c='IsCampaignOldFile'/>
+<use f='codebrowser/src/cdogs/files.c' l='158' u='c' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='167' u='c' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='182' u='c' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='516' u='c' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='234' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/cdogs/log.c' l='136' u='c' c='LogTerminate'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='253' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='78' u='c' c='MapNewScan'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='171' u='c' c='MapNewLoad'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='251' u='c' c='MapObjectsInit'/>
+<use f='codebrowser/src/cdogs/particle.c' l='79' u='c' c='ParticleClassesInit'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='199' u='c' c='PickupClassesInit'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='116' u='c' c='PlayerTemplatesLoad'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='176' u='c' c='SavePlayerTemplates'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='654' u='c' c='BulletAndWeaponInitialize'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='658' u='c' c='BulletAndWeaponInitialize'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='72' u='c' c='ReadFile'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5182' u='c' c='nk_file_load'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5190' u='c' c='nk_file_load'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5194' u='c' c='nk_file_load'/>
+<use f='codebrowser/src/credits.c' l='96' u='c' c='LoadCredits'/>
+<use f='codebrowser/src/hiscores.c' l='371' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='406' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='413' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='406' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='406' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='406' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='406' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='406' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='439' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/namegen.c' l='57' u='c' c='LoadFile'/>
+<use f='codebrowser/src/tests/config_test.c' l='89' u='c' c='_cbehave_feature_detect_version'/>
+<use f='codebrowser/src/tests/config_test.c' l='117' u='c' c='_cbehave_feature_save_as_latest'/>

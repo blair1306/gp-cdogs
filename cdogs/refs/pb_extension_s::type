@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='341' type='const pb_extension_type_t *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='339'>/* Type describing the extension field. Usually you&apos;ll initialize
+     * this to a pointer to the automatically generated structure. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='628' u='r' c='default_extension_decoder'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='655' u='r' c='decode_extension'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='656' u='r' c='decode_extension'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='309' u='r' c='default_extension_encoder'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='324' u='r' c='encode_extension_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='325' u='r' c='encode_extension_field'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='41' type='size_t'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='105' u='r' c='pb_read'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='116' u='w' c='pb_read'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='124' u='r' c='pb_readbyte'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='135' u='w' c='pb_readbyte'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='149' u='w' c='pb_istream_from_buffer'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='247' u='r' c='pb_decode_tag'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='316' u='r' c='pb_make_string_substream'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='319' u='w' c='pb_make_string_substream'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='320' u='w' c='pb_make_string_substream'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='365' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='377' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='582' u='r' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='650' u='r' c='decode_extension'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='652' u='r' c='decode_extension'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='761' u='r' c='pb_decode_noinit'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='787' u='r' c='pb_decode_noinit'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='792' u='r' c='pb_decode_noinit'/>

@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3430' ll='3436'/>
+<size>40</size>
+<mbr r='nk_popup_buffer::begin' o='0' t='nk_size'/>
+<mbr r='nk_popup_buffer::parent' o='64' t='nk_size'/>
+<mbr r='nk_popup_buffer::last' o='128' t='nk_size'/>
+<mbr r='nk_popup_buffer::end' o='192' t='nk_size'/>
+<mbr r='nk_popup_buffer::active' o='256' t='int'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1551' type='int nk_propertyi(struct nk_context * , const char * name, int min, int val, int max, int step, float inc_per_pixel)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20885' ll='20898' macro='1' type='int nk_propertyi(struct nk_context * ctx, const char * name, int min, int val, int max, int step, float inc_per_pixel)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='765' u='c' c='DrawCharColor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='766' u='c' c='DrawCharColor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='767' u='c' c='DrawCharColor'/>

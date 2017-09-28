@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='48' type='CampaignEntry'/>
+<offset>1152</offset>
+<use f='codebrowser/src/cdogs/campaigns.c' l='116' u='a' c='LoadAllCampaigns'/>
+<use f='codebrowser/src/mainmenu.c' l='245' u='a' c='MenuCreateStart'/>

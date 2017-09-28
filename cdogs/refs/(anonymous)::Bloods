@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='115' type='CArray'/>
+<offset>768</offset>
+<doc f='codebrowser/src/cdogs/map_object.h' l='114'>// Map objects that match &quot;blood%d&quot; - left over when actors die</doc>
+<doc f='codebrowser/src/cdogs/map_object.h' l='115'>// of char *</doc>
+<use f='codebrowser/src/cdogs/map_object.c' l='198' u='m' c='RandomBloodMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='199' u='a' c='RandomBloodMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='226' u='a' c='MapObjectsInit'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='279' u='a' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='290' u='a' c='MapObjectsLoadJSON'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='528' u='m' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='528' u='a' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='531' u='a' c='MapObjectsTerminate'/>

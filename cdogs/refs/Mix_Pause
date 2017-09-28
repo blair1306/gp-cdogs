@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='577' type='void Mix_Pause(int channel)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='576'>/* Pause/Resume a particular channel */</doc>

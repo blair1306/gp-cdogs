@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/events.h' l='77' type='int GetMenuCmd(EventHandlers * handlers)'/>
+<use f='codebrowser/src/briefing_screens.c' l='268' u='c' c='MissionBriefingInput'/>
+<def f='codebrowser/src/cdogs/events.c' l='345' ll='389' type='int GetMenuCmd(EventHandlers * handlers)'/>
+<use f='codebrowser/src/cdogs/events.c' l='531' u='c' c='EventWaitForAnyKeyOrButton'/>
+<use f='codebrowser/src/menu.c' l='161' u='c' c='MenuUpdate'/>
+<use f='codebrowser/src/menu.c' l='173' u='c' c='MenuUpdate'/>
+<use f='codebrowser/src/password.c' l='175' u='c' c='EnterCodeScreenUpdate'/>
+<use f='codebrowser/src/password.c' l='182' u='c' c='EnterCodeScreenUpdate'/>
+<use f='codebrowser/src/prep.c' l='398' u='c' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='873' u='c' c='PlayerEquipUpdate'/>

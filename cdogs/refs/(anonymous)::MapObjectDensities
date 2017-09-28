@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='142' type='CArray'/>
+<offset>13312</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='142'>// of MapObjectDensity</doc>
+<use f='codebrowser/src/cdogs/files.c' l='402' u='a' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map.c' l='718' u='m' c='MapLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map.c' l='718' u='a' c='MapLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='357' u='m' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='360' u='a' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='283' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='301' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='119' u='a' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='155' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='155' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='195' u='a' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='282' u='a' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='305' u='m' c='DeleteItem'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='310' u='m' c='DeleteItem'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='310' u='m' c='DeleteItem'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='310' u='m' c='DeleteItem'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='310' u='m' c='DeleteItem'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='311' u='a' c='DeleteItem'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='363' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='366' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='366' u='m' c='AdjustXC'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1215' u='a' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1216' u='m' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='553' u='m' c='GetObjectCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='603' u='m' c='MissionDrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='605' u='a' c='MissionDrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1599' u='m' c='MissionChangeMapItemDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1603' u='a' c='MissionChangeMapItemDensity'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1625' u='m' c='MissionSetMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1629' u='a' c='MissionSetMapItem'/>

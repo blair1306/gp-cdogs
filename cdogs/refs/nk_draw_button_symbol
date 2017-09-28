@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13652' ll='13673' macro='1' type='void nk_draw_button_symbol(struct nk_command_buffer * out, const struct nk_rect * bounds, const struct nk_rect * content, nk_flags state, const struct nk_style_button * style, enum nk_symbol_type type, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13694' u='c' c='nk_do_button_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22168' u='c' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22249' u='c' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22337' u='c' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22418' u='c' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22512' u='c' c='nk_combo_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22589' u='c' c='nk_combo_begin_image_text'/>

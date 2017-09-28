@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='87' type='Vec2i'/>
+<offset>704</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='150' u='r' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='185' u='r' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='312' u='m' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='313' u='m' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='314' u='m' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='315' u='m' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='543' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='552' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='553' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='561' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='577' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='580' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='583' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='586' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='589' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='594' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='610' u='w' c='EditorBrushStopPainting'/>

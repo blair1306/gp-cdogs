@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1465' type='int nk_button_color(struct nk_context * , struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20008' ll='20042' macro='1' type='int nk_button_color(struct nk_context * ctx, struct nk_color color)'/>

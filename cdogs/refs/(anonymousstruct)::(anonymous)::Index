@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='78' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/files.c' l='344' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/files.c' l='348' u='r' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/files.c' l='351' u='r' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='590' u='r' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/mission.c' l='236' u='r' c='SetupBadguysForMission'/>
+<use f='codebrowser/src/cdogs/objective.c' l='108' u='a' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='112' u='r' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='115' u='r' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='138' u='a' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='214' u='w' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='553' u='r' c='MissionChangeRescueObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='556' u='w' c='MissionChangeRescueObjectiveIndex'/>

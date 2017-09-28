@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='75' type='void PicManagerGenerateMaskedStylePic(PicManager * pm, const char * name, const char * style, const char * type, const color_t mask, const color_t maskAlt)'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='77' u='c' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='84' u='c' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='91' u='c' c='MapSetupTilesAndWalls'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='538' ll='545' type='void PicManagerGenerateMaskedStylePic(PicManager * pm, const char * name, const char * style, const char * type, const color_t mask, const color_t maskAlt)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='115' type='void ObjAdd(const NMapObjectAdd amo)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='107' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map.c' l='398' u='c' c='MapTryPlaceOneObject'/>
+<def f='codebrowser/src/cdogs/objs.c' l='424' ll='473' type='void ObjAdd(const NMapObjectAdd amo)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='45' type='14'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='44'>/* comment tokens are not currently returned to the parser, ever */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='463' u='r' c='yajl_lex_comment'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='627' u='r' c='yajl_lex_lex'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='95' ll='99'/>
+<size>8</size>
+<mbr r='_NClientId::Id' o='0' t='uint32_t'/>
+<mbr r='_NClientId::FirstPlayerUID' o='32' t='uint32_t'/>

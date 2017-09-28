@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='13871' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14030' u='r' c='nk_do_toggle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20321' u='r' c='nk_check_text'/>

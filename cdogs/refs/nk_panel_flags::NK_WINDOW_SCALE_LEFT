@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1097' type='512'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17586' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17597' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17616' u='r' c='nk_panel_end'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1097'>/* Puts window scaler in the left-ottom corner instead right-bottom*/</doc>

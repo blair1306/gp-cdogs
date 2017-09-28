@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='251' type='int MenuIsExit(MenuSystem * ms)'/>
+<def f='codebrowser/src/menu.c' l='129' ll='132' type='int MenuIsExit(MenuSystem * ms)'/>
+<use f='codebrowser/src/menu.c' l='179' u='c' c='MenuUpdate'/>
+<use f='codebrowser/src/prep.c' l='416' u='c' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='889' u='c' c='PlayerEquipUpdate'/>

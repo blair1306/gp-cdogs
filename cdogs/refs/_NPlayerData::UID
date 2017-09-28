@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='379' type='uint32_t'/>
+<offset>4800</offset>
+<use f='codebrowser/src/cdogs/net_server.c' l='415' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='415' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='79' u='w' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='49' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='60' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='61' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='67' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='67' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='70' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='84'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='84'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='84'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='84'/>
+<use f='codebrowser/src/prep.c' l='239' u='w' c='NumPlayersUpdate'/>
+<use f='codebrowser/src/tests/player_test.c' l='100' u='w' c='_cbehave_feature_assign_unused'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='93' type='yajl_alloc_funcs *'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='112' u='w' c='yajl_lex_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='120' u='r' c='yajl_lex_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='120' u='r' c='yajl_lex_free'/>
+<offset>448</offset>

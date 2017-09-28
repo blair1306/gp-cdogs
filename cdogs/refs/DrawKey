@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='56' type='void DrawKey(UIObject * o, GraphicsDevice * g, Vec2i pos, void * vData)'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='56' ll='69' type='void DrawKey(UIObject * o, GraphicsDevice * g, Vec2i pos, void * vData)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='467' u='r' c='CreateSetKeyObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='535' u='r' c='CreateAddKeyObjs'/>

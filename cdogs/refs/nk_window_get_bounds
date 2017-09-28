@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1137' type='struct nk_rect nk_window_get_bounds(const struct nk_context * ctx)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18166' ll='18173' macro='1' type='struct nk_rect nk_window_get_bounds(const struct nk_context * ctx)'/>

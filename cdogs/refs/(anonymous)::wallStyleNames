@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='41' type='CArray'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='41'>// of char *</doc>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='47' u='a' c='PicManagerInit'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='282' u='a' c='AfterAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='377' u='a' c='MaybeAddWallPicName'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='409' u='a' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='598' u='m' c='PicManagerGetWallStyleIndex'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='598' u='a' c='PicManagerGetWallStyleIndex'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='218' u='a' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='404' u='m' c='MissionDrawWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='844' u='m' c='MissionChangeWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='844' u='m' c='MissionChangeWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='846' u='a' c='MissionChangeWallStyle'/>

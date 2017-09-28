@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3709' type='struct nk_text_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20599' u='a' c='nk_edit_string'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20600' u='a' c='nk_edit_string'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20813' u='a' c='nk_property'/>
+<offset>88128</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3705'>/* text editor objects are quite big because of an internal
+     * undo/redo stack. Therefore it does not make sense to have one for
+     * each window for temporary use cases, so I only provide *one* instance
+     * for all windows. This works because the content is cleared anyway */</doc>

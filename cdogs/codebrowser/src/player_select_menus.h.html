@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>player_select_menus.h source code [codebrowser/src/player_select_menus.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/player_select_menus.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='player_select_menus.h.html'>player_select_menus.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>	C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>	A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>	Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i>	All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>	Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i>	modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i></i></td></tr>
+<tr><th id="11">11</th><td><i>	Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i>	list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i>	Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i>	this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i>	and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>	THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i>	AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i>	IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i>	ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i>	LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i>	CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i>	SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i>	INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i>	CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i>	ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i>	POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i>*/</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="cdogs/character.h.html">&lt;cdogs/character.h&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="menu.h.html">"menu.h"</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="menu_utils.h.html">"menu_utils.h"</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="namegen.h.html">"namegen.h"</a></u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td>	<a class="typedef" href="cdogs/blit.h.html#CharColorType" title='CharColorType' data-type='enum CharColorType' data-ref="CharColorType">CharColorType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="40">40</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::PlayerUID" title='(anonymous struct)::PlayerUID' data-ref="(anonymous)::PlayerUID">PlayerUID</dfn>;</td></tr>
+<tr><th id="41">41</th><td>	<em>const</em> <a class="typedef" href="cdogs/pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="decl" id="(anonymous)::palette" title='(anonymous struct)::palette' data-ref="(anonymous)::palette">palette</dfn>;</td></tr>
+<tr><th id="42">42</th><td>	<a class="typedef" href="cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::selectedColor" title='(anonymous struct)::selectedColor' data-ref="(anonymous)::selectedColor">selectedColor</dfn>;</td></tr>
+<tr><th id="43">43</th><td>} <dfn class="typedef" id="ColorMenuData" title='ColorMenuData' data-type='struct ColorMenuData' data-ref="ColorMenuData">ColorMenuData</dfn>;</td></tr>
+<tr><th id="44">44</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="45">45</th><td>{</td></tr>
+<tr><th id="46">46</th><td>	<a class="typedef" href="menu_utils.h.html#MenuDisplayPlayerData" title='MenuDisplayPlayerData' data-type='struct MenuDisplayPlayerData' data-ref="MenuDisplayPlayerData">MenuDisplayPlayerData</a> <dfn class="decl" id="(anonymous)::display" title='(anonymous struct)::display' data-ref="(anonymous)::display">display</dfn>;</td></tr>
+<tr><th id="47">47</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::nameMenuSelection" title='(anonymous struct)::nameMenuSelection' data-ref="(anonymous)::nameMenuSelection">nameMenuSelection</dfn>;</td></tr>
+<tr><th id="48">48</th><td>	<a class="typedef" href="#ColorMenuData" title='ColorMenuData' data-type='struct ColorMenuData' data-ref="ColorMenuData">ColorMenuData</a> <dfn class="decl" id="(anonymous)::skinData" title='(anonymous struct)::skinData' data-ref="(anonymous)::skinData">skinData</dfn>;</td></tr>
+<tr><th id="49">49</th><td>	<a class="typedef" href="#ColorMenuData" title='ColorMenuData' data-type='struct ColorMenuData' data-ref="ColorMenuData">ColorMenuData</a> <dfn class="decl" id="(anonymous)::hairData" title='(anonymous struct)::hairData' data-ref="(anonymous)::hairData">hairData</dfn>;</td></tr>
+<tr><th id="50">50</th><td>	<a class="typedef" href="#ColorMenuData" title='ColorMenuData' data-type='struct ColorMenuData' data-ref="ColorMenuData">ColorMenuData</a> <dfn class="decl" id="(anonymous)::armsData" title='(anonymous struct)::armsData' data-ref="(anonymous)::armsData">armsData</dfn>;</td></tr>
+<tr><th id="51">51</th><td>	<a class="typedef" href="#ColorMenuData" title='ColorMenuData' data-type='struct ColorMenuData' data-ref="ColorMenuData">ColorMenuData</a> <dfn class="decl" id="(anonymous)::bodyData" title='(anonymous struct)::bodyData' data-ref="(anonymous)::bodyData">bodyData</dfn>;</td></tr>
+<tr><th id="52">52</th><td>	<a class="typedef" href="#ColorMenuData" title='ColorMenuData' data-type='struct ColorMenuData' data-ref="ColorMenuData">ColorMenuData</a> <dfn class="decl" id="(anonymous)::legsData" title='(anonymous struct)::legsData' data-ref="(anonymous)::legsData">legsData</dfn>;</td></tr>
+<tr><th id="53">53</th><td>	<em>const</em> <a class="typedef" href="namegen.h.html#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="decl" id="(anonymous)::nameGenerator" title='(anonymous struct)::nameGenerator' data-ref="(anonymous)::nameGenerator">nameGenerator</dfn>;</td></tr>
+<tr><th id="54">54</th><td>} <dfn class="typedef" id="PlayerSelectMenuData" title='PlayerSelectMenuData' data-type='struct PlayerSelectMenuData' data-ref="PlayerSelectMenuData">PlayerSelectMenuData</dfn>;</td></tr>
+<tr><th id="55">55</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="56">56</th><td>{</td></tr>
+<tr><th id="57">57</th><td>	<a class="typedef" href="menu.h.html#MenuSystem" title='MenuSystem' data-type='struct MenuSystem' data-ref="MenuSystem">MenuSystem</a> <dfn class="decl" id="(anonymous)::ms" title='(anonymous struct)::ms' data-ref="(anonymous)::ms">ms</dfn>;</td></tr>
+<tr><th id="58">58</th><td>	<a class="typedef" href="#PlayerSelectMenuData" title='PlayerSelectMenuData' data-type='struct PlayerSelectMenuData' data-ref="PlayerSelectMenuData">PlayerSelectMenuData</a> <dfn class="decl" id="(anonymous)::data" title='(anonymous struct)::data' data-ref="(anonymous)::data">data</dfn>;</td></tr>
+<tr><th id="59">59</th><td>} <dfn class="typedef" id="PlayerSelectMenu" title='PlayerSelectMenu' data-type='struct PlayerSelectMenu' data-ref="PlayerSelectMenu">PlayerSelectMenu</dfn>;</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><em>void</em> <a class="decl" href="player_select_menus.c.html#PlayerSelectMenusCreate" title='PlayerSelectMenusCreate' data-ref="PlayerSelectMenusCreate" id="PlayerSelectMenusCreate">PlayerSelectMenusCreate</a>(</td></tr>
+<tr><th id="62">62</th><td>	<a class="typedef" href="#PlayerSelectMenu" title='PlayerSelectMenu' data-type='struct PlayerSelectMenu' data-ref="PlayerSelectMenu">PlayerSelectMenu</a> *<dfn class="local col1 decl" id="1menu" title='menu' data-type='PlayerSelectMenu *' data-ref="1menu">menu</dfn>,</td></tr>
+<tr><th id="63">63</th><td>	<em>int</em> <dfn class="local col2 decl" id="2numPlayers" title='numPlayers' data-type='int' data-ref="2numPlayers">numPlayers</dfn>, <em>int</em> <dfn class="local col3 decl" id="3player" title='player' data-type='int' data-ref="3player">player</dfn>, <em>const</em> <em>int</em> <dfn class="local col4 decl" id="4playerUID" title='playerUID' data-type='const int' data-ref="4playerUID">playerUID</dfn>,</td></tr>
+<tr><th id="64">64</th><td>	<a class="typedef" href="cdogs/events.h.html#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col5 decl" id="5handlers" title='handlers' data-type='EventHandlers *' data-ref="5handlers">handlers</dfn>, <a class="typedef" href="cdogs/grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col6 decl" id="6graphics" title='graphics' data-type='GraphicsDevice *' data-ref="6graphics">graphics</dfn>,</td></tr>
+<tr><th id="65">65</th><td>	<em>const</em> <a class="typedef" href="namegen.h.html#NameGen" title='NameGen' data-type='struct NameGen' data-ref="NameGen">NameGen</a> *<dfn class="local col7 decl" id="7ng" title='ng' data-type='const NameGen *' data-ref="7ng">ng</dfn>);</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='player_select_menus.c.html'>codebrowser/src/player_select_menus.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

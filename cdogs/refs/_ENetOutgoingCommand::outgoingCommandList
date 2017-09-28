@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='167' type='ENetListNode'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='170' u='a' c='enet_protocol_remove_sent_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='245' u='a' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1358' u='a' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1383' u='a' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1452' u='a' c='enet_protocol_check_timeouts'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1554' u='a' c='enet_protocol_send_reliable_outgoing_commands'/>

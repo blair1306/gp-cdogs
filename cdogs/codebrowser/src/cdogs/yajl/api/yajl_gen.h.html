@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_gen.h source code [codebrowser/src/cdogs/yajl/api/yajl_gen.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/api/yajl_gen.h'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>cdogs</a>/<a href='..'>yajl</a>/<a href='./'>api</a>/<a href='yajl_gen.h.html'>yajl_gen.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> *<span class="command"> \file</span> yajl_gen.h</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> * Interface to YAJL's JSON generation facilities.</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#include <a href="../../include/yajl/yajl_common.h.html">&lt;yajl/yajl_common.h&gt;</a></u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="24">ifndef</span> <span class="macro" data-ref="_M/__YAJL_GEN_H__">__YAJL_GEN_H__</span></u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/__YAJL_GEN_H__" data-ref="_M/__YAJL_GEN_H__">__YAJL_GEN_H__</dfn></u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="29">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="30">30</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="29">endif</span></u></td></tr>
+<tr><th id="32">32</th><td>    <i class="doc">/** generator status codes */</i></td></tr>
+<tr><th id="33">33</th><td>    <b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="34">34</th><td>        <i class="doc">/** no error */</i></td></tr>
+<tr><th id="35">35</th><td>        <dfn class="enum" id="yajl_gen_status_ok" title='yajl_gen_status_ok' data-ref="yajl_gen_status_ok">yajl_gen_status_ok</dfn> = <var>0</var>,</td></tr>
+<tr><th id="36">36</th><td>        <i class="doc">/** at a point where a map key is generated, a function other than</i></td></tr>
+<tr><th id="37">37</th><td><i class="doc">         *  yajl_gen_string was called */</i></td></tr>
+<tr><th id="38">38</th><td>        <dfn class="enum" id="yajl_gen_keys_must_be_strings" title='yajl_gen_keys_must_be_strings' data-ref="yajl_gen_keys_must_be_strings">yajl_gen_keys_must_be_strings</dfn>,</td></tr>
+<tr><th id="39">39</th><td>        <i class="doc">/** YAJL's maximum generation depth was exceeded.  see</i></td></tr>
+<tr><th id="40">40</th><td><i class="doc">         *  YAJL_MAX_DEPTH */</i></td></tr>
+<tr><th id="41">41</th><td>        <dfn class="enum" id="yajl_max_depth_exceeded" title='yajl_max_depth_exceeded' data-ref="yajl_max_depth_exceeded">yajl_max_depth_exceeded</dfn>,</td></tr>
+<tr><th id="42">42</th><td>        <i class="doc">/** A generator function (yajl_gen_XXX) was called while in an error</i></td></tr>
+<tr><th id="43">43</th><td><i class="doc">         *  state */</i></td></tr>
+<tr><th id="44">44</th><td>        <dfn class="enum" id="yajl_gen_in_error_state" title='yajl_gen_in_error_state' data-ref="yajl_gen_in_error_state">yajl_gen_in_error_state</dfn>,</td></tr>
+<tr><th id="45">45</th><td>        <i class="doc">/** A complete JSON document has been generated */</i></td></tr>
+<tr><th id="46">46</th><td>        <dfn class="enum" id="yajl_gen_generation_complete" title='yajl_gen_generation_complete' data-ref="yajl_gen_generation_complete">yajl_gen_generation_complete</dfn>,</td></tr>
+<tr><th id="47">47</th><td>        <i class="doc">/** yajl_gen_double was passed an invalid floating point value</i></td></tr>
+<tr><th id="48">48</th><td><i class="doc">         *  (infinity or NaN). */</i></td></tr>
+<tr><th id="49">49</th><td>        <dfn class="enum" id="yajl_gen_invalid_number" title='yajl_gen_invalid_number' data-ref="yajl_gen_invalid_number">yajl_gen_invalid_number</dfn>,</td></tr>
+<tr><th id="50">50</th><td>        <i class="doc">/** A print callback was passed in, so there is no internal</i></td></tr>
+<tr><th id="51">51</th><td><i class="doc">         * buffer to get from */</i></td></tr>
+<tr><th id="52">52</th><td>        <dfn class="enum" id="yajl_gen_no_buf" title='yajl_gen_no_buf' data-ref="yajl_gen_no_buf">yajl_gen_no_buf</dfn>,</td></tr>
+<tr><th id="53">53</th><td>        <i class="doc">/** returned from yajl_gen_string() when the yajl_gen_validate_utf8</i></td></tr>
+<tr><th id="54">54</th><td><i class="doc">         *  option is enabled and an invalid was passed by client code.</i></td></tr>
+<tr><th id="55">55</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="56">56</th><td>        <dfn class="enum" id="yajl_gen_invalid_string" title='yajl_gen_invalid_string' data-ref="yajl_gen_invalid_string">yajl_gen_invalid_string</dfn></td></tr>
+<tr><th id="57">57</th><td>    } <dfn class="typedef" id="yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</dfn>;</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td>    <i class="doc">/** an opaque handle to a generator */</i></td></tr>
+<tr><th id="60">60</th><td>    <b>typedef</b> <b>struct</b> <dfn class="type" id="yajl_gen_t" title='yajl_gen_t' data-ref="yajl_gen_t"><a class="type" href="#yajl_gen_t" title='yajl_gen_t' data-ref="yajl_gen_t">yajl_gen_t</a></dfn> * <dfn class="typedef" id="yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</dfn>;</td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td>    <i class="doc">/** a callback used for "printing" the results. */</i></td></tr>
+<tr><th id="63">63</th><td>    <b>typedef</b> <em>void</em> (*<dfn class="typedef" id="yajl_print_t" title='yajl_print_t' data-type='void (*)(void *, const char *, size_t)' data-ref="yajl_print_t">yajl_print_t</dfn>)(<em>void</em> * <dfn class="local col1 decl" id="1ctx" title='ctx' data-type='void *' data-ref="1ctx">ctx</dfn>,</td></tr>
+<tr><th id="64">64</th><td>                                 <em>const</em> <em>char</em> * <dfn class="local col2 decl" id="2str" title='str' data-type='const char *' data-ref="2str">str</dfn>,</td></tr>
+<tr><th id="65">65</th><td>                                 <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="3len" title='len' data-type='size_t' data-ref="3len">len</dfn>);</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>    <i class="doc">/** configuration parameters for the parser, these may be passed to</i></td></tr>
+<tr><th id="68">68</th><td><i class="doc">     *  yajl_gen_config() along with option specific argument(s).  In general,</i></td></tr>
+<tr><th id="69">69</th><td><i class="doc">     *  all configuration parameters default to *off*. */</i></td></tr>
+<tr><th id="70">70</th><td>    <b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="71">71</th><td>        <i class="doc">/** generate indented (beautiful) output */</i></td></tr>
+<tr><th id="72">72</th><td>        <dfn class="enum" id="yajl_gen_beautify" title='yajl_gen_beautify' data-ref="yajl_gen_beautify">yajl_gen_beautify</dfn> = <var>0x01</var>,</td></tr>
+<tr><th id="73">73</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="74">74</th><td><i class="doc">         * Set an indent string which is used when yajl_gen_beautify</i></td></tr>
+<tr><th id="75">75</th><td><i class="doc">         * is enabled.  Maybe something like \\t or some number of</i></td></tr>
+<tr><th id="76">76</th><td><i class="doc">         * spaces.  The default is four spaces ' '.</i></td></tr>
+<tr><th id="77">77</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="78">78</th><td>        <dfn class="enum" id="yajl_gen_indent_string" title='yajl_gen_indent_string' data-ref="yajl_gen_indent_string">yajl_gen_indent_string</dfn> = <var>0x02</var>,</td></tr>
+<tr><th id="79">79</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="80">80</th><td><i class="doc">         * Set a function and context argument that should be used to</i></td></tr>
+<tr><th id="81">81</th><td><i class="doc">         * output generated json.  the function should conform to the</i></td></tr>
+<tr><th id="82">82</th><td><i class="doc">         * yajl_print_t prototype while the context argument is a</i></td></tr>
+<tr><th id="83">83</th><td><i class="doc">         * void * of your choosing.</i></td></tr>
+<tr><th id="84">84</th><td><i class="doc">         *</i></td></tr>
+<tr><th id="85">85</th><td><i class="doc">         * example:</i></td></tr>
+<tr><th id="86">86</th><td><i class="doc">         *   yajl_gen_config(g, yajl_gen_print_callback, myFunc, myVoidPtr);</i></td></tr>
+<tr><th id="87">87</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="88">88</th><td>        <dfn class="enum" id="yajl_gen_print_callback" title='yajl_gen_print_callback' data-ref="yajl_gen_print_callback">yajl_gen_print_callback</dfn> = <var>0x04</var>,</td></tr>
+<tr><th id="89">89</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="90">90</th><td><i class="doc">         * Normally the generator does not validate that strings you</i></td></tr>
+<tr><th id="91">91</th><td><i class="doc">         * pass to it via yajl_gen_string() are valid UTF8.  Enabling</i></td></tr>
+<tr><th id="92">92</th><td><i class="doc">         * this option will cause it to do so.</i></td></tr>
+<tr><th id="93">93</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="94">94</th><td>        <dfn class="enum" id="yajl_gen_validate_utf8" title='yajl_gen_validate_utf8' data-ref="yajl_gen_validate_utf8">yajl_gen_validate_utf8</dfn> = <var>0x08</var>,</td></tr>
+<tr><th id="95">95</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="96">96</th><td><i class="doc">         * the forward solidus (slash or '/' in human) is not required to be</i></td></tr>
+<tr><th id="97">97</th><td><i class="doc">         * escaped in json text.  By default, YAJL will not escape it in the</i></td></tr>
+<tr><th id="98">98</th><td><i class="doc">         * iterest of saving bytes.  Setting this flag will cause YAJL to</i></td></tr>
+<tr><th id="99">99</th><td><i class="doc">         * always escape '/' in generated JSON strings.</i></td></tr>
+<tr><th id="100">100</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="101">101</th><td>        <dfn class="enum" id="yajl_gen_escape_solidus" title='yajl_gen_escape_solidus' data-ref="yajl_gen_escape_solidus">yajl_gen_escape_solidus</dfn> = <var>0x10</var></td></tr>
+<tr><th id="102">102</th><td>    } <dfn class="typedef" id="yajl_gen_option" title='yajl_gen_option' data-type='enum yajl_gen_option' data-ref="yajl_gen_option">yajl_gen_option</dfn>;</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td>    <i class="doc">/** allow the modification of generator options subsequent to handle</i></td></tr>
+<tr><th id="105">105</th><td><i class="doc">     *  allocation (via yajl_alloc)</i></td></tr>
+<tr><th id="106">106</th><td><i class="doc">     *  <span class="command">\returns</span> zero in case of errors, non-zero otherwise</i></td></tr>
+<tr><th id="107">107</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="108">108</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>int</em> <dfn class="decl" id="yajl_gen_config" title='yajl_gen_config' data-ref="yajl_gen_config">yajl_gen_config</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col4 decl" id="4g" title='g' data-type='yajl_gen' data-ref="4g">g</dfn>, <a class="typedef" href="#yajl_gen_option" title='yajl_gen_option' data-type='enum yajl_gen_option' data-ref="yajl_gen_option">yajl_gen_option</a> <dfn class="local col5 decl" id="5opt" title='opt' data-type='yajl_gen_option' data-ref="5opt">opt</dfn>, ...);</td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td>    <i class="doc">/** allocate a generator handle</i></td></tr>
+<tr><th id="111">111</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">allocFuncs</span> an optional pointer to a structure which allows</i></td></tr>
+<tr><th id="112">112</th><td><i class="doc">     *                    the client to overide the memory allocation</i></td></tr>
+<tr><th id="113">113</th><td><i class="doc">     *                    used by yajl.  May be NULL, in which case</i></td></tr>
+<tr><th id="114">114</th><td><i class="doc">     *                    malloc/free/realloc will be used.</i></td></tr>
+<tr><th id="115">115</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="116">116</th><td><i class="doc">     *  <span class="command">\returns</span> an allocated handle on success, NULL on failure (bad params)</i></td></tr>
+<tr><th id="117">117</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="118">118</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="decl" id="yajl_gen_alloc" title='yajl_gen_alloc' data-ref="yajl_gen_alloc">yajl_gen_alloc</dfn>(<em>const</em> <a class="typedef" href="yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> * <dfn class="local col6 decl" id="6allocFuncs" title='allocFuncs' data-type='const yajl_alloc_funcs *' data-ref="6allocFuncs">allocFuncs</dfn>);</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td>    <i class="doc">/** free a generator handle */</i></td></tr>
+<tr><th id="121">121</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>void</em> <dfn class="decl" id="yajl_gen_free" title='yajl_gen_free' data-ref="yajl_gen_free">yajl_gen_free</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col7 decl" id="7handle" title='handle' data-type='yajl_gen' data-ref="7handle">handle</dfn>);</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_integer" title='yajl_gen_integer' data-ref="yajl_gen_integer">yajl_gen_integer</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col8 decl" id="8hand" title='hand' data-type='yajl_gen' data-ref="8hand">hand</dfn>, <em>long</em> <em>long</em> <em>int</em> <dfn class="local col9 decl" id="9number" title='number' data-type='long long' data-ref="9number">number</dfn>);</td></tr>
+<tr><th id="124">124</th><td>    <i class="doc">/** generate a floating point number.  number may not be infinity or</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc">     *  NaN, as these have no representation in JSON.  In these cases the</i></td></tr>
+<tr><th id="126">126</th><td><i class="doc">     *  generator will return 'yajl_gen_invalid_number' */</i></td></tr>
+<tr><th id="127">127</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_double" title='yajl_gen_double' data-ref="yajl_gen_double">yajl_gen_double</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col0 decl" id="10hand" title='hand' data-type='yajl_gen' data-ref="10hand">hand</dfn>, <em>double</em> <dfn class="local col1 decl" id="11number" title='number' data-type='double' data-ref="11number">number</dfn>);</td></tr>
+<tr><th id="128">128</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_number" title='yajl_gen_number' data-ref="yajl_gen_number">yajl_gen_number</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col2 decl" id="12hand" title='hand' data-type='yajl_gen' data-ref="12hand">hand</dfn>,</td></tr>
+<tr><th id="129">129</th><td>                                             <em>const</em> <em>char</em> * <dfn class="local col3 decl" id="13num" title='num' data-type='const char *' data-ref="13num">num</dfn>,</td></tr>
+<tr><th id="130">130</th><td>                                             <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col4 decl" id="14len" title='len' data-type='size_t' data-ref="14len">len</dfn>);</td></tr>
+<tr><th id="131">131</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_string" title='yajl_gen_string' data-ref="yajl_gen_string">yajl_gen_string</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col5 decl" id="15hand" title='hand' data-type='yajl_gen' data-ref="15hand">hand</dfn>,</td></tr>
+<tr><th id="132">132</th><td>                                             <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col6 decl" id="16str" title='str' data-type='const unsigned char *' data-ref="16str">str</dfn>,</td></tr>
+<tr><th id="133">133</th><td>                                             <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col7 decl" id="17len" title='len' data-type='size_t' data-ref="17len">len</dfn>);</td></tr>
+<tr><th id="134">134</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_null" title='yajl_gen_null' data-ref="yajl_gen_null">yajl_gen_null</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col8 decl" id="18hand" title='hand' data-type='yajl_gen' data-ref="18hand">hand</dfn>);</td></tr>
+<tr><th id="135">135</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_bool" title='yajl_gen_bool' data-ref="yajl_gen_bool">yajl_gen_bool</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col9 decl" id="19hand" title='hand' data-type='yajl_gen' data-ref="19hand">hand</dfn>, <em>int</em> <dfn class="local col0 decl" id="20boolean" title='boolean' data-type='int' data-ref="20boolean">boolean</dfn>);</td></tr>
+<tr><th id="136">136</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_map_open" title='yajl_gen_map_open' data-ref="yajl_gen_map_open">yajl_gen_map_open</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col1 decl" id="21hand" title='hand' data-type='yajl_gen' data-ref="21hand">hand</dfn>);</td></tr>
+<tr><th id="137">137</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_map_close" title='yajl_gen_map_close' data-ref="yajl_gen_map_close">yajl_gen_map_close</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col2 decl" id="22hand" title='hand' data-type='yajl_gen' data-ref="22hand">hand</dfn>);</td></tr>
+<tr><th id="138">138</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_array_open" title='yajl_gen_array_open' data-ref="yajl_gen_array_open">yajl_gen_array_open</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col3 decl" id="23hand" title='hand' data-type='yajl_gen' data-ref="23hand">hand</dfn>);</td></tr>
+<tr><th id="139">139</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_array_close" title='yajl_gen_array_close' data-ref="yajl_gen_array_close">yajl_gen_array_close</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col4 decl" id="24hand" title='hand' data-type='yajl_gen' data-ref="24hand">hand</dfn>);</td></tr>
+<tr><th id="140">140</th><td></td></tr>
+<tr><th id="141">141</th><td>    <i class="doc">/** access the null terminated generator buffer.  If incrementally</i></td></tr>
+<tr><th id="142">142</th><td><i class="doc">     *  outputing JSON, one should call yajl_gen_clear to clear the</i></td></tr>
+<tr><th id="143">143</th><td><i class="doc">     *  buffer.  This allows stream generation. */</i></td></tr>
+<tr><th id="144">144</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_gen_status" title='yajl_gen_status' data-type='enum yajl_gen_status' data-ref="yajl_gen_status">yajl_gen_status</a> <dfn class="decl" id="yajl_gen_get_buf" title='yajl_gen_get_buf' data-ref="yajl_gen_get_buf">yajl_gen_get_buf</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col5 decl" id="25hand" title='hand' data-type='yajl_gen' data-ref="25hand">hand</dfn>,</td></tr>
+<tr><th id="145">145</th><td>                                              <em>const</em> <em>unsigned</em> <em>char</em> ** <dfn class="local col6 decl" id="26buf" title='buf' data-type='const unsigned char **' data-ref="26buf">buf</dfn>,</td></tr>
+<tr><th id="146">146</th><td>                                              <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> * <dfn class="local col7 decl" id="27len" title='len' data-type='size_t *' data-ref="27len">len</dfn>);</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td>    <i class="doc">/** clear yajl's output buffer, but maintain all internal generation</i></td></tr>
+<tr><th id="149">149</th><td><i class="doc">     *  state.  This function will not "reset" the generator state, and is</i></td></tr>
+<tr><th id="150">150</th><td><i class="doc">     *  intended to enable incremental JSON outputing. */</i></td></tr>
+<tr><th id="151">151</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>void</em> <dfn class="decl" id="yajl_gen_clear" title='yajl_gen_clear' data-ref="yajl_gen_clear">yajl_gen_clear</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col8 decl" id="28hand" title='hand' data-type='yajl_gen' data-ref="28hand">hand</dfn>);</td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td>    <i class="doc">/** Reset the generator state.  Allows a client to generate multiple</i></td></tr>
+<tr><th id="154">154</th><td><i class="doc">     *  json entities in a stream. The "sep" string will be inserted to</i></td></tr>
+<tr><th id="155">155</th><td><i class="doc">     *  separate the previously generated entity from the current,</i></td></tr>
+<tr><th id="156">156</th><td><i class="doc">     *  NULL means *no separation* of entites (clients beware, generating</i></td></tr>
+<tr><th id="157">157</th><td><i class="doc">     *  multiple JSON numbers without a separator, for instance, will result in ambiguous output)</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="159">159</th><td><i class="doc">     *  Note: this call will not clear yajl's output buffer.  This</i></td></tr>
+<tr><th id="160">160</th><td><i class="doc">     *  may be accomplished explicitly by calling yajl_gen_clear() */</i></td></tr>
+<tr><th id="161">161</th><td>    <a class="macro" href="yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>void</em> <dfn class="decl" id="yajl_gen_reset" title='yajl_gen_reset' data-ref="yajl_gen_reset">yajl_gen_reset</dfn>(<a class="typedef" href="#yajl_gen" title='yajl_gen' data-type='struct yajl_gen_t *' data-ref="yajl_gen">yajl_gen</a> <dfn class="local col9 decl" id="29hand" title='hand' data-type='yajl_gen' data-ref="29hand">hand</dfn>, <em>const</em> <em>char</em> * <dfn class="local col0 decl" id="30sep" title='sep' data-type='const char *' data-ref="30sep">sep</dfn>);</td></tr>
+<tr><th id="162">162</th><td></td></tr>
+<tr><th id="163">163</th><td><u>#<span data-ppcond="163">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="164">164</th><td>}</td></tr>
+<tr><th id="165">165</th><td><u>#<span data-ppcond="163">endif</span></u></td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td><u>#<span data-ppcond="24">endif</span></u></td></tr>
+<tr><th id="168">168</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../yajl_encode.c.html'>codebrowser/src/cdogs/yajl/yajl_encode.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

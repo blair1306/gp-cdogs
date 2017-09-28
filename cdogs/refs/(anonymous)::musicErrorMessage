@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='100' type='char [128]'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogs/music.c' l='64' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='79' u='w' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='173' u='r' c='MusicGetErrorMessage'/>

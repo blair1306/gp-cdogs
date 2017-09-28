@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='376' type='NPlayerStats'/>
+<offset>4608</offset>
+<use f='codebrowser/src/cdogs/net_util.c' l='76' u='w' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='86' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='81'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='81'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='81'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='81'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='82' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

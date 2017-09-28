@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='94' type='43'/>
+<use f='codebrowser/src/cdogs/actors.c' l='446' u='r' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='165' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='54' u='r' c='EmitterStart'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='103' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='103' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='103' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='103' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='261' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='286' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='408' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='470' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='524' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='536' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='635' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='498' u='r' c='GunAddBrass'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/font.h' l='78' type='Vec2i FontStrSize(const char * s)'/>
+<def f='codebrowser/src/cdogs/font.c' l='171' ll='190' type='Vec2i FontStrSize(const char * s)'/>
+<use f='codebrowser/src/cdogs/font.c' l='295' u='c' c='GetStrPos'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='608' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='794' u='c' c='DrawStateMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='814' u='c' c='DrawStateMessage'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1272' u='c' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='70' u='c' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='415' u='c' c='CreateCloseLabel'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='569' u='c' c='UITooltipDraw'/>
+<use f='codebrowser/src/prep.c' l='487' u='c' c='PlayerSelectionDraw'/>
+<use f='codebrowser/src/weapon_menu.c' l='113' u='c' c='DisplayEquippedWeapons'/>

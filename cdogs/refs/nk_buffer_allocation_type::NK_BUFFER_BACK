@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2235' type='1'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6114' c='nk_buffer_align'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6235' u='r' c='nk_buffer_mark'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6245' u='r' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7457' u='r' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17701' u='r' c='nk_create_page_element'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='58' type='_Bool JoyIsPressed(const SDL_JoystickID id, const int cmd)'/>
+<use f='codebrowser/src/cdogs/events.c' l='258' u='r' c='GetJoystickCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='354' u='c' c='GetMenuCmd'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='105' ll='108' macro='1' type='_Bool JoyIsPressed(const SDL_JoystickID id, const int cmd)'/>
+<use f='codebrowser/src/prep.c' l='289' u='c' c='AssignPlayerInputDevices'/>

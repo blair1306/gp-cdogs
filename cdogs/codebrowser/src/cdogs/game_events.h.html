@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>game_events.h source code [codebrowser/src/cdogs/game_events.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/game_events.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='game_events.h.html'>game_events.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (c) 2013-2017, Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i></i></td></tr>
+<tr><th id="11">11</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i>*/</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="particle.h.html">"particle.h"</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="proto/msg.pb.h.html">"proto/msg.pb.h"</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><i>// Game events represent anything that is created within the game but is</i></td></tr>
+<tr><th id="37">37</th><td><i>// required by outside systems, e.g. sound events</i></td></tr>
+<tr><th id="38">38</th><td><i>// This is to prevent the game from depending on these external systems</i></td></tr>
+<tr><th id="39">39</th><td></td></tr>
+<tr><th id="40">40</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="41">41</th><td>{</td></tr>
+<tr><th id="42">42</th><td>	<dfn class="enum" id="GAME_EVENT_NONE" title='GAME_EVENT_NONE' data-ref="GAME_EVENT_NONE">GAME_EVENT_NONE</dfn>,</td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td>	<i>// Net initialisation messages</i></td></tr>
+<tr><th id="45">45</th><td>	<dfn class="enum" id="GAME_EVENT_CLIENT_CONNECT" title='GAME_EVENT_CLIENT_CONNECT' data-ref="GAME_EVENT_CLIENT_CONNECT">GAME_EVENT_CLIENT_CONNECT</dfn>,</td></tr>
+<tr><th id="46">46</th><td>	<dfn class="enum" id="GAME_EVENT_CLIENT_ID" title='GAME_EVENT_CLIENT_ID' data-ref="GAME_EVENT_CLIENT_ID">GAME_EVENT_CLIENT_ID</dfn>,</td></tr>
+<tr><th id="47">47</th><td>	<dfn class="enum" id="GAME_EVENT_CAMPAIGN_DEF" title='GAME_EVENT_CAMPAIGN_DEF' data-ref="GAME_EVENT_CAMPAIGN_DEF">GAME_EVENT_CAMPAIGN_DEF</dfn>,</td></tr>
+<tr><th id="48">48</th><td>	<dfn class="enum" id="GAME_EVENT_PLAYER_DATA" title='GAME_EVENT_PLAYER_DATA' data-ref="GAME_EVENT_PLAYER_DATA">GAME_EVENT_PLAYER_DATA</dfn>,</td></tr>
+<tr><th id="49">49</th><td>	<dfn class="enum" id="GAME_EVENT_PLAYER_REMOVE" title='GAME_EVENT_PLAYER_REMOVE' data-ref="GAME_EVENT_PLAYER_REMOVE">GAME_EVENT_PLAYER_REMOVE</dfn>,</td></tr>
+<tr><th id="50">50</th><td>	<dfn class="enum" id="GAME_EVENT_TILE_SET" title='GAME_EVENT_TILE_SET' data-ref="GAME_EVENT_TILE_SET">GAME_EVENT_TILE_SET</dfn>,</td></tr>
+<tr><th id="51">51</th><td>	<dfn class="enum" id="GAME_EVENT_MAP_OBJECT_ADD" title='GAME_EVENT_MAP_OBJECT_ADD' data-ref="GAME_EVENT_MAP_OBJECT_ADD">GAME_EVENT_MAP_OBJECT_ADD</dfn>,</td></tr>
+<tr><th id="52">52</th><td>	<dfn class="enum" id="GAME_EVENT_MAP_OBJECT_DAMAGE" title='GAME_EVENT_MAP_OBJECT_DAMAGE' data-ref="GAME_EVENT_MAP_OBJECT_DAMAGE">GAME_EVENT_MAP_OBJECT_DAMAGE</dfn>,</td></tr>
+<tr><th id="53">53</th><td>	<dfn class="enum" id="GAME_EVENT_MAP_OBJECT_REMOVE" title='GAME_EVENT_MAP_OBJECT_REMOVE' data-ref="GAME_EVENT_MAP_OBJECT_REMOVE">GAME_EVENT_MAP_OBJECT_REMOVE</dfn>,</td></tr>
+<tr><th id="54">54</th><td>	<dfn class="enum" id="GAME_EVENT_CLIENT_READY" title='GAME_EVENT_CLIENT_READY' data-ref="GAME_EVENT_CLIENT_READY">GAME_EVENT_CLIENT_READY</dfn>,</td></tr>
+<tr><th id="55">55</th><td>	<dfn class="enum" id="GAME_EVENT_NET_GAME_START" title='GAME_EVENT_NET_GAME_START' data-ref="GAME_EVENT_NET_GAME_START">GAME_EVENT_NET_GAME_START</dfn>,</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td>	<dfn class="enum" id="GAME_EVENT_CONFIG" title='GAME_EVENT_CONFIG' data-ref="GAME_EVENT_CONFIG">GAME_EVENT_CONFIG</dfn>,</td></tr>
+<tr><th id="58">58</th><td>	<dfn class="enum" id="GAME_EVENT_SCORE" title='GAME_EVENT_SCORE' data-ref="GAME_EVENT_SCORE">GAME_EVENT_SCORE</dfn>,</td></tr>
+<tr><th id="59">59</th><td>	<dfn class="enum" id="GAME_EVENT_SOUND_AT" title='GAME_EVENT_SOUND_AT' data-ref="GAME_EVENT_SOUND_AT">GAME_EVENT_SOUND_AT</dfn>,</td></tr>
+<tr><th id="60">60</th><td>	<dfn class="enum" id="GAME_EVENT_SCREEN_SHAKE" title='GAME_EVENT_SCREEN_SHAKE' data-ref="GAME_EVENT_SCREEN_SHAKE">GAME_EVENT_SCREEN_SHAKE</dfn>,</td></tr>
+<tr><th id="61">61</th><td>	<dfn class="enum" id="GAME_EVENT_SET_MESSAGE" title='GAME_EVENT_SET_MESSAGE' data-ref="GAME_EVENT_SET_MESSAGE">GAME_EVENT_SET_MESSAGE</dfn>,</td></tr>
+<tr><th id="62">62</th><td></td></tr>
+<tr><th id="63">63</th><td>	<i>// Use to signal start of game; useless for single player,</i></td></tr>
+<tr><th id="64">64</th><td><i>	// but for networked games it's used to set game ticks 0</i></td></tr>
+<tr><th id="65">65</th><td>	<dfn class="enum" id="GAME_EVENT_GAME_START" title='GAME_EVENT_GAME_START' data-ref="GAME_EVENT_GAME_START">GAME_EVENT_GAME_START</dfn>,</td></tr>
+<tr><th id="66">66</th><td>	<dfn class="enum" id="GAME_EVENT_GAME_BEGIN" title='GAME_EVENT_GAME_BEGIN' data-ref="GAME_EVENT_GAME_BEGIN">GAME_EVENT_GAME_BEGIN</dfn>,</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_ADD" title='GAME_EVENT_ACTOR_ADD' data-ref="GAME_EVENT_ACTOR_ADD">GAME_EVENT_ACTOR_ADD</dfn>,</td></tr>
+<tr><th id="69">69</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_MOVE" title='GAME_EVENT_ACTOR_MOVE' data-ref="GAME_EVENT_ACTOR_MOVE">GAME_EVENT_ACTOR_MOVE</dfn>,</td></tr>
+<tr><th id="70">70</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_STATE" title='GAME_EVENT_ACTOR_STATE' data-ref="GAME_EVENT_ACTOR_STATE">GAME_EVENT_ACTOR_STATE</dfn>,</td></tr>
+<tr><th id="71">71</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_DIR" title='GAME_EVENT_ACTOR_DIR' data-ref="GAME_EVENT_ACTOR_DIR">GAME_EVENT_ACTOR_DIR</dfn>,</td></tr>
+<tr><th id="72">72</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_SLIDE" title='GAME_EVENT_ACTOR_SLIDE' data-ref="GAME_EVENT_ACTOR_SLIDE">GAME_EVENT_ACTOR_SLIDE</dfn>,</td></tr>
+<tr><th id="73">73</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_IMPULSE" title='GAME_EVENT_ACTOR_IMPULSE' data-ref="GAME_EVENT_ACTOR_IMPULSE">GAME_EVENT_ACTOR_IMPULSE</dfn>,</td></tr>
+<tr><th id="74">74</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_SWITCH_GUN" title='GAME_EVENT_ACTOR_SWITCH_GUN' data-ref="GAME_EVENT_ACTOR_SWITCH_GUN">GAME_EVENT_ACTOR_SWITCH_GUN</dfn>,</td></tr>
+<tr><th id="75">75</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_PICKUP_ALL" title='GAME_EVENT_ACTOR_PICKUP_ALL' data-ref="GAME_EVENT_ACTOR_PICKUP_ALL">GAME_EVENT_ACTOR_PICKUP_ALL</dfn>,</td></tr>
+<tr><th id="76">76</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_REPLACE_GUN" title='GAME_EVENT_ACTOR_REPLACE_GUN' data-ref="GAME_EVENT_ACTOR_REPLACE_GUN">GAME_EVENT_ACTOR_REPLACE_GUN</dfn>,</td></tr>
+<tr><th id="77">77</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_HEAL" title='GAME_EVENT_ACTOR_HEAL' data-ref="GAME_EVENT_ACTOR_HEAL">GAME_EVENT_ACTOR_HEAL</dfn>,</td></tr>
+<tr><th id="78">78</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_HIT" title='GAME_EVENT_ACTOR_HIT' data-ref="GAME_EVENT_ACTOR_HIT">GAME_EVENT_ACTOR_HIT</dfn>,</td></tr>
+<tr><th id="79">79</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_ADD_AMMO" title='GAME_EVENT_ACTOR_ADD_AMMO' data-ref="GAME_EVENT_ACTOR_ADD_AMMO">GAME_EVENT_ACTOR_ADD_AMMO</dfn>,</td></tr>
+<tr><th id="80">80</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_USE_AMMO" title='GAME_EVENT_ACTOR_USE_AMMO' data-ref="GAME_EVENT_ACTOR_USE_AMMO">GAME_EVENT_ACTOR_USE_AMMO</dfn>,</td></tr>
+<tr><th id="81">81</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_DIE" title='GAME_EVENT_ACTOR_DIE' data-ref="GAME_EVENT_ACTOR_DIE">GAME_EVENT_ACTOR_DIE</dfn>,</td></tr>
+<tr><th id="82">82</th><td>	<dfn class="enum" id="GAME_EVENT_ACTOR_MELEE" title='GAME_EVENT_ACTOR_MELEE' data-ref="GAME_EVENT_ACTOR_MELEE">GAME_EVENT_ACTOR_MELEE</dfn>,</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td>	<dfn class="enum" id="GAME_EVENT_ADD_PICKUP" title='GAME_EVENT_ADD_PICKUP' data-ref="GAME_EVENT_ADD_PICKUP">GAME_EVENT_ADD_PICKUP</dfn>,</td></tr>
+<tr><th id="85">85</th><td>	<dfn class="enum" id="GAME_EVENT_REMOVE_PICKUP" title='GAME_EVENT_REMOVE_PICKUP' data-ref="GAME_EVENT_REMOVE_PICKUP">GAME_EVENT_REMOVE_PICKUP</dfn>,</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td>	<dfn class="enum" id="GAME_EVENT_BULLET_BOUNCE" title='GAME_EVENT_BULLET_BOUNCE' data-ref="GAME_EVENT_BULLET_BOUNCE">GAME_EVENT_BULLET_BOUNCE</dfn>,</td></tr>
+<tr><th id="88">88</th><td>	<dfn class="enum" id="GAME_EVENT_REMOVE_BULLET" title='GAME_EVENT_REMOVE_BULLET' data-ref="GAME_EVENT_REMOVE_BULLET">GAME_EVENT_REMOVE_BULLET</dfn>,</td></tr>
+<tr><th id="89">89</th><td>	<dfn class="enum" id="GAME_EVENT_PARTICLE_REMOVE" title='GAME_EVENT_PARTICLE_REMOVE' data-ref="GAME_EVENT_PARTICLE_REMOVE">GAME_EVENT_PARTICLE_REMOVE</dfn>,</td></tr>
+<tr><th id="90">90</th><td>	<dfn class="enum" id="GAME_EVENT_GUN_FIRE" title='GAME_EVENT_GUN_FIRE' data-ref="GAME_EVENT_GUN_FIRE">GAME_EVENT_GUN_FIRE</dfn>,</td></tr>
+<tr><th id="91">91</th><td>	<dfn class="enum" id="GAME_EVENT_GUN_RELOAD" title='GAME_EVENT_GUN_RELOAD' data-ref="GAME_EVENT_GUN_RELOAD">GAME_EVENT_GUN_RELOAD</dfn>,</td></tr>
+<tr><th id="92">92</th><td>	<dfn class="enum" id="GAME_EVENT_GUN_STATE" title='GAME_EVENT_GUN_STATE' data-ref="GAME_EVENT_GUN_STATE">GAME_EVENT_GUN_STATE</dfn>,</td></tr>
+<tr><th id="93">93</th><td>	<dfn class="enum" id="GAME_EVENT_ADD_BULLET" title='GAME_EVENT_ADD_BULLET' data-ref="GAME_EVENT_ADD_BULLET">GAME_EVENT_ADD_BULLET</dfn>,</td></tr>
+<tr><th id="94">94</th><td>	<dfn class="enum" id="GAME_EVENT_ADD_PARTICLE" title='GAME_EVENT_ADD_PARTICLE' data-ref="GAME_EVENT_ADD_PARTICLE">GAME_EVENT_ADD_PARTICLE</dfn>,</td></tr>
+<tr><th id="95">95</th><td>	<dfn class="enum" id="GAME_EVENT_TRIGGER" title='GAME_EVENT_TRIGGER' data-ref="GAME_EVENT_TRIGGER">GAME_EVENT_TRIGGER</dfn>,</td></tr>
+<tr><th id="96">96</th><td>	<dfn class="enum" id="GAME_EVENT_EXPLORE_TILES" title='GAME_EVENT_EXPLORE_TILES' data-ref="GAME_EVENT_EXPLORE_TILES">GAME_EVENT_EXPLORE_TILES</dfn>,</td></tr>
+<tr><th id="97">97</th><td>	<dfn class="enum" id="GAME_EVENT_RESCUE_CHARACTER" title='GAME_EVENT_RESCUE_CHARACTER' data-ref="GAME_EVENT_RESCUE_CHARACTER">GAME_EVENT_RESCUE_CHARACTER</dfn>,</td></tr>
+<tr><th id="98">98</th><td>	<dfn class="enum" id="GAME_EVENT_OBJECTIVE_UPDATE" title='GAME_EVENT_OBJECTIVE_UPDATE' data-ref="GAME_EVENT_OBJECTIVE_UPDATE">GAME_EVENT_OBJECTIVE_UPDATE</dfn>,</td></tr>
+<tr><th id="99">99</th><td>	<dfn class="enum" id="GAME_EVENT_ADD_KEYS" title='GAME_EVENT_ADD_KEYS' data-ref="GAME_EVENT_ADD_KEYS">GAME_EVENT_ADD_KEYS</dfn>,</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td>	<i>// Can complete mission</i></td></tr>
+<tr><th id="102">102</th><td>	<dfn class="enum" id="GAME_EVENT_MISSION_COMPLETE" title='GAME_EVENT_MISSION_COMPLETE' data-ref="GAME_EVENT_MISSION_COMPLETE">GAME_EVENT_MISSION_COMPLETE</dfn>,</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td>	<i>// Left pickup area</i></td></tr>
+<tr><th id="105">105</th><td>	<dfn class="enum" id="GAME_EVENT_MISSION_INCOMPLETE" title='GAME_EVENT_MISSION_INCOMPLETE' data-ref="GAME_EVENT_MISSION_INCOMPLETE">GAME_EVENT_MISSION_INCOMPLETE</dfn>,</td></tr>
+<tr><th id="106">106</th><td>	<i>// In pickup area</i></td></tr>
+<tr><th id="107">107</th><td>	<dfn class="enum" id="GAME_EVENT_MISSION_PICKUP" title='GAME_EVENT_MISSION_PICKUP' data-ref="GAME_EVENT_MISSION_PICKUP">GAME_EVENT_MISSION_PICKUP</dfn>,</td></tr>
+<tr><th id="108">108</th><td>	<dfn class="enum" id="GAME_EVENT_MISSION_END" title='GAME_EVENT_MISSION_END' data-ref="GAME_EVENT_MISSION_END">GAME_EVENT_MISSION_END</dfn></td></tr>
+<tr><th id="109">109</th><td>} <dfn class="typedef" id="GameEventType" title='GameEventType' data-type='enum GameEventType' data-ref="GameEventType">GameEventType</dfn>;</td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td><i>// Which game events should be passed along to server or client</i></td></tr>
+<tr><th id="112">112</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="113">113</th><td>{</td></tr>
+<tr><th id="114">114</th><td>	<a class="typedef" href="#GameEventType" title='GameEventType' data-type='enum GameEventType' data-ref="GameEventType">GameEventType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="115">115</th><td>	<i>// Whether this message is sent by server to clients</i></td></tr>
+<tr><th id="116">116</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Broadcast" title='(anonymous struct)::Broadcast' data-ref="(anonymous)::Broadcast">Broadcast</dfn>;</td></tr>
+<tr><th id="117">117</th><td>	<i>// Whether clients send this message to the server</i></td></tr>
+<tr><th id="118">118</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Submit" title='(anonymous struct)::Submit' data-ref="(anonymous)::Submit">Submit</dfn>;</td></tr>
+<tr><th id="119">119</th><td>	<i>// Whether to simply enqueue as game event; otherwise processed by handler</i></td></tr>
+<tr><th id="120">120</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Enqueue" title='(anonymous struct)::Enqueue' data-ref="(anonymous)::Enqueue">Enqueue</dfn>;</td></tr>
+<tr><th id="121">121</th><td>	<i>// Whether to broadcast these events only after game start</i></td></tr>
+<tr><th id="122">122</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::GameStart" title='(anonymous struct)::GameStart' data-ref="(anonymous)::GameStart">GameStart</dfn>;</td></tr>
+<tr><th id="123">123</th><td>	<em>const</em> <a class="typedef" href="proto/nanopb/pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> *<dfn class="decl" id="(anonymous)::Fields" title='(anonymous struct)::Fields' data-ref="(anonymous)::Fields">Fields</dfn>;</td></tr>
+<tr><th id="124">124</th><td>} <dfn class="typedef" id="GameEventEntry" title='GameEventEntry' data-type='struct GameEventEntry' data-ref="GameEventEntry">GameEventEntry</dfn>;</td></tr>
+<tr><th id="125">125</th><td><a class="typedef" href="#GameEventEntry" title='GameEventEntry' data-type='struct GameEventEntry' data-ref="GameEventEntry">GameEventEntry</a> <dfn class="decl" id="GameEventGetEntry" title='GameEventGetEntry' data-ref="GameEventGetEntry">GameEventGetEntry</dfn>(<em>const</em> <a class="typedef" href="#GameEventType" title='GameEventType' data-type='enum GameEventType' data-ref="GameEventType">GameEventType</a> <dfn class="local col1 decl" id="21e" title='e' data-type='const GameEventType' data-ref="21e">e</dfn>);</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="128">128</th><td>{</td></tr>
+<tr><th id="129">129</th><td>	<a class="typedef" href="#GameEventType" title='GameEventType' data-type='enum GameEventType' data-ref="GameEventType">GameEventType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="130">130</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Delay" title='(anonymous struct)::Delay' data-ref="(anonymous)::Delay">Delay</dfn>;</td></tr>
+<tr><th id="131">131</th><td>	<b>union</b></td></tr>
+<tr><th id="132">132</th><td>	{</td></tr>
+<tr><th id="133">133</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NPlayerData" title='NPlayerData' data-type='struct _NPlayerData' data-ref="NPlayerData">NPlayerData</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::PlayerData" title='(anonymous struct)::(anonymous union)::PlayerData' data-ref="(anonymousstruct)::(anonymous)::PlayerData">PlayerData</dfn>;</td></tr>
+<tr><th id="134">134</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NPlayerRemove" title='NPlayerRemove' data-type='struct _NPlayerRemove' data-ref="NPlayerRemove">NPlayerRemove</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::PlayerRemove" title='(anonymous struct)::(anonymous union)::PlayerRemove' data-ref="(anonymousstruct)::(anonymous)::PlayerRemove">PlayerRemove</dfn>;</td></tr>
+<tr><th id="135">135</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NTileSet" title='NTileSet' data-type='struct _NTileSet' data-ref="NTileSet">NTileSet</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::TileSet" title='(anonymous struct)::(anonymous union)::TileSet' data-ref="(anonymousstruct)::(anonymous)::TileSet">TileSet</dfn>;</td></tr>
+<tr><th id="136">136</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NMapObjectAdd" title='NMapObjectAdd' data-type='struct _NMapObjectAdd' data-ref="NMapObjectAdd">NMapObjectAdd</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::MapObjectAdd" title='(anonymous struct)::(anonymous union)::MapObjectAdd' data-ref="(anonymousstruct)::(anonymous)::MapObjectAdd">MapObjectAdd</dfn>;</td></tr>
+<tr><th id="137">137</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NMapObjectDamage" title='NMapObjectDamage' data-type='struct _NMapObjectDamage' data-ref="NMapObjectDamage">NMapObjectDamage</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::MapObjectDamage" title='(anonymous struct)::(anonymous union)::MapObjectDamage' data-ref="(anonymousstruct)::(anonymous)::MapObjectDamage">MapObjectDamage</dfn>;</td></tr>
+<tr><th id="138">138</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NMapObjectRemove" title='NMapObjectRemove' data-type='struct _NMapObjectRemove' data-ref="NMapObjectRemove">NMapObjectRemove</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::MapObjectRemove" title='(anonymous struct)::(anonymous union)::MapObjectRemove' data-ref="(anonymousstruct)::(anonymous)::MapObjectRemove">MapObjectRemove</dfn>;</td></tr>
+<tr><th id="139">139</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NConfig" title='NConfig' data-type='struct _NConfig' data-ref="NConfig">NConfig</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Config" title='(anonymous struct)::(anonymous union)::Config' data-ref="(anonymousstruct)::(anonymous)::Config">Config</dfn>;</td></tr>
+<tr><th id="140">140</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NScore" title='NScore' data-type='struct _NScore' data-ref="NScore">NScore</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Score" title='(anonymous struct)::(anonymous union)::Score' data-ref="(anonymousstruct)::(anonymous)::Score">Score</dfn>;</td></tr>
+<tr><th id="141">141</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NSound" title='NSound' data-type='struct _NSound' data-ref="NSound">NSound</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::SoundAt" title='(anonymous struct)::(anonymous union)::SoundAt' data-ref="(anonymousstruct)::(anonymous)::SoundAt">SoundAt</dfn>;</td></tr>
+<tr><th id="142">142</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ShakeAmount" title='(anonymous struct)::(anonymous union)::ShakeAmount' data-ref="(anonymousstruct)::(anonymous)::ShakeAmount">ShakeAmount</dfn>;</td></tr>
+<tr><th id="143">143</th><td>		<b>struct</b></td></tr>
+<tr><th id="144">144</th><td>		{</td></tr>
+<tr><th id="145">145</th><td>			<em>char</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Message" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Message' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Message">Message</dfn>[<var>256</var>];</td></tr>
+<tr><th id="146">146</th><td>			<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Ticks" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Ticks' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Ticks">Ticks</dfn>;</td></tr>
+<tr><th id="147">147</th><td>		} <dfn class="decl" id="(anonymousstruct)::(anonymous)::SetMessage" title='(anonymous struct)::(anonymous union)::SetMessage' data-ref="(anonymousstruct)::(anonymous)::SetMessage">SetMessage</dfn>;</td></tr>
+<tr><th id="148">148</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NGameBegin" title='NGameBegin' data-type='struct _NGameBegin' data-ref="NGameBegin">NGameBegin</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::GameBegin" title='(anonymous struct)::(anonymous union)::GameBegin' data-ref="(anonymousstruct)::(anonymous)::GameBegin">GameBegin</dfn>;</td></tr>
+<tr><th id="149">149</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorAdd" title='NActorAdd' data-type='struct _NActorAdd' data-ref="NActorAdd">NActorAdd</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorAdd" title='(anonymous struct)::(anonymous union)::ActorAdd' data-ref="(anonymousstruct)::(anonymous)::ActorAdd">ActorAdd</dfn>;</td></tr>
+<tr><th id="150">150</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorMove" title='NActorMove' data-type='struct _NActorMove' data-ref="NActorMove">NActorMove</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorMove" title='(anonymous struct)::(anonymous union)::ActorMove' data-ref="(anonymousstruct)::(anonymous)::ActorMove">ActorMove</dfn>;</td></tr>
+<tr><th id="151">151</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorState" title='NActorState' data-type='struct _NActorState' data-ref="NActorState">NActorState</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorState" title='(anonymous struct)::(anonymous union)::ActorState' data-ref="(anonymousstruct)::(anonymous)::ActorState">ActorState</dfn>;</td></tr>
+<tr><th id="152">152</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorDir" title='NActorDir' data-type='struct _NActorDir' data-ref="NActorDir">NActorDir</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorDir" title='(anonymous struct)::(anonymous union)::ActorDir' data-ref="(anonymousstruct)::(anonymous)::ActorDir">ActorDir</dfn>;</td></tr>
+<tr><th id="153">153</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorSlide" title='NActorSlide' data-type='struct _NActorSlide' data-ref="NActorSlide">NActorSlide</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorSlide" title='(anonymous struct)::(anonymous union)::ActorSlide' data-ref="(anonymousstruct)::(anonymous)::ActorSlide">ActorSlide</dfn>;</td></tr>
+<tr><th id="154">154</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorImpulse" title='NActorImpulse' data-type='struct _NActorImpulse' data-ref="NActorImpulse">NActorImpulse</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorImpulse" title='(anonymous struct)::(anonymous union)::ActorImpulse' data-ref="(anonymousstruct)::(anonymous)::ActorImpulse">ActorImpulse</dfn>;</td></tr>
+<tr><th id="155">155</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorSwitchGun" title='NActorSwitchGun' data-type='struct _NActorSwitchGun' data-ref="NActorSwitchGun">NActorSwitchGun</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorSwitchGun" title='(anonymous struct)::(anonymous union)::ActorSwitchGun' data-ref="(anonymousstruct)::(anonymous)::ActorSwitchGun">ActorSwitchGun</dfn>;</td></tr>
+<tr><th id="156">156</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorPickupAll" title='NActorPickupAll' data-type='struct _NActorPickupAll' data-ref="NActorPickupAll">NActorPickupAll</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorPickupAll" title='(anonymous struct)::(anonymous union)::ActorPickupAll' data-ref="(anonymousstruct)::(anonymous)::ActorPickupAll">ActorPickupAll</dfn>;</td></tr>
+<tr><th id="157">157</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorReplaceGun" title='NActorReplaceGun' data-type='struct _NActorReplaceGun' data-ref="NActorReplaceGun">NActorReplaceGun</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorReplaceGun" title='(anonymous struct)::(anonymous union)::ActorReplaceGun' data-ref="(anonymousstruct)::(anonymous)::ActorReplaceGun">ActorReplaceGun</dfn>;</td></tr>
+<tr><th id="158">158</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorHeal" title='NActorHeal' data-type='struct _NActorHeal' data-ref="NActorHeal">NActorHeal</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Heal" title='(anonymous struct)::(anonymous union)::Heal' data-ref="(anonymousstruct)::(anonymous)::Heal">Heal</dfn>;</td></tr>
+<tr><th id="159">159</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorHit" title='NActorHit' data-type='struct _NActorHit' data-ref="NActorHit">NActorHit</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorHit" title='(anonymous struct)::(anonymous union)::ActorHit' data-ref="(anonymousstruct)::(anonymous)::ActorHit">ActorHit</dfn>;</td></tr>
+<tr><th id="160">160</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorAddAmmo" title='NActorAddAmmo' data-type='struct _NActorAddAmmo' data-ref="NActorAddAmmo">NActorAddAmmo</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::AddAmmo" title='(anonymous struct)::(anonymous union)::AddAmmo' data-ref="(anonymousstruct)::(anonymous)::AddAmmo">AddAmmo</dfn>;</td></tr>
+<tr><th id="161">161</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorUseAmmo" title='NActorUseAmmo' data-type='struct _NActorUseAmmo' data-ref="NActorUseAmmo">NActorUseAmmo</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::UseAmmo" title='(anonymous struct)::(anonymous union)::UseAmmo' data-ref="(anonymousstruct)::(anonymous)::UseAmmo">UseAmmo</dfn>;</td></tr>
+<tr><th id="162">162</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorDie" title='NActorDie' data-type='struct _NActorDie' data-ref="NActorDie">NActorDie</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ActorDie" title='(anonymous struct)::(anonymous union)::ActorDie' data-ref="(anonymousstruct)::(anonymous)::ActorDie">ActorDie</dfn>;</td></tr>
+<tr><th id="163">163</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NActorMelee" title='NActorMelee' data-type='struct _NActorMelee' data-ref="NActorMelee">NActorMelee</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Melee" title='(anonymous struct)::(anonymous union)::Melee' data-ref="(anonymousstruct)::(anonymous)::Melee">Melee</dfn>;</td></tr>
+<tr><th id="164">164</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NAddPickup" title='NAddPickup' data-type='struct _NAddPickup' data-ref="NAddPickup">NAddPickup</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::AddPickup" title='(anonymous struct)::(anonymous union)::AddPickup' data-ref="(anonymousstruct)::(anonymous)::AddPickup">AddPickup</dfn>;</td></tr>
+<tr><th id="165">165</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NRemovePickup" title='NRemovePickup' data-type='struct _NRemovePickup' data-ref="NRemovePickup">NRemovePickup</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::RemovePickup" title='(anonymous struct)::(anonymous union)::RemovePickup' data-ref="(anonymousstruct)::(anonymous)::RemovePickup">RemovePickup</dfn>;</td></tr>
+<tr><th id="166">166</th><td>		<b>struct</b></td></tr>
+<tr><th id="167">167</th><td>		{</td></tr>
+<tr><th id="168">168</th><td>			<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::UID" title='(anonymous struct)::(anonymous union)::(anonymous struct)::UID' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::UID">UID</dfn>;</td></tr>
+<tr><th id="169">169</th><td>			<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Count" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Count' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Count">Count</dfn>;</td></tr>
+<tr><th id="170">170</th><td>		} <dfn class="decl" id="(anonymousstruct)::(anonymous)::ObjectSetCounter" title='(anonymous struct)::(anonymous union)::ObjectSetCounter' data-ref="(anonymousstruct)::(anonymous)::ObjectSetCounter">ObjectSetCounter</dfn>;</td></tr>
+<tr><th id="171">171</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NBulletBounce" title='NBulletBounce' data-type='struct _NBulletBounce' data-ref="NBulletBounce">NBulletBounce</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::BulletBounce" title='(anonymous struct)::(anonymous union)::BulletBounce' data-ref="(anonymousstruct)::(anonymous)::BulletBounce">BulletBounce</dfn>;</td></tr>
+<tr><th id="172">172</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NRemoveBullet" title='NRemoveBullet' data-type='struct _NRemoveBullet' data-ref="NRemoveBullet">NRemoveBullet</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::RemoveBullet" title='(anonymous struct)::(anonymous union)::RemoveBullet' data-ref="(anonymousstruct)::(anonymous)::RemoveBullet">RemoveBullet</dfn>;</td></tr>
+<tr><th id="173">173</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ParticleRemoveId" title='(anonymous struct)::(anonymous union)::ParticleRemoveId' data-ref="(anonymousstruct)::(anonymous)::ParticleRemoveId">ParticleRemoveId</dfn>;</td></tr>
+<tr><th id="174">174</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NGunFire" title='NGunFire' data-type='struct _NGunFire' data-ref="NGunFire">NGunFire</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::GunFire" title='(anonymous struct)::(anonymous union)::GunFire' data-ref="(anonymousstruct)::(anonymous)::GunFire">GunFire</dfn>;</td></tr>
+<tr><th id="175">175</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NGunReload" title='NGunReload' data-type='struct _NGunReload' data-ref="NGunReload">NGunReload</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::GunReload" title='(anonymous struct)::(anonymous union)::GunReload' data-ref="(anonymousstruct)::(anonymous)::GunReload">GunReload</dfn>;</td></tr>
+<tr><th id="176">176</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NGunState" title='NGunState' data-type='struct _NGunState' data-ref="NGunState">NGunState</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::GunState" title='(anonymous struct)::(anonymous union)::GunState' data-ref="(anonymousstruct)::(anonymous)::GunState">GunState</dfn>;</td></tr>
+<tr><th id="177">177</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NAddBullet" title='NAddBullet' data-type='struct _NAddBullet' data-ref="NAddBullet">NAddBullet</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::AddBullet" title='(anonymous struct)::(anonymous union)::AddBullet' data-ref="(anonymousstruct)::(anonymous)::AddBullet">AddBullet</dfn>;</td></tr>
+<tr><th id="178">178</th><td>		<a class="typedef" href="particle.h.html#AddParticle" title='AddParticle' data-type='struct AddParticle' data-ref="AddParticle">AddParticle</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::AddParticle" title='(anonymous struct)::(anonymous union)::AddParticle' data-ref="(anonymousstruct)::(anonymous)::AddParticle">AddParticle</dfn>;</td></tr>
+<tr><th id="179">179</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NTrigger" title='NTrigger' data-type='struct _NTrigger' data-ref="NTrigger">NTrigger</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::TriggerEvent" title='(anonymous struct)::(anonymous union)::TriggerEvent' data-ref="(anonymousstruct)::(anonymous)::TriggerEvent">TriggerEvent</dfn>;</td></tr>
+<tr><th id="180">180</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NExploreTiles" title='NExploreTiles' data-type='struct _NExploreTiles' data-ref="NExploreTiles">NExploreTiles</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ExploreTiles" title='(anonymous struct)::(anonymous union)::ExploreTiles' data-ref="(anonymousstruct)::(anonymous)::ExploreTiles">ExploreTiles</dfn>;</td></tr>
+<tr><th id="181">181</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NRescueCharacter" title='NRescueCharacter' data-type='struct _NRescueCharacter' data-ref="NRescueCharacter">NRescueCharacter</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Rescue" title='(anonymous struct)::(anonymous union)::Rescue' data-ref="(anonymousstruct)::(anonymous)::Rescue">Rescue</dfn>;</td></tr>
+<tr><th id="182">182</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NObjectiveUpdate" title='NObjectiveUpdate' data-type='struct _NObjectiveUpdate' data-ref="NObjectiveUpdate">NObjectiveUpdate</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ObjectiveUpdate" title='(anonymous struct)::(anonymous union)::ObjectiveUpdate' data-ref="(anonymousstruct)::(anonymous)::ObjectiveUpdate">ObjectiveUpdate</dfn>;</td></tr>
+<tr><th id="183">183</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NAddKeys" title='NAddKeys' data-type='struct _NAddKeys' data-ref="NAddKeys">NAddKeys</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::AddKeys" title='(anonymous struct)::(anonymous union)::AddKeys' data-ref="(anonymousstruct)::(anonymous)::AddKeys">AddKeys</dfn>;</td></tr>
+<tr><th id="184">184</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NMissionComplete" title='NMissionComplete' data-type='struct _NMissionComplete' data-ref="NMissionComplete">NMissionComplete</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::MissionComplete" title='(anonymous struct)::(anonymous union)::MissionComplete' data-ref="(anonymousstruct)::(anonymous)::MissionComplete">MissionComplete</dfn>;</td></tr>
+<tr><th id="185">185</th><td>		<a class="typedef" href="proto/msg.pb.h.html#NMissionEnd" title='NMissionEnd' data-type='struct _NMissionEnd' data-ref="NMissionEnd">NMissionEnd</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::MissionEnd" title='(anonymous struct)::(anonymous union)::MissionEnd' data-ref="(anonymousstruct)::(anonymous)::MissionEnd">MissionEnd</dfn>;</td></tr>
+<tr><th id="186">186</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="187">187</th><td>} <dfn class="typedef" id="GameEvent" title='GameEvent' data-type='struct GameEvent' data-ref="GameEvent">GameEvent</dfn>;</td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td><b>extern</b> <a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="gGameEvents" title='gGameEvents' data-ref="gGameEvents">gGameEvents</dfn>;	<i>// of GameEvent</i></td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td><u>#define <dfn class="macro" id="_M/GAME_OVER_DELAY" data-ref="_M/GAME_OVER_DELAY">GAME_OVER_DELAY</dfn> (FPS_FRAMELIMIT * 2)</u></td></tr>
+<tr><th id="192">192</th><td></td></tr>
+<tr><th id="193">193</th><td><em>void</em> <dfn class="decl" id="GameEventsInit" title='GameEventsInit' data-ref="GameEventsInit">GameEventsInit</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col2 decl" id="22store" title='store' data-type='CArray *' data-ref="22store">store</dfn>);</td></tr>
+<tr><th id="194">194</th><td><em>void</em> <dfn class="decl" id="GameEventsTerminate" title='GameEventsTerminate' data-ref="GameEventsTerminate">GameEventsTerminate</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col3 decl" id="23store" title='store' data-type='CArray *' data-ref="23store">store</dfn>);</td></tr>
+<tr><th id="195">195</th><td><em>void</em> <dfn class="decl" id="GameEventsEnqueue" title='GameEventsEnqueue' data-ref="GameEventsEnqueue">GameEventsEnqueue</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col4 decl" id="24store" title='store' data-type='CArray *' data-ref="24store">store</dfn>, <a class="typedef" href="#GameEvent" title='GameEvent' data-type='struct GameEvent' data-ref="GameEvent">GameEvent</a> <dfn class="local col5 decl" id="25e" title='e' data-type='GameEvent' data-ref="25e">e</dfn>);</td></tr>
+<tr><th id="196">196</th><td><em>void</em> <dfn class="decl" id="GameEventsClear" title='GameEventsClear' data-ref="GameEventsClear">GameEventsClear</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col6 decl" id="26store" title='store' data-type='CArray *' data-ref="26store">store</dfn>);</td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><a class="typedef" href="#GameEvent" title='GameEvent' data-type='struct GameEvent' data-ref="GameEvent">GameEvent</a> <dfn class="decl" id="GameEventNew" title='GameEventNew' data-ref="GameEventNew">GameEventNew</dfn>(<a class="typedef" href="#GameEventType" title='GameEventType' data-type='enum GameEventType' data-ref="GameEventType">GameEventType</a> <dfn class="local col7 decl" id="27type" title='type' data-type='GameEventType' data-ref="27type">type</dfn>);</td></tr>
+<tr><th id="199">199</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../briefing_screens.c.html'>codebrowser/src/briefing_screens.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

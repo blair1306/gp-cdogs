@@ -1,0 +1,30 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='457'/>
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1846' type='struct nk_rect nk_rect(float x, float y, float w, float h)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4011' ll='4018' macro='1' type='struct nk_rect nk_rect(float x, float y, float w, float h)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4034' u='c' c='nk_recta'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4040' u='c' c='nk_rectv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8485' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8501' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8506' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8511' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8580' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8585' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15817' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18079' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18090' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18111' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18171' u='c' c='nk_window_get_bounds'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18216' u='c' c='nk_window_get_content_region'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19491' u='c' c='nk_widget_bounds'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21133' u='c' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22077' u='c' c='nk_combo_begin'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='371' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='443' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='483' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='504' u='c' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='534' u='c' c='Draw'/>
+<size>16</size>
+<mbr r='nk_rect::x' o='0' t='float'/>
+<mbr r='nk_rect::y' o='32' t='float'/>
+<mbr r='nk_rect::w' o='64' t='float'/>
+<mbr r='nk_rect::h' o='96' t='float'/>

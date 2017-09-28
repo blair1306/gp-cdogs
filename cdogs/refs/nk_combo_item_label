@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1641' type='int nk_combo_item_label(struct nk_context * , const char * , nk_flags alignment)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22621' ll='22622' macro='1' type='int nk_combo_item_label(struct nk_context * ctx, const char * label, nk_flags align)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22669' u='c' c='nk_combo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22759' u='c' c='nk_combo_callback'/>

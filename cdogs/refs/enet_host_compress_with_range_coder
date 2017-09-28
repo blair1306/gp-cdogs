@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='568' type='int enet_host_compress_with_range_coder(ENetHost * host)'/>
+<def f='codebrowser/src/cdogs/enet/compress.c' l='637' ll='650' type='int enet_host_compress_with_range_coder(ENetHost * host)'/>
+<doc f='codebrowser/src/cdogs/enet/compress.c' l='633'>/** Sets the packet compressor the host should use to the default range coder.
+    @param host host to enable the range coder for
+    @returns 0 on success, &lt; 0 on failure
+*/</doc>

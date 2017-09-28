@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_rwops.h' l='57' type='Sint64 (*)(struct SDL_RWops *)'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_rwops.h' l='54'>/**
+     *  Return the size of the file in this rwops, or -1 if unknown
+     */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='88' u='r' c='SDLJBN_AddMappingsFromFile'/>

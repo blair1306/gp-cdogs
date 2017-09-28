@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='74' type='color_t * CharColorGetByType(CharColors * c, const CharColorType t)'/>
+<def f='codebrowser/src/cdogs/blit.c' l='63' ll='76' type='color_t * CharColorGetByType(CharColors * c, const CharColorType t)'/>
+<use f='codebrowser/src/player_select_menus.c' l='214' u='c' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='301' u='c' c='HandleInputColorMenu'/>

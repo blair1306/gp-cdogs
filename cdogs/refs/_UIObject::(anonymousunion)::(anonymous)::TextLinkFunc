@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='79' type='char *(*)(struct _UIObject *, void *)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1064' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1114' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1277' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1351' u='w' c='CreateCampaignObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1362' u='w' c='CreateCampaignObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1384' u='w' c='CreateMissionObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='72' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='268' u='w' c='CreateObjectivesObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='434' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='308' u='r' c='UIObjectAddChar'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='340' u='r' c='UIObjectDelChar'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='405' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='407' u='r' c='UIObjectDrawAndAddChildren'/>

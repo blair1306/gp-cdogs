@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/automap.c' l='72' type='color_t'/>
+<use f='codebrowser/src/cdogs/automap.c' l='236' u='r' c='DrawMap'/>

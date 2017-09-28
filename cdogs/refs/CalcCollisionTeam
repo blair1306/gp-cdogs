@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='79' type='CollisionTeam CalcCollisionTeam(const _Bool isActor, const TActor * actor)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='223' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='223' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='470' u='c' c='CheckPickups'/>
+<use f='codebrowser/src/cdogs/actors.c' l='470' u='c' c='CheckPickups'/>
+<use f='codebrowser/src/cdogs/actors.c' l='499' u='c' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='499' u='c' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='899' u='c' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='900' u='c' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='983' u='c' c='CheckManualPickups'/>
+<use f='codebrowser/src/cdogs/actors.c' l='983' u='c' c='CheckManualPickups'/>
+<use f='codebrowser/src/cdogs/ai.c' l='140' u='c' c='IsPosOK'/>
+<use f='codebrowser/src/cdogs/ai.c' l='140' u='c' c='IsPosOK'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='384' u='c' c='AIGetObjectRunningInto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='384' u='c' c='AIGetObjectRunningInto'/>
+<def f='codebrowser/src/cdogs/collision/collision.c' l='138' ll='153' type='CollisionTeam CalcCollisionTeam(const _Bool isActor, const TActor * actor)'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='275' u='c' c='CollisionIsOnSameTeam'/>

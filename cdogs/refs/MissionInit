@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='234' type='void MissionInit(Mission * m)'/>
+<use f='codebrowser/src/cdogs/files.c' l='446' u='c' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='200' u='c' c='LoadMissions'/>
+<def f='codebrowser/src/cdogs/mission.c' l='102' ll='121' type='void MissionInit(Mission * m)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='129' u='c' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='217' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1354' u='c' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1355' u='c' c='main'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='76' u='c' c='InsertMission'/>

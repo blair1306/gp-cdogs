@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='155' type='void *'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='155'>/**&lt; application private data, may be freely modified */</doc>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='48' u='w' c='enet_packet_create'/>

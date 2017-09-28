@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='159' type='void RelPath(char * buf, const char * to, const char * from)'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='82' u='c' c='CampaignEntryTryLoad'/>
+<def f='codebrowser/src/cdogs/utils.c' l='241' ll='299' type='void RelPath(char * buf, const char * to, const char * from)'/>
+<use f='codebrowser/src/cdogs/utils.c' l='343' u='c' c='RelPathFromCWD'/>
+<use f='codebrowser/src/tests/utils_test.c' l='30' u='c' c='_cbehave_feature_path_funcs'/>
+<use f='codebrowser/src/tests/utils_test.c' l='45' u='c' c='_cbehave_feature_path_funcs'/>

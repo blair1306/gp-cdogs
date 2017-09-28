@@ -1,0 +1,7 @@
+<dec f='include/SDL2/SDL_video.h' l='919' type='void SDL_DestroyWindow(SDL_Window * window)'/>
+<doc f='include/SDL2/SDL_video.h' l='916'>/**
+ *  \brief Destroy a window.
+ */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='231' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='386' u='c' c='GraphicsTerminate'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='213' u='c' c='CharEditor'/>

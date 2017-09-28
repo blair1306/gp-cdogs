@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='47' type='Vec2i Vec2iMult(const Vec2i a, const Vec2i b)'/>
+<doc f='codebrowser/src/cdogs/vector.h' l='46'>// Multiply the components of two Vec2is together</doc>
+<def f='codebrowser/src/cdogs/vector.c' l='67' ll='70' type='Vec2i Vec2iMult(const Vec2i a, const Vec2i b)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='121' u='c' c='CreateColorPicker'/>
+<use f='codebrowser/src/player_select_menus.c' l='261' u='c' c='DrawColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='271' u='c' c='DrawColorMenu'/>

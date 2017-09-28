@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2380' ll='2385'/>
+<size>12</size>
+<mbr r='nk_text_undo_record::where' o='0' t='int'/>
+<mbr r='nk_text_undo_record::insert_length' o='32' t='short'/>
+<mbr r='nk_text_undo_record::delete_length' o='48' t='short'/>
+<mbr r='nk_text_undo_record::char_storage' o='64' t='short'/>

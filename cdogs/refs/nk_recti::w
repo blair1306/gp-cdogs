@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='458' type='short'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10894' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10903' u='w' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11875' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11986' u='w' c='nk_font_atlas_end'/>
+<offset>32</offset>

@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='66' type='1'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='190' u='r' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='364' u='r' c='DrawEditorTiles'/>
+<use f='codebrowser/src/cdogs/map.c' l='652' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='712' u='r' c='MapLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='395' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='342' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='87' c='MapTypeStr'/>
+<use f='codebrowser/src/cdogs/mission.c' l='96' u='r' c='StrMapType'/>
+<use f='codebrowser/src/cdogs/mission.c' l='169' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='201' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='61' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='157' u='r' c='MissionTrySetTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='157' u='r' c='MissionTrySetTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='213' u='r' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='274' u='r' c='TryAddMapObject'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='274' u='r' c='TryAddMapObject'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='334' u='r' c='MissionStaticTryAddCharacter'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='389' u='r' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='462' u='r' c='MissionStaticTryAddKey'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='524' u='r' c='MissionStaticTrySetKey'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='230' u='r' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='141' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='895' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='662' u='r' c='MissionChangeWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='677' u='r' c='MissionChangeHeight'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='232' u='r' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='43' u='r' c='MissionCheckTypeFunc'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='50' type='3'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='117' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='296' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='514' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='157' u='r' c='BrushIsBrushTypeBoxFilled'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='220' u='r' c='BrushSetBrushTypeBoxFilled'/>

@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_rwops.h' l='153' type='SDL_RWops * SDL_RWFromFile(const char * file, const char * mode)'/>
+<doc f='include/SDL2/SDL_rwops.h' l='151'>/* @{ */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='79' u='c' c='SDLJBN_AddMappingsFromFile'/>
+<use f='codebrowser/src/cdogs/font.c' l='57' u='c' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='44' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='213' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='163' macro='1' u='c'/>
+<use f='codebrowser/src/tests/pic_test.c' l='57' u='c' c='_cbehave_feature_PicLoad'/>

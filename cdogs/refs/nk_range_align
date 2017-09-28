@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10721' macro='1' type='const nk_size'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10828' u='r' c='nk_font_baker_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10842' u='r' c='nk_font_baker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10842' u='r' c='nk_font_baker'/>

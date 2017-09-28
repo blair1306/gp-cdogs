@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3399' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21008' u='w' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21094' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21116' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21173' u='r' c='nk_chart_push_column'/>
+<offset>32</offset>

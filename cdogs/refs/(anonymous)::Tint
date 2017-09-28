@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='73' type='HSV *'/>
+<offset>1152</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='164' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='168' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='275' u='r' c='DrawActorPics'/>

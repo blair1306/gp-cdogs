@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_events.h' l='117' type='1616'/>
+<doc f='include/SDL2/SDL_events.h' l='116'>/* Game controller events */</doc>
+<doc f='include/SDL2/SDL_events.h' l='117'>/**&lt; Game controller axis motion */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='142' c='EventPoll'/>

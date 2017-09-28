@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='73'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.h' l='227' u='c'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.h' l='233' u='c'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='51'>/**
+ * The Ring Element
+ *
+ * A ring element struct is linked to the other elements in the ring
+ * through its ring entry field, e.g.
+ * &lt;pre&gt;
+ *      struct my_element_t {
+ *          APR_RING_ENTRY(my_element_t) link;
+ *          int foo;
+ *          char *bar;
+ *      };
+ * &lt;/pre&gt;
+ *
+ * An element struct may be put on more than one ring if it has more
+ * than one APR_RING_ENTRY field. Each APR_RING_ENTRY has a corresponding
+ * APR_RING_HEAD declaration.
+ *
+ * @warning For strict C standards compliance you should put the APR_RING_ENTRY
+ * first in the element struct unless the head is always part of a larger
+ * object with enough earlier fields to accommodate the offsetof() used
+ * to compute the ring sentinel below. You can usually ignore this caveat.
+ */</doc>

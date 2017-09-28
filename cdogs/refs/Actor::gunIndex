@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='127' type='int'/>
+<offset>1536</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='599' u='w' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1208' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1313' u='r' c='ActorGetGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1346' u='w' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='200' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='260' u='r' c='TryPickupGun'/>
+<use f='codebrowser/src/game.c' l='94' u='r' c='PlayerSpecialCommands'/>

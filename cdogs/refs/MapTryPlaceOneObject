@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/map.h' l='160' type='_Bool MapTryPlaceOneObject(Map * map, const Vec2i v, const MapObject * mo, const int extraFlags, const _Bool isStrictMode)'/>
+<def f='codebrowser/src/cdogs/map.c' l='357' ll='400' macro='1' type='_Bool MapTryPlaceOneObject(Map * map, const Vec2i v, const MapObject * mo, const int extraFlags, const _Bool isStrictMode)'/>
+<use f='codebrowser/src/cdogs/map.c' l='482' u='c' c='MapTryPlaceBlowup'/>
+<use f='codebrowser/src/cdogs/map.c' l='680' u='c' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='723' u='c' c='MapLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='87' u='c' c='MapStaticLoadDynamic'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='182' u='c' c='AddObjective'/>

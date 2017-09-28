@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='181' type='NRescueCharacter'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='514' u='m' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1239' u='m' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='595' u='m' c='HandleGameEvent'/>

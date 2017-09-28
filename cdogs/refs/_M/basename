@@ -1,0 +1,15 @@
+<dec f='include/libgen.h' l='35'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='583' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='103' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='104' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='108' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='120' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='87' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='88' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='94' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='95' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='129' u='c'/>
+<use f='codebrowser/src/cdogs/utils.c' l='130' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='448' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='455' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='455' u='c'/>

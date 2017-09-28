@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='147' type='int'/>
+<offset>3904</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='189' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='189' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='189' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='190' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='629' u='w' c='ActorSetAIState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1010' u='w' c='CheckManualPickupFunc'/>

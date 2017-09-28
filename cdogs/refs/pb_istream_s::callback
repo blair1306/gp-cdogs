@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='37' type='_Bool (*)(pb_istream_t *, uint8_t *, size_t)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='89' u='r' c='pb_read'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='109' u='r' c='pb_read'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='128' u='r' c='pb_readbyte'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='146' u='w' c='pb_istream_from_buffer'/>

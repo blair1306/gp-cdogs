@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3067' type='struct nk_style_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14330' u='a' c='nk_do_slider'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16150' u='w' c='nk_style_from_table'/>
+<offset>3456</offset>

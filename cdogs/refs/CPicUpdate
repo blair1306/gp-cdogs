@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='97' type='void CPicUpdate(CPic * p, const int ticks)'/>
+<def f='codebrowser/src/cdogs/cpic.c' l='212' ll='251' type='void CPicUpdate(CPic * p, const int ticks)'/>
+<use f='codebrowser/src/cdogs/particle.c' l='286' u='c' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/tile.c' l='130' u='c' c='TileItemUpdate'/>

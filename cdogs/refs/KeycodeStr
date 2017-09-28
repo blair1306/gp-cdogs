@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='66' type='const char * KeycodeStr(int k)'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='37' ll='51' type='const char * KeycodeStr(int k)'/>
+<use f='codebrowser/src/mainmenu.c' l='637' u='c' c='MenuCreateOptionChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1137' u='c' c='MenuProcessChangeKey'/>

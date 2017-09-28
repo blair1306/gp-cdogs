@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='386' type='enet_uint32'/>
+<offset>87680</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='386'>/**&lt; total data sent, user should reset to 0 as needed to prevent overflow */</doc>
+<use f='codebrowser/src/cdogs/enet/host.c' l='95' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1732' u='w' c='enet_protocol_send_outgoing_commands'/>

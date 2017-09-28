@@ -1,0 +1,9 @@
+<dec f='include/asm-generic/errno-base.h' l='25'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='185' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='358' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='405' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='494' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='515' u='c'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='552' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='241' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='265' u='c'/>

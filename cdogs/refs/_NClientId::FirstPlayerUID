@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='97' type='uint32_t'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='449' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='449' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='451' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='364' u='w' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='41'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='41'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='41'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='41'/>

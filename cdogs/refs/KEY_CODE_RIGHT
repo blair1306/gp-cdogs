@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='58' type='1'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='42' c='KeycodeStr'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='205' c='KeyGet'/>
+<use f='codebrowser/src/mainmenu.c' l='621' u='r' c='MenuCreateKeysSingleSection'/>

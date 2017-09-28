@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='42' type='ENetHost *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/net_server.c' l='69' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='74' u='w' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='75' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='89' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='147' u='r' c='NetServerClose'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='149' u='r' c='NetServerClose'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='151' u='r' c='NetServerClose'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='154' u='r' c='NetServerClose'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='156' u='w' c='NetServerClose'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='164' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='178' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='182' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='183' u='w' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='241' u='r' c='PollListener'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='402' u='r' c='NetServerFlush'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='403' u='r' c='NetServerFlush'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='592' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='597' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='597' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='599' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='601' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='614' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='614' u='r' c='NetServerSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='615' u='r' c='NetServerSendMsg'/>

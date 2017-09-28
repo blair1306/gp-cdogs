@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3620' macro='1'/>
+<size>16</size>
+<mbr r='nk_config_stack_flags_element::address' o='0' t='nk_flags *'/>
+<mbr r='nk_config_stack_flags_element::old_value' o='64' t='nk_flags'/>

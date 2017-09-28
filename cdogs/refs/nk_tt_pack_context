@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9039' ll='9048'/>
+<size>48</size>
+<mbr r='nk_tt_pack_context::pack_info' o='0' t='void *'/>
+<mbr r='nk_tt_pack_context::width' o='64' t='int'/>
+<mbr r='nk_tt_pack_context::height' o='96' t='int'/>
+<mbr r='nk_tt_pack_context::stride_in_bytes' o='128' t='int'/>
+<mbr r='nk_tt_pack_context::padding' o='160' t='int'/>
+<mbr r='nk_tt_pack_context::h_oversample' o='192' t='unsigned int'/>
+<mbr r='nk_tt_pack_context::v_oversample' o='224' t='unsigned int'/>
+<mbr r='nk_tt_pack_context::pixels' o='256' t='unsigned char *'/>
+<mbr r='nk_tt_pack_context::nodes' o='320' t='void *'/>

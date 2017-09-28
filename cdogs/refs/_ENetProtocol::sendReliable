@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='185' type='ENetProtocolSendReliable'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='202' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='433' u='m' c='enet_protocol_handle_send_reliable'/>

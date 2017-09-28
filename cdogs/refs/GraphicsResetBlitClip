@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='124' type='void GraphicsResetBlitClip(GraphicsDevice * device)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='130' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='333' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/grafx.c' l='454' ll='461' type='void GraphicsResetBlitClip(GraphicsDevice * device)'/>

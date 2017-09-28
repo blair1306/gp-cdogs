@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3203' type='struct nk_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16310' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21026' u='a' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21032' u='m' c='nk_chart_begin_colored'/>
+<offset>0</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3202'>/* colors */</doc>

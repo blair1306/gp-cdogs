@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3303' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16472' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17138' u='r' c='nk_panel_get_border_color'/>
+<offset>4384</offset>

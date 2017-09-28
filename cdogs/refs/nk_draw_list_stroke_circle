@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2901' type='void nk_draw_list_stroke_circle(struct nk_draw_list * , struct nk_vec2 center, float radius, struct nk_color , unsigned int segs, float thickness)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8323' ll='8333' macro='1' type='void nk_draw_list_stroke_circle(struct nk_draw_list * list, struct nk_vec2 center, float radius, struct nk_color col, unsigned int segs, float thickness)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8516' u='c' c='nk_convert'/>

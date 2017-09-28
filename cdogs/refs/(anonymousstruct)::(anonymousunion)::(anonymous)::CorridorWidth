@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='162' type='int'/>
+<dec f='codebrowser/src/cdogs/mission.h' l='200' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/files.c' l='422' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='386' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='65' u='r' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='88' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='88' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='230' u='r' c='MapIsAreaClearForClassicRoom'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='334' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='44' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='87' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='242' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='259' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='223' u='r' c='MissionGetCorridorWidthStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='697' u='w' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='698' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='698' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='698' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='698' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='253' u='r' c='MissionGetCorridorWidthStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='260' u='w' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='260' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='260' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='260' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='260' u='r' c='MissionChangeCorridorWidth'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='79' u='w' c='InsertMission'/>

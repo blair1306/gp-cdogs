@@ -1,0 +1,4 @@
+<def f='codebrowser/src/tests/cbehave/cbehave.h' l='240' macro='1'/>
+<size>16</size>
+<mbr r='cbehave_symbol_head_t::next' o='0' t='struct cbehave_symbol_t *'/>
+<mbr r='cbehave_symbol_head_t::prev' o='64' t='struct cbehave_symbol_t *'/>

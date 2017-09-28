@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='51' type='7'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1037' u='r' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='62' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='62' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='62' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='62' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='106' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='546' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='221' u='r' c='PlaceWreck'/>

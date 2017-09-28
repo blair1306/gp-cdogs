@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='10713' type='struct nk_tt_pack_context'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10883' u='a' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10897' u='a' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10898' u='m' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10940' u='a' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10941' u='a' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10943' u='m' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10982' u='m' c='nk_font_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10983' u='m' c='nk_font_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10989' u='a' c='nk_font_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10990' u='a' c='nk_font_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10993' u='a' c='nk_font_bake'/>
+<offset>192</offset>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2729' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12111' u='m' c='nk_input_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12112' u='m' c='nk_input_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12181' u='m' c='nk_input_has_mouse_click_in_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12181' u='m' c='nk_input_has_mouse_click_in_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12181' u='m' c='nk_input_has_mouse_click_in_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12181' u='m' c='nk_input_has_mouse_click_in_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14213' u='m' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14517' u='m' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14524' u='m' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17215' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17216' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17626' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17627' u='m' c='nk_panel_end'/>
+<offset>64</offset>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='122' type='void GraphicsSetBlitClip(GraphicsDevice * device, int left, int top, int right, int bottom)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='367' u='c' c='AutomapDrawRegion'/>
+<use f='codebrowser/src/cdogs/automap.c' l='386' u='c' c='AutomapDrawRegion'/>
+<use f='codebrowser/src/cdogs/camera.c' l='238' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='281' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='259' u='c' c='GraphicsInitialize'/>
+<def f='codebrowser/src/cdogs/grafx.c' l='445' ll='452' type='void GraphicsSetBlitClip(GraphicsDevice * device, int left, int top, int right, int bottom)'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='456' u='c' c='GraphicsResetBlitClip'/>

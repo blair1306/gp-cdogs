@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='82' type='256'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='89' u='r' c='GetTileLOS'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='195' u='r' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='268' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='158' u='r' c='DrawBufferFix'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='162' u='r' c='DrawBufferFix'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='94' u='r' c='DrawObjectiveHighlight'/>

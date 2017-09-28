@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='158' type='Mix_Music * Mix_LoadMUSType_RW(SDL_RWops * src, Mix_MusicType type, int freesrc)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='157'>/* Load a music file from an SDL_RWop object assuming a specific format */</doc>

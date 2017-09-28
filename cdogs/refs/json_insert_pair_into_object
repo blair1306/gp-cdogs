@@ -1,0 +1,52 @@
+<dec f='codebrowser/src/json/json.h' l='247' type='enum json_error json_insert_pair_into_object(json_t * parent, const char * text_label, json_t * value)'/>
+<use f='codebrowser/src/autosave.c' l='86' u='c' c='AddCampaignNode'/>
+<use f='codebrowser/src/autosave.c' l='88' u='c' c='AddCampaignNode'/>
+<use f='codebrowser/src/autosave.c' l='106' u='c' c='CreateMissionNode'/>
+<use f='codebrowser/src/autosave.c' l='133' u='c' c='AddMissionNodes'/>
+<use f='codebrowser/src/autosave.c' l='184' u='c' c='AutosaveSave'/>
+<use f='codebrowser/src/autosave.c' l='185' u='c' c='AutosaveSave'/>
+<doc f='codebrowser/src/json/json.h' l='240'>/**
+Inserts a label:value pair into a parent node, as well as performs some document tree integrity checks.
+@param parent the parent node
+@param text_label a char string which serves as the label in the label:value pair
+@param value the value in the label:value pair
+@return the error code corresponding to the operation result
+**/</doc>
+<use f='codebrowser/src/cdogs/character.c' l='167' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='177' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='188' u='c' c='ConfigSaveJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='226' u='c' c='ConfigSaveVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='230' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='248' u='c' c='ConfigSaveVisit'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='45' u='c' c='AddIntPair'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='49' u='c' c='AddBoolPair'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='55' u='c' c='AddStringPair'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='59' u='c' c='AddStringPair'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='299' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='350' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='352' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='354' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='366' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='369' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='372' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='387' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='390' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='392' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='397' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='399' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='401' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='403' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='405' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='408' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='411' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='414' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='417' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='425' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='511' u='c' c='SaveStaticItems'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='529' u='c' c='SaveStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='547' u='c' c='SaveStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='549' u='c' c='SaveStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='567' u='c' c='SaveStaticKeys'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='155' u='c' c='SavePlayerTemplates'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='163' u='c' c='SavePlayerTemplates'/>
+<def f='codebrowser/src/json/json.c' l='549' ll='580' type='enum json_error json_insert_pair_into_object(json_t * parent, const char * text_label, json_t * value)'/>

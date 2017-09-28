@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='81' type='int'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='198' u='r' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='814' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='881' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='895' u='r' c='HandleInput'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='45' u='w' c='EditorBrushInit'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='930' u='w' c='DeactivateBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='263' u='w' c='ActivateBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='268' u='w' c='DeactivateBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='275' u='w' c='ActivateIndexedEditorBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='280' u='w' c='DeactivateIndexedEditorBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='154' u='w' c='ActivateBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='159' u='w' c='DeactivateBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='166' u='w' c='ActivateIndexedEditorBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='171' u='w' c='DeactivateIndexedEditorBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='178' u='w' c='ActivateEditorBrushAndCampaignBrush'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='183' u='w' c='DeactivateEditorBrushAndCampaignBrush'/>

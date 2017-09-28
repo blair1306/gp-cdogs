@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pics.h' l='73' type='const char * IntTileType(const int i)'/>
+<doc f='codebrowser/src/cdogs/pics.h' l='72'>// Legacy floor/room tile type int to str</doc>
+<use f='codebrowser/src/cdogs/map_build.c' l='85' u='c' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='92' u='c' c='MapSetupTilesAndWalls'/>
+<def f='codebrowser/src/cdogs/pics.c' l='43' ll='47' type='const char * IntTileType(const int i)'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2151' type='struct nk_font_config *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11647' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11648' u='w' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11651' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11652' u='w' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11861' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11878' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11889' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12000' u='r' c='nk_font_atlas_cleanup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12002' u='r' c='nk_font_atlas_cleanup'/>
+<offset>3072</offset>

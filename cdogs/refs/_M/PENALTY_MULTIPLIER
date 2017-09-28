@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/gamedata.h' l='62'/>
+<doc f='codebrowser/src/cdogs/gamedata.h' l='61'>// Score penalty for killing a penalty character</doc>
+<use f='codebrowser/src/cdogs/objs.c' l='373' u='c'/>

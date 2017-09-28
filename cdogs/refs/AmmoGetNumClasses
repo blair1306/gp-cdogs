@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='59' type='int AmmoGetNumClasses(const AmmoClasses * ammo)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1180' u='c' c='ActorAdd'/>
+<def f='codebrowser/src/cdogs/ammo.c' l='162' ll='165' type='int AmmoGetNumClasses(const AmmoClasses * ammo)'/>
+<use f='codebrowser/src/cdogs/objs.c' l='122' u='c' c='AddPickupAtObject'/>
+<use f='codebrowser/src/game.c' l='257' u='c' c='RunGameOnEnter'/>

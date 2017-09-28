@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/gamedata.h' l='79' type='void ShiftSongs(struct SongDef ** songList)'/>
+<def f='codebrowser/src/cdogs/gamedata.c' l='165' ll='179' type='void ShiftSongs(struct SongDef ** songList)'/>
+<use f='codebrowser/src/cdogs/music.c' l='113' u='c' c='MusicPlayGame'/>
+<use f='codebrowser/src/cdogs/music.c' l='122' u='c' c='MusicPlayMenu'/>

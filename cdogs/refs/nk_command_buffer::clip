@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2691' type='struct nk_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6830' u='w' c='nk_command_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6877' u='m' c='nk_push_scissor'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6878' u='m' c='nk_push_scissor'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6879' u='m' c='nk_push_scissor'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6880' u='m' c='nk_push_scissor'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6941' u='a' c='nk_stroke_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6966' u='a' c='nk_fill_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6991' u='a' c='nk_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7016' u='a' c='nk_stroke_circle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7039' u='a' c='nk_fill_circle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7098' u='a' c='nk_stroke_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7127' u='a' c='nk_fill_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7220' u='a' c='nk_draw_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7244' u='a' c='nk_push_custom'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7272' u='a' c='nk_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14955' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16916' u='w' c='nk_start_buffer'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17370' u='a' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21320' u='w' c='nk_group_scrolled_offset_begin'/>
+<offset>64</offset>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2859' type='struct nk_buffer *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7337' u='w' c='nk_draw_list_setup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7401' u='r' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7402' u='r' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7411' u='w' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7538' u='r' c='nk_draw_list_alloc_vertices'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7761' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7762' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7764' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7770' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7909' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7999' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8000' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8002' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8005' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8060' u='r' c='nk_draw_list_fill_poly_convex'/>
+<offset>1472</offset>

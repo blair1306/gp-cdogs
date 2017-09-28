@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3345' type='struct nk_style_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16086' u='a' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20236' u='a' c='nk_selectable_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20266' u='a' c='nk_selectable_image_text'/>
+<offset>8832</offset>

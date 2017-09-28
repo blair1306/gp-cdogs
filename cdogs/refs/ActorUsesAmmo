@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='184' type='_Bool ActorUsesAmmo(const TActor * actor, const int ammoId)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='569' ll='578' macro='1' type='_Bool ActorUsesAmmo(const TActor * actor, const int ammoId)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='617' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='620' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='774' u='c' c='OnClosestPickupGun'/>

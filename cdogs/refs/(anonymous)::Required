@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='83' type='int'/>
+<offset>224</offset>
+<use f='codebrowser/src/briefing_screens.c' l='327' u='r' c='MissionBriefingDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='605' u='r' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/cdogs/files.c' l='358' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/files.c' l='359' u='r' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/files.c' l='361' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='961' u='r' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/map.c' l='774' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='776' u='w' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='594' u='r' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/mission.c' l='298' u='r' c='MissionSetMessageIfComplete'/>
+<use f='codebrowser/src/cdogs/mission.c' l='486' u='r' c='MoreRescuesNeeded'/>
+<use f='codebrowser/src/cdogs/objective.c' l='143' u='a' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='166' u='r' c='ObjectiveIsRequired'/>
+<use f='codebrowser/src/cdogs/objective.c' l='170' u='r' c='ObjectiveIsComplete'/>
+<use f='codebrowser/src/cdogs/objective.c' l='175' u='r' c='ObjectiveIsPerfect'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='133' u='r' c='MissionGetObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='w' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='r' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='r' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='r' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='230' u='r' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='230' u='r' c='MissionChangeObjectiveTotal'/>

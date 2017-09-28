@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2424' type='struct nk_text_undo_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12674' u='m' c='nk_textedit_paste'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12675' u='m' c='nk_textedit_paste'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13154' u='a' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13222' u='a' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13272' u='a' c='nk_textedit_makeundo_insert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13279' u='a' c='nk_textedit_makeundo_delete'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13291' u='a' c='nk_textedit_makeundo_replace'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13303' u='m' c='nk_textedit_clear_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13304' u='m' c='nk_textedit_clear_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13305' u='m' c='nk_textedit_clear_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13306' u='m' c='nk_textedit_clear_state'/>
+<offset>1536</offset>

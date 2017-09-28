@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character.h' l='79' type='int CharacterStoreGetRandomBaddieId(const CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='537' u='c' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='626' u='c' c='CreateEnemies'/>
+<def f='codebrowser/src/cdogs/character.c' l='239' ll='243' type='int CharacterStoreGetRandomBaddieId(const CharacterStore * store)'/>

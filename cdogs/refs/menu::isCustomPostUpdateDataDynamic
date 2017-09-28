@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='135' type='_Bool'/>
+<offset>576</offset>
+<use f='codebrowser/src/menu.c' l='391' u='w' c='MenuSetPostUpdateFunc'/>
+<use f='codebrowser/src/menu.c' l='896' u='r' c='MenuTerminate'/>

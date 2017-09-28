@@ -1,0 +1,10 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='104' ll='121'/>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='95'>/**
+ * Packet flag bit constants.
+ *
+ * The host must be specified in network byte-order, and the port must be in
+ * host byte-order. The constant ENET_HOST_ANY may be used to specify the
+ * default server host.
+ 
+   @sa ENetPacket
+*/</doc>

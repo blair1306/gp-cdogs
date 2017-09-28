@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3723' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16734' u='w' c='nk_setup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16824' u='w' c='nk_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16872' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16881' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16892' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16899' u='w' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17867' u='r' c='nk_create_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18060' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18061' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21577' u='r' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21677' u='r' c='nk_nonblock_begin'/>
+<offset>132704</offset>

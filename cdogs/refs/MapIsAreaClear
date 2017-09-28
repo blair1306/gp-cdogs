@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='54' type='_Bool MapIsAreaClear(const Map * map, const Vec2i pos, const Vec2i size)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='573' ll='592' macro='1' type='_Bool MapIsAreaClear(const Map * map, const Vec2i pos, const Vec2i size)'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='169' u='c' c='MapTryBuildSquare'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='217' u='c' c='MapIsAreaClearForClassicRoom'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='357' u='c' c='MapTryBuildPillar'/>

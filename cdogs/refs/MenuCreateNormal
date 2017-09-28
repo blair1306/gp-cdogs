@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/menu.h' l='267' type='menu_t * MenuCreateNormal(const char * name, const char * title, menu_type_e type, int displayItems)'/>
+<use f='codebrowser/src/briefing_screens.c' l='370' u='c' c='ScreenMissionSummary'/>
+<use f='codebrowser/src/mainmenu.c' l='206' u='c' c='MenuCreateAll'/>
+<use f='codebrowser/src/mainmenu.c' l='238' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/mainmenu.c' l='360' u='c' c='MenuCreateCampaigns'/>
+<use f='codebrowser/src/mainmenu.c' l='409' u='c' c='CreateJoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='512' u='c' c='MenuCreateOptions'/>
+<use f='codebrowser/src/mainmenu.c' l='539' u='c' c='MenuCreateOptionsGraphics'/>
+<use f='codebrowser/src/mainmenu.c' l='574' u='c' c='MenuCreateOptionsControls'/>
+<use f='codebrowser/src/mainmenu.c' l='600' u='c' c='MenuCreateKeys'/>
+<def f='codebrowser/src/menu.c' l='326' ll='344' type='menu_t * MenuCreateNormal(const char * name, const char * title, menu_type_e type, int displayItems)'/>
+<use f='codebrowser/src/menu.c' l='404' u='c' c='MenuCreateConfigOptions'/>
+<use f='codebrowser/src/password.c' l='371' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='379' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/player_select_menus.c' l='169' u='c' c='CreateFaceMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='352' u='c' c='CreateUseTemplateMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='403' u='c' c='CreateSaveTemplateMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='465' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='484' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='500' u='c' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/prep.c' l='107' u='c' c='ScreenWait'/>
+<use f='codebrowser/src/prep.c' l='191' u='c' c='NumPlayersSelection'/>
+<use f='codebrowser/src/prep.c' l='546' u='c' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='730' u='c' c='MenuCreateAllowedWeapons'/>
+<use f='codebrowser/src/screens_end.c' l='133' u='c' c='PlayerListLoop'/>
+<use f='codebrowser/src/weapon_menu.c' l='184' u='c' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='198' u='c' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='229' u='c' c='WeaponMenuCreate'/>

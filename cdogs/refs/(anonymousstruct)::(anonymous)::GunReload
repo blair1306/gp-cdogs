@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='175' type='NGunReload'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='72' u='m' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='73' u='m' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='76' u='m' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='77' u='m' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='156' u='m' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='500' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='501' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='510' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='418' u='m' c='OnReceive'/>

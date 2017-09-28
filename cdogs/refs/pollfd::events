@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/sys/poll.h' l='42' type='short'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='539' u='w' c='enet_socket_wait'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='542' u='w' c='enet_socket_wait'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='545' u='w' c='enet_socket_wait'/>
+<offset>32</offset>
+<doc f='include/x86_64-linux-gnu/sys/poll.h' l='42'>/* Types of events poller cares about.  */</doc>

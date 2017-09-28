@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='605' type='int Mix_SetSynchroValue(int value)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='604'>/* Synchro value is set by MikMod from modules while playing */</doc>

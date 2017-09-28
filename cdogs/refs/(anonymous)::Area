@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/font.h' l='60' type='Vec2i'/>
+<use f='codebrowser/src/briefing_screens.c' l='119' u='w' c='CampaignIntroDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='177' u='w' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='188' u='w' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='584' u='w' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='585' u='m' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='607' u='w' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='619' u='w' c='MissionSummaryMenuDraw'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/font.c' l='297' u='m' c='GetStrPos'/>
+<use f='codebrowser/src/cdogs/font.c' l='298' u='m' c='GetStrPos'/>
+<use f='codebrowser/src/cdogs/font.c' l='326' u='w' c='FontStrCenter'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='60' u='w' c='FPSCounterDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='116' u='w' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='218' u='w' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='427' u='w' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='742' u='w' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='940' u='w' c='DrawMissionTime'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='276' u='w' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='66' u='w' c='WallClockDraw'/>
+<use f='codebrowser/src/mainmenu.c' l='352' u='w' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='272' u='w' c='ShowControls'/>
+<use f='codebrowser/src/menu.c' l='599' u='w' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='631' u='w' c='MenuDisplayItems'/>
+<use f='codebrowser/src/password.c' l='303' u='w' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/screens_end.c' l='386' u='w' c='VictoryDraw'/>

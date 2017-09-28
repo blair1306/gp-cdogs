@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='161' type='void RelPathFromCWD(char * buf, const char * to)'/>
+<use f='codebrowser/src/autosave.c' l='85' u='c' c='AddCampaignNode'/>
+<use f='codebrowser/src/autosave.c' l='220' u='c' c='AutosaveFindMission'/>
+<def f='codebrowser/src/cdogs/utils.c' l='328' ll='345' type='void RelPathFromCWD(char * buf, const char * to)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1495' type='int nk_checkbox_flags_label(struct nk_context * , const char * , unsigned int * flags, unsigned int value)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20382' ll='20384' macro='1' type='int nk_checkbox_flags_label(struct nk_context * ctx, const char * label, unsigned int * flags, unsigned int value)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='783' u='c' c='DrawFlag'/>

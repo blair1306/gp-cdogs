@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='292' type='enet_uint32'/>
+<offset>1280</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='246' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='49' u='w' c='enet_peer_throttle_configure'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='81' u='r' c='enet_peer_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='82' u='r' c='enet_peer_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='401' u='w' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='328' u='w' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='416' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='792' u='w' c='enet_protocol_handle_throttle_configure'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='929' u='r' c='enet_protocol_handle_verify_connect'/>

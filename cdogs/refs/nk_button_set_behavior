@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1481' type='void nk_button_set_behavior(struct nk_context * , enum nk_button_behavior )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19917' ll='19923' macro='1' type='void nk_button_set_behavior(struct nk_context * ctx, enum nk_button_behavior behavior)'/>

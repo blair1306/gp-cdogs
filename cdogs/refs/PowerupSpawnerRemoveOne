@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/powerup.h' l='49' type='void PowerupSpawnerRemoveOne(PowerupSpawner * p)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='257' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='281' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/powerup.c' l='127' ll='130' type='void PowerupSpawnerRemoveOne(PowerupSpawner * p)'/>

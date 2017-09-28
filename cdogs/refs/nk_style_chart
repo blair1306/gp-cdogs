@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3201' ll='3212'/>
+<size>64</size>
+<mbr r='nk_style_chart::background' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_chart::border_color' o='256' t='struct nk_color'/>
+<mbr r='nk_style_chart::selected_color' o='288' t='struct nk_color'/>
+<mbr r='nk_style_chart::color' o='320' t='struct nk_color'/>
+<mbr r='nk_style_chart::border' o='352' t='float'/>
+<mbr r='nk_style_chart::rounding' o='384' t='float'/>
+<mbr r='nk_style_chart::padding' o='416' t='struct nk_vec2'/>

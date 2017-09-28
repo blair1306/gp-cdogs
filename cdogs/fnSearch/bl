@@ -1,0 +1,9 @@
+Blit|Blit
+BlitBackground|BlitBackground
+BlitBlend|BlitBlend
+BlitCharMultichannel|BlitCharMultichannel
+BlitClearBuf|BlitClearBuf
+BlitFlip|BlitFlip
+BlitMasked|BlitMasked
+BlitPicHighlight|BlitPicHighlight
+BlitUpdateFromBuf|BlitUpdateFromBuf

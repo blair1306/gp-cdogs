@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='36'/>
+<use f='codebrowser/src/cdogs.c' l='145' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1319' u='c'/>
+<use f='codebrowser/src/menu.c' l='1353' u='c'/>
+<use f='codebrowser/src/prep.c' l='676' u='c'/>

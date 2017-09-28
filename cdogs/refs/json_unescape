@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/json/json.h' l='297' type='char * json_unescape(const char * text)'/>
+<doc f='codebrowser/src/json/json.h' l='290'>/**
+ * Outputs a new UTF-8 c-string which has all escaped characters replaced by
+ * their unescaped, UTF-8 encoded variants.
+ *
+ * @param test a UTF-8 c-string
+ * @return a newly allocated UTF-8 c-string; free with free()
+ */</doc>
+<use f='codebrowser/src/cdogs/cpic.c' l='134' u='c' c='LoadNormal'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='129' u='c' c='LoadStr'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='133' u='c' c='GetString'/>
+<def f='codebrowser/src/json/json.c' l='1216' ll='1369' type='char * json_unescape(const char * text)'/>

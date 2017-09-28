@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/char_sprites.h' l='57' type='void CharSpriteClassesLoadDir(map_t classes, const char * path)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='60' u='c' c='CharSpriteClassesInit'/>
+<def f='codebrowser/src/cdogs/draw/char_sprites.c' l='64' ll='103' type='void CharSpriteClassesLoadDir(map_t classes, const char * path)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='209' u='c' c='LoadArchivePics'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='461' type='int enet_initialize_with_callbacks(ENetVersion version, const ENetCallbacks * inits)'/>
+<def f='codebrowser/src/cdogs/enet/callbacks.c' l='10' ll='29' type='int enet_initialize_with_callbacks(ENetVersion version, const ENetCallbacks * inits)'/>

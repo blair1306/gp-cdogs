@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1744' type='const char * nk_style_get_color_by_name(enum nk_style_colors )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='15946' ll='15947' macro='1' type='const char * nk_style_get_color_by_name(enum nk_style_colors c)'/>

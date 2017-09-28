@@ -1,0 +1,2 @@
+<use f='codebrowser/src/cdogs/pic_manager.c' l='83' u='c' c='PicManagerAdd'/>
+<use f='codebrowser/src/command_line.c' l='151' u='c' c='ParseArgs'/>

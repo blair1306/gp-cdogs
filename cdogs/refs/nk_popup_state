@@ -1,0 +1,12 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3488' ll='3498'/>
+<size>96</size>
+<mbr r='nk_popup_state::win' o='0' t='struct nk_window *'/>
+<mbr r='nk_popup_state::type' o='64' t='enum nk_panel_type'/>
+<mbr r='nk_popup_state::buf' o='128' t='struct nk_popup_buffer'/>
+<mbr r='nk_popup_state::name' o='448' t='nk_hash'/>
+<mbr r='nk_popup_state::active' o='480' t='int'/>
+<mbr r='nk_popup_state::combo_count' o='512' t='unsigned int'/>
+<mbr r='nk_popup_state::con_count' o='544' t='unsigned int'/>
+<mbr r='nk_popup_state::con_old' o='576' t='unsigned int'/>
+<mbr r='nk_popup_state::active_con' o='608' t='unsigned int'/>
+<mbr r='nk_popup_state::header' o='640' t='struct nk_rect'/>

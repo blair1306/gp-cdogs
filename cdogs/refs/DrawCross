@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='80' type='void DrawCross(GraphicsDevice * device, int x, int y, color_t color)'/>
+<doc f='codebrowser/src/cdogs/draw/drawtools.h' l='77'>//  *
+// ***
+//  *</doc>
+<use f='codebrowser/src/cdogs/automap.c' l='112' u='c' c='DisplayObjective'/>
+<def f='codebrowser/src/cdogs/draw/drawtools.c' l='246' ll='257' type='void DrawCross(GraphicsDevice * device, int x, int y, color_t color)'/>

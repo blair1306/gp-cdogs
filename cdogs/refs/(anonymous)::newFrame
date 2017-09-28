@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='59' type='_Bool'/>
+<offset>616</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='177' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/animation.c' l='68' u='w' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='72' u='w' c='AnimationUpdate'/>

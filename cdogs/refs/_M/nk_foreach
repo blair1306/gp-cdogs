@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='925'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8476' u='c'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='921'>/*  nk_foreach - Iterates over each draw command inside the context draw command list
+ *  Parameters:
+ *      @ctx must point to an previously initialized `nk_context` struct at the end of a frame
+ *      @cmd pointer initialized to NULL */</doc>

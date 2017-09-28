@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3444' type='enum nk_panel_type'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17176' u='w' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17222' u='w' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17400' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17405' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17464' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17492' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17551' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17631' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18157' u='r' c='nk_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18952' u='r' c='nk_layout_row_template_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19152' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19153' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19664' u='r' c='nk_widget_fitting'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21545' u='r' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21640' u='r' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21711' u='r' c='nk_popup_close'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21781' u='w' c='nk_tooltip_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22018' u='r' c='nk_contextual_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22027' u='r' c='nk_contextual_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22662' u='r' c='nk_combo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22696' u='r' c='nk_combo_separator'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22749' u='r' c='nk_combo_callback'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='706' u='r' c='nk_combo_separator_image'/>
+<offset>0</offset>

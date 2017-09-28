@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/config.h' l='180' type='Config ConfigNewFloat(const char * name, const double defaultValue, const double minValue, const double maxValue, const double increment)'/>
+<def f='codebrowser/src/cdogs/config.c' l='239' ll='249' type='Config ConfigNewFloat(const char * name, const double defaultValue, const double minValue, const double maxValue, const double increment)'/>

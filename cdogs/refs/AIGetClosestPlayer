@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='56' type='TActor * AIGetClosestPlayer(Vec2i fullpos)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='131' u='c' c='PlaceAwayFromPlayers'/>
+<use f='codebrowser/src/cdogs/ai.c' l='94' u='c' c='IsCloseToPlayer'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='62' ll='81' type='TActor * AIGetClosestPlayer(Vec2i fullpos)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='178' u='c' c='AIGetClosestPlayerPos'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='344' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='317' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='104' u='c' c='TryPlacePickup'/>

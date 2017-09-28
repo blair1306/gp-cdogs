@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='94' type='Vec2i CPicGetSize(const CPic * p)'/>
+<def f='codebrowser/src/cdogs/cpic.c' l='178' ll='186' type='Vec2i CPicGetSize(const CPic * p)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='321' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='498' u='c' c='SetupSpawner'/>

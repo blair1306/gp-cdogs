@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_mixer.h' l='549' type='int Mix_Volume(int channel, int volume)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='544'>/* Set the volume in the range of 0-128 of a specific channel or chunk.
+   If the specified channel is -1, set volume for all channels.
+   Returns the original volume.
+   If the specified volume is -1, just return the current volume.
+*/</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='250' u='c' c='SoundReconfigure'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='414' u='c' c='GetChannel'/>

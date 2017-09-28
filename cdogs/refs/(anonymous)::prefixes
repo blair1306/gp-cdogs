@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/namegen.h' l='33' type='CArray'/>
+<use f='codebrowser/src/namegen.c' l='39' u='a' c='NameGenInit'/>
+<use f='codebrowser/src/namegen.c' l='42' u='a' c='NameGenInit'/>
+<use f='codebrowser/src/namegen.c' l='62' u='a' c='NameGenTerminate'/>
+<use f='codebrowser/src/namegen.c' l='81' u='a' c='NameGenMake'/>
+<use f='codebrowser/src/namegen.c' l='81' u='m' c='NameGenMake'/>
+<offset>0</offset>

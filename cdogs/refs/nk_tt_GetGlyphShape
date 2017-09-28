@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9173' type='int nk_tt_GetGlyphShape(const struct nk_tt_fontinfo * info, struct nk_allocator * alloc, int glyph_index, struct nk_tt_vertex ** pvertices)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='9400' ll='9622' macro='1' type='int nk_tt_GetGlyphShape(const struct nk_tt_fontinfo * info, struct nk_allocator * alloc, int glyph_index, struct nk_tt_vertex ** pvertices)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9582' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10341' u='c' c='nk_tt_MakeGlyphBitmapSubpixel'/>

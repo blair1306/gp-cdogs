@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='70' type='_Bool'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='834' u='r' c='HandleInput'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='974' u='w' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='97' u='w' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='97' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='163' u='r' c='UIObjectHighlight'/>

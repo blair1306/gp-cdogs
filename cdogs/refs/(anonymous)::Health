@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='93' type='int'/>
+<offset>832</offset>
+<dec f='codebrowser/src/cdogs/objs.h' l='70' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1043' u='r' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='264' u='r' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/map.c' l='397' u='r' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='209' u='r' c='MapObjectGetFlags'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='352' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='425' u='r' c='AddDestructibles'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='501' u='w' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='542' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='83' u='r' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='88' u='w' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='91' u='r' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='150' u='w' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='233' u='r' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='456' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='405' u='r' c='MakePlacementFlagTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='303' u='r' c='MakeMapObjectTooltip'/>

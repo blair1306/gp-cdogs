@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='46' type='int'/>
+<offset>1504</offset>
+<doc f='codebrowser/src/cdogs/pickup.h' l='45'>// For spawned pickups, the UID of the spawner (-1 otherwise)</doc>
+<use f='codebrowser/src/cdogs/net_server.c' l='528' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='103' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='221' u='r' c='PickupPickup'/>

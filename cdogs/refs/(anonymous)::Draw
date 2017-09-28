@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/algorithms.h' l='46' type='void (*)(void *, Vec2i)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/algorithms.c' l='161' u='r' c='BresenhamLineDraw'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='170' u='r' c='JMRaytraceLineDraw'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='301' u='w' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='147' u='w' c='DrawLine'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='353' u='w' c='CheckCorridorsAroundTile'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='88' u='w' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='239' u='w' c='EditorBrushPaintLine'/>

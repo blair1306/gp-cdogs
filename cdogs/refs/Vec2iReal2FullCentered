@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='62' type='Vec2i Vec2iReal2FullCentered(const Vec2i v)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='867' u='c' c='GotoObjective'/>
+<def f='codebrowser/src/cdogs/vector.c' l='136' ll='140' type='Vec2i Vec2iReal2FullCentered(const Vec2i v)'/>

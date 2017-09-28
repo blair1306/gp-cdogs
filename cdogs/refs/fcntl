@@ -1,0 +1,8 @@
+<dec f='include/fcntl.h' l='146' type='int fcntl(int __fd, int __cmd)'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='312' u='c' c='enet_socket_set_option'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='312' u='c' c='enet_socket_set_option'/>
+<doc f='include/fcntl.h' l='141'>/* Do the file control operation described by CMD on FD.
+   The remaining arguments are interpreted depending on CMD.
+
+   This function is a cancellation point and therefore not marked with
+   __THROW.  */</doc>

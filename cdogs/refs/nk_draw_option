@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13934' ll='13975' macro='1' type='void nk_draw_option(struct nk_command_buffer * out, nk_flags state, const struct nk_style_toggle * style, int active, const struct nk_rect * label, const struct nk_rect * selector, const struct nk_rect * cursors, const char * string, int len, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14033' u='c' c='nk_do_toggle'/>

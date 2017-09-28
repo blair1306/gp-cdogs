@@ -1,0 +1,10 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2731' ll='2740'/>
+<size>84</size>
+<mbr r='nk_mouse::buttons' o='0' t='struct nk_mouse_button [3]'/>
+<mbr r='nk_mouse::pos' o='384' t='struct nk_vec2'/>
+<mbr r='nk_mouse::prev' o='448' t='struct nk_vec2'/>
+<mbr r='nk_mouse::delta' o='512' t='struct nk_vec2'/>
+<mbr r='nk_mouse::scroll_delta' o='576' t='struct nk_vec2'/>
+<mbr r='nk_mouse::grab' o='640' t='unsigned char'/>
+<mbr r='nk_mouse::grabbed' o='648' t='unsigned char'/>
+<mbr r='nk_mouse::ungrab' o='656' t='unsigned char'/>

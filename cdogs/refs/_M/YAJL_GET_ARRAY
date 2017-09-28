@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='186'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='127' u='c'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='130' u='c'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='164' u='c'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='182' u='c'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='185'>/** Get a pointer to a yajl_val_array or NULL if the value is not an object. */</doc>
+<use f='codebrowser/src/cdogs/font_utils.c' l='51' u='c'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='53' u='c'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='54' u='c'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='55' u='c'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='56' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='495' u='c'/>

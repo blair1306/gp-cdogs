@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='15495' ll='15513' macro='1' type='void nk_property_behavior(nk_flags * ws, const struct nk_input * in, struct nk_rect property, struct nk_rect label, struct nk_rect edit, struct nk_rect empty, int * state, struct nk_property_variant * variant, float inc_per_pixel)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15638' u='c' c='nk_do_property'/>

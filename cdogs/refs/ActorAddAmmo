@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='182' type='void ActorAddAmmo(TActor * actor, const int ammoId, const int amount)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='561' ll='567' type='void ActorAddAmmo(TActor * actor, const int ammoId, const int amount)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='276' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='308' u='c' c='HandleGameEvent'/>

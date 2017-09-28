@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1638' type='int nk_combo_begin_image(struct nk_context * , struct nk_image img, struct nk_vec2 size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22440' ll='22516' macro='1' type='int nk_combo_begin_image(struct nk_context * ctx, struct nk_image img, struct nk_vec2 size)'/>

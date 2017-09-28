@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3537' type='struct nk_property_state'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17647' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17647' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17647' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17648' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17648' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17649' u='a' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17649' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17651' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17651' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17652' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17652' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17653' u='m' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20792' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20797' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20797' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20798' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20799' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20800' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20801' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20815' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20817' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20818' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20819' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20820' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20821' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20822' u='m' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20836' u='m' c='nk_property'/>
+<offset>1440</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3536'>/* persistent widget state */</doc>

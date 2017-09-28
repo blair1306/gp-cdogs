@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='50' type='void CArrayFill(CArray * a, const void * elem)'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='156' ll='161' type='void CArrayFill(CArray * a, const void * elem)'/>
+<doc f='codebrowser/src/cdogs/c_array.c' l='155'>// Fill all entries with the same element</doc>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='62' type='int AIReverseDirection(int cmd)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='404' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='469' u='c' c='GetCmd'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='189' ll='200' type='int AIReverseDirection(int cmd)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='598' u='c' c='AIHunt'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='627' u='c' c='AIRetreatFrom'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='48' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='93' u='w' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='97' u='w' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='133' u='r' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='143' u='w' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='143' u='r' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='161' u='r' c='NumPopupUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='163' u='w' c='NumPopupUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='213' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='240' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='263' u='r' c='DrawNumUpdate'/>

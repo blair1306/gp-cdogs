@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_color.h' l='37' type='UIObject * CreateColorPicker(const Vec2i pos, void * data, ColorPickerGetFunc getFunc, ColorPickerChangeFunc changeFunc)'/>
+<def f='codebrowser/src/cdogsed/editor_ui_color.c' l='60' ll='134' type='UIObject * CreateColorPicker(const Vec2i pos, void * data, ColorPickerGetFunc getFunc, ColorPickerChangeFunc changeFunc)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='215' u='c' c='CreateColorObjs'/>
+<doc f='codebrowser/src/cdogsed/editor_ui_color.c' l='59'>// Create a colour picker using the C-Dogs palette</doc>

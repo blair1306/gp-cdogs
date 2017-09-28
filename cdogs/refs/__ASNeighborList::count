@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/AStar.c' l='42' type='size_t'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='418' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='423' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='424' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='425' u='w' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='468' u='w' c='ASPathCreate'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='471' u='r' c='ASPathCreate'/>
+<offset>128</offset>

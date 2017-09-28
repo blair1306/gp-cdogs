@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='65' type='7'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='70' c='PlacementFlagStr'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='83' u='r' c='StrPlacementFlag'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='209' u='r' c='MapObjectGetFlags'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='561' u='r' c='MapObjectIsTileOK'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='618' u='r' c='MapObjectGetPlacementPos'/>

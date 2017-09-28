@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/config.h' l='171' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/config.h' l='171'>// of Config</doc>
+<use f='codebrowser/src/cdogs/config.c' l='272' u='a' c='ConfigNewGroup'/>
+<use f='codebrowser/src/cdogs/config.c' l='292' u='m' c='ConfigDestroy'/>
+<use f='codebrowser/src/cdogs/config.c' l='292' u='a' c='ConfigDestroy'/>
+<use f='codebrowser/src/cdogs/config.c' l='295' u='a' c='ConfigDestroy'/>
+<use f='codebrowser/src/cdogs/config.c' l='302' u='a' c='ConfigGroupAdd'/>
+<use f='codebrowser/src/cdogs/config.c' l='328' u='m' c='ConfigGet'/>
+<use f='codebrowser/src/cdogs/config.c' l='328' u='a' c='ConfigGet'/>
+<use f='codebrowser/src/cdogs/config.c' l='363' u='m' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='363' u='a' c='ConfigChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='400' u='m' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='400' u='a' c='ConfigResetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='434' u='m' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='434' u='a' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config.c' l='468' u='m' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='468' u='a' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='512' u='a' c='ConfigGetGroup'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='163' u='m' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='163' u='a' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='243' u='m' c='ConfigSaveVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='243' u='a' c='ConfigSaveVisit'/>
+<use f='codebrowser/src/command_line.c' l='265' u='m' c='PrintConfig'/>
+<use f='codebrowser/src/command_line.c' l='265' u='a' c='PrintConfig'/>
+<use f='codebrowser/src/menu.c' l='407' u='m' c='MenuCreateConfigOptions'/>
+<use f='codebrowser/src/menu.c' l='407' u='a' c='MenuCreateConfigOptions'/>

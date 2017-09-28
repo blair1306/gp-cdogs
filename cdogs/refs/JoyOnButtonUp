@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='66' type='void JoyOnButtonUp(const SDL_ControllerButtonEvent e)'/>
+<use f='codebrowser/src/cdogs/events.c' l='139' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='220' ll='224' type='void JoyOnButtonUp(const SDL_ControllerButtonEvent e)'/>

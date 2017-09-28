@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/game_loop.h' l='79' type='void LoopRunnerPush(LoopRunner * l, GameLoopData * newData)'/>
+<use f='codebrowser/src/cdogs.c' l='271' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='280' u='c' c='main'/>
+<use f='codebrowser/src/game_loop.c' l='153' u='c' c='LoopRunnerNew'/>
+<use f='codebrowser/src/game_loop.c' l='348' u='c' c='LoopRunnerChange'/>
+<def f='codebrowser/src/game_loop.c' l='350' ll='354' type='void LoopRunnerPush(LoopRunner * l, GameLoopData * newData)'/>
+<use f='codebrowser/src/hiscores.c' l='131' u='c' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/hiscores.c' l='135' u='c' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/mainmenu.c' l='163' u='c' c='MainMenuUpdate'/>
+<use f='codebrowser/src/mainmenu.c' l='172' u='c' c='MainMenuUpdate'/>
+<use f='codebrowser/src/mainmenu.c' l='473' u='c' c='JoinLANGame'/>
+<use f='codebrowser/src/password.c' l='441' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/prep.c' l='712' u='c' c='GameOptionsUpdate'/>

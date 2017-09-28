@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='46' type='64'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='195' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='508' u='r' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='546' u='r' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='640' u='r' c='enet_peer_setup_outgoing_command'/>

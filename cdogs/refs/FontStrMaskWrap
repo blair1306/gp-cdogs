@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/font.h' l='86' type='Vec2i FontStrMaskWrap(const char * s, Vec2i pos, color_t mask, const int width)'/>
+<def f='codebrowser/src/cdogs/font.c' l='273' ll='279' type='Vec2i FontStrMaskWrap(const char * s, Vec2i pos, color_t mask, const int width)'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='400' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='424' u='c' c='UIObjectDrawAndAddChildren'/>

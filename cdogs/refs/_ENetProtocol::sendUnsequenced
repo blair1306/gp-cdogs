@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='187' type='ENetProtocolSendUnsequenced'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='196' u='m' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='669' u='m' c='enet_peer_setup_outgoing_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='456' u='m' c='enet_protocol_handle_send_unsequenced'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='463' u='m' c='enet_protocol_handle_send_unsequenced'/>

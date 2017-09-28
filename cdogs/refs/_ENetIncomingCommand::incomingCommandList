@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='182' type='ENetListNode'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='281' u='a' c='enet_peer_remove_incoming_commands'/>

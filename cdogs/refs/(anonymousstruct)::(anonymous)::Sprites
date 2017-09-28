@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='62' type='const CArray *'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/cpic.h' l='62'>// of Pic</doc>
+<use f='codebrowser/src/cdogs/cpic.c' l='96' u='w' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='168' u='r' c='CPicIsLoaded'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='197' u='w' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='197' u='r' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='201' u='r' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='259' u='r' c='CPicGetPic'/>
+<use f='codebrowser/src/cdogs/particle.c' l='134' u='w' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='153' u='r' c='LoadParticleClass'/>

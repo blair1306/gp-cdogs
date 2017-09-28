@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='184' type='const char * InputDeviceName(const int d, const int deviceIndex)'/>
+<def f='codebrowser/src/cdogs/utils.c' l='391' ll='406' type='const char * InputDeviceName(const int d, const int deviceIndex)'/>
+<use f='codebrowser/src/menu_utils.c' l='114' u='c' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='132' u='c' c='MenuDisplayPlayerControls'/>

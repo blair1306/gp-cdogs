@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='236' type='int'/>
+<offset>1184</offset>
+<doc f='codebrowser/src/tests/cbehave/cbehave.h' l='236'>/* 1: always return the same value; 0(default) */</doc>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='315' u='r' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='386' u='w' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='391' u='w' c='add_value'/>

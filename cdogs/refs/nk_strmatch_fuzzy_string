@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1865' type='int nk_strmatch_fuzzy_string(const char * str, const char * pattern, int * out_score)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4564' ll='4566' macro='1' type='int nk_strmatch_fuzzy_string(const char * str, const char * pattern, int * out_score)'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1383' type='void nk_tree_pop(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19475' ll='19477' macro='1' type='void nk_tree_pop(struct nk_context * ctx)'/>

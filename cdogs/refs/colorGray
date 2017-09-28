@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/color.h' l='51' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='45' type='color_t'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='102' u='a' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='470' u='r' c='Open'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='625' u='r' c='DrawStyleArea'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='410' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='438' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/mainmenu.c' l='389' u='r' c='MenuCreateCampaignItem'/>

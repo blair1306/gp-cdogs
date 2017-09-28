@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu.h' l='149' type='_Bool'/>
+<offset>768</offset>
+<use f='codebrowser/src/menu.c' l='334' u='w' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='741' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='956' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='1045' u='r' c='MenuProcessButtonCmd'/>
+<use f='codebrowser/src/weapon_menu.c' l='204' u='w' c='WeaponMenuCreate'/>

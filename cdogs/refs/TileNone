@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='154' type='Tile TileNone()'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='118' u='c' c='DrawBufferSetFromMap'/>
+<def f='codebrowser/src/cdogs/tile.c' l='57' ll='63' type='Tile TileNone()'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/actors.c' l='1386' ll='1412' type='void ActorTakeSpecialDamage(TActor * actor, special_damage_e damage)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1429' u='c' c='ActorTakeHit'/>

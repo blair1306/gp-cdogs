@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='34' ll='38'/>
+<size>144</size>
+<mbr r='nk_sdl_device::cmds' o='0' t='struct nk_buffer'/>
+<mbr r='nk_sdl_device::null' o='960' t='struct nk_draw_null_texture'/>
+<mbr r='nk_sdl_device::font_tex' o='1088' t='GLuint'/>

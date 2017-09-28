@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2892' type='void nk_draw_list_path_rect_to(struct nk_draw_list * , struct nk_vec2 a, struct nk_vec2 b, float rounding)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8143' ll='8165' macro='1' type='void nk_draw_list_path_rect_to(struct nk_draw_list * list, struct nk_vec2 a, struct nk_vec2 b, float rounding)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8236' u='c' c='nk_draw_list_fill_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8247' u='c' c='nk_draw_list_stroke_rect'/>

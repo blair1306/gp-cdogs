@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='89' type='char [4096]'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='467' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='478' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='478' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='88' u='r' c='NMakeCampaignDef'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='46'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='46'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='47' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='47' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='46'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='46'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='47' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='47' u='r'/>

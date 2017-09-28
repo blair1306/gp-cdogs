@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/powerup.h' l='46' type='void PowerupSpawnerInit(PowerupSpawner * p, Map * map)'/>
+<def f='codebrowser/src/cdogs/powerup.c' l='44' ll='51' type='void PowerupSpawnerInit(PowerupSpawner * p, Map * map)'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='139' u='c' c='HealthSpawnerInit'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='189' u='c' c='AmmoSpawnerInit'/>

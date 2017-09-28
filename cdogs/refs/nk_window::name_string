@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3527' type='char [64]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17907' u='r' c='nk_find_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17908' u='r' c='nk_find_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18042' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18043' u='w' c='nk_begin_titled'/>
+<offset>64</offset>

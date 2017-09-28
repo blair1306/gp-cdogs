@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='104' type='_Bool'/>
+<offset>1544</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1089' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1098' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1129' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1198' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1402' u='w' c='CreateClassicMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1508' u='w' c='CreateClassicMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1571' u='w' c='CreateMapItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1662' u='w' c='CreateCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1692' u='w' c='CreateSpecialCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='70' u='w' c='CreateCaveMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='98' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='198' u='w' c='CreateColorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='146' u='w' c='CreateCampaignSeedObj'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='299' u='w' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='300' u='w' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='319' u='w' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='411' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='301' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='437' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='184' u='w' c='CreateWeaponObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='203' u='w' c='CreateWeaponSpecialToggleObj'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='59' u='w' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='110' u='w' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='110' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='257' u='r' c='UIObjectChange'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='321' u='r' c='UIObjectAddChar'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='350' u='r' c='UIObjectDelChar'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10142' ll='10196' macro='1' type='void nk_tt__rasterize(struct nk_tt__bitmap * result, struct nk_tt__point * pts, int * wcount, int windings, float scale_x, float scale_y, float shift_x, float shift_y, int off_x, int off_y, int invert, struct nk_allocator * alloc)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10327' u='c' c='nk_tt_Rasterize'/>

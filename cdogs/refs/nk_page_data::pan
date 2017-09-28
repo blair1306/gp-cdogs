@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3658' type='struct nk_panel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17752' u='a' c='nk_create_panel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17758' u='a' c='nk_free_panel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17758' u='a' c='nk_free_panel'/>
+<offset>0</offset>

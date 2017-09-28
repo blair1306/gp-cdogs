@@ -1,0 +1,2 @@
+<dec f='include/x86_64-linux-gnu/sys/stat.h' l='131'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='483' u='c'/>

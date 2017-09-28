@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='159' type='Vec2i MapGenerateFreePosition(Map * map, Vec2i size)'/>
+<def f='codebrowser/src/cdogs/map.c' l='454' ll='465' type='Vec2i MapGenerateFreePosition(Map * map, Vec2i size)'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='102' u='c' c='TryPlacePickup'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='117' u='c' c='TryPlacePickup'/>

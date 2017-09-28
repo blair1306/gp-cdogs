@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/screen_shake.h' l='40' type='ScreenShake ScreenShakeAdd(ScreenShake s, int force, int multiplier)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='165' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/screen_shake.c' l='47' ll='55' type='ScreenShake ScreenShakeAdd(ScreenShake s, int force, int multiplier)'/>

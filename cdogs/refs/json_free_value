@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/json/json.h' l='228' type='void json_free_value(json_t ** value)'/>
+<use f='codebrowser/src/autosave.c' l='164' u='c' c='AutosaveLoad'/>
+<use f='codebrowser/src/autosave.c' l='196' u='c' c='AutosaveSave'/>
+<doc f='codebrowser/src/json/json.h' l='224'>/**
+Frees the memory appointed to the value fed as the parameter, as well as all the child nodes
+@param value the root node of the tree being freed
+**/</doc>
+<use f='codebrowser/src/cdogs/ammo.c' l='101' u='c' c='AmmoInitialize'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='797' u='c' c='BulletLoadWeapons'/>
+<use f='codebrowser/src/cdogs/character.c' l='187' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='146' u='c' c='CharacterClassesInitialize'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='103' u='c' c='ConfigLoadJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='199' u='c' c='ConfigSaveJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='278' u='c' c='ConfigGetJSONVersion'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='62' u='c' c='MapNewScanArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='87' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='118' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='126' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='160' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='170' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='297' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='314' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='80' u='c' c='MapNewScan'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='168' u='c' c='MapNewLoad'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='253' u='c' c='MapObjectsInit'/>
+<use f='codebrowser/src/cdogs/particle.c' l='81' u='c' c='ParticleClassesInit'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='201' u='c' c='PickupClassesInit'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='113' u='c' c='PlayerTemplatesLoad'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='173' u='c' c='SavePlayerTemplates'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='662' u='c' c='BulletAndWeaponInitialize'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='664' u='c' c='BulletAndWeaponInitialize'/>
+<use f='codebrowser/src/json/json.c' l='214' u='c' c='json_stream_parse'/>
+<def f='codebrowser/src/json/json.c' l='435' ll='464' type='void json_free_value(json_t ** value)'/>
+<use f='codebrowser/src/tests/json_test.c' l='52' u='c' c='_cbehave_feature_json_format_string'/>
+<use f='codebrowser/src/tests/json_test.c' l='53' u='c' c='_cbehave_feature_json_format_string'/>

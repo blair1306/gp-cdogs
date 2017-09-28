@@ -1,0 +1,1 @@
+<dec f='include/SDL2/SDL_mixer.h' l='540' type='int Mix_FadeInMusicPos(Mix_Music * music, int loops, int ms, double position)'/>

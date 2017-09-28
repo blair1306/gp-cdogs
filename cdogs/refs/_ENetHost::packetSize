@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='374' type='size_t'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1274' u='r' c='enet_protocol_send_acknowledgements'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1288' u='w' c='enet_protocol_send_acknowledgements'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1331' u='r' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1333' u='r' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1379' u='w' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1392' u='w' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1525' u='r' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1527' u='r' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1561' u='w' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1573' u='w' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1614' u='w' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1634' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1689' u='r' c='enet_protocol_send_outgoing_commands'/>

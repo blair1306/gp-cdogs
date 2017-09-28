@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='100' type='yajl_object_s'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='157' macro='1' u='a'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='77' u='m' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='79' u='m' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='80' u='m' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='81' u='m' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='82' u='m' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='85' u='m' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='86' u='m' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='167' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='167' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='167' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='170' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='172' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='172' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='172' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='175' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='177' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='177' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='178' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='178' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='179' u='m' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='335' u='m' c='handle_start_map'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='336' u='m' c='handle_start_map'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='337' u='m' c='handle_start_map'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='463' u='m' c='yajl_tree_get'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='465' u='m' c='yajl_tree_get'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='466' u='m' c='yajl_tree_get'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='491' macro='1' u='a'/>

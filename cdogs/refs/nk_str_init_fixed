@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2300' type='void nk_str_init_fixed(struct nk_str * , void * memory, nk_size size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6348' ll='6353' macro='1' type='void nk_str_init_fixed(struct nk_str * str, void * memory, nk_size size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13326' u='c' c='nk_textedit_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20622' u='c' c='nk_edit_string'/>

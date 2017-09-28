@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='151' type='Emitter'/>
+<offset>4352</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1258' u='a' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1487' u='a' c='ActorAddBloodSplatters'/>

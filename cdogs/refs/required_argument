@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/XGetopt.h' l='93' type='1'/>
+<use f='codebrowser/src/XGetopt.c' l='215' c='lookup_longopt'/>
+<doc f='codebrowser/src/XGetopt.h' l='92'>/** an argument is required with this option */</doc>
+<use f='codebrowser/src/command_line.c' l='128' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='128' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='129' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='129' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='130' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='130' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='131' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='131' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='133' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='133' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='134' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='134' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='128' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='128' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='129' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='129' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='130' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='130' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='131' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='131' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='133' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='133' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='134' u='r' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='134' u='r' c='ParseArgs'/>

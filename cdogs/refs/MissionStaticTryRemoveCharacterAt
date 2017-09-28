@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='41' type='_Bool MissionStaticTryRemoveCharacterAt(Mission * m, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='338' u='c' c='MissionStaticTryAddCharacter'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='366' ll='385' macro='1' type='_Bool MissionStaticTryRemoveCharacterAt(Mission * m, Vec2i pos)'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='379' u='c' c='EditorBrushStartPainting'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='67' type='int Vec2iSqrMagnitude(const Vec2i v)'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='357' u='c' c='SoundPlayAtPosition'/>
+<def f='codebrowser/src/cdogs/vector.c' l='153' ll='156' type='int Vec2iSqrMagnitude(const Vec2i v)'/>
+<use f='codebrowser/src/cdogs/vector.c' l='161' u='c' c='DistanceSquared'/>

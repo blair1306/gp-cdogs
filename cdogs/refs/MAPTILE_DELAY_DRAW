@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='81' type='128'/>
+<doc f='codebrowser/src/cdogs/tile.h' l='80'>// These constants are used internally in draw, it is never set in the map</doc>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='230' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='142' u='r' c='DrawBufferFix'/>

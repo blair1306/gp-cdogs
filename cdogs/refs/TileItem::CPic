@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='129' type='CPic'/>
+<offset>640</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='100' u='a' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='910' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='302' u='a' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/objs.c' l='74' u='a' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/objs.c' l='461' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/tile.c' l='130' u='a' c='TileItemUpdate'/>

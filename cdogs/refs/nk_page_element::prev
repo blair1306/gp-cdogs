@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3665' type='struct nk_page_element *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17707' u='w' c='nk_create_page_element'/>
+<offset>3968</offset>

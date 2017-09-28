@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='113' type='_Bool'/>
+<offset>912</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='113' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='486' u='r' c='CheckPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='750' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='757' u='w' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='763' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='770' u='w' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='239' u='w' c='HandleGameEvent'/>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_alloc.h source code [codebrowser/src/cdogs/yajl/yajl_alloc.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl_alloc.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl_alloc.h.html'>yajl_alloc.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> *<span class="command"> \file</span> yajl_alloc.h</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> * default memory allocation routines for yajl which use malloc/realloc and</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> * free</i></td></tr>
+<tr><th id="21">21</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><u>#<span data-ppcond="23">ifndef</span> <span class="macro" data-ref="_M/__YAJL_ALLOC_H__">__YAJL_ALLOC_H__</span></u></td></tr>
+<tr><th id="24">24</th><td><u>#define <dfn class="macro" id="_M/__YAJL_ALLOC_H__" data-ref="_M/__YAJL_ALLOC_H__">__YAJL_ALLOC_H__</dfn></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#include <a href="api/yajl_common.h.html">"api/yajl_common.h"</a></u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><u>#define <dfn class="macro" id="_M/YA_MALLOC" data-ref="_M/YA_MALLOC">YA_MALLOC</dfn>(afs, sz) (afs)-&gt;malloc((afs)-&gt;ctx, (sz))</u></td></tr>
+<tr><th id="29">29</th><td><u>#define <dfn class="macro" id="_M/YA_FREE" data-ref="_M/YA_FREE">YA_FREE</dfn>(afs, ptr) (afs)-&gt;free((afs)-&gt;ctx, (ptr))</u></td></tr>
+<tr><th id="30">30</th><td><u>#define <dfn class="macro" id="_M/YA_REALLOC" data-ref="_M/YA_REALLOC">YA_REALLOC</dfn>(afs, ptr, sz) (afs)-&gt;realloc((afs)-&gt;ctx, (ptr), (sz))</u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><em>void</em> <dfn class="decl" id="yajl_set_default_alloc_funcs" title='yajl_set_default_alloc_funcs' data-ref="yajl_set_default_alloc_funcs">yajl_set_default_alloc_funcs</dfn>(<a class="typedef" href="../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> * <dfn class="local col5 decl" id="65yaf" title='yaf' data-type='yajl_alloc_funcs *' data-ref="65yaf">yaf</dfn>);</td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="23">endif</span></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='yajl.c.html'>codebrowser/src/cdogs/yajl/yajl.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

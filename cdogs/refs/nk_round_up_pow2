@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3992' ll='4003' macro='1' type='nk_uint nk_round_up_pow2(nk_uint v)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6201' u='c' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6201' u='c' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10955' u='c' c='nk_font_bake_pack'/>

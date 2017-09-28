@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='98' type='int'/>
+<dec f='codebrowser/src/cdogs/objective.h' l='84' type='int'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/map_object.h' l='97'>// Bit field composed of bits shifted by PlacementFlags</doc>
+<use f='codebrowser/src/cdogs/automap.c' l='286' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/automap.c' l='288' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='89' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='93' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/files.c' l='363' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='513' u='r' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='517' u='r' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='964' u='r' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/map.c' l='387' u='r' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/map.c' l='432' u='r' c='MapTryPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map.c' l='433' u='r' c='MapTryPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map.c' l='472' u='r' c='MapTryPlaceBlowup'/>
+<use f='codebrowser/src/cdogs/map.c' l='473' u='r' c='MapTryPlaceBlowup'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='595' u='r' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='209' u='r' c='MapObjectGetFlags'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='363' u='w' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='561' u='r' c='MapObjectIsTileOK'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='582' u='r' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='586' u='r' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='590' u='r' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='594' u='r' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='598' u='r' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='602' u='r' c='MapObjectIsTileOKStrict'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='618' u='r' c='MapObjectGetPlacementPos'/>
+<use f='codebrowser/src/cdogs/objective.c' l='144' u='a' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='368' u='r' c='MakePlacementFlagTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='377' u='r' c='MakePlacementFlagTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='164' u='r' c='MissionGetObjectiveFlags'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='249' u='w' c='MissionChangeObjectiveFlags'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='249' u='r' c='MissionChangeObjectiveFlags'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='249' u='r' c='MissionChangeObjectiveFlags'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='249' u='r' c='MissionChangeObjectiveFlags'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='92' type='void CPicLoadNormal(CPic * p, json_t * node)'/>
+<def f='codebrowser/src/cdogs/cpic.c' l='124' ll='130' type='void CPicLoadNormal(CPic * p, json_t * node)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='305' u='c' c='TryLoadMapObject'/>

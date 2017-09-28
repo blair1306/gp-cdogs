@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pics.h' l='79' type='const char * IntRoomStyle(const int i)'/>
+<use f='codebrowser/src/cdogs/files.c' l='376' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='214' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='108' u='c' c='MissionInit'/>
+<def f='codebrowser/src/cdogs/pics.c' l='57' ll='64' type='const char * IntRoomStyle(const int i)'/>
+<doc f='codebrowser/src/cdogs/pics.c' l='56'>// Note: room styles subtly different from floor styles</doc>

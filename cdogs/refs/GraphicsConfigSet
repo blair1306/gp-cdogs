@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='111' type='void GraphicsConfigSet(GraphicsConfig * c, const Vec2i res, const _Bool fullscreen, const int scaleFactor, const ScaleMode scaleMode, const int brightness)'/>
+<use f='codebrowser/src/cdogs/events.c' l='180' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/grafx.c' l='401' ll='421' type='void GraphicsConfigSet(GraphicsConfig * c, const Vec2i res, const _Bool fullscreen, const int scaleFactor, const ScaleMode scaleMode, const int brightness)'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='425' u='c' c='GraphicsConfigSetFromConfig'/>

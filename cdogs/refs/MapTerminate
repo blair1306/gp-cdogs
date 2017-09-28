@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map.h' l='133' type='void MapTerminate(Map * map)'/>
+<use f='codebrowser/src/cdogs.c' l='288' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/map.c' l='599' ll='618' type='void MapTerminate(Map * map)'/>
+<use f='codebrowser/src/cdogs/map.c' l='622' u='c' c='MapLoad'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1394' u='c' c='main'/>

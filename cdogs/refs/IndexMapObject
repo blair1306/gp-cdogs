@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='123' type='MapObject * IndexMapObject(const int i)'/>
+<doc f='codebrowser/src/cdogs/map_object.h' l='122'>// Get map object by index; used by editor</doc>
+<def f='codebrowser/src/cdogs/map_object.c' l='168' ll='179' type='MapObject * IndexMapObject(const int i)'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='279' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1213' u='c' c='InputInsert'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='244' u='c' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='306' u='c' c='CreateAddMapItemSubObjs'/>

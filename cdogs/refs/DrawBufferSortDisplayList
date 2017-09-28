@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='72' type='void DrawBufferSortDisplayList(DrawBuffer * buffer)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='207' u='c' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='282' u='c' c='DrawWallsAndThings'/>
+<def f='codebrowser/src/cdogs/draw/draw_buffer.c' l='170' ll='177' type='void DrawBufferSortDisplayList(DrawBuffer * buffer)'/>

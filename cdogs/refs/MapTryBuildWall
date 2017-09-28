@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='70' type='_Bool MapTryBuildWall(Map * map, const unsigned short tileType, const int pad, const int wallLength)'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='339' u='c' c='MapMakeRoomWalls'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='350' ll='362' macro='1' type='_Bool MapTryBuildWall(Map * map, const unsigned short tileType, const int pad, const int wallLength)'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='140' u='c' c='MapClassicLoad'/>

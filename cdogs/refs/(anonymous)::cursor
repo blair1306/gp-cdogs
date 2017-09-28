@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='44' type='Pic *'/>
+<offset>384</offset>
+<use f='codebrowser/src/cdogs/events.c' l='173' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='46' u='w' c='MouseInit'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='198' u='r' c='MouseDraw'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='201' u='r' c='MouseDraw'/>
+<use f='codebrowser/src/game_loop.c' l='379' u='r' c='GameLoopOnEnter'/>

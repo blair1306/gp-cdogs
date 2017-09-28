@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/font.h' l='46' type='Vec2i'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogs/font.c' l='133' u='m' c='FontW'/>
+<use f='codebrowser/src/cdogs/font.c' l='137' u='m' c='FontH'/>
+<use f='codebrowser/src/cdogs/font.c' l='238' u='m' c='FontChColor'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='59' u='a' c='FontLoadFromJSON'/>

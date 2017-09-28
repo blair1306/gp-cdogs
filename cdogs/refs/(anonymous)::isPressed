@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='39' type='_Bool'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/keyboard.c' l='95' u='w' c='KeyOnKeyDown'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='107' u='w' c='KeyOnKeyUp'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='116' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='117' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='156' u='w' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='157' u='w' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='158' u='w' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='164' u='w' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='165' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='166' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='174' u='r' c='KeyIsDown'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='179' u='r' c='KeyIsPressed'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='184' u='r' c='KeyIsReleased'/>

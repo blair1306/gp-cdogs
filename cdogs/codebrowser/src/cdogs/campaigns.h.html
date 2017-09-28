@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>campaigns.h source code [codebrowser/src/cdogs/campaigns.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="campaign_list "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/campaigns.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='campaigns.h.html'>campaigns.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (c) 2013-2014, 2016-2017 Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i></i></td></tr>
+<tr><th id="11">11</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i>*/</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="campaign_entry.h.html">"campaign_entry.h"</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="character.h.html">"character.h"</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="mission.h.html">"mission.h"</a></u></td></tr>
+<tr><th id="35">35</th><td><u>#include <a href="sys_config.h.html">"sys_config.h"</a></u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="campaign_list" title='campaign_list' data-ref="campaign_list"><a class="type" href="#campaign_list" title='campaign_list' data-ref="campaign_list">campaign_list</a></dfn></td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td>	<em>char</em> *<dfn class="decl" id="campaign_list::Name" title='campaign_list::Name' data-ref="campaign_list::Name">Name</dfn>;</td></tr>
+<tr><th id="40">40</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="campaign_list::subFolders" title='campaign_list::subFolders' data-ref="campaign_list::subFolders">subFolders</dfn>;	<i>// of campaign_list_t</i></td></tr>
+<tr><th id="41">41</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="campaign_list::list" title='campaign_list::list' data-ref="campaign_list::list">list</dfn>;		<i>// of CampaignEntry</i></td></tr>
+<tr><th id="42">42</th><td>} <dfn class="typedef" id="campaign_list_t" title='campaign_list_t' data-type='struct campaign_list' data-ref="campaign_list_t">campaign_list_t</dfn>;</td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="45">45</th><td>{</td></tr>
+<tr><th id="46">46</th><td>	<a class="typedef" href="#campaign_list_t" title='campaign_list_t' data-type='struct campaign_list' data-ref="campaign_list_t">campaign_list_t</a> <dfn class="decl" id="(anonymous)::campaignList" title='(anonymous struct)::campaignList' data-ref="(anonymous)::campaignList">campaignList</dfn>;</td></tr>
+<tr><th id="47">47</th><td>	<a class="typedef" href="#campaign_list_t" title='campaign_list_t' data-type='struct campaign_list' data-ref="campaign_list_t">campaign_list_t</a> <dfn class="decl" id="(anonymous)::dogfightList" title='(anonymous struct)::dogfightList' data-ref="(anonymous)::dogfightList">dogfightList</dfn>;</td></tr>
+<tr><th id="48">48</th><td>	<a class="typedef" href="campaign_entry.h.html#CampaignEntry" title='CampaignEntry' data-type='struct CampaignEntry' data-ref="CampaignEntry">CampaignEntry</a> <dfn class="decl" id="(anonymous)::quickPlayEntry" title='(anonymous struct)::quickPlayEntry' data-ref="(anonymous)::quickPlayEntry">quickPlayEntry</dfn>;</td></tr>
+<tr><th id="49">49</th><td>} <dfn class="typedef" id="custom_campaigns_t" title='custom_campaigns_t' data-type='struct custom_campaigns_t' data-ref="custom_campaigns_t">custom_campaigns_t</dfn>;</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="52">52</th><td>{</td></tr>
+<tr><th id="53">53</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Title" title='(anonymous struct)::Title' data-ref="(anonymous)::Title">Title</dfn>;</td></tr>
+<tr><th id="54">54</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Author" title='(anonymous struct)::Author' data-ref="(anonymous)::Author">Author</dfn>;</td></tr>
+<tr><th id="55">55</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Description" title='(anonymous struct)::Description' data-ref="(anonymous)::Description">Description</dfn>;</td></tr>
+<tr><th id="56">56</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Missions" title='(anonymous struct)::Missions' data-ref="(anonymous)::Missions">Missions</dfn>;	<i>// of Mission</i></td></tr>
+<tr><th id="57">57</th><td>	<a class="typedef" href="character.h.html#CharacterStore" title='CharacterStore' data-type='struct CharacterStore' data-ref="CharacterStore">CharacterStore</a> <dfn class="decl" id="(anonymous)::characters" title='(anonymous struct)::characters' data-ref="(anonymous)::characters">characters</dfn>;</td></tr>
+<tr><th id="58">58</th><td>} <dfn class="typedef" id="CampaignSetting" title='CampaignSetting' data-type='struct CampaignSetting' data-ref="CampaignSetting">CampaignSetting</dfn>;</td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="61">61</th><td>{</td></tr>
+<tr><th id="62">62</th><td>	<a class="typedef" href="#CampaignSetting" title='CampaignSetting' data-type='struct CampaignSetting' data-ref="CampaignSetting">CampaignSetting</a> <dfn class="decl" id="(anonymous)::Setting" title='(anonymous struct)::Setting' data-ref="(anonymous)::Setting">Setting</dfn>;</td></tr>
+<tr><th id="63">63</th><td>	<a class="typedef" href="campaign_entry.h.html#CampaignEntry" title='CampaignEntry' data-type='struct CampaignEntry' data-ref="CampaignEntry">CampaignEntry</a> <dfn class="decl" id="(anonymous)::Entry" title='(anonymous struct)::Entry' data-ref="(anonymous)::Entry">Entry</dfn>;</td></tr>
+<tr><th id="64">64</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::MissionIndex" title='(anonymous struct)::MissionIndex' data-ref="(anonymous)::MissionIndex">MissionIndex</dfn>;</td></tr>
+<tr><th id="65">65</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::IsLoaded" title='(anonymous struct)::IsLoaded' data-ref="(anonymous)::IsLoaded">IsLoaded</dfn>;</td></tr>
+<tr><th id="66">66</th><td>	<i>// TODO: it may be possible to completely remove IsClient and rely on</i></td></tr>
+<tr><th id="67">67</th><td><i>	// protocol definitions</i></td></tr>
+<tr><th id="68">68</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::IsClient" title='(anonymous struct)::IsClient' data-ref="(anonymous)::IsClient">IsClient</dfn>;</td></tr>
+<tr><th id="69">69</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::IsError" title='(anonymous struct)::IsError' data-ref="(anonymous)::IsError">IsError</dfn>;</td></tr>
+<tr><th id="70">70</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::OptionsSet" title='(anonymous struct)::OptionsSet' data-ref="(anonymous)::OptionsSet">OptionsSet</dfn>;</td></tr>
+<tr><th id="71">71</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::IsComplete" title='(anonymous struct)::IsComplete' data-ref="(anonymous)::IsComplete">IsComplete</dfn>;</td></tr>
+<tr><th id="72">72</th><td>} <dfn class="typedef" id="CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</dfn>;</td></tr>
+<tr><th id="73">73</th><td><b>extern</b> <a class="typedef" href="#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> <dfn class="decl" id="gCampaign" title='gCampaign' data-ref="gCampaign">gCampaign</dfn>;</td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><em>void</em> <dfn class="decl" id="CampaignInit" title='CampaignInit' data-ref="CampaignInit">CampaignInit</dfn>(<a class="typedef" href="#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col5 decl" id="2605campaign" title='campaign' data-type='CampaignOptions *' data-ref="2605campaign">campaign</dfn>);</td></tr>
+<tr><th id="76">76</th><td><em>void</em> <dfn class="decl" id="CampaignTerminate" title='CampaignTerminate' data-ref="CampaignTerminate">CampaignTerminate</dfn>(<a class="typedef" href="#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col6 decl" id="2606campaign" title='campaign' data-type='CampaignOptions *' data-ref="2606campaign">campaign</dfn>);</td></tr>
+<tr><th id="77">77</th><td><em>void</em> <dfn class="decl" id="CampaignSettingInit" title='CampaignSettingInit' data-ref="CampaignSettingInit">CampaignSettingInit</dfn>(<a class="typedef" href="#CampaignSetting" title='CampaignSetting' data-type='struct CampaignSetting' data-ref="CampaignSetting">CampaignSetting</a> *<dfn class="local col7 decl" id="2607setting" title='setting' data-type='CampaignSetting *' data-ref="2607setting">setting</dfn>);</td></tr>
+<tr><th id="78">78</th><td><em>void</em> <dfn class="decl" id="CampaignSettingTerminate" title='CampaignSettingTerminate' data-ref="CampaignSettingTerminate">CampaignSettingTerminate</dfn>(<a class="typedef" href="#CampaignSetting" title='CampaignSetting' data-type='struct CampaignSetting' data-ref="CampaignSetting">CampaignSetting</a> *<dfn class="local col8 decl" id="2608setting" title='setting' data-type='CampaignSetting *' data-ref="2608setting">setting</dfn>);</td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td><em>void</em> <dfn class="decl" id="LoadAllCampaigns" title='LoadAllCampaigns' data-ref="LoadAllCampaigns">LoadAllCampaigns</dfn>(<a class="typedef" href="#custom_campaigns_t" title='custom_campaigns_t' data-type='struct custom_campaigns_t' data-ref="custom_campaigns_t">custom_campaigns_t</a> *<dfn class="local col9 decl" id="2609campaigns" title='campaigns' data-type='custom_campaigns_t *' data-ref="2609campaigns">campaigns</dfn>);</td></tr>
+<tr><th id="81">81</th><td><em>void</em> <dfn class="decl" id="UnloadAllCampaigns" title='UnloadAllCampaigns' data-ref="UnloadAllCampaigns">UnloadAllCampaigns</dfn>(<a class="typedef" href="#custom_campaigns_t" title='custom_campaigns_t' data-type='struct custom_campaigns_t' data-ref="custom_campaigns_t">custom_campaigns_t</a> *<dfn class="local col0 decl" id="2610campaigns" title='campaigns' data-type='custom_campaigns_t *' data-ref="2610campaigns">campaigns</dfn>);</td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><a class="typedef" href="mission.h.html#Mission" title='Mission' data-type='struct Mission' data-ref="Mission">Mission</a> *<dfn class="decl" id="CampaignGetCurrentMission" title='CampaignGetCurrentMission' data-ref="CampaignGetCurrentMission">CampaignGetCurrentMission</dfn>(<a class="typedef" href="#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col1 decl" id="2611campaign" title='campaign' data-type='CampaignOptions *' data-ref="2611campaign">campaign</dfn>);</td></tr>
+<tr><th id="84">84</th><td><em>void</em> <dfn class="decl" id="CampaignSeedRandom" title='CampaignSeedRandom' data-ref="CampaignSeedRandom">CampaignSeedRandom</dfn>(<em>const</em> <a class="typedef" href="#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col2 decl" id="2612campaign" title='campaign' data-type='const CampaignOptions *' data-ref="2612campaign">campaign</dfn>);</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><em>void</em> <dfn class="decl" id="CampaignAndMissionSetup" title='CampaignAndMissionSetup' data-ref="CampaignAndMissionSetup">CampaignAndMissionSetup</dfn>(</td></tr>
+<tr><th id="87">87</th><td>	<a class="typedef" href="#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col3 decl" id="2613campaign" title='campaign' data-type='CampaignOptions *' data-ref="2613campaign">campaign</dfn>, <b>struct</b> <a class="type" href="mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col4 decl" id="2614mo" title='mo' data-type='struct MissionOptions *' data-ref="2614mo">mo</dfn>);</td></tr>
+<tr><th id="88">88</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/hud/health_gauge.h' l='40' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/hud/health_gauge.h' l='39'>// Time to wait before updating health to match real health</doc>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='41' u='w' c='HealthGaugeInit'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='52' u='w' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='52' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='52' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='57' u='w' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='59' u='r' c='HealthGaugeUpdate'/>

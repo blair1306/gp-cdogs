@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='452' type='int enet_initialize()'/>
+<use f='codebrowser/src/cdogs.c' l='157' u='c' c='main'/>
+<use f='codebrowser/src/cdogs/enet/callbacks.c' l='28' u='c' c='enet_initialize_with_callbacks'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='71' ll='75' type='int enet_initialize()'/>

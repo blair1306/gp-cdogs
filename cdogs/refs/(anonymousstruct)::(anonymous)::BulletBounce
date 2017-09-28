@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='171' type='NBulletBounce'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='208' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='209' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='215' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='224' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='225' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='226' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='233' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='234' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='236' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='396' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='398' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='399' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='403' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='406' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='414' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='417' u='m' c='HandleGameEvent'/>

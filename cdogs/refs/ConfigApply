@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config.h' l='234' type='_Bool ConfigApply(Config * config)'/>
+<def f='codebrowser/src/cdogs/config_apply.c' l='38' ll='60' macro='1' type='_Bool ConfigApply(Config * config)'/>
+<use f='codebrowser/src/menu.c' l='1345' u='c' c='PostInputConfigApply'/>
+<use f='codebrowser/src/prep.c' l='667' u='c' c='GameOptionsUpdate'/>

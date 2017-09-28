@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='154' type='ENetPacketFreeCallback'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='154'>/**&lt; function to be called when the packet is no longer in use */</doc>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='47' u='w' c='enet_packet_create'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='62' u='r' c='enet_packet_destroy'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='63' u='r' c='enet_packet_destroy'/>

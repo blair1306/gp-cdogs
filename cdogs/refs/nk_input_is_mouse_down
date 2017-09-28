@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2766' type='int nk_input_is_mouse_down(const struct nk_input * , enum nk_buttons )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12249' ll='12254' macro='1' type='int nk_input_is_mouse_down(const struct nk_input * i, enum nk_buttons id)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13537' u='c' c='nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13541' u='c' c='nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17614' u='c' c='nk_panel_end'/>

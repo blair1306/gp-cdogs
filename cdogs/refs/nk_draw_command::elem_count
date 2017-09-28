@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2842' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7467' u='w' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7502' u='r' c='nk_draw_list_add_clip'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7517' u='r' c='nk_draw_list_push_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7560' u='w' c='nk_draw_list_alloc_elements'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='146' u='r' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='153' u='r' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='154' u='r' c='nk_sdl_render'/>
+<offset>0</offset>

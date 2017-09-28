@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='453' type='nk_byte'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5227' u='w' c='nk_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5240' u='w' c='nk_rgb_hex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5253' u='w' c='nk_rgba_hex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5264' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5264' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5264' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5265' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5265' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5265' u='r' c='nk_color_hex_rgba'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5280' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5280' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5280' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5281' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5281' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5281' u='r' c='nk_color_hex_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5306' u='w' c='nk_rgb'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5329' u='w' c='nk_rgba_u32'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5340' u='w' c='nk_rgba_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5357' u='w' c='nk_rgb_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5461' u='r' c='nk_color_u32'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5472' u='r' c='nk_color_f'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5488' u='r' c='nk_color_d'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7586' u='a' c='nk_draw_vertex_color'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='765' u='w' c='DrawCharColor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='765' u='r' c='DrawCharColor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='769' u='r' c='DrawCharColor'/>
+<offset>0</offset>

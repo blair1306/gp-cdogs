@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/config.h' l='220' type='const char * ConfigGetString(Config * c, const char * name)'/>
+<doc f='codebrowser/src/cdogs/config.h' l='216'>// Get the value of a config
+// The type must be correct
+// Note: child configs can be searched using dot-separated notation
+// e.g. Foo.Bar.Baz</doc>
+<def f='codebrowser/src/cdogs/config.c' l='478' ll='483' type='const char * ConfigGetString(Config * c, const char * name)'/>

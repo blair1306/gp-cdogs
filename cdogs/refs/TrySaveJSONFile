@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='77' type='_Bool TrySaveJSONFile(json_t * node, const char * filename)'/>
+<use f='codebrowser/src/cdogs/character.c' l='180' u='c' c='CharacterSave'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='207' ll='236' macro='1' type='_Bool TrySaveJSONFile(json_t * node, const char * filename)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='291' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='301' u='c' c='MapArchiveSave'/>

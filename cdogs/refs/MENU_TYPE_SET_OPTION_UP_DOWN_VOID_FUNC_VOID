@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='69' type='7'/>
+<doc f='codebrowser/src/menu.h' l='69'>// set option using up/down functions</doc>
+<use f='codebrowser/src/menu.c' l='510' u='r' c='MenuCreateOptionUpDownFunc'/>
+<use f='codebrowser/src/menu.c' l='776' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1285' c='MenuActivate'/>

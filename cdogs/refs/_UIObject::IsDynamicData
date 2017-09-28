@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='97' type='int'/>
+<offset>1344</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='963' u='w' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1170' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1579' u='w' c='CreateMapItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1668' u='w' c='CreateCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1698' u='w' c='CreateSpecialCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='65' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='75' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='114' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='205' u='w' c='CreateColorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='227' u='w' c='CreateAddMapItemObjsImpl'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='247' u='w' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='308' u='w' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='270' u='w' c='CreateObjectivesObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='308' u='w' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='323' u='w' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='344' u='w' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='356' u='w' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='367' u='w' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='416' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='427' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='437' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='451' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='453' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='474' u='w' c='CreateSetKeyObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='341' u='w' c='CreateAddCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='380' u='w' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='406' u='w' c='CreateAddObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='510' u='w' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='543' u='w' c='CreateAddKeyObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='205' u='w' c='CreateWeaponSpecialToggleObj'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='223' u='w' c='CreateWeaponToggleObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='105' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='105' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='106' u='w' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='130' u='r' c='UIObjectDestroy'/>

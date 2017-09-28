@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='67' type='void NetServerPoll(NetServer * n)'/>
+<doc f='codebrowser/src/cdogs/net_server.h' l='66'>// Service the recv buffer; if data is received then activate this device</doc>
+<def f='codebrowser/src/cdogs/net_server.c' l='162' ll='213' type='void NetServerPoll(NetServer * n)'/>
+<use f='codebrowser/src/game_loop.c' l='211' u='c' c='LoopRunnerRunInner'/>

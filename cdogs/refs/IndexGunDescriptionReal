@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='152' type='GunDescription * IndexGunDescriptionReal(const int i)'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='398' ll='425' type='GunDescription * IndexGunDescriptionReal(const int i)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='161' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='253' u='c' c='IndexGunName'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='516' u='c' c='Draw'/>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/events.h' l='38' type='CArray'/>
+<offset>99136</offset>
+<use f='codebrowser/src/cdogs/events.c' l='50' u='a' c='EventInit'/>
+<use f='codebrowser/src/cdogs/events.c' l='55' u='a' c='EventTerminate'/>
+<use f='codebrowser/src/cdogs/events.c' l='60' u='a' c='EventReset'/>
+<use f='codebrowser/src/cdogs/events.c' l='72' u='a' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='350' u='m' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='352' u='a' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='376' u='m' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='169' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='169' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='94' u='m' c='GetJoystick'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='94' u='a' c='GetJoystick'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='194' u='a' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='201' u='m' c='JoyRemoved'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='201' u='a' c='JoyRemoved'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='205' u='a' c='JoyRemoved'/>
+<use f='codebrowser/src/prep.c' l='286' u='m' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/prep.c' l='288' u='a' c='AssignPlayerInputDevices'/>

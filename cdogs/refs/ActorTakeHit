@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='208' type='void ActorTakeHit(TActor * actor, const special_damage_e damage)'/>
+<doc f='codebrowser/src/cdogs/actors.h' l='206'>// Taking a hit only gives the appearance (pushback, special effect)
+// but deals no damage</doc>
+<def f='codebrowser/src/cdogs/actors.c' l='1414' ll='1430' type='void ActorTakeHit(TActor * actor, const special_damage_e damage)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='531' u='c' c='HandleGameEvent'/>

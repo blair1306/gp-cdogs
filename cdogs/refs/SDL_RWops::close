@@ -1,0 +1,11 @@
+<dec f='include/SDL2/SDL_rwops.h' l='91' type='int (*)(struct SDL_RWops *)'/>
+<offset>256</offset>
+<doc f='include/SDL2/SDL_rwops.h' l='86'>/**
+     *  Close and free an allocated SDL_RWops structure.
+     *
+     *  \return 0 if successful or -1 on write error when flushing data.
+     */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='115' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/font.c' l='120' u='r' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='239' u='r' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/tests/pic_test.c' l='75' u='r' c='_cbehave_feature_PicLoad'/>

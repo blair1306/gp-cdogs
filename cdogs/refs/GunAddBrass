@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='163' type='void GunAddBrass(const GunDescription * g, const direction_e d, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='494' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='510' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='489' ll='515' type='void GunAddBrass(const GunDescription * g, const direction_e d, const Vec2i pos)'/>

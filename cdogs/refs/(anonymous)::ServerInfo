@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='38' type='NServerInfo'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='332' u='a' c='Scanning'/>
+<use f='codebrowser/src/mainmenu.c' l='443' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='444' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='445' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='445' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='446' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='446' u='m' c='CreateLANServerMenuItems'/>

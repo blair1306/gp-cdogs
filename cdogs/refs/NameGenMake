@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/namegen.h' l='42' type='void NameGenMake(const NameGen * g, char * buf)'/>
+<def f='codebrowser/src/namegen.c' l='77' ll='107' type='void NameGenMake(const NameGen * g, char * buf)'/>
+<use f='codebrowser/src/player_select_menus.c' l='526' u='c' c='ShuffleAppearance'/>

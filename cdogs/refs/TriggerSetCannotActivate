@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='128' type='void TriggerSetCannotActivate(Trigger * t)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='445' u='c' c='CheckTrigger'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='265' ll='268' type='void TriggerSetCannotActivate(Trigger * t)'/>

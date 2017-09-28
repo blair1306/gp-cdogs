@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/game_loop.h' l='41' type='1'/>
+<use f='codebrowser/src/briefing_screens.c' l='295' u='r' c='MissionBriefingUpdate'/>
+<use f='codebrowser/src/game.c' l='465' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='492' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='627' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game_loop.c' l='239' c='LoopRunnerRunInner'/>
+<use f='codebrowser/src/menu.c' l='188' u='r' c='MenuUpdate'/>
+<use f='codebrowser/src/password.c' l='186' u='r' c='EnterCodeScreenUpdate'/>
+<use f='codebrowser/src/prep.c' l='129' u='r' c='ScreenWaitUpdate'/>
+<use f='codebrowser/src/prep.c' l='174' u='r' c='CheckCampaignDefComplete'/>
+<use f='codebrowser/src/prep.c' l='461' u='r' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='716' u='r' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/prep.c' l='915' u='r' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='963' u='r' c='CheckGameStart'/>

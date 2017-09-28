@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2065' ll='2076'/>
+<size>32</size>
+<mbr r='nk_baked_font::height' o='0' t='float'/>
+<mbr r='nk_baked_font::ascent' o='32' t='float'/>
+<mbr r='nk_baked_font::descent' o='64' t='float'/>
+<mbr r='nk_baked_font::glyph_offset' o='96' t='nk_rune'/>
+<mbr r='nk_baked_font::glyph_count' o='128' t='nk_rune'/>
+<mbr r='nk_baked_font::ranges' o='192' t='const nk_rune *'/>

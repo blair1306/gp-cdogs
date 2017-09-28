@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3264' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16364' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19385' u='m' c='nk_tree_state_base'/>
+<offset>6176</offset>

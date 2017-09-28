@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='122' type='_Bool'/>
+<offset>56</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='379' u='r' c='OnReceive'/>

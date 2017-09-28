@@ -1,0 +1,8 @@
+<dec f='include/SDL2/SDL_mixer.h' l='141' type='int Mix_AllocateChannels(int numchans)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='136'>/* Dynamically change the number of channels managed by the mixer.
+   If decreasing the number of channels, the upper channels are
+   stopped.
+   This function returns the new number of allocated channels.
+ */</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='244' u='c' c='SoundReconfigure'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='408' u='c' c='GetChannel'/>

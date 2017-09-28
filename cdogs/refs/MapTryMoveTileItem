@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/map.h' l='130' type='_Bool MapTryMoveTileItem(Map * map, TTileItem * t, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='417' u='c' c='OnMove'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='321' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='915' u='c' c='BulletAdd'/>
+<def f='codebrowser/src/cdogs/map.c' l='160' ll='188' macro='1' type='_Bool MapTryMoveTileItem(Map * map, TTileItem * t, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/objs.c' l='465' u='c' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='351' u='c' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='449' u='c' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='100' u='c' c='PickupAdd'/>

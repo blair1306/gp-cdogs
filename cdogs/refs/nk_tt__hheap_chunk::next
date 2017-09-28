@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9076' type='struct nk_tt__hheap_chunk *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9713' u='w' c='nk_tt__hheap_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9734' u='r' c='nk_tt__hheap_cleanup'/>
+<offset>0</offset>

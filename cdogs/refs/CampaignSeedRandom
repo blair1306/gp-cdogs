@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='84' type='void CampaignSeedRandom(const CampaignOptions * campaign)'/>
+<def f='codebrowser/src/cdogs/campaigns.c' l='210' ll='216' type='void CampaignSeedRandom(const CampaignOptions * campaign)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='226' u='c' c='CampaignAndMissionSetup'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='43' u='c' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='84' u='c' c='MapClassicLoad'/>

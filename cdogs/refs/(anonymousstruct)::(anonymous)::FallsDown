@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='88' type='_Bool'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='288' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='719' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='751' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='751' u='r' c='LoadBullet'/>

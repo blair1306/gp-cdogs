@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='146' type='NamedPic *'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/door.c' l='102' u='w' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='241' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='242' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='245' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='250' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='255' u='r' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='95' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='472' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='472' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='488' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='488' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/tile.c' l='70' u='w' c='TileInit'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1541' type='struct nk_color nk_color_picker(struct nk_context * , struct nk_color , enum nk_color_format )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20964' ll='20970' macro='1' type='struct nk_color nk_color_picker(struct nk_context * ctx, struct nk_color color, enum nk_color_format fmt)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='763' u='c' c='DrawCharColor'/>

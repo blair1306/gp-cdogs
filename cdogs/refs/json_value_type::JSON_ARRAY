@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/json/json.h' l='51' type='3'/>
+<use f='codebrowser/src/json/json.c' l='338' u='r' c='json_new_array'/>
+<use f='codebrowser/src/json/json.c' l='493' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='507' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='520' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='692' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='762' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='892' c='json_stream_output'/>
+<use f='codebrowser/src/json/json.c' l='947' c='json_stream_output'/>
+<use f='codebrowser/src/json/json.c' l='2194' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2258' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2318' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2551' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2572' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2660' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2729' c='json_parse_fragment'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='56' type='void LoadBulletGuns(CArray * guns, json_t * node, const char * name)'/>
+<doc f='codebrowser/src/cdogs/json_utils.h' l='55'>// Load an array of const GunDescription *</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='811' u='c' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='816' u='c' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='817' u='c' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='818' u='c' c='BulletClassesLoadWeapons'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='156' ll='169' type='void LoadBulletGuns(CArray * guns, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='353' u='c' c='TryLoadMapObject'/>

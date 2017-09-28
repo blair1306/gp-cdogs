@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='140' ll='145'/>
+<size>136</size>
+<mbr r='_NMissionEnd::Delay' o='0' t='int32_t'/>
+<mbr r='_NMissionEnd::IsQuit' o='32' t='_Bool'/>
+<mbr r='_NMissionEnd::Msg' o='40' t='char [128]'/>

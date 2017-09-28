@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/sounds.c' l='72' ll='96' type='int OpenAudio(int frequency, Uint16 format, int channels, int chunkSize)'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='179' u='c' c='SoundInitialize'/>

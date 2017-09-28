@@ -1,0 +1,17 @@
+ObjectiveCopy|ObjectiveCopy
+ObjectiveIsComplete|ObjectiveIsComplete
+ObjectiveIsPerfect|ObjectiveIsPerfect
+ObjectiveIsRequired|ObjectiveIsRequired
+ObjectiveLoadJSON|ObjectiveLoadJSON
+ObjectiveSetup|ObjectiveSetup
+ObjectiveTerminate|ObjectiveTerminate
+ObjectiveTypeColor|ObjectiveTypeColor
+ObjectiveTypeStr|ObjectiveTypeStr
+ObjAdd|ObjAdd
+ObjDestroy|ObjDestroy
+ObjGetByUID|ObjGetByUID
+ObjIsDangerous|ObjIsDangerous
+ObjRemove|ObjRemove
+ObjsGetNextUID|ObjsGetNextUID
+ObjsInit|ObjsInit
+ObjsTerminate|ObjsTerminate

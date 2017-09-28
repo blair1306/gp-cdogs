@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='224' type='MissionState'/>
+<offset>448</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='668' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='671' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='849' u='r' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/mission.c' l='369' u='w' c='MissionBegin'/>
+<use f='codebrowser/src/game.c' l='264' u='w' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game.c' l='679' u='r' c='CheckMissionCompletion'/>
+<use f='codebrowser/src/game.c' l='684' u='r' c='CheckMissionCompletion'/>
+<use f='codebrowser/src/game.c' l='689' u='r' c='CheckMissionCompletion'/>

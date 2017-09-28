@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='364' type='enet_uint32'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='83' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='331' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='344' u='w' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1821' u='r' c='enet_host_service'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1821' u='r' c='enet_host_service'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1821' u='r' c='enet_host_service'/>

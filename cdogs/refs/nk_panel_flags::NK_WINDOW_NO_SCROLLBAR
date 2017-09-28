@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1093' type='32'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17243' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17247' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17437' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17442' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17452' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17589' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21377' u='r' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21778' u='r' c='nk_tooltip_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21881' u='r' c='nk_contextual_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22818' u='r' c='nk_menu_begin'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1093'>/* Removes the scrollbar from the window */</doc>

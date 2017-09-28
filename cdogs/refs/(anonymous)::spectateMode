@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='48' type='SpectateMode'/>
+<offset>4448</offset>
+<use f='codebrowser/src/cdogs/camera.c' l='59' u='r' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='67' u='w' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='82' u='w' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='134' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='138' u='w' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='143' u='w' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='149' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='162' u='w' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='360' u='r' c='CameraDrawMode'/>

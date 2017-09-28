@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='75' type='Uint32'/>
+<dec f='codebrowser/src/cdogs/mouse.h' l='46' type='Uint32'/>
+<offset>512</offset>
+<use f='codebrowser/src/cdogs/keyboard.c' l='60' u='w' c='KeyInit'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='126' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='169' u='w' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='48' u='w' c='MouseInit'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='107' u='r' c='MousePostPoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='135' u='w' c='MousePostPoll'/>

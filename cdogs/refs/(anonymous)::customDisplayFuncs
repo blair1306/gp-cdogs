@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/menu.h' l='239' type='CArray'/>
+<offset>768</offset>
+<doc f='codebrowser/src/menu.h' l='239'>// of MenuCustomDisplayFunc</doc>
+<use f='codebrowser/src/menu.c' l='76' u='a' c='MenuSystemInit'/>
+<use f='codebrowser/src/menu.c' l='91' u='a' c='MenuSystemTerminate'/>
+<use f='codebrowser/src/menu.c' l='126' u='a' c='MenuSystemAddCustomDisplay'/>
+<use f='codebrowser/src/menu.c' l='606' u='m' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='606' u='a' c='MenuDisplay'/>

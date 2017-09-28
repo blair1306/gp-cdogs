@@ -1,0 +1,24 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3136' ll='3168'/>
+<size>800</size>
+<mbr r='nk_style_edit::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_edit::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_edit::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_edit::border_color' o='768' t='struct nk_color'/>
+<mbr r='nk_style_edit::scrollbar' o='832' t='struct nk_style_scrollbar'/>
+<mbr r='nk_style_edit::cursor_normal' o='5760' t='struct nk_color'/>
+<mbr r='nk_style_edit::cursor_hover' o='5792' t='struct nk_color'/>
+<mbr r='nk_style_edit::cursor_text_normal' o='5824' t='struct nk_color'/>
+<mbr r='nk_style_edit::cursor_text_hover' o='5856' t='struct nk_color'/>
+<mbr r='nk_style_edit::text_normal' o='5888' t='struct nk_color'/>
+<mbr r='nk_style_edit::text_hover' o='5920' t='struct nk_color'/>
+<mbr r='nk_style_edit::text_active' o='5952' t='struct nk_color'/>
+<mbr r='nk_style_edit::selected_normal' o='5984' t='struct nk_color'/>
+<mbr r='nk_style_edit::selected_hover' o='6016' t='struct nk_color'/>
+<mbr r='nk_style_edit::selected_text_normal' o='6048' t='struct nk_color'/>
+<mbr r='nk_style_edit::selected_text_hover' o='6080' t='struct nk_color'/>
+<mbr r='nk_style_edit::border' o='6112' t='float'/>
+<mbr r='nk_style_edit::rounding' o='6144' t='float'/>
+<mbr r='nk_style_edit::cursor_size' o='6176' t='float'/>
+<mbr r='nk_style_edit::scrollbar_size' o='6208' t='struct nk_vec2'/>
+<mbr r='nk_style_edit::padding' o='6272' t='struct nk_vec2'/>
+<mbr r='nk_style_edit::row_padding' o='6336' t='float'/>

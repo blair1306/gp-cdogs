@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2746' ll='2750'/>
+<size>260</size>
+<mbr r='nk_keyboard::keys' o='0' t='struct nk_key [30]'/>
+<mbr r='nk_keyboard::text' o='1920' t='char [16]'/>
+<mbr r='nk_keyboard::text_len' o='2048' t='int'/>

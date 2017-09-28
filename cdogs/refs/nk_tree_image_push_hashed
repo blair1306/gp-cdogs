@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1382' type='int nk_tree_image_push_hashed(struct nk_context * , enum nk_tree_type , struct nk_image , const char * title, enum nk_collapse_states initial_state, const char * hash, int len, int seed)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19469' ll='19473' macro='1' type='int nk_tree_image_push_hashed(struct nk_context * ctx, enum nk_tree_type type, struct nk_image img, const char * title, enum nk_collapse_states initial_state, const char * hash, int len, int seed)'/>

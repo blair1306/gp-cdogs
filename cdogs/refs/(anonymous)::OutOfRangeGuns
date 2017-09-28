@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='97' type='CArray'/>
+<offset>1856</offset>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='96'>// Special weapons to fire if certain events occur</doc>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='97'>// of const GunDescription *</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='161' u='a' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='630' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='630' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='759' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='759' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='816' u='a' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='845' u='a' c='BulletClassFree'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='571' u='m' c='IsHighDPS'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='34' type='_Bool MissionTrySetTile(Mission * m, Vec2i pos, unsigned short tile)'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='151' ll='199' macro='1' type='_Bool MissionTrySetTile(Mission * m, Vec2i pos, unsigned short tile)'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='241' u='c' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='247' u='c' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='538' u='c' c='MissionFillTile'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='205' u='c' c='SetTile'/>

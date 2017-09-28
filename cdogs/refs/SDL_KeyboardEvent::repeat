@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_events.h' l='193' type='Uint8'/>
+<offset>104</offset>
+<doc f='include/SDL2/SDL_events.h' l='193'>/**&lt; Non-zero if this is a key repeat */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='84' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='311' u='r' c='HandleEvents'/>

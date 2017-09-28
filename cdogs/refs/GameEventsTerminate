@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='194' type='void GameEventsTerminate(CArray * store)'/>
+<def f='codebrowser/src/cdogs/game_events.c' l='45' ll='48' type='void GameEventsTerminate(CArray * store)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='117' u='c' c='GrafxMakeBackground'/>
+<use f='codebrowser/src/mainmenu.c' l='105' u='c' c='MainMenuOnEnter'/>

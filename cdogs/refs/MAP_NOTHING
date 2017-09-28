@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/map.h' l='68' type='4'/>
+<use f='codebrowser/src/cdogs/door.c' l='80' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='80' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/map.c' l='92' c='IMapTypeStr'/>
+<use f='codebrowser/src/cdogs/map.c' l='104' u='r' c='StrIMapType'/>
+<use f='codebrowser/src/cdogs/map.c' l='227' u='r' c='IMapGet'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='173' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='116' u='r' c='GetTileAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='241' u='r' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='94' u='r' c='BrushChangeType'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='94' u='r' c='BrushChangeType'/>

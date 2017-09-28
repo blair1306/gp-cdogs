@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='176' type='void CommandActor(TActor * actor, int cmd, int ticks)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='714' ll='772' type='void CommandActor(TActor * actor, int cmd, int ticks)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='340' u='c' c='AICommand'/>
+<use f='codebrowser/src/cdogs/ai.c' l='526' u='c' c='AICommandLast'/>
+<use f='codebrowser/src/game.c' l='526' u='c' c='RunGameUpdate'/>

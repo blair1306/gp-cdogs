@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2639' ll='2644'/>
+<size>32</size>
+<mbr r='nk_command_polygon_filled::header' o='0' t='struct nk_command'/>
+<mbr r='nk_command_polygon_filled::color' o='128' t='struct nk_color'/>
+<mbr r='nk_command_polygon_filled::point_count' o='160' t='unsigned short'/>
+<mbr r='nk_command_polygon_filled::points' o='176' t='struct nk_vec2i [1]'/>

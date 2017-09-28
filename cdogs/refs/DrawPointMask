@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='66' type='void DrawPointMask(GraphicsDevice * device, Vec2i pos, color_t mask)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='339' u='c' c='AutomapDraw'/>
+<def f='codebrowser/src/cdogs/draw/drawtools.c' l='172' ll='185' type='void DrawPointMask(GraphicsDevice * g, Vec2i pos, color_t mask)'/>

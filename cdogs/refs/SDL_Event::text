@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_events.h' l='528' type='SDL_TextInputEvent'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_events.h' l='528'>/**&lt; Text input event data */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='94' u='m' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='321' u='m' c='nk_sdl_handle_event'/>

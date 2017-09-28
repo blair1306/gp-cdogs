@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='86' type='_Bool pb_decode_delimited(pb_istream_t * stream, const pb_field_t * fields, void * dest_struct)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='863' ll='874' macro='1' type='_Bool pb_decode_delimited(pb_istream_t * stream, const pb_field_t * fields, void * dest_struct)'/>

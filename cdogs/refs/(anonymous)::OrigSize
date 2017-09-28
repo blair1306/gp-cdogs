@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='60' type='Vec2i'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='60' u='w' c='DrawBufferInit'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='85' u='m' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='89' u='m' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='121' u='m' c='DrawBufferSetFromMap'/>

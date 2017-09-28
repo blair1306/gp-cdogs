@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/events.h' l='64' type='int GetKeyboardCmd(keyboard_t * keyboard, const int kbIndex, const _Bool isPressed)'/>
+<def f='codebrowser/src/cdogs/events.c' l='210' ll='229' type='int GetKeyboardCmd(keyboard_t * keyboard, const int kbIndex, const _Bool isPressed)'/>
+<use f='codebrowser/src/cdogs/events.c' l='286' u='c' c='GetGameCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='311' u='c' c='GetOnePlayerCmd'/>
+<use f='codebrowser/src/game.c' l='344' u='c' c='RunGameInput'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='68' type='6'/>
+<doc f='codebrowser/src/menu.h' l='68'>// set random seed</doc>
+<use f='codebrowser/src/menu.c' l='499' u='r' c='MenuCreateOptionSeed'/>
+<use f='codebrowser/src/menu.c' l='775' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='937' c='MenuOptionGetIntValue'/>
+<use f='codebrowser/src/menu.c' l='1248' c='MenuActivate'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='7416' ll='7433' macro='1' type='struct nk_vec2 * nk_draw_list_alloc_path(struct nk_draw_list * list, int count)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8105' u='c' c='nk_draw_list_path_line_to'/>

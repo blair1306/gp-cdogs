@@ -1,0 +1,8 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='184' type='double floor(double __x)'/>
+<use f='codebrowser/src/cdogs/defs.c' l='148' u='c' c='RadiansToDirection'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='554' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='582' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='76' u='c' c='PowerupSpawnerUpdate'/>
+<use f='codebrowser/src/cdogs/utils.c' l='379' u='c' c='Round'/>
+<use f='codebrowser/src/cdogs/vector.c' l='99' u='c' c='Vec2iNorm'/>
+<use f='codebrowser/src/cdogs/vector.c' l='100' u='c' c='Vec2iNorm'/>

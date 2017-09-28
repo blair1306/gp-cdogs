@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_mixer.h' l='535' type='int Mix_PlayChannelTimed(int channel, Mix_Chunk * chunk, int loops, int ticks)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='534'>/* The same as above, but the sound is played at most &apos;ticks&apos; milliseconds */</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='401' macro='1' u='c'/>

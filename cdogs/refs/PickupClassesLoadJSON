@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='87' type='void PickupClassesLoadJSON(CArray * classes, json_t * root)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='134' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='191' u='c' c='PickupClassesInit'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='204' ll='223' type='void PickupClassesLoadJSON(CArray * classes, json_t * root)'/>

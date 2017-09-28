@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='247' type='_Bool CanCompleteMission(const struct MissionOptions * options)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='417' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='497' u='c' c='Follow'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='504' u='c' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/mission.c' l='285' u='c' c='MissionSetMessageIfComplete'/>
+<def f='codebrowser/src/cdogs/mission.c' l='385' ll='408' macro='1' type='_Bool CanCompleteMission(const struct MissionOptions * options)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='424' u='c' c='IsMissionComplete'/>
+<use f='codebrowser/src/cdogs/mission.c' l='460' u='c' c='MissionNeedsMoreRescuesInExit'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='550' u='c' c='NetServerSendGameStartMessages'/>

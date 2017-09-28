@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/config.h' l='214' type='void ConfigResetDefault(Config * c)'/>
+<doc f='codebrowser/src/cdogs/config.h' l='213'>// Reset the config values to default</doc>
+<use f='codebrowser/src/cdogs.c' l='220' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/config.c' l='444' ll='476' type='void ConfigResetDefault(Config * c)'/>
+<use f='codebrowser/src/cdogs/config.c' l='469' u='c' c='ConfigResetDefault'/>
+<use f='codebrowser/src/tests/pic_test.c' l='52' u='c' c='_cbehave_feature_PicLoad'/>

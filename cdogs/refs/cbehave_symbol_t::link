@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='233' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/tests/./cbehave/cbehave.h:233:5)'/>
+<offset>0</offset>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' u='m' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' u='m' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' u='m' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' u='m' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' u='m' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='356' u='m' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='365' u='m' c='lookup_symbol'/>

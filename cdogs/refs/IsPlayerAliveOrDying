@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/player.h' l='95' type='_Bool IsPlayerAliveOrDying(const PlayerData * player)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='100' u='c' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='202' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='274' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/mission.c' l='471' u='c' c='AllSurvivingPlayersInExit'/>
+<use f='codebrowser/src/cdogs/player.c' l='275' u='c' c='GetNumPlayers'/>
+<use f='codebrowser/src/cdogs/player.c' l='315' u='c' c='GetFirstPlayer'/>
+<def f='codebrowser/src/cdogs/player.c' l='342' ll='350' macro='1' type='_Bool IsPlayerAliveOrDying(const PlayerData * player)'/>
+<use f='codebrowser/src/cdogs/player.c' l='357' u='c' c='IsPlayerScreen'/>

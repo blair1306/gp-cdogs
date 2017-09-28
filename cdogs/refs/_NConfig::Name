@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='107' type='char [128]'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='118' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='561' u='r' c='SendConfig'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='94'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='94'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='95' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='95' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='94'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='94'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='95' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='95' u='r'/>

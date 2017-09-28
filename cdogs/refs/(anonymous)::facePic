@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/files.h' l='86' type='int32_t'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/files.c' l='305' u='w' c='load_character'/>
+<use f='codebrowser/src/cdogs/files.c' l='322' u='r' c='ConvertCharacter'/>

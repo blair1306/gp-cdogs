@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='173' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='428' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/particle.c' l='264' u='w' c='ParticlesUpdate'/>

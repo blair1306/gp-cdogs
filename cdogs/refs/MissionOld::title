@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/files.h' l='157' type='char [60]'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/files.c' l='208' u='r' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='208' u='r' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='212' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='369' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='369' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='369' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='369' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/files.c' l='369' u='r' c='ConvertMission'/>

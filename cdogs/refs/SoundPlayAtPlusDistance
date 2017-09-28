@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='146' type='void SoundPlayAtPlusDistance(SoundDevice * device, Mix_Chunk * data, const Vec2i pos, const int plusDistance)'/>
+<doc f='codebrowser/src/cdogs/sounds.h' l='144'>// Play a sound but with distance added
+// Simulates a quieter sound by adding distance attenuation</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='179' u='c' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='502' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='497' u='c' c='SoundPlayAt'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='505' ll='549' type='void SoundPlayAtPlusDistance(SoundDevice * device, Mix_Chunk * data, const Vec2i pos, const int plusDistance)'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='28' type='unsigned char *'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='40' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='42' u='w' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='43' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='51' u='w' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='51' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='67' u='r' c='yajl_buf_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='67' u='r' c='yajl_buf_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='76' u='r' c='yajl_buf_append'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='78' u='r' c='yajl_buf_append'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='85' u='r' c='yajl_buf_clear'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='85' u='r' c='yajl_buf_clear'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='90' u='r' c='yajl_buf_data'/>
+<offset>128</offset>

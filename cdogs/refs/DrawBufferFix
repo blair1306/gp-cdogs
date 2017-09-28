@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='71' type='void DrawBufferFix(DrawBuffer * buffer)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='350' u='c' c='DoBuffer'/>
+<def f='codebrowser/src/cdogs/draw/draw_buffer.c' l='126' ll='167' type='void DrawBufferFix(DrawBuffer * buffer)'/>
+<doc f='codebrowser/src/cdogs/draw/draw_buffer.c' l='125'>// Set visibility and draw order for wall/door columns</doc>

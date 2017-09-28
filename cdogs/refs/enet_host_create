@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='560' type='ENetHost * enet_host_create(const ENetAddress * , size_t , size_t , enet_uint32 , enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/host.c' l='28' ll='135' type='ENetHost * enet_host_create(const ENetAddress * address, size_t peerCount, size_t channelLimit, enet_uint32 incomingBandwidth, enet_uint32 outgoingBandwidth)'/>
+<doc f='codebrowser/src/cdogs/enet/host.c' l='13'>/** Creates a host for communicating to peers.  
+
+    @param address   the address at which other peers may connect to this host.  If NULL, then no peers may connect to the host.
+    @param peerCount the maximum number of peers that should be allocated for the host.
+    @param channelLimit the maximum number of channels allowed; if 0, then this is equivalent to ENET_PROTOCOL_MAXIMUM_CHANNEL_COUNT
+    @param incomingBandwidth downstream bandwidth of the host in bytes/second; if 0, ENet will assume unlimited bandwidth.
+    @param outgoingBandwidth upstream bandwidth of the host in bytes/second; if 0, ENet will assume unlimited bandwidth.
+
+    @returns the host on success and NULL on failure
+
+    @remarks ENet will strategically drop packets on specific sides of a connection between hosts
+    to ensure the host&apos;s bandwidth is not overwhelmed.  The bandwidth parameters also determine
+    the window size of a connection which limits the amount of reliable packets that may be in transit
+    at any given time.
+*/</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='57' u='c' c='NetClientInit'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='100' u='c' c='HostOpen'/>

@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='7638' ll='7691' type='void nk_draw_vertex_element(void * dst, const float * values, int value_count, enum nk_draw_vertex_layout_format format)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7704' u='c' c='nk_draw_vertex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7705' u='c' c='nk_draw_vertex'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/tests/json_test.c' l='32' macro='1' type='void _cbehave_feature_json_format_string(void * _state)'/>
+<use f='codebrowser/src/tests/json_test.c' l='57' macro='1' u='r'/>
+<use f='codebrowser/src/tests/json_test.c' l='57' macro='1' u='r'/>
+<use f='codebrowser/src/tests/json_test.c' l='57' macro='1' u='r'/>
+<use f='codebrowser/src/tests/json_test.c' l='57' macro='1' u='r'/>

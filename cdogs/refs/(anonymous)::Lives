@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/player.h' l='46' type='int'/>
+<offset>960</offset>
+<use f='codebrowser/src/cdogs/camera.c' l='141' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='337' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='338' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='338' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='339' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='274' u='r' c='DrawLives'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='760' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='760' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='765' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='770' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='773' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/mission.c' l='436' u='r' c='IsMissionComplete'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='74' u='r' c='NMakePlayerData'/>
+<use f='codebrowser/src/cdogs/player.c' l='84' u='w' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='303' u='r' c='AreAllPlayersDeadAndNoLives'/>
+<use f='codebrowser/src/screens_end.c' l='80' u='r' c='PlayerListNew'/>
+<use f='codebrowser/src/screens_end.c' l='257' u='r' c='PlayerListCustomDraw'/>

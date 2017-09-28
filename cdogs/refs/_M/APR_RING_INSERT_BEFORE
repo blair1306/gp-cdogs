@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='264'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='255'>/**
+ * Insert the element nep into the ring before element lep
+ *   (..lep.. becomes ..nep..lep..)
+ * @warning This doesn&apos;t work for inserting before the first element or on
+ *   empty rings... see APR_RING_INSERT_HEAD for one that does
+ * @param lep  Element in the ring to insert before
+ * @param nep  Element to insert
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

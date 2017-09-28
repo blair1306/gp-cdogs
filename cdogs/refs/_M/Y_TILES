@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='68'/>
+<doc f='codebrowser/src/cdogs/tile.h' l='67'>// + 1 because walls from bottom row show up one row above</doc>
+<use f='codebrowser/src/cdogs/camera.c' l='44' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='151' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='190' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='222' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='359' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='417' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='370' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='130' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='150' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='66' u='c'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='51' u='c'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='86' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='155' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1361' u='c'/>

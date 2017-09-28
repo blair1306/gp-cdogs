@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/menu.h' l='249' type='void MenuSystemAddCustomDisplay(MenuSystem * ms, MenuDisplayFunc func, void * data)'/>
+<use f='codebrowser/src/briefing_screens.c' l='383' u='c' c='ScreenMissionSummary'/>
+<def f='codebrowser/src/menu.c' l='120' ll='127' type='void MenuSystemAddCustomDisplay(MenuSystem * ms, MenuDisplayFunc func, void * data)'/>
+<use f='codebrowser/src/player_select_menus.c' l='488' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='489' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='240' u='c' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='241' u='c' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='242' u='c' c='WeaponMenuCreate'/>

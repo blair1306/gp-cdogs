@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/game_loop.h' l='63' type='_Bool'/>
+<offset>552</offset>
+<use f='codebrowser/src/game_loop.c' l='353' u='w' c='LoopRunnerPush'/>
+<use f='codebrowser/src/game_loop.c' l='358' u='w' c='LoopRunnerPop'/>
+<use f='codebrowser/src/game_loop.c' l='387' u='r' c='GameLoopOnExit'/>

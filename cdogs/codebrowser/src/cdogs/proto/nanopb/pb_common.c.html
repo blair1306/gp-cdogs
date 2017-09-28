@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>pb_common.c source code [codebrowser/src/cdogs/proto/nanopb/pb_common.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/proto/nanopb/pb_common.c'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>cdogs</a>/<a href='..'>proto</a>/<a href='./'>nanopb</a>/<a href='pb_common.c.html'>pb_common.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/* pb_common.c: Common support functions for pb_encode.c and pb_decode.c.</i></td></tr>
+<tr><th id="2">2</th><td><i> *</i></td></tr>
+<tr><th id="3">3</th><td><i> * 2014 Petteri Aimonen &lt;jpa@kapsi.fi&gt;</i></td></tr>
+<tr><th id="4">4</th><td><i> */</i></td></tr>
+<tr><th id="5">5</th><td></td></tr>
+<tr><th id="6">6</th><td><u>#include <a href="pb_common.h.html">"pb_common.h"</a></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="pb_field_iter_begin" title='pb_field_iter_begin' data-ref="pb_field_iter_begin">pb_field_iter_begin</dfn>(<a class="typedef" href="pb_common.h.html#pb_field_iter_t" title='pb_field_iter_t' data-type='struct pb_field_iter_s' data-ref="pb_field_iter_t">pb_field_iter_t</a> *<dfn class="local col7 decl" id="7iter" title='iter' data-type='pb_field_iter_t *' data-ref="7iter">iter</dfn>, <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> *<dfn class="local col8 decl" id="8fields" title='fields' data-type='const pb_field_t *' data-ref="8fields">fields</dfn>, <em>void</em> *<dfn class="local col9 decl" id="9dest_struct" title='dest_struct' data-type='void *' data-ref="9dest_struct">dest_struct</dfn>)</td></tr>
+<tr><th id="9">9</th><td>{</td></tr>
+<tr><th id="10">10</th><td>    <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::start" title='pb_field_iter_s::start' data-ref="pb_field_iter_s::start">start</a> = <a class="local col8 ref" href="#8fields" title='fields' data-ref="8fields">fields</a>;</td></tr>
+<tr><th id="11">11</th><td>    <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a> = <a class="local col8 ref" href="#8fields" title='fields' data-ref="8fields">fields</a>;</td></tr>
+<tr><th id="12">12</th><td>    <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::required_field_index" title='pb_field_iter_s::required_field_index' data-ref="pb_field_iter_s::required_field_index">required_field_index</a> = <var>0</var>;</td></tr>
+<tr><th id="13">13</th><td>    <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::dest_struct" title='pb_field_iter_s::dest_struct' data-ref="pb_field_iter_s::dest_struct">dest_struct</a> = <a class="local col9 ref" href="#9dest_struct" title='dest_struct' data-ref="9dest_struct">dest_struct</a>;</td></tr>
+<tr><th id="14">14</th><td>    <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pData" title='pb_field_iter_s::pData' data-ref="pb_field_iter_s::pData">pData</a> = (<em>char</em>*)<a class="local col9 ref" href="#9dest_struct" title='dest_struct' data-ref="9dest_struct">dest_struct</a> + <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::data_offset" title='pb_field_s::data_offset' data-ref="pb_field_s::data_offset">data_offset</a>;</td></tr>
+<tr><th id="15">15</th><td>    <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pSize" title='pb_field_iter_s::pSize' data-ref="pb_field_iter_s::pSize">pSize</a> = (<em>char</em>*)<a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pData" title='pb_field_iter_s::pData' data-ref="pb_field_iter_s::pData">pData</a> + <a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::size_offset" title='pb_field_s::size_offset' data-ref="pb_field_s::size_offset">size_offset</a>;</td></tr>
+<tr><th id="16">16</th><td>    </td></tr>
+<tr><th id="17">17</th><td>    <b>return</b> (<a class="local col7 ref" href="#7iter" title='iter' data-ref="7iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::tag" title='pb_field_s::tag' data-ref="pb_field_s::tag">tag</a> != <var>0</var>);</td></tr>
+<tr><th id="18">18</th><td>}</td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="pb_field_iter_next" title='pb_field_iter_next' data-ref="pb_field_iter_next">pb_field_iter_next</dfn>(<a class="typedef" href="pb_common.h.html#pb_field_iter_t" title='pb_field_iter_t' data-type='struct pb_field_iter_s' data-ref="pb_field_iter_t">pb_field_iter_t</a> *<dfn class="local col0 decl" id="10iter" title='iter' data-type='pb_field_iter_t *' data-ref="10iter">iter</dfn>)</td></tr>
+<tr><th id="21">21</th><td>{</td></tr>
+<tr><th id="22">22</th><td>    <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> *<dfn class="local col1 decl" id="11prev_field" title='prev_field' data-type='const pb_field_t *' data-ref="11prev_field">prev_field</dfn> = <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>;</td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td>    <b>if</b> (<a class="local col1 ref" href="#11prev_field" title='prev_field' data-ref="11prev_field">prev_field</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::tag" title='pb_field_s::tag' data-ref="pb_field_s::tag">tag</a> == <var>0</var>)</td></tr>
+<tr><th id="25">25</th><td>    {</td></tr>
+<tr><th id="26">26</th><td>        <i>/* Handle empty message types, where the first field is already the terminator.</i></td></tr>
+<tr><th id="27">27</th><td><i>         * In other cases, the iter-&gt;pos never points to the terminator. */</i></td></tr>
+<tr><th id="28">28</th><td>        <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="29">29</th><td>    }</td></tr>
+<tr><th id="30">30</th><td>    </td></tr>
+<tr><th id="31">31</th><td>    <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>++;</td></tr>
+<tr><th id="32">32</th><td>    </td></tr>
+<tr><th id="33">33</th><td>    <b>if</b> (<a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::tag" title='pb_field_s::tag' data-ref="pb_field_s::tag">tag</a> == <var>0</var>)</td></tr>
+<tr><th id="34">34</th><td>    {</td></tr>
+<tr><th id="35">35</th><td>        <i>/* Wrapped back to beginning, reinitialize */</i></td></tr>
+<tr><th id="36">36</th><td>        (<em>void</em>)<a class="ref" href="#pb_field_iter_begin" title='pb_field_iter_begin' data-ref="pb_field_iter_begin">pb_field_iter_begin</a>(<a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>, <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::start" title='pb_field_iter_s::start' data-ref="pb_field_iter_s::start">start</a>, <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::dest_struct" title='pb_field_iter_s::dest_struct' data-ref="pb_field_iter_s::dest_struct">dest_struct</a>);</td></tr>
+<tr><th id="37">37</th><td>        <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="38">38</th><td>    }</td></tr>
+<tr><th id="39">39</th><td>    <b>else</b></td></tr>
+<tr><th id="40">40</th><td>    {</td></tr>
+<tr><th id="41">41</th><td>        <i>/* Increment the pointers based on previous field size */</i></td></tr>
+<tr><th id="42">42</th><td>        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="12prev_size" title='prev_size' data-type='size_t' data-ref="12prev_size">prev_size</dfn> = <a class="local col1 ref" href="#11prev_field" title='prev_field' data-ref="11prev_field">prev_field</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::data_size" title='pb_field_s::data_size' data-ref="pb_field_s::data_size">data_size</a>;</td></tr>
+<tr><th id="43">43</th><td>    </td></tr>
+<tr><th id="44">44</th><td>        <b>if</b> (<a class="macro" href="pb.h.html#186" title="((prev_field-&gt;type) &amp; 0xC0)" data-ref="_M/PB_ATYPE">PB_ATYPE</a>(<a class="local col1 ref" href="#11prev_field" title='prev_field' data-ref="11prev_field">prev_field</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::type" title='pb_field_s::type' data-ref="pb_field_s::type">type</a>) == <a class="macro" href="pb.h.html#181" title="0x00" data-ref="_M/PB_ATYPE_STATIC">PB_ATYPE_STATIC</a> &amp;&amp;</td></tr>
+<tr><th id="45">45</th><td>            <a class="macro" href="pb.h.html#187" title="((prev_field-&gt;type) &amp; 0x30)" data-ref="_M/PB_HTYPE">PB_HTYPE</a>(<a class="local col1 ref" href="#11prev_field" title='prev_field' data-ref="11prev_field">prev_field</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::type" title='pb_field_s::type' data-ref="pb_field_s::type">type</a>) == <a class="macro" href="pb.h.html#176" title="0x20" data-ref="_M/PB_HTYPE_REPEATED">PB_HTYPE_REPEATED</a>)</td></tr>
+<tr><th id="46">46</th><td>        {</td></tr>
+<tr><th id="47">47</th><td>            <i>/* In static arrays, the data_size tells the size of a single entry and</i></td></tr>
+<tr><th id="48">48</th><td><i>             * array_size is the number of entries */</i></td></tr>
+<tr><th id="49">49</th><td>            <a class="local col2 ref" href="#12prev_size" title='prev_size' data-ref="12prev_size">prev_size</a> *= <a class="local col1 ref" href="#11prev_field" title='prev_field' data-ref="11prev_field">prev_field</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::array_size" title='pb_field_s::array_size' data-ref="pb_field_s::array_size">array_size</a>;</td></tr>
+<tr><th id="50">50</th><td>        }</td></tr>
+<tr><th id="51">51</th><td>        <b>else</b> <b>if</b> (<a class="macro" href="pb.h.html#186" title="((prev_field-&gt;type) &amp; 0xC0)" data-ref="_M/PB_ATYPE">PB_ATYPE</a>(<a class="local col1 ref" href="#11prev_field" title='prev_field' data-ref="11prev_field">prev_field</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::type" title='pb_field_s::type' data-ref="pb_field_s::type">type</a>) == <a class="macro" href="pb.h.html#182" title="0x80" data-ref="_M/PB_ATYPE_POINTER">PB_ATYPE_POINTER</a>)</td></tr>
+<tr><th id="52">52</th><td>        {</td></tr>
+<tr><th id="53">53</th><td>            <i>/* Pointer fields always have a constant size in the main structure.</i></td></tr>
+<tr><th id="54">54</th><td><i>             * The data_size only applies to the dynamically allocated area. */</i></td></tr>
+<tr><th id="55">55</th><td>            <a class="local col2 ref" href="#12prev_size" title='prev_size' data-ref="12prev_size">prev_size</a> = <b>sizeof</b>(<em>void</em>*);</td></tr>
+<tr><th id="56">56</th><td>        }</td></tr>
+<tr><th id="57">57</th><td>        </td></tr>
+<tr><th id="58">58</th><td>        <b>if</b> (<a class="macro" href="pb.h.html#187" title="((prev_field-&gt;type) &amp; 0x30)" data-ref="_M/PB_HTYPE">PB_HTYPE</a>(<a class="local col1 ref" href="#11prev_field" title='prev_field' data-ref="11prev_field">prev_field</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::type" title='pb_field_s::type' data-ref="pb_field_s::type">type</a>) == <a class="macro" href="pb.h.html#174" title="0x00" data-ref="_M/PB_HTYPE_REQUIRED">PB_HTYPE_REQUIRED</a>)</td></tr>
+<tr><th id="59">59</th><td>        {</td></tr>
+<tr><th id="60">60</th><td>            <i>/* Count the required fields, in order to check their presence in the</i></td></tr>
+<tr><th id="61">61</th><td><i>             * decoder. */</i></td></tr>
+<tr><th id="62">62</th><td>            <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::required_field_index" title='pb_field_iter_s::required_field_index' data-ref="pb_field_iter_s::required_field_index">required_field_index</a>++;</td></tr>
+<tr><th id="63">63</th><td>        }</td></tr>
+<tr><th id="64">64</th><td>    </td></tr>
+<tr><th id="65">65</th><td>        <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pData" title='pb_field_iter_s::pData' data-ref="pb_field_iter_s::pData">pData</a> = (<em>char</em>*)<a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pData" title='pb_field_iter_s::pData' data-ref="pb_field_iter_s::pData">pData</a> + <a class="local col2 ref" href="#12prev_size" title='prev_size' data-ref="12prev_size">prev_size</a> + <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::data_offset" title='pb_field_s::data_offset' data-ref="pb_field_s::data_offset">data_offset</a>;</td></tr>
+<tr><th id="66">66</th><td>        <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pSize" title='pb_field_iter_s::pSize' data-ref="pb_field_iter_s::pSize">pSize</a> = (<em>char</em>*)<a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pData" title='pb_field_iter_s::pData' data-ref="pb_field_iter_s::pData">pData</a> + <a class="local col0 ref" href="#10iter" title='iter' data-ref="10iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::size_offset" title='pb_field_s::size_offset' data-ref="pb_field_s::size_offset">size_offset</a>;</td></tr>
+<tr><th id="67">67</th><td>        <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="68">68</th><td>    }</td></tr>
+<tr><th id="69">69</th><td>}</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl def" id="pb_field_iter_find" title='pb_field_iter_find' data-ref="pb_field_iter_find">pb_field_iter_find</dfn>(<a class="typedef" href="pb_common.h.html#pb_field_iter_t" title='pb_field_iter_t' data-type='struct pb_field_iter_s' data-ref="pb_field_iter_t">pb_field_iter_t</a> *<dfn class="local col3 decl" id="13iter" title='iter' data-type='pb_field_iter_t *' data-ref="13iter">iter</dfn>, <a class="typedef" href="../../../../../include/stdint.h.html#uint32_t" title='uint32_t' data-type='unsigned int' data-ref="uint32_t">uint32_t</a> <dfn class="local col4 decl" id="14tag" title='tag' data-type='uint32_t' data-ref="14tag">tag</dfn>)</td></tr>
+<tr><th id="72">72</th><td>{</td></tr>
+<tr><th id="73">73</th><td>    <em>const</em> <a class="typedef" href="pb.h.html#pb_field_t" title='pb_field_t' data-type='struct pb_field_s' data-ref="pb_field_t">pb_field_t</a> *<dfn class="local col5 decl" id="15start" title='start' data-type='const pb_field_t *' data-ref="15start">start</dfn> = <a class="local col3 ref" href="#13iter" title='iter' data-ref="13iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>;</td></tr>
+<tr><th id="74">74</th><td>    </td></tr>
+<tr><th id="75">75</th><td>    <b>do</b> {</td></tr>
+<tr><th id="76">76</th><td>        <b>if</b> (<a class="local col3 ref" href="#13iter" title='iter' data-ref="13iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::tag" title='pb_field_s::tag' data-ref="pb_field_s::tag">tag</a> == <a class="local col4 ref" href="#14tag" title='tag' data-ref="14tag">tag</a> &amp;&amp;</td></tr>
+<tr><th id="77">77</th><td>            <a class="macro" href="pb.h.html#188" title="((iter-&gt;pos-&gt;type) &amp; 0x0F)" data-ref="_M/PB_LTYPE">PB_LTYPE</a>(<a class="local col3 ref" href="#13iter" title='iter' data-ref="13iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a>-&gt;<a class="ref" href="pb.h.html#pb_field_s::type" title='pb_field_s::type' data-ref="pb_field_s::type">type</a>) != <a class="macro" href="pb.h.html#166" title="0x08" data-ref="_M/PB_LTYPE_EXTENSION">PB_LTYPE_EXTENSION</a>)</td></tr>
+<tr><th id="78">78</th><td>        {</td></tr>
+<tr><th id="79">79</th><td>            <i>/* Found the wanted field */</i></td></tr>
+<tr><th id="80">80</th><td>            <b>return</b> <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="81">81</th><td>        }</td></tr>
+<tr><th id="82">82</th><td>        </td></tr>
+<tr><th id="83">83</th><td>        (<em>void</em>)<a class="ref" href="#pb_field_iter_next" title='pb_field_iter_next' data-ref="pb_field_iter_next">pb_field_iter_next</a>(<a class="local col3 ref" href="#13iter" title='iter' data-ref="13iter">iter</a>);</td></tr>
+<tr><th id="84">84</th><td>    } <b>while</b> (<a class="local col3 ref" href="#13iter" title='iter' data-ref="13iter">iter</a>-&gt;<a class="ref" href="pb_common.h.html#pb_field_iter_s::pos" title='pb_field_iter_s::pos' data-ref="pb_field_iter_s::pos">pos</a> != <a class="local col5 ref" href="#15start" title='start' data-ref="15start">start</a>);</td></tr>
+<tr><th id="85">85</th><td>    </td></tr>
+<tr><th id="86">86</th><td>    <i>/* Searched all the way back to start, and found nothing. */</i></td></tr>
+<tr><th id="87">87</th><td>    <b>return</b> <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="88">88</th><td>}</td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

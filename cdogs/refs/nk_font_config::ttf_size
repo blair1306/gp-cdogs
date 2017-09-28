@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2084' type='nk_size'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11548' u='w' c='nk_font_config'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11635' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11638' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11682' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11688' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11714' u='w' c='nk_font_atlas_add_from_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11741' u='w' c='nk_font_atlas_add_from_file'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11778' u='w' c='nk_font_atlas_add_compressed'/>
+<offset>128</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2082'>/* pointer to loaded TTF file memory block.
+     * NOTE: not needed for nk_font_atlas_add_from_memory and nk_font_atlas_add_from_file. */</doc>

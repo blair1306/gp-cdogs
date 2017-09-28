@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='44' type='DrawBuffer'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/camera.c' l='44' u='a' c='CameraInit'/>
+<use f='codebrowser/src/cdogs/camera.c' l='52' u='a' c='CameraTerminate'/>
+<use f='codebrowser/src/cdogs/camera.c' l='154' u='a' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='216' u='a' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='247' u='a' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='298' u='a' c='CameraDraw'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2125' type='const struct nk_font_glyph *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11199' u='r' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11231' u='w' c='nk_font_init'/>
+<offset>768</offset>

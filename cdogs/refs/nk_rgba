@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1775' type='struct nk_color nk_rgba(int r, int g, int b, int a)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5223' ll='5232' macro='1' type='struct nk_color nk_rgba(int r, int g, int b, int a)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5293' u='c' c='nk_rgba_iv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5299' u='c' c='nk_rgba_bv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14084' u='c' c='nk_draw_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15306' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15413' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15538' u='c' c='nk_draw_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15956' u='c' c='nk_style_item_hide'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16062' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16081' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16161' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16162' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16269' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16290' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16342' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16375' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16396' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16433' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16453' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17287' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19346' u='c' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22127' u='c' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22298' u='c' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22388' u='c' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22559' u='c' c='nk_combo_begin_image_text'/>

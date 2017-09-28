@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='237' type='NVec2i'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='408' u='r' c='ActorMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='827' u='w' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='171'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='171'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='171'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='171'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='172' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='54' type='void LoadPic(const Pic ** value, json_t * node, const char * name)'/>
+<doc f='codebrowser/src/cdogs/json_utils.h' l='53'>// Load a const Pic * based on a name</doc>
+<def f='codebrowser/src/cdogs/json_utils.c' l='147' ll='155' type='void LoadPic(const Pic ** value, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/particle.c' l='140' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='259' u='c' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='186' u='c' c='LoadGunDescription'/>

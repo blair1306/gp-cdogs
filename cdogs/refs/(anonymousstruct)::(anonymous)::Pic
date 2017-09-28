@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='61' type='const Pic *'/>
+<dec f='codebrowser/src/cdogs/particle.h' l='48' type='CPic'/>
+<dec f='codebrowser/src/cdogs/particle.h' l='72' type='CPic'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/cpic.c' l='135' u='w' c='LoadNormal'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='166' u='r' c='CPicIsLoaded'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='194' u='w' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='194' u='r' c='CPicCopyPic'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='257' u='r' c='CPicGetPic'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='495' u='w' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/particle.c' l='128' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='129' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='133' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='134' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='140' u='a' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='140' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='145' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='152' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='153' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='153' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='154' u='m' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='170' u='a' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='286' u='a' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='428' u='a' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='428' u='a' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='474' u='a' c='DrawParticle'/>
+<use f='codebrowser/src/cdogs/particle.c' l='478' u='a' c='DrawParticle'/>

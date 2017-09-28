@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/camera.h' l='46' type='HUD'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogs/camera.c' l='46' u='a' c='CameraInit'/>
+<use f='codebrowser/src/cdogs/camera.c' l='53' u='a' c='CameraTerminate'/>
+<use f='codebrowser/src/cdogs/camera.c' l='113' u='a' c='CameraUpdate'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='152' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='175' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='618' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='652' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='659' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='679' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/game.c' l='731' u='a' c='RunGameDraw'/>
+<use f='codebrowser/src/game.c' l='741' u='m' c='RunGameDraw'/>

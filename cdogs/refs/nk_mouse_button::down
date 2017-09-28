@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2727' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12108' u='r' c='nk_input_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12113' u='w' c='nk_input_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12171' u='r' c='nk_input_has_mouse_click'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12193' u='r' c='nk_input_has_mouse_click_down_in_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12253' u='r' c='nk_input_is_mouse_down'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12262' u='r' c='nk_input_is_mouse_pressed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12271' u='r' c='nk_input_is_mouse_released'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14195' u='r' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14390' u='r' c='nk_progress_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14500' u='r' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14961' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14998' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15001' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15006' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15460' u='r' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17209' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17610' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18086' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21105' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21128' u='r' c='nk_chart_push_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21180' u='r' c='nk_chart_push_column'/>
+<offset>0</offset>

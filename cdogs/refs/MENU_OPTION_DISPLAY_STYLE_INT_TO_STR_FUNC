@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/menu.h' l='83' type='2'/>
+<doc f='codebrowser/src/menu.h' l='83'>// function that converts int to string</doc>
+<use f='codebrowser/src/menu.c' l='438' u='r' c='MenuAddConfigOptionsItem'/>
+<use f='codebrowser/src/menu.c' l='454' u='r' c='MenuAddConfigOptionsItem'/>
+<use f='codebrowser/src/menu.c' l='490' u='r' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='501' u='r' c='MenuCreateOptionSeed'/>
+<use f='codebrowser/src/menu.c' l='542' u='r' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='787' c='MenuDisplaySubmenus'/>

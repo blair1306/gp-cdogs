@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9066' type='short'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9346' u='w' c='nk_tt_setvertex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9460' u='w' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9485' u='r' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9501' u='r' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9505' u='r' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9589' u='r' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9590' u='w' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10285' u='r' c='nk_tt_FlattenCurves'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10289' u='r' c='nk_tt_FlattenCurves'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10295' u='r' c='nk_tt_FlattenCurves'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10297' u='r' c='nk_tt_FlattenCurves'/>
+<offset>0</offset>

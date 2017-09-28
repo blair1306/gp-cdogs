@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='81' type='Vec2i'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/door.c' l='199' u='w' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='323' u='w' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='206' u='r' c='ActionRun'/>

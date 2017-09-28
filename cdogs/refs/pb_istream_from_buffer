@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='106' type='pb_istream_t pb_istream_from_buffer(uint8_t * buf, size_t bufsize)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='242' u='c' c='TryRecvScanForServerPort'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='101'>/* Create an input stream for reading from a memory buffer.
+ *
+ * Alternatively, you can use a custom stream that reads directly from e.g.
+ * a file or a network socket.
+ */</doc>
+<use f='codebrowser/src/cdogs/net_util.c' l='54' u='c' c='NetDecode'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='140' ll='154' type='pb_istream_t pb_istream_from_buffer(uint8_t * buf, size_t bufsize)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='599' u='c' c='decode_callback_field'/>

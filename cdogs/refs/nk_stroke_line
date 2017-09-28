@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2698' type='void nk_stroke_line(struct nk_command_buffer * b, float x0, float y0, float x1, float y1, float line_thickness, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6891' ll='6907' macro='1' type='void nk_stroke_line(struct nk_command_buffer * b, float x0, float y0, float x1, float y1, float line_thickness, struct nk_color c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15822' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15831' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15844' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15845' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15846' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15847' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17559' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17564' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17568' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17573' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21118' u='c' c='nk_chart_push_line'/>

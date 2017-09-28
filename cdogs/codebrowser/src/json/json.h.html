@@ -1,0 +1,367 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>json.h source code [codebrowser/src/json/json.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="json_error,json_parsing_info,json_saxy_functions,json_saxy_parser_status,json_value,json_value_type,rui_cstring "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/json/json.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>json</a>/<a href='json.h.html'>json.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/***************************************************************************</i></td></tr>
+<tr><th id="2">2</th><td><i> *   Copyright (C) 2007 by Rui Maciel   *</i></td></tr>
+<tr><th id="3">3</th><td><i> *   rui.maciel@gmail.com   *</i></td></tr>
+<tr><th id="4">4</th><td><i> *                                                                         *</i></td></tr>
+<tr><th id="5">5</th><td><i> *   This program is free software; you can redistribute it and/or modify  *</i></td></tr>
+<tr><th id="6">6</th><td><i> *   it under the terms of the GNU Library General Public License as       *</i></td></tr>
+<tr><th id="7">7</th><td><i> *   published by the Free Software Foundation; either version 2 of the    *</i></td></tr>
+<tr><th id="8">8</th><td><i> *   License, or (at your option) any later version.                       *</i></td></tr>
+<tr><th id="9">9</th><td><i> *                                                                         *</i></td></tr>
+<tr><th id="10">10</th><td><i> *   This program is distributed in the hope that it will be useful,       *</i></td></tr>
+<tr><th id="11">11</th><td><i> *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *</i></td></tr>
+<tr><th id="12">12</th><td><i> *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *</i></td></tr>
+<tr><th id="13">13</th><td><i> *   GNU General Public License for more details.                          *</i></td></tr>
+<tr><th id="14">14</th><td><i> *                                                                         *</i></td></tr>
+<tr><th id="15">15</th><td><i> *   You should have received a copy of the GNU Library General Public     *</i></td></tr>
+<tr><th id="16">16</th><td><i> *   License along with this program; if not, write to the                 *</i></td></tr>
+<tr><th id="17">17</th><td><i> *   Free Software Foundation, Inc.,                                       *</i></td></tr>
+<tr><th id="18">18</th><td><i> *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *</i></td></tr>
+<tr><th id="19">19</th><td><i> ***************************************************************************/</i></td></tr>
+<tr><th id="20">20</th><td></td></tr>
+<tr><th id="21">21</th><td><i class="doc">/**<span class="command"> @file</span> json.h A small library that helps deal with JSON-encoded information</i></td></tr>
+<tr><th id="22">22</th><td><i class="doc"><span class="command">\ingroup</span> <span class="verb">JSON</span></i></td></tr>
+<tr><th id="23">23</th><td><i class="doc"></i></td></tr>
+<tr><th id="24">24</th><td><i class="doc"><span class="command">\note</span> error handling is only in a very rudimentary form.</i></td></tr>
+<tr><th id="25">25</th><td><i class="doc"><span class="command">\author</span> Rui Maciel	rui_macie<span class="command">l@users</span>.sourceforge.net</i></td></tr>
+<tr><th id="26">26</th><td><i class="doc"><span class="command">\author</span> Sven Herzberg</i></td></tr>
+<tr><th id="27">27</th><td><i class="doc"><span class="command">\version</span> v1.5</i></td></tr>
+<tr><th id="28">28</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include &lt;stdint.h&gt;</u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include &lt;limits.h&gt;</u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="34">ifndef</span> <span class="macro" data-ref="_M/JSON_H">JSON_H</span></u></td></tr>
+<tr><th id="35">35</th><td><u>#define <dfn class="macro" id="_M/JSON_H" data-ref="_M/JSON_H">JSON_H</dfn></u></td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="37">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="38">38</th><td><b>extern</b> <q>"C"</q></td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td><u>#<span data-ppcond="37">endif</span></u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#define <dfn class="macro" id="_M/JSON_MAX_STRING_LENGTH" data-ref="_M/JSON_MAX_STRING_LENGTH">JSON_MAX_STRING_LENGTH</dfn> SIZE_MAX-1</u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="45">45</th><td><i class="doc">The descriptions of the json_value node type</i></td></tr>
+<tr><th id="46">46</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="47">47</th><td>	<b>enum</b> <dfn class="type def" id="json_value_type" title='json_value_type' data-ref="json_value_type">json_value_type</dfn></td></tr>
+<tr><th id="48">48</th><td>	{ <dfn class="enum" id="json_value_type::JSON_STRING" title='json_value_type::JSON_STRING' data-ref="json_value_type::JSON_STRING">JSON_STRING</dfn> = <var>0</var>, </td></tr>
+<tr><th id="49">49</th><td>	<dfn class="enum" id="json_value_type::JSON_NUMBER" title='json_value_type::JSON_NUMBER' data-ref="json_value_type::JSON_NUMBER">JSON_NUMBER</dfn>, </td></tr>
+<tr><th id="50">50</th><td>	<dfn class="enum" id="json_value_type::JSON_OBJECT" title='json_value_type::JSON_OBJECT' data-ref="json_value_type::JSON_OBJECT">JSON_OBJECT</dfn>, </td></tr>
+<tr><th id="51">51</th><td>	<dfn class="enum" id="json_value_type::JSON_ARRAY" title='json_value_type::JSON_ARRAY' data-ref="json_value_type::JSON_ARRAY">JSON_ARRAY</dfn>, </td></tr>
+<tr><th id="52">52</th><td>	<dfn class="enum" id="json_value_type::JSON_TRUE" title='json_value_type::JSON_TRUE' data-ref="json_value_type::JSON_TRUE">JSON_TRUE</dfn>, </td></tr>
+<tr><th id="53">53</th><td>	<dfn class="enum" id="json_value_type::JSON_FALSE" title='json_value_type::JSON_FALSE' data-ref="json_value_type::JSON_FALSE">JSON_FALSE</dfn>, </td></tr>
+<tr><th id="54">54</th><td>	<dfn class="enum" id="json_value_type::JSON_NULL" title='json_value_type::JSON_NULL' data-ref="json_value_type::JSON_NULL">JSON_NULL</dfn> </td></tr>
+<tr><th id="55">55</th><td>	};</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="58">58</th><td><i class="doc">String implementation</i></td></tr>
+<tr><th id="59">59</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="60">60</th><td>	<b>struct</b> <dfn class="type def" id="rui_cstring" title='rui_cstring' data-ref="rui_cstring">rui_cstring</dfn></td></tr>
+<tr><th id="61">61</th><td>	{</td></tr>
+<tr><th id="62">62</th><td>		<em>char</em> *<dfn class="decl" id="rui_cstring::text" title='rui_cstring::text' data-ref="rui_cstring::text">text</dfn>;	<i>/*&lt;! char c-string */</i></td></tr>
+<tr><th id="63">63</th><td>		<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="rui_cstring::length" title='rui_cstring::length' data-ref="rui_cstring::length">length</dfn>;	<i>/*&lt;! put in place to avoid strlen() calls */</i></td></tr>
+<tr><th id="64">64</th><td>		<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="rui_cstring::max" title='rui_cstring::max' data-ref="rui_cstring::max">max</dfn>;	<i>/*&lt;! usable memory allocated to text minus the space for the nul character */</i></td></tr>
+<tr><th id="65">65</th><td>	};</td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td>	<b>typedef</b> <b>struct</b> <a class="type" href="#rui_cstring" title='rui_cstring' data-ref="rui_cstring">rui_cstring</a> <dfn class="typedef" id="rcstring" title='rcstring' data-type='struct rui_cstring' data-ref="rcstring">rcstring</dfn>;</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="70">70</th><td><i class="doc">The error messages produced by the JSON parsers</i></td></tr>
+<tr><th id="71">71</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="72">72</th><td>	<b>enum</b> <dfn class="type def" id="json_error" title='json_error' data-ref="json_error">json_error</dfn></td></tr>
+<tr><th id="73">73</th><td>	{</td></tr>
+<tr><th id="74">74</th><td>		<dfn class="enum" id="json_error::JSON_OK" title='json_error::JSON_OK' data-ref="json_error::JSON_OK">JSON_OK</dfn> = <var>1</var>,	<i class="doc">/*!&lt; everything went smoothly */</i></td></tr>
+<tr><th id="75">75</th><td>		<dfn class="enum" id="json_error::JSON_INCOMPLETE_DOCUMENT" title='json_error::JSON_INCOMPLETE_DOCUMENT' data-ref="json_error::JSON_INCOMPLETE_DOCUMENT">JSON_INCOMPLETE_DOCUMENT</dfn>,	<i class="doc">/*!&lt; the parsed document didn't ended */</i></td></tr>
+<tr><th id="76">76</th><td>		<dfn class="enum" id="json_error::JSON_WAITING_FOR_EOF" title='json_error::JSON_WAITING_FOR_EOF' data-ref="json_error::JSON_WAITING_FOR_EOF">JSON_WAITING_FOR_EOF</dfn>,	<i class="doc">/*!&lt; A complete JSON document tree was already finished but needs to get to EOF. Other characters beyond whitespaces produce errors */</i></td></tr>
+<tr><th id="77">77</th><td>		<dfn class="enum" id="json_error::JSON_MALFORMED_DOCUMENT" title='json_error::JSON_MALFORMED_DOCUMENT' data-ref="json_error::JSON_MALFORMED_DOCUMENT">JSON_MALFORMED_DOCUMENT</dfn>,	<i>/* the JSON document which was fed to this parser is malformed */</i></td></tr>
+<tr><th id="78">78</th><td>		<dfn class="enum" id="json_error::JSON_INCOMPATIBLE_TYPE" title='json_error::JSON_INCOMPATIBLE_TYPE' data-ref="json_error::JSON_INCOMPATIBLE_TYPE">JSON_INCOMPATIBLE_TYPE</dfn>,	<i class="doc">/*!&lt; the currently parsed type does not belong here */</i></td></tr>
+<tr><th id="79">79</th><td>		<dfn class="enum" id="json_error::JSON_MEMORY" title='json_error::JSON_MEMORY' data-ref="json_error::JSON_MEMORY">JSON_MEMORY</dfn>,	<i class="doc">/*!&lt; an error occurred when allocating memory */</i></td></tr>
+<tr><th id="80">80</th><td>		<dfn class="enum" id="json_error::JSON_ILLEGAL_CHARACTER" title='json_error::JSON_ILLEGAL_CHARACTER' data-ref="json_error::JSON_ILLEGAL_CHARACTER">JSON_ILLEGAL_CHARACTER</dfn>,	<i class="doc">/*!&lt; the currently parsed character does not belong here */</i></td></tr>
+<tr><th id="81">81</th><td>		<dfn class="enum" id="json_error::JSON_BAD_TREE_STRUCTURE" title='json_error::JSON_BAD_TREE_STRUCTURE' data-ref="json_error::JSON_BAD_TREE_STRUCTURE">JSON_BAD_TREE_STRUCTURE</dfn>,	<i class="doc">/*!&lt; the document tree structure is malformed */</i></td></tr>
+<tr><th id="82">82</th><td>		<dfn class="enum" id="json_error::JSON_MAXIMUM_LENGTH" title='json_error::JSON_MAXIMUM_LENGTH' data-ref="json_error::JSON_MAXIMUM_LENGTH">JSON_MAXIMUM_LENGTH</dfn>,	<i class="doc">/*!&lt; the parsed string reached the maximum allowed size */</i></td></tr>
+<tr><th id="83">83</th><td>		<dfn class="enum" id="json_error::JSON_UNKNOWN_PROBLEM" title='json_error::JSON_UNKNOWN_PROBLEM' data-ref="json_error::JSON_UNKNOWN_PROBLEM">JSON_UNKNOWN_PROBLEM</dfn>	<i class="doc">/*!&lt; some random, unaccounted problem occurred */</i></td></tr>
+<tr><th id="84">84</th><td>	};</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="88">88</th><td><i class="doc">The JSON document tree node, which is a basic JSON type</i></td></tr>
+<tr><th id="89">89</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="90">90</th><td>	<b>typedef</b> <b>struct</b> <dfn class="type def" id="json_value" title='json_value' data-ref="json_value"><a class="type" href="#json_value" title='json_value' data-ref="json_value">json_value</a></dfn></td></tr>
+<tr><th id="91">91</th><td>	{</td></tr>
+<tr><th id="92">92</th><td>		<b>enum</b> <a class="type" href="#json_value_type" title='json_value_type' data-ref="json_value_type">json_value_type</a> <dfn class="decl" id="json_value::type" title='json_value::type' data-ref="json_value::type">type</dfn>;	<i class="doc">/*!&lt; the type of node */</i></td></tr>
+<tr><th id="93">93</th><td>		<em>char</em> *<dfn class="decl" id="json_value::text" title='json_value::text' data-ref="json_value::text">text</dfn>;	<i class="doc">/*!&lt; The text stored by the node. It stores UTF-8 strings and is used exclusively by the JSON_STRING and JSON_NUMBER node types */</i></td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td>		<i>/* FIFO queue data */</i></td></tr>
+<tr><th id="96">96</th><td>		<b>struct</b> <a class="type" href="#json_value" title='json_value' data-ref="json_value">json_value</a> *<dfn class="decl" id="json_value::next" title='json_value::next' data-ref="json_value::next">next</dfn>;	<i class="doc">/*!&lt; The pointer pointing to the next element in the FIFO sibling list */</i></td></tr>
+<tr><th id="97">97</th><td>		<b>struct</b> <a class="type" href="#json_value" title='json_value' data-ref="json_value">json_value</a> *<dfn class="decl" id="json_value::previous" title='json_value::previous' data-ref="json_value::previous">previous</dfn>;	<i class="doc">/*!&lt; The pointer pointing to the previous element in the FIFO sibling list */</i></td></tr>
+<tr><th id="98">98</th><td>		<b>struct</b> <a class="type" href="#json_value" title='json_value' data-ref="json_value">json_value</a> *<dfn class="decl" id="json_value::parent" title='json_value::parent' data-ref="json_value::parent">parent</dfn>;	<i class="doc">/*!&lt; The pointer pointing to the parent node in the document tree */</i></td></tr>
+<tr><th id="99">99</th><td>		<b>struct</b> <a class="type" href="#json_value" title='json_value' data-ref="json_value">json_value</a> *<dfn class="decl" id="json_value::child" title='json_value::child' data-ref="json_value::child">child</dfn>;	<i class="doc">/*!&lt; The pointer pointing to the first child node in the document tree */</i></td></tr>
+<tr><th id="100">100</th><td>		<b>struct</b> <a class="type" href="#json_value" title='json_value' data-ref="json_value">json_value</a> *<dfn class="decl" id="json_value::child_end" title='json_value::child_end' data-ref="json_value::child_end">child_end</dfn>;	<i class="doc">/*!&lt; The pointer pointing to the last child node in the document tree */</i></td></tr>
+<tr><th id="101">101</th><td>	} <dfn class="typedef" id="json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</dfn>;</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="105">105</th><td><i class="doc">The structure holding all information needed to resume parsing</i></td></tr>
+<tr><th id="106">106</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="107">107</th><td>	<b>struct</b> <dfn class="type def" id="json_parsing_info" title='json_parsing_info' data-ref="json_parsing_info">json_parsing_info</dfn></td></tr>
+<tr><th id="108">108</th><td>	{</td></tr>
+<tr><th id="109">109</th><td>		<em>unsigned</em> <em>int</em> <dfn class="decl" id="json_parsing_info::state" title='json_parsing_info::state' data-ref="json_parsing_info::state">state</dfn>;	<i class="doc">/*!&lt; the state where the parsing was left on the last parser run */</i></td></tr>
+<tr><th id="110">110</th><td>		<em>unsigned</em> <em>int</em> <dfn class="decl" id="json_parsing_info::lex_state" title='json_parsing_info::lex_state' data-ref="json_parsing_info::lex_state">lex_state</dfn>;</td></tr>
+<tr><th id="111">111</th><td>		<a class="typedef" href="#rcstring" title='rcstring' data-type='struct rui_cstring' data-ref="rcstring">rcstring</a> *<dfn class="decl" id="json_parsing_info::lex_text" title='json_parsing_info::lex_text' data-ref="json_parsing_info::lex_text">lex_text</dfn>;</td></tr>
+<tr><th id="112">112</th><td>		<em>const</em> <em>char</em> *<dfn class="decl" id="json_parsing_info::p" title='json_parsing_info::p' data-ref="json_parsing_info::p">p</dfn>;</td></tr>
+<tr><th id="113">113</th><td>		<em>int</em> <dfn class="decl" id="json_parsing_info::string_length_limit_reached" title='json_parsing_info::string_length_limit_reached' data-ref="json_parsing_info::string_length_limit_reached">string_length_limit_reached</dfn>;	<i class="doc">/*!&lt; flag informing if the string limit length defined by JSON_MAX_STRING_LENGTH was reached */</i></td></tr>
+<tr><th id="114">114</th><td>		<span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="json_parsing_info::line" title='json_parsing_info::line' data-ref="json_parsing_info::line">line</dfn>;	<i>// current document line</i></td></tr>
+<tr><th id="115">115</th><td>		<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_parsing_info::cursor" title='json_parsing_info::cursor' data-ref="json_parsing_info::cursor">cursor</dfn>;	<i class="doc">/*!&lt; pointers to nodes belonging to the document tree which aid the document parsing */</i></td></tr>
+<tr><th id="116">116</th><td>	};</td></tr>
+<tr><th id="117">117</th><td></td></tr>
+<tr><th id="118">118</th><td></td></tr>
+<tr><th id="119">119</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="120">120</th><td><i class="doc">The structure which holds the pointers to the functions that will be called by the saxy parser whenever their evens are triggered</i></td></tr>
+<tr><th id="121">121</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="122">122</th><td>	<b>struct</b> <dfn class="type def" id="json_saxy_functions" title='json_saxy_functions' data-ref="json_saxy_functions">json_saxy_functions</dfn></td></tr>
+<tr><th id="123">123</th><td>	{</td></tr>
+<tr><th id="124">124</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::open_object" title='json_saxy_functions::open_object' data-ref="json_saxy_functions::open_object">open_object</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="125">125</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::close_object" title='json_saxy_functions::close_object' data-ref="json_saxy_functions::close_object">close_object</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="126">126</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::open_array" title='json_saxy_functions::open_array' data-ref="json_saxy_functions::open_array">open_array</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="127">127</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::close_array" title='json_saxy_functions::close_array' data-ref="json_saxy_functions::close_array">close_array</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="128">128</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::new_string" title='json_saxy_functions::new_string' data-ref="json_saxy_functions::new_string">new_string</dfn>) (<em>char</em> *<dfn class="local col4 decl" id="54text" title='text' data-type='char *' data-ref="54text">text</dfn>);</td></tr>
+<tr><th id="129">129</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::new_number" title='json_saxy_functions::new_number' data-ref="json_saxy_functions::new_number">new_number</dfn>) (<em>char</em> *<dfn class="local col5 decl" id="55text" title='text' data-type='char *' data-ref="55text">text</dfn>);</td></tr>
+<tr><th id="130">130</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::new_true" title='json_saxy_functions::new_true' data-ref="json_saxy_functions::new_true">new_true</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="131">131</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::new_false" title='json_saxy_functions::new_false' data-ref="json_saxy_functions::new_false">new_false</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="132">132</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::new_null" title='json_saxy_functions::new_null' data-ref="json_saxy_functions::new_null">new_null</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="133">133</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::label_value_separator" title='json_saxy_functions::label_value_separator' data-ref="json_saxy_functions::label_value_separator">label_value_separator</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="134">134</th><td>		<em>int</em> (*<dfn class="decl" id="json_saxy_functions::sibling_separator" title='json_saxy_functions::sibling_separator' data-ref="json_saxy_functions::sibling_separator">sibling_separator</dfn>) (<em>void</em>);</td></tr>
+<tr><th id="135">135</th><td>	};</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="139">139</th><td><i class="doc">The structure holding the information needed for json_saxy_parse to resume parsing</i></td></tr>
+<tr><th id="140">140</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="141">141</th><td>	<b>struct</b> <dfn class="type def" id="json_saxy_parser_status" title='json_saxy_parser_status' data-ref="json_saxy_parser_status">json_saxy_parser_status</dfn></td></tr>
+<tr><th id="142">142</th><td>	{</td></tr>
+<tr><th id="143">143</th><td>		<em>unsigned</em> <em>int</em> <dfn class="decl" id="json_saxy_parser_status::state" title='json_saxy_parser_status::state' data-ref="json_saxy_parser_status::state">state</dfn>;	<i class="doc">/*!&lt; current parser state */</i></td></tr>
+<tr><th id="144">144</th><td>		<em>int</em> <dfn class="decl" id="json_saxy_parser_status::string_length_limit_reached" title='json_saxy_parser_status::string_length_limit_reached' data-ref="json_saxy_parser_status::string_length_limit_reached">string_length_limit_reached</dfn>;	<i class="doc">/*!&lt; flag informing if the string limit length defined by JSON_MAX_STRING_LENGTH was reached */</i></td></tr>
+<tr><th id="145">145</th><td>		<a class="typedef" href="#rcstring" title='rcstring' data-type='struct rui_cstring' data-ref="rcstring">rcstring</a> *<dfn class="decl" id="json_saxy_parser_status::temp" title='json_saxy_parser_status::temp' data-ref="json_saxy_parser_status::temp">temp</dfn>;	<i class="doc">/*!&lt; temporary string which will be used to build up parsed strings between parser runs. */</i></td></tr>
+<tr><th id="146">146</th><td>	};</td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><i class="doc">/** </i></td></tr>
+<tr><th id="150">150</th><td><i class="doc">Buils a json_t document by parsing an open file stream</i></td></tr>
+<tr><th id="151">151</th><td><i class="doc"><span class="command">@param</span> <span class="arg">file</span> a pointer to an object controlling a stream, returned by fopen()</i></td></tr>
+<tr><th id="152">152</th><td><i class="doc"><span class="command">@param</span> <span class="arg">document</span> a reference to a json_t pointer, set to NULL, which will store the parsed document</i></td></tr>
+<tr><th id="153">153</th><td><i class="doc"><span class="command">@return</span> a json_error error code according to how the parsing operation went.</i></td></tr>
+<tr><th id="154">154</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="155">155</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_stream_parse" title='json_stream_parse' data-ref="json_stream_parse">json_stream_parse</dfn> (<a class="typedef" href="../../../include/stdio.h.html#FILE" title='FILE' data-type='struct _IO_FILE' data-ref="FILE">FILE</a> * <dfn class="local col6 decl" id="56file" title='file' data-type='FILE *' data-ref="56file">file</dfn>, <a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> ** <dfn class="local col7 decl" id="57document" title='document' data-type='json_t **' data-ref="57document">document</dfn>);</td></tr>
+<tr><th id="156">156</th><td></td></tr>
+<tr><th id="157">157</th><td></td></tr>
+<tr><th id="158">158</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="159">159</th><td><i class="doc">Creates a new JSON value and defines it's type</i></td></tr>
+<tr><th id="160">160</th><td><i class="doc"><span class="command">@param</span> <span class="arg">type</span> the value's type</i></td></tr>
+<tr><th id="161">161</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created value structure</i></td></tr>
+<tr><th id="162">162</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="163">163</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_value" title='json_new_value' data-ref="json_new_value">json_new_value</dfn> (<em>const</em> <b>enum</b> <a class="type" href="#json_value_type" title='json_value_type' data-ref="json_value_type">json_value_type</a> <dfn class="local col8 decl" id="58type" title='type' data-type='const enum json_value_type' data-ref="58type">type</dfn>);</td></tr>
+<tr><th id="164">164</th><td></td></tr>
+<tr><th id="165">165</th><td></td></tr>
+<tr><th id="166">166</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="167">167</th><td><i class="doc">Creates a new JSON string and defines it's text</i></td></tr>
+<tr><th id="168">168</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text</span> the value's text</i></td></tr>
+<tr><th id="169">169</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON string value</i></td></tr>
+<tr><th id="170">170</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="171">171</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_string" title='json_new_string' data-ref="json_new_string">json_new_string</dfn> (<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="59text" title='text' data-type='const char *' data-ref="59text">text</dfn>);</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td></td></tr>
+<tr><th id="174">174</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="175">175</th><td><i class="doc">Creates a new JSON number and defines it's text. The user is responsible for the number string's correctness</i></td></tr>
+<tr><th id="176">176</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text</span> the value's number</i></td></tr>
+<tr><th id="177">177</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON string value</i></td></tr>
+<tr><th id="178">178</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="179">179</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_number" title='json_new_number' data-ref="json_new_number">json_new_number</dfn> (<em>const</em> <em>char</em> *<dfn class="local col0 decl" id="60text" title='text' data-type='const char *' data-ref="60text">text</dfn>);</td></tr>
+<tr><th id="180">180</th><td></td></tr>
+<tr><th id="181">181</th><td></td></tr>
+<tr><th id="182">182</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="183">183</th><td><i class="doc">Creates a new JSON object</i></td></tr>
+<tr><th id="184">184</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON object value</i></td></tr>
+<tr><th id="185">185</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="186">186</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_object" title='json_new_object' data-ref="json_new_object">json_new_object</dfn> (<em>void</em>);</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td></td></tr>
+<tr><th id="189">189</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="190">190</th><td><i class="doc">Creates a new JSON array</i></td></tr>
+<tr><th id="191">191</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON array value</i></td></tr>
+<tr><th id="192">192</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="193">193</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_array" title='json_new_array' data-ref="json_new_array">json_new_array</dfn> (<em>void</em>);</td></tr>
+<tr><th id="194">194</th><td></td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="197">197</th><td><i class="doc">Creates a new JSON null</i></td></tr>
+<tr><th id="198">198</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON null value</i></td></tr>
+<tr><th id="199">199</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="200">200</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_null" title='json_new_null' data-ref="json_new_null">json_new_null</dfn> (<em>void</em>);</td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="204">204</th><td><i class="doc">Creates a new JSON true</i></td></tr>
+<tr><th id="205">205</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON true value</i></td></tr>
+<tr><th id="206">206</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="207">207</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_true" title='json_new_true' data-ref="json_new_true">json_new_true</dfn> (<em>void</em>);</td></tr>
+<tr><th id="208">208</th><td></td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="211">211</th><td><i class="doc">Creates a new JSON false</i></td></tr>
+<tr><th id="212">212</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON false value</i></td></tr>
+<tr><th id="213">213</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="214">214</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_false" title='json_new_false' data-ref="json_new_false">json_new_false</dfn> (<em>void</em>);</td></tr>
+<tr><th id="215">215</th><td></td></tr>
+<tr><th id="216">216</th><td></td></tr>
+<tr><th id="217">217</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="218">218</th><td><i class="doc">Creates a new JSON true/false</i></td></tr>
+<tr><th id="219">219</th><td><i class="doc"><span class="command">@return</span> a pointer to the newly created JSON true/false value</i></td></tr>
+<tr><th id="220">220</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="221">221</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_new_bool" title='json_new_bool' data-ref="json_new_bool">json_new_bool</dfn> (<em>int</em> <dfn class="local col1 decl" id="61value" title='value' data-type='int' data-ref="61value">value</dfn>);</td></tr>
+<tr><th id="222">222</th><td></td></tr>
+<tr><th id="223">223</th><td></td></tr>
+<tr><th id="224">224</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="225">225</th><td><i class="doc">Frees the memory appointed to the value fed as the parameter, as well as all the child nodes</i></td></tr>
+<tr><th id="226">226</th><td><i class="doc"><span class="command">@param</span> <span class="arg">value</span> the root node of the tree being freed</i></td></tr>
+<tr><th id="227">227</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="228">228</th><td>	<em>void</em> <dfn class="decl" id="json_free_value" title='json_free_value' data-ref="json_free_value">json_free_value</dfn> (<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> ** <dfn class="local col2 decl" id="62value" title='value' data-type='json_t **' data-ref="62value">value</dfn>);</td></tr>
+<tr><th id="229">229</th><td></td></tr>
+<tr><th id="230">230</th><td></td></tr>
+<tr><th id="231">231</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="232">232</th><td><i class="doc">Inserts a child node into a parent node, as well as performs some document tree integrity checks.</i></td></tr>
+<tr><th id="233">233</th><td><i class="doc"><span class="command">@param</span> <span class="arg">parent</span> the parent node</i></td></tr>
+<tr><th id="234">234</th><td><i class="doc"><span class="command">@param</span> <span class="arg">child</span> the node being added as a child to parent</i></td></tr>
+<tr><th id="235">235</th><td><i class="doc"><span class="command">@return</span> the error code corresponding to the operation result</i></td></tr>
+<tr><th id="236">236</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="237">237</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_insert_child" title='json_insert_child' data-ref="json_insert_child">json_insert_child</dfn> (<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> * <dfn class="local col3 decl" id="63parent" title='parent' data-type='json_t *' data-ref="63parent">parent</dfn>, <a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> * <dfn class="local col4 decl" id="64child" title='child' data-type='json_t *' data-ref="64child">child</dfn>);</td></tr>
+<tr><th id="238">238</th><td></td></tr>
+<tr><th id="239">239</th><td></td></tr>
+<tr><th id="240">240</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="241">241</th><td><i class="doc">Inserts a label:value pair into a parent node, as well as performs some document tree integrity checks.</i></td></tr>
+<tr><th id="242">242</th><td><i class="doc"><span class="command">@param</span> <span class="arg">parent</span> the parent node</i></td></tr>
+<tr><th id="243">243</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text_label</span> a char string which serves as the label in the label:value pair</i></td></tr>
+<tr><th id="244">244</th><td><i class="doc"><span class="command">@param</span> <span class="arg">value</span> the value in the label:value pair</i></td></tr>
+<tr><th id="245">245</th><td><i class="doc"><span class="command">@return</span> the error code corresponding to the operation result</i></td></tr>
+<tr><th id="246">246</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="247">247</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_insert_pair_into_object" title='json_insert_pair_into_object' data-ref="json_insert_pair_into_object">json_insert_pair_into_object</dfn> (<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> * <dfn class="local col5 decl" id="65parent" title='parent' data-type='json_t *' data-ref="65parent">parent</dfn>, <em>const</em> <em>char</em> *<dfn class="local col6 decl" id="66text_label" title='text_label' data-type='const char *' data-ref="66text_label">text_label</dfn>, <a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> * <dfn class="local col7 decl" id="67value" title='value' data-type='json_t *' data-ref="67value">value</dfn>);</td></tr>
+<tr><th id="248">248</th><td></td></tr>
+<tr><th id="249">249</th><td></td></tr>
+<tr><th id="250">250</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="251">251</th><td><i class="doc">Produces a JSON markup text document from a document tree</i></td></tr>
+<tr><th id="252">252</th><td><i class="doc"><span class="command">@param</span> <span class="arg">root</span> The document's root node</i></td></tr>
+<tr><th id="253">253</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text</span> a pointer to a char string that will hold the JSON document text.</i></td></tr>
+<tr><th id="254">254</th><td><i class="doc"><span class="command">@return</span>  a json_error code describing how the operation went</i></td></tr>
+<tr><th id="255">255</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="256">256</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_tree_to_string" title='json_tree_to_string' data-ref="json_tree_to_string">json_tree_to_string</dfn> (<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> * <dfn class="local col8 decl" id="68root" title='root' data-type='json_t *' data-ref="68root">root</dfn>, <em>char</em> **<dfn class="local col9 decl" id="69text" title='text' data-type='char **' data-ref="69text">text</dfn>);</td></tr>
+<tr><th id="257">257</th><td></td></tr>
+<tr><th id="258">258</th><td></td></tr>
+<tr><th id="259">259</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="260">260</th><td><i class="doc">Produces a JSON markup text document from a json_t document tree to a text stream </i></td></tr>
+<tr><th id="261">261</th><td><i class="doc"><span class="command">@param</span> <span class="arg">file</span> a opened file stream</i></td></tr>
+<tr><th id="262">262</th><td><i class="doc"><span class="command">@param</span> <span class="arg">root</span> The document's root node</i></td></tr>
+<tr><th id="263">263</th><td><i class="doc"><span class="command">@return</span>  a json_error code describing how the operation went</i></td></tr>
+<tr><th id="264">264</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="265">265</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_stream_output" title='json_stream_output' data-ref="json_stream_output">json_stream_output</dfn> (<a class="typedef" href="../../../include/stdio.h.html#FILE" title='FILE' data-type='struct _IO_FILE' data-ref="FILE">FILE</a> * <dfn class="local col0 decl" id="70file" title='file' data-type='FILE *' data-ref="70file">file</dfn>, <a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> * <dfn class="local col1 decl" id="71root" title='root' data-type='json_t *' data-ref="71root">root</dfn>);</td></tr>
+<tr><th id="266">266</th><td></td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="269">269</th><td><i class="doc">Strips all JSON white spaces from the text string</i></td></tr>
+<tr><th id="270">270</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text</span> a char string holding a JSON document or document snippet </i></td></tr>
+<tr><th id="271">271</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="272">272</th><td>	<em>void</em> <dfn class="decl" id="json_strip_white_spaces" title='json_strip_white_spaces' data-ref="json_strip_white_spaces">json_strip_white_spaces</dfn> (<em>char</em> *<dfn class="local col2 decl" id="72text" title='text' data-type='char *' data-ref="72text">text</dfn>);</td></tr>
+<tr><th id="273">273</th><td></td></tr>
+<tr><th id="274">274</th><td></td></tr>
+<tr><th id="275">275</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="276">276</th><td><i class="doc">Formats a JSON markup text contained in the given string</i></td></tr>
+<tr><th id="277">277</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text</span> a JSON formatted document</i></td></tr>
+<tr><th id="278">278</th><td><i class="doc"><span class="command">@return</span> a pointer to a char string holding the formated document</i></td></tr>
+<tr><th id="279">279</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="280">280</th><td>	<em>char</em> *<dfn class="decl" id="json_format_string" title='json_format_string' data-ref="json_format_string">json_format_string</dfn> (<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="73text" title='text' data-type='const char *' data-ref="73text">text</dfn>);</td></tr>
+<tr><th id="281">281</th><td></td></tr>
+<tr><th id="282">282</th><td></td></tr>
+<tr><th id="283">283</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="284">284</th><td><i class="doc">Outputs a new UTF8 c-string which replaces all characters that must be escaped with their respective escaped versions</i></td></tr>
+<tr><th id="285">285</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text</span> an UTF8 char text string</i></td></tr>
+<tr><th id="286">286</th><td><i class="doc"><span class="command">@return</span> an UTF-8 c-string holding the same text string but with escaped characters</i></td></tr>
+<tr><th id="287">287</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="288">288</th><td>	<em>char</em> *<dfn class="decl" id="json_escape" title='json_escape' data-ref="json_escape">json_escape</dfn> (<em>const</em> <em>char</em> *<dfn class="local col4 decl" id="74text" title='text' data-type='const char *' data-ref="74text">text</dfn>);</td></tr>
+<tr><th id="289">289</th><td></td></tr>
+<tr><th id="290">290</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="291">291</th><td><i class="doc"> * Outputs a new UTF-8 c-string which has all escaped characters replaced by</i></td></tr>
+<tr><th id="292">292</th><td><i class="doc"> * their unescaped, UTF-8 encoded variants.</i></td></tr>
+<tr><th id="293">293</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="294">294</th><td><i class="doc"> * <span class="command">@param</span> <span class="arg">test</span> a UTF-8 c-string</i></td></tr>
+<tr><th id="295">295</th><td><i class="doc"> * <span class="command">@return</span> a newly allocated UTF-8 c-string; free with free()</i></td></tr>
+<tr><th id="296">296</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="297">297</th><td>	<em>char</em> *<dfn class="decl" id="json_unescape" title='json_unescape' data-ref="json_unescape">json_unescape</dfn> (<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="75text" title='text' data-type='const char *' data-ref="75text">text</dfn>);</td></tr>
+<tr><th id="298">298</th><td></td></tr>
+<tr><th id="299">299</th><td></td></tr>
+<tr><th id="300">300</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="301">301</th><td><i class="doc">This function takes care of the tedious task of initializing any instance of </i></td></tr>
+<tr><th id="302">302</th><td><i class="doc">struct json_parsing_info</i></td></tr>
+<tr><th id="303">303</th><td><i class="doc"><span class="command">@param</span> <span class="arg">jpi</span> a pointer to a struct json_parsing_info instance</i></td></tr>
+<tr><th id="304">304</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="305">305</th><td>	<em>void</em> <dfn class="decl" id="json_jpi_init" title='json_jpi_init' data-ref="json_jpi_init">json_jpi_init</dfn> (<b>struct</b> <a class="type" href="#json_parsing_info" title='json_parsing_info' data-ref="json_parsing_info">json_parsing_info</a> *<dfn class="local col6 decl" id="76jpi" title='jpi' data-type='struct json_parsing_info *' data-ref="76jpi">jpi</dfn>);</td></tr>
+<tr><th id="306">306</th><td></td></tr>
+<tr><th id="307">307</th><td></td></tr>
+<tr><th id="308">308</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="309">309</th><td><i class="doc">Produces a document tree sequentially from a JSON markup text fragment</i></td></tr>
+<tr><th id="310">310</th><td><i class="doc"><span class="command">@param</span> <span class="arg">info</span> the information necessary to resume parsing any incomplete document</i></td></tr>
+<tr><th id="311">311</th><td><i class="doc"><span class="command">@param</span> <span class="arg">buffer</span> a null-terminated c-string containing a JSON document fragment</i></td></tr>
+<tr><th id="312">312</th><td><i class="doc"><span class="command">@return</span> a code describing how the operation ended up</i></td></tr>
+<tr><th id="313">313</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="314">314</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_parse_fragment" title='json_parse_fragment' data-ref="json_parse_fragment">json_parse_fragment</dfn> (<b>struct</b> <a class="type" href="#json_parsing_info" title='json_parsing_info' data-ref="json_parsing_info">json_parsing_info</a> *<dfn class="local col7 decl" id="77info" title='info' data-type='struct json_parsing_info *' data-ref="77info">info</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="78buffer" title='buffer' data-type='const char *' data-ref="78buffer">buffer</dfn>);</td></tr>
+<tr><th id="315">315</th><td></td></tr>
+<tr><th id="316">316</th><td></td></tr>
+<tr><th id="317">317</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="318">318</th><td><i class="doc">Produces a document tree from a JSON markup text string that contains a complete document</i></td></tr>
+<tr><th id="319">319</th><td><i class="doc"><span class="command">@param</span> <span class="arg">root</span> a reference to a pointer to a json_t type. The function allocates memory to the passed pointer and sets up the value</i></td></tr>
+<tr><th id="320">320</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text</span> a c-string containing a complete JSON text document</i></td></tr>
+<tr><th id="321">321</th><td><i class="doc"><span class="command">@return</span> a pointer to the new document tree or NULL if some error occurred</i></td></tr>
+<tr><th id="322">322</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="323">323</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_parse_document" title='json_parse_document' data-ref="json_parse_document">json_parse_document</dfn> (<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> ** <dfn class="local col9 decl" id="79root" title='root' data-type='json_t **' data-ref="79root">root</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="80text" title='text' data-type='const char *' data-ref="80text">text</dfn>);</td></tr>
+<tr><th id="324">324</th><td></td></tr>
+<tr><th id="325">325</th><td></td></tr>
+<tr><th id="326">326</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="327">327</th><td><i class="doc">Function to perform a SAX-like parsing of any JSON document or document fragment that is passed to it</i></td></tr>
+<tr><th id="328">328</th><td><i class="doc"><span class="command">@param</span> <span class="arg">jsps</span> a structure holding the status information of the current parser</i></td></tr>
+<tr><th id="329">329</th><td><i class="doc"><span class="command">@param</span> <span class="arg">jsf</span> a structure holding the function pointers to the event functions</i></td></tr>
+<tr><th id="330">330</th><td><i class="doc"><span class="command">@param</span> <span class="arg">c</span> the character to be parsed</i></td></tr>
+<tr><th id="331">331</th><td><i class="doc"><span class="command">@return</span> a json_error code informing how the parsing went</i></td></tr>
+<tr><th id="332">332</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="333">333</th><td>	<b>enum</b> <a class="type" href="#json_error" title='json_error' data-ref="json_error">json_error</a> <dfn class="decl" id="json_saxy_parse" title='json_saxy_parse' data-ref="json_saxy_parse">json_saxy_parse</dfn> (<b>struct</b> <a class="type" href="#json_saxy_parser_status" title='json_saxy_parser_status' data-ref="json_saxy_parser_status">json_saxy_parser_status</a> *<dfn class="local col1 decl" id="81jsps" title='jsps' data-type='struct json_saxy_parser_status *' data-ref="81jsps">jsps</dfn>, <b>struct</b> <a class="type" href="#json_saxy_functions" title='json_saxy_functions' data-ref="json_saxy_functions">json_saxy_functions</a> *<dfn class="local col2 decl" id="82jsf" title='jsf' data-type='struct json_saxy_functions *' data-ref="82jsf">jsf</dfn>, <em>char</em> <dfn class="local col3 decl" id="83c" title='c' data-type='char' data-ref="83c">c</dfn>);</td></tr>
+<tr><th id="334">334</th><td></td></tr>
+<tr><th id="335">335</th><td></td></tr>
+<tr><th id="336">336</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="337">337</th><td><i class="doc">Searches through the object's children for a label holding the text text_label</i></td></tr>
+<tr><th id="338">338</th><td><i class="doc"><span class="command">@param</span> <span class="arg">object</span> a json_value of type JSON_OBJECT</i></td></tr>
+<tr><th id="339">339</th><td><i class="doc"><span class="command">@param</span> <span class="arg">text_label</span> the c-string to search for through the object's child labels</i></td></tr>
+<tr><th id="340">340</th><td><i class="doc"><span class="command">@return</span> a pointer to the first label holding a text equal to text_label or NULL if there is no such label or if object has no children</i></td></tr>
+<tr><th id="341">341</th><td><i class="doc">**/</i></td></tr>
+<tr><th id="342">342</th><td>	<a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="json_find_first_label" title='json_find_first_label' data-ref="json_find_first_label">json_find_first_label</dfn> (<em>const</em> <a class="typedef" href="#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> * <dfn class="local col4 decl" id="84object" title='object' data-type='const json_t *' data-ref="84object">object</dfn>, <em>const</em> <em>char</em> *<dfn class="local col5 decl" id="85text_label" title='text_label' data-type='const char *' data-ref="85text_label">text_label</dfn>);</td></tr>
+<tr><th id="343">343</th><td></td></tr>
+<tr><th id="344">344</th><td></td></tr>
+<tr><th id="345">345</th><td><u>#<span data-ppcond="345">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="346">346</th><td>}</td></tr>
+<tr><th id="347">347</th><td><u>#<span data-ppcond="345">endif</span></u></td></tr>
+<tr><th id="348">348</th><td><u>#<span data-ppcond="34">endif</span></u></td></tr>
+<tr><th id="349">349</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

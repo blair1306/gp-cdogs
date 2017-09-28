@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='198' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/map_archive.c' l='423' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='60' u='r' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='352' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='85' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='257' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='221' u='r' c='MissionGetR1Str'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='228' u='w' c='MissionChangeR1'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='228' u='r' c='MissionChangeR1'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='228' u='r' c='MissionChangeR1'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='228' u='r' c='MissionChangeR1'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='228' u='r' c='MissionChangeR1'/>

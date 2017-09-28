@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='208' type='key_code_e'/>
+<offset>0</offset>
+<use f='codebrowser/src/mainmenu.c' l='638' u='w' c='MenuCreateOptionChangeKey'/>
+<use f='codebrowser/src/menu.c' l='840' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1126' u='r' c='MenuProcessChangeKey'/>

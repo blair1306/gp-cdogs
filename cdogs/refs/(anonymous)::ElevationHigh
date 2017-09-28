@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='116' type='int'/>
+<offset>1024</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='459' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='459' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='247' u='w' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='250' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='251' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='251' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='252' u='w' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='252' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='252' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='297' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='297' u='r' c='LoadGunDescription'/>

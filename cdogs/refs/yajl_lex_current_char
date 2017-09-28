@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='115' type='size_t yajl_lex_current_char(yajl_lexer lexer)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='113'>/** get the number of chars lexed by this lexer instance since the last
+ *  \n or \r */</doc>
+<def f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='740' ll='743' type='size_t yajl_lex_current_char(yajl_lexer lexer)'/>

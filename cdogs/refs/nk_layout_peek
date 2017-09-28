@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='19279' ll='19304' macro='1' type='void nk_layout_peek(struct nk_rect * bounds, struct nk_context * ctx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19492' u='c' c='nk_widget_bounds'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19505' u='c' c='nk_widget_position'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19518' u='c' c='nk_widget_size'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19531' u='c' c='nk_widget_width'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19544' u='c' c='nk_widget_height'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19558' u='c' c='nk_widget_is_hovered'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19574' u='c' c='nk_widget_is_mouse_clicked'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19590' u='c' c='nk_widget_has_mouse_click_down'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='81' type='int PicManagerGetWallStyleIndex(PicManager * pm, const char * style)'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='596' ll='605' type='int PicManagerGetWallStyleIndex(PicManager * pm, const char * style)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='397' u='c' c='MissionDrawWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='842' u='c' c='MissionChangeWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='842' u='c' c='MissionChangeWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='842' u='c' c='MissionChangeWallStyle'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='173' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/files.c' l='431' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='454' u='r' c='SaveClassicPillars'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='126' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='501' u='a' c='LoadClassicPillars'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='57' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='249' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='351' u='r' c='MissionGetPillarCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='790' u='w' c='MissionChangePillarCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='791' u='r' c='MissionChangePillarCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='791' u='r' c='MissionChangePillarCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='791' u='r' c='MissionChangePillarCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='791' u='r' c='MissionChangePillarCount'/>

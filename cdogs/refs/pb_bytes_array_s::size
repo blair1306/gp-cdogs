@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='255' type='pb_size_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1080' u='w' c='pb_dec_bytes'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='628' u='r' c='pb_enc_bytes'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='633' u='r' c='pb_enc_bytes'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogsed/ui_object.c' l='40' type='color_t'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='448' u='r' c='UIObjectDrawAndAddChildren'/>

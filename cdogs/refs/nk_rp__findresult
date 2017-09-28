@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8662' ll='8665'/>
+<size>16</size>
+<mbr r='nk_rp__findresult::x' o='0' t='int'/>
+<mbr r='nk_rp__findresult::y' o='32' t='int'/>
+<mbr r='nk_rp__findresult::prev_link' o='64' t='struct nk_rp_node **'/>

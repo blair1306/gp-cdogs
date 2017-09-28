@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='899' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8518' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8524' u='r' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='124' u='w' c='nk_sdl_render'/>
+<offset>96</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='899'>/* number of segments used for circles: default to 22 */</doc>

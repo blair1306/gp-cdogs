@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_endian.h' l='44'/>
+<use f='include/SDL2/SDL_endian.h' l='210' u='c'/>
+<use f='include/SDL2/SDL_audio.h' l='121' u='c'/>
+<use f='include/SDL2/SDL_mixer.h' l='94' u='c'/>
+<use f='codebrowser/src/cdogs/files.c' l='72' u='c'/>

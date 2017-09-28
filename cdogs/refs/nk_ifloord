@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4605' ll='4610' macro='1' type='int nk_ifloord(double x)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4729' u='c' c='nk_dtoa'/>

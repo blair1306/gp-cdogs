@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2831' type='18'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7569' u='r' c='nk_draw_vertex_layout_element_is_end_of_layout'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='117' macro='1' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='117' macro='1' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='117' macro='1' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='117' macro='1' u='r'/>

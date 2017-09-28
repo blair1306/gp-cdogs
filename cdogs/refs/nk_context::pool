@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3716' type='struct nk_pool'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16777' u='a' c='nk_init_custom'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16781' u='a' c='nk_init_custom'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16795' u='a' c='nk_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16818' u='a' c='nk_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17694' u='a' c='nk_create_page_element'/>
+<offset>131776</offset>

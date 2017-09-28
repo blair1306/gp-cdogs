@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_new.h' l='42' type='void LoadMissions(CArray * missions, json_t * missionsNode, int version)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='158' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='164' u='c' c='MapNewLoad'/>
+<def f='codebrowser/src/cdogs/map_new.c' l='194' ll='368' type='void LoadMissions(CArray * missions, json_t * missionsNode, int version)'/>

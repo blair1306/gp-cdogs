@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='125' type='int'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='147' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='517' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='546' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='549' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='555' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1216' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1228' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1232' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1242' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='649' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='667' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='675' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='689' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='693' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/automap.c' l='281' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/automap.c' l='283' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='410' u='r' c='CheckParams'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='423' u='r' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='443' u='r' c='DrawObjectiveName'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='83' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='86' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='506' u='r' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='510' u='r' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/mission.c' l='316' u='r' c='ObjectiveActorsAlive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='440' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='529' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='541' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='158' u='r' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='160' u='r' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='458' u='w' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='320' u='w' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='95' u='w' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='133' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/tile.c' l='164' u='r' c='TileItemDrawLast'/>

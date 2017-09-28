@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='319' type='size_t'/>
+<offset>3712</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='244' u='w' c='enet_peer_receive'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='420' u='w' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='933' u='r' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='969' u='w' c='enet_peer_queue_incoming_command'/>

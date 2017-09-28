@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config.h' l='83' type='const char * GoreAmountStr(int g)'/>
+<def f='codebrowser/src/cdogs/config.c' l='117' ll='128' type='const char * GoreAmountStr(int g)'/>
+<use f='codebrowser/src/cdogs/config.c' l='641' u='r' c='ConfigDefault'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='131' type='int MobObjsObjsGetNextUID()'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='453' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='192' u='c' c='ObjRemove'/>
+<def f='codebrowser/src/cdogs/objs.c' l='559' ll='562' type='int MobObjsObjsGetNextUID()'/>

@@ -1,0 +1,23 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3003' ll='3036'/>
+<size>280</size>
+<mbr r='nk_style_selectable::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_selectable::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_selectable::pressed' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_selectable::normal_active' o='768' t='struct nk_style_item'/>
+<mbr r='nk_style_selectable::hover_active' o='1024' t='struct nk_style_item'/>
+<mbr r='nk_style_selectable::pressed_active' o='1280' t='struct nk_style_item'/>
+<mbr r='nk_style_selectable::text_normal' o='1536' t='struct nk_color'/>
+<mbr r='nk_style_selectable::text_hover' o='1568' t='struct nk_color'/>
+<mbr r='nk_style_selectable::text_pressed' o='1600' t='struct nk_color'/>
+<mbr r='nk_style_selectable::text_normal_active' o='1632' t='struct nk_color'/>
+<mbr r='nk_style_selectable::text_hover_active' o='1664' t='struct nk_color'/>
+<mbr r='nk_style_selectable::text_pressed_active' o='1696' t='struct nk_color'/>
+<mbr r='nk_style_selectable::text_background' o='1728' t='struct nk_color'/>
+<mbr r='nk_style_selectable::text_alignment' o='1760' t='nk_flags'/>
+<mbr r='nk_style_selectable::rounding' o='1792' t='float'/>
+<mbr r='nk_style_selectable::padding' o='1824' t='struct nk_vec2'/>
+<mbr r='nk_style_selectable::touch_padding' o='1888' t='struct nk_vec2'/>
+<mbr r='nk_style_selectable::image_padding' o='1952' t='struct nk_vec2'/>
+<mbr r='nk_style_selectable::userdata' o='2048' t='nk_handle'/>
+<mbr r='nk_style_selectable::draw_begin' o='2112' t='void (*)(struct nk_command_buffer *, nk_handle)'/>
+<mbr r='nk_style_selectable::draw_end' o='2176' t='void (*)(struct nk_command_buffer *, nk_handle)'/>

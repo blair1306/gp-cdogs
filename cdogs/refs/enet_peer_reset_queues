@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='585' type='void enet_peer_reset_queues(ENetPeer * )'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='304' ll='340' type='void enet_peer_reset_queues(ENetPeer * peer)'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='424' u='c' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='506' u='c' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='537' u='c' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='803' u='c' c='enet_protocol_handle_disconnect'/>

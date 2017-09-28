@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='160' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/files.c' l='420' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='383' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='138' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='332' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='42' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='238' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='205' u='r' c='MissionGetWallCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='685' u='w' c='MissionChangeWallCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='686' u='r' c='MissionChangeWallCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='686' u='r' c='MissionChangeWallCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='686' u='r' c='MissionChangeWallCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='686' u='r' c='MissionChangeWallCount'/>

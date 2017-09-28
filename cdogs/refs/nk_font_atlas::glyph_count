@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2147' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11861' u='a' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11867' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11869' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11889' u='r' c='nk_font_atlas_bake'/>
+<offset>2816</offset>

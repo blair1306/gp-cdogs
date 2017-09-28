@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='220' type='4'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.h' l='37'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.h' l='42'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.h' l='44'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.h' l='67'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.h' l='68'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='131' u='r' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='207' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='264' u='r' c='DrawActorPics'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='71'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='136' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='141' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='204' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='206' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='620' c='AddCharacterTextures'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='621' u='r' c='AddCharacterTextures'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='662' u='r' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='839' u='r' c='DrawCharacter'/>

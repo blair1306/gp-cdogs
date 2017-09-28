@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/font.h' l='53' type='1'/>
+<use f='codebrowser/src/briefing_screens.c' l='118' u='r' c='CampaignIntroDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='176' u='r' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='187' u='r' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='582' u='r' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/cdogs/font.c' l='309' c='GetAlign'/>
+<use f='codebrowser/src/cdogs/font.c' l='324' u='r' c='FontStrCenter'/>
+<use f='codebrowser/src/cdogs/font.c' l='325' u='r' c='FontStrCenter'/>
+<use f='codebrowser/src/cdogs/font.c' l='402' c='Vec2iAligned'/>
+<use f='codebrowser/src/cdogs/font.c' l='413' c='Vec2iAligned'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='939' u='r' c='DrawMissionTime'/>
+<use f='codebrowser/src/cdogs/particle.c' l='484' u='r' c='DrawParticle'/>
+<use f='codebrowser/src/mainmenu.c' l='350' u='r' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='270' u='r' c='ShowControls'/>
+<use f='codebrowser/src/menu.c' l='598' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/password.c' l='302' u='r' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/screens_end.c' l='385' u='r' c='VictoryDraw'/>

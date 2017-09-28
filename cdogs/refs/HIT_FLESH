@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='133' type='3'/>
+<use f='codebrowser/src/cdogs/actors.c' l='249' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='212' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='423' u='r' c='HitItem'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='474' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='931' c='PlayHitSound'/>

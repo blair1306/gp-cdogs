@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='82' type='Vec2i'/>
+<dec f='codebrowser/src/cdogs/ai_context.h' l='86' type='Vec2i'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='471' u='w' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='509' u='w' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='546' u='w' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='854' u='r' c='GotoObjective'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='544' u='w' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='551' u='r' c='AIGoto'/>

@@ -1,0 +1,13 @@
+<dec f='include/stdio.h' l='715' type='size_t fwrite(const void *restrict __ptr, size_t __size, size_t __n, FILE *restrict __s)'/>
+<doc f='include/stdio.h' l='711'>/* Write chunks of generic data to STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/cdogs/files.c' l='122' u='c' c='fwrite32'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='222' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/hiscores.c' l='354' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='355' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='362' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='364' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='366' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='369' u='c' c='SaveHighScores'/>

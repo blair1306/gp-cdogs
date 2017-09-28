@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='69' type='const char * PlacementFlagStr(const int i)'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='60' ll='74' type='const char * PlacementFlagStr(const int i)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='383' u='c' c='MakePlacementFlagTooltip'/>

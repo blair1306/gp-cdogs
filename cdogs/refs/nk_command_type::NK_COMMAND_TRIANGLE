@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2513' type='11'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7106' u='r' c='nk_stroke_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8540' c='nk_convert'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='123' type='1'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='89' c='yajl_config'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='126' u='r' c='yajl_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='146' u='r' c='yajl_complete_parse'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='116'>/** Ignore javascript style comments present in
+         *  JSON input.  Non-standard, but rather fun
+         *  arguments: toggled off with integer zero, on otherwise.
+         *
+         *  example:
+         *    yajl_config(h, yajl_allow_comments, 1); // turn comment support on
+         */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='433' u='r' c='yajl_tree_parse'/>

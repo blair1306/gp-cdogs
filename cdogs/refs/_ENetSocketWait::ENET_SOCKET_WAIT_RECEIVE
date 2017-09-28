@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='51' type='2'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1901' u='r' c='enet_host_service'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1909' u='r' c='enet_host_service'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='544' u='r' c='enet_socket_wait'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='570' u='r' c='enet_socket_wait'/>

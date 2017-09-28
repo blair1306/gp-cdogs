@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='44' type='3'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='157' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='75' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='122' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='165' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='236' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='331' u='r' c='handle_start_map'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='462' u='r' c='yajl_tree_get'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='491' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='115' macro='1' u='r'/>

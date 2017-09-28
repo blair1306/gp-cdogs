@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1760' type='int nk_style_pop_style_item(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16592' macro='1' type='int nk_style_pop_style_item(struct nk_context * ctx)'/>

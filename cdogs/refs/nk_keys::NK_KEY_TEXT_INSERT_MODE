@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='676' type='14'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12761' c='nk_textedit_key'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='675'>/* Shortcuts: text field */</doc>

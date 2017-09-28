@@ -1,0 +1,21 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3524' ll='3550'/>
+<size>464</size>
+<mbr r='nk_window::seq' o='0' t='unsigned int'/>
+<mbr r='nk_window::name' o='32' t='nk_hash'/>
+<mbr r='nk_window::name_string' o='64' t='char [64]'/>
+<mbr r='nk_window::flags' o='576' t='nk_flags'/>
+<mbr r='nk_window::bounds' o='608' t='struct nk_rect'/>
+<mbr r='nk_window::scrollbar' o='736' t='struct nk_scroll'/>
+<mbr r='nk_window::buffer' o='832' t='struct nk_command_buffer'/>
+<mbr r='nk_window::layout' o='1344' t='struct nk_panel *'/>
+<mbr r='nk_window::scrollbar_hiding_timer' o='1408' t='float'/>
+<mbr r='nk_window::property' o='1440' t='struct nk_property_state'/>
+<mbr r='nk_window::popup' o='2240' t='struct nk_popup_state'/>
+<mbr r='nk_window::edit' o='3008' t='struct nk_edit_state'/>
+<mbr r='nk_window::scrolled' o='3360' t='unsigned int'/>
+<mbr r='nk_window::tables' o='3392' t='struct nk_table *'/>
+<mbr r='nk_window::table_count' o='3456' t='unsigned short'/>
+<mbr r='nk_window::table_size' o='3472' t='unsigned short'/>
+<mbr r='nk_window::next' o='3520' t='struct nk_window *'/>
+<mbr r='nk_window::prev' o='3584' t='struct nk_window *'/>
+<mbr r='nk_window::parent' o='3648' t='struct nk_window *'/>

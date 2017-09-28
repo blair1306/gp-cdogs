@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_events.h' l='102' type='1024'/>
+<doc f='include/SDL2/SDL_events.h' l='101'>/* Mouse events */</doc>
+<doc f='include/SDL2/SDL_events.h' l='102'>/**&lt; Mouse moved */</doc>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='313' u='r' c='nk_sdl_handle_event'/>

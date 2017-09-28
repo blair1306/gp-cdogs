@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/prep.h' l='61' type='GameLoopData * NumPlayersSelection(GraphicsDevice * graphics, EventHandlers * handlers)'/>
+<use f='codebrowser/src/briefing_screens.c' l='96' u='c' c='CampaignIntroUpdate'/>
+<doc f='codebrowser/src/prep.h' l='60'>// Screen to select the number of (local) players</doc>
+<def f='codebrowser/src/prep.c' l='181' ll='210' type='GameLoopData * NumPlayersSelection(GraphicsDevice * graphics, EventHandlers * handlers)'/>

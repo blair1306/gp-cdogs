@@ -1,0 +1,3 @@
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='15' ll='19'/>
+<size>24</size>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='14'>/* We need to keep keys and values */</doc>

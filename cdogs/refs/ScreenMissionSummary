@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/briefing_screens.h' l='37' type='GameLoopData * ScreenMissionSummary(const CampaignOptions * c, struct MissionOptions * m, const _Bool completed)'/>
+<def f='codebrowser/src/briefing_screens.c' l='358' ll='392' type='GameLoopData * ScreenMissionSummary(const CampaignOptions * c, struct MissionOptions * m, const _Bool completed)'/>
+<doc f='codebrowser/src/briefing_screens.h' l='35'>// Display a summary page at the end of a mission
+// Returns true if the game is to continue</doc>
+<use f='codebrowser/src/game.c' l='652' u='c' c='NextLoop'/>

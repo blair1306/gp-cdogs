@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/config.h' l='78' type='0'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1472' u='r' c='ActorAddBloodSplatters'/>
+<use f='codebrowser/src/cdogs/config.c' l='121' c='GoreAmountStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='131' u='r' c='StrGoreAmount'/>
+<use f='codebrowser/src/cdogs/config.c' l='135' u='r' c='StrGoreAmount'/>
+<use f='codebrowser/src/cdogs/config.c' l='641' u='r' c='ConfigDefault'/>

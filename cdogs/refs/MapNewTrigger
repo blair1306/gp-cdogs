@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='171' type='Trigger * MapNewTrigger(Map * map)'/>
+<use f='codebrowser/src/cdogs/door.c' l='254' u='c' c='CreateOpenDoorTrigger'/>
+<def f='codebrowser/src/cdogs/map.c' l='939' ll='945' type='Trigger * MapNewTrigger(Map * map)'/>
+<doc f='codebrowser/src/cdogs/map.c' l='938'>// Only creates the trigger, but does not place it</doc>

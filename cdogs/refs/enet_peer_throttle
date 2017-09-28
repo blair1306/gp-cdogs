@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='584' type='int enet_peer_throttle(ENetPeer * , enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='61' ll='90' type='int enet_peer_throttle(ENetPeer * peer, enet_uint32 rtt)'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='850' u='c' c='enet_protocol_handle_acknowledge'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='124' type='int UIObjectIsHighlighted(UIObject * o)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='264' u='c' c='MissionDrawEdgeRooms'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='277' u='c' c='MissionDrawRoomsOverlap'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='325' u='c' c='MissionDrawDoorEnabled'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='405' u='c' c='MissionDrawWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='422' u='c' c='MissionDrawFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='439' u='c' c='MissionDrawRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='454' u='c' c='MissionDrawDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='472' u='c' c='MissionDrawKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='490' u='c' c='MissionDrawExitStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='576' u='c' c='MissionDrawEnemy'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='594' u='c' c='MissionDrawSpecialChar'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='609' u='c' c='MissionDrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='113' u='c' c='MissionDrawWeaponStatus'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='189' ll='192' type='int UIObjectIsHighlighted(UIObject * o)'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='388' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='549' u='c' c='UITryGetObjectImpl'/>

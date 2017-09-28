@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_mixer.h' l='146' type='int Mix_QuerySpec(int * frequency, Uint16 * format, int * channels)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='143'>/* Find out what the actual audio device parameters are.
+   This function returns 1 if the audio has been opened, 0 otherwise.
+ */</doc>
+<use f='codebrowser/src/cdogs/sounds.c' l='86' u='c' c='OpenAudio'/>

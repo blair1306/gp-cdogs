@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='153' type='color_t'/>
+<offset>46752</offset>
+<use f='codebrowser/src/cdogs/door.c' l='121' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='240' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='306' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/files.c' l='418' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='378' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='79' u='r' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='86' u='r' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='93' u='r' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='114' u='r' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='125' u='r' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='147' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='161' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='167' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='320' u='w' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='327' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='115' u='w' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='165' u='w' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='165' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='294' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='403' u='r' c='MissionDrawWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='420' u='r' c='MissionDrawFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='437' u='r' c='MissionDrawRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='247' u='w' c='MissionColorChange'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='263' u='r' c='CampaignGetMissionColor'/>

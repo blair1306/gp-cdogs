@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='102' type='49'/>
+<doc f='codebrowser/src/cdogs/game_events.h' l='101'>// Can complete mission</doc>
+<use f='codebrowser/src/cdogs/game_events.c' l='110' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='110' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='110' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='110' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='649' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='287' u='r' c='MissionSetMessageIfComplete'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='553' u='r' c='NetServerSendGameStartMessages'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='43' type='_Bool MissionStaticTryRemoveObjectiveAt(Mission * m, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='393' u='c' c='MissionStaticTryAddObjective'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='433' ll='458' macro='1' type='_Bool MissionStaticTryRemoveObjectiveAt(Mission * m, Vec2i pos)'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='396' u='c' c='EditorBrushStartPainting'/>

@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_haptic.h' l='470' type='Sint16'/>
+<offset>240</offset>
+<doc f='include/SDL2/SDL_haptic.h' l='469'>/* Constant */</doc>
+<doc f='include/SDL2/SDL_haptic.h' l='470'>/**&lt; Strength of the constant effect. */</doc>
+<use f='codebrowser/src/cdogs/joystick.c' l='180' u='w' c='JoyAdded'/>

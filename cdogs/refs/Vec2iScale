@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='48' type='Vec2i Vec2iScale(Vec2i v, int scalar)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='907' u='c' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='914' u='c' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='939' u='c' c='ActorUpdatePosition'/>
+<use f='codebrowser/src/cdogs/automap.c' l='87' u='c' c='DisplayPlayer'/>
+<use f='codebrowser/src/cdogs/automap.c' l='105' u='c' c='DisplayObjective'/>
+<use f='codebrowser/src/cdogs/automap.c' l='131' u='c' c='DisplayExit'/>
+<use f='codebrowser/src/cdogs/automap.c' l='132' u='c' c='DisplayExit'/>
+<use f='codebrowser/src/cdogs/automap.c' l='197' u='c' c='DrawDot'/>
+<use f='codebrowser/src/cdogs/automap.c' l='207' u='c' c='DrawMap'/>
+<use f='codebrowser/src/cdogs/automap.c' l='332' u='c' c='AutomapDraw'/>
+<use f='codebrowser/src/cdogs/automap.c' l='372' u='c' c='AutomapDrawRegion'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='203' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='883' u='c' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='430' u='c' c='GetWallBouncePosVelFull'/>
+<use f='codebrowser/src/cdogs/door.c' l='100' u='c' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='140' u='c' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='179' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='200' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='206' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='224' u='c' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='266' u='c' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='290' u='c' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='313' u='c' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='324' u='c' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/los.c' l='112' u='c' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='458' u='c' c='FindWallRun'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='219' u='c' c='MouseDraw'/>
+<def f='codebrowser/src/cdogs/vector.c' l='72' ll='77' type='Vec2i Vec2iScale(Vec2i v, int scalar)'/>
+<use f='codebrowser/src/cdogs/vector.c' l='134' u='c' c='Vec2iReal2Full'/>
+<use f='codebrowser/src/cdogs/vector.c' l='139' u='c' c='Vec2iReal2FullCentered'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='503' u='c' c='GunAddBrass'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='446' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='447' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='573' u='c' c='UITooltipDraw'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='574' u='c' c='UITooltipDraw'/>
+<use f='codebrowser/src/game.c' l='585' u='c' c='RunGameUpdate'/>

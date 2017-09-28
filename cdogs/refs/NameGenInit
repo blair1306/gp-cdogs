@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/namegen.h' l='38' type='void NameGenInit(NameGen * g, const char * prefixFile, const char * suffixFile, const char * suffixNameFile)'/>
+<def f='codebrowser/src/namegen.c' l='35' ll='45' type='void NameGenInit(NameGen * g, const char * prefixFile, const char * suffixFile, const char * suffixNameFile)'/>
+<use f='codebrowser/src/prep.c' l='320' u='c' c='PlayerSelection'/>

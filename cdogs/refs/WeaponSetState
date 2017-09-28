@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='157' type='void WeaponSetState(Weapon * w, const gunstate_e state)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='518' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='452' u='c' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='455' u='c' c='WeaponUpdate'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='539' ll='556' type='void WeaponSetState(Weapon * w, const gunstate_e state)'/>

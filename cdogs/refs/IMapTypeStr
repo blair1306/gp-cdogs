@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map.h' l='72' type='const char * IMapTypeStr(IMapType t)'/>
+<def f='codebrowser/src/cdogs/map.c' l='84' ll='97' type='const char * IMapTypeStr(IMapType t)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='51' u='c' c='BrushGetTypeStr'/>

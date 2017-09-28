@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='345' type='void *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='343'>/* Destination for the decoded data. This must match the datatype
+     * of the extension field. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='637' u='r' c='default_extension_decoder'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='638' u='r' c='default_extension_decoder'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='310' u='r' c='default_extension_encoder'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1588' type='void nk_edit_unfocus(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20568' ll='20579' macro='1' type='void nk_edit_unfocus(struct nk_context * ctx)'/>

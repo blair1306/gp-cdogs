@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/color.h' l='98' type='double'/>
+<dec f='include/SDL2/SDL_video.h' l='57' type='int'/>
+<offset>64</offset>
+<doc f='include/SDL2/SDL_video.h' l='57'>/**&lt; height, in screen coordinates */</doc>
+<use f='codebrowser/src/cdogs/color.c' l='130' u='r' c='ColorTint'/>
+<use f='codebrowser/src/cdogs/color.c' l='136' u='r' c='ColorTint'/>
+<use f='codebrowser/src/cdogs/color.c' l='203' u='r' c='HSVEquals'/>
+<use f='codebrowser/src/cdogs/color.c' l='203' u='r' c='HSVEquals'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='153' u='w' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='165' u='r' c='AddSupportedGraphicsModes'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='169' u='r' c='AddSupportedGraphicsModes'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='82' u='w' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='89' u='w' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/tests/color_test.c' l='131' u='w' c='_cbehave_feature_ColorTint'/>
+<use f='codebrowser/src/tests/color_test.c' l='150' u='w' c='_cbehave_feature_ColorTint'/>
+<use f='codebrowser/src/tests/color_test.c' l='170' u='w' c='_cbehave_feature_ColorTint'/>
+<use f='codebrowser/src/tests/color_test.c' l='190' u='w' c='_cbehave_feature_ColorTint'/>

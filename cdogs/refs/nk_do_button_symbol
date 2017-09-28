@@ -1,0 +1,14 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13675' ll='13697' macro='1' type='int nk_do_button_symbol(nk_flags * state, struct nk_command_buffer * out, struct nk_rect bounds, enum nk_symbol_type symbol, enum nk_button_behavior behavior, const struct nk_style_button * style, const struct nk_input * in, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14329' u='c' c='nk_do_slider'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14335' u='c' c='nk_do_slider'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14635' u='c' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14641' u='c' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14724' u='c' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14730' u='c' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15646' u='c' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15659' u='c' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17309' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17332' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19378' u='c' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20066' u='c' c='nk_button_symbol_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22902' u='c' c='nk_menu_begin_symbol'/>

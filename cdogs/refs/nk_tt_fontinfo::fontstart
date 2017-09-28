@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9052' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9199' u='w' c='nk_tt_InitFont'/>
+<offset>64</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='9052'>/* offset of start of font */</doc>

@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/menu_utils.h' l='37' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu_utils.c' l='66' u='r' c='MenuDisplayPlayer'/>
+<dec f='codebrowser/src/player_select_menus.h' l='40' type='int'/>
+<use f='codebrowser/src/player_select_menus.c' l='82' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='184' u='r' c='PostInputFaceMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='208' u='w' c='CreateColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='300' u='r' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='313' u='r' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='366' u='r' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='395' u='r' c='SaveTemplateDisplayTitle'/>
+<use f='codebrowser/src/player_select_menus.c' l='434' u='w' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='490' u='a' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='505' u='r' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='507' u='r' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='509' u='r' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='511' u='r' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='513' u='r' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='527' u='r' c='ShuffleAppearance'/>
+<offset>32</offset>
+<dec f='codebrowser/src/weapon_menu.h' l='37' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/src/weapon_menu.c' l='39' u='r' c='WeaponSelect'/>
+<use f='codebrowser/src/weapon_menu.c' l='120' u='r' c='DisplayEquippedWeapons'/>
+<use f='codebrowser/src/weapon_menu.c' l='153' u='w' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='156' u='w' c='WeaponMenuCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='243' u='a' c='WeaponMenuCreate'/>

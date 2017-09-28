@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/gamedata.h' l='70' ll='73'/>
+<size>264</size>
+<mbr r='SongDef::path' o='0' t='char [255]'/>
+<mbr r='SongDef::next' o='2048' t='struct SongDef *'/>

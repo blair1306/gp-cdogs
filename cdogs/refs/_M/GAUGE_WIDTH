@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='40'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='76' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='180' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='947' u='c'/>

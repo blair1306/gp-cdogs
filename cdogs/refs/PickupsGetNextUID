@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='53' type='int PickupsGetNextUID()'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1075' u='c' c='ActorAddAmmoPickup'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1108' u='c' c='ActorAddGunPickup'/>
+<use f='codebrowser/src/cdogs/map.c' l='418' u='c' c='MapPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map.c' l='502' u='c' c='MapPlaceKey'/>
+<use f='codebrowser/src/cdogs/objs.c' l='138' u='c' c='AddPickupAtObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='512' u='c' c='UpdateObjects'/>
+<def f='codebrowser/src/cdogs/pickup.c' l='58' ll='61' type='int PickupsGetNextUID()'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='173' u='c' c='HealthPlace'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='233' u='c' c='AmmoPlace'/>

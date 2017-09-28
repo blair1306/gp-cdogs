@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/files.h' l='98' type='int32_t'/>
+<offset>448</offset>
+<dec f='codebrowser/src/cdogs/hud/health_gauge.h' l='37' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/files.c' l='317' u='w' c='load_character'/>
+<use f='codebrowser/src/cdogs/files.c' l='332' u='r' c='ConvertCharacter'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='39' u='w' c='HealthGaugeInit'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='47' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='49' u='w' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='62' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='64' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='64' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='64' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='65' u='w' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='93' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='96' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='96' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='100' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='104' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='104' u='r' c='HealthGaugeDraw'/>

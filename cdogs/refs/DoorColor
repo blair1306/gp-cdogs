@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/automap.c' l='176' ll='192' type='color_t DoorColor(int x, int y)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='232' u='c' c='DrawMap'/>

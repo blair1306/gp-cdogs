@@ -1,0 +1,19 @@
+<def f='codebrowser/src/tests/cbehave/cbehave.h' l='226' ll='229'/>
+<size>24</size>
+<doc f='codebrowser/src/tests/cbehave/cbehave.h' l='210'>/*
+ * mock symbol list
+ *
+ * ------------
+ * | symbol-#0|-&gt; value_list
+ * ------------
+ * | symbol-#1|-&gt; value_list
+ * ------------
+ * | symbol-#2|-&gt; value_list
+ * ------------
+ * | ... ...  |-&gt; value_list
+ * ------------
+ * | symbol-#n|-&gt; value_list
+ * ------------
+ */</doc>
+<mbr r='cbehave_value_t::link' o='0' t='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/tests/./cbehave/cbehave.h:227:5)'/>
+<mbr r='cbehave_value_t::value' o='128' t='void *'/>

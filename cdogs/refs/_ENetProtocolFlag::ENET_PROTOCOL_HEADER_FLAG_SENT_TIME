@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='49' type='32768'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='50' u='r'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='998' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1163' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1562' u='r' c='enet_protocol_send_reliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1677' u='r' c='enet_protocol_send_outgoing_commands'/>

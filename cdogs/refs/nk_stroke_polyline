@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2704' type='void nk_stroke_polyline(struct nk_command_buffer * , float * points, int point_count, float line_thickness, struct nk_color col)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7190' ll='7210' macro='1' type='void nk_stroke_polyline(struct nk_command_buffer * b, float * points, int point_count, float line_thickness, struct nk_color col)'/>

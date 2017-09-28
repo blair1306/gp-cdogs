@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3670' type='struct nk_page *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16671' u='r' c='nk_pool_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16706' u='w' c='nk_pool_alloc'/>
+<offset>64</offset>

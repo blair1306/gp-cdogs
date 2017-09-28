@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='88' type='Pic *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1005' u='w' c='ToggleCollapse'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1011' u='w' c='ToggleCollapse'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='82' u='w' c='UIButtonSetPic'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='85' u='r' c='UIButtonSetPic'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='438' u='r' c='UIObjectDrawAndAddChildren'/>

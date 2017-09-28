@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='81'/>
+<doc f='codebrowser/src/cdogs/mission.h' l='79'>// Keys that have been collected in this level
+// Applies to all players</doc>
+<use f='codebrowser/src/cdogs/automap.c' l='181' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='313' u='c'/>
+<use f='codebrowser/src/cdogs/door.c' l='91' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='906' u='c'/>
+<use f='codebrowser/src/cdogs/map.c' l='544' u='c'/>
+<use f='codebrowser/src/cdogs/mission.c' l='75' u='c'/>
+<use f='codebrowser/src/cdogs/mission.c' l='523' u='c'/>

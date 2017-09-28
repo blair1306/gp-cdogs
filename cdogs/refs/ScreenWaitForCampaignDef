@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/prep.h' l='58' type='GameLoopData * ScreenWaitForCampaignDef()'/>
+<doc f='codebrowser/src/prep.h' l='57'>// Wait for the server to send us the current campaign</doc>
+<use f='codebrowser/src/cdogs.c' l='271' u='c' c='main'/>
+<use f='codebrowser/src/mainmenu.c' l='473' u='c' c='JoinLANGame'/>
+<def f='codebrowser/src/prep.c' l='148' ll='156' type='GameLoopData * ScreenWaitForCampaignDef()'/>

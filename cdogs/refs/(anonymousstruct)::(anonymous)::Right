@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/font.h' l='43' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/font.c' l='76' u='r' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='86' u='r' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='55' u='w' c='FontLoadFromJSON'/>

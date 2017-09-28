@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='174' type='_Bool TryMoveActor(TActor * actor, Vec2i pos)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='201' ll='306' macro='1' type='_Bool TryMoveActor(TActor * actor, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='968' u='c' c='ActorUpdatePosition'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1261' u='c' c='ActorAdd'/>

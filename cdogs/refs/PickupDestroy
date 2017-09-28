@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='55' type='void PickupDestroy(const int uid)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='387' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='53' u='c' c='PickupsTerminate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='69' u='c' c='PickupAdd'/>
+<def f='codebrowser/src/cdogs/pickup.c' l='106' ll='112' type='void PickupDestroy(const int uid)'/>

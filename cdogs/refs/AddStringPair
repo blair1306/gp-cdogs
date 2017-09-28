@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='41' type='void AddStringPair(json_t * parent, const char * name, const char * s)'/>
+<use f='codebrowser/src/cdogs/character.c' l='160' u='c' c='CharacterSave'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='51' ll='62' type='void AddStringPair(json_t * parent, const char * name, const char * s)'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='67' u='c' c='AddColorPair'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='285' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='286' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='287' u='c' c='MapArchiveSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='337' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='338' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='339' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='343' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='344' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='345' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='346' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='347' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='348' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='362' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='504' u='c' c='SaveStaticItems'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='579' u='c' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='580' u='c' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='584' u='c' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='587' u='c' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='131' u='c' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='132' u='c' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/tests/json_test.c' l='36' u='c' c='_cbehave_feature_json_format_string'/>
+<use f='codebrowser/src/tests/json_test.c' l='37' u='c' c='_cbehave_feature_json_format_string'/>

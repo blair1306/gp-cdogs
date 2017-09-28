@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='64' type='1'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='618' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='79' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='96' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='111' c='HUDNumPopupsAdd'/>

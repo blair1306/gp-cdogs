@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='523' type='int Mix_GroupOldest(int tag)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='522'>/* Finds the &quot;oldest&quot; sample playing in a group of channels */</doc>

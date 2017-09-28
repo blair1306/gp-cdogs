@@ -1,0 +1,7 @@
+<dec f='include/SDL2/SDL_events.h' l='525' type='SDL_WindowEvent'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_events.h' l='525'>/**&lt; Window event data */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='159' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='183' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='183' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='324' u='m' c='HandleEvents'/>

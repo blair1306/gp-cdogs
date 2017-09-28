@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/hud/wall_clock.h' l='34' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='41' u='w' c='WallClockSetTime'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='62' u='r' c='WallClockDraw'/>

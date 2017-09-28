@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1235' type='int nk_window_is_hidden(struct nk_context * , const char * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18354' ll='18368' macro='1' type='int nk_window_is_hidden(struct nk_context * ctx, const char * name)'/>

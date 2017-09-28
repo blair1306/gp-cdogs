@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='57' type='_Bool JoyIsDown(const SDL_JoystickID id, const int cmd)'/>
+<use f='codebrowser/src/cdogs/events.c' l='258' u='r' c='GetJoystickCmd'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='100' ll='103' macro='1' type='_Bool JoyIsDown(const SDL_JoystickID id, const int cmd)'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='107' u='c' c='JoyIsPressed'/>

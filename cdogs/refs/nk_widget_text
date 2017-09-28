@@ -1,0 +1,19 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13382' ll='13427' macro='1' type='void nk_widget_text(struct nk_command_buffer * o, struct nk_rect b, const char * string, int len, const struct nk_text * t, nk_flags a, const struct nk_user_font * f)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13462' u='c' c='nk_widget_text_wrap'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13492' u='c' c='nk_draw_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13624' u='c' c='nk_draw_button_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13766' u='c' c='nk_draw_button_text_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13824' u='c' c='nk_draw_button_text_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13931' u='c' c='nk_draw_checkbox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13974' u='c' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14090' u='c' c='nk_draw_selectable'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14884' u='c' c='nk_edit_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14918' u='c' c='nk_edit_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15390' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15547' u='c' c='nk_draw_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17352' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19397' u='c' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19745' u='c' c='nk_text_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22164' u='c' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22435' u='c' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22605' u='c' c='nk_combo_begin_image_text'/>

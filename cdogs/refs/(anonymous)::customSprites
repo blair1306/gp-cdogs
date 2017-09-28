@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='39' type='map_t'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='39'>// of NamedSprites</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='208' u='r' c='LoadArchivePics'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='46' u='w' c='PicManagerInit'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='397' u='r' c='PicManagerClearCustom'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='399' u='w' c='PicManagerClearCustom'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='408' u='r' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='461' u='r' c='PicManagerGetSprites'/>

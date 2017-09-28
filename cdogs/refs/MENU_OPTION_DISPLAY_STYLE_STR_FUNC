@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='82' type='1'/>
+<doc f='codebrowser/src/menu.h' l='82'>// use a function that returns string</doc>
+<use f='codebrowser/src/mainmenu.c' l='556' u='r' c='MenuCreateOptionsGraphics'/>
+<use f='codebrowser/src/menu.c' l='486' u='r' c='MenuCreateOptionRange'/>
+<use f='codebrowser/src/menu.c' l='784' c='MenuDisplaySubmenus'/>

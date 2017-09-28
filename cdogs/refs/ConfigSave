@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/config_io.h' l='35' type='void ConfigSave(const Config * c, const char * filename)'/>
+<def f='codebrowser/src/cdogs/config_io.c' l='65' ll='68' type='void ConfigSave(const Config * config, const char * filename)'/>
+<use f='codebrowser/src/menu.c' l='1353' u='c' c='PostInputConfigApply'/>
+<use f='codebrowser/src/prep.c' l='676' u='c' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/tests/config_test.c' l='62' u='c' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/config_test.c' l='84' u='c' c='_cbehave_feature_detect_version'/>
+<use f='codebrowser/src/tests/config_test.c' l='112' u='c' c='_cbehave_feature_save_as_latest'/>

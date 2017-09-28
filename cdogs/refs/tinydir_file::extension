@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='109' type='char *'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='625' u='w' c='_tinydir_get_ext'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='629' u='w' c='_tinydir_get_ext'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='178' u='r' c='LoadCampaignsFromFolder'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='179' u='r' c='LoadCampaignsFromFolder'/>
+<offset>34816</offset>
+<use f='codebrowser/src/cdogs/gamedata.c' l='226' u='r' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='227' u='r' c='LoadSongList'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='460' u='r' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='461' u='r' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='462' u='r' c='Open'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='463' u='r' c='Open'/>

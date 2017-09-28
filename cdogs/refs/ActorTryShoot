@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/actors.c' l='696' ll='711' type='int ActorTryShoot(TActor * actor, int cmd)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='725' u='c' c='CommandActor'/>

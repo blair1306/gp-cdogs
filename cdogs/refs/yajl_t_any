@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='52' type='8'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='49'>/** The any type isn&apos;t valid for yajl_val_s.type, but can be
+     *  used as an argument to routines like yajl_tree_get().
+     */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='473' u='r' c='yajl_tree_get'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='120' u='r' c='YAJLTryLoadValue'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='241' u='r' c='YAJLFindNode'/>

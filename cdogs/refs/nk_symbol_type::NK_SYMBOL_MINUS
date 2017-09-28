@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='502' type='12'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13483' c='nk_draw_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16415' u='r' c='nk_style_from_table'/>

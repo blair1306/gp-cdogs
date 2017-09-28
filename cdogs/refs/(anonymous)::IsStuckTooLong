@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='105' type='_Bool'/>
+<offset>512</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='380' u='r' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='408' u='r' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='412' u='w' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='413' u='r' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='419' u='w' c='SmartGoto'/>

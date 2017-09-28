@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='65' type='9'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='352' c='enet_socket_set_option'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='84' type='34'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1074' u='r' c='ActorAddAmmoPickup'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1107' u='r' c='ActorAddGunPickup'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='93' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='93' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='93' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='93' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='379' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map.c' l='417' u='r' c='MapPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map.c' l='501' u='r' c='MapPlaceKey'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='531' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='104' u='r' c='AddPickupAtObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='511' u='r' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='172' u='r' c='HealthPlace'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='232' u='r' c='AmmoPlace'/>

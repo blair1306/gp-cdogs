@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2054' type='nk_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8425' u='r' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11238' u='w' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11974' u='w' c='nk_font_atlas_end'/>
+<offset>256</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2053'>/* font glyph callback to query drawing info */</doc>

@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='58' type='UIType'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='789' u='r' c='HandleInput'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='267' u='w' c='CreateObjectivesObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='49' u='w' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='81' u='r' c='UIButtonSetPic'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='91' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='134' u='r' c='UIObjectDestroy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='154' u='r' c='UIObjectAddChild'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='178' u='r' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='208' u='r' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='213' u='r' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='265' u='r' c='DisableContextMenuParents'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='267' u='r' c='DisableContextMenuParents'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='282' u='r' c='UIObjectAddChar'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='330' u='r' c='UIObjectDelChar'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='357' u='r' c='LabelGetText'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='390' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='559' u='r' c='UITryGetObjectImpl'/>

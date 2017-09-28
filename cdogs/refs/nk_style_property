@@ -1,0 +1,20 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3170' ll='3199'/>
+<size>1312</size>
+<mbr r='nk_style_property::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_property::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_property::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_property::border_color' o='768' t='struct nk_color'/>
+<mbr r='nk_style_property::label_normal' o='800' t='struct nk_color'/>
+<mbr r='nk_style_property::label_hover' o='832' t='struct nk_color'/>
+<mbr r='nk_style_property::label_active' o='864' t='struct nk_color'/>
+<mbr r='nk_style_property::sym_left' o='896' t='enum nk_symbol_type'/>
+<mbr r='nk_style_property::sym_right' o='928' t='enum nk_symbol_type'/>
+<mbr r='nk_style_property::border' o='960' t='float'/>
+<mbr r='nk_style_property::rounding' o='992' t='float'/>
+<mbr r='nk_style_property::padding' o='1024' t='struct nk_vec2'/>
+<mbr r='nk_style_property::edit' o='1088' t='struct nk_style_edit'/>
+<mbr r='nk_style_property::inc_button' o='7488' t='struct nk_style_button'/>
+<mbr r='nk_style_property::dec_button' o='8896' t='struct nk_style_button'/>
+<mbr r='nk_style_property::userdata' o='10304' t='nk_handle'/>
+<mbr r='nk_style_property::draw_begin' o='10368' t='void (*)(struct nk_command_buffer *, nk_handle)'/>
+<mbr r='nk_style_property::draw_end' o='10432' t='void (*)(struct nk_command_buffer *, nk_handle)'/>

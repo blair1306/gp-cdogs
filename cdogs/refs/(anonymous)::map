@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/path_cache.h' l='49' type='Map *'/>
+<dec f='codebrowser/src/cdogs/keyboard.h' l='51' type='SDL_Scancode'/>
+<offset>192</offset>
+<dec f='codebrowser/src/cdogs/powerup.h' l='34' type='Map *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/events.c' l='428' u='r' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='79' u='w' c='KeyLoadPlayerKeys'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='216' u='r' c='KeyGet'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='74' u='w' c='PathCacheInit'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='124' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='47' u='w' c='PowerupSpawnerInit'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='86' u='r' c='PowerupSpawnerUpdate'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='102' u='r' c='TryPlacePickup'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='117' u='r' c='TryPlacePickup'/>
+<use f='codebrowser/src/menu.c' l='1146' u='w' c='MenuProcessChangeKey'/>

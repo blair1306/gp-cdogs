@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/player.h' l='74' type='void PlayerDataTerminate(CArray * p)'/>
+<use f='codebrowser/src/cdogs.c' l='289' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/player.c' l='244' ll='251' type='void PlayerDataTerminate(CArray * p)'/>
+<use f='codebrowser/src/mainmenu.c' l='148' u='c' c='MainMenuOnExit'/>
+<use f='codebrowser/src/tests/player_test.c' l='147' u='c' c='_cbehave_feature_assign_unused'/>

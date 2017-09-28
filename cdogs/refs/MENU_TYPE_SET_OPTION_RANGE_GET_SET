@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='70' type='8'/>
+<doc f='codebrowser/src/menu.h' l='70'>// set option range low-high using get/set functions</doc>
+<use f='codebrowser/src/menu.c' l='534' u='r' c='MenuCreateOptionRangeGetSet'/>
+<use f='codebrowser/src/menu.c' l='777' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='939' c='MenuOptionGetIntValue'/>
+<use f='codebrowser/src/menu.c' l='1295' c='MenuActivate'/>

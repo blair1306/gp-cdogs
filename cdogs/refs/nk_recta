@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1848' type='struct nk_rect nk_recta(struct nk_vec2 pos, struct nk_vec2 size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4031' ll='4035' macro='1' type='struct nk_rect nk_recta(struct nk_vec2 pos, struct nk_vec2 size)'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='51' type='int StrAmmoId(const char * s)'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='44' u='c' c='StrAmmo'/>
+<def f='codebrowser/src/cdogs/ammo.c' l='46' ll='66' type='int StrAmmoId(const char * s)'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='244' u='c' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='274' u='c' c='PickupClassesLoadAmmo'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='220' u='c' c='LoadGunDescription'/>

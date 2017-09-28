@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='129' type='void MobObjsInit()'/>
+<use f='codebrowser/src/cdogs/mission.c' l='271' u='c' c='SetupMission'/>
+<def f='codebrowser/src/cdogs/objs.c' l='543' ll='548' type='void MobObjsInit()'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='220' type='void yajl_free_error(yajl_handle hand, unsigned char * str)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl.c' l='168' ll='173' type='void yajl_free_error(yajl_handle hand, unsigned char * str)'/>

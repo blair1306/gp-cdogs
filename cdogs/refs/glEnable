@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_opengl.h' l='844' type='void glEnable(GLenum cap)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='82' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='83' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='84' u='c' c='nk_sdl_render'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='117' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='118' u='c' c='CharEditor'/>

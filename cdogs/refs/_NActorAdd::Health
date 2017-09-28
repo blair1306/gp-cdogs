@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='210' type='int32_t'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='175' u='w' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1209' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='542' u='w' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='567' u='w' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='589' u='w' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='632' u='w' c='CreateEnemies'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='122' u='w' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='171' u='w' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='197' u='w' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='437' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='162'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='162'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='163' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='163' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='162'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='162'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='163' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='163' u='r'/>

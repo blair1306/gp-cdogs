@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_common.h' l='66' type='yajl_free_func'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_common.h' l='64'>/** pointer to a function that can free memory allocated using
+     *  reallocFunction or mallocFunction */</doc>
+<dec f='codebrowser/src/cdogs/include/yajl/yajl_common.h' l='66' type='yajl_free_func'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='55' u='r' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='108' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='114' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='172' macro='1' u='r'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/include/yajl/yajl_common.h' l='64'>/** pointer to a function that can free memory allocated using
+     *  reallocFunction or mallocFunction */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_alloc.c' l='48' u='w' c='yajl_set_default_alloc_funcs'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='67' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='68' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='105' u='r' c='yajl_gen_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='140' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='120' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='141' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='445' macro='1' u='r'/>

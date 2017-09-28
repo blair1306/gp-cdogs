@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1681' type='int nk_menu_begin_image_text(struct nk_context * , const char * , int , nk_flags align, struct nk_image , struct nk_vec2 size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22908' ll='22933' macro='1' type='int nk_menu_begin_image_text(struct nk_context * ctx, const char * title, int len, nk_flags align, struct nk_image img, struct nk_vec2 size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22937' u='c' c='nk_menu_begin_image_label'/>

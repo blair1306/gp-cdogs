@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='40' type='void AddBoolPair(json_t * parent, const char * name, int value)'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='47' ll='50' type='void AddBoolPair(json_t * parent, const char * name, int value)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='444' u='c' c='SaveRooms'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='445' u='c' c='SaveRooms'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='462' u='c' c='SaveClassicDoors'/>

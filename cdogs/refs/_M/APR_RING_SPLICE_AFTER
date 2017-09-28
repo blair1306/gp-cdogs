@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='248'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='238'>/**
+ * Splice the sequence ep1..epN into the ring after element lep
+ *   (..lep.. becomes ..lep..ep1..epN..)
+ * @warning This doesn&apos;t work for splicing after the last element or on
+ *   empty rings... see APR_RING_SPLICE_TAIL for one that does
+ * @param lep  Element in the ring to splice after
+ * @param ep1  First element in the sequence to splice in
+ * @param epN  Last element in the sequence to splice in
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

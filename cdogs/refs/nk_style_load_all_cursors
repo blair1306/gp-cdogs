@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1743' type='void nk_style_load_all_cursors(struct nk_context * , struct nk_cursor * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16635' ll='16646' macro='1' type='void nk_style_load_all_cursors(struct nk_context * ctx, struct nk_cursor * cursors)'/>

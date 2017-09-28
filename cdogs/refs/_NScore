@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='182' ll='186'/>
+<size>8</size>
+<mbr r='_NScore::PlayerUID' o='0' t='uint32_t'/>
+<mbr r='_NScore::Score' o='32' t='int32_t'/>

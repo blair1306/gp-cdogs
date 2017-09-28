@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='218' type='_Bool ActorIsLocalPlayer(const int uid)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='219' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='429' u='c' c='OnMove'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1529' ll='1539' macro='1' type='_Bool ActorIsLocalPlayer(const int uid)'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='163' u='c' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='425' u='c' c='OnReceive'/>

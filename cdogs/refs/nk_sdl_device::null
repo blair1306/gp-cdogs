@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='36' type='struct nk_draw_null_texture'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='123' u='r' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='228' u='a' c='nk_sdl_font_stash_end'/>
+<offset>960</offset>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3298' type='struct nk_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16469' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17362' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17363' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17364' u='m' c='nk_panel_begin'/>
+<offset>4032</offset>

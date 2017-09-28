@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='68' type='int DistanceSquared(const Vec2i a, const Vec2i b)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='239' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='295' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='577' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='646' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='672' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='710' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='734' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='844' u='c' c='IsPosCloseEnoughToPlayer'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='860' u='c' c='GotoObjective'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='517' u='c' c='SetClosestCollision'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='291' u='c' c='DrawShadow'/>
+<use f='codebrowser/src/cdogs/los.c' l='159' u='c' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='218' u='c' c='IsNextTileBlockedAndSetVisibility'/>
+<use f='codebrowser/src/cdogs/particle.c' l='389' u='c' c='SetClosestCollision'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='222' u='c' c='AStarHeuristic'/>
+<def f='codebrowser/src/cdogs/vector.c' l='158' ll='162' type='int DistanceSquared(const Vec2i a, const Vec2i b)'/>
+<use f='codebrowser/src/cdogs/vector.c' l='171' u='c' c='CalcClosestPointOnLineSegmentToPoint'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2836' type='enum nk_draw_vertex_layout_attribute'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7568' u='r' c='nk_draw_vertex_layout_element_is_end_of_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7701' u='r' c='nk_draw_vertex'/>
+<offset>0</offset>

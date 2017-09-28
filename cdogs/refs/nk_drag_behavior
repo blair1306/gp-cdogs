@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='15455' ll='15493' macro='1' type='void nk_drag_behavior(nk_flags * state, const struct nk_input * in, struct nk_rect drag, struct nk_property_variant * variant, float inc_per_pixel)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15510' u='c' c='nk_property_behavior'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='189' type='void (*)(void *)'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='522' u='w' c='MenuCreateVoidFunc'/>
+<use f='codebrowser/src/menu.c' l='1327' u='r' c='MenuActivate'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='133' type='void MobObjDestroy(TMobileObject * m)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='424' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='554' u='c' c='MobObjsTerminate'/>
+<def f='codebrowser/src/cdogs/objs.c' l='573' ll='578' type='void MobObjDestroy(TMobileObject * m)'/>

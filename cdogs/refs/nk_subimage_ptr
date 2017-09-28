@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1829' type='struct nk_image nk_subimage_ptr(void * , unsigned short w, unsigned short h, struct nk_rect sub_region)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5640' ll='5652' macro='1' type='struct nk_image nk_subimage_ptr(void * ptr, unsigned short w, unsigned short h, struct nk_rect r)'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/grafx_bg.h' l='37' type='Uint8'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='346' u='r' c='DrawExtra'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='348' u='r' c='DrawExtra'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='152' u='w' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='192' u='w' c='Display'/>

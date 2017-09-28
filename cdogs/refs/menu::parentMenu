@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/menu.h' l='127' type='struct menu *'/>
+<offset>128</offset>
+<use f='codebrowser/src/mainmenu.c' l='484' u='r' c='JoinLANGame'/>
+<use f='codebrowser/src/menu.c' l='321' u='w' c='MenuCreate'/>
+<use f='codebrowser/src/menu.c' l='349' u='w' c='UpdateSubmenuParentPtrs'/>
+<use f='codebrowser/src/menu.c' l='970' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='1017' u='r' c='MenuProcessEscCmd'/>
+<use f='codebrowser/src/menu.c' l='1054' u='r' c='MenuProcessButtonCmd'/>
+<use f='codebrowser/src/menu.c' l='1332' u='r' c='MenuActivate'/>

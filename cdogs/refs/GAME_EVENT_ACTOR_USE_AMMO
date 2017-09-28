@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='80' type='31'/>
+<use f='codebrowser/src/cdogs/actors.c' l='657' u='r' c='Shoot'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='147' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='300' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='409' c='OnReceive'/>

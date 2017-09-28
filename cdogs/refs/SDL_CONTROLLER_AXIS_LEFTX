@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_gamecontroller.h' l='221' type='0'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='261' u='r' c='DefaultJoystickButtonNames'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='298' c='DefaultAxisName'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='339' c='DefaultAxisColor'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='406' u='r' c='SDLJBN_GetAxisNameAndColor'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='248' c='JoyOnAxis'/>

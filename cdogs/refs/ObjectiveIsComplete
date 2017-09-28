@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='97' type='_Bool ObjectiveIsComplete(const Objective * o)'/>
+<use f='codebrowser/src/briefing_screens.c' l='621' u='c' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='721' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/automap.c' l='164' u='c' c='DisplaySummary'/>
+<use f='codebrowser/src/cdogs/mission.c' l='414' u='c' c='MissionAllObjectivesComplete'/>
+<def f='codebrowser/src/cdogs/objective.c' l='168' ll='171' macro='1' type='_Bool ObjectiveIsComplete(const Objective * o)'/>

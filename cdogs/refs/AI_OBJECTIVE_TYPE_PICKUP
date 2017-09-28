@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='68' type='4'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='476' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='539' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='607' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='625' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='793' u='r' c='OnClosestPickupGun'/>

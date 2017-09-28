@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='733' type='void nk_input_scroll(struct nk_context * , struct nk_vec2 val)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12117' ll='12124' macro='1' type='void nk_input_scroll(struct nk_context * ctx, struct nk_vec2 val)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='325' u='c' c='nk_sdl_handle_event'/>

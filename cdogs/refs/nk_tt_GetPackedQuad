@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10668' ll='10697' macro='1' type='void nk_tt_GetPackedQuad(struct nk_tt_packedchar * chardata, int pw, int ph, int char_index, float * xpos, float * ypos, struct nk_tt_aligned_quad * q, int align_to_integer)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11035' u='c' c='nk_font_bake'/>

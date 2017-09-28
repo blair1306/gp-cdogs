@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pics.h' l='61'/>
+<use f='codebrowser/src/cdogs/actors.c' l='875' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='152' u='c'/>
+<use f='codebrowser/src/cdogs/player.c' l='349' u='c'/>
+<use f='codebrowser/src/game.c' l='506' u='c'/>

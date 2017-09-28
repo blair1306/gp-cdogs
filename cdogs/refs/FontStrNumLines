@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/font.h' l='79' type='int FontStrNumLines(const char * s)'/>
+<use f='codebrowser/src/cdogs/font.c' l='169' u='c' c='FontStrH'/>
+<def f='codebrowser/src/cdogs/font.c' l='191' ll='203' type='int FontStrNumLines(const char * s)'/>
+<use f='codebrowser/src/menu.c' l='669' u='c' c='MenuDisplaySubmenus'/>

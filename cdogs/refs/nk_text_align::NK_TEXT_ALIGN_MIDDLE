@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1428' type='16'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='1432' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='1433' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='1434' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13418' u='r' c='nk_widget_text'/>

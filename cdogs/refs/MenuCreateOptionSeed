@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/menu.h' l='292' type='menu_t * MenuCreateOptionSeed(const char * name, unsigned int * seed)'/>
+<def f='codebrowser/src/menu.c' l='497' ll='503' type='menu_t * MenuCreateOptionSeed(const char * name, unsigned int * seed)'/>

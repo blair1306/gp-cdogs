@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='120' type='_Bool ObjIsDangerous(const TObject * o)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='235' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='388' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='240' u='c' c='IsTileWalkable'/>
+<def f='codebrowser/src/cdogs/objs.c' l='482' ll='486' macro='1' type='_Bool ObjIsDangerous(const TObject * o)'/>

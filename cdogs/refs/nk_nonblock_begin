@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='21621' ll='21700' macro='1' type='int nk_nonblock_begin(struct nk_context * ctx, nk_flags flags, struct nk_rect body, struct nk_rect header, enum nk_panel_type panel_type)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21881' u='c' c='nk_contextual_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22076' u='c' c='nk_combo_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22818' u='c' c='nk_menu_begin'/>

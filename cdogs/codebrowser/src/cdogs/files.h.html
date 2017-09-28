@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>files.h source code [codebrowser/src/cdogs/files.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="MissionObjectiveOld,MissionOld "/>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/files.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='files.h.html'>files.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin</i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="../../../include/SDL2/SDL_endian.h.html">&lt;SDL_endian.h&gt;</a></u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="sys_config.h.html">"sys_config.h"</a></u></td></tr>
+<tr><th id="54">54</th><td><u>#include <a href="gamedata.h.html">"gamedata.h"</a></u></td></tr>
+<tr><th id="55">55</th><td><u>#include <a href="sys_specifics.h.html">"sys_specifics.h"</a></u></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><i>/*</i></td></tr>
+<tr><th id="58">58</th><td><i>C-Dogs (classic) file format:</i></td></tr>
+<tr><th id="59">59</th><td><i>Sizes in bytes unless otherwise stated</i></td></tr>
+<tr><th id="60">60</th><td><i></i></td></tr>
+<tr><th id="61">61</th><td><i>Priviledged types (types that are used directly in the file format)</i></td></tr>
+<tr><th id="62">62</th><td><i>Changing these types will break the game!</i></td></tr>
+<tr><th id="63">63</th><td><i>- CampaignSettingOld</i></td></tr>
+<tr><th id="64">64</th><td><i>- struct MissionOld</i></td></tr>
+<tr><th id="65">65</th><td><i>- TBadGuy</i></td></tr>
+<tr><th id="66">66</th><td><i>- struct MissionObjectiveOld</i></td></tr>
+<tr><th id="67">67</th><td><i></i></td></tr>
+<tr><th id="68">68</th><td><i>Campaign:</i></td></tr>
+<tr><th id="69">69</th><td><i>- CAMPAIGN_MAGIC (4)</i></td></tr>
+<tr><th id="70">70</th><td><i>- CAMPAIGN_VERSION (4)</i></td></tr>
+<tr><th id="71">71</th><td><i>- Title (40, char *)</i></td></tr>
+<tr><th id="72">72</th><td><i>- Author (40, char *)</i></td></tr>
+<tr><th id="73">73</th><td><i>- Description (200, char *)</i></td></tr>
+<tr><th id="74">74</th><td><i>- MissionCount (4)</i></td></tr>
+<tr><th id="75">75</th><td><i>- &lt;Missions&gt; (MissionCount * sizeof(struct MissionOld))</i></td></tr>
+<tr><th id="76">76</th><td><i>- CharacterCount (4)</i></td></tr>
+<tr><th id="77">77</th><td><i>- &lt;Characters&gt; (CharacterCount * sizeof(TBadGuy))</i></td></tr>
+<tr><th id="78">78</th><td><i>*/</i></td></tr>
+<tr><th id="79">79</th><td><u>#<span data-ppcond="79">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="80">80</th><td><u>#pragma pack(push, 1)</u></td></tr>
+<tr><th id="81">81</th><td><u>#<span data-ppcond="79">endif</span></u></td></tr>
+<tr><th id="82">82</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="83">83</th><td>{</td></tr>
+<tr><th id="84">84</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::armedBodyPic" title='(anonymous struct)::armedBodyPic' data-ref="(anonymous)::armedBodyPic">armedBodyPic</dfn>;</td></tr>
+<tr><th id="85">85</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::unarmedBodyPic" title='(anonymous struct)::unarmedBodyPic' data-ref="(anonymous)::unarmedBodyPic">unarmedBodyPic</dfn>;</td></tr>
+<tr><th id="86">86</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::facePic" title='(anonymous struct)::facePic' data-ref="(anonymous)::facePic">facePic</dfn>;</td></tr>
+<tr><th id="87">87</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::speed" title='(anonymous struct)::speed' data-ref="(anonymous)::speed">speed</dfn>;</td></tr>
+<tr><th id="88">88</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::probabilityToMove" title='(anonymous struct)::probabilityToMove' data-ref="(anonymous)::probabilityToMove">probabilityToMove</dfn>;</td></tr>
+<tr><th id="89">89</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::probabilityToTrack" title='(anonymous struct)::probabilityToTrack' data-ref="(anonymous)::probabilityToTrack">probabilityToTrack</dfn>;</td></tr>
+<tr><th id="90">90</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::probabilityToShoot" title='(anonymous struct)::probabilityToShoot' data-ref="(anonymous)::probabilityToShoot">probabilityToShoot</dfn>;</td></tr>
+<tr><th id="91">91</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::actionDelay" title='(anonymous struct)::actionDelay' data-ref="(anonymous)::actionDelay">actionDelay</dfn>;</td></tr>
+<tr><th id="92">92</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::gun" title='(anonymous struct)::gun' data-ref="(anonymous)::gun">gun</dfn>;</td></tr>
+<tr><th id="93">93</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::skinColor" title='(anonymous struct)::skinColor' data-ref="(anonymous)::skinColor">skinColor</dfn>;</td></tr>
+<tr><th id="94">94</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::armColor" title='(anonymous struct)::armColor' data-ref="(anonymous)::armColor">armColor</dfn>;</td></tr>
+<tr><th id="95">95</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::bodyColor" title='(anonymous struct)::bodyColor' data-ref="(anonymous)::bodyColor">bodyColor</dfn>;</td></tr>
+<tr><th id="96">96</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::legColor" title='(anonymous struct)::legColor' data-ref="(anonymous)::legColor">legColor</dfn>;</td></tr>
+<tr><th id="97">97</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::hairColor" title='(anonymous struct)::hairColor' data-ref="(anonymous)::hairColor">hairColor</dfn>;</td></tr>
+<tr><th id="98">98</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::health" title='(anonymous struct)::health' data-ref="(anonymous)::health">health</dfn>;</td></tr>
+<tr><th id="99">99</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</dfn>;</td></tr>
+<tr><th id="100">100</th><td>}</td></tr>
+<tr><th id="101">101</th><td><u>#<span data-ppcond="101">ifndef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="102">102</th><td><b>__attribute__</b>((packed))</td></tr>
+<tr><th id="103">103</th><td><u>#<span data-ppcond="101">endif</span></u></td></tr>
+<tr><th id="104">104</th><td><dfn class="typedef" id="TBadGuy" title='TBadGuy' data-type='struct TBadGuy' data-ref="TBadGuy">TBadGuy</dfn>;</td></tr>
+<tr><th id="105">105</th><td><u>#<span data-ppcond="105">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="106">106</th><td><u>#pragma pack(pop)</u></td></tr>
+<tr><th id="107">107</th><td><u>#<span data-ppcond="105">endif</span></u></td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td><i>// WARNING: data type used in C format (builtin campaigns)</i></td></tr>
+<tr><th id="110">110</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="111">111</th><td>{</td></tr>
+<tr><th id="112">112</th><td>	<em>char</em> <dfn class="decl" id="(anonymous)::title" title='(anonymous struct)::title' data-ref="(anonymous)::title">title</dfn>[<var>40</var>];</td></tr>
+<tr><th id="113">113</th><td>	<em>char</em> <dfn class="decl" id="(anonymous)::author" title='(anonymous struct)::author' data-ref="(anonymous)::author">author</dfn>[<var>40</var>];</td></tr>
+<tr><th id="114">114</th><td>	<em>char</em> <dfn class="decl" id="(anonymous)::description" title='(anonymous struct)::description' data-ref="(anonymous)::description">description</dfn>[<var>200</var>];</td></tr>
+<tr><th id="115">115</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::missionCount" title='(anonymous struct)::missionCount' data-ref="(anonymous)::missionCount">missionCount</dfn>;</td></tr>
+<tr><th id="116">116</th><td>	<b>struct</b> <a class="type" href="#MissionOld" title='MissionOld' data-ref="MissionOld">MissionOld</a> *<dfn class="decl" id="(anonymous)::missions" title='(anonymous struct)::missions' data-ref="(anonymous)::missions">missions</dfn>;</td></tr>
+<tr><th id="117">117</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::characterCount" title='(anonymous struct)::characterCount' data-ref="(anonymous)::characterCount">characterCount</dfn>;</td></tr>
+<tr><th id="118">118</th><td>	<a class="typedef" href="#TBadGuy" title='TBadGuy' data-type='struct TBadGuy' data-ref="TBadGuy">TBadGuy</a> *<dfn class="decl" id="(anonymous)::characters" title='(anonymous struct)::characters' data-ref="(anonymous)::characters">characters</dfn>;</td></tr>
+<tr><th id="119">119</th><td>} <dfn class="typedef" id="CampaignSettingOld" title='CampaignSettingOld' data-type='struct CampaignSettingOld' data-ref="CampaignSettingOld">CampaignSettingOld</dfn>;</td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><i>// WARNING: written as-is to file</i></td></tr>
+<tr><th id="122">122</th><td><u>#<span data-ppcond="122">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="123">123</th><td><u>#pragma pack(push, 1)</u></td></tr>
+<tr><th id="124">124</th><td><u>#<span data-ppcond="122">endif</span></u></td></tr>
+<tr><th id="125">125</th><td><b>struct</b> <dfn class="type def" id="MissionObjectiveOld" title='MissionObjectiveOld' data-ref="MissionObjectiveOld">MissionObjectiveOld</dfn></td></tr>
+<tr><th id="126">126</th><td>{</td></tr>
+<tr><th id="127">127</th><td>	<em>char</em> <dfn class="decl" id="MissionObjectiveOld::description" title='MissionObjectiveOld::description' data-ref="MissionObjectiveOld::description">description</dfn>[<var>60</var>];</td></tr>
+<tr><th id="128">128</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionObjectiveOld::type" title='MissionObjectiveOld::type' data-ref="MissionObjectiveOld::type">type</dfn>;</td></tr>
+<tr><th id="129">129</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionObjectiveOld::index" title='MissionObjectiveOld::index' data-ref="MissionObjectiveOld::index">index</dfn>;</td></tr>
+<tr><th id="130">130</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionObjectiveOld::count" title='MissionObjectiveOld::count' data-ref="MissionObjectiveOld::count">count</dfn>;</td></tr>
+<tr><th id="131">131</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionObjectiveOld::required" title='MissionObjectiveOld::required' data-ref="MissionObjectiveOld::required">required</dfn>;</td></tr>
+<tr><th id="132">132</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionObjectiveOld::flags" title='MissionObjectiveOld::flags' data-ref="MissionObjectiveOld::flags">flags</dfn>;</td></tr>
+<tr><th id="133">133</th><td>}</td></tr>
+<tr><th id="134">134</th><td><u>#<span data-ppcond="134">ifndef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="135">135</th><td><b>__attribute__</b>((packed))</td></tr>
+<tr><th id="136">136</th><td><u>#<span data-ppcond="134">endif</span></u></td></tr>
+<tr><th id="137">137</th><td>;</td></tr>
+<tr><th id="138">138</th><td><u>#<span data-ppcond="138">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="139">139</th><td><u>#pragma pack(pop)</u></td></tr>
+<tr><th id="140">140</th><td><u>#<span data-ppcond="138">endif</span></u></td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td></td></tr>
+<tr><th id="143">143</th><td><i>// WARNING: affects file format</i></td></tr>
+<tr><th id="144">144</th><td><u>#define <dfn class="macro" id="_M/BADDIE_MAX" data-ref="_M/BADDIE_MAX">BADDIE_MAX</dfn>  12</u></td></tr>
+<tr><th id="145">145</th><td><u>#define <dfn class="macro" id="_M/SPECIAL_MAX" data-ref="_M/SPECIAL_MAX">SPECIAL_MAX</dfn> 6</u></td></tr>
+<tr><th id="146">146</th><td><u>#define <dfn class="macro" id="_M/ITEMS_MAX" data-ref="_M/ITEMS_MAX">ITEMS_MAX</dfn>   16</u></td></tr>
+<tr><th id="147">147</th><td></td></tr>
+<tr><th id="148">148</th><td><u>#define <dfn class="macro" id="_M/WEAPON_MAX" data-ref="_M/WEAPON_MAX">WEAPON_MAX</dfn>  11</u></td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><i>// WARNING: written as-is to file</i></td></tr>
+<tr><th id="152">152</th><td><u>#<span data-ppcond="152">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="153">153</th><td><u>#pragma pack(push, 1)</u></td></tr>
+<tr><th id="154">154</th><td><u>#<span data-ppcond="152">endif</span></u></td></tr>
+<tr><th id="155">155</th><td><b>struct</b> <dfn class="type def" id="MissionOld" title='MissionOld' data-ref="MissionOld">MissionOld</dfn></td></tr>
+<tr><th id="156">156</th><td>{</td></tr>
+<tr><th id="157">157</th><td>	<em>char</em> <dfn class="decl" id="MissionOld::title" title='MissionOld::title' data-ref="MissionOld::title">title</dfn>[<var>60</var>];</td></tr>
+<tr><th id="158">158</th><td>	<em>char</em> <dfn class="decl" id="MissionOld::description" title='MissionOld::description' data-ref="MissionOld::description">description</dfn>[<var>400</var>];</td></tr>
+<tr><th id="159">159</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::wallStyle" title='MissionOld::wallStyle' data-ref="MissionOld::wallStyle">wallStyle</dfn>;</td></tr>
+<tr><th id="160">160</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::floorStyle" title='MissionOld::floorStyle' data-ref="MissionOld::floorStyle">floorStyle</dfn>;</td></tr>
+<tr><th id="161">161</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::roomStyle" title='MissionOld::roomStyle' data-ref="MissionOld::roomStyle">roomStyle</dfn>;</td></tr>
+<tr><th id="162">162</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::exitStyle" title='MissionOld::exitStyle' data-ref="MissionOld::exitStyle">exitStyle</dfn>;</td></tr>
+<tr><th id="163">163</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::keyStyle" title='MissionOld::keyStyle' data-ref="MissionOld::keyStyle">keyStyle</dfn>;</td></tr>
+<tr><th id="164">164</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::doorStyle" title='MissionOld::doorStyle' data-ref="MissionOld::doorStyle">doorStyle</dfn>;</td></tr>
+<tr><th id="165">165</th><td></td></tr>
+<tr><th id="166">166</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::mapWidth" title='MissionOld::mapWidth' data-ref="MissionOld::mapWidth">mapWidth</dfn>, <dfn class="decl" id="MissionOld::mapHeight" title='MissionOld::mapHeight' data-ref="MissionOld::mapHeight">mapHeight</dfn>;</td></tr>
+<tr><th id="167">167</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::wallCount" title='MissionOld::wallCount' data-ref="MissionOld::wallCount">wallCount</dfn>, <dfn class="decl" id="MissionOld::wallLength" title='MissionOld::wallLength' data-ref="MissionOld::wallLength">wallLength</dfn>;</td></tr>
+<tr><th id="168">168</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::roomCount" title='MissionOld::roomCount' data-ref="MissionOld::roomCount">roomCount</dfn>;</td></tr>
+<tr><th id="169">169</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::squareCount" title='MissionOld::squareCount' data-ref="MissionOld::squareCount">squareCount</dfn>;</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::exitLeft" title='MissionOld::exitLeft' data-ref="MissionOld::exitLeft">exitLeft</dfn>, <dfn class="decl" id="MissionOld::exitTop" title='MissionOld::exitTop' data-ref="MissionOld::exitTop">exitTop</dfn>, <dfn class="decl" id="MissionOld::exitRight" title='MissionOld::exitRight' data-ref="MissionOld::exitRight">exitRight</dfn>, <dfn class="decl" id="MissionOld::exitBottom" title='MissionOld::exitBottom' data-ref="MissionOld::exitBottom">exitBottom</dfn>;</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+<tr><th id="173">173</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::objectiveCount" title='MissionOld::objectiveCount' data-ref="MissionOld::objectiveCount">objectiveCount</dfn>;</td></tr>
+<tr><th id="174">174</th><td>	<b>struct</b> <a class="type" href="#MissionObjectiveOld" title='MissionObjectiveOld' data-ref="MissionObjectiveOld">MissionObjectiveOld</a> <dfn class="decl" id="MissionOld::objectives" title='MissionOld::objectives' data-ref="MissionOld::objectives">objectives</dfn>[<a class="macro" href="objective.h.html#66" title="5" data-ref="_M/OBJECTIVE_MAX_OLD">OBJECTIVE_MAX_OLD</a>];</td></tr>
+<tr><th id="175">175</th><td></td></tr>
+<tr><th id="176">176</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::baddieCount" title='MissionOld::baddieCount' data-ref="MissionOld::baddieCount">baddieCount</dfn>;</td></tr>
+<tr><th id="177">177</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::baddies" title='MissionOld::baddies' data-ref="MissionOld::baddies">baddies</dfn>[<a class="macro" href="#144" title="12" data-ref="_M/BADDIE_MAX">BADDIE_MAX</a>];</td></tr>
+<tr><th id="178">178</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::specialCount" title='MissionOld::specialCount' data-ref="MissionOld::specialCount">specialCount</dfn>;</td></tr>
+<tr><th id="179">179</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::specials" title='MissionOld::specials' data-ref="MissionOld::specials">specials</dfn>[<a class="macro" href="#145" title="6" data-ref="_M/SPECIAL_MAX">SPECIAL_MAX</a>];</td></tr>
+<tr><th id="180">180</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::itemCount" title='MissionOld::itemCount' data-ref="MissionOld::itemCount">itemCount</dfn>;</td></tr>
+<tr><th id="181">181</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::items" title='MissionOld::items' data-ref="MissionOld::items">items</dfn>[<a class="macro" href="#146" title="16" data-ref="_M/ITEMS_MAX">ITEMS_MAX</a>];</td></tr>
+<tr><th id="182">182</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::itemDensity" title='MissionOld::itemDensity' data-ref="MissionOld::itemDensity">itemDensity</dfn>[<a class="macro" href="#146" title="16" data-ref="_M/ITEMS_MAX">ITEMS_MAX</a>];</td></tr>
+<tr><th id="183">183</th><td></td></tr>
+<tr><th id="184">184</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::baddieDensity" title='MissionOld::baddieDensity' data-ref="MissionOld::baddieDensity">baddieDensity</dfn>;</td></tr>
+<tr><th id="185">185</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::weaponSelection" title='MissionOld::weaponSelection' data-ref="MissionOld::weaponSelection">weaponSelection</dfn>;</td></tr>
+<tr><th id="186">186</th><td></td></tr>
+<tr><th id="187">187</th><td>	<em>char</em> <dfn class="decl" id="MissionOld::song" title='MissionOld::song' data-ref="MissionOld::song">song</dfn>[<var>80</var>];</td></tr>
+<tr><th id="188">188</th><td>	<em>char</em> <dfn class="decl" id="MissionOld::map" title='MissionOld::map' data-ref="MissionOld::map">map</dfn>[<var>80</var>];</td></tr>
+<tr><th id="189">189</th><td></td></tr>
+<tr><th id="190">190</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::wallRange" title='MissionOld::wallRange' data-ref="MissionOld::wallRange">wallRange</dfn>;</td></tr>
+<tr><th id="191">191</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::floorRange" title='MissionOld::floorRange' data-ref="MissionOld::floorRange">floorRange</dfn>;</td></tr>
+<tr><th id="192">192</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::roomRange" title='MissionOld::roomRange' data-ref="MissionOld::roomRange">roomRange</dfn>;</td></tr>
+<tr><th id="193">193</th><td>	<a class="typedef" href="../../../include/stdint.h.html#int32_t" title='int32_t' data-type='int' data-ref="int32_t">int32_t</a> <dfn class="decl" id="MissionOld::altRange" title='MissionOld::altRange' data-ref="MissionOld::altRange">altRange</dfn>;</td></tr>
+<tr><th id="194">194</th><td>}</td></tr>
+<tr><th id="195">195</th><td><u>#<span data-ppcond="195">ifndef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="196">196</th><td><b>__attribute__</b>((packed))</td></tr>
+<tr><th id="197">197</th><td><u>#<span data-ppcond="195">endif</span></u></td></tr>
+<tr><th id="198">198</th><td>;</td></tr>
+<tr><th id="199">199</th><td><u>#<span data-ppcond="199">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="200">200</th><td><u>#pragma pack(pop)</u></td></tr>
+<tr><th id="201">201</th><td><u>#<span data-ppcond="199">endif</span></u></td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td><em>void</em> <dfn class="decl" id="ConvertCampaignSetting" title='ConvertCampaignSetting' data-ref="ConvertCampaignSetting">ConvertCampaignSetting</dfn>(<a class="typedef" href="campaigns.h.html#CampaignSetting" title='CampaignSetting' data-type='struct CampaignSetting' data-ref="CampaignSetting">CampaignSetting</a> *<dfn class="local col3 decl" id="453dest" title='dest' data-type='CampaignSetting *' data-ref="453dest">dest</dfn>, <a class="typedef" href="#CampaignSettingOld" title='CampaignSettingOld' data-type='struct CampaignSettingOld' data-ref="CampaignSettingOld">CampaignSettingOld</a> *<dfn class="local col4 decl" id="454src" title='src' data-type='CampaignSettingOld *' data-ref="454src">src</dfn>);</td></tr>
+<tr><th id="204">204</th><td><em>void</em> <dfn class="decl" id="ConvertCharacterColors" title='ConvertCharacterColors' data-ref="ConvertCharacterColors">ConvertCharacterColors</dfn>(</td></tr>
+<tr><th id="205">205</th><td>	<em>const</em> <em>int</em> <dfn class="local col5 decl" id="455skin" title='skin' data-type='const int' data-ref="455skin">skin</dfn>, <em>const</em> <em>int</em> <dfn class="local col6 decl" id="456arm" title='arm' data-type='const int' data-ref="456arm">arm</dfn>, <em>const</em> <em>int</em> <dfn class="local col7 decl" id="457body" title='body' data-type='const int' data-ref="457body">body</dfn>, <em>const</em> <em>int</em> <dfn class="local col8 decl" id="458leg" title='leg' data-type='const int' data-ref="458leg">leg</dfn>,</td></tr>
+<tr><th id="206">206</th><td>	<em>const</em> <em>int</em> <dfn class="local col9 decl" id="459hair" title='hair' data-type='const int' data-ref="459hair">hair</dfn>, <a class="typedef" href="blit.h.html#CharColors" title='CharColors' data-type='struct CharColors' data-ref="CharColors">CharColors</a> *<dfn class="local col0 decl" id="460c" title='c' data-type='CharColors *' data-ref="460c">c</dfn>);</td></tr>
+<tr><th id="207">207</th><td></td></tr>
+<tr><th id="208">208</th><td><em>int</em> <dfn class="decl" id="ScanCampaignOld" title='ScanCampaignOld' data-ref="ScanCampaignOld">ScanCampaignOld</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="461filename" title='filename' data-type='const char *' data-ref="461filename">filename</dfn>, <em>char</em> **<dfn class="local col2 decl" id="462title" title='title' data-type='char **' data-ref="462title">title</dfn>, <em>int</em> *<dfn class="local col3 decl" id="463missions" title='missions' data-type='int *' data-ref="463missions">missions</dfn>);</td></tr>
+<tr><th id="209">209</th><td><em>int</em> <dfn class="decl" id="IsCampaignOldFile" title='IsCampaignOldFile' data-ref="IsCampaignOldFile">IsCampaignOldFile</dfn>(<em>const</em> <em>char</em> *<dfn class="local col4 decl" id="464filename" title='filename' data-type='const char *' data-ref="464filename">filename</dfn>);</td></tr>
+<tr><th id="210">210</th><td><em>int</em> <dfn class="decl" id="LoadCampaignOld" title='LoadCampaignOld' data-ref="LoadCampaignOld">LoadCampaignOld</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="465filename" title='filename' data-type='const char *' data-ref="465filename">filename</dfn>, <a class="typedef" href="#CampaignSettingOld" title='CampaignSettingOld' data-type='struct CampaignSettingOld' data-ref="CampaignSettingOld">CampaignSettingOld</a> *<dfn class="local col6 decl" id="466setting" title='setting' data-type='CampaignSettingOld *' data-ref="466setting">setting</dfn>);</td></tr>
+<tr><th id="211">211</th><td></td></tr>
+<tr><th id="212">212</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="GetHomeDirectory" title='GetHomeDirectory' data-ref="GetHomeDirectory">GetHomeDirectory</dfn>(<em>void</em>);</td></tr>
+<tr><th id="213">213</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="GetConfigFilePath" title='GetConfigFilePath' data-ref="GetConfigFilePath">GetConfigFilePath</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="467name" title='name' data-type='const char *' data-ref="467name">name</dfn>);</td></tr>
+<tr><th id="214">214</th><td></td></tr>
+<tr><th id="215">215</th><td><em>void</em> <dfn class="decl" id="SetupConfigDir" title='SetupConfigDir' data-ref="SetupConfigDir">SetupConfigDir</dfn>(<em>void</em>);</td></tr>
+<tr><th id="216">216</th><td></td></tr>
+<tr><th id="217">217</th><td><span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="f_read" title='f_read' data-ref="f_read">f_read</dfn>(<a class="typedef" href="../../../include/stdio.h.html#FILE" title='FILE' data-type='struct _IO_FILE' data-ref="FILE">FILE</a> *<dfn class="local col8 decl" id="468f" title='f' data-type='FILE *' data-ref="468f">f</dfn>, <em>void</em> *<dfn class="local col9 decl" id="469buf" title='buf' data-type='void *' data-ref="469buf">buf</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="470size" title='size' data-type='size_t' data-ref="470size">size</dfn>);</td></tr>
+<tr><th id="218">218</th><td><span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="f_read16" title='f_read16' data-ref="f_read16">f_read16</dfn>(<a class="typedef" href="../../../include/stdio.h.html#FILE" title='FILE' data-type='struct _IO_FILE' data-ref="FILE">FILE</a> *<dfn class="local col1 decl" id="471f" title='f' data-type='FILE *' data-ref="471f">f</dfn>, <em>void</em> *<dfn class="local col2 decl" id="472buf" title='buf' data-type='void *' data-ref="472buf">buf</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col3 decl" id="473size" title='size' data-type='size_t' data-ref="473size">size</dfn>);</td></tr>
+<tr><th id="219">219</th><td></td></tr>
+<tr><th id="220">220</th><td><em>void</em> <dfn class="decl" id="swap16" title='swap16' data-ref="swap16">swap16</dfn> (<em>void</em> *<dfn class="local col4 decl" id="474d" title='d' data-type='void *' data-ref="474d">d</dfn>);</td></tr>
+<tr><th id="221">221</th><td></td></tr>
+<tr><th id="222">222</th><td><i>// Convert classic colour range indices to color_t</i></td></tr>
+<tr><th id="223">223</th><td><a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="decl" id="RangeToColor" title='RangeToColor' data-ref="RangeToColor">RangeToColor</dfn>(<em>const</em> <em>int</em> <dfn class="local col5 decl" id="475range" title='range' data-type='const int' data-ref="475range">range</dfn>);</td></tr>
+<tr><th id="224">224</th><td><u>#define <dfn class="macro" id="_M/COLORRANGE_COUNT" data-ref="_M/COLORRANGE_COUNT">COLORRANGE_COUNT</dfn> 27</u></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="mkdir_deep" title='mkdir_deep' data-ref="mkdir_deep">mkdir_deep</dfn>(<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="476path" title='path' data-type='const char *' data-ref="476path">path</dfn>);</td></tr>
+<tr><th id="227">227</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../briefing_screens.c.html'>codebrowser/src/briefing_screens.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

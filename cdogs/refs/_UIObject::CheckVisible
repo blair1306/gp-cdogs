@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='111' type='void (*)(struct _UIObject *, void *)'/>
+<offset>1728</offset>
+<doc f='codebrowser/src/cdogsed/ui_object.h' l='110'>// Optional function to check whether this UI object should be visible</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1106' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1118' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1215' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1224' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1233' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1242' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1251' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1281' u='w' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1390' u='w' c='CreateMissionObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1404' u='w' c='CreateClassicMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='72' u='w' c='CreateCaveMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='85' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='279' u='w' c='CreateObjectivesObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='420' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='431' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='441' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='456' u='w' c='CreateObjectiveItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='294' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='114' u='w' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='114' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='380' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='382' u='r' c='UIObjectDrawAndAddChildren'/>

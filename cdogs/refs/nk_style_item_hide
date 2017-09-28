@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3360' type='struct nk_style_item nk_style_item_hide()'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='15955' ll='15956' macro='1' type='struct nk_style_item nk_style_item_hide()'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16110' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16111' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16112' u='c' c='nk_style_from_table'/>

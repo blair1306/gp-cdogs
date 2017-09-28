@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='54' type='int [8]'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/animation.c' l='69' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='71' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='84' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='95' u='r' c='AnimationUpdate'/>

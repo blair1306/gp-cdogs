@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3206' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16313' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21040' u='r' c='nk_chart_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21069' u='r' c='nk_chart_add_slot'/>
+<offset>320</offset>

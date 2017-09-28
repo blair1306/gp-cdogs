@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1309' type='void nk_window_show(struct nk_context * , const char * name, enum nk_show_states )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18464' ll='18480' macro='1' type='void nk_window_show(struct nk_context * ctx, const char * name, enum nk_show_states s)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18488' u='c' c='nk_window_show_if'/>

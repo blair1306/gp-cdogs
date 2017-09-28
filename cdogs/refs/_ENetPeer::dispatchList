@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='260' type='ENetListNode'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='311' u='a' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='729' u='a' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='757' u='a' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='773' u='a' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='814' u='a' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='53' u='a' c='enet_protocol_dispatch_state'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='106' u='a' c='enet_protocol_dispatch_incoming_commands'/>

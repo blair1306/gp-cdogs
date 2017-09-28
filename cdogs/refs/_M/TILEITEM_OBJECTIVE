@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='96'/>
+<use f='codebrowser/src/cdogs/actors.c' l='546' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1228' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='667' u='c'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='689' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='281' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='423' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='83' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='506' u='c'/>
+<use f='codebrowser/src/cdogs/mission.c' l='336' u='c'/>
+<use f='codebrowser/src/cdogs/objs.c' l='160' u='c'/>

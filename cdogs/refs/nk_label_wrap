@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1442' type='void nk_label_wrap(struct nk_context * , const char * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19888' ll='19890' macro='1' type='void nk_label_wrap(struct nk_context * ctx, const char * str)'/>

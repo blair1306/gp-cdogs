@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='57' type='const CharacterClass * IndexCharacterClass(const int i)'/>
+<def f='codebrowser/src/cdogs/character_class.c' l='82' ll='95' type='const CharacterClass * IndexCharacterClass(const int i)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='151' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='243' u='c' c='IndexCharacterClassName'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='491' u='c' c='Draw'/>

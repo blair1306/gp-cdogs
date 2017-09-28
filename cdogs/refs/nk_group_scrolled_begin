@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1353' type='int nk_group_scrolled_begin(struct nk_context * , struct nk_scroll * , const char * title, nk_flags )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21403' ll='21406' macro='1' type='int nk_group_scrolled_begin(struct nk_context * ctx, struct nk_scroll * scroll, const char * title, nk_flags flags)'/>

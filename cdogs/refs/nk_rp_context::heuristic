@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='8654' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8707' u='w' c='nk_rp_init_target'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8787' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8825' u='r' c='nk_rp__skyline_find_best_pos'/>
+<offset>128</offset>

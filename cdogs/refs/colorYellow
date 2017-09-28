@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/color.h' l='52' type='color_t'/>
+<use f='codebrowser/src/cdogs/camera.c' l='393' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='409' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='413' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='414' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='418' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='420' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='421' u='r' c='CameraDrawMode'/>
+<def f='codebrowser/src/cdogs/color.c' l='46' type='color_t'/>
+<use f='codebrowser/src/cdogs/objective.c' l='93' u='r' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/cdogs/player.c' l='178' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='179' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='180' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='181' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/mainmenu.c' l='394' u='r' c='MenuCreateCampaignItem'/>

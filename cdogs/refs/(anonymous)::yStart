@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='58' type='int'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='368' u='r' c='DrawEditorTiles'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='92' u='w' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='99' u='w' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='103' u='r' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='106' u='r' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='106' u='r' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='155' u='r' c='DrawBufferFix'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='117' u='r' c='GetMouseTile'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='124' u='r' c='GetScreenPos'/>

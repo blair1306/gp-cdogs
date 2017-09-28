@@ -1,0 +1,31 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='148' ll='156'/>
+<size>48</size>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='125'>/**
+ * ENet packet structure.
+ *
+ * An ENet data packet that may be sent to or received from a peer. The shown 
+ * fields should only be read and never modified. The data field contains the 
+ * allocated data for the packet. The dataLength fields specifies the length 
+ * of the allocated data.  The flags field is either 0 (specifying no flags), 
+ * or a bitwise-or of any combination of the following flags:
+ *
+ *    ENET_PACKET_FLAG_RELIABLE - packet must be received by the target peer
+ *    and resend attempts should be made until the packet is delivered
+ *
+ *    ENET_PACKET_FLAG_UNSEQUENCED - packet will not be sequenced with other packets 
+ *    (not supported for reliable packets)
+ *
+ *    ENET_PACKET_FLAG_NO_ALLOCATE - packet will not allocate data, and user must supply it instead
+ *
+ *    ENET_PACKET_FLAG_UNRELIABLE_FRAGMENT - packet will be fragmented using unreliable
+ *    (instead of reliable) sends if it exceeds the MTU
+ *
+ *    ENET_PACKET_FLAG_SENT - whether the packet has been sent from all queues it has been entered into
+   @sa ENetPacketFlag
+ */</doc>
+<mbr r='_ENetPacket::referenceCount' o='0' t='size_t'/>
+<mbr r='_ENetPacket::flags' o='64' t='enet_uint32'/>
+<mbr r='_ENetPacket::data' o='128' t='enet_uint8 *'/>
+<mbr r='_ENetPacket::dataLength' o='192' t='size_t'/>
+<mbr r='_ENetPacket::freeCallback' o='256' t='ENetPacketFreeCallback'/>
+<mbr r='_ENetPacket::userData' o='320' t='void *'/>

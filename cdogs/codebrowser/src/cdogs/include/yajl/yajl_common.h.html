@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_common.h source code [codebrowser/src/cdogs/include/yajl/yajl_common.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/include/yajl/yajl_common.h'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>cdogs</a>/<a href='..'>include</a>/<a href='./'>yajl</a>/<a href='yajl_common.h.html'>yajl_common.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="17">ifndef</span> <span class="macro" data-ref="_M/__YAJL_COMMON_H__">__YAJL_COMMON_H__</span></u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/__YAJL_COMMON_H__" data-ref="_M/__YAJL_COMMON_H__">__YAJL_COMMON_H__</dfn></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="22">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="23">23</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="22">endif</span></u></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><u>#define <dfn class="macro" id="_M/YAJL_MAX_DEPTH" data-ref="_M/YAJL_MAX_DEPTH">YAJL_MAX_DEPTH</dfn> 128</u></td></tr>
+<tr><th id="27">27</th><td></td></tr>
+<tr><th id="28">28</th><td><i>/* msft dll export gunk.  To build a DLL on windows, you</i></td></tr>
+<tr><th id="29">29</th><td><i> * must define WIN32, YAJL_SHARED, and YAJL_BUILD.  To use a shared</i></td></tr>
+<tr><th id="30">30</th><td><i> * DLL, you must define YAJL_SHARED and WIN32 */</i></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="31">if</span> (defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) || defined(<span class="macro" data-ref="_M/WIN32">WIN32</span>)) &amp;&amp; defined(<span class="macro" data-ref="_M/YAJL_SHARED">YAJL_SHARED</span>)</u></td></tr>
+<tr><th id="32">32</th><td><u>#  ifdef YAJL_BUILD</u></td></tr>
+<tr><th id="33">33</th><td><u>#    define YAJL_API __declspec(dllexport)</u></td></tr>
+<tr><th id="34">34</th><td><u>#  else</u></td></tr>
+<tr><th id="35">35</th><td><u>#    define YAJL_API __declspec(dllimport)</u></td></tr>
+<tr><th id="36">36</th><td><u>#  endif</u></td></tr>
+<tr><th id="37">37</th><td><u>#<span data-ppcond="31">else</span></u></td></tr>
+<tr><th id="38">38</th><td><u>#  <span data-ppcond="38">if</span> defined(<span class="macro" data-ref="_M/__GNUC__">__GNUC__</span>) &amp;&amp; (<span class="macro" title="4" data-ref="_M/__GNUC__">__GNUC__</span> * 100 + <span class="macro" title="2" data-ref="_M/__GNUC_MINOR__">__GNUC_MINOR__</span>) &gt;= 303</u></td></tr>
+<tr><th id="39">39</th><td><u>#    define <dfn class="macro" id="_M/YAJL_API" data-ref="_M/YAJL_API">YAJL_API</dfn> __attribute__ ((visibility("default")))</u></td></tr>
+<tr><th id="40">40</th><td><u>#  <span data-ppcond="38">else</span></u></td></tr>
+<tr><th id="41">41</th><td><u>#    define YAJL_API</u></td></tr>
+<tr><th id="42">42</th><td><u>#  <span data-ppcond="38">endif</span></u></td></tr>
+<tr><th id="43">43</th><td><u>#<span data-ppcond="31">endif</span></u></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><i class="doc">/** pointer to a malloc function, supporting client overriding memory</i></td></tr>
+<tr><th id="46">46</th><td><i class="doc"> *  allocation routines */</i></td></tr>
+<tr><th id="47">47</th><td><b>typedef</b> <em>void</em> * (*<dfn class="typedef" id="yajl_malloc_func" title='yajl_malloc_func' data-type='void *(*)(void *, size_t)' data-ref="yajl_malloc_func">yajl_malloc_func</dfn>)(<em>void</em> *<dfn class="local col1 decl" id="1ctx" title='ctx' data-type='void *' data-ref="1ctx">ctx</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="2sz" title='sz' data-type='size_t' data-ref="2sz">sz</dfn>);</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td><i class="doc">/** pointer to a free function, supporting client overriding memory</i></td></tr>
+<tr><th id="50">50</th><td><i class="doc"> *  allocation routines */</i></td></tr>
+<tr><th id="51">51</th><td><b>typedef</b> <em>void</em> (*<dfn class="typedef" id="yajl_free_func" title='yajl_free_func' data-type='void (*)(void *, void *)' data-ref="yajl_free_func">yajl_free_func</dfn>)(<em>void</em> *<dfn class="local col3 decl" id="3ctx" title='ctx' data-type='void *' data-ref="3ctx">ctx</dfn>, <em>void</em> * <dfn class="local col4 decl" id="4ptr" title='ptr' data-type='void *' data-ref="4ptr">ptr</dfn>);</td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><i class="doc">/** pointer to a realloc function which can resize an allocation. */</i></td></tr>
+<tr><th id="54">54</th><td><b>typedef</b> <em>void</em> * (*<dfn class="typedef" id="yajl_realloc_func" title='yajl_realloc_func' data-type='void *(*)(void *, void *, size_t)' data-ref="yajl_realloc_func">yajl_realloc_func</dfn>)(<em>void</em> *<dfn class="local col5 decl" id="5ctx" title='ctx' data-type='void *' data-ref="5ctx">ctx</dfn>, <em>void</em> * <dfn class="local col6 decl" id="6ptr" title='ptr' data-type='void *' data-ref="6ptr">ptr</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col7 decl" id="7sz" title='sz' data-type='size_t' data-ref="7sz">sz</dfn>);</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><i class="doc">/** A structure which can be passed to yajl_*_alloc routines to allow the</i></td></tr>
+<tr><th id="57">57</th><td><i class="doc"> *  client to specify memory allocation functions to be used. */</i></td></tr>
+<tr><th id="58">58</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="59">59</th><td>{</td></tr>
+<tr><th id="60">60</th><td>    <i class="doc">/** pointer to a function that can allocate uninitialized memory */</i></td></tr>
+<tr><th id="61">61</th><td>    <a class="typedef" href="#yajl_malloc_func" title='yajl_malloc_func' data-type='void *(*)(void *, size_t)' data-ref="yajl_malloc_func">yajl_malloc_func</a> <dfn class="decl" id="(anonymous)::malloc" title='(anonymous struct)::malloc' data-ref="(anonymous)::malloc">malloc</dfn>;</td></tr>
+<tr><th id="62">62</th><td>    <i class="doc">/** pointer to a function that can resize memory allocations */</i></td></tr>
+<tr><th id="63">63</th><td>    <a class="typedef" href="#yajl_realloc_func" title='yajl_realloc_func' data-type='void *(*)(void *, void *, size_t)' data-ref="yajl_realloc_func">yajl_realloc_func</a> <dfn class="decl" id="(anonymous)::realloc" title='(anonymous struct)::realloc' data-ref="(anonymous)::realloc">realloc</dfn>;</td></tr>
+<tr><th id="64">64</th><td>    <i class="doc">/** pointer to a function that can free memory allocated using</i></td></tr>
+<tr><th id="65">65</th><td><i class="doc">     *  reallocFunction or mallocFunction */</i></td></tr>
+<tr><th id="66">66</th><td>    <a class="typedef" href="#yajl_free_func" title='yajl_free_func' data-type='void (*)(void *, void *)' data-ref="yajl_free_func">yajl_free_func</a> <dfn class="decl" id="(anonymous)::free" title='(anonymous struct)::free' data-ref="(anonymous)::free">free</dfn>;</td></tr>
+<tr><th id="67">67</th><td>    <i class="doc">/** a context pointer that will be passed to above allocation routines */</i></td></tr>
+<tr><th id="68">68</th><td>    <em>void</em> * <dfn class="decl" id="(anonymous)::ctx" title='(anonymous struct)::ctx' data-ref="(anonymous)::ctx">ctx</dfn>;</td></tr>
+<tr><th id="69">69</th><td>} <dfn class="typedef" id="yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</dfn>;</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><u>#<span data-ppcond="71">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="72">72</th><td>}</td></tr>
+<tr><th id="73">73</th><td><u>#<span data-ppcond="71">endif</span></u></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#<span data-ppcond="17">endif</span></u></td></tr>
+<tr><th id="76">76</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../yajl/yajl.c.html'>codebrowser/src/cdogs/yajl/yajl.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

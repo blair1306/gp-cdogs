@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_video.h' l='103' type='32'/>
+<doc f='include/SDL2/SDL_video.h' l='103'>/**&lt; window can be resized */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='212' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='112' u='r' c='CharEditor'/>

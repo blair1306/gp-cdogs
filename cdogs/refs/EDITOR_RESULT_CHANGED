@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='105' type='1'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='262' u='r' c='Change'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='904' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='927' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='293' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='303' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='341' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='350' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='508' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='512' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='516' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='520' u='r' c='EditorBrushStopPainting'/>

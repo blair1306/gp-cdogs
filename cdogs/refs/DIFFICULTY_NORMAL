@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='42' type='3'/>
+<use f='codebrowser/src/cdogs/config.c' l='49' c='DifficultyStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='60' u='r' c='StrDifficulty'/>
+<use f='codebrowser/src/cdogs/config.c' l='63' u='r' c='StrDifficulty'/>
+<use f='codebrowser/src/cdogs/config.c' l='568' u='r' c='ConfigDefault'/>

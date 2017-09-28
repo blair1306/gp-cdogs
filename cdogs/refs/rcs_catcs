@@ -1,0 +1,18 @@
+<def f='codebrowser/src/json/json.c' l='122' ll='137' type='rstring_code rcs_catcs(rcstring * pre, const char * pos, const size_t length)'/>
+<use f='codebrowser/src/json/json.c' l='616' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='668' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='711' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='720' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='729' u='c' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='1074' u='c' c='json_format_string'/>
+<use f='codebrowser/src/json/json.c' l='1094' u='c' c='json_format_string'/>
+<use f='codebrowser/src/json/json.c' l='1099' u='c' c='json_format_string'/>
+<use f='codebrowser/src/json/json.c' l='1168' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1172' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1176' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1180' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1184' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1188' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1192' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1196' u='c' c='json_escape'/>
+<use f='codebrowser/src/json/json.c' l='1205' u='c' c='json_escape'/>

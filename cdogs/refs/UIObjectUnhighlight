@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='123' type='_Bool UIObjectUnhighlight(UIObject * o, const _Bool unhighlightParents)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='838' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='883' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1021' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1081' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1239' u='c' c='InputDelete'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='122' u='c' c='CheckMission'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='127' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='36' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='43' macro='1' u='c'/>
+<def f='codebrowser/src/cdogsed/ui_object.c' l='194' ll='234' macro='1' type='_Bool UIObjectUnhighlight(UIObject * o, const _Bool unhighlightParents)'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='200' u='c' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='231' u='c' c='UIObjectUnhighlight'/>

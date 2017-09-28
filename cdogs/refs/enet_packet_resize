@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='557' type='int enet_packet_resize(ENetPacket * , size_t )'/>
+<def f='codebrowser/src/cdogs/enet/packet.c' l='76' ll='99' type='int enet_packet_resize(ENetPacket * packet, size_t dataLength)'/>
+<doc f='codebrowser/src/cdogs/enet/packet.c' l='70'>/** Attempts to resize the data in the packet to length specified in the 
+    dataLength parameter 
+    @param packet packet to resize
+    @param dataLength new size for the packet data
+    @returns 0 on success, &lt; 0 on failure
+*/</doc>

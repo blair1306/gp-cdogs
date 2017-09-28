@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='151' type='void yajl_gen_clear(yajl_gen hand)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='363' ll='367' type='void yajl_gen_clear(yajl_gen g)'/>

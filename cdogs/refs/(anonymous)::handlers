@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='232' type='EventHandlers *'/>
+<offset>448</offset>
+<use f='codebrowser/src/menu.c' l='77' u='w' c='MenuSystemInit'/>
+<use f='codebrowser/src/menu.c' l='161' u='r' c='MenuUpdate'/>
+<use f='codebrowser/src/menu.c' l='174' u='r' c='MenuUpdate'/>

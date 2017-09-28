@@ -1,0 +1,12 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='15442' ll='15446'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20753' ll='20838' macro='1' type='void nk_property(struct nk_context * ctx, const char * name, struct nk_property_variant * variant, float inc_per_pixel, const enum nk_property_filter filter)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20851' u='c' c='nk_property_int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20866' u='c' c='nk_property_float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20881' u='c' c='nk_property_double'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20895' u='c' c='nk_propertyi'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20910' u='c' c='nk_propertyf'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20925' u='c' c='nk_propertyd'/>
+<size>8</size>
+<mbr r='nk_property::i' o='0' t='int'/>
+<mbr r='nk_property::f' o='0' t='float'/>
+<mbr r='nk_property::d' o='0' t='double'/>

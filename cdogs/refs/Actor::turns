@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='141' type='int'/>
+<offset>1792</offset>
+<use f='codebrowser/src/cdogs/ai.c' l='203' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='204' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='212' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='213' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='216' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='225' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='226' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='232' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='233' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='236' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='267' u='w' c='Detour'/>

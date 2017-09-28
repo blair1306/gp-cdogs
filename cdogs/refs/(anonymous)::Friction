@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='70' type='int'/>
+<offset>768</offset>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='70'>// Amount to subtract from velocity per tick</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='299' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='300' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='660' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='734' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='734' u='r' c='LoadBullet'/>

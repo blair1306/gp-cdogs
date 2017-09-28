@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='44' type='const char * yajl_status_to_string(yajl_status code)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl.c' l='27' ll='43' type='const char * yajl_status_to_string(yajl_status stat)'/>

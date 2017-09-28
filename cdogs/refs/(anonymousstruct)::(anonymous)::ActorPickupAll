@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='156' type='NActorPickupAll'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='753' u='m' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='754' u='m' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='766' u='m' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='767' u='m' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='146' u='m' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='237' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='239' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='408' u='m' c='OnReceive'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/credits.h' l='68' type='int'/>
+<offset>320</offset>
+<use f='codebrowser/src/credits.c' l='62' u='w' c='LoadCredits'/>
+<use f='codebrowser/src/credits.c' l='110' u='w' c='UnloadCredits'/>
+<use f='codebrowser/src/credits.c' l='121' u='r' c='ShowCredits'/>
+<use f='codebrowser/src/credits.c' l='132' u='w' c='ShowCredits'/>
+<use f='codebrowser/src/credits.c' l='133' u='r' c='ShowCredits'/>
+<use f='codebrowser/src/credits.c' l='135' u='w' c='ShowCredits'/>

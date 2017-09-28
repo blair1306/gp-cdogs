@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='46' type='PickupType StrPickupType(const char * s)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='399' u='c' c='TryLoadMapObject'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='41' ll='49' type='PickupType StrPickupType(const char * s)'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='229' u='c' c='TryLoadPickupclass'/>

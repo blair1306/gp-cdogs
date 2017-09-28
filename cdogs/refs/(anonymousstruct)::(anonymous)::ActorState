@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='151' type='NActorState'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='733' u='m' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='734' u='m' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='806' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='807' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='816' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='817' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='142' u='m' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='192' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='195' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='404' u='m' c='OnReceive'/>

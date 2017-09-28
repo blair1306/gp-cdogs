@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='117' type='Vec2i GetFullVectorsForRadians(double radians)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='884' u='c' c='BulletAdd'/>
+<def f='codebrowser/src/cdogs/defs.c' l='124' ll='131' type='Vec2i GetFullVectorsForRadians(double radians)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='508' u='c' c='GunAddBrass'/>

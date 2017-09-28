@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/door.h' l='60' type='NamedPic * GetDoorPic(const PicManager * pm, const char * style, const char * key, const _Bool isHorizontal)'/>
+<use f='codebrowser/src/cdogs/door.c' l='95' u='c' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='281' u='c' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='337' u='c' c='GetDoorBasePic'/>
+<def f='codebrowser/src/cdogs/door.c' l='359' ll='370' type='NamedPic * GetDoorPic(const PicManager * pm, const char * style, const char * key, const _Bool isHorizontal)'/>
+<doc f='codebrowser/src/cdogs/door.h' l='57'>// Get the picture of a door
+// style: office/dungeon/blast/alien, or custom
+// key: normal/yellow/green/blue/red/wall/open</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='452' u='c' c='MissionDrawDoorStyle'/>

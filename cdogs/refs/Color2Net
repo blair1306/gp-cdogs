@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='61' type='NColor Color2Net(const color_t c)'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='124' ll='129' type='NColor Color2Net(const color_t c)'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='133' u='c' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='134' u='c' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='135' u='c' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='136' u='c' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='137' u='c' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/player.c' l='150' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='151' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='152' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='153' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='154' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='159' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='160' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='161' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='162' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='163' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='168' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='169' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='170' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='171' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='172' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='177' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='178' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='179' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='180' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='181' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='187' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='188' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='189' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='190' u='c' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='191' u='c' c='PlayerDataDefault'/>
+<def f='codebrowser/src/tests/player_test.c' l='37' ll='42' type='NColor Color2Net(const color_t c)'/>

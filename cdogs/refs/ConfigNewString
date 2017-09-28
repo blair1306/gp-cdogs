@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/config.h' l='175' type='Config ConfigNewString(const char * name, const char * defaultValue)'/>
+<def f='codebrowser/src/cdogs/config.c' l='218' ll='224' type='Config ConfigNewString(const char * name, const char * defaultValue)'/>

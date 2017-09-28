@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='36' type='2'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='42' c='GameModeStr'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='65' c='IsGameOptionsNeeded'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='77' u='r' c='IsScoreNeeded'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='87' u='r' c='IsAutoMapEnabled'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='113' u='r' c='IsMultiplayer'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='118' u='r' c='IsPVP'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='123' u='r' c='HasExit'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='138' c='ModeMaxRoundsWon'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='152' c='ModeLives'/>
+<use f='codebrowser/src/cdogs/game_mode.c' l='172' u='r' c='ModeHasNPCs'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='735' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/game.c' l='647' c='NextLoop'/>
+<use f='codebrowser/src/mainmenu.c' l='126' c='MainMenuOnEnter'/>
+<use f='codebrowser/src/mainmenu.c' l='266' u='r' c='MenuCreateStart'/>
+<use f='codebrowser/src/prep.c' l='578' c='GameOptions'/>
+<use f='codebrowser/src/screens_end.c' l='96' u='r' c='GetModeScore'/>
+<use f='codebrowser/src/screens_end.c' l='258' u='r' c='PlayerListCustomDraw'/>

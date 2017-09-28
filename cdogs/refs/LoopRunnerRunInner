@@ -1,0 +1,2 @@
+<def f='codebrowser/src/game_loop.c' l='189' ll='267' macro='1' type='_Bool LoopRunnerRunInner(LoopRunInnerData * ctx)'/>
+<use f='codebrowser/src/game_loop.c' l='298' u='c' c='LoopRunnerRun'/>

@@ -1,0 +1,15 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='103' ll='118'/>
+<size>44</size>
+<mbr r='_ENetProtocolVerifyConnect::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolVerifyConnect::outgoingPeerID' o='32' t='enet_uint16'/>
+<mbr r='_ENetProtocolVerifyConnect::incomingSessionID' o='48' t='enet_uint8'/>
+<mbr r='_ENetProtocolVerifyConnect::outgoingSessionID' o='56' t='enet_uint8'/>
+<mbr r='_ENetProtocolVerifyConnect::mtu' o='64' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::windowSize' o='96' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::channelCount' o='128' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::incomingBandwidth' o='160' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::outgoingBandwidth' o='192' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::packetThrottleInterval' o='224' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::packetThrottleAcceleration' o='256' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::packetThrottleDeceleration' o='288' t='enet_uint32'/>
+<mbr r='_ENetProtocolVerifyConnect::connectID' o='320' t='enet_uint32'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='112' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/triggers.c' l='105' u='w' c='WatchAddCondition'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='228' u='r' c='ConditionsMet'/>

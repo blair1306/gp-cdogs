@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11444' ll='11473' macro='1' type='unsigned int nk_adler32(unsigned int adler32, unsigned char * buffer, unsigned int buflen)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11496' u='c' c='nk_decompress'/>

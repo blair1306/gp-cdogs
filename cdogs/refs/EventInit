@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/events.h' l='50' type='void EventInit(EventHandlers * handlers, Pic * mouseCursor, Pic * mouseTrail, const _Bool hideMouse)'/>
+<use f='codebrowser/src/cdogs.c' l='212' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/events.c' l='44' ll='52' type='void EventInit(EventHandlers * handlers, Pic * mouseCursor, Pic * mouseTrail, const _Bool hideMouse)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1367' u='c' c='main'/>

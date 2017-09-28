@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='193' type='void should_mem_equal(const void * actual, const void * expected, size_t size, void * state, const char * file, int line)'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='58' macro='1' u='c'/>
+<def f='codebrowser/src/tests/cbehave/cbehave.c' l='139' ll='158' type='void should_mem_equal(const void * actual, const void * expected, size_t size, void * state, const char * file, int line)'/>
+<use f='codebrowser/src/tests/color_test.c' l='196' macro='1' u='c'/>

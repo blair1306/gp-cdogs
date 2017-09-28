@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='82' type='int StrPickupClassId(const char * s)'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='144' ll='164' type='int StrPickupClassId(const char * s)'/>

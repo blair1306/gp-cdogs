@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/player.h' l='59' type='int'/>
+<offset>1472</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1007' u='r' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/camera.c' l='403' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/events.c' l='124' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='287' u='r' c='GetGameCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='293' u='r' c='GetGameCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='340' u='r' c='GetPlayerCmds'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='557' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/player.c' l='442' u='r' c='PlayerTrySetInputDevice'/>
+<use f='codebrowser/src/cdogs/player.c' l='447' u='w' c='PlayerTrySetInputDevice'/>
+<use f='codebrowser/src/cdogs/player.c' l='460' u='r' c='PlayerTrySetUnusedInputDevice'/>
+<use f='codebrowser/src/menu_utils.c' l='93' u='r' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='100' u='r' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='102' u='r' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='114' u='r' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='120' u='r' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='125' u='r' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='132' u='r' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/tests/player_test.c' l='114' u='r' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='122' u='w' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='129' u='r' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='138' u='w' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='141' u='r' c='_cbehave_feature_assign_unused'/>

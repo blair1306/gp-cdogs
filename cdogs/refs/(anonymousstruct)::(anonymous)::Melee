@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='163' type='NActorMelee'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='241' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='242' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='243' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='247' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='249' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='252' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='254' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='267' u='m' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='148' u='m' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='355' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='357' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='358' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='360' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='360' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='364' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='374' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='374' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='410' u='m' c='OnReceive'/>

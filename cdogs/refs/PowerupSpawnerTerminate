@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/powerup.h' l='47' type='void PowerupSpawnerTerminate(PowerupSpawner * p)'/>
+<def f='codebrowser/src/cdogs/powerup.c' l='52' ll='55' type='void PowerupSpawnerTerminate(PowerupSpawner * p)'/>
+<use f='codebrowser/src/game.c' l='287' u='c' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='289' u='c' c='RunGameOnExit'/>

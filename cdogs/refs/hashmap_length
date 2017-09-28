@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='92' type='int hashmap_length(map_t in)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='89'>/*
+ * Get the current size of a hashmap
+ */</doc>
+<use f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='319' u='c' c='hashmap_iterate'/>
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='417' ll='420' type='int hashmap_length(map_t m)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='416'>/* Return the length of the hashmap */</doc>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/autosave.h' l='57' type='void AutosaveInit(Autosave * autosave)'/>
+<def f='codebrowser/src/autosave.c' l='56' ll='62' type='void AutosaveInit(Autosave * autosave)'/>
+<use f='codebrowser/src/cdogs.c' l='151' u='c' c='main'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='54' u='c' c='_cbehave_feature_AutosaveInit'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='55' u='c' c='_cbehave_feature_AutosaveInit'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='73' u='c' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='84' u='c' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='109' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='124' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='143' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='171' u='c' c='_cbehave_feature_mission_autosaves'/>

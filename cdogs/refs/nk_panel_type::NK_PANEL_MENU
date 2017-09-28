@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3378' type='64'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='3382' u='r'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17107' c='nk_panel_get_padding'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17124' c='nk_panel_get_border'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17139' c='nk_panel_get_border_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22800' u='r' c='nk_menu_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22815' u='r' c='nk_menu_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22818' u='r' c='nk_menu_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22821' u='r' c='nk_menu_begin'/>

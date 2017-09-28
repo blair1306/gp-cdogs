@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>list.h source code [codebrowser/src/cdogs/enet/include/enet/list.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="_ENetList,_ENetListNode "/>
+<link rel="stylesheet" href="../../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/enet/include/enet/list.h'; var root_path = '../../../../../..'; var data_path = '../../../../../../../data';</script>
+<script src='../../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../../..'>codebrowser</a>/<a href='../../../..'>src</a>/<a href='../../..'>cdogs</a>/<a href='../..'>enet</a>/<a href='..'>include</a>/<a href='./'>enet</a>/<a href='list.h.html'>list.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i class="doc">/** </i></td></tr>
+<tr><th id="2">2</th><td><i class="doc"><span class="command"> @file</span>  list.h</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> <span class="command">@brief</span> ENet list management </i></td></tr>
+<tr><th id="4">4</th><td><i class="doc">*/</i></td></tr>
+<tr><th id="5">5</th><td><u>#<span data-ppcond="5">ifndef</span> <span class="macro" data-ref="_M/__ENET_LIST_H__">__ENET_LIST_H__</span></u></td></tr>
+<tr><th id="6">6</th><td><u>#define <dfn class="macro" id="_M/__ENET_LIST_H__" data-ref="_M/__ENET_LIST_H__">__ENET_LIST_H__</dfn></u></td></tr>
+<tr><th id="7">7</th><td></td></tr>
+<tr><th id="8">8</th><td><u>#include <a href="../../../../../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="9">9</th><td></td></tr>
+<tr><th id="10">10</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_ENetListNode" title='_ENetListNode' data-ref="_ENetListNode"><a class="type" href="#_ENetListNode" title='_ENetListNode' data-ref="_ENetListNode">_ENetListNode</a></dfn></td></tr>
+<tr><th id="11">11</th><td>{</td></tr>
+<tr><th id="12">12</th><td>   <b>struct</b> <a class="type" href="#_ENetListNode" title='_ENetListNode' data-ref="_ENetListNode">_ENetListNode</a> * <dfn class="decl" id="_ENetListNode::next" title='_ENetListNode::next' data-ref="_ENetListNode::next">next</dfn>;</td></tr>
+<tr><th id="13">13</th><td>   <b>struct</b> <a class="type" href="#_ENetListNode" title='_ENetListNode' data-ref="_ENetListNode">_ENetListNode</a> * <dfn class="decl" id="_ENetListNode::previous" title='_ENetListNode::previous' data-ref="_ENetListNode::previous">previous</dfn>;</td></tr>
+<tr><th id="14">14</th><td>} <dfn class="typedef" id="ENetListNode" title='ENetListNode' data-type='struct _ENetListNode' data-ref="ENetListNode">ENetListNode</dfn>;</td></tr>
+<tr><th id="15">15</th><td></td></tr>
+<tr><th id="16">16</th><td><b>typedef</b> <a class="typedef" href="#ENetListNode" title='ENetListNode' data-type='struct _ENetListNode' data-ref="ENetListNode">ENetListNode</a> * <dfn class="typedef" id="ENetListIterator" title='ENetListIterator' data-type='ENetListNode *' data-ref="ENetListIterator">ENetListIterator</dfn>;</td></tr>
+<tr><th id="17">17</th><td></td></tr>
+<tr><th id="18">18</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="_ENetList" title='_ENetList' data-ref="_ENetList"><a class="type" href="#_ENetList" title='_ENetList' data-ref="_ENetList">_ENetList</a></dfn></td></tr>
+<tr><th id="19">19</th><td>{</td></tr>
+<tr><th id="20">20</th><td>   <a class="typedef" href="#ENetListNode" title='ENetListNode' data-type='struct _ENetListNode' data-ref="ENetListNode">ENetListNode</a> <dfn class="decl" id="_ENetList::sentinel" title='_ENetList::sentinel' data-ref="_ENetList::sentinel">sentinel</dfn>;</td></tr>
+<tr><th id="21">21</th><td>} <dfn class="typedef" id="ENetList" title='ENetList' data-type='struct _ENetList' data-ref="ENetList">ENetList</dfn>;</td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><b>extern</b> <em>void</em> <dfn class="decl" id="enet_list_clear" title='enet_list_clear' data-ref="enet_list_clear">enet_list_clear</dfn> (<a class="typedef" href="#ENetList" title='ENetList' data-type='struct _ENetList' data-ref="ENetList">ENetList</a> *);</td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><b>extern</b> <a class="typedef" href="#ENetListIterator" title='ENetListIterator' data-type='ENetListNode *' data-ref="ENetListIterator">ENetListIterator</a> <dfn class="decl" id="enet_list_insert" title='enet_list_insert' data-ref="enet_list_insert">enet_list_insert</dfn> (<a class="typedef" href="#ENetListIterator" title='ENetListIterator' data-type='ENetListNode *' data-ref="ENetListIterator">ENetListIterator</a>, <em>void</em> *);</td></tr>
+<tr><th id="26">26</th><td><b>extern</b> <em>void</em> * <dfn class="decl" id="enet_list_remove" title='enet_list_remove' data-ref="enet_list_remove">enet_list_remove</dfn> (<a class="typedef" href="#ENetListIterator" title='ENetListIterator' data-type='ENetListNode *' data-ref="ENetListIterator">ENetListIterator</a>);</td></tr>
+<tr><th id="27">27</th><td><b>extern</b> <a class="typedef" href="#ENetListIterator" title='ENetListIterator' data-type='ENetListNode *' data-ref="ENetListIterator">ENetListIterator</a> <dfn class="decl" id="enet_list_move" title='enet_list_move' data-ref="enet_list_move">enet_list_move</dfn> (<a class="typedef" href="#ENetListIterator" title='ENetListIterator' data-type='ENetListNode *' data-ref="ENetListIterator">ENetListIterator</a>, <em>void</em> *, <em>void</em> *);</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><b>extern</b> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="enet_list_size" title='enet_list_size' data-ref="enet_list_size">enet_list_size</dfn> (<a class="typedef" href="#ENetList" title='ENetList' data-type='struct _ENetList' data-ref="ENetList">ENetList</a> *);</td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#define <dfn class="macro" id="_M/enet_list_begin" data-ref="_M/enet_list_begin">enet_list_begin</dfn>(list) ((list) -&gt; sentinel.next)</u></td></tr>
+<tr><th id="32">32</th><td><u>#define <dfn class="macro" id="_M/enet_list_end" data-ref="_M/enet_list_end">enet_list_end</dfn>(list) (&amp; (list) -&gt; sentinel)</u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#define <dfn class="macro" id="_M/enet_list_empty" data-ref="_M/enet_list_empty">enet_list_empty</dfn>(list) (enet_list_begin (list) == enet_list_end (list))</u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/enet_list_next" data-ref="_M/enet_list_next">enet_list_next</dfn>(iterator) ((iterator) -&gt; next)</u></td></tr>
+<tr><th id="37">37</th><td><u>#define <dfn class="macro" id="_M/enet_list_previous" data-ref="_M/enet_list_previous">enet_list_previous</dfn>(iterator) ((iterator) -&gt; previous)</u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/enet_list_front" data-ref="_M/enet_list_front">enet_list_front</dfn>(list) ((void *) (list) -&gt; sentinel.next)</u></td></tr>
+<tr><th id="40">40</th><td><u>#define <dfn class="macro" id="_M/enet_list_back" data-ref="_M/enet_list_back">enet_list_back</dfn>(list) ((void *) (list) -&gt; sentinel.previous)</u></td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><u>#<span data-ppcond="5">endif</span> /* __ENET_LIST_H__ */</u></td></tr>
+<tr><th id="43">43</th><td></td></tr>
+<tr><th id="44">44</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../../../cdogs.c.html'>codebrowser/src/cdogs.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

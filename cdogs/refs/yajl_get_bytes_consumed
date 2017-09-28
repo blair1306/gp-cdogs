@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='217' type='size_t yajl_get_bytes_consumed(yajl_handle hand)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl.c' l='160' ll='165' type='size_t yajl_get_bytes_consumed(yajl_handle hand)'/>

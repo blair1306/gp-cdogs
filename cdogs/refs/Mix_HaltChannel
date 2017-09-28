@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='554' type='int Mix_HaltChannel(int channel)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='553'>/* Halt playing of a particular channel */</doc>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2234' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6105' c='nk_buffer_align'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6181' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6187' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6206' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6212' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6362' u='r' c='nk_str_append_text_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6462' u='r' c='nk_str_insert_at_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6849' u='r' c='nk_command_buffer_push'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7423' u='r' c='nk_draw_list_alloc_path'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7538' u='r' c='nk_draw_list_alloc_vertices'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7556' u='r' c='nk_draw_list_alloc_elements'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7762' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7764' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7909' u='r' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8000' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8002' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8060' u='r' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8086' u='r' c='nk_draw_list_path_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16844' u='r' c='nk_clear'/>

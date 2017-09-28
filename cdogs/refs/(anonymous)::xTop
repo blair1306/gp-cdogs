@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/draw/draw_buffer.h' l='57' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='292' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='395' u='r' c='DrawGuideImage'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='448' u='r' c='DrawObjectiveName'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='457' u='r' c='DrawSpawnerName'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='400' u='r' c='DrawChatter'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='87' u='w' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='91' u='r' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='93' u='r' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='102' u='r' c='DrawBufferSetFromMap'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='116' u='r' c='DrawObjectiveHighlight'/>

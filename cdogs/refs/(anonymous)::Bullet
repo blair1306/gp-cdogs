@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='98' type='const BulletClass *'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='242' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='436' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='454' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='212' u='w' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='287' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='287' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='287' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='287' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='564' u='r' c='IsHighDPS'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='570' u='r' c='IsHighDPS'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='571' u='r' c='IsHighDPS'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='572' u='r' c='IsHighDPS'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='576' u='r' c='GunGetRange'/>

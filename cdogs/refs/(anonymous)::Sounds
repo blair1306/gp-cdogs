@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='45' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogs/character_class.h:42:2)'/>
+<offset>640</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='538' u='m' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='m' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='m' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='m' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='177' u='m' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='185' u='m' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='185' u='m' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='186' u='m' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='206' u='m' c='CharacterClassFree'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='206' u='m' c='CharacterClassFree'/>

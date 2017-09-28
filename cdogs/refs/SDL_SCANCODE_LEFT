@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_scancode.h' l='177' type='80'/>
+<use f='include/SDL2/SDL_keycode.h' l='149' u='r'/>
+<use f='codebrowser/src/cdogs/config.c' l='647' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/events.c' l='366' u='r' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='944' u='r' c='HandleInput'/>

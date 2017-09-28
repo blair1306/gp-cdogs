@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='13875' ll='13889' macro='1' type='int nk_toggle_behavior(const struct nk_input * in, struct nk_rect select, nk_flags * state, int active)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14025' u='c' c='nk_do_toggle'/>

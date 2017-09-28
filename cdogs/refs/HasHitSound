@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='100' type='_Bool HasHitSound(const int flags, const int playerUID, const TileItemKind targetKind, const int targetUID, const special_damage_e special, const _Bool allowFriendlyHitSound)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='486' u='c' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='359' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/objs.c' l='251' ll='273' macro='1' type='_Bool HasHitSound(const int flags, const int playerUID, const TileItemKind targetKind, const int targetUID, const special_damage_e special, const _Bool allowFriendlyHitSound)'/>

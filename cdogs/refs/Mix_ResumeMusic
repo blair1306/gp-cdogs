@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='583' type='void Mix_ResumeMusic()'/>
+<use f='codebrowser/src/cdogs/music.c' l='149' u='c' c='MusicResume'/>

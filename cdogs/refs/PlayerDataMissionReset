@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/player.h' l='73' type='NPlayerData PlayerDataMissionReset(const PlayerData * p)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='304' u='c' c='OnReceive'/>
+<def f='codebrowser/src/cdogs/player.c' l='232' ll='242' type='NPlayerData PlayerDataMissionReset(const PlayerData * p)'/>
+<use f='codebrowser/src/game.c' l='226' u='c' c='RunGameOnEnter'/>

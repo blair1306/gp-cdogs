@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='364' type='NExploreTiles_Run [16]'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='580' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='581' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/los.c' l='170' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='182' u='m' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='259' u='m' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='260' u='m' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='262' u='m' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='269' u='r' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='269' u='r' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='500' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='511' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='349' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

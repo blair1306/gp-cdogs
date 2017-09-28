@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='101' type='void ParticleClassesLoadJSON(CArray * classes, json_t * root)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='97' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/particle.c' l='74' u='c' c='ParticleClassesInit'/>
+<def f='codebrowser/src/cdogs/particle.c' l='83' ll='100' type='void ParticleClassesLoadJSON(CArray * classes, json_t * root)'/>

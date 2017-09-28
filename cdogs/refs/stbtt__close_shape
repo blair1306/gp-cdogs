@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9383' ll='9398' macro='1' type='int stbtt__close_shape(struct nk_tt_vertex * vertices, int num_vertices, int was_off, int start_off, nk_int sx, nk_int sy, nk_int scx, nk_int scy, nk_int cx, nk_int cy)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9490' u='c' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9533' u='c' c='nk_tt_GetGlyphShape'/>

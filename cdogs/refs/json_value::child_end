@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/json/json.h' l='100' type='struct json_value *'/>
+<offset>384</offset>
+<doc f='codebrowser/src/json/json.h' l='100'>/*!&lt; The pointer pointing to the last child node in the document tree */</doc>
+<use f='codebrowser/src/json/json.c' l='253' u='w' c='json_new_value'/>
+<use f='codebrowser/src/json/json.c' l='288' u='w' c='json_new_string'/>
+<use f='codebrowser/src/json/json.c' l='320' u='w' c='json_new_number'/>
+<use f='codebrowser/src/json/json.c' l='412' u='r' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='416' u='w' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='420' u='w' c='intern_json_free_value'/>
+<use f='codebrowser/src/json/json.c' l='535' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='536' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='537' u='w' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='542' u='w' c='json_insert_child'/>

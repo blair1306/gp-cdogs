@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='671' type='const pb_field_t [9]'/>
+<doc f='codebrowser/src/cdogs/proto/msg.pb.h' l='670'>/* Struct field encoding specification for nanopb */</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='243' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='256' u='r' c='PollListener'/>
+<def f='codebrowser/src/cdogs/proto/msg.pb.c' l='27' ll='37' type='const pb_field_t [9]'/>

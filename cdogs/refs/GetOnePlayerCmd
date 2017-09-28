@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/events.h' l='58' type='int GetOnePlayerCmd(EventHandlers * handlers, const _Bool isPressed, const input_device_e device, const int deviceIndex)'/>
+<def f='codebrowser/src/cdogs/events.c' l='303' ll='324' type='int GetOnePlayerCmd(EventHandlers * handlers, const _Bool isPressed, const input_device_e device, const int deviceIndex)'/>
+<use f='codebrowser/src/cdogs/events.c' l='339' u='c' c='GetPlayerCmds'/>
+<use f='codebrowser/src/cdogs/events.c' l='362' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='379' u='c' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='385' u='c' c='GetMenuCmd'/>

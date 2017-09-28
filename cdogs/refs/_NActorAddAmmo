@@ -1,0 +1,8 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='18' ll='25'/>
+<size>20</size>
+<doc f='codebrowser/src/cdogs/proto/msg.pb.h' l='17'>/* Struct definitions */</doc>
+<mbr r='_NActorAddAmmo::UID' o='0' t='uint32_t'/>
+<mbr r='_NActorAddAmmo::PlayerUID' o='32' t='int32_t'/>
+<mbr r='_NActorAddAmmo::AmmoId' o='64' t='uint32_t'/>
+<mbr r='_NActorAddAmmo::Amount' o='96' t='uint32_t'/>
+<mbr r='_NActorAddAmmo::IsRandomSpawned' o='128' t='_Bool'/>

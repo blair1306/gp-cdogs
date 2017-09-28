@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='63' type='int AnimationGetFrame(const Animation * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='175' u='c' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='176' u='c' c='UpdateActorState'/>
+<def f='codebrowser/src/cdogs/animation.c' l='102' ll='105' type='int AnimationGetFrame(const Animation * a)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='112' u='c' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='835' u='c' c='DrawCharacter'/>

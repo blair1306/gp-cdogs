@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='110' type='0'/>
+<use f='codebrowser/src/mainmenu.c' l='362' u='r' c='MenuCreateCampaigns'/>
+<use f='codebrowser/src/menu.c' l='81' u='r' c='MenuSystemInit'/>
+<use f='codebrowser/src/menu.c' l='691' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='752' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/prep.c' l='544' u='r' c='GameOptions'/>

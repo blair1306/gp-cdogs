@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='66' type='size_t'/>
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='71' type='size_t'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='158' u='r' c='LoadFrameOffsets'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='165' u='r' c='LoadFrameOffsets'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='66'>/*&lt; Number of key-value-pairs. */</doc>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='71'>/*&lt; Number of elements. */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='77' u='r' c='yajl_object_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='96' u='r' c='yajl_array_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='167' u='r' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='172' u='r' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='177' u='r' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='178' u='r' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='179' u='w' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='199' u='r' c='array_add_value'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='203' u='r' c='array_add_value'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='204' u='w' c='array_add_value'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='337' u='w' c='handle_start_map'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='362' u='w' c='handle_start_array'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='463' u='r' c='yajl_tree_get'/>

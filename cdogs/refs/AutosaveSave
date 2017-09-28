@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/autosave.h' l='60' type='void AutosaveSave(Autosave * autosave, const char * filename)'/>
+<def f='codebrowser/src/autosave.c' l='171' ll='208' type='void AutosaveSave(Autosave * autosave, const char * filename)'/>
+<use f='codebrowser/src/briefing_screens.c' l='423' u='c' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/cdogs.c' l='308' u='c' c='main'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='80' u='c' c='_cbehave_feature_save_and_load'/>

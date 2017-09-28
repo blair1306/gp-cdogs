@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='151' type='enet_uint32'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='151'>/**&lt; bitwise-or of ENetPacketFlag constants */</doc>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='45' u='w' c='enet_packet_create'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='64' u='r' c='enet_packet_destroy'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='81' u='r' c='enet_packet_resize'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='128' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='193' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='199' u='r' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='178' u='w' c='enet_protocol_remove_sent_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='256' u='w' c='enet_protocol_remove_sent_reliable_command'/>

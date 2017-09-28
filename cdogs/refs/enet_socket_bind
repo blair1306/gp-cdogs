@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='493' type='int enet_socket_bind(ENetSocket , const ENetAddress * )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='52' u='c' c='enet_host_create'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='252' ll='275' type='int enet_socket_bind(ENetSocket socket, const ENetAddress * address)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='131' u='c' c='ListenSocketTryOpen'/>

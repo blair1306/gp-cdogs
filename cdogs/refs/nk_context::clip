@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3690' type='struct nk_clipboard'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20678' u='r' c='nk_edit_buffer'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='207' u='m' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='208' u='m' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='209' u='m' c='nk_sdl_init'/>
+<offset>64000</offset>

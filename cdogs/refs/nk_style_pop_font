@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1757' type='int nk_style_pop_font(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16533' ll='16550' macro='1' type='int nk_style_pop_font(struct nk_context * ctx)'/>

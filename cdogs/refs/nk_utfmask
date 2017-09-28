@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='5901' macro='1' type='const nk_byte [5]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5922' u='r' c='nk_utf_decode_byte'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5922' u='r' c='nk_utf_decode_byte'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5923' u='r' c='nk_utf_decode_byte'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5924' u='r' c='nk_utf_decode_byte'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5961' u='r' c='nk_utf_encode_byte'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='110' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/weapon.h' l='110'>// Number of bullets in spread</doc>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='314' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='443' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='444' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='238' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='r' c='LoadGunDescription'/>

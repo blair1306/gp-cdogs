@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='74' type='void hashmap_clear(map_t in, void (*)(any_t) callback)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='70'>/*
+* Remove all elements, with a custom callback to each element, so that they
+* may be deallocated by the callback
+*/</doc>
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='371' ll='383' type='void hashmap_clear(map_t m, void (*)(any_t) callback)'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='266' u='c' c='SoundClear'/>

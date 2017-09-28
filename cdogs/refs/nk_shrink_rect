@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4065' ll='4076' macro='1' type='struct nk_rect nk_shrink_rect(struct nk_rect r, float amount)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13502' u='c' c='nk_draw_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13506' u='c' c='nk_draw_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13920' u='c' c='nk_draw_checkbox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13963' u='c' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17229' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19350' u='c' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21031' u='c' c='nk_chart_begin_colored'/>

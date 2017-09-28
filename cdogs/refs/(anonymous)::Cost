@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='100' type='int'/>
+<offset>352</offset>
+<doc f='codebrowser/src/cdogs/weapon.h' l='100'>// Cost in score to fire weapon</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='664' u='r' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='669' u='r' c='Shoot'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='224' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='287' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='287' u='r' c='LoadGunDescription'/>

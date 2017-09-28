@@ -1,0 +1,40 @@
+<dec f='codebrowser/src/json/json.c' l='46' type='14'/>
+<use f='codebrowser/src/json/json.c' l='1431' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1450' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1452' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1459' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1461' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1476' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1478' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1538' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1544' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1564' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1570' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1587' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1593' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1599' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1614' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1620' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1626' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1641' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1647' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1653' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1668' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1674' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1680' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1839' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1854' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1885' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1893' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1924' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1932' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1948' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='1975' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2007' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2023' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2042' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2058' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2086' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2126' u='r' c='lexer'/>
+<use f='codebrowser/src/json/json.c' l='2523' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2761' c='json_parse_fragment'/>

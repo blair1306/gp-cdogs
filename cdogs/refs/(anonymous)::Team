@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='86' type='CollisionTeam'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='404' u='r' c='CheckParams'/>

@@ -1,0 +1,5 @@
+<dec f='include/stdio.h' l='142'/>
+<dec f='include/fcntl.h' l='138'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='223' u='c'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='60' u='c'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5179' u='c'/>

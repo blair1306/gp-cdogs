@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='15850' ll='15895' macro='1' type='int nk_do_color_picker(nk_flags * state, struct nk_command_buffer * out, struct nk_color * color, enum nk_color_format fmt, struct nk_rect bounds, struct nk_vec2 padding, const struct nk_input * in, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20960' u='c' c='nk_color_pick'/>

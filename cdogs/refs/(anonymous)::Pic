@@ -1,0 +1,41 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='94' type='const NamedSprites *'/>
+<dec f='codebrowser/src/cdogs/ammo.h' l='38' type='const Pic *'/>
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='60' type='const Pic *'/>
+<dec f='codebrowser/src/cdogs/map_object.h' l='88' type='CPic'/>
+<offset>64</offset>
+<use f='codebrowser/src/briefing_screens.c' l='800' u='r' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='126' u='w' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='113' u='r' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='920' u='r' c='DrawKeycards'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='305' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='309' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='312' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='318' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='321' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='494' u='m' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='495' u='m' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='496' u='m' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='497' u='m' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='498' u='a' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='543' u='a' c='MapObjectGetPic'/>
+<use f='codebrowser/src/cdogs/objs.c' l='74' u='a' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/objs.c' l='461' u='r' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='98' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='300' u='r' c='GetPickupPic'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='301' u='r' c='GetPickupPic'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='259' u='a' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='272' u='w' c='PickupClassesLoadAmmo'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='272' u='r' c='PickupClassesLoadAmmo'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='289' u='w' c='PickupClassesLoadGuns'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='306' u='w' c='PickupClassesLoadKeys'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='181' u='w' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='525' u='r' c='GunGetMuzzleOffset'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='525' u='r' c='GunGetMuzzleOffset'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='560' u='r' c='GunHasMuzzle'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='838' u='r' c='DrawCharacter'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='470' u='r' c='MissionDrawKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1641' u='r' c='DrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='65' u='r' c='DrawKey'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='489' u='r' c='MissionDrawCollectObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='88' u='r' c='DrawPickupSpawner'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='137' u='r' c='DrawObjective'/>

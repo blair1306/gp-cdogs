@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/draw/draw.c' l='79' type='0'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='93' u='r' c='GetTileLOS'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='102' c='DrawWallColumn'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='163' c='DrawFloor'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='249' c='DrawWallsAndThings'/>

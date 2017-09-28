@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/files.h' l='213' type='const char * GetConfigFilePath(const char * name)'/>
+<use f='codebrowser/src/briefing_screens.c' l='423' u='c' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/cdogs.c' l='145' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='153' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='200' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='200' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='308' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/files.c' l='572' ll='584' type='const char * GetConfigFilePath(const char * name)'/>
+<use f='codebrowser/src/cdogs/files.c' l='626' u='c' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='85' u='c' c='PlayerTemplatesLoad'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='142' u='c' c='SavePlayerTemplates'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1314' u='c' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1319' u='c' c='main'/>
+<use f='codebrowser/src/hiscores.c' l='350' u='c' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='400' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/menu.c' l='1353' u='c' c='PostInputConfigApply'/>
+<use f='codebrowser/src/prep.c' l='676' u='c' c='GameOptionsUpdate'/>

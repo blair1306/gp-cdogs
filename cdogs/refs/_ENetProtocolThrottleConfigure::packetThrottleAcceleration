@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='131' type='enet_uint32'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='55' u='w' c='enet_peer_throttle_configure'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='791' u='r' c='enet_protocol_handle_throttle_configure'/>

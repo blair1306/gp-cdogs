@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='162' type='int32_t'/>
+<offset>96</offset>
+<use f='codebrowser/src/briefing_screens.c' l='542' u='r' c='GetButcherPenalty'/>
+<use f='codebrowser/src/briefing_screens.c' l='542' u='r' c='GetButcherPenalty'/>
+<use f='codebrowser/src/briefing_screens.c' l='544' u='r' c='GetButcherPenalty'/>
+<use f='codebrowser/src/briefing_screens.c' l='552' u='r' c='GetNinjaBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='560' u='r' c='GetFriendlyBonus'/>
+<use f='codebrowser/src/cdogs/damage.c' l='96' u='w' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/damage.c' l='97' u='w' c='TrackKills'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='70'/>

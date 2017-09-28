@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='111' type='int'/>
+<offset>32</offset>
+<doc f='codebrowser/src/cdogs/triggers.h' l='109'>// How many ticks has this condition been fulfilled
+	// Reset to 0 when condition failed</doc>
+<use f='codebrowser/src/cdogs/triggers.c' l='129' u='w' c='ActivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='226' u='w' c='ConditionsMet'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='228' u='r' c='ConditionsMet'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='232' u='w' c='ConditionsMet'/>

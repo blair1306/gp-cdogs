@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_render.h' l='94' type='1'/>
+<doc f='include/SDL2/SDL_render.h' l='94'>/**&lt; Changes frequently, lockable */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='292' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='309' u='r' c='GraphicsInitialize'/>

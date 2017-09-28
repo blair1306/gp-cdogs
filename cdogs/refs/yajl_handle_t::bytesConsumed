@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='50' type='size_t'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='72' u='w' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='164' u='r' c='yajl_get_bytes_consumed'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='47'>/* the number of bytes consumed from the last client buffer,
+     * in the case of an error this will be an error offset, in the
+     * case of an error this can be used as the error offset */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='68' u='r' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='192' u='a' c='yajl_do_parse'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4078' ll='4087' macro='1' type='struct nk_rect nk_pad_rect(struct nk_rect r, struct nk_vec2 pad)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14465' u='c' c='nk_do_progress'/>

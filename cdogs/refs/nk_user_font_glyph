@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2032' ll='2041'/>
+<size>36</size>
+<mbr r='nk_user_font_glyph::uv' o='0' t='struct nk_vec2 [2]'/>
+<mbr r='nk_user_font_glyph::offset' o='128' t='struct nk_vec2'/>
+<mbr r='nk_user_font_glyph::width' o='192' t='float'/>
+<mbr r='nk_user_font_glyph::height' o='224' t='float'/>
+<mbr r='nk_user_font_glyph::xadvance' o='256' t='float'/>

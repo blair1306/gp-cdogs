@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='67' type='void DrawPointTint(GraphicsDevice * device, Vec2i pos, HSV tint)'/>
+<def f='codebrowser/src/cdogs/draw/drawtools.c' l='187' ll='203' type='void DrawPointTint(GraphicsDevice * device, Vec2i pos, HSV tint)'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='297' u='c' c='DrawShadow'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='74' u='c' c='GrafxDrawBackground'/>

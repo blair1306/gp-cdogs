@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='76' type='uint32_t'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1345' u='r' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1345' u='r' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1346' u='r' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='203'/>
+<use f='codebrowser/src/game.c' l='94' u='w' c='PlayerSpecialCommands'/>

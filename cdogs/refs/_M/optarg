@@ -1,0 +1,62 @@
+<dec f='codebrowser/src/XGetopt.h' l='70'/>
+<use f='codebrowser/src/XGetopt.h' l='80' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='42' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='78' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='80' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='94' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='95' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='101' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='112' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='130' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='131' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='138' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='163' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='164' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='164' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='169' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='176' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='193' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='210' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='213' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='218' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='220' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='224' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='230' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='272' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='288' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='293' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='317' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='325' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='333' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='338' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='343' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='349' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='349' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='361' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='364' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='367' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='371' u='c'/>
+<use f='codebrowser/src/XGetopt.c' l='396' u='c'/>
+<doc f='codebrowser/src/XGetopt.h' l='61'>/*
+ * This bit of faffing about is because some systems don&apos;t like the same
+ * functions defined in more than one library, they get confused.  So what
+ * we do is to redefine the variables to the names in the interface but
+ * fool the linker.  This only makes a difference if you try to debug the
+ * getopt code.  Note that we don&apos;t have to do it with the structure name
+ * or enums, since it&apos;s only linkage that&apos;s affected.
+ */</doc>
+<use f='codebrowser/src/command_line.c' l='148' u='c'/>
+<use f='codebrowser/src/command_line.c' l='151' u='c'/>
+<use f='codebrowser/src/command_line.c' l='161' u='c'/>
+<use f='codebrowser/src/command_line.c' l='172' u='c'/>
+<use f='codebrowser/src/command_line.c' l='176' u='c'/>
+<use f='codebrowser/src/command_line.c' l='183' u='c'/>
+<use f='codebrowser/src/command_line.c' l='184' u='c'/>
+<use f='codebrowser/src/command_line.c' l='189' u='c'/>
+<use f='codebrowser/src/command_line.c' l='199' u='c'/>
+<use f='codebrowser/src/command_line.c' l='202' u='c'/>
+<use f='codebrowser/src/command_line.c' l='204' u='c'/>
+<use f='codebrowser/src/command_line.c' l='208' u='c'/>
+<use f='codebrowser/src/command_line.c' l='215' u='c'/>
+<use f='codebrowser/src/command_line.c' l='218' u='c'/>
+<use f='codebrowser/src/command_line.c' l='231' u='c'/>

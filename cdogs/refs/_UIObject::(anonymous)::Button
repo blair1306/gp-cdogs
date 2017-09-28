@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='90' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogsed/ui_object.h:86:3)'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogsed/ui_object.h' l='85'>// Button</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1005' u='m' c='ToggleCollapse'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1011' u='m' c='ToggleCollapse'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='304' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='312' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='320' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='328' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='336' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='344' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='352' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='360' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='367' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='377' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='387' u='m' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='82' u='m' c='UIButtonSetPic'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='85' u='m' c='UIButtonSetPic'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='436' u='m' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='436' u='m' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='438' u='m' c='UIObjectDrawAndAddChildren'/>

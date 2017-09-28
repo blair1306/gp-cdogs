@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3449' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17232' u='w' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18545' u='r' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19060' u='r' c='nk_layout_space_to_screen'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19077' u='r' c='nk_layout_space_to_local'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19094' u='r' c='nk_layout_space_rect_to_screen'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19111' u='r' c='nk_layout_space_rect_to_local'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19178' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19217' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19250' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19402' u='w' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19457' u='w' c='nk_tree_state_pop'/>
+<offset>320</offset>

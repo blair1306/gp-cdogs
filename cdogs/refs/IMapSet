@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/map.h' l='158' type='void IMapSet(Map * map, Vec2i pos, unsigned short v)'/>
+<use f='codebrowser/src/cdogs/door.c' l='141' u='c' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='143' u='c' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='145' u='c' c='MapAddDoorGroup'/>
+<def f='codebrowser/src/cdogs/map.c' l='232' ll='235' type='void IMapSet(Map * map, Vec2i pos, unsigned short v)'/>
+<use f='codebrowser/src/cdogs/map.c' l='389' u='c' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='60' u='c' c='MapSetTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='304' u='c' c='MapMakeRoom'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='309' u='c' c='MapMakeRoom'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='327' u='c' c='MapMakeRoom'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='357' u='c' c='MapTryBuildWall'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='459' u='c' c='MapGrowWall'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='491' u='c' c='MapPlaceDoors'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='561' u='c' c='TryPlaceDoorTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='886' u='c' c='MapMakeSquare'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='897' u='c' c='MapMakePillar'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='53' u='c' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='295' u='c' c='AddCorridor'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='300' u='c' c='AddCorridor'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='305' u='c' c='AddCorridor'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='307' u='c' c='AddCorridor'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='615' u='c' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='619' u='c' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='632' u='c' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='159' u='c' c='MapSetupPerimeter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='58' u='c' c='MapStaticLoad'/>

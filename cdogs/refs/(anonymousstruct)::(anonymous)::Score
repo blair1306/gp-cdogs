@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='54' type='int'/>
+<offset>0</offset>
+<dec f='codebrowser/src/cdogs/game_events.h' l='140' type='NScore'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='668' u='m' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='669' u='m' c='Shoot'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='149' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='150' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='153' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='153' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='163' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='164' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='370' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='373' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='377' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='128' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='129' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='129' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='234' u='w' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='235' u='a' c='TryLoadPickupclass'/>

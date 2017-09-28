@@ -1,0 +1,16 @@
+UIButtonSetPic|UIButtonSetPic
+UIObjectAddChar|UIObjectAddChar
+UIObjectAddChild|UIObjectAddChild
+UIObjectChange|UIObjectChange
+UIObjectCopy|UIObjectCopy
+UIObjectCreate|UIObjectCreate
+UIObjectDelChar|UIObjectDelChar
+UIObjectDestroy|UIObjectDestroy
+UIObjectDraw|UIObjectDraw
+UIObjectHighlight|UIObjectHighlight
+UIObjectIsHighlighted|UIObjectIsHighlighted
+UIObjectSetDynamicLabel|UIObjectSetDynamicLabel
+UIObjectUnhighlight|UIObjectUnhighlight
+UITooltipDraw|UITooltipDraw
+UITryGetObject|UITryGetObject
+UITryGetObjectImpl|UITryGetObjectImpl

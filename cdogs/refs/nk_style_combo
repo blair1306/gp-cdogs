@@ -1,0 +1,21 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3214' ll='3243'/>
+<size>352</size>
+<mbr r='nk_style_combo::normal' o='0' t='struct nk_style_item'/>
+<mbr r='nk_style_combo::hover' o='256' t='struct nk_style_item'/>
+<mbr r='nk_style_combo::active' o='512' t='struct nk_style_item'/>
+<mbr r='nk_style_combo::border_color' o='768' t='struct nk_color'/>
+<mbr r='nk_style_combo::label_normal' o='800' t='struct nk_color'/>
+<mbr r='nk_style_combo::label_hover' o='832' t='struct nk_color'/>
+<mbr r='nk_style_combo::label_active' o='864' t='struct nk_color'/>
+<mbr r='nk_style_combo::symbol_normal' o='896' t='struct nk_color'/>
+<mbr r='nk_style_combo::symbol_hover' o='928' t='struct nk_color'/>
+<mbr r='nk_style_combo::symbol_active' o='960' t='struct nk_color'/>
+<mbr r='nk_style_combo::button' o='1024' t='struct nk_style_button'/>
+<mbr r='nk_style_combo::sym_normal' o='2432' t='enum nk_symbol_type'/>
+<mbr r='nk_style_combo::sym_hover' o='2464' t='enum nk_symbol_type'/>
+<mbr r='nk_style_combo::sym_active' o='2496' t='enum nk_symbol_type'/>
+<mbr r='nk_style_combo::border' o='2528' t='float'/>
+<mbr r='nk_style_combo::rounding' o='2560' t='float'/>
+<mbr r='nk_style_combo::content_padding' o='2592' t='struct nk_vec2'/>
+<mbr r='nk_style_combo::button_padding' o='2656' t='struct nk_vec2'/>
+<mbr r='nk_style_combo::spacing' o='2720' t='struct nk_vec2'/>

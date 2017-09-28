@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/menu.h' l='151' type='int'/>
+<offset>832</offset>
+<use f='codebrowser/src/menu.c' l='338' u='w' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='655' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='657' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='710' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1186' u='w' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1187' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1187' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1187' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1187' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1190' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1192' u='w' c='MenuChangeIndex'/>
+<use f='codebrowser/src/weapon_menu.c' l='261' u='r' c='DisplayGunIcon'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='12729' ll='13038' macro='1' type='void nk_textedit_key(struct nk_text_edit * state, enum nk_keys key, int shift_mod, const struct nk_user_font * font, float row_height)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15007' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15008' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15017' u='c' c='nk_do_edit'/>

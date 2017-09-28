@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='281' type='NVec2i'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='224' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='398' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='290'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='290'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='291' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='291' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='290'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='290'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='291' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='291' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1473' type='int nk_button_label_styled(struct nk_context * , const struct nk_style_button * , const char * title)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20001' ll='20003' macro='1' type='int nk_button_label_styled(struct nk_context * ctx, const struct nk_style_button * style, const char * title)'/>

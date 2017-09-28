@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1780' type='struct nk_color nk_rgba_fv(const float * rgba)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5347' ll='5351' macro='1' type='struct nk_color nk_rgba_fv(const float * c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7585' u='c' c='nk_draw_vertex_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7631' u='c' c='nk_draw_vertex_color'/>

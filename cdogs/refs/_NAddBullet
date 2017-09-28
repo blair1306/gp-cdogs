@@ -1,0 +1,11 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='248' ll='259'/>
+<size>164</size>
+<mbr r='_NAddBullet::UID' o='0' t='uint32_t'/>
+<mbr r='_NAddBullet::BulletClass' o='32' t='char [128]'/>
+<mbr r='_NAddBullet::MuzzlePos' o='1056' t='NVec2i'/>
+<mbr r='_NAddBullet::MuzzleHeight' o='1120' t='int32_t'/>
+<mbr r='_NAddBullet::Angle' o='1152' t='float'/>
+<mbr r='_NAddBullet::Elevation' o='1184' t='int32_t'/>
+<mbr r='_NAddBullet::Flags' o='1216' t='uint32_t'/>
+<mbr r='_NAddBullet::PlayerUID' o='1248' t='int32_t'/>
+<mbr r='_NAddBullet::ActorUID' o='1280' t='int32_t'/>

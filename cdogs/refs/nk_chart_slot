@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3387' ll='3395'/>
+<size>40</size>
+<mbr r='nk_chart_slot::type' o='0' t='enum nk_chart_type'/>
+<mbr r='nk_chart_slot::color' o='32' t='struct nk_color'/>
+<mbr r='nk_chart_slot::highlight' o='64' t='struct nk_color'/>
+<mbr r='nk_chart_slot::min' o='96' t='float'/>
+<mbr r='nk_chart_slot::max' o='128' t='float'/>
+<mbr r='nk_chart_slot::range' o='160' t='float'/>
+<mbr r='nk_chart_slot::count' o='192' t='int'/>
+<mbr r='nk_chart_slot::last' o='224' t='struct nk_vec2'/>
+<mbr r='nk_chart_slot::index' o='288' t='int'/>

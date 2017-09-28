@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/map.h' l='108' type='int'/>
+<offset>1408</offset>
+<use f='codebrowser/src/cdogs/map.c' l='404' u='r' c='MapHasLockedRooms'/>
+<use f='codebrowser/src/cdogs/map.c' l='782' u='r' c='AddKeys'/>
+<use f='codebrowser/src/cdogs/map.c' l='786' u='r' c='AddKeys'/>
+<use f='codebrowser/src/cdogs/map.c' l='790' u='r' c='AddKeys'/>
+<use f='codebrowser/src/cdogs/map.c' l='794' u='r' c='AddKeys'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='299' u='a' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='300' u='r' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='302' u='w' c='MapBuildRoom'/>

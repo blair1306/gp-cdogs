@@ -1,0 +1,7 @@
+<def f='codebrowser/src/cdogs/AStar.c' l='39' ll='45'/>
+<size>40</size>
+<mbr r='__ASNeighborList::source' o='0' t='const ASPathNodeSource *'/>
+<mbr r='__ASNeighborList::capacity' o='64' t='size_t'/>
+<mbr r='__ASNeighborList::count' o='128' t='size_t'/>
+<mbr r='__ASNeighborList::costs' o='192' t='float *'/>
+<mbr r='__ASNeighborList::nodeKeys' o='256' t='void *'/>

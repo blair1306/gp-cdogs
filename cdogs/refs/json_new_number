@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/json/json.h' l='179' type='json_t * json_new_number(const char * text)'/>
+<use f='codebrowser/src/autosave.c' l='184' u='c' c='AutosaveSave'/>
+<doc f='codebrowser/src/json/json.h' l='174'>/**
+Creates a new JSON number and defines it&apos;s text. The user is responsible for the number string&apos;s correctness
+@param text the value&apos;s number
+@return a pointer to the newly created JSON string value
+**/</doc>
+<use f='codebrowser/src/cdogs/config_json.c' l='189' u='c' c='ConfigSaveJSON'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='45' u='c' c='AddIntPair'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='609' u='c' c='SaveIntArray'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='618' u='c' c='SaveVec2i'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='620' u='c' c='SaveVec2i'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='156' u='c' c='SavePlayerTemplates'/>
+<def f='codebrowser/src/json/json.c' l='296' ll='325' type='json_t * json_new_number(const char * text)'/>

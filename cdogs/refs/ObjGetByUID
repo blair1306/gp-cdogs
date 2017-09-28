@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='124' type='TObject * ObjGetByUID(const int uid)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='390' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='81' u='c' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='149' u='c' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='427' u='c' c='ObjAdd'/>
+<def f='codebrowser/src/cdogs/objs.c' l='531' ll='540' type='TObject * ObjGetByUID(const int uid)'/>

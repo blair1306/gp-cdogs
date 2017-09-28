@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='5784' ll='5831' macro='1' type='int nk_text_clamp(const struct nk_user_font * font, const char * text, int text_len, float space, int * glyphs, float * text_width, nk_rune * sep_list, int sep_count)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7282' u='c' c='nk_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13459' u='c' c='nk_widget_text_wrap'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13465' u='c' c='nk_widget_text_wrap'/>

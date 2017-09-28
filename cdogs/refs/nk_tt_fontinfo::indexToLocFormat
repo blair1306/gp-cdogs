@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9056' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9244' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9357' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9359' u='r' c='nk_tt__GetGlyfOffset'/>
+<offset>352</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='9056'>/* format needed to map from glyph index to glyph */</doc>

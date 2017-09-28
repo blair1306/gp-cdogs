@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1837' type='nk_hash nk_murmur_hash(const void * key, int len, nk_hash seed)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5105' ll='5161' macro='1' type='nk_hash nk_murmur_hash(const void * key, int len, nk_hash seed)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18024' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18332' u='c' c='nk_window_is_collapsed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18348' u='c' c='nk_window_is_closed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18364' u='c' c='nk_window_is_hidden'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18380' u='c' c='nk_window_is_active'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18392' u='c' c='nk_window_find'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18447' u='c' c='nk_window_collapse'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18474' u='c' c='nk_window_show'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18501' u='c' c='nk_window_set_focus'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19423' u='c' c='nk_tree_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19424' u='c' c='nk_tree_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20792' u='c' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20794' u='c' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21427' u='c' c='nk_group_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21472' u='c' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21548' u='c' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22800' u='c' c='nk_menu_begin'/>

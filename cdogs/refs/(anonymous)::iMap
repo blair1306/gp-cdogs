@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/map.h' l='100' type='CArray'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/map.h' l='99'>// internal data structure to help build the map</doc>
+<doc f='codebrowser/src/cdogs/map.h' l='100'>// of unsigned short</doc>
+<use f='codebrowser/src/cdogs/map.c' l='230' u='a' c='IMapGet'/>
+<use f='codebrowser/src/cdogs/map.c' l='234' u='a' c='IMapSet'/>
+<use f='codebrowser/src/cdogs/map.c' l='615' u='a' c='MapTerminate'/>
+<use f='codebrowser/src/cdogs/map.c' l='627' u='a' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='643' u='a' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='56' u='a' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='82' u='m' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='84' u='m' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='103' u='a' c='CaveRep'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='137' u='m' c='LinkDisconnectedAreas'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='139' u='m' c='LinkDisconnectedAreas'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='139' u='a' c='LinkDisconnectedAreas'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='327' u='a' c='FixCorridors'/>

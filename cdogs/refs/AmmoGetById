@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='58' type='Ammo * AmmoGetById(AmmoClasses * ammo, const int id)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='565' u='c' c='ActorAddAmmo'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1076' u='c' c='ActorAddAmmoPickup'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1185' u='c' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='187' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='615' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='770' u='c' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='44' u='c' c='StrAmmo'/>
+<def f='codebrowser/src/cdogs/ammo.c' l='150' ll='160' type='Ammo * AmmoGetById(AmmoClasses * ammo, const int id)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='292' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='306' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='175' u='c' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='227' u='c' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/objs.c' l='123' u='c' c='AddPickupAtObject'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='170' u='c' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='246' u='c' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='216' u='c' c='AmmoScale'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='235' u='c' c='AmmoPlace'/>

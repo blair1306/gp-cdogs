@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/menu.h' l='309' type='menu_t * MenuCreateReturn(const char * name, int returnCode)'/>
+<use f='codebrowser/src/briefing_screens.c' l='374' u='c' c='ScreenMissionSummary'/>
+<use f='codebrowser/src/briefing_screens.c' l='378' u='c' c='ScreenMissionSummary'/>
+<use f='codebrowser/src/briefing_screens.c' l='379' u='c' c='ScreenMissionSummary'/>
+<doc f='codebrowser/src/menu.h' l='306'>// Create a menu entry that exits the menu while setting a return code
+// The return code can be retrieved from the menu system via
+// ms.current-&gt;u.returnCode</doc>
+<use f='codebrowser/src/menu.c' l='417' u='c' c='MenuCreateConfigOptions'/>
+<def f='codebrowser/src/menu.c' l='561' ll='566' type='menu_t * MenuCreateReturn(const char * name, int returnCode)'/>
+<use f='codebrowser/src/password.c' l='373' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='388' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='395' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='397' u='c' c='MenuCreateStart'/>
+<use f='codebrowser/src/prep.c' l='196' u='c' c='NumPlayersSelection'/>
+<use f='codebrowser/src/prep.c' l='201' u='c' c='NumPlayersSelection'/>
+<use f='codebrowser/src/prep.c' l='610' u='c' c='GameOptions'/>
+<use f='codebrowser/src/screens_end.c' l='135' u='c' c='PlayerListLoop'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='49' type='5'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='47'>/** yajl_gen_double was passed an invalid floating point value
+         *  (infinity or NaN). */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='236' u='r' c='yajl_gen_double'/>

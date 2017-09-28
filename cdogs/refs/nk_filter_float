@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2430' type='int nk_filter_float(const struct nk_text_edit * , nk_rune unicode)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='14790' ll='14797' macro='1' type='int nk_filter_float(const struct nk_text_edit * box, nk_rune unicode)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15561' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15561' u='r' c='nk_do_property'/>

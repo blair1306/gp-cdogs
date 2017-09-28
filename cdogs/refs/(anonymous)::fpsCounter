@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='48' type='FPSCounter'/>
+<offset>2240</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='78' u='a' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='108' u='a' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='642' u='a' c='HUDDraw'/>

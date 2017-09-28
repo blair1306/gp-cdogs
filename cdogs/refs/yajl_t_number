@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='43' type='2'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='297' u='r' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='486' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='133' macro='1' u='r'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='141' macro='1' u='r'/>

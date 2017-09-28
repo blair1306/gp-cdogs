@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config.h' l='66' type='int StrSwitchMoveStyle(const char * s)'/>
+<def f='codebrowser/src/cdogs/config.c' l='94' ll='100' type='int StrSwitchMoveStyle(const char * s)'/>
+<use f='codebrowser/src/cdogs/config.c' l='591' u='r' c='ConfigDefault'/>

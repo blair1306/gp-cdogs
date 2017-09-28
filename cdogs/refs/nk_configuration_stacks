@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3633' ll='3641'/>
+<size>2744</size>
+<mbr r='nk_configuration_stacks::style_items' o='0' t='struct nk_config_stack_style_item'/>
+<mbr r='nk_configuration_stacks::floats' o='5184' t='struct nk_config_stack_float'/>
+<mbr r='nk_configuration_stacks::vectors' o='9344' t='struct nk_config_stack_vec2'/>
+<mbr r='nk_configuration_stacks::flags' o='11456' t='struct nk_config_stack_flags'/>
+<mbr r='nk_configuration_stacks::colors' o='15616' t='struct nk_config_stack_color'/>
+<mbr r='nk_configuration_stacks::fonts' o='19776' t='struct nk_config_stack_user_font'/>
+<mbr r='nk_configuration_stacks::button_behaviors' o='20864' t='struct nk_config_stack_button_behavior'/>

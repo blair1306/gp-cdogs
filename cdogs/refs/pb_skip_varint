@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='218' ll='227' macro='1' type='_Bool pb_skip_varint(pb_istream_t * stream)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='268' u='c' c='pb_skip_field'/>

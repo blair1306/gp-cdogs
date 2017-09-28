@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='59' type='1'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='64' c='PlacementFlagStr'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='77' u='r' c='StrPlacementFlag'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='582' u='r' c='MapObjectIsTileOKStrict'/>

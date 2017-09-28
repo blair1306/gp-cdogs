@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='57' type='void HUDNumPopupsInit(HUDNumPopups * popups, const struct MissionOptions * mission)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='80' u='c' c='HUDInit'/>
+<def f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='42' ll='50' type='void HUDNumPopupsInit(HUDNumPopups * popups, const struct MissionOptions * mission)'/>

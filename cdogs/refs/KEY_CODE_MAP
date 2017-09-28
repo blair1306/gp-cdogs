@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='64' type='6'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='47' c='KeycodeStr'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='215' c='KeyGet'/>
+<use f='codebrowser/src/mainmenu.c' l='607' u='r' c='MenuCreateKeys'/>
+<use f='codebrowser/src/menu.c' l='1094' u='r' c='KeyAvailable'/>
+<use f='codebrowser/src/menu.c' l='1134' u='r' c='MenuProcessChangeKey'/>

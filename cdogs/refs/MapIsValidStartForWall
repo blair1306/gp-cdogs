@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='63' type='int MapIsValidStartForWall(Map * map, int x, int y, unsigned short tileType, int pad)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='252' ll='271' type='int MapIsValidStartForWall(Map * map, int x, int y, unsigned short tileType, int pad)'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='355' u='c' c='MapTryBuildWall'/>

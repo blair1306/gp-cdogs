@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='94' type='void ObjectiveTerminate(Objective * o)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='190' u='c' c='MissionTerminate'/>
+<def f='codebrowser/src/cdogs/objective.c' l='159' ll='162' type='void ObjectiveTerminate(Objective * o)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character.h' l='74' type='void CharacterStoreAddSpecial(CharacterStore * store, int character)'/>
+<def f='codebrowser/src/cdogs/character.c' l='217' ll='220' type='void CharacterStoreAddSpecial(CharacterStore * store, int character)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='246' u='c' c='SetupBadguysForMission'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1205' u='c' c='InputInsert'/>

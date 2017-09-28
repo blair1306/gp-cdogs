@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config.h' l='103' type='int StrSplitscreenStyle(const char * str)'/>
+<def f='codebrowser/src/cdogs/config.c' l='166' ll='172' type='int StrSplitscreenStyle(const char * s)'/>
+<use f='codebrowser/src/cdogs/config.c' l='682' u='r' c='ConfigDefault'/>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2753' type='struct nk_keyboard'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12050' u='m' c='nk_input_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12057' u='m' c='nk_input_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12096' u='m' c='nk_input_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12097' u='m' c='nk_input_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12138' u='m' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12139' u='m' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12139' u='m' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12140' u='m' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12141' u='m' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12279' u='m' c='nk_input_is_key_pressed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12290' u='m' c='nk_input_is_key_released'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12301' u='m' c='nk_input_is_key_down'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14990' u='m' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15022' u='m' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15027' u='m' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15028' u='m' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15028' u='m' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15030' u='m' c='nk_do_edit'/>
+<offset>0</offset>

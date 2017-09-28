@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='600' type='size_t enet_protocol_command_size(enet_uint8 )'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='621' u='c' c='enet_peer_setup_outgoing_command'/>
+<def f='codebrowser/src/cdogs/enet/protocol.c' l='29' ll='33' type='size_t enet_protocol_command_size(enet_uint8 commandNumber)'/>

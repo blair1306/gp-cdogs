@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='231' type='_Bool'/>
+<offset>544</offset>
+<use f='codebrowser/src/briefing_screens.c' l='462' u='w' c='MissionSummaryUpdate'/>
+<use f='codebrowser/src/cdogs/mission.c' l='514' u='w' c='MissionDone'/>
+<use f='codebrowser/src/game.c' l='639' u='r' c='NextLoop'/>
+<use f='codebrowser/src/hiscores.c' l='106' u='r' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/prep.c' l='629' u='r' c='GameOptionsOnEnter'/>
+<use f='codebrowser/src/prep.c' l='652' u='r' c='GameOptionsUpdate'/>

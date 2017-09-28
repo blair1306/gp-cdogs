@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='159' type='_Bool'/>
+<offset>6592</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='407' u='r' c='ActorMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='509' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='509' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='583' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='869' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1134' u='r' c='ActorsTerminate'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1148' u='r' c='ActorsGetFreeIndex'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1219' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1280' u='r' c='ActorDestroy'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1280' u='r' c='ActorDestroy'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1288' u='w' c='ActorDestroy'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1344' u='r' c='ActorSwitchGun'/>
+<use f='codebrowser/src/cdogs/ai.c' l='326' u='r' c='AICommand'/>
+<use f='codebrowser/src/cdogs/ai.c' l='519' u='r' c='AICommandLast'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='684' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='92' u='r' c='AIGetClosestActor'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='193' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='201' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='208' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='222' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='238' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='248' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='275' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='303' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='356' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='517' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='530' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='596' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='315' u='r' c='ObjectiveActorsAlive'/>
+<use f='codebrowser/src/cdogs/mission.c' l='495' u='r' c='MoreRescuesNeeded'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='430' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='329' u='r' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='329' u='r' c='DoDamageCharacter'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/player.h' l='56' type='int'/>
+<offset>1376</offset>
+<use f='codebrowser/src/hiscores.c' l='110' u='r' c='HighScoresScreenUpdate'/>
+<use f='codebrowser/src/hiscores.c' l='191' u='w' c='EnterHighScore'/>
+<use f='codebrowser/src/hiscores.c' l='281' u='r' c='DisplayAllTimeHighScores'/>

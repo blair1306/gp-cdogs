@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3228' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22291' u='r' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22294' u='r' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22380' u='r' c='nk_combo_begin_symbol_text'/>
+<offset>928</offset>

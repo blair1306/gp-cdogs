@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='87' type='Mix_Chunk *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/door.c' l='201' u='w' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='325' u='w' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='206' u='r' c='ActionRun'/>

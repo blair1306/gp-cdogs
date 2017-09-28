@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_new.h' l='41' type='void MapNewLoadCampaignJSON(json_t * root, CampaignSetting * c)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='86' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='163' u='c' c='MapNewLoad'/>
+<def f='codebrowser/src/cdogs/map_new.c' l='176' ll='184' type='void MapNewLoadCampaignJSON(json_t * root, CampaignSetting * c)'/>

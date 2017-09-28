@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/damage.h' l='56' type='_Bool CanDamageCharacter(const int flags, const int playerUID, const int uid, const TActor * actor, const special_damage_e special)'/>
+<def f='codebrowser/src/cdogs/damage.c' l='65' ll='78' macro='1' type='_Bool CanDamageCharacter(const int flags, const int playerUID, const int uid, const TActor * actor, const special_damage_e special)'/>
+<use f='codebrowser/src/cdogs/objs.c' l='347' u='c' c='DoDamageCharacter'/>

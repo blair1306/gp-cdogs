@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>cpic.h source code [codebrowser/src/cdogs/cpic.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/cpic.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='cpic.h.html'>cpic.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#pragma once</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="../json/json.h.html">&lt;json/json.h&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="defs.h.html">"defs.h"</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="grafx.h.html">"grafx.h"</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="pic.h.html">"pic.h"</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="37">37</th><td>{</td></tr>
+<tr><th id="38">38</th><td>	<a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> <dfn class="decl" id="(anonymous)::pic" title='(anonymous struct)::pic' data-ref="(anonymous)::pic">pic</dfn>;</td></tr>
+<tr><th id="39">39</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::name" title='(anonymous struct)::name' data-ref="(anonymous)::name">name</dfn>;</td></tr>
+<tr><th id="40">40</th><td>} <dfn class="typedef" id="NamedPic" title='NamedPic' data-type='struct NamedPic' data-ref="NamedPic">NamedPic</dfn>;</td></tr>
+<tr><th id="41">41</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="42">42</th><td>{</td></tr>
+<tr><th id="43">43</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::pics" title='(anonymous struct)::pics' data-ref="(anonymous)::pics">pics</dfn>;	<i>// of Pic</i></td></tr>
+<tr><th id="44">44</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::name" title='(anonymous struct)::name' data-ref="(anonymous)::name">name</dfn>;</td></tr>
+<tr><th id="45">45</th><td>} <dfn class="typedef" id="NamedSprites" title='NamedSprites' data-type='struct NamedSprites' data-ref="NamedSprites">NamedSprites</dfn>;</td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="48">48</th><td>{</td></tr>
+<tr><th id="49">49</th><td>	<dfn class="enum" id="PICTYPE_NORMAL" title='PICTYPE_NORMAL' data-ref="PICTYPE_NORMAL">PICTYPE_NORMAL</dfn>,</td></tr>
+<tr><th id="50">50</th><td>	<dfn class="enum" id="PICTYPE_DIRECTIONAL" title='PICTYPE_DIRECTIONAL' data-ref="PICTYPE_DIRECTIONAL">PICTYPE_DIRECTIONAL</dfn>,</td></tr>
+<tr><th id="51">51</th><td>	<dfn class="enum" id="PICTYPE_ANIMATED" title='PICTYPE_ANIMATED' data-ref="PICTYPE_ANIMATED">PICTYPE_ANIMATED</dfn>,</td></tr>
+<tr><th id="52">52</th><td>	<dfn class="enum" id="PICTYPE_ANIMATED_RANDOM" title='PICTYPE_ANIMATED_RANDOM' data-ref="PICTYPE_ANIMATED_RANDOM">PICTYPE_ANIMATED_RANDOM</dfn></td></tr>
+<tr><th id="53">53</th><td>} <dfn class="typedef" id="PicType" title='PicType' data-type='enum PicType' data-ref="PicType">PicType</dfn>;</td></tr>
+<tr><th id="54">54</th><td><a class="typedef" href="#PicType" title='PicType' data-type='enum PicType' data-ref="PicType">PicType</a> <dfn class="decl" id="StrPicType" title='StrPicType' data-ref="StrPicType">StrPicType</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="2073s" title='s' data-type='const char *' data-ref="2073s">s</dfn>);</td></tr>
+<tr><th id="55">55</th><td><i>// Abstract drawable pic, can draw multiple types of pics</i></td></tr>
+<tr><th id="56">56</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="57">57</th><td>{</td></tr>
+<tr><th id="58">58</th><td>	<a class="typedef" href="#PicType" title='PicType' data-type='enum PicType' data-ref="PicType">PicType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="59">59</th><td>	<b>union</b></td></tr>
+<tr><th id="60">60</th><td>	{</td></tr>
+<tr><th id="61">61</th><td>		<em>const</em> <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="decl" id="(anonymousstruct)::(anonymous)::Pic" title='(anonymous struct)::(anonymous union)::Pic' data-ref="(anonymousstruct)::(anonymous)::Pic">Pic</dfn>;</td></tr>
+<tr><th id="62">62</th><td>		<em>const</em> <a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="decl" id="(anonymousstruct)::(anonymous)::Sprites" title='(anonymous struct)::(anonymous union)::Sprites' data-ref="(anonymousstruct)::(anonymous)::Sprites">Sprites</dfn>;	<i>// of Pic</i></td></tr>
+<tr><th id="63">63</th><td>		<b>struct</b></td></tr>
+<tr><th id="64">64</th><td>		{</td></tr>
+<tr><th id="65">65</th><td>			<em>const</em> <a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Sprites" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Sprites' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Sprites">Sprites</dfn>;	<i>// of Pic</i></td></tr>
+<tr><th id="66">66</th><td>			<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Count" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Count' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Count">Count</dfn>;</td></tr>
+<tr><th id="67">67</th><td>			<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Frame" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Frame' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Frame">Frame</dfn>;</td></tr>
+<tr><th id="68">68</th><td>			<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::TicksPerFrame" title='(anonymous struct)::(anonymous union)::(anonymous struct)::TicksPerFrame' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::TicksPerFrame">TicksPerFrame</dfn>;</td></tr>
+<tr><th id="69">69</th><td>		} <dfn class="decl" id="(anonymousstruct)::(anonymous)::Animated" title='(anonymous struct)::(anonymous union)::Animated' data-ref="(anonymousstruct)::(anonymous)::Animated">Animated</dfn>;</td></tr>
+<tr><th id="70">70</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="71">71</th><td>	<i>// Special draw options</i></td></tr>
+<tr><th id="72">72</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::UseMask" title='(anonymous struct)::UseMask' data-ref="(anonymous)::UseMask">UseMask</dfn>;</td></tr>
+<tr><th id="73">73</th><td>	<b>union</b></td></tr>
+<tr><th id="74">74</th><td>	{</td></tr>
+<tr><th id="75">75</th><td>		<a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Mask" title='(anonymous struct)::(anonymous union)::Mask' data-ref="(anonymousstruct)::(anonymous)::Mask">Mask</dfn>;</td></tr>
+<tr><th id="76">76</th><td>		<a class="typedef" href="color.h.html#HSV" title='HSV' data-type='struct HSV' data-ref="HSV">HSV</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Tint" title='(anonymous struct)::(anonymous union)::Tint' data-ref="(anonymousstruct)::(anonymous)::Tint">Tint</dfn>;</td></tr>
+<tr><th id="77">77</th><td>	} <dfn class="decl" id="(anonymous)::u1" title='(anonymous struct)::u1' data-ref="(anonymous)::u1">u1</dfn>;</td></tr>
+<tr><th id="78">78</th><td>} <dfn class="typedef" id="CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</dfn>;</td></tr>
+<tr><th id="79">79</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="80">80</th><td>{</td></tr>
+<tr><th id="81">81</th><td>	<a class="typedef" href="defs.h.html#direction_e" title='direction_e' data-type='enum direction_e' data-ref="direction_e">direction_e</a> <dfn class="decl" id="(anonymous)::Dir" title='(anonymous struct)::Dir' data-ref="(anonymous)::Dir">Dir</dfn>;</td></tr>
+<tr><th id="82">82</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Offset" title='(anonymous struct)::Offset' data-ref="(anonymous)::Offset">Offset</dfn>;</td></tr>
+<tr><th id="83">83</th><td>} <dfn class="typedef" id="CPicDrawContext" title='CPicDrawContext' data-type='struct CPicDrawContext' data-ref="CPicDrawContext">CPicDrawContext</dfn>;</td></tr>
+<tr><th id="84">84</th><td><b>typedef</b> <a class="typedef" href="#CPicDrawContext" title='CPicDrawContext' data-type='struct CPicDrawContext' data-ref="CPicDrawContext">CPicDrawContext</a> (*<dfn class="typedef" id="GetDrawContextFunc" title='GetDrawContextFunc' data-type='CPicDrawContext (*)(const int)' data-ref="GetDrawContextFunc">GetDrawContextFunc</dfn>)(<em>const</em> <em>int</em>);</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><em>void</em> <dfn class="decl" id="NamedPicFree" title='NamedPicFree' data-ref="NamedPicFree">NamedPicFree</dfn>(<a class="typedef" href="#NamedPic" title='NamedPic' data-type='struct NamedPic' data-ref="NamedPic">NamedPic</a> *<dfn class="local col4 decl" id="2074n" title='n' data-type='NamedPic *' data-ref="2074n">n</dfn>);</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><em>void</em> <dfn class="decl" id="NamedSpritesInit" title='NamedSpritesInit' data-ref="NamedSpritesInit">NamedSpritesInit</dfn>(<a class="typedef" href="#NamedSprites" title='NamedSprites' data-type='struct NamedSprites' data-ref="NamedSprites">NamedSprites</a> *<dfn class="local col5 decl" id="2075ns" title='ns' data-type='NamedSprites *' data-ref="2075ns">ns</dfn>, <em>const</em> <em>char</em> *<dfn class="local col6 decl" id="2076name" title='name' data-type='const char *' data-ref="2076name">name</dfn>);</td></tr>
+<tr><th id="89">89</th><td><em>void</em> <dfn class="decl" id="NamedSpritesFree" title='NamedSpritesFree' data-ref="NamedSpritesFree">NamedSpritesFree</dfn>(<a class="typedef" href="#NamedSprites" title='NamedSprites' data-type='struct NamedSprites' data-ref="NamedSprites">NamedSprites</a> *<dfn class="local col7 decl" id="2077ns" title='ns' data-type='NamedSprites *' data-ref="2077ns">ns</dfn>);</td></tr>
+<tr><th id="90">90</th><td></td></tr>
+<tr><th id="91">91</th><td><em>void</em> <dfn class="decl" id="CPicLoadJSON" title='CPicLoadJSON' data-ref="CPicLoadJSON">CPicLoadJSON</dfn>(<a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col8 decl" id="2078p" title='p' data-type='CPic *' data-ref="2078p">p</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col9 decl" id="2079node" title='node' data-type='json_t *' data-ref="2079node">node</dfn>);</td></tr>
+<tr><th id="92">92</th><td><em>void</em> <dfn class="decl" id="CPicLoadNormal" title='CPicLoadNormal' data-ref="CPicLoadNormal">CPicLoadNormal</dfn>(<a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col0 decl" id="2080p" title='p' data-type='CPic *' data-ref="2080p">p</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col1 decl" id="2081node" title='node' data-type='json_t *' data-ref="2081node">node</dfn>);</td></tr>
+<tr><th id="93">93</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="CPicIsLoaded" title='CPicIsLoaded' data-ref="CPicIsLoaded">CPicIsLoaded</dfn>(<em>const</em> <a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col2 decl" id="2082p" title='p' data-type='const CPic *' data-ref="2082p">p</dfn>);</td></tr>
+<tr><th id="94">94</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="CPicGetSize" title='CPicGetSize' data-ref="CPicGetSize">CPicGetSize</dfn>(<em>const</em> <a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col3 decl" id="2083p" title='p' data-type='const CPic *' data-ref="2083p">p</dfn>);</td></tr>
+<tr><th id="95">95</th><td><i>// Copy everything except frame</i></td></tr>
+<tr><th id="96">96</th><td><em>void</em> <dfn class="decl" id="CPicCopyPic" title='CPicCopyPic' data-ref="CPicCopyPic">CPicCopyPic</dfn>(<a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col4 decl" id="2084dest" title='dest' data-type='CPic *' data-ref="2084dest">dest</dfn>, <em>const</em> <a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col5 decl" id="2085src" title='src' data-type='const CPic *' data-ref="2085src">src</dfn>);</td></tr>
+<tr><th id="97">97</th><td><em>void</em> <dfn class="decl" id="CPicUpdate" title='CPicUpdate' data-ref="CPicUpdate">CPicUpdate</dfn>(<a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col6 decl" id="2086p" title='p' data-type='CPic *' data-ref="2086p">p</dfn>, <em>const</em> <em>int</em> <dfn class="local col7 decl" id="2087ticks" title='ticks' data-type='const int' data-ref="2087ticks">ticks</dfn>);</td></tr>
+<tr><th id="98">98</th><td><em>const</em> <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="decl" id="CPicGetPic" title='CPicGetPic' data-ref="CPicGetPic">CPicGetPic</dfn>(<em>const</em> <a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col8 decl" id="2088p" title='p' data-type='const CPic *' data-ref="2088p">p</dfn>, <em>const</em> <em>int</em> <dfn class="local col9 decl" id="2089idx" title='idx' data-type='const int' data-ref="2089idx">idx</dfn>);</td></tr>
+<tr><th id="99">99</th><td><em>void</em> <dfn class="decl" id="CPicDraw" title='CPicDraw' data-ref="CPicDraw">CPicDraw</dfn>(</td></tr>
+<tr><th id="100">100</th><td>	<a class="typedef" href="grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col0 decl" id="2090g" title='g' data-type='GraphicsDevice *' data-ref="2090g">g</dfn>, <em>const</em> <a class="typedef" href="#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> *<dfn class="local col1 decl" id="2091p" title='p' data-type='const CPic *' data-ref="2091p">p</dfn>,</td></tr>
+<tr><th id="101">101</th><td>	<em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col2 decl" id="2092pos" title='pos' data-type='const Vec2i' data-ref="2092pos">pos</dfn>, <em>const</em> <a class="typedef" href="#CPicDrawContext" title='CPicDrawContext' data-type='struct CPicDrawContext' data-ref="CPicDrawContext">CPicDrawContext</a> *<dfn class="local col3 decl" id="2093context" title='context' data-type='const CPicDrawContext *' data-ref="2093context">context</dfn>);</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

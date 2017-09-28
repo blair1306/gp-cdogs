@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/gamedata.h' l='83' type='_Bool CampaignLoad(CampaignOptions * co, CampaignEntry * entry)'/>
+<use f='codebrowser/src/cdogs.c' l='262' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/gamedata.c' l='85' ll='119' macro='1' type='_Bool CampaignLoad(CampaignOptions * co, CampaignEntry * entry)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='470' u='c' c='OnReceive'/>
+<use f='codebrowser/src/mainmenu.c' l='314' u='c' c='StartGameMode'/>

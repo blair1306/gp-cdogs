@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10704' ll='10709'/>
+<size>72</size>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='10699'>/* -------------------------------------------------------------
+ *
+ *                          FONT BAKING
+ *
+ * --------------------------------------------------------------*/</doc>
+<mbr r='nk_font_bake_data::info' o='0' t='struct nk_tt_fontinfo'/>
+<mbr r='nk_font_bake_data::rects' o='384' t='struct nk_rp_rect *'/>
+<mbr r='nk_font_bake_data::ranges' o='448' t='struct nk_tt_pack_range *'/>
+<mbr r='nk_font_bake_data::range_count' o='512' t='nk_rune'/>

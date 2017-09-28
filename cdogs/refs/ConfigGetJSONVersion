@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config_json.h' l='37' type='int ConfigGetJSONVersion(FILE * f)'/>
+<use f='codebrowser/src/cdogs/config.c' l='312' u='c' c='ConfigGetVersion'/>
+<def f='codebrowser/src/cdogs/config_json.c' l='258' ll='280' type='int ConfigGetJSONVersion(FILE * f)'/>
+<def f='codebrowser/src/tests/pic_test.c' l='22' ll='26' type='int ConfigGetJSONVersion(FILE * f)'/>

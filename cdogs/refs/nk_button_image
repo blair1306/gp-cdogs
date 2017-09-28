@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1467' type='int nk_button_image(struct nk_context * , struct nk_image img)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20105' ll='20111' macro='1' type='int nk_button_image(struct nk_context * ctx, struct nk_image img)'/>

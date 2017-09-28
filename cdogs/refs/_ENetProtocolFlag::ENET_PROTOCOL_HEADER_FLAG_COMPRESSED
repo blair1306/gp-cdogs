@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='48' type='16384'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='50' u='r'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1021' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1697' u='r' c='enet_protocol_send_outgoing_commands'/>

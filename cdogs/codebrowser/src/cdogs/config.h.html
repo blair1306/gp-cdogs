@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>config.h source code [codebrowser/src/cdogs/config.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/config.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='config.h.html'>config.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (c) 2013-2014, Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i></i></td></tr>
+<tr><th id="11">11</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i>*/</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../../../include/stdio.h.html">&lt;stdio.h&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><u>#define <dfn class="macro" id="_M/CONFIG_FILE" data-ref="_M/CONFIG_FILE">CONFIG_FILE</dfn> "options.cnf"</u></td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td>	<dfn class="enum" id="DIFFICULTY_VERYEASY" title='DIFFICULTY_VERYEASY' data-ref="DIFFICULTY_VERYEASY">DIFFICULTY_VERYEASY</dfn> = <var>1</var>,</td></tr>
+<tr><th id="41">41</th><td>	<dfn class="enum" id="DIFFICULTY_EASY" title='DIFFICULTY_EASY' data-ref="DIFFICULTY_EASY">DIFFICULTY_EASY</dfn>,</td></tr>
+<tr><th id="42">42</th><td>	<dfn class="enum" id="DIFFICULTY_NORMAL" title='DIFFICULTY_NORMAL' data-ref="DIFFICULTY_NORMAL">DIFFICULTY_NORMAL</dfn>,</td></tr>
+<tr><th id="43">43</th><td>	<dfn class="enum" id="DIFFICULTY_HARD" title='DIFFICULTY_HARD' data-ref="DIFFICULTY_HARD">DIFFICULTY_HARD</dfn>,</td></tr>
+<tr><th id="44">44</th><td>	<dfn class="enum" id="DIFFICULTY_VERYHARD" title='DIFFICULTY_VERYHARD' data-ref="DIFFICULTY_VERYHARD">DIFFICULTY_VERYHARD</dfn></td></tr>
+<tr><th id="45">45</th><td>} <dfn class="typedef" id="difficulty_e" title='difficulty_e' data-type='enum difficulty_e' data-ref="difficulty_e">difficulty_e</dfn>;</td></tr>
+<tr><th id="46">46</th><td></td></tr>
+<tr><th id="47">47</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="DifficultyStr" title='DifficultyStr' data-ref="DifficultyStr">DifficultyStr</dfn>(<em>int</em> <dfn class="local col8 decl" id="1958d" title='d' data-type='int' data-ref="1958d">d</dfn>);</td></tr>
+<tr><th id="48">48</th><td><em>int</em> <dfn class="decl" id="StrDifficulty" title='StrDifficulty' data-ref="StrDifficulty">StrDifficulty</dfn>(<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="1959str" title='str' data-type='const char *' data-ref="1959str">str</dfn>);</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="51">51</th><td>{</td></tr>
+<tr><th id="52">52</th><td>	<dfn class="enum" id="FIREMOVE_STOP" title='FIREMOVE_STOP' data-ref="FIREMOVE_STOP">FIREMOVE_STOP</dfn> = <var>0</var>,</td></tr>
+<tr><th id="53">53</th><td>	<dfn class="enum" id="FIREMOVE_NORMAL" title='FIREMOVE_NORMAL' data-ref="FIREMOVE_NORMAL">FIREMOVE_NORMAL</dfn>,</td></tr>
+<tr><th id="54">54</th><td>	<dfn class="enum" id="FIREMOVE_STRAFE" title='FIREMOVE_STRAFE' data-ref="FIREMOVE_STRAFE">FIREMOVE_STRAFE</dfn></td></tr>
+<tr><th id="55">55</th><td>} <dfn class="typedef" id="FireMoveStyle" title='FireMoveStyle' data-type='enum FireMoveStyle' data-ref="FireMoveStyle">FireMoveStyle</dfn>;</td></tr>
+<tr><th id="56">56</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="FireMoveStyleStr" title='FireMoveStyleStr' data-ref="FireMoveStyleStr">FireMoveStyleStr</dfn>(<em>int</em> <dfn class="local col0 decl" id="1960s" title='s' data-type='int' data-ref="1960s">s</dfn>);</td></tr>
+<tr><th id="57">57</th><td><em>int</em> <dfn class="decl" id="StrFireMoveStyle" title='StrFireMoveStyle' data-ref="StrFireMoveStyle">StrFireMoveStyle</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="1961s" title='s' data-type='const char *' data-ref="1961s">s</dfn>);</td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="60">60</th><td>{</td></tr>
+<tr><th id="61">61</th><td>	<dfn class="enum" id="SWITCHMOVE_SLIDE" title='SWITCHMOVE_SLIDE' data-ref="SWITCHMOVE_SLIDE">SWITCHMOVE_SLIDE</dfn> = <var>0</var>,</td></tr>
+<tr><th id="62">62</th><td>	<dfn class="enum" id="SWITCHMOVE_STRAFE" title='SWITCHMOVE_STRAFE' data-ref="SWITCHMOVE_STRAFE">SWITCHMOVE_STRAFE</dfn>,</td></tr>
+<tr><th id="63">63</th><td>	<dfn class="enum" id="SWITCHMOVE_NONE" title='SWITCHMOVE_NONE' data-ref="SWITCHMOVE_NONE">SWITCHMOVE_NONE</dfn></td></tr>
+<tr><th id="64">64</th><td>} <dfn class="typedef" id="SwitchMoveStyle" title='SwitchMoveStyle' data-type='enum SwitchMoveStyle' data-ref="SwitchMoveStyle">SwitchMoveStyle</dfn>;</td></tr>
+<tr><th id="65">65</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="SwitchMoveStyleStr" title='SwitchMoveStyleStr' data-ref="SwitchMoveStyleStr">SwitchMoveStyleStr</dfn>(<em>int</em> <dfn class="local col2 decl" id="1962s" title='s' data-type='int' data-ref="1962s">s</dfn>);</td></tr>
+<tr><th id="66">66</th><td><em>int</em> <dfn class="decl" id="StrSwitchMoveStyle" title='StrSwitchMoveStyle' data-ref="StrSwitchMoveStyle">StrSwitchMoveStyle</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="1963s" title='s' data-type='const char *' data-ref="1963s">s</dfn>);</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="69">69</th><td>{</td></tr>
+<tr><th id="70">70</th><td>	<dfn class="enum" id="SCALE_MODE_NN" title='SCALE_MODE_NN' data-ref="SCALE_MODE_NN">SCALE_MODE_NN</dfn>,</td></tr>
+<tr><th id="71">71</th><td>	<dfn class="enum" id="SCALE_MODE_BILINEAR" title='SCALE_MODE_BILINEAR' data-ref="SCALE_MODE_BILINEAR">SCALE_MODE_BILINEAR</dfn></td></tr>
+<tr><th id="72">72</th><td>} <dfn class="typedef" id="ScaleMode" title='ScaleMode' data-type='enum ScaleMode' data-ref="ScaleMode">ScaleMode</dfn>;</td></tr>
+<tr><th id="73">73</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="ScaleModeStr" title='ScaleModeStr' data-ref="ScaleModeStr">ScaleModeStr</dfn>(<em>int</em> <dfn class="local col4 decl" id="1964q" title='q' data-type='int' data-ref="1964q">q</dfn>);</td></tr>
+<tr><th id="74">74</th><td><em>int</em> <dfn class="decl" id="StrScaleMode" title='StrScaleMode' data-ref="StrScaleMode">StrScaleMode</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="1965str" title='str' data-type='const char *' data-ref="1965str">str</dfn>);</td></tr>
+<tr><th id="75">75</th><td></td></tr>
+<tr><th id="76">76</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="77">77</th><td>{</td></tr>
+<tr><th id="78">78</th><td>	<dfn class="enum" id="GORE_NONE" title='GORE_NONE' data-ref="GORE_NONE">GORE_NONE</dfn>,</td></tr>
+<tr><th id="79">79</th><td>	<dfn class="enum" id="GORE_LOW" title='GORE_LOW' data-ref="GORE_LOW">GORE_LOW</dfn>,</td></tr>
+<tr><th id="80">80</th><td>	<dfn class="enum" id="GORE_MEDIUM" title='GORE_MEDIUM' data-ref="GORE_MEDIUM">GORE_MEDIUM</dfn>,</td></tr>
+<tr><th id="81">81</th><td>	<dfn class="enum" id="GORE_HIGH" title='GORE_HIGH' data-ref="GORE_HIGH">GORE_HIGH</dfn></td></tr>
+<tr><th id="82">82</th><td>} <dfn class="typedef" id="GoreAmount" title='GoreAmount' data-type='enum GoreAmount' data-ref="GoreAmount">GoreAmount</dfn>;</td></tr>
+<tr><th id="83">83</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="GoreAmountStr" title='GoreAmountStr' data-ref="GoreAmountStr">GoreAmountStr</dfn>(<em>int</em> <dfn class="local col6 decl" id="1966g" title='g' data-type='int' data-ref="1966g">g</dfn>);</td></tr>
+<tr><th id="84">84</th><td><em>int</em> <dfn class="decl" id="StrGoreAmount" title='StrGoreAmount' data-ref="StrGoreAmount">StrGoreAmount</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="1967s" title='s' data-type='const char *' data-ref="1967s">s</dfn>);</td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="87">87</th><td>{</td></tr>
+<tr><th id="88">88</th><td>	<dfn class="enum" id="LASER_SIGHT_NONE" title='LASER_SIGHT_NONE' data-ref="LASER_SIGHT_NONE">LASER_SIGHT_NONE</dfn>,</td></tr>
+<tr><th id="89">89</th><td>	<dfn class="enum" id="LASER_SIGHT_PLAYERS" title='LASER_SIGHT_PLAYERS' data-ref="LASER_SIGHT_PLAYERS">LASER_SIGHT_PLAYERS</dfn>,</td></tr>
+<tr><th id="90">90</th><td>	<dfn class="enum" id="LASER_SIGHT_ALL" title='LASER_SIGHT_ALL' data-ref="LASER_SIGHT_ALL">LASER_SIGHT_ALL</dfn></td></tr>
+<tr><th id="91">91</th><td>} <dfn class="typedef" id="LaserSight" title='LaserSight' data-type='enum LaserSight' data-ref="LaserSight">LaserSight</dfn>;</td></tr>
+<tr><th id="92">92</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="LaserSightStr" title='LaserSightStr' data-ref="LaserSightStr">LaserSightStr</dfn>(<em>int</em> <dfn class="local col8 decl" id="1968l" title='l' data-type='int' data-ref="1968l">l</dfn>);</td></tr>
+<tr><th id="93">93</th><td><em>int</em> <dfn class="decl" id="StrLaserSight" title='StrLaserSight' data-ref="StrLaserSight">StrLaserSight</dfn>(<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="1969s" title='s' data-type='const char *' data-ref="1969s">s</dfn>);</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="96">96</th><td>{</td></tr>
+<tr><th id="97">97</th><td>	<dfn class="enum" id="SPLITSCREEN_NORMAL" title='SPLITSCREEN_NORMAL' data-ref="SPLITSCREEN_NORMAL">SPLITSCREEN_NORMAL</dfn>,</td></tr>
+<tr><th id="98">98</th><td>	<dfn class="enum" id="SPLITSCREEN_ALWAYS" title='SPLITSCREEN_ALWAYS' data-ref="SPLITSCREEN_ALWAYS">SPLITSCREEN_ALWAYS</dfn>,</td></tr>
+<tr><th id="99">99</th><td>	<dfn class="enum" id="SPLITSCREEN_NEVER" title='SPLITSCREEN_NEVER' data-ref="SPLITSCREEN_NEVER">SPLITSCREEN_NEVER</dfn></td></tr>
+<tr><th id="100">100</th><td>} <dfn class="typedef" id="SplitscreenStyle" title='SplitscreenStyle' data-type='enum SplitscreenStyle' data-ref="SplitscreenStyle">SplitscreenStyle</dfn>;</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="SplitscreenStyleStr" title='SplitscreenStyleStr' data-ref="SplitscreenStyleStr">SplitscreenStyleStr</dfn>(<em>int</em> <dfn class="local col0 decl" id="1970s" title='s' data-type='int' data-ref="1970s">s</dfn>);</td></tr>
+<tr><th id="103">103</th><td><em>int</em> <dfn class="decl" id="StrSplitscreenStyle" title='StrSplitscreenStyle' data-ref="StrSplitscreenStyle">StrSplitscreenStyle</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="1971str" title='str' data-type='const char *' data-ref="1971str">str</dfn>);</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="106">106</th><td>{</td></tr>
+<tr><th id="107">107</th><td>	<dfn class="enum" id="AICHATTER_NONE" title='AICHATTER_NONE' data-ref="AICHATTER_NONE">AICHATTER_NONE</dfn>,</td></tr>
+<tr><th id="108">108</th><td>	<dfn class="enum" id="AICHATTER_SELDOM" title='AICHATTER_SELDOM' data-ref="AICHATTER_SELDOM">AICHATTER_SELDOM</dfn>,</td></tr>
+<tr><th id="109">109</th><td>	<dfn class="enum" id="AICHATTER_OFTEN" title='AICHATTER_OFTEN' data-ref="AICHATTER_OFTEN">AICHATTER_OFTEN</dfn>,</td></tr>
+<tr><th id="110">110</th><td>	<dfn class="enum" id="AICHATTER_ALWAYS" title='AICHATTER_ALWAYS' data-ref="AICHATTER_ALWAYS">AICHATTER_ALWAYS</dfn></td></tr>
+<tr><th id="111">111</th><td>} <dfn class="typedef" id="AIChatterFrequency" title='AIChatterFrequency' data-type='enum AIChatterFrequency' data-ref="AIChatterFrequency">AIChatterFrequency</dfn>;</td></tr>
+<tr><th id="112">112</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="AIChatterStr" title='AIChatterStr' data-ref="AIChatterStr">AIChatterStr</dfn>(<em>int</em> <dfn class="local col2 decl" id="1972c" title='c' data-type='int' data-ref="1972c">c</dfn>);</td></tr>
+<tr><th id="113">113</th><td><em>int</em> <dfn class="decl" id="StrAIChatter" title='StrAIChatter' data-ref="StrAIChatter">StrAIChatter</dfn>(<em>const</em> <em>char</em> *<dfn class="local col3 decl" id="1973str" title='str' data-type='const char *' data-ref="1973str">str</dfn>);</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="116">116</th><td>{</td></tr>
+<tr><th id="117">117</th><td>	<dfn class="enum" id="QUICKPLAY_QUANTITY_ANY" title='QUICKPLAY_QUANTITY_ANY' data-ref="QUICKPLAY_QUANTITY_ANY">QUICKPLAY_QUANTITY_ANY</dfn>,</td></tr>
+<tr><th id="118">118</th><td>	<dfn class="enum" id="QUICKPLAY_QUANTITY_SMALL" title='QUICKPLAY_QUANTITY_SMALL' data-ref="QUICKPLAY_QUANTITY_SMALL">QUICKPLAY_QUANTITY_SMALL</dfn>,</td></tr>
+<tr><th id="119">119</th><td>	<dfn class="enum" id="QUICKPLAY_QUANTITY_MEDIUM" title='QUICKPLAY_QUANTITY_MEDIUM' data-ref="QUICKPLAY_QUANTITY_MEDIUM">QUICKPLAY_QUANTITY_MEDIUM</dfn>,</td></tr>
+<tr><th id="120">120</th><td>	<dfn class="enum" id="QUICKPLAY_QUANTITY_LARGE" title='QUICKPLAY_QUANTITY_LARGE' data-ref="QUICKPLAY_QUANTITY_LARGE">QUICKPLAY_QUANTITY_LARGE</dfn></td></tr>
+<tr><th id="121">121</th><td>} <dfn class="typedef" id="QuickPlayQuantity" title='QuickPlayQuantity' data-type='enum QuickPlayQuantity' data-ref="QuickPlayQuantity">QuickPlayQuantity</dfn>;</td></tr>
+<tr><th id="122">122</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="QuickPlayQuantityStr" title='QuickPlayQuantityStr' data-ref="QuickPlayQuantityStr">QuickPlayQuantityStr</dfn>(<em>int</em> <dfn class="local col4 decl" id="1974s" title='s' data-type='int' data-ref="1974s">s</dfn>);</td></tr>
+<tr><th id="123">123</th><td><em>int</em> <dfn class="decl" id="StrQuickPlayQuantity" title='StrQuickPlayQuantity' data-ref="StrQuickPlayQuantity">StrQuickPlayQuantity</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="1975str" title='str' data-type='const char *' data-ref="1975str">str</dfn>);</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="126">126</th><td>{</td></tr>
+<tr><th id="127">127</th><td>	<dfn class="enum" id="CONFIG_TYPE_STRING" title='CONFIG_TYPE_STRING' data-ref="CONFIG_TYPE_STRING">CONFIG_TYPE_STRING</dfn>,</td></tr>
+<tr><th id="128">128</th><td>	<dfn class="enum" id="CONFIG_TYPE_INT" title='CONFIG_TYPE_INT' data-ref="CONFIG_TYPE_INT">CONFIG_TYPE_INT</dfn>,</td></tr>
+<tr><th id="129">129</th><td>	<dfn class="enum" id="CONFIG_TYPE_FLOAT" title='CONFIG_TYPE_FLOAT' data-ref="CONFIG_TYPE_FLOAT">CONFIG_TYPE_FLOAT</dfn>,</td></tr>
+<tr><th id="130">130</th><td>	<dfn class="enum" id="CONFIG_TYPE_BOOL" title='CONFIG_TYPE_BOOL' data-ref="CONFIG_TYPE_BOOL">CONFIG_TYPE_BOOL</dfn>,</td></tr>
+<tr><th id="131">131</th><td>	<dfn class="enum" id="CONFIG_TYPE_ENUM" title='CONFIG_TYPE_ENUM' data-ref="CONFIG_TYPE_ENUM">CONFIG_TYPE_ENUM</dfn>,</td></tr>
+<tr><th id="132">132</th><td>	<dfn class="enum" id="CONFIG_TYPE_GROUP" title='CONFIG_TYPE_GROUP' data-ref="CONFIG_TYPE_GROUP">CONFIG_TYPE_GROUP</dfn></td></tr>
+<tr><th id="133">133</th><td>} <dfn class="typedef" id="ConfigType" title='ConfigType' data-type='enum ConfigType' data-ref="ConfigType">ConfigType</dfn>;</td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><i>// Generic config entry</i></td></tr>
+<tr><th id="136">136</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="137">137</th><td>{</td></tr>
+<tr><th id="138">138</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Name" title='(anonymous struct)::Name' data-ref="(anonymous)::Name">Name</dfn>;</td></tr>
+<tr><th id="139">139</th><td>	<a class="typedef" href="#ConfigType" title='ConfigType' data-type='enum ConfigType' data-ref="ConfigType">ConfigType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="140">140</th><td>	<b>union</b></td></tr>
+<tr><th id="141">141</th><td>	{</td></tr>
+<tr><th id="142">142</th><td><u>#define <dfn class="macro" id="_M/VALUES" data-ref="_M/VALUES">VALUES</dfn>(_name, _type) \</u></td></tr>
+<tr><th id="143">143</th><td><u>		struct \</u></td></tr>
+<tr><th id="144">144</th><td><u>		{ \</u></td></tr>
+<tr><th id="145">145</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Value" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Value' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Value">Value</dfn>; \</u></td></tr>
+<tr><th id="146">146</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Last" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Last' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Last">Last</dfn>; \</u></td></tr>
+<tr><th id="147">147</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Default" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Default' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Default">Default</dfn>; \</u></td></tr>
+<tr><th id="148">148</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Min" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Min' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Min">Min</dfn>; \</u></td></tr>
+<tr><th id="149">149</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Max" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Max' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Max">Max</dfn>; \</u></td></tr>
+<tr><th id="150">150</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Increment" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Increment' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Increment">Increment</dfn>; \</u></td></tr>
+<tr><th id="151">151</th><td><u>		} _name</u></td></tr>
+<tr><th id="152">152</th><td>		<a class="macro" href="#142" title="struct { char * Value; char * Last; char * Default; char * Min; char * Max; char * Increment; } String" data-ref="_M/VALUES">VALUES</a>(<dfn class="decl" id="(anonymousstruct)::(anonymous)::String" title='(anonymous struct)::(anonymous union)::String' data-ref="(anonymousstruct)::(anonymous)::String">String</dfn>, <em>char</em> *);</td></tr>
+<tr><th id="153">153</th><td>		<a class="macro" href="#142" title="struct { double Value; double Last; double Default; double Min; double Max; double Increment; } Float" data-ref="_M/VALUES">VALUES</a>(<dfn class="decl" id="(anonymousstruct)::(anonymous)::Float" title='(anonymous struct)::(anonymous union)::Float' data-ref="(anonymousstruct)::(anonymous)::Float">Float</dfn>, <em>double</em>);</td></tr>
+<tr><th id="154">154</th><td>		<a class="macro" href="#142" title="struct { _Bool Value; _Bool Last; _Bool Default; _Bool Min; _Bool Max; _Bool Increment; } Bool" data-ref="_M/VALUES">VALUES</a>(<dfn class="decl" id="(anonymousstruct)::(anonymous)::Bool" title='(anonymous struct)::(anonymous union)::Bool' data-ref="(anonymousstruct)::(anonymous)::Bool">Bool</dfn>, <span class="macro" title="_Bool" data-ref="_M/bool">bool</span>);</td></tr>
+<tr><th id="155">155</th><td><u>#undef <a class="macro" href="#142" data-ref="_M/VALUES">VALUES</a></u></td></tr>
+<tr><th id="156">156</th><td><u>#define <dfn class="macro" id="_M/FORMATTED_VALUES" data-ref="_M/FORMATTED_VALUES">FORMATTED_VALUES</dfn>(_name, _type, _toStrType) \</u></td></tr>
+<tr><th id="157">157</th><td><u>		struct \</u></td></tr>
+<tr><th id="158">158</th><td><u>		{ \</u></td></tr>
+<tr><th id="159">159</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Value" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Value' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Value">Value</dfn>; \</u></td></tr>
+<tr><th id="160">160</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Last" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Last' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Last">Last</dfn>; \</u></td></tr>
+<tr><th id="161">161</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Default" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Default' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Default">Default</dfn>; \</u></td></tr>
+<tr><th id="162">162</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Min" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Min' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Min">Min</dfn>; \</u></td></tr>
+<tr><th id="163">163</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Max" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Max' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Max">Max</dfn>; \</u></td></tr>
+<tr><th id="164">164</th><td><u>			_type <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::Increment" title='(anonymous struct)::(anonymous union)::(anonymous struct)::Increment' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::Increment">Increment</dfn>; \</u></td></tr>
+<tr><th id="165">165</th><td><u>			_type (*StrTo##_name)(const char *); \</u></td></tr>
+<tr><th id="166">166</th><td><u>			_toStrType *(*_name##ToStr)(_type); \</u></td></tr>
+<tr><th id="167">167</th><td><u>		} _name</u></td></tr>
+<tr><th id="168">168</th><td>		<a class="macro" href="#156" title="struct { int Value; int Last; int Default; int Min; int Max; int Increment; int (*StrToInt)(const char *); char *(*IntToStr)(int); } Int" data-ref="_M/FORMATTED_VALUES">FORMATTED_VALUES</a>(<dfn class="decl" id="(anonymousstruct)::(anonymous)::Int" title='(anonymous struct)::(anonymous union)::Int' data-ref="(anonymousstruct)::(anonymous)::Int">Int</dfn>, <em>int</em>, <em>char</em>);</td></tr>
+<tr><th id="169">169</th><td>		<a class="macro" href="#156" title="struct { int Value; int Last; int Default; int Min; int Max; int Increment; int (*StrToEnum)(const char *); const char *(*EnumToStr)(int); } Enum" data-ref="_M/FORMATTED_VALUES">FORMATTED_VALUES</a>(<dfn class="decl" id="(anonymousstruct)::(anonymous)::Enum" title='(anonymous struct)::(anonymous union)::Enum' data-ref="(anonymousstruct)::(anonymous)::Enum">Enum</dfn>, <em>int</em>, <em>const</em> <em>char</em>);</td></tr>
+<tr><th id="170">170</th><td><u>#undef <a class="macro" href="#156" data-ref="_M/FORMATTED_VALUES">FORMATTED_VALUES</a></u></td></tr>
+<tr><th id="171">171</th><td>		<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Group" title='(anonymous struct)::(anonymous union)::Group' data-ref="(anonymousstruct)::(anonymous)::Group">Group</dfn>;	<i>// of Config</i></td></tr>
+<tr><th id="172">172</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="173">173</th><td>} <dfn class="typedef" id="Config" title='Config' data-type='struct Config' data-ref="Config">Config</dfn>;</td></tr>
+<tr><th id="174">174</th><td></td></tr>
+<tr><th id="175">175</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="ConfigNewString" title='ConfigNewString' data-ref="ConfigNewString">ConfigNewString</dfn>(<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="1976name" title='name' data-type='const char *' data-ref="1976name">name</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="1977defaultValue" title='defaultValue' data-type='const char *' data-ref="1977defaultValue">defaultValue</dfn>);</td></tr>
+<tr><th id="176">176</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="ConfigNewInt" title='ConfigNewInt' data-ref="ConfigNewInt">ConfigNewInt</dfn>(</td></tr>
+<tr><th id="177">177</th><td>	<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="1978name" title='name' data-type='const char *' data-ref="1978name">name</dfn>, <em>const</em> <em>int</em> <dfn class="local col9 decl" id="1979defaultValue" title='defaultValue' data-type='const int' data-ref="1979defaultValue">defaultValue</dfn>,</td></tr>
+<tr><th id="178">178</th><td>	<em>const</em> <em>int</em> <dfn class="local col0 decl" id="1980minValue" title='minValue' data-type='const int' data-ref="1980minValue">minValue</dfn>, <em>const</em> <em>int</em> <dfn class="local col1 decl" id="1981maxValue" title='maxValue' data-type='const int' data-ref="1981maxValue">maxValue</dfn>, <em>const</em> <em>int</em> <dfn class="local col2 decl" id="1982increment" title='increment' data-type='const int' data-ref="1982increment">increment</dfn>,</td></tr>
+<tr><th id="179">179</th><td>	<em>int</em> (*<dfn class="local col3 decl" id="1983strToInt" title='strToInt' data-type='int (*)(const char *)' data-ref="1983strToInt">strToInt</dfn>)(<em>const</em> <em>char</em> *), <em>char</em> *(*<dfn class="local col4 decl" id="1984intToStr" title='intToStr' data-type='char *(*)(int)' data-ref="1984intToStr">intToStr</dfn>)(<em>int</em>));</td></tr>
+<tr><th id="180">180</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="ConfigNewFloat" title='ConfigNewFloat' data-ref="ConfigNewFloat">ConfigNewFloat</dfn>(</td></tr>
+<tr><th id="181">181</th><td>	<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="1985name" title='name' data-type='const char *' data-ref="1985name">name</dfn>, <em>const</em> <em>double</em> <dfn class="local col6 decl" id="1986defaultValue" title='defaultValue' data-type='const double' data-ref="1986defaultValue">defaultValue</dfn>,</td></tr>
+<tr><th id="182">182</th><td>	<em>const</em> <em>double</em> <dfn class="local col7 decl" id="1987minValue" title='minValue' data-type='const double' data-ref="1987minValue">minValue</dfn>, <em>const</em> <em>double</em> <dfn class="local col8 decl" id="1988maxValue" title='maxValue' data-type='const double' data-ref="1988maxValue">maxValue</dfn>, <em>const</em> <em>double</em> <dfn class="local col9 decl" id="1989increment" title='increment' data-type='const double' data-ref="1989increment">increment</dfn>);</td></tr>
+<tr><th id="183">183</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="ConfigNewBool" title='ConfigNewBool' data-ref="ConfigNewBool">ConfigNewBool</dfn>(<em>const</em> <em>char</em> *<dfn class="local col0 decl" id="1990name" title='name' data-type='const char *' data-ref="1990name">name</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col1 decl" id="1991defaultValue" title='defaultValue' data-type='const _Bool' data-ref="1991defaultValue">defaultValue</dfn>);</td></tr>
+<tr><th id="184">184</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="ConfigNewEnum" title='ConfigNewEnum' data-ref="ConfigNewEnum">ConfigNewEnum</dfn>(</td></tr>
+<tr><th id="185">185</th><td>	<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="1992name" title='name' data-type='const char *' data-ref="1992name">name</dfn>, <em>const</em> <em>int</em> <dfn class="local col3 decl" id="1993defaultValue" title='defaultValue' data-type='const int' data-ref="1993defaultValue">defaultValue</dfn>,</td></tr>
+<tr><th id="186">186</th><td>	<em>const</em> <em>int</em> <dfn class="local col4 decl" id="1994minValue" title='minValue' data-type='const int' data-ref="1994minValue">minValue</dfn>, <em>const</em> <em>int</em> <dfn class="local col5 decl" id="1995maxValue" title='maxValue' data-type='const int' data-ref="1995maxValue">maxValue</dfn>,</td></tr>
+<tr><th id="187">187</th><td>	<em>int</em> (*<dfn class="local col6 decl" id="1996strToEnum" title='strToEnum' data-type='int (*)(const char *)' data-ref="1996strToEnum">strToEnum</dfn>)(<em>const</em> <em>char</em> *), <em>const</em> <em>char</em> *(*<dfn class="local col7 decl" id="1997enumToStr" title='enumToStr' data-type='const char *(*)(int)' data-ref="1997enumToStr">enumToStr</dfn>)(<em>int</em>));</td></tr>
+<tr><th id="188">188</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="ConfigNewGroup" title='ConfigNewGroup' data-ref="ConfigNewGroup">ConfigNewGroup</dfn>(<em>const</em> <em>char</em> *<dfn class="local col8 decl" id="1998name" title='name' data-type='const char *' data-ref="1998name">name</dfn>);</td></tr>
+<tr><th id="189">189</th><td><em>void</em> <dfn class="decl" id="ConfigDestroy" title='ConfigDestroy' data-ref="ConfigDestroy">ConfigDestroy</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col9 decl" id="1999c" title='c' data-type='Config *' data-ref="1999c">c</dfn>);</td></tr>
+<tr><th id="190">190</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="ConfigChangedAndApply" title='ConfigChangedAndApply' data-ref="ConfigChangedAndApply">ConfigChangedAndApply</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col0 decl" id="2000c" title='c' data-type='Config *' data-ref="2000c">c</dfn>);</td></tr>
+<tr><th id="191">191</th><td></td></tr>
+<tr><th id="192">192</th><td><em>void</em> <dfn class="decl" id="ConfigGroupAdd" title='ConfigGroupAdd' data-ref="ConfigGroupAdd">ConfigGroupAdd</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col1 decl" id="2001group" title='group' data-type='Config *' data-ref="2001group">group</dfn>, <a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="local col2 decl" id="2002child" title='child' data-type='Config' data-ref="2002child">child</dfn>);</td></tr>
+<tr><th id="193">193</th><td></td></tr>
+<tr><th id="194">194</th><td><b>extern</b> <a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="gConfig" title='gConfig' data-ref="gConfig">gConfig</dfn>;</td></tr>
+<tr><th id="195">195</th><td></td></tr>
+<tr><th id="196">196</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> <dfn class="decl" id="ConfigDefault" title='ConfigDefault' data-ref="ConfigDefault">ConfigDefault</dfn>(<em>void</em>);</td></tr>
+<tr><th id="197">197</th><td></td></tr>
+<tr><th id="198">198</th><td><i>// Find all config entries that begin with a prefix</i></td></tr>
+<tr><th id="199">199</th><td><i>// Returns array of ConfigEntry *</i></td></tr>
+<tr><th id="200">200</th><td><a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="ConfigFind" title='ConfigFind' data-ref="ConfigFind">ConfigFind</dfn>(<em>const</em> <a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col3 decl" id="2003c" title='c' data-type='const Config *' data-ref="2003c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2004prefix" title='prefix' data-type='const char *' data-ref="2004prefix">prefix</dfn>);</td></tr>
+<tr><th id="201">201</th><td></td></tr>
+<tr><th id="202">202</th><td><i>// Get a child config</i></td></tr>
+<tr><th id="203">203</th><td><i>// Note: child configs can be searched using dot-separated notation</i></td></tr>
+<tr><th id="204">204</th><td><i>// e.g. Foo.Bar.Baz</i></td></tr>
+<tr><th id="205">205</th><td><a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="decl" id="ConfigGet" title='ConfigGet' data-ref="ConfigGet">ConfigGet</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col5 decl" id="2005c" title='c' data-type='Config *' data-ref="2005c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col6 decl" id="2006name" title='name' data-type='const char *' data-ref="2006name">name</dfn>);</td></tr>
+<tr><th id="206">206</th><td></td></tr>
+<tr><th id="207">207</th><td><i>// Check if this config, or any of its children, have changed</i></td></tr>
+<tr><th id="208">208</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="ConfigChanged" title='ConfigChanged' data-ref="ConfigChanged">ConfigChanged</dfn>(<em>const</em> <a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col7 decl" id="2007c" title='c' data-type='const Config *' data-ref="2007c">c</dfn>);</td></tr>
+<tr><th id="209">209</th><td><i>// Reset the changed value to the last value</i></td></tr>
+<tr><th id="210">210</th><td><em>void</em> <dfn class="decl" id="ConfigResetChanged" title='ConfigResetChanged' data-ref="ConfigResetChanged">ConfigResetChanged</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col8 decl" id="2008c" title='c' data-type='Config *' data-ref="2008c">c</dfn>);</td></tr>
+<tr><th id="211">211</th><td><i>// Set the last value to the current value</i></td></tr>
+<tr><th id="212">212</th><td><em>void</em> <dfn class="decl" id="ConfigSetChanged" title='ConfigSetChanged' data-ref="ConfigSetChanged">ConfigSetChanged</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col9 decl" id="2009c" title='c' data-type='Config *' data-ref="2009c">c</dfn>);</td></tr>
+<tr><th id="213">213</th><td><i>// Reset the config values to default</i></td></tr>
+<tr><th id="214">214</th><td><em>void</em> <dfn class="decl" id="ConfigResetDefault" title='ConfigResetDefault' data-ref="ConfigResetDefault">ConfigResetDefault</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col0 decl" id="2010c" title='c' data-type='Config *' data-ref="2010c">c</dfn>);</td></tr>
+<tr><th id="215">215</th><td></td></tr>
+<tr><th id="216">216</th><td><i>// Get the value of a config</i></td></tr>
+<tr><th id="217">217</th><td><i>// The type must be correct</i></td></tr>
+<tr><th id="218">218</th><td><i>// Note: child configs can be searched using dot-separated notation</i></td></tr>
+<tr><th id="219">219</th><td><i>// e.g. Foo.Bar.Baz</i></td></tr>
+<tr><th id="220">220</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="ConfigGetString" title='ConfigGetString' data-ref="ConfigGetString">ConfigGetString</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col1 decl" id="2011c" title='c' data-type='Config *' data-ref="2011c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="2012name" title='name' data-type='const char *' data-ref="2012name">name</dfn>);</td></tr>
+<tr><th id="221">221</th><td><em>int</em> <dfn class="decl" id="ConfigGetInt" title='ConfigGetInt' data-ref="ConfigGetInt">ConfigGetInt</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col3 decl" id="2013c" title='c' data-type='Config *' data-ref="2013c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2014name" title='name' data-type='const char *' data-ref="2014name">name</dfn>);</td></tr>
+<tr><th id="222">222</th><td><em>double</em> <dfn class="decl" id="ConfigGetFloat" title='ConfigGetFloat' data-ref="ConfigGetFloat">ConfigGetFloat</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col5 decl" id="2015c" title='c' data-type='Config *' data-ref="2015c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col6 decl" id="2016name" title='name' data-type='const char *' data-ref="2016name">name</dfn>);</td></tr>
+<tr><th id="223">223</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="ConfigGetBool" title='ConfigGetBool' data-ref="ConfigGetBool">ConfigGetBool</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col7 decl" id="2017c" title='c' data-type='Config *' data-ref="2017c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="2018name" title='name' data-type='const char *' data-ref="2018name">name</dfn>);</td></tr>
+<tr><th id="224">224</th><td><em>int</em> <dfn class="decl" id="ConfigGetEnum" title='ConfigGetEnum' data-ref="ConfigGetEnum">ConfigGetEnum</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col9 decl" id="2019c" title='c' data-type='Config *' data-ref="2019c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="2020name" title='name' data-type='const char *' data-ref="2020name">name</dfn>);</td></tr>
+<tr><th id="225">225</th><td><a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="decl" id="ConfigGetGroup" title='ConfigGetGroup' data-ref="ConfigGetGroup">ConfigGetGroup</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col1 decl" id="2021c" title='c' data-type='Config *' data-ref="2021c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="2022name" title='name' data-type='const char *' data-ref="2022name">name</dfn>);</td></tr>
+<tr><th id="226">226</th><td></td></tr>
+<tr><th id="227">227</th><td><i>// Set config value</i></td></tr>
+<tr><th id="228">228</th><td><i>// Min/max range is also checked and enforced</i></td></tr>
+<tr><th id="229">229</th><td><em>void</em> <dfn class="decl" id="ConfigSetInt" title='ConfigSetInt' data-ref="ConfigSetInt">ConfigSetInt</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col3 decl" id="2023c" title='c' data-type='Config *' data-ref="2023c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2024name" title='name' data-type='const char *' data-ref="2024name">name</dfn>, <em>const</em> <em>int</em> <dfn class="local col5 decl" id="2025value" title='value' data-type='const int' data-ref="2025value">value</dfn>);</td></tr>
+<tr><th id="230">230</th><td><em>void</em> <dfn class="decl" id="ConfigSetFloat" title='ConfigSetFloat' data-ref="ConfigSetFloat">ConfigSetFloat</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col6 decl" id="2026c" title='c' data-type='Config *' data-ref="2026c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="2027name" title='name' data-type='const char *' data-ref="2027name">name</dfn>, <em>const</em> <em>double</em> <dfn class="local col8 decl" id="2028value" title='value' data-type='const double' data-ref="2028value">value</dfn>);</td></tr>
+<tr><th id="231">231</th><td><i>// Try to set config value from a string; return success</i></td></tr>
+<tr><th id="232">232</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="ConfigTrySetFromString" title='ConfigTrySetFromString' data-ref="ConfigTrySetFromString">ConfigTrySetFromString</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col9 decl" id="2029c" title='c' data-type='Config *' data-ref="2029c">c</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="2030name" title='name' data-type='const char *' data-ref="2030name">name</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2031value" title='value' data-type='const char *' data-ref="2031value">value</dfn>);</td></tr>
+<tr><th id="233">233</th><td></td></tr>
+<tr><th id="234">234</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="ConfigApply" title='ConfigApply' data-ref="ConfigApply">ConfigApply</dfn>(<a class="typedef" href="#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col2 decl" id="2032config" title='config' data-type='Config *' data-ref="2032config">config</dfn>);</td></tr>
+<tr><th id="235">235</th><td><em>int</em> <dfn class="decl" id="ConfigGetVersion" title='ConfigGetVersion' data-ref="ConfigGetVersion">ConfigGetVersion</dfn>(<a class="typedef" href="../../../include/stdio.h.html#FILE" title='FILE' data-type='struct _IO_FILE' data-ref="FILE">FILE</a> *<dfn class="local col3 decl" id="2033f" title='f' data-type='FILE *' data-ref="2033f">f</dfn>);</td></tr>
+<tr><th id="236">236</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

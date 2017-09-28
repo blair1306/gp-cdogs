@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/events.h' l='78' type='void InputGetButtonNameColor(const input_device_e d, const int dIndex, const int cmd, char * buf, color_t * color)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1006' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/camera.c' l='410' u='c' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='415' u='c' c='CameraDrawMode'/>
+<def f='codebrowser/src/cdogs/events.c' l='392' ll='458' type='void InputGetButtonNameColor(const input_device_e d, const int dIndex, const int cmd, char * buf, color_t * color)'/>
+<use f='codebrowser/src/cdogs/events.c' l='468' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='469' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='470' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='471' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='802' u='c' c='DrawStateMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='822' u='c' c='DrawStateMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='830' u='c' c='DrawStateMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='834' u='c' c='DrawStateMessage'/>
+<use f='codebrowser/src/menu_utils.c' l='99' macro='1' u='c'/>
+<use f='codebrowser/src/menu_utils.c' l='101' macro='1' u='c'/>
+<use f='codebrowser/src/menu_utils.c' l='119' u='c' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='124' u='c' c='MenuDisplayPlayerControls'/>

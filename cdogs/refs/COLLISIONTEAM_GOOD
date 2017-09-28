@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='75' type='1'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='150' u='r' c='CalcCollisionTeam'/>

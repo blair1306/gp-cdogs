@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10411' ll='10473' macro='1' type='void nk_tt__h_prefilter(unsigned char * pixels, int w, int h, int stride_in_bytes, int kernel_width)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10640' u='c' c='nk_tt_PackFontRangesRenderIntoRects'/>

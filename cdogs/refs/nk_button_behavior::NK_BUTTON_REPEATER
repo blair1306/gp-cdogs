@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='466' type='1'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14636' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14642' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14725' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14731' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15746' u='r' c='nk_color_picker_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15753' u='r' c='nk_color_picker_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15760' u='r' c='nk_color_picker_behavior'/>

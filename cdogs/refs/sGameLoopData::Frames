@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/game_loop.h' l='61' type='int'/>
+<offset>512</offset>
+<doc f='codebrowser/src/game_loop.h' l='61'>// total frames looped</doc>
+<use f='codebrowser/src/game_loop.c' l='201' u='r' c='LoopRunnerRunInner'/>
+<use f='codebrowser/src/game_loop.c' l='246' u='w' c='LoopRunnerRunInner'/>

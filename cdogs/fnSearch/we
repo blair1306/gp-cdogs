@@ -1,0 +1,9 @@
+WeaponClassesClear|WeaponClassesClear
+WeaponCreate|WeaponCreate
+WeaponInitialize|WeaponInitialize
+WeaponIsLocked|WeaponIsLocked
+WeaponLoadJSON|WeaponLoadJSON
+WeaponSetState|WeaponSetState
+WeaponTerminate|WeaponTerminate
+WeaponUpdate|WeaponUpdate
+WeaponMenuCreate|WeaponMenuCreate

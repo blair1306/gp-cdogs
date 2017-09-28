@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2446' type='void nk_textedit_select_all(struct nk_text_edit * )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12757' u='c' c='nk_textedit_key'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='13350' ll='13356' macro='1' type='void nk_textedit_select_all(struct nk_text_edit * state)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14997' u='c' c='nk_do_edit'/>

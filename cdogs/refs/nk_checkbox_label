@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1493' type='int nk_checkbox_label(struct nk_context * , const char * , int * active)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20379' ll='20380' macro='1' type='int nk_checkbox_label(struct nk_context * ctx, const char * label, int * active)'/>

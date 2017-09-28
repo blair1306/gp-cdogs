@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='211' type='2'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='671' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='875' c='DrawMissionState'/>
+<use f='codebrowser/src/game.c' l='684' u='r' c='CheckMissionCompletion'/>
+<use f='codebrowser/src/game.c' l='689' u='r' c='CheckMissionCompletion'/>

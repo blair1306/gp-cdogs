@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='80' type='unsigned short'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='44' u='w' c='EditorBrushInit'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='226' u='r' c='EditorBrushPaintTilesAt'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='287' u='w' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='328' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='329' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='337' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='469' u='w' c='EditorBrushPaintBox'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='485' u='w' c='EditorBrushPaintBox'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='511' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='515' u='r' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='515' u='r' c='EditorBrushStopPainting'/>

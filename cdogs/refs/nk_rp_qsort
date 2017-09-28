@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8938' ll='8966' type='void nk_rp_qsort(struct nk_rp_rect * array, unsigned int len, int (*)(const void *, const void *) cmp)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8978' u='c' c='nk_rp_pack_rects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8991' u='c' c='nk_rp_pack_rects'/>

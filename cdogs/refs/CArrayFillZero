@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='51' type='void CArrayFillZero(CArray * a)'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='163' ll='166' type='void CArrayFillZero(CArray * a)'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='49' u='c' c='HUDNumPopupsInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='60' u='c' c='LOSReset'/>
+<use f='codebrowser/src/cdogs/los.c' l='61' u='c' c='LOSReset'/>
+<use f='codebrowser/src/cdogs/los.c' l='88' u='c' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='191' u='c' c='LOSCalcFrom'/>

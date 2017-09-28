@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui.h' l='58'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='336' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1062' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1347' u='c'/>

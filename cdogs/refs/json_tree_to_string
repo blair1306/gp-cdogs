@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/json/json.h' l='256' type='enum json_error json_tree_to_string(json_t * root, char ** text)'/>
+<use f='codebrowser/src/autosave.c' l='189' u='c' c='AutosaveSave'/>
+<doc f='codebrowser/src/json/json.h' l='250'>/**
+Produces a JSON markup text document from a document tree
+@param root The document&apos;s root node
+@param text a pointer to a char string that will hold the JSON document text.
+@return  a json_error code describing how the operation went
+**/</doc>
+<use f='codebrowser/src/cdogs/config_json.c' l='192' u='c' c='ConfigSaveJSON'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='211' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='165' u='c' c='SavePlayerTemplates'/>
+<def f='codebrowser/src/json/json.c' l='583' ll='809' type='enum json_error json_tree_to_string(json_t * root, char ** text)'/>
+<use f='codebrowser/src/tests/json_test.c' l='41' u='c' c='_cbehave_feature_json_format_string'/>

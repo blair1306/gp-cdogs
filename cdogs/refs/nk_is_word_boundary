@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='12591' ll='12601' macro='1' type='int nk_is_word_boundary(struct nk_text_edit * state, int idx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12607' u='c' c='nk_textedit_move_to_word_previous'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12621' u='c' c='nk_textedit_move_to_word_next'/>

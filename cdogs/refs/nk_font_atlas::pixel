@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2137' type='void *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11615' u='r' c='nk_font_atlas_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11616' u='r' c='nk_font_atlas_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11617' u='w' c='nk_font_atlas_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11882' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11883' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11884' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11888' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11890' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11899' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11900' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11901' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11938' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11947' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11948' u='r' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11949' u='w' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11980' u='r' c='nk_font_atlas_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11981' u='w' c='nk_font_atlas_end'/>
+<offset>0</offset>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1773' type='struct nk_color nk_rgb_hex(const char * rgb)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5234' ll='5245' macro='1' type='struct nk_color nk_rgb_hex(const char * rgb)'/>

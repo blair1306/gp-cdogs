@@ -1,0 +1,8 @@
+<def f='codebrowser/src/tests/cbehave/cbehave.h' l='232' ll='239'/>
+<size>176</size>
+<mbr r='cbehave_symbol_t::link' o='0' t='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/tests/./cbehave/cbehave.h:233:5)'/>
+<mbr r='cbehave_symbol_t::desc' o='128' t='char [128]'/>
+<mbr r='cbehave_symbol_t::obj_type' o='1152' t='int'/>
+<mbr r='cbehave_symbol_t::always_return_flag' o='1184' t='int'/>
+<mbr r='cbehave_symbol_t::value' o='1216' t='void *'/>
+<mbr r='cbehave_symbol_t::value_list' o='1280' t='cbehave_value_head_t'/>

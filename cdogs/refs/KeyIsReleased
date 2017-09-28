@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='89' type='_Bool KeyIsReleased(const keyboard_t * k, const int key)'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='182' ll='185' macro='1' type='_Bool KeyIsReleased(const keyboard_t * k, const int key)'/>

@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='149' type='CArray'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/tile.h' l='149'>// of Trigger *</doc>
+<dec f='codebrowser/src/cdogs/map.h' l='104' type='CArray'/>
+<offset>1088</offset>
+<doc f='codebrowser/src/cdogs/map.h' l='104'>// of Trigger *; owner</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='439' u='m' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/actors.c' l='439' u='a' c='CheckTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='331' u='a' c='TileAddTrigger'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='567' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='567' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='570' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/map.c' l='601' u='m' c='MapTerminate'/>
+<use f='codebrowser/src/cdogs/map.c' l='601' u='a' c='MapTerminate'/>
+<use f='codebrowser/src/cdogs/map.c' l='604' u='a' c='MapTerminate'/>
+<use f='codebrowser/src/cdogs/map.c' l='631' u='a' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='942' u='a' c='MapNewTrigger'/>
+<use f='codebrowser/src/cdogs/tile.c' l='67' u='a' c='TileInit'/>
+<use f='codebrowser/src/cdogs/tile.c' l='74' u='a' c='TileDestroy'/>
+<use f='codebrowser/src/game.c' l='601' u='a' c='RunGameUpdate'/>

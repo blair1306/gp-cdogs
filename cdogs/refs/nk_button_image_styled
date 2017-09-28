@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1475' type='int nk_button_image_styled(struct nk_context * , const struct nk_style_button * , struct nk_image img)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20078' ll='20103' macro='1' type='int nk_button_image_styled(struct nk_context * ctx, const struct nk_style_button * style, struct nk_image img)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20110' u='c' c='nk_button_image'/>

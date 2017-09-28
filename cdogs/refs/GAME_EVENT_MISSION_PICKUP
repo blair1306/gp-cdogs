@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='107' type='51'/>
+<doc f='codebrowser/src/cdogs/game_events.h' l='106'>// In pickup area</doc>
+<use f='codebrowser/src/cdogs/game_events.c' l='113' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='113' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='113' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='113' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='670' c='HandleGameEvent'/>
+<use f='codebrowser/src/game.c' l='681' u='r' c='CheckMissionCompletion'/>

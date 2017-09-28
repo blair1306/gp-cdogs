@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='521' type='int enet_address_set_host_ip(ENetAddress * address, const char * hostName)'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='108' ll='119' type='int enet_address_set_host_ip(ENetAddress * address, const char * name)'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='173' u='c' c='enet_address_set_host'/>

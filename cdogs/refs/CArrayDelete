@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='45' type='void CArrayDelete(CArray * a, int index)'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='94' ll='107' type='void CArrayDelete(CArray * a, int idx)'/>
+<use f='codebrowser/src/cdogs/character.c' l='205' u='c' c='CharacterStoreDeleteOther'/>
+<use f='codebrowser/src/cdogs/character.c' l='223' u='c' c='CharacterStoreDeleteBaddie'/>
+<use f='codebrowser/src/cdogs/character.c' l='227' u='c' c='CharacterStoreDeleteSpecial'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='205' u='c' c='JoyRemoved'/>
+<use f='codebrowser/src/cdogs/map.c' l='209' u='c' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='319' u='c' c='TryRemoveMapObjectAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='323' u='c' c='TryRemoveMapObjectAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='374' u='c' c='MissionStaticTryRemoveCharacterAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='378' u='c' c='MissionStaticTryRemoveCharacterAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='441' u='c' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='442' u='c' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='451' u='c' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='502' u='c' c='MissionStaticTryRemoveKeyAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='506' u='c' c='MissionStaticTryRemoveKeyAt'/>
+<use f='codebrowser/src/cdogs/player.c' l='121' u='c' c='PlayerRemove'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='286' u='c' c='DeleteObjective'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='292' u='c' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='299' u='c' c='DeleteSpecial'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='311' u='c' c='DeleteItem'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='663' u='c' c='DeleteCharacter'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='99' u='c' c='DeleteMission'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='71' u='c' c='MissionSelectWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='132' u='c' c='MissionChangeWeapon'/>
+<use f='codebrowser/src/game_loop.c' l='359' u='c' c='LoopRunnerPop'/>
+<use f='codebrowser/src/prep.c' l='699' u='c' c='GameOptionsUpdate'/>
+<use f='codebrowser/src/screens_end.c' l='297' u='c' c='PlayerListInput'/>
+<use f='codebrowser/src/tests/c_array_test.c' l='68' u='c' c='_cbehave_feature_CArrayDelete'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17818' ll='17835' macro='1' type='nk_uint * nk_add_value(struct nk_context * ctx, struct nk_window * win, nk_hash name, nk_uint value)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19427' u='c' c='nk_tree_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21430' u='c' c='nk_group_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21431' u='c' c='nk_group_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21475' u='c' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21476' u='c' c='nk_list_view_begin'/>

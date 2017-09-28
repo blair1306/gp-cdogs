@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='99' type='_Bool'/>
+<offset>1184</offset>
+<use f='codebrowser/src/cdogs/map_object.c' l='205' u='r' c='MapObjectGetFlags'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='367' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='502' u='w' c='SetupSpawner'/>

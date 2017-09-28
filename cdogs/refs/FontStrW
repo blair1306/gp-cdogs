@@ -1,0 +1,36 @@
+<dec f='codebrowser/src/cdogs/font.h' l='75' type='int FontStrW(const char * s)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='392' u='c' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/camera.c' l='406' u='c' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='448' u='c' c='DrawObjectiveName'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='457' u='c' c='DrawSpawnerName'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='401' u='c' c='DrawChatter'/>
+<def f='codebrowser/src/cdogs/font.c' l='139' ll='142' type='int FontStrW(const char * s)'/>
+<use f='codebrowser/src/cdogs/font.c' l='185' u='c' c='FontStrSize'/>
+<use f='codebrowser/src/cdogs/font.c' l='185' u='c' c='FontStrSize'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='896' u='c' c='DrawHUDMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='980' u='c' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='227' u='c' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='230' u='c' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='625' u='c' c='DrawStyleArea'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1076' u='c' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1085' u='c' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1094' u='c' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='130' u='c' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='111' u='c' c='ConfirmScreen'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='112' u='c' c='ConfirmScreen'/>
+<use f='codebrowser/src/hiscores.c' l='214' u='c' c='DisplayEntry'/>
+<use f='codebrowser/src/hiscores.c' l='216' u='c' c='DisplayEntry'/>
+<use f='codebrowser/src/hiscores.c' l='218' u='c' c='DisplayEntry'/>
+<use f='codebrowser/src/hiscores.c' l='220' u='c' c='DisplayEntry'/>
+<use f='codebrowser/src/menu.c' l='680' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='753' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu_utils.c' l='47' u='c' c='DisplayCharacterAndName'/>
+<use f='codebrowser/src/menu_utils.c' l='104' u='c' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='109' u='c' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='115' u='c' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='133' u='c' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/menu_utils.c' l='137' u='c' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/password.c' l='295' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/screens_end.c' l='271' u='c' c='PlayerListCustomDraw'/>
+<use f='codebrowser/src/screens_end.c' l='276' u='c' c='PlayerListCustomDraw'/>
+<use f='codebrowser/src/screens_end.c' l='398' u='c' c='VictoryDraw'/>

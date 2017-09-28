@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='757' type='void nk_input_unicode(struct nk_context * , nk_rune )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12155' ll='12163' macro='1' type='void nk_input_unicode(struct nk_context * ctx, nk_rune unicode)'/>

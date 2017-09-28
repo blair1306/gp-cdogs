@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/AStar.h' l='54' type='ASPath ASPathCreate(const ASPathNodeSource * nodeSource, void * context, void * startNode, void * goalNode)'/>
+<doc f='codebrowser/src/cdogs/AStar.h' l='50'>// if goalNode is NULL, it searches the entire graph and returns the cheapest deepest path
+// context is optional and is simply passed through to the callback functions
+// startNode and nodeSource is required
+// as a path is created, the relevant nodes are copied into the path</doc>
+<def f='codebrowser/src/cdogs/AStar.c' l='428' ll='523' type='ASPath ASPathCreate(const ASPathNodeSource * source, void * context, void * startNodeKey, void * goalNodeKey)'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='126' u='c' c='PathCacheCreate'/>

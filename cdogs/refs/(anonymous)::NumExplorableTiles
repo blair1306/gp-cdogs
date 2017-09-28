@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map.h' l='113' type='int'/>
+<offset>1568</offset>
+<use f='codebrowser/src/cdogs/map.c' l='692' u='w' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='699' u='w' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='888' u='r' c='MapGetExploredPercentage'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='86' u='r' c='PowerupSpawnerUpdate'/>

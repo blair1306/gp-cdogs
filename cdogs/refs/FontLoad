@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/font.h' l='70' type='void FontLoad(Font * f, const char * imgPath, const _Bool isProportional)'/>
+<def f='codebrowser/src/cdogs/font.c' l='53' ll='121' type='void FontLoad(Font * f, const char * imgPath, const _Bool isProportional)'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='63' u='c' c='FontLoadFromJSON'/>

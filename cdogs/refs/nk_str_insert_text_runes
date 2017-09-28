@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2318' type='int nk_str_insert_text_runes(struct nk_str * , int pos, const nk_rune * , int )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6545' ll='6560' macro='1' type='int nk_str_insert_text_runes(struct nk_str * str, int pos, const nk_rune * runes, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13209' u='c' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13260' u='c' c='nk_textedit_redo'/>

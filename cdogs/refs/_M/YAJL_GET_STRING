@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='168'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='134' u='c'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='166'>/** Given a yajl_val_string return a ptr to the bare string it contains,
+ *  or NULL if the value is not a string. */</doc>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='165' u='c'/>

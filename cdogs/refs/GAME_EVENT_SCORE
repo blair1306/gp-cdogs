@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='58' type='13'/>
+<use f='codebrowser/src/cdogs/actors.c' l='667' u='r' c='Shoot'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='69' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='69' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='69' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='69' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='145' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='162' u='r' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='369' u='r' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='127' u='r' c='PickupPickup'/>

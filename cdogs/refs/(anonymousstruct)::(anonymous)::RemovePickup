@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='165' type='NRemovePickup'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='387' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='388' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='390' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='220' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='221' u='m' c='PickupPickup'/>

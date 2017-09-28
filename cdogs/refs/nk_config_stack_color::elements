@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3613' type='struct nk_config_stack_color_element [32]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16560' u='r' c='nk_style_push_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16560' u='r' c='nk_style_push_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16561' u='r' c='nk_style_push_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16561' u='r' c='nk_style_push_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16563' u='a' c='nk_style_push_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16581' u='a' c='nk_style_pop_color'/>
+<offset>64</offset>

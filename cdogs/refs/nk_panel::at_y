@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3449' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17231' u='w' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17270' u='w' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17408' u='w' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17415' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17416' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17511' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18526' u='r' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18546' u='r' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18572' u='r' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18578' u='w' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18645' u='w' c='nk_panel_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18654' u='r' c='nk_panel_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19061' u='r' c='nk_layout_space_to_screen'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19078' u='r' c='nk_layout_space_to_local'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19095' u='r' c='nk_layout_space_rect_to_screen'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19112' u='r' c='nk_layout_space_rect_to_local'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19180' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19222' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19249' u='r' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19295' u='r' c='nk_layout_peek'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19298' u='w' c='nk_layout_peek'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19302' u='w' c='nk_layout_peek'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21514' u='w' c='nk_list_view_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22026' u='r' c='nk_contextual_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22029' u='r' c='nk_contextual_end'/>
+<offset>352</offset>

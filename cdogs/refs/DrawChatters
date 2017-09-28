@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='83' type='void DrawChatters(DrawBuffer * b, const Vec2i offset)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='136' u='c' c='DrawBufferDraw'/>
+<def f='codebrowser/src/cdogs/draw/draw_actor.c' l='367' ll='385' type='void DrawChatters(DrawBuffer * b, const Vec2i offset)'/>

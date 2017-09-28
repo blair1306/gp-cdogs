@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='12334' type='void nk_textedit_makeundo_replace(struct nk_text_edit * , int , int , int )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12704' u='c' c='nk_textedit_text'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='13286' ll='13296' macro='1' type='void nk_textedit_makeundo_replace(struct nk_text_edit * state, int where, int old_length, int new_length)'/>

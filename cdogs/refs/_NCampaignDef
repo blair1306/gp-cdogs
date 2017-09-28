@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='88' ll='93'/>
+<size>4104</size>
+<mbr r='_NCampaignDef::Path' o='0' t='char [4096]'/>
+<mbr r='_NCampaignDef::GameMode' o='32768' t='int32_t'/>
+<mbr r='_NCampaignDef::Mission' o='32800' t='uint32_t'/>

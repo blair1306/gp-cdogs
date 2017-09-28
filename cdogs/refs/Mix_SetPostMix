@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_mixer.h' l='203' type='void Mix_SetPostMix(void (*)(void *, Uint8 *, int) mix_func, void * arg)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='199'>/* Set a function that is called after all mixing is performed.
+   This can be used to provide real-time visual display of the audio stream
+   or add a custom mixer filter for the stream data.
+*/</doc>

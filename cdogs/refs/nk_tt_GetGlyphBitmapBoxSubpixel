@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9668' ll='9687' macro='1' type='void nk_tt_GetGlyphBitmapBoxSubpixel(const struct nk_tt_fontinfo * font, int glyph, float scale_x, float scale_y, float shift_x, float shift_y, int * ix0, int * iy0, int * ix1, int * iy1)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9693' u='c' c='nk_tt_GetGlyphBitmapBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10344' u='c' c='nk_tt_MakeGlyphBitmapSubpixel'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10574' u='c' c='nk_tt_PackFontRangesGatherRects'/>

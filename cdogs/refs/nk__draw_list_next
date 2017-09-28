@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2883' type='const struct nk_draw_command * nk__draw_list_next(const struct nk_draw_command * , const struct nk_buffer * , const struct nk_draw_list * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7379' ll='7392' macro='1' type='const struct nk_draw_command * nk__draw_list_next(const struct nk_draw_command * cmd, const struct nk_buffer * buffer, const struct nk_draw_list * canvas)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8611' u='c' c='nk__draw_next'/>

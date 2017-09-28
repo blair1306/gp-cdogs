@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='126' type='MapObject * RandomBloodMapObject(const MapObjects * mo)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1039' u='c' c='ActorDie'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='196' ll='201' type='MapObject * RandomBloodMapObject(const MapObjects * mo)'/>

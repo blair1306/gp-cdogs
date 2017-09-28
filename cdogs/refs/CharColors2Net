@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='62' type='NCharColors CharColors2Net(const CharColors c)'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='68' u='c' c='NMakePlayerData'/>
+<def f='codebrowser/src/cdogs/net_util.c' l='130' ll='139' type='NCharColors CharColors2Net(const CharColors c)'/>
+<use f='codebrowser/src/cdogs/player.c' l='141' u='c' c='PlayerDataDefault'/>
+<def f='codebrowser/src/tests/player_test.c' l='31' ll='36' type='NCharColors CharColors2Net(const CharColors c)'/>

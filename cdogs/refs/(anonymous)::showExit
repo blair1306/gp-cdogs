@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='52' type='_Bool'/>
+<offset>3584</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='659' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='85' u='w' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='412' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='478' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='728' u='r' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/game.c' l='741' u='r' c='RunGameDraw'/>

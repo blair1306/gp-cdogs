@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='17917' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17945' u='r' c='nk_insert_window'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18035' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18130' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18505' u='r' c='nk_window_set_focus'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='17917'>/* inserts window into the back of list (front of screen) */</doc>

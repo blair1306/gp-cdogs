@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3290' type='enum nk_style_header_align'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16413' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17301' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17321' u='r' c='nk_panel_begin'/>
+<offset>3776</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3289'>/* properties */</doc>

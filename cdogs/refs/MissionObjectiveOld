@@ -1,0 +1,8 @@
+<def f='codebrowser/src/cdogs/files.h' l='125' ll='133'/>
+<size>80</size>
+<mbr r='MissionObjectiveOld::description' o='0' t='char [60]'/>
+<mbr r='MissionObjectiveOld::type' o='480' t='int32_t'/>
+<mbr r='MissionObjectiveOld::index' o='512' t='int32_t'/>
+<mbr r='MissionObjectiveOld::count' o='544' t='int32_t'/>
+<mbr r='MissionObjectiveOld::required' o='576' t='int32_t'/>
+<mbr r='MissionObjectiveOld::flags' o='608' t='int32_t'/>

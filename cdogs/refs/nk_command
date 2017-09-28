@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2524' ll='2530'/>
+<size>16</size>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2523'>/* command base and header of every command inside the buffer */</doc>
+<mbr r='nk_command::type' o='0' t='enum nk_command_type'/>
+<mbr r='nk_command::next' o='64' t='nk_size'/>

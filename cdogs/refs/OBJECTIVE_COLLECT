@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='60' type='1'/>
+<use f='codebrowser/src/briefing_screens.c' l='798' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/files.c' l='347' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/map.c' l='748' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='752' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='583' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='178' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/objective.c' l='60' c='ObjectiveTypeStr'/>
+<use f='codebrowser/src/cdogs/objective.c' l='71' u='r' c='StrObjectiveType'/>
+<use f='codebrowser/src/cdogs/objective.c' l='85' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/cdogs/objective.c' l='111' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='127' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='133' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='202' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='575' u='r' c='MissionCheckObjectiveIsCollect'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='135' c='DrawObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='432' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='493' c='CreateAddObjectiveSubObjs'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map_archive.h' l='37' type='int MapArchiveSave(const char * filename, CampaignSetting * c)'/>
+<def f='codebrowser/src/cdogs/map_archive.c' l='262' ll='316' type='int MapArchiveSave(const char * filename, CampaignSetting * c)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='385' u='c' c='Autosave'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='639' u='c' c='Save'/>

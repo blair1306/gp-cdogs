@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='203' type='9'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='503' u='r' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='534' u='r' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='80' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='157' u='r' c='enet_protocol_notify_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='800' u='r' c='enet_protocol_handle_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='806' u='r' c='enet_protocol_handle_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='818' u='r' c='enet_protocol_handle_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='834' u='r' c='enet_protocol_handle_acknowledge'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='934' u='r' c='enet_protocol_handle_verify_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1012' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1173' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1299' u='r' c='enet_protocol_send_acknowledgements'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1608' u='r' c='enet_protocol_send_outgoing_commands'/>

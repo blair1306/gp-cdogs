@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/hiscores.h' l='62' type='GameLoopData * DisplayTodaysHighScores(GraphicsDevice * graphics)'/>
+<use f='codebrowser/src/hiscores.c' l='131' u='c' c='HighScoresScreenUpdate'/>
+<def f='codebrowser/src/hiscores.c' l='290' ll='312' type='GameLoopData * DisplayTodaysHighScores(GraphicsDevice * graphics)'/>

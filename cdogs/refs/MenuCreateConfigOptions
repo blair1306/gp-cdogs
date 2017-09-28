@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu.h' l='282' type='menu_t * MenuCreateConfigOptions(const char * name, const char * title, const Config * c, MenuSystem * ms, const _Bool backOrReturn)'/>
+<doc f='codebrowser/src/menu.h' l='281'>// Make an options menu using a group of configs</doc>
+<use f='codebrowser/src/mainmenu.c' l='517' u='c' c='MenuCreateOptions'/>
+<use f='codebrowser/src/mainmenu.c' l='520' u='c' c='MenuCreateOptions'/>
+<use f='codebrowser/src/mainmenu.c' l='526' u='c' c='MenuCreateOptions'/>
+<use f='codebrowser/src/mainmenu.c' l='529' u='c' c='MenuCreateOptions'/>
+<def f='codebrowser/src/menu.c' l='400' ll='421' type='menu_t * MenuCreateConfigOptions(const char * name, const char * title, const Config * c, MenuSystem * ms, const _Bool backOrReturn)'/>

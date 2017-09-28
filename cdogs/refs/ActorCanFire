@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='201' type='_Bool ActorCanFire(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='233' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='636' u='c' c='Shoot'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1329' ll='1336' macro='1' type='_Bool ActorCanFire(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='247' u='c' c='WillFire'/>

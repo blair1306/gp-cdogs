@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3625' macro='1'/>
+<size>648</size>
+<mbr r='nk_config_stack_style_item::head' o='0' t='int'/>
+<mbr r='nk_config_stack_style_item::elements' o='64' t='struct nk_config_stack_style_item_element [16]'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/prep.h' l='69' type='GameLoopData * GameOptions(const GameMode gm)'/>
+<doc f='codebrowser/src/prep.h' l='68'>// Choose game-mode-specific options</doc>
+<use f='codebrowser/src/password.c' l='435' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/password.c' l='438' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/password.c' l='447' u='c' c='PasswordUpdate'/>
+<use f='codebrowser/src/prep.c' l='454' u='c' c='PlayerSelectionUpdate'/>
+<def f='codebrowser/src/prep.c' l='527' ll='616' type='GameLoopData * GameOptions(const GameMode gm)'/>

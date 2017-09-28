@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_mixer.h' l='582' type='void Mix_PauseMusic()'/>
+<doc f='include/SDL2/SDL_mixer.h' l='581'>/* Pause/Resume the music stream */</doc>
+<use f='codebrowser/src/cdogs/music.c' l='140' u='c' c='MusicPause'/>

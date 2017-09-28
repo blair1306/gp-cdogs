@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='8633' ll='8642'/>
+<size>16</size>
+<mbr r='nk_rp_rect::id' o='0' t='int'/>
+<mbr r='nk_rp_rect::w' o='32' t='nk_rp_coord'/>
+<mbr r='nk_rp_rect::h' o='48' t='nk_rp_coord'/>
+<mbr r='nk_rp_rect::x' o='64' t='nk_rp_coord'/>
+<mbr r='nk_rp_rect::y' o='80' t='nk_rp_coord'/>
+<mbr r='nk_rp_rect::was_packed' o='96' t='int'/>

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_bytestack.h source code [codebrowser/src/cdogs/yajl/yajl_bytestack.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="yajl_bytestack_t "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl_bytestack.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl_bytestack.h.html'>yajl_bytestack.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i>/*</i></td></tr>
+<tr><th id="18">18</th><td><i> * A header only implementation of a simple stack of bytes, used in YAJL</i></td></tr>
+<tr><th id="19">19</th><td><i> * to maintain parse state.</i></td></tr>
+<tr><th id="20">20</th><td><i> */</i></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#<span data-ppcond="22">ifndef</span> <span class="macro" data-ref="_M/__YAJL_BYTESTACK_H__">__YAJL_BYTESTACK_H__</span></u></td></tr>
+<tr><th id="23">23</th><td><u>#define <dfn class="macro" id="_M/__YAJL_BYTESTACK_H__" data-ref="_M/__YAJL_BYTESTACK_H__">__YAJL_BYTESTACK_H__</dfn></u></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><u>#include <a href="api/yajl_common.h.html">"api/yajl_common.h"</a></u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#define <dfn class="macro" id="_M/YAJL_BS_INC" data-ref="_M/YAJL_BS_INC">YAJL_BS_INC</dfn> 128</u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="yajl_bytestack_t" title='yajl_bytestack_t' data-ref="yajl_bytestack_t"><a class="type" href="#yajl_bytestack_t" title='yajl_bytestack_t' data-ref="yajl_bytestack_t">yajl_bytestack_t</a></dfn></td></tr>
+<tr><th id="30">30</th><td>{</td></tr>
+<tr><th id="31">31</th><td>    <em>unsigned</em> <em>char</em> * <dfn class="decl" id="yajl_bytestack_t::stack" title='yajl_bytestack_t::stack' data-ref="yajl_bytestack_t::stack">stack</dfn>;</td></tr>
+<tr><th id="32">32</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="yajl_bytestack_t::size" title='yajl_bytestack_t::size' data-ref="yajl_bytestack_t::size">size</dfn>;</td></tr>
+<tr><th id="33">33</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="yajl_bytestack_t::used" title='yajl_bytestack_t::used' data-ref="yajl_bytestack_t::used">used</dfn>;</td></tr>
+<tr><th id="34">34</th><td>    <a class="typedef" href="../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> * <dfn class="decl" id="yajl_bytestack_t::yaf" title='yajl_bytestack_t::yaf' data-ref="yajl_bytestack_t::yaf">yaf</dfn>;</td></tr>
+<tr><th id="35">35</th><td>} <dfn class="typedef" id="yajl_bytestack" title='yajl_bytestack' data-type='struct yajl_bytestack_t' data-ref="yajl_bytestack">yajl_bytestack</dfn>;</td></tr>
+<tr><th id="36">36</th><td></td></tr>
+<tr><th id="37">37</th><td><i>/* initialize a bytestack */</i></td></tr>
+<tr><th id="38">38</th><td><u>#define <dfn class="macro" id="_M/yajl_bs_init" data-ref="_M/yajl_bs_init">yajl_bs_init</dfn>(obs, _yaf) {               \</u></td></tr>
+<tr><th id="39">39</th><td><u>        (obs).stack = NULL;                     \</u></td></tr>
+<tr><th id="40">40</th><td><u>        (obs).size = 0;                         \</u></td></tr>
+<tr><th id="41">41</th><td><u>        (obs).used = 0;                         \</u></td></tr>
+<tr><th id="42">42</th><td><u>        (obs).yaf = (_yaf);                     \</u></td></tr>
+<tr><th id="43">43</th><td><u>    }</u>                                           \</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td><i>/* initialize a bytestack */</i></td></tr>
+<tr><th id="47">47</th><td><u>#define <dfn class="macro" id="_M/yajl_bs_free" data-ref="_M/yajl_bs_free">yajl_bs_free</dfn>(obs)                 \</u></td></tr>
+<tr><th id="48">48</th><td><u>    if ((obs).stack) (obs).yaf-&gt;free((obs).yaf-&gt;ctx, (obs).stack);</u></td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><u>#define <dfn class="macro" id="_M/yajl_bs_current" data-ref="_M/yajl_bs_current">yajl_bs_current</dfn>(obs)               \</u></td></tr>
+<tr><th id="51">51</th><td><u>    (assert((obs).used &gt; 0), (obs).stack[(obs).used - 1])</u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#define <dfn class="macro" id="_M/yajl_bs_push" data-ref="_M/yajl_bs_push">yajl_bs_push</dfn>(obs, byte) {                       \</u></td></tr>
+<tr><th id="54">54</th><td><u>    if (((obs).size - (obs).used) == 0) {               \</u></td></tr>
+<tr><th id="55">55</th><td><u>        (obs).size += YAJL_BS_INC;                      \</u></td></tr>
+<tr><th id="56">56</th><td><u>        (obs).stack = (obs).yaf-&gt;realloc((obs).yaf-&gt;ctx,\</u></td></tr>
+<tr><th id="57">57</th><td><u>                                         (void *) (obs).stack, (obs).size);\</u></td></tr>
+<tr><th id="58">58</th><td><u>    }                                                   \</u></td></tr>
+<tr><th id="59">59</th><td><u>    (obs).stack[((obs).used)++] = (byte);               \</u></td></tr>
+<tr><th id="60">60</th><td><u>}</u></td></tr>
+<tr><th id="61">61</th><td></td></tr>
+<tr><th id="62">62</th><td><i>/* removes the top item of the stack, returns nothing */</i></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/yajl_bs_pop" data-ref="_M/yajl_bs_pop">yajl_bs_pop</dfn>(obs) { ((obs).used)--; }</u></td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/yajl_bs_set" data-ref="_M/yajl_bs_set">yajl_bs_set</dfn>(obs, byte)                          \</u></td></tr>
+<tr><th id="66">66</th><td><u>    (obs).stack[((obs).used) - 1] = (byte);</u></td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><u>#<span data-ppcond="22">endif</span></u></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='yajl.c.html'>codebrowser/src/cdogs/yajl/yajl.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

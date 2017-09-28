@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1872' type='int nk_utf_decode(const char * , nk_rune * , int )'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5803' u='c' c='nk_text_clamp'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5819' u='c' c='nk_text_clamp'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5850' u='c' c='nk_text_calculate_text_bounds'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5865' u='c' c='nk_text_calculate_text_bounds'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5872' u='c' c='nk_text_calculate_text_bounds'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5879' u='c' c='nk_text_calculate_text_bounds'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5929' ll='5956' macro='1' type='int nk_utf_decode(const char * c, nk_rune * u, int clen)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5995' u='c' c='nk_utf_len'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5999' u='c' c='nk_utf_len'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6027' u='c' c='nk_utf_at'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6036' u='c' c='nk_utf_at'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6383' u='c' c='nk_str_append_text_utf8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6398' u='c' c='nk_str_append_str_utf8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6400' u='c' c='nk_str_append_str_utf8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6520' u='c' c='nk_str_insert_text_utf8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6535' u='c' c='nk_str_insert_str_utf8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6537' u='c' c='nk_str_insert_str_utf8'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6684' u='c' c='nk_str_at_rune'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6693' u='c' c='nk_str_at_rune'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6729' u='c' c='nk_str_at_const'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6738' u='c' c='nk_str_at_const'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8427' u='c' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8438' u='c' c='nk_draw_list_add_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11140' u='c' c='nk_font_text_width'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11151' u='c' c='nk_font_text_width'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12137' u='c' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12690' u='c' c='nk_textedit_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12725' u='c' c='nk_textedit_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14868' u='c' c='nk_edit_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14892' u='c' c='nk_edit_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14897' u='c' c='nk_edit_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14903' u='c' c='nk_edit_draw_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15137' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15203' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15212' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15379' u='c' c='nk_do_edit'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1504' type='int nk_option_label(struct nk_context * , const char * , int active)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20433' ll='20435' macro='1' type='int nk_option_label(struct nk_context * ctx, const char * label, int active)'/>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>pickup_class.h source code [codebrowser/src/cdogs/pickup_class.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/pickup_class.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='pickup_class.h.html'>pickup_class.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2015-2016, Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#pragma once</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="../json/json.h.html">&lt;json/json.h&gt;</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="ammo.h.html">"ammo.h"</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="utils.h.html">"utils.h"</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="weapon.h.html">"weapon.h"</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><i>// Effects for "pick up" objects</i></td></tr>
+<tr><th id="37">37</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="38">38</th><td>{</td></tr>
+<tr><th id="39">39</th><td>	<dfn class="enum" id="PICKUP_NONE" title='PICKUP_NONE' data-ref="PICKUP_NONE">PICKUP_NONE</dfn>,</td></tr>
+<tr><th id="40">40</th><td>	<dfn class="enum" id="PICKUP_JEWEL" title='PICKUP_JEWEL' data-ref="PICKUP_JEWEL">PICKUP_JEWEL</dfn>,</td></tr>
+<tr><th id="41">41</th><td>	<dfn class="enum" id="PICKUP_HEALTH" title='PICKUP_HEALTH' data-ref="PICKUP_HEALTH">PICKUP_HEALTH</dfn>,</td></tr>
+<tr><th id="42">42</th><td>	<dfn class="enum" id="PICKUP_AMMO" title='PICKUP_AMMO' data-ref="PICKUP_AMMO">PICKUP_AMMO</dfn>,</td></tr>
+<tr><th id="43">43</th><td>	<dfn class="enum" id="PICKUP_KEYCARD" title='PICKUP_KEYCARD' data-ref="PICKUP_KEYCARD">PICKUP_KEYCARD</dfn>,</td></tr>
+<tr><th id="44">44</th><td>	<dfn class="enum" id="PICKUP_GUN" title='PICKUP_GUN' data-ref="PICKUP_GUN">PICKUP_GUN</dfn></td></tr>
+<tr><th id="45">45</th><td>} <dfn class="typedef" id="PickupType" title='PickupType' data-type='enum PickupType' data-ref="PickupType">PickupType</dfn>;</td></tr>
+<tr><th id="46">46</th><td><a class="typedef" href="#PickupType" title='PickupType' data-type='enum PickupType' data-ref="PickupType">PickupType</a> <dfn class="decl" id="StrPickupType" title='StrPickupType' data-ref="StrPickupType">StrPickupType</dfn>(<em>const</em> <em>char</em> *<dfn class="local col4 decl" id="2504s" title='s' data-type='const char *' data-ref="2504s">s</dfn>);</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="49">49</th><td>{</td></tr>
+<tr><th id="50">50</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Name" title='(anonymous struct)::Name' data-ref="(anonymous)::Name">Name</dfn>;</td></tr>
+<tr><th id="51">51</th><td>	<a class="typedef" href="#PickupType" title='PickupType' data-type='enum PickupType' data-ref="PickupType">PickupType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="52">52</th><td>	<b>union</b></td></tr>
+<tr><th id="53">53</th><td>	{</td></tr>
+<tr><th id="54">54</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Score" title='(anonymous struct)::(anonymous union)::Score' data-ref="(anonymousstruct)::(anonymous)::Score">Score</dfn>;</td></tr>
+<tr><th id="55">55</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Health" title='(anonymous struct)::(anonymous union)::Health' data-ref="(anonymousstruct)::(anonymous)::Health">Health</dfn>;</td></tr>
+<tr><th id="56">56</th><td>		<a class="typedef" href="utils.h.html#AddAmmo" title='AddAmmo' data-type='struct AddAmmo' data-ref="AddAmmo">AddAmmo</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Ammo" title='(anonymous struct)::(anonymous union)::Ammo' data-ref="(anonymousstruct)::(anonymous)::Ammo">Ammo</dfn>;</td></tr>
+<tr><th id="57">57</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Keys" title='(anonymous struct)::(anonymous union)::Keys' data-ref="(anonymousstruct)::(anonymous)::Keys">Keys</dfn>;	<i>// Refer to flags in mission.h</i></td></tr>
+<tr><th id="58">58</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::GunId" title='(anonymous struct)::(anonymous union)::GunId' data-ref="(anonymousstruct)::(anonymous)::GunId">GunId</dfn>;</td></tr>
+<tr><th id="59">59</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="60">60</th><td>	<em>const</em> <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="decl" id="(anonymous)::Pic" title='(anonymous struct)::Pic' data-ref="(anonymous)::Pic">Pic</dfn>;</td></tr>
+<tr><th id="61">61</th><td>} <dfn class="typedef" id="PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</dfn>;</td></tr>
+<tr><th id="62">62</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="63">63</th><td>{</td></tr>
+<tr><th id="64">64</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Classes" title='(anonymous struct)::Classes' data-ref="(anonymous)::Classes">Classes</dfn>;			<i>// of PickupClass</i></td></tr>
+<tr><th id="65">65</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::CustomClasses" title='(anonymous struct)::CustomClasses' data-ref="(anonymous)::CustomClasses">CustomClasses</dfn>;	<i>// of PickupClass</i></td></tr>
+<tr><th id="66">66</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::KeyClasses" title='(anonymous struct)::KeyClasses' data-ref="(anonymous)::KeyClasses">KeyClasses</dfn>;		<i>// of PickupClass</i></td></tr>
+<tr><th id="67">67</th><td>} <dfn class="typedef" id="PickupClasses" title='PickupClasses' data-type='struct PickupClasses' data-ref="PickupClasses">PickupClasses</dfn>;</td></tr>
+<tr><th id="68">68</th><td><b>extern</b> <a class="typedef" href="#PickupClasses" title='PickupClasses' data-type='struct PickupClasses' data-ref="PickupClasses">PickupClasses</a> <dfn class="decl" id="gPickupClasses" title='gPickupClasses' data-ref="gPickupClasses">gPickupClasses</dfn>;</td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><a class="typedef" href="#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="decl" id="StrPickupClass" title='StrPickupClass' data-ref="StrPickupClass">StrPickupClass</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="2505s" title='s' data-type='const char *' data-ref="2505s">s</dfn>);</td></tr>
+<tr><th id="72">72</th><td><i>// Legacy pickup classes, integer based</i></td></tr>
+<tr><th id="73">73</th><td><a class="typedef" href="#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="decl" id="IntPickupClass" title='IntPickupClass' data-ref="IntPickupClass">IntPickupClass</dfn>(<em>const</em> <em>int</em> <dfn class="local col6 decl" id="2506i" title='i' data-type='const int' data-ref="2506i">i</dfn>);</td></tr>
+<tr><th id="74">74</th><td><i>// Legacy exit styles, integer based</i></td></tr>
+<tr><th id="75">75</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="IntExitStyle" title='IntExitStyle' data-ref="IntExitStyle">IntExitStyle</dfn>(<em>const</em> <em>int</em> <dfn class="local col7 decl" id="2507i" title='i' data-type='const int' data-ref="2507i">i</dfn>);</td></tr>
+<tr><th id="76">76</th><td><i>// Legacy key classes, style+integer based</i></td></tr>
+<tr><th id="77">77</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="IntKeyStyle" title='IntKeyStyle' data-ref="IntKeyStyle">IntKeyStyle</dfn>(<em>const</em> <em>int</em> <dfn class="local col8 decl" id="2508style" title='style' data-type='const int' data-ref="2508style">style</dfn>);</td></tr>
+<tr><th id="78">78</th><td><a class="typedef" href="#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="decl" id="IntKeyPickupClass" title='IntKeyPickupClass' data-ref="IntKeyPickupClass">IntKeyPickupClass</dfn>(<em>const</em> <em>int</em> <dfn class="local col9 decl" id="2509style" title='style' data-type='const int' data-ref="2509style">style</dfn>, <em>const</em> <em>int</em> <dfn class="local col0 decl" id="2510i" title='i' data-type='const int' data-ref="2510i">i</dfn>);</td></tr>
+<tr><th id="79">79</th><td><i>// Semi-legacy key classes, style+integer colour</i></td></tr>
+<tr><th id="80">80</th><td><a class="typedef" href="#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="decl" id="KeyPickupClass" title='KeyPickupClass' data-ref="KeyPickupClass">KeyPickupClass</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2511style" title='style' data-type='const char *' data-ref="2511style">style</dfn>, <em>const</em> <em>int</em> <dfn class="local col2 decl" id="2512i" title='i' data-type='const int' data-ref="2512i">i</dfn>);</td></tr>
+<tr><th id="81">81</th><td><a class="typedef" href="#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="decl" id="PickupClassGetById" title='PickupClassGetById' data-ref="PickupClassGetById">PickupClassGetById</dfn>(<a class="typedef" href="#PickupClasses" title='PickupClasses' data-type='struct PickupClasses' data-ref="PickupClasses">PickupClasses</a> *<dfn class="local col3 decl" id="2513classes" title='classes' data-type='PickupClasses *' data-ref="2513classes">classes</dfn>, <em>const</em> <em>int</em> <dfn class="local col4 decl" id="2514id" title='id' data-type='const int' data-ref="2514id">id</dfn>);</td></tr>
+<tr><th id="82">82</th><td><em>int</em> <dfn class="decl" id="StrPickupClassId" title='StrPickupClassId' data-ref="StrPickupClassId">StrPickupClassId</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="2515s" title='s' data-type='const char *' data-ref="2515s">s</dfn>);</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td><em>void</em> <dfn class="decl" id="PickupClassesInit" title='PickupClassesInit' data-ref="PickupClassesInit">PickupClassesInit</dfn>(</td></tr>
+<tr><th id="85">85</th><td>	<a class="typedef" href="#PickupClasses" title='PickupClasses' data-type='struct PickupClasses' data-ref="PickupClasses">PickupClasses</a> *<dfn class="local col6 decl" id="2516classes" title='classes' data-type='PickupClasses *' data-ref="2516classes">classes</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="2517filename" title='filename' data-type='const char *' data-ref="2517filename">filename</dfn>,</td></tr>
+<tr><th id="86">86</th><td>	<em>const</em> <a class="typedef" href="ammo.h.html#AmmoClasses" title='AmmoClasses' data-type='struct AmmoClasses' data-ref="AmmoClasses">AmmoClasses</a> *<dfn class="local col8 decl" id="2518ammo" title='ammo' data-type='const AmmoClasses *' data-ref="2518ammo">ammo</dfn>, <em>const</em> <a class="typedef" href="weapon.h.html#GunClasses" title='GunClasses' data-type='struct GunClasses' data-ref="GunClasses">GunClasses</a> *<dfn class="local col9 decl" id="2519guns" title='guns' data-type='const GunClasses *' data-ref="2519guns">guns</dfn>);</td></tr>
+<tr><th id="87">87</th><td><em>void</em> <dfn class="decl" id="PickupClassesLoadJSON" title='PickupClassesLoadJSON' data-ref="PickupClassesLoadJSON">PickupClassesLoadJSON</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col0 decl" id="2520classes" title='classes' data-type='CArray *' data-ref="2520classes">classes</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col1 decl" id="2521root" title='root' data-type='json_t *' data-ref="2521root">root</dfn>);</td></tr>
+<tr><th id="88">88</th><td><em>void</em> <dfn class="decl" id="PickupClassesLoadAmmo" title='PickupClassesLoadAmmo' data-ref="PickupClassesLoadAmmo">PickupClassesLoadAmmo</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col2 decl" id="2522classes" title='classes' data-type='CArray *' data-ref="2522classes">classes</dfn>, <em>const</em> <a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col3 decl" id="2523ammoClasses" title='ammoClasses' data-type='const CArray *' data-ref="2523ammoClasses">ammoClasses</dfn>);</td></tr>
+<tr><th id="89">89</th><td><em>void</em> <dfn class="decl" id="PickupClassesLoadGuns" title='PickupClassesLoadGuns' data-ref="PickupClassesLoadGuns">PickupClassesLoadGuns</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col4 decl" id="2524classes" title='classes' data-type='CArray *' data-ref="2524classes">classes</dfn>, <em>const</em> <a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col5 decl" id="2525gunClasses" title='gunClasses' data-type='const CArray *' data-ref="2525gunClasses">gunClasses</dfn>);</td></tr>
+<tr><th id="90">90</th><td><em>void</em> <dfn class="decl" id="PickupClassesLoadKeys" title='PickupClassesLoadKeys' data-ref="PickupClassesLoadKeys">PickupClassesLoadKeys</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col6 decl" id="2526classes" title='classes' data-type='CArray *' data-ref="2526classes">classes</dfn>);</td></tr>
+<tr><th id="91">91</th><td><em>void</em> <dfn class="decl" id="PickupClassesClear" title='PickupClassesClear' data-ref="PickupClassesClear">PickupClassesClear</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col7 decl" id="2527classes" title='classes' data-type='CArray *' data-ref="2527classes">classes</dfn>);</td></tr>
+<tr><th id="92">92</th><td><em>void</em> <dfn class="decl" id="PickupClassesTerminate" title='PickupClassesTerminate' data-ref="PickupClassesTerminate">PickupClassesTerminate</dfn>(<a class="typedef" href="#PickupClasses" title='PickupClasses' data-type='struct PickupClasses' data-ref="PickupClasses">PickupClasses</a> *<dfn class="local col8 decl" id="2528classes" title='classes' data-type='PickupClasses *' data-ref="2528classes">classes</dfn>);</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><em>int</em> <dfn class="decl" id="PickupClassesGetScoreIdx" title='PickupClassesGetScoreIdx' data-ref="PickupClassesGetScoreIdx">PickupClassesGetScoreIdx</dfn>(<em>const</em> <a class="typedef" href="#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="local col9 decl" id="2529p" title='p' data-type='const PickupClass *' data-ref="2529p">p</dfn>);</td></tr>
+<tr><th id="95">95</th><td><i>// Count the number of "Score" type pickups</i></td></tr>
+<tr><th id="96">96</th><td><em>int</em> <dfn class="decl" id="PickupClassesGetScoreCount" title='PickupClassesGetScoreCount' data-ref="PickupClassesGetScoreCount">PickupClassesGetScoreCount</dfn>(<em>const</em> <a class="typedef" href="#PickupClasses" title='PickupClasses' data-type='struct PickupClasses' data-ref="PickupClasses">PickupClasses</a> *<dfn class="local col0 decl" id="2530classes" title='classes' data-type='const PickupClasses *' data-ref="2530classes">classes</dfn>);</td></tr>
+<tr><th id="97">97</th><td><i>// Get the ith "Score" type pickup</i></td></tr>
+<tr><th id="98">98</th><td><a class="typedef" href="#PickupClass" title='PickupClass' data-type='struct PickupClass' data-ref="PickupClass">PickupClass</a> *<dfn class="decl" id="IntScorePickupClass" title='IntScorePickupClass' data-ref="IntScorePickupClass">IntScorePickupClass</dfn>(<em>const</em> <em>int</em> <dfn class="local col1 decl" id="2531i" title='i' data-type='const int' data-ref="2531i">i</dfn>);</td></tr>
+<tr><th id="99">99</th><td></td></tr>
+<tr><th id="100">100</th><td><i>// Score for picking up an objective</i></td></tr>
+<tr><th id="101">101</th><td><u>#define <dfn class="macro" id="_M/PICKUP_SCORE" data-ref="_M/PICKUP_SCORE">PICKUP_SCORE</dfn> 10</u></td></tr>
+<tr><th id="102">102</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

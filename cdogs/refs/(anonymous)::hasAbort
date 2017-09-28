@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='238' type='_Bool'/>
+<offset>744</offset>
+<use f='codebrowser/src/menu.c' l='176' u='w' c='MenuUpdate'/>
+<use f='codebrowser/src/password.c' l='423' u='r' c='PasswordUpdate'/>
+<use f='codebrowser/src/prep.c' l='223' u='r' c='NumPlayersUpdate'/>
+<use f='codebrowser/src/prep.c' l='653' u='r' c='GameOptionsUpdate'/>

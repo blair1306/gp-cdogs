@@ -1,0 +1,1 @@
+<dec f='include/SDL2/SDL_opengl.h' l='898' type='void glDepthRange(GLclampd near_val, GLclampd far_val)'/>

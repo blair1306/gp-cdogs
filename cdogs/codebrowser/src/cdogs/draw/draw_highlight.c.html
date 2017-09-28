@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>draw_highlight.c source code [codebrowser/src/cdogs/draw/draw_highlight.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/draw/draw_highlight.c'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>draw</a>/<a href='draw_highlight.c.html'>draw_highlight.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin </i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King </i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#include <a href="draw_highlight.h.html">"draw_highlight.h"</a></u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="draw_actor.h.html">"draw_actor.h"</a></u></td></tr>
+<tr><th id="52">52</th><td><u>#include <a href="../gamedata.h.html">"gamedata.h"</a></u></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="../pickup.h.html">"pickup.h"</a></u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><em>static</em> <em>void</em> <a class="tu decl" href="#DrawObjectiveHighlight" title='DrawObjectiveHighlight' data-type='void DrawObjectiveHighlight(TTileItem * ti, Tile * tile, DrawBuffer * b, Vec2i offset)' data-ref="DrawObjectiveHighlight">DrawObjectiveHighlight</a>(</td></tr>
+<tr><th id="57">57</th><td>	<a class="typedef" href="../tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col1 decl" id="1ti" title='ti' data-type='TTileItem *' data-ref="1ti">ti</dfn>, <a class="typedef" href="../tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col2 decl" id="2tile" title='tile' data-type='Tile *' data-ref="2tile">tile</dfn>, <a class="typedef" href="draw_buffer.h.html#DrawBuffer" title='DrawBuffer' data-type='struct DrawBuffer' data-ref="DrawBuffer">DrawBuffer</a> *<dfn class="local col3 decl" id="3b" title='b' data-type='DrawBuffer *' data-ref="3b">b</dfn>, <a class="typedef" href="../vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col4 decl" id="4offset" title='offset' data-type='Vec2i' data-ref="4offset">offset</dfn>);</td></tr>
+<tr><th id="58">58</th><td><em>void</em> <dfn class="decl def" id="DrawObjectiveHighlights" title='DrawObjectiveHighlights' data-ref="DrawObjectiveHighlights">DrawObjectiveHighlights</dfn>(<a class="typedef" href="draw_buffer.h.html#DrawBuffer" title='DrawBuffer' data-type='struct DrawBuffer' data-ref="DrawBuffer">DrawBuffer</a> *<dfn class="local col5 decl" id="5b" title='b' data-type='DrawBuffer *' data-ref="5b">b</dfn>, <em>const</em> <a class="typedef" href="../vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col6 decl" id="6offset" title='offset' data-type='const Vec2i' data-ref="6offset">offset</dfn>)</td></tr>
+<tr><th id="59">59</th><td>{</td></tr>
+<tr><th id="60">60</th><td>	<b>if</b> (!<a class="ref" href="../config.h.html#ConfigGetBool" title='ConfigGetBool' data-ref="ConfigGetBool">ConfigGetBool</a>(&amp;<a class="ref" href="../config.h.html#gConfig" title='gConfig' data-ref="gConfig">gConfig</a>, <q>"Graphics.ShowHUD"</q>))</td></tr>
+<tr><th id="61">61</th><td>	{</td></tr>
+<tr><th id="62">62</th><td>		<b>return</b>;</td></tr>
+<tr><th id="63">63</th><td>	}</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td>	<a class="typedef" href="../tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col7 decl" id="7tile" title='tile' data-type='Tile *' data-ref="7tile">tile</dfn> = &amp;<a class="local col5 ref" href="#5b" title='b' data-ref="5b">b</a>-&gt;<a class="ref" href="draw_buffer.h.html#(anonymous)::tiles" title='(anonymous struct)::tiles' data-ref="(anonymous)::tiles">tiles</a>[<var>0</var>][<var>0</var>];</td></tr>
+<tr><th id="66">66</th><td>	<b>for</b> (<em>int</em> <dfn class="local col8 decl" id="8y" title='y' data-type='int' data-ref="8y">y</dfn> = <var>0</var>; <a class="local col8 ref" href="#8y" title='y' data-ref="8y">y</a> &lt; <a class="macro" href="../tile.h.html#68" title="((gGraphicsDevice.cachedConfig.Res.y + 12 - 1) / 12 + 2)" data-ref="_M/Y_TILES">Y_TILES</a>; <a class="local col8 ref" href="#8y" title='y' data-ref="8y">y</a>++)</td></tr>
+<tr><th id="67">67</th><td>	{</td></tr>
+<tr><th id="68">68</th><td>		<b>for</b> (<em>int</em> <dfn class="local col9 decl" id="9x" title='x' data-type='int' data-ref="9x">x</dfn> = <var>0</var>; <a class="local col9 ref" href="#9x" title='x' data-ref="9x">x</a> &lt; <a class="local col5 ref" href="#5b" title='b' data-ref="5b">b</a>-&gt;<a class="ref" href="draw_buffer.h.html#(anonymous)::Size" title='(anonymous struct)::Size' data-ref="(anonymous)::Size">Size</a>.<a class="ref" href="../vector.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a>; <a class="local col9 ref" href="#9x" title='x' data-ref="9x">x</a>++, <a class="local col7 ref" href="#7tile" title='tile' data-ref="7tile">tile</a>++)</td></tr>
+<tr><th id="69">69</th><td>		{</td></tr>
+<tr><th id="70">70</th><td>			<i>// Draw the items that are in LOS</i></td></tr>
+<tr><th id="71">71</th><td>			<a class="macro" href="../c_array.h.html#56" title="for (int _ca_index = 0; _ca_index &lt; (int)(tile-&gt;things).size; _ca_index++) { ThingId *tid = CArrayGet(&amp;(tile-&gt;things), _ca_index);" data-ref="_M/CA_FOREACH">CA_FOREACH</a>(<a class="typedef" href="../tile.h.html#ThingId" title='ThingId' data-type='struct ThingId' data-ref="ThingId">ThingId</a>, <dfn class="local col0 decl" id="10tid" title='tid' data-type='ThingId *' data-ref="10tid">tid</dfn>, <a class="local col7 ref" href="#7tile" title='tile' data-ref="7tile">tile</a>-&gt;<a class="ref" href="../tile.h.html#(anonymous)::things" title='(anonymous struct)::things' data-ref="(anonymous)::things">things</a>)</td></tr>
+<tr><th id="72">72</th><td>				<a class="typedef" href="../tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col1 decl" id="11ti" title='ti' data-type='TTileItem *' data-ref="11ti">ti</dfn> = <a class="ref" href="../tile.h.html#ThingIdGetTileItem" title='ThingIdGetTileItem' data-ref="ThingIdGetTileItem">ThingIdGetTileItem</a>(<a class="local col0 ref" href="#71" title='tid' data-ref="10tid">tid</a>);</td></tr>
+<tr><th id="73">73</th><td>				<a class="tu ref" href="#DrawObjectiveHighlight" title='DrawObjectiveHighlight' data-use='c' data-ref="DrawObjectiveHighlight">DrawObjectiveHighlight</a>(<a class="local col1 ref" href="#11ti" title='ti' data-ref="11ti">ti</a>, <a class="local col7 ref" href="#7tile" title='tile' data-ref="7tile">tile</a>, <a class="local col5 ref" href="#5b" title='b' data-ref="5b">b</a>, <a class="local col6 ref" href="#6offset" title='offset' data-ref="6offset">offset</a>);</td></tr>
+<tr><th id="74">74</th><td>			<a class="macro" href="../c_array.h.html#60" title="}" data-ref="_M/CA_FOREACH_END">CA_FOREACH_END</a>()</td></tr>
+<tr><th id="75">75</th><td>		}</td></tr>
+<tr><th id="76">76</th><td>		<a class="local col7 ref" href="#7tile" title='tile' data-ref="7tile">tile</a> += <a class="macro" href="../tile.h.html#63" title="((gGraphicsDevice.cachedConfig.Res.x + 16 - 1) / 16 + 1)" data-ref="_M/X_TILES">X_TILES</a> - <a class="local col5 ref" href="#5b" title='b' data-ref="5b">b</a>-&gt;<a class="ref" href="draw_buffer.h.html#(anonymous)::Size" title='(anonymous struct)::Size' data-ref="(anonymous)::Size">Size</a>.<a class="ref" href="../vector.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a>;</td></tr>
+<tr><th id="77">77</th><td>	}</td></tr>
+<tr><th id="78">78</th><td>}</td></tr>
+<tr><th id="79">79</th><td><em>static</em> <em>void</em> <dfn class="tu decl def" id="DrawObjectiveHighlight" title='DrawObjectiveHighlight' data-type='void DrawObjectiveHighlight(TTileItem * ti, Tile * tile, DrawBuffer * b, Vec2i offset)' data-ref="DrawObjectiveHighlight">DrawObjectiveHighlight</dfn>(</td></tr>
+<tr><th id="80">80</th><td>	<a class="typedef" href="../tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col2 decl" id="12ti" title='ti' data-type='TTileItem *' data-ref="12ti">ti</dfn>, <a class="typedef" href="../tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="local col3 decl" id="13tile" title='tile' data-type='Tile *' data-ref="13tile">tile</dfn>, <a class="typedef" href="draw_buffer.h.html#DrawBuffer" title='DrawBuffer' data-type='struct DrawBuffer' data-ref="DrawBuffer">DrawBuffer</a> *<dfn class="local col4 decl" id="14b" title='b' data-type='DrawBuffer *' data-ref="14b">b</dfn>, <a class="typedef" href="../vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col5 decl" id="15offset" title='offset' data-type='Vec2i' data-ref="15offset">offset</dfn>)</td></tr>
+<tr><th id="81">81</th><td>{</td></tr>
+<tr><th id="82">82</th><td>	<a class="typedef" href="../color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> <dfn class="local col6 decl" id="16color" title='color' data-type='color_t' data-ref="16color">color</dfn>;</td></tr>
+<tr><th id="83">83</th><td>	<b>if</b> (<a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::flags" title='TileItem::flags' data-ref="TileItem::flags">flags</a> &amp; <a class="macro" href="../tile.h.html#96" title="(8 + 16 + 32 + 64 + 128)" data-ref="_M/TILEITEM_OBJECTIVE">TILEITEM_OBJECTIVE</a>)</td></tr>
+<tr><th id="84">84</th><td>	{</td></tr>
+<tr><th id="85">85</th><td>		<i>// Objective</i></td></tr>
+<tr><th id="86">86</th><td>		<em>const</em> <em>int</em> <dfn class="local col7 decl" id="17objective" title='objective' data-type='const int' data-ref="17objective">objective</dfn> = <a class="macro" href="../mission.h.html#58" title="((((ti-&gt;flags) &amp; (8 + 16 + 32 + 64 + 128)) &gt;&gt; 3)-1)" data-ref="_M/ObjectiveFromTileItem">ObjectiveFromTileItem</a>(<a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::flags" title='TileItem::flags' data-ref="TileItem::flags">flags</a>);</td></tr>
+<tr><th id="87">87</th><td>		<em>const</em> <a class="typedef" href="../objective.h.html#Objective" title='Objective' data-type='struct Objective' data-ref="Objective">Objective</a> *<dfn class="local col8 decl" id="18o" title='o' data-type='const Objective *' data-ref="18o">o</dfn> =</td></tr>
+<tr><th id="88">88</th><td>			<a class="ref" href="../c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="ref" href="../gamedata.h.html#gMission" title='gMission' data-ref="gMission">gMission</a>.<a class="ref" href="../mission.h.html#MissionOptions::missionData" title='MissionOptions::missionData' data-ref="MissionOptions::missionData">missionData</a>-&gt;<a class="ref" href="../mission.h.html#(anonymous)::Objectives" title='(anonymous struct)::Objectives' data-ref="(anonymous)::Objectives">Objectives</a>, <a class="local col7 ref" href="#17objective" title='objective' data-ref="17objective">objective</a>);</td></tr>
+<tr><th id="89">89</th><td>		<b>if</b> (<a class="local col8 ref" href="#18o" title='o' data-ref="18o">o</a>-&gt;<a class="ref" href="../objective.h.html#(anonymous)::Flags" title='(anonymous struct)::Flags' data-ref="(anonymous)::Flags">Flags</a> &amp; <a class="macro" href="../mission.h.html#73" title="1" data-ref="_M/OBJECTIVE_HIDDEN">OBJECTIVE_HIDDEN</a>)</td></tr>
+<tr><th id="90">90</th><td>		{</td></tr>
+<tr><th id="91">91</th><td>			<b>return</b>;</td></tr>
+<tr><th id="92">92</th><td>		}</td></tr>
+<tr><th id="93">93</th><td>		<b>if</b> (!(<a class="local col8 ref" href="#18o" title='o' data-ref="18o">o</a>-&gt;<a class="ref" href="../objective.h.html#(anonymous)::Flags" title='(anonymous struct)::Flags' data-ref="(anonymous)::Flags">Flags</a> &amp; <a class="macro" href="../mission.h.html#74" title="2" data-ref="_M/OBJECTIVE_POSKNOWN">OBJECTIVE_POSKNOWN</a>) &amp;&amp;</td></tr>
+<tr><th id="94">94</th><td>			(<a class="local col3 ref" href="#13tile" title='tile' data-ref="13tile">tile</a>-&gt;<a class="ref" href="../tile.h.html#(anonymous)::flags" title='(anonymous struct)::flags' data-ref="(anonymous)::flags">flags</a> &amp; <a class="enum" href="../tile.h.html#MAPTILE_OUT_OF_SIGHT" title='MAPTILE_OUT_OF_SIGHT' data-ref="MAPTILE_OUT_OF_SIGHT">MAPTILE_OUT_OF_SIGHT</a>))</td></tr>
+<tr><th id="95">95</th><td>		{</td></tr>
+<tr><th id="96">96</th><td>			<b>return</b>;</td></tr>
+<tr><th id="97">97</th><td>		}</td></tr>
+<tr><th id="98">98</th><td>		<a class="local col6 ref" href="#16color" title='color' data-ref="16color">color</a> = <a class="local col8 ref" href="#18o" title='o' data-ref="18o">o</a>-&gt;<a class="ref" href="../objective.h.html#(anonymous)::color" title='(anonymous struct)::color' data-ref="(anonymous)::color">color</a>;</td></tr>
+<tr><th id="99">99</th><td>	}</td></tr>
+<tr><th id="100">100</th><td>	<b>else</b> <b>if</b> (<a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::kind" title='TileItem::kind' data-ref="TileItem::kind">kind</a> == <a class="enum" href="../tile.h.html#KIND_PICKUP" title='KIND_PICKUP' data-ref="KIND_PICKUP">KIND_PICKUP</a>)</td></tr>
+<tr><th id="101">101</th><td>	{</td></tr>
+<tr><th id="102">102</th><td>		<i>// Gun pickup</i></td></tr>
+<tr><th id="103">103</th><td>		<em>const</em> <a class="typedef" href="../pickup.h.html#Pickup" title='Pickup' data-type='struct Pickup' data-ref="Pickup">Pickup</a> *<dfn class="local col9 decl" id="19p" title='p' data-type='const Pickup *' data-ref="19p">p</dfn> = <a class="ref" href="../c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="ref" href="../pickup.h.html#gPickups" title='gPickups' data-ref="gPickups">gPickups</a>, <a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::id" title='TileItem::id' data-ref="TileItem::id">id</a>);</td></tr>
+<tr><th id="104">104</th><td>		<b>if</b> (!<a class="ref" href="../pickup.h.html#PickupIsManual" title='PickupIsManual' data-ref="PickupIsManual">PickupIsManual</a>(<a class="local col9 ref" href="#19p" title='p' data-ref="19p">p</a>))</td></tr>
+<tr><th id="105">105</th><td>		{</td></tr>
+<tr><th id="106">106</th><td>			<b>return</b>;</td></tr>
+<tr><th id="107">107</th><td>		}</td></tr>
+<tr><th id="108">108</th><td>		<a class="local col6 ref" href="#16color" title='color' data-ref="16color">color</a> = <a class="ref" href="../color.h.html#colorDarker" title='colorDarker' data-ref="colorDarker">colorDarker</a>;</td></tr>
+<tr><th id="109">109</th><td>	}</td></tr>
+<tr><th id="110">110</th><td>	<b>else</b></td></tr>
+<tr><th id="111">111</th><td>	{</td></tr>
+<tr><th id="112">112</th><td>		<b>return</b>;</td></tr>
+<tr><th id="113">113</th><td>	}</td></tr>
+<tr><th id="114">114</th><td>	</td></tr>
+<tr><th id="115">115</th><td>	<em>const</em> <a class="typedef" href="../vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col0 decl" id="20pos" title='pos' data-type='const Vec2i' data-ref="20pos">pos</dfn> = <a class="ref" href="../vector.h.html#Vec2iNew" title='Vec2iNew' data-ref="Vec2iNew">Vec2iNew</a>(</td></tr>
+<tr><th id="116">116</th><td>		<a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::x" title='TileItem::x' data-ref="TileItem::x">x</a> - <a class="local col4 ref" href="#14b" title='b' data-ref="14b">b</a>-&gt;<a class="ref" href="draw_buffer.h.html#(anonymous)::xTop" title='(anonymous struct)::xTop' data-ref="(anonymous)::xTop">xTop</a> + <a class="local col5 ref" href="#15offset" title='offset' data-ref="15offset">offset</a>.<a class="ref" href="../vector.h.html#(anonymous)::x" title='(anonymous struct)::x' data-ref="(anonymous)::x">x</a>, <a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::y" title='TileItem::y' data-ref="TileItem::y">y</a> - <a class="local col4 ref" href="#14b" title='b' data-ref="14b">b</a>-&gt;<a class="ref" href="draw_buffer.h.html#(anonymous)::yTop" title='(anonymous struct)::yTop' data-ref="(anonymous)::yTop">yTop</a> + <a class="local col5 ref" href="#15offset" title='offset' data-ref="15offset">offset</a>.<a class="ref" href="../vector.h.html#(anonymous)::y" title='(anonymous struct)::y' data-ref="(anonymous)::y">y</a>);</td></tr>
+<tr><th id="117">117</th><td>	<em>const</em> <em>int</em> <dfn class="local col1 decl" id="21pulsePeriod" title='pulsePeriod' data-type='const int' data-ref="21pulsePeriod">pulsePeriod</dfn> = <a class="ref" href="../config.h.html#ConfigGetInt" title='ConfigGetInt' data-ref="ConfigGetInt">ConfigGetInt</a>(&amp;<a class="ref" href="../config.h.html#gConfig" title='gConfig' data-ref="gConfig">gConfig</a>, <q>"Game.FPS"</q>);</td></tr>
+<tr><th id="118">118</th><td>	<em>int</em> <dfn class="local col2 decl" id="22alphaUnscaled" title='alphaUnscaled' data-type='int' data-ref="22alphaUnscaled">alphaUnscaled</dfn> =</td></tr>
+<tr><th id="119">119</th><td>		(<a class="ref" href="../gamedata.h.html#gMission" title='gMission' data-ref="gMission">gMission</a>.<a class="ref" href="../mission.h.html#MissionOptions::time" title='MissionOptions::time' data-ref="MissionOptions::time">time</a> % <a class="local col1 ref" href="#21pulsePeriod" title='pulsePeriod' data-ref="21pulsePeriod">pulsePeriod</a>) * <var>255</var> / (<a class="local col1 ref" href="#21pulsePeriod" title='pulsePeriod' data-ref="21pulsePeriod">pulsePeriod</a> / <var>2</var>);</td></tr>
+<tr><th id="120">120</th><td>	<b>if</b> (<a class="local col2 ref" href="#22alphaUnscaled" title='alphaUnscaled' data-ref="22alphaUnscaled">alphaUnscaled</a> &gt; <var>255</var>)</td></tr>
+<tr><th id="121">121</th><td>	{</td></tr>
+<tr><th id="122">122</th><td>		<a class="local col2 ref" href="#22alphaUnscaled" title='alphaUnscaled' data-ref="22alphaUnscaled">alphaUnscaled</a> = <var>255</var> * <var>2</var> - <a class="local col2 ref" href="#22alphaUnscaled" title='alphaUnscaled' data-ref="22alphaUnscaled">alphaUnscaled</a>;</td></tr>
+<tr><th id="123">123</th><td>	}</td></tr>
+<tr><th id="124">124</th><td>	<a class="local col6 ref" href="#16color" title='color' data-ref="16color">color</a>.<a class="ref" href="../color.h.html#(anonymous)::a" title='(anonymous struct)::a' data-ref="(anonymous)::a">a</a> = (<a class="typedef" href="../../../../include/SDL2/SDL_stdinc.h.html#Uint8" title='Uint8' data-type='uint8_t' data-ref="Uint8">Uint8</a>)<a class="local col2 ref" href="#22alphaUnscaled" title='alphaUnscaled' data-ref="22alphaUnscaled">alphaUnscaled</a>;</td></tr>
+<tr><th id="125">125</th><td>	<b>if</b> (<a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::getPicFunc" title='TileItem::getPicFunc' data-ref="TileItem::getPicFunc">getPicFunc</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="126">126</th><td>	{</td></tr>
+<tr><th id="127">127</th><td>		<a class="typedef" href="../vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="23picOffset" title='picOffset' data-type='Vec2i' data-ref="23picOffset">picOffset</dfn>;</td></tr>
+<tr><th id="128">128</th><td>		<em>const</em> <a class="typedef" href="../pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="local col4 decl" id="24pic" title='pic' data-type='const Pic *' data-ref="24pic">pic</dfn> = <a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::getPicFunc" title='TileItem::getPicFunc' data-ref="TileItem::getPicFunc">getPicFunc</a>(<a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::id" title='TileItem::id' data-ref="TileItem::id">id</a>, &amp;<a class="local col3 ref" href="#23picOffset" title='picOffset' data-ref="23picOffset">picOffset</a>);</td></tr>
+<tr><th id="129">129</th><td>		<a class="ref" href="../blit.h.html#BlitPicHighlight" title='BlitPicHighlight' data-ref="BlitPicHighlight">BlitPicHighlight</a>(</td></tr>
+<tr><th id="130">130</th><td>			&amp;<a class="ref" href="../grafx.h.html#gGraphicsDevice" title='gGraphicsDevice' data-ref="gGraphicsDevice">gGraphicsDevice</a>, <a class="local col4 ref" href="#24pic" title='pic' data-ref="24pic">pic</a>, <a class="ref" href="../vector.h.html#Vec2iAdd" title='Vec2iAdd' data-ref="Vec2iAdd">Vec2iAdd</a>(<a class="local col0 ref" href="#20pos" title='pos' data-ref="20pos">pos</a>, <a class="local col3 ref" href="#23picOffset" title='picOffset' data-ref="23picOffset">picOffset</a>), <a class="local col6 ref" href="#16color" title='color' data-ref="16color">color</a>);</td></tr>
+<tr><th id="131">131</th><td>	}</td></tr>
+<tr><th id="132">132</th><td>	<b>else</b> <b>if</b> (<a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::kind" title='TileItem::kind' data-ref="TileItem::kind">kind</a> == <a class="enum" href="../tile.h.html#KIND_CHARACTER" title='KIND_CHARACTER' data-ref="KIND_CHARACTER">KIND_CHARACTER</a>)</td></tr>
+<tr><th id="133">133</th><td>	{</td></tr>
+<tr><th id="134">134</th><td>		<a class="typedef" href="../actors.h.html#TActor" title='TActor' data-type='struct Actor' data-ref="TActor">TActor</a> *<dfn class="local col5 decl" id="25a" title='a' data-type='TActor *' data-ref="25a">a</dfn> = <a class="ref" href="../c_array.h.html#CArrayGet" title='CArrayGet' data-ref="CArrayGet">CArrayGet</a>(&amp;<a class="ref" href="../actors.h.html#gActors" title='gActors' data-ref="gActors">gActors</a>, <a class="local col2 ref" href="#12ti" title='ti' data-ref="12ti">ti</a>-&gt;<a class="ref" href="../tile.h.html#TileItem::id" title='TileItem::id' data-ref="TileItem::id">id</a>);</td></tr>
+<tr><th id="135">135</th><td>		<a class="typedef" href="draw_actor.h.html#ActorPics" title='ActorPics' data-type='struct ActorPics' data-ref="ActorPics">ActorPics</a> <dfn class="local col6 decl" id="26pics" title='pics' data-type='ActorPics' data-ref="26pics">pics</dfn> = <a class="ref" href="draw_actor.h.html#GetCharacterPicsFromActor" title='GetCharacterPicsFromActor' data-ref="GetCharacterPicsFromActor">GetCharacterPicsFromActor</a>(<a class="local col5 ref" href="#25a" title='a' data-ref="25a">a</a>);</td></tr>
+<tr><th id="136">136</th><td>		<a class="ref" href="draw_actor.h.html#DrawActorHighlight" title='DrawActorHighlight' data-ref="DrawActorHighlight">DrawActorHighlight</a>(&amp;<a class="local col6 ref" href="#26pics" title='pics' data-ref="26pics">pics</a>, <a class="local col0 ref" href="#20pos" title='pos' data-ref="20pos">pos</a>, <a class="local col6 ref" href="#16color" title='color' data-ref="16color">color</a>);</td></tr>
+<tr><th id="137">137</th><td>	}</td></tr>
+<tr><th id="138">138</th><td>}</td></tr>
+<tr><th id="139">139</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

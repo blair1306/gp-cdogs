@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/hud/health_gauge.h' l='38' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='40' u='w' c='HealthGaugeInit'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='50' u='w' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='53' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='56' u='w' c='HealthGaugeUpdate'/>

@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='401' ll='427'/>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='398'>/**
+ * An ENet event type, as specified in @ref ENetEvent.
+ */</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='76' type='void CampaignTerminate(CampaignOptions * campaign)'/>
+<use f='codebrowser/src/cdogs.c' l='302' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/campaigns.c' l='47' ll='51' type='void CampaignTerminate(CampaignOptions * campaign)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1402' u='c' c='main'/>

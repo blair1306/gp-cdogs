@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='78' type='Mix_Chunk *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/sounds.c' l='156' u='w' c='SoundLoad'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='298' u='r' c='SoundDataTerminate'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='576' u='r' c='SoundDataGet'/>

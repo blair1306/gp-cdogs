@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/SDL_JoystickButtonNames/db.h' l='1' type='const char *'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='62' u='r' c='SDLJBN_Init'/>

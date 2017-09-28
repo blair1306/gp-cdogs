@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='92' type='7'/>
+<use f='codebrowser/src/cdogs/ai.c' l='158' c='IsDirectionOK'/>
+<use f='codebrowser/src/cdogs/ai.c' l='365' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='406' c='AIIsFacing'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='683' c='AIMoveAwayFromLine'/>
+<use f='codebrowser/src/cdogs/defs.c' l='82' u='r'/>
+<use f='codebrowser/src/cdogs/defs.c' l='82' u='r'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='452' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='452' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='457' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='457' u='r' c='Draw'/>
+<use f='codebrowser/src/player_select_menus.c' l='542' u='r' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/player_select_menus.c' l='542' u='r' c='PostInputRotatePlayer'/>

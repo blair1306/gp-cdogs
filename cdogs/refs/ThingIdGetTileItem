@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='167' type='TTileItem * ThingIdGetTileItem(const ThingId * tid)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='273' u='c' c='DrawObjectivesAndKeys'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='336' u='c' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='200' u='c' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='273' u='c' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='422' u='c' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='375' u='c' c='DrawChatters'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='72' u='c' c='DrawObjectiveHighlights'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='505' u='c' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/los.c' l='206' u='c' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/map.c' l='851' u='c' c='MapIsTileAreaClear'/>
+<def f='codebrowser/src/cdogs/tile.c' l='134' ll='160' type='TTileItem * ThingIdGetTileItem(const ThingId * tid)'/>

@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3513' ll='3522'/>
+<size>96</size>
+<mbr r='nk_property_state::active' o='0' t='int'/>
+<mbr r='nk_property_state::prev' o='32' t='int'/>
+<mbr r='nk_property_state::buffer' o='64' t='char [64]'/>
+<mbr r='nk_property_state::length' o='576' t='int'/>
+<mbr r='nk_property_state::cursor' o='608' t='int'/>
+<mbr r='nk_property_state::name' o='640' t='nk_hash'/>
+<mbr r='nk_property_state::seq' o='672' t='unsigned int'/>
+<mbr r='nk_property_state::old' o='704' t='unsigned int'/>
+<mbr r='nk_property_state::state' o='736' t='int'/>

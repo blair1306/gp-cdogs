@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='46' type='4'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='789' u='r' c='HandleInput'/>
+<doc f='codebrowser/src/cdogsed/ui_object.h' l='46'>// appear on mouse click</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1164' u='r' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='64' u='r' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='225' u='r' c='CreateAddMapItemObjsImpl'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='325' u='r' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='314' u='r' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='461' u='r' c='CreateSetKeyObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='201' u='r' c='CreateAddItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='337' u='r' c='CreateAddCharacterObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='400' u='r' c='CreateAddObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='529' u='r' c='CreateAddKeyObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='164' u='r' c='CreateWeaponObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='61' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='154' u='r' c='UIObjectAddChild'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='178' u='r' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='208' u='r' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='213' u='r' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='267' u='r' c='DisableContextMenuParents'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='441' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='559' u='r' c='UITryGetObjectImpl'/>

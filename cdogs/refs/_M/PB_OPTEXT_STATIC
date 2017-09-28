@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='444'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='443'>/* Optional extensions don&apos;t have the has_ field, as that would be redundant. */</doc>

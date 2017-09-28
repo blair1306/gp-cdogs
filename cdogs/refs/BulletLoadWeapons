@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='119' type='void BulletLoadWeapons(BulletClasses * bullets)'/>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='118'>// 2-step initialisation since bullet and weapon reference each other</doc>
+<def f='codebrowser/src/cdogs/bullet_class.c' l='793' ll='798' type='void BulletLoadWeapons(BulletClasses * bullets)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='129' u='c' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='648' u='c' c='BulletAndWeaponInitialize'/>

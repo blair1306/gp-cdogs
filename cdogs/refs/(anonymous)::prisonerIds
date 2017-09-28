@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/character.h' l='59' type='CArray'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/character.h' l='58'>// IDs only (of int)</doc>
+<use f='codebrowser/src/cdogs/character.c' l='44' u='a' c='CharacterStoreInit'/>
+<use f='codebrowser/src/cdogs/character.c' l='55' u='a' c='CharacterStoreTerminate'/>
+<use f='codebrowser/src/cdogs/character.c' l='63' u='a' c='CharacterStoreResetOthers'/>
+<use f='codebrowser/src/cdogs/character.c' l='210' u='a' c='CharacterStoreAddPrisoner'/>
+<use f='codebrowser/src/cdogs/character.c' l='232' u='a' c='CharacterStoreGetPrisonerId'/>
+<use f='codebrowser/src/cdogs/character.c' l='252' u='m' c='CharacterIsPrisoner'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='520' u='m' c='MissionDrawRescueObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='437' u='m' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='500' u='m' c='CreateAddObjectiveSubObjs'/>

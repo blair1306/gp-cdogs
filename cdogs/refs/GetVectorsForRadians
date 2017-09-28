@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='116' type='void GetVectorsForRadians(const double radians, double * x, double * y)'/>
+<def f='codebrowser/src/cdogs/defs.c' l='119' ll='123' type='void GetVectorsForRadians(const double radians, double * x, double * y)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='330' u='c' c='DrawLaserSightSingle'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='502' u='c' c='GunAddBrass'/>

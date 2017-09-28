@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='41' type='12'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='39'>/* we differentiate between strings which require further processing,
+     * and strings that do not */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='201' u='r' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='206' u='r' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='214' u='r' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='226' u='r' c='yajl_lex_utf8_char'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='305' u='r' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='361' u='r' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='666' u='r' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='241' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='397' c='yajl_do_parse'/>

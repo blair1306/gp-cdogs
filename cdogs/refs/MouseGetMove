@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='67' type='int MouseGetMove(Mouse * mouse, const Vec2i pos)'/>
+<doc f='codebrowser/src/cdogs/mouse.h' l='65'>// Get mouse movement from a screen position
+// Note: also sets whether the mouse trail is drawn, and from where</doc>
+<use f='codebrowser/src/cdogs/events.c' l='239' u='c' c='GetMouseCmd'/>
+<def f='codebrowser/src/cdogs/mouse.c' l='170' ll='194' type='int MouseGetMove(Mouse * mouse, const Vec2i pos)'/>

@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_gamecontroller.h' l='312' type='void SDL_GameControllerClose(SDL_GameController * gamecontroller)'/>
+<doc f='include/SDL2/SDL_gamecontroller.h' l='309'>/**
+ *  Close a controller previously opened with SDL_GameControllerOpen().
+ */</doc>
+<use f='codebrowser/src/cdogs/joystick.c' l='80' u='c' c='JoyTerminateOne'/>

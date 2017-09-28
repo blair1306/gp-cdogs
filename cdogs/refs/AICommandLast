@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/ai.h' l='57' type='void AICommandLast(const int ticks)'/>
+<def f='codebrowser/src/cdogs/ai.c' l='516' ll='528' type='void AICommandLast(const int ticks)'/>
+<use f='codebrowser/src/game.c' l='541' u='c' c='RunGameUpdate'/>

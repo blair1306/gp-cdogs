@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3653' type='struct nk_table *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16880' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17791' u='w' c='nk_push_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17798' u='w' c='nk_push_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17809' u='r' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17810' u='r' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17811' u='r' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17813' u='w' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17813' u='r' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17814' u='w' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17851' u='r' c='nk_find_value'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17885' u='r' c='nk_free_window'/>
+<offset>3776</offset>

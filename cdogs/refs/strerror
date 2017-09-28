@@ -1,0 +1,27 @@
+<dec f='include/string.h' l='408' type='char * strerror(int __errnum)'/>
+<doc f='include/string.h' l='407'>/* Return a string describing the meaning of the `errno&apos; code in ERRNUM.  */</doc>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='80' u='c' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='80' u='c' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='207' u='c' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='218' u='c' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='217' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='217' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='226' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='226' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/cdogs/log.c' l='129' u='c' c='LogOpenFile'/>
+<use f='codebrowser/src/cdogs/log.c' l='129' u='c' c='LogOpenFile'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='218' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='225' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='231' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='237' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='242' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='255' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='197' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='197' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='208' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='208' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='201' u='c' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='201' u='c' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogs/utils.c' l='224' u='c' c='RealPath'/>
+<use f='codebrowser/src/cdogs/utils.c' l='338' u='c' c='RelPathFromCWD'/>
+<use f='codebrowser/src/cdogs/utils.c' l='360' u='c' c='GetDataFilePath'/>

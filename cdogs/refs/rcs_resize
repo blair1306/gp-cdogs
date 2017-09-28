@@ -1,0 +1,3 @@
+<def f='codebrowser/src/json/json.c' l='103' ll='119' type='rstring_code rcs_resize(rcstring * rcs, size_t length)'/>
+<use f='codebrowser/src/json/json.c' l='130' u='c' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='147' u='c' c='rcs_catc'/>

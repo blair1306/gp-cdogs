@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='22' type='void enet_free(void * )'/>
+<def f='codebrowser/src/cdogs/enet/callbacks.c' l='48' ll='52' type='void enet_free(void * memory)'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='65' u='c' c='enet_range_coder_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='45' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='57' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='58' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='160' u='c' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='161' u='c' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='36' u='c' c='enet_packet_create'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='66' u='c' c='enet_packet_destroy'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='67' u='c' c='enet_packet_destroy'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='93' u='c' c='enet_packet_resize'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='158' u='c' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='240' u='c' c='enet_peer_receive'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='242' u='c' c='enet_peer_receive'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='266' u='c' c='enet_peer_reset_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='292' u='c' c='enet_peer_remove_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='294' u='c' c='enet_peer_remove_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='317' u='c' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='335' u='c' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='958' u='c' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='184' u='c' c='enet_protocol_remove_sent_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='262' u='c' c='enet_protocol_remove_sent_reliable_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1302' u='c' c='enet_protocol_send_acknowledgements'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1359' u='c' c='enet_protocol_send_unreliable_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1397' u='c' c='enet_protocol_send_unreliable_outgoing_commands'/>

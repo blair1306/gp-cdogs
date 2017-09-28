@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map.h' l='167' type='void MapPlaceKey(Map * map, const struct MissionOptions * mo, const Vec2i pos, const int keyIndex)'/>
+<doc f='codebrowser/src/cdogs/map.h' l='166'>// TODO: refactor</doc>
+<def f='codebrowser/src/cdogs/map.c' l='496' ll='511' type='void MapPlaceKey(Map * map, const struct MissionOptions * mo, const Vec2i pos, const int keyIndex)'/>
+<use f='codebrowser/src/cdogs/map.c' l='529' u='c' c='MapPlaceCard'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='224' u='c' c='AddKey'/>

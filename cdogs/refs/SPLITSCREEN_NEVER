@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/config.h' l='99' type='2'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='184' u='r' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/camera.c' l='443' u='r' c='CameraIsSingleScreen'/>
+<use f='codebrowser/src/cdogs/config.c' l='161' c='SplitscreenStyleStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='170' u='r' c='StrSplitscreenStyle'/>
+<use f='codebrowser/src/cdogs/config.c' l='680' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='681' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='673' u='r' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/game.c' l='547' u='r' c='RunGameUpdate'/>

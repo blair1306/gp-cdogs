@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='49' type='CArray'/>
+<doc f='codebrowser/src/cdogs/pickup.h' l='49'>// of Pickup</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='486' u='a' c='CheckPickupFunc'/>
+<use f='codebrowser/src/cdogs/actors.c' l='998' u='a' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='584' u='m' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='584' u='a' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/automap.c' l='298' u='a' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/automap.c' l='302' u='a' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='103' u='a' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='522' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='522' u='a' c='NetServerSendGameStartMessages'/>
+<def f='codebrowser/src/cdogs/pickup.c' l='38' type='CArray'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='44' u='a' c='PickupsInit'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='45' u='a' c='PickupsInit'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='50' u='m' c='PickupsTerminate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='50' u='a' c='PickupsTerminate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='56' u='a' c='PickupsTerminate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='74' u='m' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='76' u='a' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='87' u='a' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='88' u='m' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='89' u='a' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='299' u='a' c='GetPickupPic'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='306' u='m' c='PickupGetByUID'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='306' u='a' c='PickupGetByUID'/>
+<use f='codebrowser/src/cdogs/tile.c' l='153' u='a' c='ThingIdGetTileItem'/>

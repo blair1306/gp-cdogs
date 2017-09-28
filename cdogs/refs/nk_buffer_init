@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2269' type='void nk_buffer_init(struct nk_buffer * , const struct nk_allocator * , nk_size size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6060' u='c' c='nk_buffer_init_default'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6064' ll='6080' macro='1' type='void nk_buffer_init(struct nk_buffer * b, const struct nk_allocator * a, nk_size initial_size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6336' u='c' c='nk_str_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6344' u='c' c='nk_str_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16794' u='c' c='nk_init'/>

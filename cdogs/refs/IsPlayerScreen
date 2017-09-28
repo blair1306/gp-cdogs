@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/player.h' l='96' type='_Bool IsPlayerScreen(const PlayerData * p)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='228' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='264' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='115' u='c' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='697' u='c' c='DrawPlayerAreas'/>
+<def f='codebrowser/src/cdogs/player.c' l='351' ll='358' macro='1' type='_Bool IsPlayerScreen(const PlayerData * p)'/>

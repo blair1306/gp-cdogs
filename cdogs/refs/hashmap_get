@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='57' type='int hashmap_get(const map_t in, const char * key, any_t * arg)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.h' l='54'>/*
+ * Get an element from the hashmap. Return MAP_OK or MAP_MISSING.
+ */</doc>
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='283' ll='308' type='int hashmap_get(const map_t m, const char * key, any_t * arg)'/>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='280'>/*
+ * Get your pointer out of the hashmap with a key
+ */</doc>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='46' u='c' c='StrCharSpriteClass'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='48' u='c' c='StrCharSpriteClass'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='214' u='c' c='CharSpritesGetOffset'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='218' u='c' c='CharSpritesGetOffset'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='439' u='c' c='PicManagerGetNamedPic'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='444' u='c' c='PicManagerGetNamedPic'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='461' u='c' c='PicManagerGetSprites'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='466' u='c' c='PicManagerGetSprites'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='559' u='c' c='StrSound'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='564' u='c' c='StrSound'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='35' u='c' c='_cbehave_feature_hashmap_get'/>
+<use f='codebrowser/src/tests/c_hashmap_test.c' l='53' u='c' c='_cbehave_feature_hashmap_get'/>

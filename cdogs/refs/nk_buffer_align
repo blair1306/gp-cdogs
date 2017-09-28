@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='6097' ll='6125' macro='1' type='void * nk_buffer_align(void * unaligned, nk_size align, nk_size * alignment, enum nk_buffer_allocation_type type)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6184' u='c' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6209' u='c' c='nk_buffer_alloc'/>

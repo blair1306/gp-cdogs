@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/path_cache.h' l='41' type='Vec2i'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/path_cache.c' l='66' u='r' c='CachedPathMatches'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='129' u='w' c='PathCacheCreate'/>

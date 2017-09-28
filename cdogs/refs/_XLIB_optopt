@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/XGetopt.h' l='73' type='int'/>
+<def f='codebrowser/src/XGetopt.c' l='45' macro='1' type='int'/>
+<use f='codebrowser/src/XGetopt.c' l='118' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='137' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='395' macro='1' u='r'/>
+<doc f='codebrowser/src/XGetopt.h' l='85'>/** holds the option character in error, if any */</doc>

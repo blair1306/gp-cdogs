@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='48' type='struct nk_sdl_device'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='56' u='a' c='nk_sdl_device_upload_atlas'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='69' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='210' u='m' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='228' u='m' c='nk_sdl_font_stash_end'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='228' u='m' c='nk_sdl_font_stash_end'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='334' u='a' c='nk_sdl_shutdown'/>
+<offset>64</offset>

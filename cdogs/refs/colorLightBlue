@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/color.h' l='91' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='85' type='color_t'/>
+<use f='codebrowser/src/cdogs/player.c' l='151' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='152' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='153' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='154' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='188' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='189' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='190' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='191' u='r' c='PlayerDataDefault'/>

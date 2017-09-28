@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2868' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7427' u='r' c='nk_draw_list_alloc_path'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7429' u='w' c='nk_draw_list_alloc_path'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7442' u='r' c='nk_draw_list_path_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8088' u='w' c='nk_draw_list_path_clear'/>
+<offset>1824</offset>

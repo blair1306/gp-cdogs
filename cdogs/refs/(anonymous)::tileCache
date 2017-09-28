@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='58' type='CArray'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/collision/collision.h' l='57'>// Cache of tiles to check for potential collisions, of tile coords</doc>
+<doc f='codebrowser/src/cdogs/collision/collision.h' l='58'>// of Vec2i</doc>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='127' u='a' c='CollisionSystemInit'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='135' u='a' c='CollisionSystemTerminate'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='298' u='a' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='302' u='a' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='308' u='m' c='OverlapTileItems'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='308' u='a' c='OverlapTileItems'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2328' type='nk_rune nk_str_rune_at(const struct nk_str * , int pos)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6744' ll='6751' macro='1' type='nk_rune nk_str_rune_at(const struct nk_str * str, int pos)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12425' u='c' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13022' u='c' c='nk_textedit_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13034' u='c' c='nk_textedit_key'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13200' u='c' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13252' u='c' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13282' u='c' c='nk_textedit_makeundo_delete'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13294' u='c' c='nk_textedit_makeundo_replace'/>

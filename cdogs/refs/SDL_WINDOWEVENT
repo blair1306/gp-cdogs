@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_events.h' l='89' type='512'/>
+<doc f='include/SDL2/SDL_events.h' l='88'>/* Window events */</doc>
+<doc f='include/SDL2/SDL_events.h' l='89'>/**&lt; Window state change */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='158' c='EventPoll'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='323' c='HandleEvents'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='138' type='int MapObjectsCount(const MapObjects * classes)'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='534' ll='537' type='int MapObjectsCount(const MapObjects * classes)'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='279' u='c' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='242' u='c' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='303' u='c' c='CreateAddMapItemSubObjs'/>

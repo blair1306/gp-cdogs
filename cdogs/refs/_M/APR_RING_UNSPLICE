@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='367'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='360'>/**
+ * Unsplice a sequence of elements from a ring
+ * @warning The unspliced sequence is left with dangling pointers at either end
+ * @param ep1  First element in the sequence to unsplice
+ * @param epN  Last element in the sequence to unsplice
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

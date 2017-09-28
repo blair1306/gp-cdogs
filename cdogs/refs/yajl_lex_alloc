@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='50' type='yajl_lexer yajl_lex_alloc(yajl_alloc_funcs * alloc, unsigned int allowComments, unsigned int validateUTF8)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='125' u='c' c='yajl_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='145' u='c' c='yajl_complete_parse'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='103' ll='114' type='yajl_lexer yajl_lex_alloc(yajl_alloc_funcs * alloc, unsigned int allowComments, unsigned int validateUTF8)'/>

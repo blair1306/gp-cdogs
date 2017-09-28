@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/damage.h' l='55' type='_Bool CanHitCharacter(const int flags, const int uid, const TActor * actor)'/>
+<def f='codebrowser/src/cdogs/damage.c' l='55' ll='63' macro='1' type='_Bool CanHitCharacter(const int flags, const int uid, const TActor * actor)'/>
+<use f='codebrowser/src/cdogs/damage.c' l='69' u='c' c='CanDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='242' u='c' c='CanHit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='330' u='c' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='330' u='c' c='DoDamageCharacter'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='7435' ll='7445' macro='1' type='struct nk_vec2 nk_draw_list_path_last(struct nk_draw_list * list)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8180' u='c' c='nk_draw_list_path_curve_to'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/map.h' l='140' type='_Bool MapIsTileAreaClear(Map * map, const Vec2i fullPos, const Vec2i size)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='57' u='c' c='PlaceActor'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='70' u='c' c='PlaceActor'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='88' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='88' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='88' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='88' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='88' u='c' c='PlaceActorNear'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='135' u='c' c='PlaceAwayFromPlayers'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='147' u='c' c='PlaceAwayFromPlayers'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='166' u='c' c='PlacePrisoner'/>
+<def f='codebrowser/src/cdogs/map.c' l='820' ll='862' macro='1' type='_Bool MapIsTileAreaClear(Map * map, const Vec2i fullPos, const Vec2i size)'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='154'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='152'>/* Byte array with pre-allocated buffer.
+ * data_size is the length of the allocated PB_BYTES_ARRAY structure. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='187' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='486' u='c'/>

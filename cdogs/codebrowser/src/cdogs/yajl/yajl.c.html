@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl.c source code [codebrowser/src/cdogs/yajl/yajl.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl.c'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl.c.html'>yajl.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#include <a href="api/yajl_parse.h.html">"api/yajl_parse.h"</a></u></td></tr>
+<tr><th id="18">18</th><td><u>#include <a href="yajl_lex.h.html">"yajl_lex.h"</a></u></td></tr>
+<tr><th id="19">19</th><td><u>#include <a href="yajl_parser.h.html">"yajl_parser.h"</a></u></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="yajl_alloc.h.html">"yajl_alloc.h"</a></u></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#include <a href="../../../../include/stdlib.h.html">&lt;stdlib.h&gt;</a></u></td></tr>
+<tr><th id="23">23</th><td><u>#include <a href="../../../../include/string.h.html">&lt;string.h&gt;</a></u></td></tr>
+<tr><th id="24">24</th><td><u>#include &lt;stdarg.h&gt;</u></td></tr>
+<tr><th id="25">25</th><td><u>#include <a href="../../../../include/assert.h.html">&lt;assert.h&gt;</a></u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><em>const</em> <em>char</em> *</td></tr>
+<tr><th id="28">28</th><td><dfn class="decl def" id="yajl_status_to_string" title='yajl_status_to_string' data-ref="yajl_status_to_string">yajl_status_to_string</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a> <dfn class="local col6 decl" id="86stat" title='stat' data-type='yajl_status' data-ref="86stat">stat</dfn>)</td></tr>
+<tr><th id="29">29</th><td>{</td></tr>
+<tr><th id="30">30</th><td>    <em>const</em> <em>char</em> * <dfn class="local col7 decl" id="87statStr" title='statStr' data-type='const char *' data-ref="87statStr">statStr</dfn> = <q>"unknown"</q>;</td></tr>
+<tr><th id="31">31</th><td>    <b>switch</b> (<a class="local col6 ref" href="#86stat" title='stat' data-ref="86stat">stat</a>) {</td></tr>
+<tr><th id="32">32</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_status_ok" title='yajl_status_ok' data-ref="yajl_status_ok">yajl_status_ok</a>:</td></tr>
+<tr><th id="33">33</th><td>            <a class="local col7 ref" href="#87statStr" title='statStr' data-ref="87statStr">statStr</a> = <q>"ok, no error"</q>;</td></tr>
+<tr><th id="34">34</th><td>            <b>break</b>;</td></tr>
+<tr><th id="35">35</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_status_client_canceled" title='yajl_status_client_canceled' data-ref="yajl_status_client_canceled">yajl_status_client_canceled</a>:</td></tr>
+<tr><th id="36">36</th><td>            <a class="local col7 ref" href="#87statStr" title='statStr' data-ref="87statStr">statStr</a> = <q>"client canceled parse"</q>;</td></tr>
+<tr><th id="37">37</th><td>            <b>break</b>;</td></tr>
+<tr><th id="38">38</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_status_error" title='yajl_status_error' data-ref="yajl_status_error">yajl_status_error</a>:</td></tr>
+<tr><th id="39">39</th><td>            <a class="local col7 ref" href="#87statStr" title='statStr' data-ref="87statStr">statStr</a> = <q>"parse error"</q>;</td></tr>
+<tr><th id="40">40</th><td>            <b>break</b>;</td></tr>
+<tr><th id="41">41</th><td>    }</td></tr>
+<tr><th id="42">42</th><td>    <b>return</b> <a class="local col7 ref" href="#87statStr" title='statStr' data-ref="87statStr">statStr</a>;</td></tr>
+<tr><th id="43">43</th><td>}</td></tr>
+<tr><th id="44">44</th><td></td></tr>
+<tr><th id="45">45</th><td><a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a></td></tr>
+<tr><th id="46">46</th><td><dfn class="decl def" id="yajl_alloc" title='yajl_alloc' data-ref="yajl_alloc">yajl_alloc</dfn>(<em>const</em> <a class="typedef" href="api/yajl_parse.h.html#yajl_callbacks" title='yajl_callbacks' data-type='struct yajl_callbacks' data-ref="yajl_callbacks">yajl_callbacks</a> * <dfn class="local col8 decl" id="88callbacks" title='callbacks' data-type='const yajl_callbacks *' data-ref="88callbacks">callbacks</dfn>,</td></tr>
+<tr><th id="47">47</th><td>           <a class="typedef" href="../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> * <dfn class="local col9 decl" id="89afs" title='afs' data-type='yajl_alloc_funcs *' data-ref="89afs">afs</dfn>,</td></tr>
+<tr><th id="48">48</th><td>           <em>void</em> * <dfn class="local col0 decl" id="90ctx" title='ctx' data-type='void *' data-ref="90ctx">ctx</dfn>)</td></tr>
+<tr><th id="49">49</th><td>{</td></tr>
+<tr><th id="50">50</th><td>    <a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col1 decl" id="91hand" title='hand' data-type='yajl_handle' data-ref="91hand">hand</dfn> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="51">51</th><td>    <a class="typedef" href="../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> <dfn class="local col2 decl" id="92afsBuffer" title='afsBuffer' data-type='yajl_alloc_funcs' data-ref="92afsBuffer">afsBuffer</dfn>;</td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td>    <i>/* first order of business is to set up memory allocation routines */</i></td></tr>
+<tr><th id="54">54</th><td>    <b>if</b> (<a class="local col9 ref" href="#89afs" title='afs' data-ref="89afs">afs</a> != <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) {</td></tr>
+<tr><th id="55">55</th><td>        <b>if</b> (<a class="local col9 ref" href="#89afs" title='afs' data-ref="89afs">afs</a>-&gt;<a class="ref" href="../include/yajl/yajl_common.h.html#(anonymous)::malloc" title='(anonymous struct)::malloc' data-ref="(anonymous)::malloc">malloc</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span> || <a class="local col9 ref" href="#89afs" title='afs' data-ref="89afs">afs</a>-&gt;<a class="ref" href="../include/yajl/yajl_common.h.html#(anonymous)::realloc" title='(anonymous struct)::realloc' data-ref="(anonymous)::realloc">realloc</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span> || <a class="local col9 ref" href="#89afs" title='afs' data-ref="89afs">afs</a>-&gt;<a class="ref" href="../include/yajl/yajl_common.h.html#(anonymous)::free" title='(anonymous struct)::free' data-ref="(anonymous)::free">free</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>)</td></tr>
+<tr><th id="56">56</th><td>        {</td></tr>
+<tr><th id="57">57</th><td>            <b>return</b> <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="58">58</th><td>        }</td></tr>
+<tr><th id="59">59</th><td>    } <b>else</b> {</td></tr>
+<tr><th id="60">60</th><td>        <a class="ref" href="yajl_alloc.h.html#yajl_set_default_alloc_funcs" title='yajl_set_default_alloc_funcs' data-ref="yajl_set_default_alloc_funcs">yajl_set_default_alloc_funcs</a>(&amp;<a class="local col2 ref" href="#92afsBuffer" title='afsBuffer' data-ref="92afsBuffer">afsBuffer</a>);</td></tr>
+<tr><th id="61">61</th><td>        <a class="local col9 ref" href="#89afs" title='afs' data-ref="89afs">afs</a> = &amp;<a class="local col2 ref" href="#92afsBuffer" title='afsBuffer' data-ref="92afsBuffer">afsBuffer</a>;</td></tr>
+<tr><th id="62">62</th><td>    }</td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td>    <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a> = (<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a>) <a class="macro" href="yajl_alloc.h.html#28" title="(afs)-&gt;malloc((afs)-&gt;ctx, (sizeof(struct yajl_handle_t)))" data-ref="_M/YA_MALLOC">YA_MALLOC</a>(<a class="local col9 ref" href="#89afs" title='afs' data-ref="89afs">afs</a>, <b>sizeof</b>(<b>struct</b> <a class="type" href="yajl_parser.h.html#yajl_handle_t" title='yajl_handle_t' data-ref="yajl_handle_t">yajl_handle_t</a>));</td></tr>
+<tr><th id="65">65</th><td></td></tr>
+<tr><th id="66">66</th><td>    <i>/* copy in pointers to allocation routines */</i></td></tr>
+<tr><th id="67">67</th><td>    <a class="ref" href="../../../../include/string.h.html#memcpy" title='memcpy' data-ref="memcpy">memcpy</a>((<em>void</em> *) &amp;(<a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</a>), (<em>void</em> *) <a class="local col9 ref" href="#89afs" title='afs' data-ref="89afs">afs</a>, <b>sizeof</b>(<a class="typedef" href="../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a>));</td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td>    <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::callbacks" title='yajl_handle_t::callbacks' data-ref="yajl_handle_t::callbacks">callbacks</a> = <a class="local col8 ref" href="#88callbacks" title='callbacks' data-ref="88callbacks">callbacks</a>;</td></tr>
+<tr><th id="70">70</th><td>    <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::ctx" title='yajl_handle_t::ctx' data-ref="yajl_handle_t::ctx">ctx</a> = <a class="local col0 ref" href="#90ctx" title='ctx' data-ref="90ctx">ctx</a>;</td></tr>
+<tr><th id="71">71</th><td>    <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>; </td></tr>
+<tr><th id="72">72</th><td>    <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::bytesConsumed" title='yajl_handle_t::bytesConsumed' data-ref="yajl_handle_t::bytesConsumed">bytesConsumed</a> = <var>0</var>;</td></tr>
+<tr><th id="73">73</th><td>    <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::decodeBuf" title='yajl_handle_t::decodeBuf' data-ref="yajl_handle_t::decodeBuf">decodeBuf</a> = <a class="ref" href="yajl_buf.h.html#yajl_buf_alloc" title='yajl_buf_alloc' data-ref="yajl_buf_alloc">yajl_buf_alloc</a>(&amp;(<a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</a>));</td></tr>
+<tr><th id="74">74</th><td>    <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</a>	    = <var>0</var>;</td></tr>
+<tr><th id="75">75</th><td>    <a class="macro" href="yajl_bytestack.h.html#38" title="{ (hand-&gt;stateStack).stack = ((void*)0); (hand-&gt;stateStack).size = 0; (hand-&gt;stateStack).used = 0; (hand-&gt;stateStack).yaf = (&amp;(hand-&gt;alloc)); }" data-ref="_M/yajl_bs_init">yajl_bs_init</a>(<a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::stateStack" title='yajl_handle_t::stateStack' data-ref="yajl_handle_t::stateStack">stateStack</a>, &amp;(<a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</a>));</td></tr>
+<tr><th id="76">76</th><td>    <a class="macro" href="yajl_bytestack.h.html#53" title="{ if (((hand-&gt;stateStack).size - (hand-&gt;stateStack).used) == 0) { (hand-&gt;stateStack).size += 128; (hand-&gt;stateStack).stack = (hand-&gt;stateStack).yaf-&gt;realloc((hand-&gt;stateStack).yaf-&gt;ctx, (void *) (hand-&gt;stateStack).stack, (hand-&gt;stateStack).size); } (hand-&gt;stateStack).stack[((hand-&gt;stateStack).used)++] = (yajl_state_start); }" data-ref="_M/yajl_bs_push">yajl_bs_push</a>(<a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::stateStack" title='yajl_handle_t::stateStack' data-ref="yajl_handle_t::stateStack">stateStack</a>, <a class="enum" href="yajl_parser.h.html#yajl_state_start" title='yajl_state_start' data-ref="yajl_state_start">yajl_state_start</a>);</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td>    <b>return</b> <a class="local col1 ref" href="#91hand" title='hand' data-ref="91hand">hand</a>;</td></tr>
+<tr><th id="79">79</th><td>}</td></tr>
+<tr><th id="80">80</th><td></td></tr>
+<tr><th id="81">81</th><td><em>int</em></td></tr>
+<tr><th id="82">82</th><td><dfn class="decl def" id="yajl_config" title='yajl_config' data-ref="yajl_config">yajl_config</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col3 decl" id="93h" title='h' data-type='yajl_handle' data-ref="93h">h</dfn>, <a class="typedef" href="api/yajl_parse.h.html#yajl_option" title='yajl_option' data-type='enum yajl_option' data-ref="yajl_option">yajl_option</a> <dfn class="local col4 decl" id="94opt" title='opt' data-type='yajl_option' data-ref="94opt">opt</dfn>, ...)</td></tr>
+<tr><th id="83">83</th><td>{</td></tr>
+<tr><th id="84">84</th><td>    <em>int</em> <dfn class="local col5 decl" id="95rv" title='rv' data-type='int' data-ref="95rv">rv</dfn> = <var>1</var>;</td></tr>
+<tr><th id="85">85</th><td>    <span class='typedef' title='va_list' data-type='__builtin_va_list' data-ref="va_list">va_list</span> <dfn class="local col6 decl" id="96ap" title='ap' data-type='va_list' data-ref="96ap">ap</dfn>;</td></tr>
+<tr><th id="86">86</th><td>    <span class="macro" title="__builtin_va_start(ap, opt)" data-ref="_M/va_start">va_start</span>(<a class="local col6 ref" href="#96ap" title='ap' data-ref="96ap">ap</a>, <a class="local col4 ref" href="#94opt" title='opt' data-ref="94opt">opt</a>);</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td>    <b>switch</b>(<a class="local col4 ref" href="#94opt" title='opt' data-ref="94opt">opt</a>) {</td></tr>
+<tr><th id="89">89</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_allow_comments" title='yajl_allow_comments' data-ref="yajl_allow_comments">yajl_allow_comments</a>:</td></tr>
+<tr><th id="90">90</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_dont_validate_strings" title='yajl_dont_validate_strings' data-ref="yajl_dont_validate_strings">yajl_dont_validate_strings</a>:</td></tr>
+<tr><th id="91">91</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_allow_trailing_garbage" title='yajl_allow_trailing_garbage' data-ref="yajl_allow_trailing_garbage">yajl_allow_trailing_garbage</a>:</td></tr>
+<tr><th id="92">92</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_allow_multiple_values" title='yajl_allow_multiple_values' data-ref="yajl_allow_multiple_values">yajl_allow_multiple_values</a>:</td></tr>
+<tr><th id="93">93</th><td>        <b>case</b> <a class="enum" href="api/yajl_parse.h.html#yajl_allow_partial_values" title='yajl_allow_partial_values' data-ref="yajl_allow_partial_values">yajl_allow_partial_values</a>:</td></tr>
+<tr><th id="94">94</th><td>            <b>if</b> (<span class="macro" title="__builtin_va_arg(ap, int)" data-ref="_M/va_arg">va_arg</span>(<a class="local col6 ref" href="#96ap" title='ap' data-ref="96ap">ap</a>, <em>int</em>)) <a class="local col3 ref" href="#93h" title='h' data-ref="93h">h</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</a> |= <a class="local col4 ref" href="#94opt" title='opt' data-ref="94opt">opt</a>;</td></tr>
+<tr><th id="95">95</th><td>            <b>else</b> <a class="local col3 ref" href="#93h" title='h' data-ref="93h">h</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</a> &amp;= ~<a class="local col4 ref" href="#94opt" title='opt' data-ref="94opt">opt</a>;</td></tr>
+<tr><th id="96">96</th><td>            <b>break</b>;</td></tr>
+<tr><th id="97">97</th><td>        <b>default</b>:</td></tr>
+<tr><th id="98">98</th><td>            <a class="local col5 ref" href="#95rv" title='rv' data-ref="95rv">rv</a> = <var>0</var>;</td></tr>
+<tr><th id="99">99</th><td>    }</td></tr>
+<tr><th id="100">100</th><td>    <span class="macro" title="__builtin_va_end(ap)" data-ref="_M/va_end">va_end</span>(<a class="local col6 ref" href="#96ap" title='ap' data-ref="96ap">ap</a>);</td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>    <b>return</b> <a class="local col5 ref" href="#95rv" title='rv' data-ref="95rv">rv</a>;</td></tr>
+<tr><th id="103">103</th><td>}</td></tr>
+<tr><th id="104">104</th><td></td></tr>
+<tr><th id="105">105</th><td><em>void</em></td></tr>
+<tr><th id="106">106</th><td><dfn class="decl def" id="yajl_free" title='yajl_free' data-ref="yajl_free">yajl_free</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col7 decl" id="97handle" title='handle' data-type='yajl_handle' data-ref="97handle">handle</dfn>)</td></tr>
+<tr><th id="107">107</th><td>{</td></tr>
+<tr><th id="108">108</th><td>    <a class="macro" href="yajl_bytestack.h.html#47" title="if ((handle-&gt;stateStack).stack) (handle-&gt;stateStack).yaf-&gt;free((handle-&gt;stateStack).yaf-&gt;ctx, (handle-&gt;stateStack).stack);" data-ref="_M/yajl_bs_free">yajl_bs_free</a>(<a class="local col7 ref" href="#97handle" title='handle' data-ref="97handle">handle</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::stateStack" title='yajl_handle_t::stateStack' data-ref="yajl_handle_t::stateStack">stateStack</a>);</td></tr>
+<tr><th id="109">109</th><td>    <a class="ref" href="yajl_buf.h.html#yajl_buf_free" title='yajl_buf_free' data-ref="yajl_buf_free">yajl_buf_free</a>(<a class="local col7 ref" href="#97handle" title='handle' data-ref="97handle">handle</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::decodeBuf" title='yajl_handle_t::decodeBuf' data-ref="yajl_handle_t::decodeBuf">decodeBuf</a>);</td></tr>
+<tr><th id="110">110</th><td>    <b>if</b> (<a class="local col7 ref" href="#97handle" title='handle' data-ref="97handle">handle</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a>) {</td></tr>
+<tr><th id="111">111</th><td>        <a class="ref" href="yajl_lex.h.html#yajl_lex_free" title='yajl_lex_free' data-ref="yajl_lex_free">yajl_lex_free</a>(<a class="local col7 ref" href="#97handle" title='handle' data-ref="97handle">handle</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a>);</td></tr>
+<tr><th id="112">112</th><td>        <a class="local col7 ref" href="#97handle" title='handle' data-ref="97handle">handle</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a> = <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>;</td></tr>
+<tr><th id="113">113</th><td>    }</td></tr>
+<tr><th id="114">114</th><td>    <a class="macro" href="yajl_alloc.h.html#29" title="(&amp;(handle-&gt;alloc))-&gt;free((&amp;(handle-&gt;alloc))-&gt;ctx, (handle))" data-ref="_M/YA_FREE">YA_FREE</a>(&amp;(<a class="local col7 ref" href="#97handle" title='handle' data-ref="97handle">handle</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</a>), <a class="local col7 ref" href="#97handle" title='handle' data-ref="97handle">handle</a>);</td></tr>
+<tr><th id="115">115</th><td>}</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td><a class="typedef" href="api/yajl_parse.h.html#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a></td></tr>
+<tr><th id="118">118</th><td><dfn class="decl def" id="yajl_parse" title='yajl_parse' data-ref="yajl_parse">yajl_parse</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col8 decl" id="98hand" title='hand' data-type='yajl_handle' data-ref="98hand">hand</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col9 decl" id="99jsonText" title='jsonText' data-type='const unsigned char *' data-ref="99jsonText">jsonText</dfn>,</td></tr>
+<tr><th id="119">119</th><td>           <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="100jsonTextLen" title='jsonTextLen' data-type='size_t' data-ref="100jsonTextLen">jsonTextLen</dfn>)</td></tr>
+<tr><th id="120">120</th><td>{</td></tr>
+<tr><th id="121">121</th><td>    <a class="typedef" href="api/yajl_parse.h.html#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a> <dfn class="local col1 decl" id="101status" title='status' data-type='yajl_status' data-ref="101status">status</dfn>;</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td>    <i>/* lazy allocation of the lexer */</i></td></tr>
+<tr><th id="124">124</th><td>    <b>if</b> (<a class="local col8 ref" href="#98hand" title='hand' data-ref="98hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) {</td></tr>
+<tr><th id="125">125</th><td>        <a class="local col8 ref" href="#98hand" title='hand' data-ref="98hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a> = <a class="ref" href="yajl_lex.h.html#yajl_lex_alloc" title='yajl_lex_alloc' data-ref="yajl_lex_alloc">yajl_lex_alloc</a>(&amp;(<a class="local col8 ref" href="#98hand" title='hand' data-ref="98hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</a>),</td></tr>
+<tr><th id="126">126</th><td>                                     <a class="local col8 ref" href="#98hand" title='hand' data-ref="98hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</a> &amp; <a class="enum" href="api/yajl_parse.h.html#yajl_allow_comments" title='yajl_allow_comments' data-ref="yajl_allow_comments">yajl_allow_comments</a>,</td></tr>
+<tr><th id="127">127</th><td>                                     !(<a class="local col8 ref" href="#98hand" title='hand' data-ref="98hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</a> &amp; <a class="enum" href="api/yajl_parse.h.html#yajl_dont_validate_strings" title='yajl_dont_validate_strings' data-ref="yajl_dont_validate_strings">yajl_dont_validate_strings</a>));</td></tr>
+<tr><th id="128">128</th><td>    }</td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td>    <a class="local col1 ref" href="#101status" title='status' data-ref="101status">status</a> = <a class="ref" href="yajl_parser.h.html#yajl_do_parse" title='yajl_do_parse' data-ref="yajl_do_parse">yajl_do_parse</a>(<a class="local col8 ref" href="#98hand" title='hand' data-ref="98hand">hand</a>, <a class="local col9 ref" href="#99jsonText" title='jsonText' data-ref="99jsonText">jsonText</a>, <a class="local col0 ref" href="#100jsonTextLen" title='jsonTextLen' data-ref="100jsonTextLen">jsonTextLen</a>);</td></tr>
+<tr><th id="131">131</th><td>    <b>return</b> <a class="local col1 ref" href="#101status" title='status' data-ref="101status">status</a>;</td></tr>
+<tr><th id="132">132</th><td>}</td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><a class="typedef" href="api/yajl_parse.h.html#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a></td></tr>
+<tr><th id="136">136</th><td><dfn class="decl def" id="yajl_complete_parse" title='yajl_complete_parse' data-ref="yajl_complete_parse">yajl_complete_parse</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col2 decl" id="102hand" title='hand' data-type='yajl_handle' data-ref="102hand">hand</dfn>)</td></tr>
+<tr><th id="137">137</th><td>{</td></tr>
+<tr><th id="138">138</th><td>    <i>/* The lexer is lazy allocated in the first call to parse.  if parse is</i></td></tr>
+<tr><th id="139">139</th><td><i>     * never called, then no data was provided to parse at all.  This is a</i></td></tr>
+<tr><th id="140">140</th><td><i>     * "premature EOF" error unless yajl_allow_partial_values is specified.</i></td></tr>
+<tr><th id="141">141</th><td><i>     * allocating the lexer now is the simplest possible way to handle this</i></td></tr>
+<tr><th id="142">142</th><td><i>     * case while preserving all the other semantics of the parser</i></td></tr>
+<tr><th id="143">143</th><td><i>     * (multiple values, partial values, etc). */</i></td></tr>
+<tr><th id="144">144</th><td>    <b>if</b> (<a class="local col2 ref" href="#102hand" title='hand' data-ref="102hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a> == <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>) {</td></tr>
+<tr><th id="145">145</th><td>        <a class="local col2 ref" href="#102hand" title='hand' data-ref="102hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</a> = <a class="ref" href="yajl_lex.h.html#yajl_lex_alloc" title='yajl_lex_alloc' data-ref="yajl_lex_alloc">yajl_lex_alloc</a>(&amp;(<a class="local col2 ref" href="#102hand" title='hand' data-ref="102hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</a>),</td></tr>
+<tr><th id="146">146</th><td>                                     <a class="local col2 ref" href="#102hand" title='hand' data-ref="102hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</a> &amp; <a class="enum" href="api/yajl_parse.h.html#yajl_allow_comments" title='yajl_allow_comments' data-ref="yajl_allow_comments">yajl_allow_comments</a>,</td></tr>
+<tr><th id="147">147</th><td>                                     !(<a class="local col2 ref" href="#102hand" title='hand' data-ref="102hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</a> &amp; <a class="enum" href="api/yajl_parse.h.html#yajl_dont_validate_strings" title='yajl_dont_validate_strings' data-ref="yajl_dont_validate_strings">yajl_dont_validate_strings</a>));</td></tr>
+<tr><th id="148">148</th><td>    }</td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td>    <b>return</b> <a class="ref" href="yajl_parser.h.html#yajl_do_finish" title='yajl_do_finish' data-ref="yajl_do_finish">yajl_do_finish</a>(<a class="local col2 ref" href="#102hand" title='hand' data-ref="102hand">hand</a>);</td></tr>
+<tr><th id="151">151</th><td>}</td></tr>
+<tr><th id="152">152</th><td></td></tr>
+<tr><th id="153">153</th><td><em>unsigned</em> <em>char</em> *</td></tr>
+<tr><th id="154">154</th><td><dfn class="decl def" id="yajl_get_error" title='yajl_get_error' data-ref="yajl_get_error">yajl_get_error</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col3 decl" id="103hand" title='hand' data-type='yajl_handle' data-ref="103hand">hand</dfn>, <em>int</em> <dfn class="local col4 decl" id="104verbose" title='verbose' data-type='int' data-ref="104verbose">verbose</dfn>,</td></tr>
+<tr><th id="155">155</th><td>               <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col5 decl" id="105jsonText" title='jsonText' data-type='const unsigned char *' data-ref="105jsonText">jsonText</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col6 decl" id="106jsonTextLen" title='jsonTextLen' data-type='size_t' data-ref="106jsonTextLen">jsonTextLen</dfn>)</td></tr>
+<tr><th id="156">156</th><td>{</td></tr>
+<tr><th id="157">157</th><td>    <b>return</b> <a class="ref" href="yajl_parser.h.html#yajl_render_error_string" title='yajl_render_error_string' data-ref="yajl_render_error_string">yajl_render_error_string</a>(<a class="local col3 ref" href="#103hand" title='hand' data-ref="103hand">hand</a>, <a class="local col5 ref" href="#105jsonText" title='jsonText' data-ref="105jsonText">jsonText</a>, <a class="local col6 ref" href="#106jsonTextLen" title='jsonTextLen' data-ref="106jsonTextLen">jsonTextLen</a>, <a class="local col4 ref" href="#104verbose" title='verbose' data-ref="104verbose">verbose</a>);</td></tr>
+<tr><th id="158">158</th><td>}</td></tr>
+<tr><th id="159">159</th><td></td></tr>
+<tr><th id="160">160</th><td><span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span></td></tr>
+<tr><th id="161">161</th><td><dfn class="decl def" id="yajl_get_bytes_consumed" title='yajl_get_bytes_consumed' data-ref="yajl_get_bytes_consumed">yajl_get_bytes_consumed</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col7 decl" id="107hand" title='hand' data-type='yajl_handle' data-ref="107hand">hand</dfn>)</td></tr>
+<tr><th id="162">162</th><td>{</td></tr>
+<tr><th id="163">163</th><td>    <b>if</b> (!<a class="local col7 ref" href="#107hand" title='hand' data-ref="107hand">hand</a>) <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="164">164</th><td>    <b>else</b> <b>return</b> <a class="local col7 ref" href="#107hand" title='hand' data-ref="107hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::bytesConsumed" title='yajl_handle_t::bytesConsumed' data-ref="yajl_handle_t::bytesConsumed">bytesConsumed</a>;</td></tr>
+<tr><th id="165">165</th><td>}</td></tr>
+<tr><th id="166">166</th><td></td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td><em>void</em></td></tr>
+<tr><th id="169">169</th><td><dfn class="decl def" id="yajl_free_error" title='yajl_free_error' data-ref="yajl_free_error">yajl_free_error</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col8 decl" id="108hand" title='hand' data-type='yajl_handle' data-ref="108hand">hand</dfn>, <em>unsigned</em> <em>char</em> * <dfn class="local col9 decl" id="109str" title='str' data-type='unsigned char *' data-ref="109str">str</dfn>)</td></tr>
+<tr><th id="170">170</th><td>{</td></tr>
+<tr><th id="171">171</th><td>    <i>/* use memory allocation functions if set */</i></td></tr>
+<tr><th id="172">172</th><td>    <a class="macro" href="yajl_alloc.h.html#29" title="(&amp;(hand-&gt;alloc))-&gt;free((&amp;(hand-&gt;alloc))-&gt;ctx, (str))" data-ref="_M/YA_FREE">YA_FREE</a>(&amp;(<a class="local col8 ref" href="#108hand" title='hand' data-ref="108hand">hand</a>-&gt;<a class="ref" href="yajl_parser.h.html#yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</a>), <a class="local col9 ref" href="#109str" title='str' data-ref="109str">str</a>);</td></tr>
+<tr><th id="173">173</th><td>}</td></tr>
+<tr><th id="174">174</th><td></td></tr>
+<tr><th id="175">175</th><td><i>/* XXX: add utility routines to parse from file */</i></td></tr>
+<tr><th id="176">176</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

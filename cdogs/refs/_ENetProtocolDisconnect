@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='135' ll='139'/>
+<size>8</size>
+<mbr r='_ENetProtocolDisconnect::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolDisconnect::data' o='32' t='enet_uint32'/>

@@ -1,0 +1,40 @@
+<dec f='include/netinet/in.h' l='376' type='uint32_t ntohl(uint32_t __netlong)'/>
+<doc f='include/netinet/in.h' l='369'>/* Functions to convert between host and network byte order.
+
+   Please note that these functions normally take `unsigned long int&apos; or
+   `unsigned short int&apos; values as arguments and also return them.  But
+   this was a short-sighted decision since on different systems the types
+   may have different representations but the values are always the same.  */</doc>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='174' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='284' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='324' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='325' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='326' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='327' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='328' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='329' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='359' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='395' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='396' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='550' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='551' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='552' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='553' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='666' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='667' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='668' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='669' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='759' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='760' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='790' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='791' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='792' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='821' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='924' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='927' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='928' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='929' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='948' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='959' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='970' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='971' macro='1' u='c'/>

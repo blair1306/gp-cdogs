@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='7508' ll='7522' macro='1' type='void nk_draw_list_push_image(struct nk_draw_list * list, nk_handle texture)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8103' u='c' c='nk_draw_list_path_line_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8271' u='c' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8392' u='c' c='nk_draw_list_add_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8425' u='c' c='nk_draw_list_add_text'/>

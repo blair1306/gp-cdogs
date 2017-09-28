@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='539' type='int Mix_FadeInMusic(Mix_Music * music, int loops, int ms)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='538'>/* Fade in music or a channel over &quot;ms&quot; milliseconds, same semantics as the &quot;Play&quot; functions */</doc>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='174' type='1'/>
+<use f='codebrowser/src/cdogs/camera.c' l='398' u='r' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/events.c' l='285' c='GetGameCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='310' c='GetOnePlayerCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='362' u='r' c='GetMenuCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='398' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/events.c' l='465' c='InputGetDirectionNames'/>
+<use f='codebrowser/src/cdogs/utils.c' l='395' c='InputDeviceName'/>
+<use f='codebrowser/src/game.c' l='346' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='379' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/menu_utils.c' l='96' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/prep.c' l='274' u='r' c='AssignPlayerInputDevices'/>
+<use f='codebrowser/src/tests/player_test.c' l='107' u='r' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='119' u='r' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='137' u='r' c='_cbehave_feature_assign_unused'/>

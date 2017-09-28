@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='164' type='_Bool *'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='469' u='w' c='MenuCreateOptionToggle'/>
+<use f='codebrowser/src/menu.c' l='934' u='r' c='MenuOptionGetIntValue'/>
+<use f='codebrowser/src/menu.c' l='1207' u='r' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1207' u='r' c='MenuActivate'/>

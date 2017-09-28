@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/hud/fps.h' l='34' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='38' u='w' c='FPSCounterInit'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='46' u='r' c='FPSCounterUpdate'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='47' u='w' c='FPSCounterUpdate'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='54' u='w' c='FPSCounterDraw'/>

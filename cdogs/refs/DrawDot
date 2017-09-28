@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/automap.c' l='194' ll='199' type='void DrawDot(TTileItem * t, color_t color, Vec2i pos, int scale)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='320' u='c' c='DrawTileItem'/>

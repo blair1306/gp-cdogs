@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='180' type='void InjureActor(TActor * actor, int injury)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='125' u='c' c='UpdateActorState'/>
+<def f='codebrowser/src/cdogs/actors.c' l='528' ll='559' type='void InjureActor(TActor * actor, int injury)'/>
+<use f='codebrowser/src/cdogs/damage.c' l='84' u='c' c='DamageActor'/>

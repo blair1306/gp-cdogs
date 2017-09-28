@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='188' ll='200' type='void nk_sdl_clipbard_copy(nk_handle usr, const char * text, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='207' u='r' c='nk_sdl_init'/>

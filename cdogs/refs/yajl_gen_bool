@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='135' type='yajl_gen_status yajl_gen_bool(yajl_gen hand, int boolean)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='289' ll='299' type='yajl_gen_status yajl_gen_bool(yajl_gen g, int boolean)'/>

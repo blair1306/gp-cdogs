@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='569' type='void enet_host_channel_limit(ENetHost * , size_t )'/>
+<def f='codebrowser/src/cdogs/enet/host.c' l='299' ll='309' type='void enet_host_channel_limit(ENetHost * host, size_t channelLimit)'/>
+<doc f='codebrowser/src/cdogs/enet/host.c' l='295'>/** Limits the maximum allowed channels of future incoming connections.
+    @param host host to limit
+    @param channelLimit the maximum number of channels allowed; if 0, then this is equivalent to ENET_PROTOCOL_MAXIMUM_CHANNEL_COUNT
+*/</doc>

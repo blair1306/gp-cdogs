@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='484' ll='488'/>
+<size>24</size>
+<mbr r='nk_allocator::userdata' o='0' t='nk_handle'/>
+<mbr r='nk_allocator::alloc' o='64' t='nk_plugin_alloc'/>
+<mbr r='nk_allocator::free' o='128' t='nk_plugin_free'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='106' type='2'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='911' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='935' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='524' u='r' c='EditorBrushStopPainting'/>

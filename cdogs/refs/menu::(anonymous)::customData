@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/menu.h' l='217' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/menu.h:212:3)'/>
+<offset>0</offset>
+<use f='codebrowser/src/menu.c' l='574' u='m' c='MenuCreateCustom'/>
+<use f='codebrowser/src/menu.c' l='575' u='m' c='MenuCreateCustom'/>
+<use f='codebrowser/src/menu.c' l='576' u='m' c='MenuCreateCustom'/>
+<use f='codebrowser/src/menu.c' l='588' u='m' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='589' u='m' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='968' u='m' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='968' u='m' c='MenuProcessCmd'/>

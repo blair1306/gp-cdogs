@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='117' type='void ObjDestroy(TObject * o)'/>
+<use f='codebrowser/src/cdogs/objs.c' l='209' u='c' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='414' u='c' c='ObjsTerminate'/>
+<def f='codebrowser/src/cdogs/objs.c' l='475' ll='480' type='void ObjDestroy(TObject * o)'/>

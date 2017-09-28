@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='437' type='ENetPeer *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='437'>/**&lt; peer that generated a connect, disconnect or receive event */</doc>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='75' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='84' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='100' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='129' u='w' c='enet_protocol_notify_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='148' u='w' c='enet_protocol_notify_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1768' u='w' c='enet_host_check_events'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1795' u='w' c='enet_host_service'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='194' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='196' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='196' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='270' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='273' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='351' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='353' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='353' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='355' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='355' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='355' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='357' u='r' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='380' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='382' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='383' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='383' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='384' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='388' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='390' u='r' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='390' u='r' c='OnDisconnect'/>

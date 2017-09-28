@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2301' type='void nk_str_clear(struct nk_str * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6785' ll='6791' macro='1' type='void nk_str_clear(struct nk_str * str)'/>

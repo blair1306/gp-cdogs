@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/powerup.h' l='40' type='int'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/powerup.c' l='76' u='r' c='PowerupSpawnerUpdate'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='144' u='w' c='HealthSpawnerInit'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='194' u='w' c='AmmoSpawnerInit'/>

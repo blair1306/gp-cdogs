@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='492' type='ENetSocket enet_socket_create(ENetSocketType )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='51' u='c' c='enet_host_create'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='298' ll='302' type='ENetSocket enet_socket_create(ENetSocketType type)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='114' u='c' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='117' u='c' c='ListenSocketTryOpen'/>

@@ -1,0 +1,5 @@
+<dec f='include/netdb.h' l='574' type='struct sockaddr *'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='135' u='r' c='enet_address_set_host'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='137' u='r' c='enet_address_set_host'/>
+<offset>192</offset>
+<doc f='include/netdb.h' l='574'>/* Socket address for socket.  */</doc>

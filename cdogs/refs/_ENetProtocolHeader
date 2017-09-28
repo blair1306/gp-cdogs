@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='65' ll='69'/>
+<size>4</size>
+<mbr r='_ENetProtocolHeader::peerID' o='0' t='enet_uint16'/>
+<mbr r='_ENetProtocolHeader::sentTime' o='16' t='enet_uint16'/>

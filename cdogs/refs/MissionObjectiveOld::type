@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/files.h' l='128' type='int32_t'/>
+<offset>480</offset>
+<use f='codebrowser/src/cdogs/files.c' l='195' u='a' c='load_mission_objective'/>
+<use f='codebrowser/src/cdogs/files.c' l='195' u='r' c='load_mission_objective'/>
+<use f='codebrowser/src/cdogs/files.c' l='201' u='r' c='load_mission_objective'/>
+<use f='codebrowser/src/cdogs/files.c' l='339' u='r' c='ConvertObjective'/>

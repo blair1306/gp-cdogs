@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>animation.c source code [codebrowser/src/cdogs/animation.c] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/animation.c'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='animation.c.html'>animation.c</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2013-2017, Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#include <a href="animation.h.html">"animation.h"</a></u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="defs.h.html">"defs.h"</a></u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><em>static</em> <a class="typedef" href="animation.h.html#Animation" title='Animation' data-type='struct Animation' data-ref="Animation">Animation</a> <dfn class="tu decl def" id="animIdling" title='animIdling' data-type='Animation' data-ref="animIdling">animIdling</dfn> =</td></tr>
+<tr><th id="34">34</th><td>{</td></tr>
+<tr><th id="35">35</th><td>	<a class="enum" href="animation.h.html#ACTORANIMATION_IDLE" title='ACTORANIMATION_IDLE' data-ref="ACTORANIMATION_IDLE">ACTORANIMATION_IDLE</a>,</td></tr>
+<tr><th id="36">36</th><td>	<var>0</var>,</td></tr>
+<tr><th id="37">37</th><td>	{ <a class="enum" href="animation.h.html#IDLEHEAD_NORMAL" title='IDLEHEAD_NORMAL' data-ref="IDLEHEAD_NORMAL">IDLEHEAD_NORMAL</a>, <a class="enum" href="animation.h.html#IDLEHEAD_LEFT" title='IDLEHEAD_LEFT' data-ref="IDLEHEAD_LEFT">IDLEHEAD_LEFT</a>, <a class="enum" href="animation.h.html#IDLEHEAD_RIGHT" title='IDLEHEAD_RIGHT' data-ref="IDLEHEAD_RIGHT">IDLEHEAD_RIGHT</a> },</td></tr>
+<tr><th id="38">38</th><td>	{ <var>90</var>, <var>60</var>, <var>60</var> },</td></tr>
+<tr><th id="39">39</th><td>	<var>0</var>,</td></tr>
+<tr><th id="40">40</th><td>	<span class="macro" title="1" data-ref="_M/true">true</span>,</td></tr>
+<tr><th id="41">41</th><td>	<span class="macro" title="1" data-ref="_M/true">true</span></td></tr>
+<tr><th id="42">42</th><td>};</td></tr>
+<tr><th id="43">43</th><td><em>static</em> <a class="typedef" href="animation.h.html#Animation" title='Animation' data-type='struct Animation' data-ref="Animation">Animation</a> <dfn class="tu decl def" id="animWalking" title='animWalking' data-type='Animation' data-ref="animWalking">animWalking</dfn> =</td></tr>
+<tr><th id="44">44</th><td>{</td></tr>
+<tr><th id="45">45</th><td>	<a class="enum" href="animation.h.html#ACTORANIMATION_WALKING" title='ACTORANIMATION_WALKING' data-ref="ACTORANIMATION_WALKING">ACTORANIMATION_WALKING</a>,</td></tr>
+<tr><th id="46">46</th><td>	<var>0</var>,</td></tr>
+<tr><th id="47">47</th><td>	{ <var>0</var>, <var>1</var>, <var>2</var>, <var>3</var>, <var>4</var>, <var>5</var>, <var>6</var>, <var>7</var> },</td></tr>
+<tr><th id="48">48</th><td>	{ <var>4</var>, <var>4</var>, <var>4</var>, <var>4</var>, <var>4</var>, <var>4</var>, <var>4</var>, <var>4</var> },</td></tr>
+<tr><th id="49">49</th><td>	<var>0</var>,</td></tr>
+<tr><th id="50">50</th><td>	<span class="macro" title="0" data-ref="_M/false">false</span>,</td></tr>
+<tr><th id="51">51</th><td>	<span class="macro" title="1" data-ref="_M/true">true</span></td></tr>
+<tr><th id="52">52</th><td>};</td></tr>
+<tr><th id="53">53</th><td></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><a class="typedef" href="animation.h.html#Animation" title='Animation' data-type='struct Animation' data-ref="Animation">Animation</a> <dfn class="decl def" id="AnimationGetActorAnimation" title='AnimationGetActorAnimation' data-ref="AnimationGetActorAnimation">AnimationGetActorAnimation</dfn>(<em>const</em> <a class="typedef" href="animation.h.html#ActorAnimation" title='ActorAnimation' data-type='enum ActorAnimation' data-ref="ActorAnimation">ActorAnimation</a> <dfn class="local col1 decl" id="1aa" title='aa' data-type='const ActorAnimation' data-ref="1aa">aa</dfn>)</td></tr>
+<tr><th id="56">56</th><td>{</td></tr>
+<tr><th id="57">57</th><td>	<b>switch</b> (<a class="local col1 ref" href="#1aa" title='aa' data-ref="1aa">aa</a>)</td></tr>
+<tr><th id="58">58</th><td>	{</td></tr>
+<tr><th id="59">59</th><td>	<b>case</b> <a class="enum" href="animation.h.html#ACTORANIMATION_IDLE" title='ACTORANIMATION_IDLE' data-ref="ACTORANIMATION_IDLE">ACTORANIMATION_IDLE</a>: <b>return</b> <a class="tu ref" href="#animIdling" title='animIdling' data-use='r' data-ref="animIdling">animIdling</a>;</td></tr>
+<tr><th id="60">60</th><td>	<b>case</b> <a class="enum" href="animation.h.html#ACTORANIMATION_WALKING" title='ACTORANIMATION_WALKING' data-ref="ACTORANIMATION_WALKING">ACTORANIMATION_WALKING</a>: <b>return</b> <a class="tu ref" href="#animWalking" title='animWalking' data-use='r' data-ref="animWalking">animWalking</a>;</td></tr>
+<tr><th id="61">61</th><td>	<b>default</b>: <a class="macro" href="utils.h.html#83" title="{ volatile _Bool isOk = 0; if (!isOk) { static char _buf[1024]; sprintf( _buf, &quot;In %s %d:%s: &quot; &quot;Unknown actor animation&quot; &quot; (&quot; &quot;false&quot; &quot;)&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/cdogs/animation.c&quot;, 61, __FUNCTION__); ; ((0) ? (void) (0) : __assert_fail (&quot;0&quot;, &quot;/home/jon/workspace/cdogs-sdl/src/cdogs/animation.c&quot;, 61, __PRETTY_FUNCTION__)); }}" data-ref="_M/CASSERT">CASSERT</a>(<span class="macro" title="0" data-ref="_M/false">false</span>, <q>"Unknown actor animation"</q>); <b>return</b> <a class="tu ref" href="#animIdling" title='animIdling' data-use='r' data-ref="animIdling">animIdling</a>;</td></tr>
+<tr><th id="62">62</th><td>	}</td></tr>
+<tr><th id="63">63</th><td>}</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><em>void</em> <dfn class="decl def" id="AnimationUpdate" title='AnimationUpdate' data-ref="AnimationUpdate">AnimationUpdate</dfn>(<a class="typedef" href="animation.h.html#Animation" title='Animation' data-type='struct Animation' data-ref="Animation">Animation</a> *<dfn class="local col2 decl" id="2a" title='a' data-type='Animation *' data-ref="2a">a</dfn>, <em>const</em> <em>int</em> <dfn class="local col3 decl" id="3ticks" title='ticks' data-type='const int' data-ref="3ticks">ticks</dfn>)</td></tr>
+<tr><th id="66">66</th><td>{</td></tr>
+<tr><th id="67">67</th><td>	<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frameCounter" title='(anonymous struct)::frameCounter' data-ref="(anonymous)::frameCounter">frameCounter</a> += <a class="local col3 ref" href="#3ticks" title='ticks' data-ref="3ticks">ticks</a>;</td></tr>
+<tr><th id="68">68</th><td>	<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::newFrame" title='(anonymous struct)::newFrame' data-ref="(anonymous)::newFrame">newFrame</a> = <span class="macro" title="0" data-ref="_M/false">false</span>;</td></tr>
+<tr><th id="69">69</th><td>	<b>if</b> (<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frameCounter" title='(anonymous struct)::frameCounter' data-ref="(anonymous)::frameCounter">frameCounter</a> &gt; <a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::ticksPerFrame" title='(anonymous struct)::ticksPerFrame' data-ref="(anonymous)::ticksPerFrame">ticksPerFrame</a>[<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a>])</td></tr>
+<tr><th id="70">70</th><td>	{</td></tr>
+<tr><th id="71">71</th><td>		<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frameCounter" title='(anonymous struct)::frameCounter' data-ref="(anonymous)::frameCounter">frameCounter</a> -= <a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::ticksPerFrame" title='(anonymous struct)::ticksPerFrame' data-ref="(anonymous)::ticksPerFrame">ticksPerFrame</a>[<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a>];</td></tr>
+<tr><th id="72">72</th><td>		<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::newFrame" title='(anonymous struct)::newFrame' data-ref="(anonymous)::newFrame">newFrame</a> = <span class="macro" title="1" data-ref="_M/true">true</span>;</td></tr>
+<tr><th id="73">73</th><td>		<i>// Advance to next frame</i></td></tr>
+<tr><th id="74">74</th><td>		<b>if</b> (<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::randomFrames" title='(anonymous struct)::randomFrames' data-ref="(anonymous)::randomFrames">randomFrames</a>)</td></tr>
+<tr><th id="75">75</th><td>		{</td></tr>
+<tr><th id="76">76</th><td>			<i>// If we're not on the first frame, return to first frame</i></td></tr>
+<tr><th id="77">77</th><td><i>			// Otherwise, pick a random non-first frame</i></td></tr>
+<tr><th id="78">78</th><td>			<b>if</b> (<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a> == <var>0</var>)</td></tr>
+<tr><th id="79">79</th><td>			{</td></tr>
+<tr><th id="80">80</th><td>				<i>// Note: -1 means frame not used, so pick another frame</i></td></tr>
+<tr><th id="81">81</th><td>				<b>do</b></td></tr>
+<tr><th id="82">82</th><td>				{</td></tr>
+<tr><th id="83">83</th><td>					<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a> = (<a class="ref" href="../../../include/stdlib.h.html#rand" title='rand' data-ref="rand">rand</a>() % (<a class="macro" href="animation.h.html#48" title="8" data-ref="_M/ANIMATION_MAX_FRAMES">ANIMATION_MAX_FRAMES</a> - <var>1</var>)) + <var>1</var>;</td></tr>
+<tr><th id="84">84</th><td>				} <b>while</b> (<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::ticksPerFrame" title='(anonymous struct)::ticksPerFrame' data-ref="(anonymous)::ticksPerFrame">ticksPerFrame</a>[<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a>] &lt; <var>0</var>);</td></tr>
+<tr><th id="85">85</th><td>			}</td></tr>
+<tr><th id="86">86</th><td>			<b>else</b></td></tr>
+<tr><th id="87">87</th><td>			{</td></tr>
+<tr><th id="88">88</th><td>				<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a> = <var>0</var>;</td></tr>
+<tr><th id="89">89</th><td>			}</td></tr>
+<tr><th id="90">90</th><td>		}</td></tr>
+<tr><th id="91">91</th><td>		<b>else</b></td></tr>
+<tr><th id="92">92</th><td>		{</td></tr>
+<tr><th id="93">93</th><td>			<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a>++;</td></tr>
+<tr><th id="94">94</th><td>			<b>if</b> (<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a> &gt;= <a class="macro" href="animation.h.html#48" title="8" data-ref="_M/ANIMATION_MAX_FRAMES">ANIMATION_MAX_FRAMES</a> ||</td></tr>
+<tr><th id="95">95</th><td>				<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::ticksPerFrame" title='(anonymous struct)::ticksPerFrame' data-ref="(anonymous)::ticksPerFrame">ticksPerFrame</a>[<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a>] &lt; <var>0</var>)</td></tr>
+<tr><th id="96">96</th><td>			{</td></tr>
+<tr><th id="97">97</th><td>				<a class="local col2 ref" href="#2a" title='a' data-ref="2a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a> = <var>0</var>;</td></tr>
+<tr><th id="98">98</th><td>			}</td></tr>
+<tr><th id="99">99</th><td>		}</td></tr>
+<tr><th id="100">100</th><td>	}</td></tr>
+<tr><th id="101">101</th><td>}</td></tr>
+<tr><th id="102">102</th><td><em>int</em> <dfn class="decl def" id="AnimationGetFrame" title='AnimationGetFrame' data-ref="AnimationGetFrame">AnimationGetFrame</dfn>(<em>const</em> <a class="typedef" href="animation.h.html#Animation" title='Animation' data-type='struct Animation' data-ref="Animation">Animation</a> *<dfn class="local col4 decl" id="4a" title='a' data-type='const Animation *' data-ref="4a">a</dfn>)</td></tr>
+<tr><th id="103">103</th><td>{</td></tr>
+<tr><th id="104">104</th><td>	<b>return</b> <a class="local col4 ref" href="#4a" title='a' data-ref="4a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frames" title='(anonymous struct)::frames' data-ref="(anonymous)::frames">frames</a>[<a class="local col4 ref" href="#4a" title='a' data-ref="4a">a</a>-&gt;<a class="ref" href="animation.h.html#(anonymous)::frame" title='(anonymous struct)::frame' data-ref="(anonymous)::frame">frame</a>];</td></tr>
+<tr><th id="105">105</th><td>}</td></tr>
+<tr><th id="106">106</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

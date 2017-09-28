@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='50' type='HUDNumPopups'/>
+<offset>2432</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='152' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='618' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='80' u='a' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='89' u='a' c='HUDTerminate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='110' u='a' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='720' u='a' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='980' u='a' c='DrawObjectiveCounts'/>

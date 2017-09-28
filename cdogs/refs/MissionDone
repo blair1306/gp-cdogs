@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='252' type='void MissionDone(struct MissionOptions * mo, const NMissionEnd end)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='676' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/mission.c' l='510' ll='515' type='void MissionDone(struct MissionOptions * mo, const NMissionEnd end)'/>
+<use f='codebrowser/src/game.c' l='616' u='c' c='RunGameUpdate'/>

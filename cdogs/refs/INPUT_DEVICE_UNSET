@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='173' type='0'/>
+<use f='codebrowser/src/cdogs/events.c' l='107' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='126' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='337' u='r' c='GetPlayerCmds'/>
+<use f='codebrowser/src/cdogs/events.c' l='483' c='InputGetDirectionNames'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='810' u='r' c='DrawStateMessage'/>
+<use f='codebrowser/src/cdogs/player.c' l='62' u='r' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='457' u='r' c='PlayerTrySetUnusedInputDevice'/>
+<use f='codebrowser/src/game.c' l='339' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='340' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='358' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='385' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='400' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='408' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='410' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='417' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='429' u='r' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='484' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/menu_utils.c' l='135' c='MenuDisplayPlayerControls'/>
+<use f='codebrowser/src/prep.c' l='367' u='r' c='PlayerSelectionOnExit'/>
+<use f='codebrowser/src/prep.c' l='415' u='r' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='436' u='r' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='479' u='r' c='PlayerSelectionDraw'/>
+<use f='codebrowser/src/tests/player_test.c' l='105' u='r' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='134' u='r' c='_cbehave_feature_assign_unused'/>
+<use f='codebrowser/src/tests/player_test.c' l='145' u='r' c='_cbehave_feature_assign_unused'/>

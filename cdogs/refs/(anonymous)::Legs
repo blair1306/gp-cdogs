@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='62' type='color_t'/>
+<offset>96</offset>
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='62' type='const Pic *'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/blit.c' l='70' u='a' c='CharColorGetByType'/>
+<use f='codebrowser/src/cdogs/blit.c' l='344' u='r' c='CharColorsGetChannelMask'/>
+<use f='codebrowser/src/cdogs/character.c' l='100' u='a' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='164' u='r' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/character.c' l='299' u='w' c='CharacterShuffleAppearance'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='192' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='195' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='221' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='352' u='r' c='DrawActorHighlight'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='355' u='r' c='DrawActorHighlight'/>
+<use f='codebrowser/src/cdogs/files.c' l='297' u='w' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='136' u='r' c='CharColors2Net'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='146' u='w' c='Net2CharColors'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='67' u='a' c='LoadPlayerTemplate'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='135' u='r' c='SavePlayerTemplate'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='499' u='a' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='601' u='w' c='AddCharacter'/>

@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='127' ll='133'/>
+<size>16</size>
+<mbr r='_ENetProtocolThrottleConfigure::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolThrottleConfigure::packetThrottleInterval' o='32' t='enet_uint32'/>
+<mbr r='_ENetProtocolThrottleConfigure::packetThrottleAcceleration' o='64' t='enet_uint32'/>
+<mbr r='_ENetProtocolThrottleConfigure::packetThrottleDeceleration' o='96' t='enet_uint32'/>

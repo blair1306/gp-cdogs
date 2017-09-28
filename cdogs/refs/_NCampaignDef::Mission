@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='91' type='uint32_t'/>
+<offset>32800</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='473' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='91' u='w' c='NMakeCampaignDef'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='48'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='48'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='48'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='48'/>

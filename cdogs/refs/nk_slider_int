@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1527' type='int nk_slider_int(struct nk_context * , int min, int * val, int max, int step)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20495' ll='20503' macro='1' type='int nk_slider_int(struct nk_context * ctx, int min, int * val, int max, int step)'/>

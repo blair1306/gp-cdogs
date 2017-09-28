@@ -1,0 +1,20 @@
+<def f='codebrowser/src/cdogsed/cdogsed.c' l='96' type='Vec2i'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='145' u='w' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='158' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='193' u='r' c='Display'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='946' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='951' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='956' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='961' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='967' u='w' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='967' u='r' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='972' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='m' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='973' u='m' c='HandleInput'/>

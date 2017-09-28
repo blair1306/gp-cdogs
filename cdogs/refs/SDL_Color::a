@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_pixels.h' l='284' type='Uint8'/>
+<offset>24</offset>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='235' u='w' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='445' u='w' c='NewColor'/>

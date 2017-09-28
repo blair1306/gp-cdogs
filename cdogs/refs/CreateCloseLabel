@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='78' type='void CreateCloseLabel(UIObject * c, const Vec2i pos)'/>
+<doc f='codebrowser/src/cdogsed/editor_ui_common.h' l='77'>// Create a dummy label that can be clicked to close the context menu</doc>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='129' u='c' c='CreateColorPicker'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='412' ll='422' type='void CreateCloseLabel(UIObject * c, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='175' u='c' c='CreateWeaponObjs'/>

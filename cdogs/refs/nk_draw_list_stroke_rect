@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2899' type='void nk_draw_list_stroke_rect(struct nk_draw_list * , struct nk_rect rect, struct nk_color , float rounding, float thickness)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8241' ll='8250' macro='1' type='void nk_draw_list_stroke_rect(struct nk_draw_list * list, struct nk_rect rect, struct nk_color col, float rounding, float thickness)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8501' u='c' c='nk_convert'/>

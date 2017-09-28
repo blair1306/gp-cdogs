@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='588' type='int nk_init_custom(struct nk_context * , struct nk_buffer * cmds, struct nk_buffer * pool, const struct nk_user_font * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16765' ll='16785' macro='1' type='int nk_init_custom(struct nk_context * ctx, struct nk_buffer * cmds, struct nk_buffer * pool, const struct nk_user_font * font)'/>

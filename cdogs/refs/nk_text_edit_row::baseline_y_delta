@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='12324' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12363' u='w' c='nk_textedit_layout_row'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12395' u='r' c='nk_textedit_locate_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12498' u='r' c='nk_textedit_find_charpos'/>
+<offset>64</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='12323'>/* starting x location, end x location (allows for align=right, etc) */</doc>

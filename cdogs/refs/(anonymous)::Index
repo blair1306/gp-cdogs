@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='99' type='int'/>
+<dec f='codebrowser/src/cdogs/mission.h' l='104' type='int'/>
+<dec f='codebrowser/src/cdogs/mission.h' l='110' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/map_archive.c' l='522' u='r' c='SaveStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='540' u='r' c='SaveStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='560' u='r' c='SaveStaticKeys'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='650' u='a' c='LoadStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='685' u='a' c='LoadStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='722' u='a' c='LoadStaticKeys'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='119' u='r' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='149' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='152' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='152' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='155' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='167' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='179' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='186' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='193' u='r' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='224' u='r' c='AddKey'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='346' u='r' c='MissionStaticTryAddCharacter'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='357' u='w' c='MissionStaticTryAddCharacter'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='405' u='r' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='409' u='r' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='418' u='w' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='444' u='r' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='474' u='r' c='MissionStaticTryAddKey'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='485' u='w' c='MissionStaticTryAddKey'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='235' u='r' c='MissionChangeObjectiveTotal'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl_utils.h' l='34' type='yajl_val YAJLReadFile(const char * filename)'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='118' u='c' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='37' u='c' c='FontLoadFromJSON'/>
+<def f='codebrowser/src/cdogs/yajl_utils.c' l='33' ll='53' type='yajl_val YAJLReadFile(const char * filename)'/>

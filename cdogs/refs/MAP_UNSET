@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map.h' l='70' type='6'/>
+<doc f='codebrowser/src/cdogs/map.h' l='70'>// internal use by editor</doc>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='205' u='r' c='MissionGetTile'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='467' u='r' c='EditorBrushPaintBox'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='483' u='r' c='EditorBrushPaintBox'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='511' u='r' c='EditorBrushStopPainting'/>

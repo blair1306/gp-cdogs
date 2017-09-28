@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='67' type='const char * ObjectiveTypeStr(const ObjectiveType t)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='446' u='c' c='DrawObjectiveName'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='966' u='c' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='970' u='c' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='580' u='c' c='SaveObjectives'/>
+<def f='codebrowser/src/cdogs/objective.c' l='55' ll='67' type='const char * ObjectiveTypeStr(const ObjectiveType t)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='114' u='c' c='MissionGetObjectiveStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='322' u='c' c='CreateObjectiveObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='509' u='c' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='509' u='c' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='509' u='c' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='509' u='c' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='509' u='c' c='CreateAddObjectiveSubObjs'/>

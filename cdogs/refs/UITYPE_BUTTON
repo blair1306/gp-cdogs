@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='45' type='3'/>
+<doc f='codebrowser/src/cdogsed/ui_object.h' l='45'>// click button with picture</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='971' u='r' c='CreateMainObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='297' u='r' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='81' u='r' c='UIButtonSetPic'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='433' c='UIObjectDrawAndAddChildren'/>

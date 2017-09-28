@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='19' type='void *'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='13' u='w' c='pb_field_iter_begin'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='36' u='r' c='pb_field_iter_next'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='19'>/* Pointer to start of the structure */</doc>

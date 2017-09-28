@@ -1,0 +1,18 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2407' ll='2425'/>
+<size>5384</size>
+<mbr r='nk_text_edit::clip' o='0' t='struct nk_clipboard'/>
+<mbr r='nk_text_edit::string' o='192' t='struct nk_str'/>
+<mbr r='nk_text_edit::filter' o='1216' t='nk_plugin_filter'/>
+<mbr r='nk_text_edit::scrollbar' o='1280' t='struct nk_vec2'/>
+<mbr r='nk_text_edit::cursor' o='1344' t='int'/>
+<mbr r='nk_text_edit::select_start' o='1376' t='int'/>
+<mbr r='nk_text_edit::select_end' o='1408' t='int'/>
+<mbr r='nk_text_edit::mode' o='1440' t='unsigned char'/>
+<mbr r='nk_text_edit::cursor_at_end_of_line' o='1448' t='unsigned char'/>
+<mbr r='nk_text_edit::initialized' o='1456' t='unsigned char'/>
+<mbr r='nk_text_edit::has_preferred_x' o='1464' t='unsigned char'/>
+<mbr r='nk_text_edit::single_line' o='1472' t='unsigned char'/>
+<mbr r='nk_text_edit::active' o='1480' t='unsigned char'/>
+<mbr r='nk_text_edit::padding1' o='1488' t='unsigned char'/>
+<mbr r='nk_text_edit::preferred_x' o='1504' t='float'/>
+<mbr r='nk_text_edit::undo' o='1536' t='struct nk_text_undo_state'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/json/json.h' l='53' type='5'/>
+<use f='codebrowser/src/json/json.c' l='359' u='r' c='json_new_false'/>
+<use f='codebrowser/src/json/json.c' l='486' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='512' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='718' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='775' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='912' c='json_stream_output'/>
+<use f='codebrowser/src/json/json.c' l='957' c='json_stream_output'/>
+<use f='codebrowser/src/json/json.c' l='2472' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2611' u='r' c='json_parse_fragment'/>

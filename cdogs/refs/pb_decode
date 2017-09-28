@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_decode.h' l='68' type='_Bool pb_decode(pb_istream_t * stream, const pb_field_t * fields, void * dest_struct)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='243' u='c' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='56' u='c' c='NetDecode'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='849' ll='861' macro='1' type='_Bool pb_decode(pb_istream_t * stream, const pb_field_t * fields, void * dest_struct)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='871' u='c' c='pb_decode_delimited'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1131' u='c' c='pb_dec_submessage'/>

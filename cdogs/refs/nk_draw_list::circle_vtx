@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2855' type='struct nk_vec2 [12]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7315' u='r' c='nk_draw_list_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7315' u='r' c='nk_draw_list_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7316' u='r' c='nk_draw_list_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7316' u='r' c='nk_draw_list_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7317' u='m' c='nk_draw_list_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7318' u='m' c='nk_draw_list_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8119' u='r' c='nk_draw_list_path_arc_to_fast'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8119' u='r' c='nk_draw_list_path_arc_to_fast'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8119' u='r' c='nk_draw_list_path_arc_to_fast'/>
+<offset>128</offset>

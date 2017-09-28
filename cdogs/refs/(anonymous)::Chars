@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/font.h' l='47' type='CArray'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/font.h' l='47'>// of Pic</doc>
+<use f='codebrowser/src/cdogs/font.c' l='72' u='a' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='113' u='a' c='FontLoad'/>
+<use f='codebrowser/src/cdogs/font.c' l='124' u='m' c='FontTerminate'/>
+<use f='codebrowser/src/cdogs/font.c' l='124' u='a' c='FontTerminate'/>
+<use f='codebrowser/src/cdogs/font.c' l='127' u='a' c='FontTerminate'/>
+<use f='codebrowser/src/cdogs/font.c' l='132' u='a' c='FontW'/>
+<use f='codebrowser/src/cdogs/font.c' l='228' u='a' c='FontChColor'/>

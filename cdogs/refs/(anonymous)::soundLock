@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='136' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='50' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='56' u='w' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actors.c' l='261' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='263' u='w' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='339' u='w' c='WeaponCreate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='434' u='w' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='435' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='437' u='w' c='WeaponUpdate'/>

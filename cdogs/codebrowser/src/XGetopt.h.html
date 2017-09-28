@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>XGetopt.h source code [codebrowser/src/XGetopt.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="option "/>
+<link rel="stylesheet" href="../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/XGetopt.h'; var root_path = '../..'; var data_path = '../../../data';</script>
+<script src='../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='..'>codebrowser</a>/<a href='./'>src</a>/<a href='XGetopt.h.html'>XGetopt.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#<span data-ppcond="1">ifndef</span> <span class="macro" data-ref="_M/_XGETOPT_H">_XGETOPT_H</span></u></td></tr>
+<tr><th id="2">2</th><td><u>#define <dfn class="macro" id="_M/_XGETOPT_H" data-ref="_M/_XGETOPT_H">_XGETOPT_H</dfn></u></td></tr>
+<tr><th id="3">3</th><td></td></tr>
+<tr><th id="4">4</th><td><i>/*</i></td></tr>
+<tr><th id="5">5</th><td><i>  getopt.h - comand line option parsing</i></td></tr>
+<tr><th id="6">6</th><td><i>  Copyright Keristor Systems and Chris Croughton 1997 - 2005</i></td></tr>
+<tr><th id="7">7</th><td><i>  Internet: swdev@keristor.org</i></td></tr>
+<tr><th id="8">8</th><td><i></i></td></tr>
+<tr><th id="9">9</th><td><i>  Permission is granted to anyone to use this software for any purpose,</i></td></tr>
+<tr><th id="10">10</th><td><i>  including commercial applications, and to alter it and redistribute it</i></td></tr>
+<tr><th id="11">11</th><td><i>  freely, subject to the following restrictions:</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>  1. The origin of this software must not be misrepresented; you must not</i></td></tr>
+<tr><th id="14">14</th><td><i>     claim that you wrote the original software. If you use this software</i></td></tr>
+<tr><th id="15">15</th><td><i>     in a product, an acknowledgment in the product documentation would be</i></td></tr>
+<tr><th id="16">16</th><td><i>     appreciated but is not required.</i></td></tr>
+<tr><th id="17">17</th><td><i>  2. Altered source versions must be plainly marked as such, and must not be</i></td></tr>
+<tr><th id="18">18</th><td><i>     misrepresented as being the original software.</i></td></tr>
+<tr><th id="19">19</th><td><i>  3. This notice may not be removed or altered from any source distribution.</i></td></tr>
+<tr><th id="20">20</th><td><i></i></td></tr>
+<tr><th id="21">21</th><td><i>  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR</i></td></tr>
+<tr><th id="22">22</th><td><i>  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED</i></td></tr>
+<tr><th id="23">23</th><td><i>  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE</i></td></tr>
+<tr><th id="24">24</th><td><i>  DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,</i></td></tr>
+<tr><th id="25">25</th><td><i>  INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES</i></td></tr>
+<tr><th id="26">26</th><td><i>  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR</i></td></tr>
+<tr><th id="27">27</th><td><i>  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)</i></td></tr>
+<tr><th id="28">28</th><td><i>  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,</i></td></tr>
+<tr><th id="29">29</th><td><i>  STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING</i></td></tr>
+<tr><th id="30">30</th><td><i>  IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="31">31</th><td><i>  POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="32">32</th><td><i>*/</i></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><i class="doc">/*<span class="command">*@file</span> xgetopt.h</i></td></tr>
+<tr><th id="35">35</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="36">36</th><td><i class="doc"> * This module is designed as a "drop-in" replacement for the GNU</i></td></tr>
+<tr><th id="37">37</th><td><i class="doc"> * <span class="command"> \c</span> <span class="arg">getopt.h</span> module, providing the <span class="command"> \c</span> <span class="arg">getopt(),</span> <span class="command"> \c</span> <span class="arg">getopt_long()</span> and</i></td></tr>
+<tr><th id="38">38</th><td><i class="doc"> * <span class="command"> \c</span> <span class="arg">getopt_long_only()</span> functions and the <span class="command"> \c</span> <span class="arg">option</span> structure.  However,</i></td></tr>
+<tr><th id="39">39</th><td><i class="doc"> * it is a compile-time replacement not an object one, the actual</i></td></tr>
+<tr><th id="40">40</th><td><i class="doc"> * names of the external variables and functions are hidden so that</i></td></tr>
+<tr><th id="41">41</th><td><i class="doc"> * namespace clashes don't occur (some linkers object if they find</i></td></tr>
+<tr><th id="42">42</th><td><i class="doc"> * the same symbol in more than one library).</i></td></tr>
+<tr><th id="43">43</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="44">44</th><td><i class="doc"> * It was written originally because of systems which don't have the GNU</i></td></tr>
+<tr><th id="45">45</th><td><i class="doc"> * C library installed.</i></td></tr>
+<tr><th id="46">46</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="47">47</th><td><i class="doc"> * It also provides a few functions to help create a string of short</i></td></tr>
+<tr><th id="48">48</th><td><i class="doc"> * (single-character) options given an array of long option structures.</i></td></tr>
+<tr><th id="49">49</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="50">50</th><td><i class="doc"> * This is a "clean-room" implementation, no GPL or proprietary code</i></td></tr>
+<tr><th id="51">51</th><td><i class="doc"> * was looked at when creating it.  The only things used were the</i></td></tr>
+<tr><th id="52">52</th><td><i class="doc"> * descriptions of the interfaces in the <span class="command"> \c</span> <span class="arg">man</span> pages (and the POSIX</i></td></tr>
+<tr><th id="53">53</th><td><i class="doc"> * specification), and some "black box" testing to determine error</i></td></tr>
+<tr><th id="54">54</th><td><i class="doc"> * conditions and messages not specified in the interface description.</i></td></tr>
+<tr><th id="55">55</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><u>#<span data-ppcond="57">if</span> defined(<span class="macro" data-ref="_M/_cplusplus">_cplusplus</span>) || defined(<span class="macro" data-ref="_M/__cplusplus">__cplusplus</span>)</u></td></tr>
+<tr><th id="58">58</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="59">59</th><td><u>#<span data-ppcond="57">endif</span></u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><i>/*</i></td></tr>
+<tr><th id="62">62</th><td><i> * This bit of faffing about is because some systems don't like the same</i></td></tr>
+<tr><th id="63">63</th><td><i> * functions defined in more than one library, they get confused.  So what</i></td></tr>
+<tr><th id="64">64</th><td><i> * we do is to redefine the variables to the names in the interface but</i></td></tr>
+<tr><th id="65">65</th><td><i> * fool the linker.  This only makes a difference if you try to debug the</i></td></tr>
+<tr><th id="66">66</th><td><i> * getopt code.  Note that we don't have to do it with the structure name</i></td></tr>
+<tr><th id="67">67</th><td><i> * or enums, since it's only linkage that's affected.</i></td></tr>
+<tr><th id="68">68</th><td><i> */</i></td></tr>
+<tr><th id="69">69</th><td></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/optarg" data-ref="_M/optarg">optarg</dfn>                 <dfn class="decl" id="_XLIB_optarg" title='_XLIB_optarg' data-ref="_XLIB_optarg">_XLIB_optarg</dfn></u></td></tr>
+<tr><th id="71">71</th><td><u>#define <dfn class="macro" id="_M/optind" data-ref="_M/optind">optind</dfn>                 <dfn class="decl" id="_XLIB_optind" title='_XLIB_optind' data-ref="_XLIB_optind">_XLIB_optind</dfn></u></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/opterr" data-ref="_M/opterr">opterr</dfn>                 <dfn class="decl" id="_XLIB_opterr" title='_XLIB_opterr' data-ref="_XLIB_opterr">_XLIB_opterr</dfn></u></td></tr>
+<tr><th id="73">73</th><td><u>#define <dfn class="macro" id="_M/optopt" data-ref="_M/optopt">optopt</dfn>                 <dfn class="decl" id="_XLIB_optopt" title='_XLIB_optopt' data-ref="_XLIB_optopt">_XLIB_optopt</dfn></u></td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/getopt" data-ref="_M/getopt">getopt</dfn>                 <a class="decl" href="XGetopt.c.html#422" title='_XLIB_getopt' data-ref="_XLIB_getopt" id="_XLIB_getopt">_XLIB_getopt</a></u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/getopt_long" data-ref="_M/getopt_long">getopt_long</dfn>            <a class="decl" href="XGetopt.c.html#432" title='_XLIB_getopt_long' data-ref="_XLIB_getopt_long" id="_XLIB_getopt_long">_XLIB_getopt_long</a></u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/getopt_long_only" data-ref="_M/getopt_long_only">getopt_long_only</dfn>       <a class="decl" href="XGetopt.c.html#442" title='_XLIB_getopt_long_only' data-ref="_XLIB_getopt_long_only" id="_XLIB_getopt_long_only">_XLIB_getopt_long_only</a></u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><i class="doc">/** holds a pointer to an option argument */</i></td></tr>
+<tr><th id="80">80</th><td><b>extern</b> <em>char</em> *<a class="macro" href="#70" title="_XLIB_optarg" data-ref="_M/optarg">optarg</a>;</td></tr>
+<tr><th id="81">81</th><td><i class="doc">/** index to te first non-option argument */</i></td></tr>
+<tr><th id="82">82</th><td><b>extern</b> <em>int</em>   <a class="macro" href="#71" title="_XLIB_optind" data-ref="_M/optind">optind</a>;</td></tr>
+<tr><th id="83">83</th><td><i class="doc">/** allow error messages if non-zero (default) */</i></td></tr>
+<tr><th id="84">84</th><td><b>extern</b> <em>int</em>   <a class="macro" href="#72" title="_XLIB_opterr" data-ref="_M/opterr">opterr</a>;</td></tr>
+<tr><th id="85">85</th><td><i class="doc">/** holds the option character in error, if any */</i></td></tr>
+<tr><th id="86">86</th><td><b>extern</b> <em>int</em>   <a class="macro" href="#73" title="_XLIB_optopt" data-ref="_M/optopt">optopt</a>;</td></tr>
+<tr><th id="87">87</th><td></td></tr>
+<tr><th id="88">88</th><td><b>enum</b></td></tr>
+<tr><th id="89">89</th><td>{</td></tr>
+<tr><th id="90">90</th><td>  <i class="doc">/** this option has no argument */</i></td></tr>
+<tr><th id="91">91</th><td>  <dfn class="enum" id="no_argument" title='no_argument' data-ref="no_argument">no_argument</dfn>,</td></tr>
+<tr><th id="92">92</th><td>  <i class="doc">/** an argument is required with this option */</i></td></tr>
+<tr><th id="93">93</th><td>  <dfn class="enum" id="required_argument" title='required_argument' data-ref="required_argument">required_argument</dfn>,</td></tr>
+<tr><th id="94">94</th><td>  <i class="doc">/** an argument to this option is optional */</i></td></tr>
+<tr><th id="95">95</th><td>  <dfn class="enum" id="optional_argument" title='optional_argument' data-ref="optional_argument">optional_argument</dfn></td></tr>
+<tr><th id="96">96</th><td>};</td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="99">99</th><td><i class="doc"> * Structure to describe a long option.</i></td></tr>
+<tr><th id="100">100</th><td><i class="doc"> * The last item in the array of these descriptors must have all elements</i></td></tr>
+<tr><th id="101">101</th><td><i class="doc"> * set to zero</i></td></tr>
+<tr><th id="102">102</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="103">103</th><td><b>struct</b> <dfn class="type def" id="option" title='option' data-ref="option">option</dfn></td></tr>
+<tr><th id="104">104</th><td>{</td></tr>
+<tr><th id="105">105</th><td>  <i class="doc">/** long option name */</i></td></tr>
+<tr><th id="106">106</th><td>  <em>const</em> <em>char</em> *<dfn class="decl" id="option::name" title='option::name' data-ref="option::name">name</dfn>;</td></tr>
+<tr><th id="107">107</th><td>  <i class="doc">/** argument type, if any */</i></td></tr>
+<tr><th id="108">108</th><td>  <em>int</em>         <dfn class="decl" id="option::has_arg" title='option::has_arg' data-ref="option::has_arg">has_arg</dfn>;</td></tr>
+<tr><th id="109">109</th><td>  <i class="doc">/** pointer to a flag to be set if the option is present */</i></td></tr>
+<tr><th id="110">110</th><td>  <em>int</em>        *<dfn class="decl" id="option::flag" title='option::flag' data-ref="option::flag">flag</dfn>;</td></tr>
+<tr><th id="111">111</th><td>  <i class="doc">/** value to be returned if the option is present */</i></td></tr>
+<tr><th id="112">112</th><td>  <em>int</em>         <dfn class="decl" id="option::val" title='option::val' data-ref="option::val">val</dfn>;</td></tr>
+<tr><th id="113">113</th><td>};</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td><i class="doc">/** Scan the command-line parameters for options in the form <span class="command">{\em</span> <span class="arg">-x}.</span> */</i></td></tr>
+<tr><th id="116">116</th><td><em>int</em> <a class="macro" href="#75" title="_XLIB_getopt" data-ref="_M/getopt">getopt</a>(<em>int</em> <dfn class="local col2 decl" id="502argc" title='argc' data-type='int' data-ref="502argc">argc</dfn>, <em>char</em> * <dfn class="local col3 decl" id="503argv" title='argv' data-type='char **' data-ref="503argv">argv</dfn>[], <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="504optstring" title='optstring' data-type='const char *' data-ref="504optstring">optstring</dfn>);</td></tr>
+<tr><th id="117">117</th><td><i class="doc">/** Scan the command-line parameters for options, allowing both the short</i></td></tr>
+<tr><th id="118">118</th><td><i class="doc"> * (single character) options and long (string) options.</i></td></tr>
+<tr><th id="119">119</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="120">120</th><td><em>int</em> <a class="macro" href="#76" title="_XLIB_getopt_long" data-ref="_M/getopt_long">getopt_long</a>(<em>int</em> <dfn class="local col5 decl" id="505argc" title='argc' data-type='int' data-ref="505argc">argc</dfn>, <em>char</em> * <dfn class="local col6 decl" id="506argv" title='argv' data-type='char **' data-ref="506argv">argv</dfn>[], <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="507optstring" title='optstring' data-type='const char *' data-ref="507optstring">optstring</dfn>,</td></tr>
+<tr><th id="121">121</th><td>                <em>const</em> <b>struct</b> <a class="type" href="#option" title='option' data-ref="option">option</a> *<dfn class="local col8 decl" id="508longopts" title='longopts' data-type='const struct option *' data-ref="508longopts">longopts</dfn>, <em>int</em> *<dfn class="local col9 decl" id="509longindex" title='longindex' data-type='int *' data-ref="509longindex">longindex</dfn>);</td></tr>
+<tr><th id="122">122</th><td><i class="doc">/** Scan the command-line parameters for long options only */</i></td></tr>
+<tr><th id="123">123</th><td><em>int</em> <a class="macro" href="#77" title="_XLIB_getopt_long_only" data-ref="_M/getopt_long_only">getopt_long_only</a>(<em>int</em> <dfn class="local col0 decl" id="510argc" title='argc' data-type='int' data-ref="510argc">argc</dfn>, <em>char</em> * <dfn class="local col1 decl" id="511argv" title='argv' data-type='char **' data-ref="511argv">argv</dfn>[], <em>const</em> <em>char</em> *<dfn class="local col2 decl" id="512optstring" title='optstring' data-type='const char *' data-ref="512optstring">optstring</dfn>,</td></tr>
+<tr><th id="124">124</th><td>                     <em>const</em> <b>struct</b> <a class="type" href="#option" title='option' data-ref="option">option</a> *<dfn class="local col3 decl" id="513longopts" title='longopts' data-type='const struct option *' data-ref="513longopts">longopts</dfn>, <em>int</em> *<dfn class="local col4 decl" id="514longindex" title='longindex' data-type='int *' data-ref="514longindex">longindex</dfn>);</td></tr>
+<tr><th id="125">125</th><td></td></tr>
+<tr><th id="126">126</th><td><u>#<span data-ppcond="126">if</span> defined(<span class="macro" data-ref="_M/_cplusplus">_cplusplus</span>) || defined(<span class="macro" data-ref="_M/__cplusplus">__cplusplus</span>)</u></td></tr>
+<tr><th id="127">127</th><td>}</td></tr>
+<tr><th id="128">128</th><td><u>#<span data-ppcond="126">endif</span></u></td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td><u>#<span data-ppcond="1">endif</span></u></td></tr>
+<tr><th id="131">131</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='XGetopt.c.html'>codebrowser/src/XGetopt.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

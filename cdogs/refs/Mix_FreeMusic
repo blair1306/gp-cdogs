@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_mixer.h' l='168' type='void Mix_FreeMusic(Mix_Music * music)'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='239' u='c' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/music.c' l='131' u='c' c='MusicStop'/>

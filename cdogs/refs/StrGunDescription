@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='149' type='const GunDescription * StrGunDescription(const char * s)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='584' u='c' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='901' u='c' c='AICoopSelectWeapons'/>
+<use f='codebrowser/src/cdogs/character.c' l='137' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='432' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='500' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='166' u='c' c='LoadBulletGuns'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='462' u='c' c='LoadWeapons'/>
+<use f='codebrowser/src/cdogs/player.c' l='82' u='c' c='PlayerDataAddOrUpdate'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='345' ll='361' type='const GunDescription * StrGunDescription(const char * s)'/>
+<doc f='codebrowser/src/cdogs/weapon.c' l='344'>// TODO: use map structure?</doc>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='604' u='c' c='AddCharacter'/>
+<def f='codebrowser/src/tests/autosave_test.c' l='34' ll='38' type='const GunDescription * StrGunDescription(const char * s)'/>
+<def f='codebrowser/src/tests/config_test.c' l='23' ll='27' type='const GunDescription * StrGunDescription(const char * s)'/>
+<def f='codebrowser/src/tests/json_test.c' l='27' type='int StrGunDescription()'/>
+<def f='codebrowser/src/tests/player_test.c' l='71' ll='75' type='const GunDescription * StrGunDescription(const char * s)'/>

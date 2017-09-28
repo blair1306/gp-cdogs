@@ -1,0 +1,17 @@
+<def f='codebrowser/src/cdogs/objs.h' l='76' ll='93'/>
+<size>240</size>
+<mbr r='MobileObject::UID' o='0' t='int'/>
+<mbr r='MobileObject::PlayerUID' o='32' t='int'/>
+<mbr r='MobileObject::ActorUID' o='64' t='int'/>
+<mbr r='MobileObject::bulletClass' o='128' t='const BulletClass *'/>
+<mbr r='MobileObject::x' o='192' t='int'/>
+<mbr r='MobileObject::y' o='224' t='int'/>
+<mbr r='MobileObject::z' o='256' t='int'/>
+<mbr r='MobileObject::dz' o='288' t='int'/>
+<mbr r='MobileObject::count' o='320' t='int'/>
+<mbr r='MobileObject::range' o='352' t='int'/>
+<mbr r='MobileObject::flags' o='384' t='int'/>
+<mbr r='MobileObject::specialLock' o='416' t='int'/>
+<mbr r='MobileObject::tileItem' o='448' t='TTileItem'/>
+<mbr r='MobileObject::updateFunc' o='1792' t='BulletUpdateFunc'/>
+<mbr r='MobileObject::isInUse' o='1856' t='_Bool'/>

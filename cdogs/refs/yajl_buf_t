@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='25' ll='30'/>
+<size>32</size>
+<mbr r='yajl_buf_t::len' o='0' t='size_t'/>
+<mbr r='yajl_buf_t::used' o='64' t='size_t'/>
+<mbr r='yajl_buf_t::data' o='128' t='unsigned char *'/>
+<mbr r='yajl_buf_t::alloc' o='192' t='yajl_alloc_funcs *'/>

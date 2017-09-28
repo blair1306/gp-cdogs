@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='575' type='ENetPacket * enet_peer_receive(ENetPeer * , enet_uint8 * channelID)'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='221' ll='247' type='ENetPacket * enet_peer_receive(ENetPeer * peer, enet_uint8 * channelID)'/>
+<doc f='codebrowser/src/cdogs/enet/peer.c' l='216'>/** Attempts to dequeue any incoming queued packet.
+    @param peer peer to dequeue packets from
+    @param channelID holds the channel ID of the channel the packet was received on success
+    @returns a pointer to the packet, or NULL if there are no available incoming queued packets
+*/</doc>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='95' u='c' c='enet_protocol_dispatch_incoming_commands'/>

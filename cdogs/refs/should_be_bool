@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='195' type='void should_be_bool(_Bool actual, _Bool expected, void * state, const char * file, int line)'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='116' macro='1' u='c'/>
+<def f='codebrowser/src/tests/cbehave/cbehave.c' l='160' ll='172' type='void should_be_bool(_Bool actual, _Bool expected, void * state, const char * file, int line)'/>
+<use f='codebrowser/src/tests/color_test.c' l='210' macro='1' u='c'/>
+<use f='codebrowser/src/tests/color_test.c' l='221' macro='1' u='c'/>
+<use f='codebrowser/src/tests/json_test.c' l='49' macro='1' u='c'/>
+<use f='codebrowser/src/tests/minkowski_hex_test.c' l='31' macro='1' u='c'/>
+<use f='codebrowser/src/tests/minkowski_hex_test.c' l='59' macro='1' u='c'/>
+<use f='codebrowser/src/tests/minkowski_hex_test.c' l='79' macro='1' u='c'/>
+<use f='codebrowser/src/tests/player_test.c' l='111' macro='1' u='c'/>
+<use f='codebrowser/src/tests/player_test.c' l='126' macro='1' u='c'/>
+<use f='codebrowser/src/tests/player_test.c' l='143' macro='1' u='c'/>

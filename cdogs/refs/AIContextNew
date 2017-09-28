@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='112' type='AIContext * AIContextNew()'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1253' u='c' c='ActorAdd'/>
+<def f='codebrowser/src/cdogs/ai_context.c' l='31' ll='40' type='AIContext * AIContextNew()'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='50' u='c' c='AICoopGetCmd'/>

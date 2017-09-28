@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='700' type='const pb_field_t [5]'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='89' u='r'/>
+<def f='codebrowser/src/cdogs/proto/msg.pb.c' l='248' ll='254' type='const pb_field_t [5]'/>

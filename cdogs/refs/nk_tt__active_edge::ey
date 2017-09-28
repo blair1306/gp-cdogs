@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9095' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9755' u='w' c='nk_tt__new_active'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9766' u='r' c='nk_tt__handle_clipped_edge'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9767' u='r' c='nk_tt__handle_clipped_edge'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9773' u='r' c='nk_tt__handle_clipped_edge'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9774' u='r' c='nk_tt__handle_clipped_edge'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9775' u='r' c='nk_tt__handle_clipped_edge'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9803' u='r' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9821' u='r' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9834' u='r' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9835' u='r' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9836' u='r' c='nk_tt__fill_active_edges_new'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9991' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10006' u='r' c='nk_tt__rasterize_sorted_edges'/>
+<offset>224</offset>

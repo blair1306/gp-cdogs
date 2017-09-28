@@ -1,0 +1,14 @@
+KeyGet|KeyGet
+KeyGetPressed|KeyGetPressed
+KeyInit|KeyInit
+KeyIsDown|KeyIsDown
+KeyIsPressed|KeyIsPressed
+KeyIsReleased|KeyIsReleased
+KeyLoadPlayerKeys|KeyLoadPlayerKeys
+KeyOnKeyDown|KeyOnKeyDown
+KeyOnKeyUp|KeyOnKeyUp
+KeyPostPoll|KeyPostPoll
+KeyPrePoll|KeyPrePoll
+KeycodeStr|KeycodeStr
+KeycardCount|KeycardCount
+KeyPickupClass|KeyPickupClass

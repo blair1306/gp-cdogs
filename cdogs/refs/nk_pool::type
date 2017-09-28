@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3676' type='enum nk_allocation_type'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16660' u='w' c='nk_pool_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16669' u='r' c='nk_pool_free'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16685' u='w' c='nk_pool_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16695' u='r' c='nk_pool_alloc'/>
+<offset>192</offset>

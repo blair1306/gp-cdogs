@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='42' type='CArray'/>
+<offset>512</offset>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='42'>// of char *</doc>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='48' u='a' c='PicManagerInit'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='283' u='a' c='AfterAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='387' u='a' c='MaybeAddTilePicName'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='410' u='a' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='608' u='m' c='PicManagerGetTileStyleIndex'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='608' u='a' c='PicManagerGetTileStyleIndex'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='219' u='a' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='220' u='a' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='421' u='m' c='MissionDrawFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='438' u='m' c='MissionDrawRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='855' u='m' c='MissionChangeFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='855' u='m' c='MissionChangeFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='857' u='a' c='MissionChangeFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='866' u='m' c='MissionChangeRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='866' u='m' c='MissionChangeRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='868' u='a' c='MissionChangeRoomStyle'/>

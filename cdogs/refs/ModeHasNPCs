@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='57' type='_Bool ModeHasNPCs(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='170' ll='173' macro='1' type='_Bool ModeHasNPCs(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='91' u='c' c='MapStaticLoadDynamic'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='145' type='char [256]'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='175' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='376' u='r' c='MissionBegin'/>
+<use f='codebrowser/src/cdogs/mission.c' l='377' u='r' c='MissionBegin'/>

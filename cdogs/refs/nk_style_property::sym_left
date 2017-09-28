@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3183' type='enum nk_symbol_type'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15646' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16254' u='w' c='nk_style_from_table'/>
+<offset>896</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3182'>/* symbols */</doc>

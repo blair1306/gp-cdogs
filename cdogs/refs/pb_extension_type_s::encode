@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='332' type='_Bool (*)(pb_ostream_t *, const pb_extension_t *)'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='324' u='r' c='encode_extension_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='325' u='r' c='encode_extension_field'/>

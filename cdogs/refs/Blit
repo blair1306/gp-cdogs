@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='79' type='void Blit(GraphicsDevice * device, const Pic * pic, Vec2i pos)'/>
+<use f='codebrowser/src/briefing_screens.c' l='801' u='c' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/briefing_screens.c' l='809' u='c' c='DrawObjectiveInfo'/>
+<def f='codebrowser/src/cdogs/blit.c' l='179' ll='220' type='void Blit(GraphicsDevice * device, const Pic * pic, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='103' u='c' c='DrawWallColumn'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='164' u='c' c='DrawFloor'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='250' u='c' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='308' u='c' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='169' u='c' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='921' u='c' c='DrawKeycards'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='227' u='c' c='Display'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='620' u='c' c='DrawStyleArea'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1643' u='c' c='DrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='40' u='c' c='DisplayMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='68' u='c' c='DrawKey'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='492' u='c' c='MissionDrawCollectObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='508' u='c' c='MissionDrawDestroyObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='90' u='c' c='DrawPickupSpawner'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='139' u='c' c='DrawObjective'/>
+<use f='codebrowser/src/menu.c' l='627' u='c' c='MenuDisplayItems'/>
+<use f='codebrowser/src/weapon_menu.c' l='265' u='c' c='DisplayGunIcon'/>
+<use f='codebrowser/src/weapon_menu.c' l='277' u='c' c='DisplayDescriptionGunIcon'/>

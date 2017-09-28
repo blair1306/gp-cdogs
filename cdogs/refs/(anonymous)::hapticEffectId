@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='47' type='int'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/joystick.c' l='134' u='w' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='181' u='w' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='182' u='r' c='JoyAdded'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='295' u='r' c='JoyImpact'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='296' u='r' c='JoyImpact'/>

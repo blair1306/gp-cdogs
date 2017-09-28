@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2867' type='unsigned int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7410' u='w' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7431' u='w' c='nk_draw_list_alloc_path'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7440' u='r' c='nk_draw_list_path_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7443' u='r' c='nk_draw_list_path_last'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8087' u='w' c='nk_draw_list_path_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8176' u='r' c='nk_draw_list_path_curve_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8177' u='r' c='nk_draw_list_path_curve_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8202' u='r' c='nk_draw_list_path_fill'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8214' u='r' c='nk_draw_list_path_stroke'/>
+<offset>1792</offset>

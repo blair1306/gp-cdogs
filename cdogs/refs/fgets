@@ -1,0 +1,8 @@
+<dec f='include/stdio.h' l='622' type='char * fgets(char *restrict __s, int __n, FILE *restrict __stream)'/>
+<doc f='include/stdio.h' l='618'>/* Get a newline-terminated string of finite length from STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/credits.c' l='65' u='c' c='LoadCredits'/>
+<use f='codebrowser/src/json/json.c' l='204' u='c' c='json_stream_parse'/>
+<use f='codebrowser/src/namegen.c' l='50' u='c' c='LoadFile'/>

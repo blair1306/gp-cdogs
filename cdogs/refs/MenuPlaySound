@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/menu.h' l='315' type='void MenuPlaySound(MenuSound s)'/>
+<def f='codebrowser/src/menu.c' l='864' ll='886' type='void MenuPlaySound(MenuSound s)'/>
+<use f='codebrowser/src/menu.c' l='961' u='c' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='980' u='c' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='1007' u='c' c='MenuProcessEscCmd'/>
+<use f='codebrowser/src/menu.c' l='1130' u='c' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1148' u='c' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1152' u='c' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1174' u='c' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1184' u='c' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1200' u='c' c='MenuActivate'/>
+<use f='codebrowser/src/player_select_menus.c' l='88' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='104' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='108' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='116' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='120' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='128' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='136' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='144' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='152' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='157' u='c' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='287' u='c' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='302' u='c' c='HandleInputColorMenu'/>
+<use f='codebrowser/src/weapon_menu.c' l='83' u='c' c='WeaponSelect'/>

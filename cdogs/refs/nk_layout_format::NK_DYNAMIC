@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='475' type='0'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18674' u='r' c='nk_row_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18698' u='r' c='nk_layout_row_dynamic'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18723' u='r' c='nk_layout_row_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18800' u='r' c='nk_layout_row'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='486' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='494' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='512' u='r' c='Draw'/>

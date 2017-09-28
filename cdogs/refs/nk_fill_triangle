@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2712' type='void nk_fill_triangle(struct nk_command_buffer * , float x0, float y0, float x1, float y1, float x2, float y2, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7118' ll='7144' macro='1' type='void nk_fill_triangle(struct nk_command_buffer * b, float x0, float y0, float x1, float y1, float x2, float y2, struct nk_color c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13519' u='c' c='nk_draw_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17598' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17602' u='c' c='nk_panel_end'/>

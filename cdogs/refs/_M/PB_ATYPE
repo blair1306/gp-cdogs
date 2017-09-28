@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='186'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='44' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='51' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='607' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='698' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='729' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='740' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1058' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1095' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='127' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='185' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='220' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='290' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='627' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='642' u='c'/>

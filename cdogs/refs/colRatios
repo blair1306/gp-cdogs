@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogsed/char_editor.c' l='57' type='const float [2]'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='486' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='494' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='512' u='r' c='Draw'/>

@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='81' type='direction_e'/>
+<offset>0</offset>
+<dec f='codebrowser/src/menu_utils.h' l='39' type='direction_e'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='102' u='w' c='GetBulletDrawContext'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='277' u='r' c='CPicDraw'/>
+<use f='codebrowser/src/cdogs/objs.c' l='72' u='w' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/particle.c' l='473' u='w' c='DrawParticle'/>
+<use f='codebrowser/src/cdogs/particle.c' l='474' u='r' c='DrawParticle'/>
+<use f='codebrowser/src/menu_utils.c' l='76' u='r' c='MenuDisplayPlayer'/>
+<use f='codebrowser/src/player_select_menus.c' l='436' u='w' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='541' u='w' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/player_select_menus.c' l='542' u='r' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/player_select_menus.c' l='542' u='r' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/player_select_menus.c' l='542' u='r' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/weapon_menu.c' l='155' u='w' c='WeaponMenuCreate'/>

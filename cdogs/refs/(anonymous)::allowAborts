@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/menu.h' l='237' type='_Bool'/>
+<use f='codebrowser/src/briefing_screens.c' l='381' u='w' c='ScreenMissionSummary'/>
+<offset>736</offset>
+<use f='codebrowser/src/menu.c' l='172' u='r' c='MenuUpdate'/>
+<use f='codebrowser/src/prep.c' l='105' u='w' c='ScreenWait'/>
+<use f='codebrowser/src/prep.c' l='190' u='w' c='NumPlayersSelection'/>
+<use f='codebrowser/src/prep.c' l='545' u='w' c='GameOptions'/>
+<use f='codebrowser/src/screens_end.c' l='141' u='w' c='PlayerListLoop'/>

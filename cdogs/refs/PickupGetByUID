@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pickup.h' l='61' type='Pickup * PickupGetByUID(const int uid)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='478' u='c' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='66' u='c' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='108' u='c' c='PickupDestroy'/>
+<def f='codebrowser/src/cdogs/pickup.c' l='304' ll='313' type='Pickup * PickupGetByUID(const int uid)'/>

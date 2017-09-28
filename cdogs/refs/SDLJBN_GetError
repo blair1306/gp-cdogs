@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.h' l='79' type='const char * SDLJBN_GetError()'/>
+<use f='codebrowser/src/cdogs.c' l='192' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='192' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='449' ll='452' type='const char * SDLJBN_GetError()'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='53' u='c' c='JoyInit'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='53' u='c' c='JoyInit'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='336' u='c' c='JoyButtonNameColor'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='336' u='c' c='JoyButtonNameColor'/>

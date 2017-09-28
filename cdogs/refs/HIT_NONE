@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='130' type='0'/>
+<use f='codebrowser/src/cdogs/actors.c' l='267' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='197' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='197' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='205' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='223' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='407' u='r' c='HitItem'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='470' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='490' u='r' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='922' c='PlayHitSound'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='358' u='r' c='HandleGameEvent'/>

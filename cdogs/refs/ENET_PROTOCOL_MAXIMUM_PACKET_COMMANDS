@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='14' type='32'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='376'/>
+<use f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='207' u='r'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='106' type='AIGotoContext'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/ai_context.c' l='45' u='m' c='AIContextDestroy'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='410' u='m' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='513' u='a' c='AIGoto'/>

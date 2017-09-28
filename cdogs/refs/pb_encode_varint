@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='126' type='_Bool pb_encode_varint(pb_ostream_t * stream, uint64_t value)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='158' u='c' c='encode_array'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='397' ll='414' macro='1' type='_Bool pb_encode_varint(pb_ostream_t * stream, uint64_t value)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='424' u='c' c='pb_encode_svarint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='464' u='c' c='pb_encode_tag'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='501' u='c' c='pb_encode_string'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='524' u='c' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='574' u='c' c='pb_enc_varint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='588' u='c' c='pb_enc_uvarint'/>

@@ -1,0 +1,7 @@
+<dec f='include/SDL2/SDL.h' l='122' type='void SDL_Quit()'/>
+<doc f='include/SDL2/SDL.h' l='118'>/**
+ *  This function cleans up all initialized subsystems. You should
+ *  call it upon all exit conditions.
+ */</doc>
+<use f='codebrowser/src/cdogs.c' l='318' u='c' c='main'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1420' u='c' c='main'/>

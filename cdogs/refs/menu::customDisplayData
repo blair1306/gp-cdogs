@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='139' type='const void *'/>
+<offset>832</offset>
+<use f='codebrowser/src/menu.c' l='397' u='w' c='MenuSetCustomDisplay'/>
+<use f='codebrowser/src/menu.c' l='612' u='r' c='MenuDisplay'/>

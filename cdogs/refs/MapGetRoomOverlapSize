@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='57' type='_Bool MapGetRoomOverlapSize(const Map * map, const Vec2i pos, const Vec2i size, unsigned short * overlapAccess)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='707' ll='801' macro='1' type='_Bool MapGetRoomOverlapSize(const Map * map, const Vec2i pos, const Vec2i size, unsigned short * overlapAccess)'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='228' u='c' c='MapIsAreaClearForClassicRoom'/>

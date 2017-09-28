@@ -1,0 +1,15 @@
+<dec f='include/stdio.h' l='709' type='size_t fread(void *restrict __ptr, size_t __size, size_t __n, FILE *restrict __stream)'/>
+<doc f='include/stdio.h' l='705'>/* Read chunks of generic data from STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/cdogs/files.c' l='88' u='c' c='f_read'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='240' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='66' u='c' c='ReadFile'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5193' u='c' c='nk_file_load'/>
+<use f='codebrowser/src/hiscores.c' l='409' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='418' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='424' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='426' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='428' u='c' c='LoadHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='434' u='c' c='LoadHighScores'/>

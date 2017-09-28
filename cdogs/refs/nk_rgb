@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1768' type='struct nk_color nk_rgb(int r, int g, int b)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5302' ll='5311' macro='1' type='struct nk_color nk_rgb(int r, int g, int b)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5316' u='c' c='nk_rgb_iv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5322' u='c' c='nk_rgb_bv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15823' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15832' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16134' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16135' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16136' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16137' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16138' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16139' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16140' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16141' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16198' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16199' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16200' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16201' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16202' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16203' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16204' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16205' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='124' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='125' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='126' u='c' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='127' u='c' c='CharEditor'/>

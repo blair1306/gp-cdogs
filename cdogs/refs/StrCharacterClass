@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='54' type='const CharacterClass * StrCharacterClass(const char * s)'/>
+<use f='codebrowser/src/cdogs/character.c' l='95' u='c' c='CharacterLoadJSON'/>
+<def f='codebrowser/src/cdogs/character_class.c' l='41' ll='57' type='const CharacterClass * StrCharacterClass(const char * s)'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='80' u='c' c='IntCharacterClass'/>
+<doc f='codebrowser/src/cdogs/character_class.c' l='40'>// TODO: use map structure?</doc>
+<use f='codebrowser/src/cdogs/player.c' l='73' u='c' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='76' u='c' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='596' u='c' c='AddCharacter'/>
+<use f='codebrowser/src/player_select_menus.c' l='318' u='c' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='321' u='c' c='PostInputLoadTemplate'/>
+<def f='codebrowser/src/tests/player_test.c' l='76' ll='80' type='const CharacterClass * StrCharacterClass(const char * s)'/>

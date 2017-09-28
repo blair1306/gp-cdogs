@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2119' ll='2129'/>
+<size>128</size>
+<mbr r='nk_font::next' o='0' t='struct nk_font *'/>
+<mbr r='nk_font::handle' o='64' t='struct nk_user_font'/>
+<mbr r='nk_font::info' o='384' t='struct nk_baked_font'/>
+<mbr r='nk_font::scale' o='640' t='float'/>
+<mbr r='nk_font::glyphs' o='704' t='struct nk_font_glyph *'/>
+<mbr r='nk_font::fallback' o='768' t='const struct nk_font_glyph *'/>
+<mbr r='nk_font::fallback_codepoint' o='832' t='nk_rune'/>
+<mbr r='nk_font::texture' o='896' t='nk_handle'/>
+<mbr r='nk_font::config' o='960' t='struct nk_font_config *'/>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='15515' ll='15548' macro='1' type='void nk_draw_property(struct nk_command_buffer * out, const struct nk_style_property * style, const struct nk_rect * bounds, const struct nk_rect * label, nk_flags state, const char * name, int len, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15642' u='c' c='nk_do_property'/>

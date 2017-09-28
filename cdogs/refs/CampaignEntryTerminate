@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/campaign_entry.h' l='46' type='void CampaignEntryTerminate(CampaignEntry * entry)'/>
+<use f='codebrowser/src/autosave.c' l='66' u='c' c='AutosaveTerminate'/>
+<use f='codebrowser/src/autosave.c' l='237' u='c' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='251' u='c' c='AutosaveAddMission'/>
+<def f='codebrowser/src/cdogs/campaign_entry.c' l='88' ll='94' type='void CampaignEntryTerminate(CampaignEntry * entry)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='142' u='c' c='CampaignListTerminate'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='126' u='c' c='CampaignUnload'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='143' type='void MapShowExitArea(Map * map, const Vec2i exitStart, const Vec2i exitEnd)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='108' u='c' c='GrafxMakeBackground'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='661' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/map.c' l='263' ll='296' type='void MapShowExitArea(Map * map, const Vec2i exitStart, const Vec2i exitEnd)'/>

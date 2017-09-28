@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='138' type='MenuDisplayFunc'/>
+<offset>768</offset>
+<use f='codebrowser/src/menu.c' l='396' u='w' c='MenuSetCustomDisplay'/>
+<use f='codebrowser/src/menu.c' l='609' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='611' u='r' c='MenuDisplay'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='172' type='void ActorSetState(TActor * actor, const ActorAnimation state)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='100' ll='103' type='void ActorSetState(TActor * actor, const ActorAnimation state)'/>

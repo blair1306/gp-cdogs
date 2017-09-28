@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='47' type='int'/>
+<offset>352</offset>
+<use f='codebrowser/src/cdogs/net_server.c' l='62' u='w' c='NetServerReset'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='172' u='w' c='NetServerPoll'/>

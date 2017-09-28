@@ -1,0 +1,42 @@
+<dec f='codebrowser/src/json/json.h' l='237' type='enum json_error json_insert_child(json_t * parent, json_t * child)'/>
+<use f='codebrowser/src/autosave.c' l='131' u='c' c='AddMissionNodes'/>
+<doc f='codebrowser/src/json/json.h' l='231'>/**
+Inserts a child node into a parent node, as well as performs some document tree integrity checks.
+@param parent the parent node
+@param child the node being added as a child to parent
+@return the error code corresponding to the operation result
+**/</doc>
+<use f='codebrowser/src/cdogs/character.c' l='175' u='c' c='CharacterSave'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='364' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='434' u='c' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='509' u='c' c='SaveStaticItems'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='513' u='c' c='SaveStaticItems'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='527' u='c' c='SaveStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='531' u='c' c='SaveStaticCharacters'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='545' u='c' c='SaveStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='551' u='c' c='SaveStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='565' u='c' c='SaveStaticKeys'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='569' u='c' c='SaveStaticKeys'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='596' u='c' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='609' u='c' c='SaveIntArray'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='618' u='c' c='SaveVec2i'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='620' u='c' c='SaveVec2i'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='630' u='c' c='SaveWeapons'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='138' u='c' c='SavePlayerTemplate'/>
+<def f='codebrowser/src/json/json.c' l='467' ll='546' type='enum json_error json_insert_child(json_t * parent, json_t * child)'/>
+<use f='codebrowser/src/json/json.c' l='571' u='c' c='json_insert_pair_into_object'/>
+<use f='codebrowser/src/json/json.c' l='575' u='c' c='json_insert_pair_into_object'/>
+<use f='codebrowser/src/json/json.c' l='2200' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2223' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2351' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2413' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2434' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2454' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2474' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2494' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2557' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2580' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2592' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2603' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2613' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2623' u='c' c='json_parse_fragment'/>

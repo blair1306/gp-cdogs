@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='44' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='191' u='w' c='cbehave_scenario_entry'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='289' u='r' c='_cbehave_runner'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='289' u='r' c='_cbehave_runner'/>

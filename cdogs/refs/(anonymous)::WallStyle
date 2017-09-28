@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='132' type='char [256]'/>
+<offset>224</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='131'>// styles</doc>
+<use f='codebrowser/src/cdogs/files.c' l='374' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='343' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='78' u='r' c='MapSetupTilesAndWalls'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='166' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='210' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='219' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='106' u='r' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='141' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='141' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='218' u='r' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='397' u='r' c='MissionDrawWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='402' u='r' c='MissionDrawWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='842' u='r' c='MissionChangeWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='842' u='r' c='MissionChangeWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='842' u='r' c='MissionChangeWallStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='846' u='r' c='MissionChangeWallStyle'/>

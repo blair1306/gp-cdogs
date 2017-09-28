@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='137' type='int'/>
+<offset>1696</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='129' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='129' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='129' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='679' u='r' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/actors.c' l='698' u='r' c='ActorTryShoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='781' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='843' u='r' c='SlideActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1400' u='r' c='ActorTakeSpecialDamage'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1402' u='w' c='ActorTakeSpecialDamage'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='99' u='r' c='GetCharacterPicsFromActor'/>

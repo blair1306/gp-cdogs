@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='148' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='612' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='619' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='349' u='w' c='UpdateMissionObjective'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='456' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='365'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='365'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='366' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='366' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='365'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='365'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='366' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='366' u='r'/>
+<use f='codebrowser/src/game.c' l='671' u='w' c='CheckMissionCompletion'/>

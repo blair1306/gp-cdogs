@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='342' type='NVec2i'/>
+<offset>1024</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='161' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='215' u='w' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='142'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='142'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='143' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='143' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='142'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='142'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='143' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='143' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

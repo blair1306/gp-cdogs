@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='50' type='char * GetString(json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='123' u='c' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='125' u='c' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='128' u='c' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/character.c' l='94' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='136' u='c' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='171' u='c' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='80' u='c' c='CPicLoadJSON'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='145' u='c' c='LoadMaskTint'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='131' ll='134' type='char * GetString(json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='151' u='c' c='LoadPic'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='93' u='c' c='MapNewScanJSON'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='179' u='c' c='MapNewLoadCampaignJSON'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='181' u='c' c='MapNewLoadCampaignJSON'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='183' u='c' c='MapNewLoadCampaignJSON'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='201' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='202' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='218' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='221' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='224' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='236' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='248' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='260' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='397' u='c' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='297' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='378' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/objective.c' l='100' u='c' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='128' u='c' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='133' u='c' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/particle.c' l='123' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='132' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='144' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='243' u='c' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='258' u='c' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='50' u='c' c='LoadPlayerTemplate'/>

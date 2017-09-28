@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='40' type='void *'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='40'>/* Free field for use by callback implementation. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='66' u='r' c='buf_write'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='67' u='w' c='buf_write'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='83' u='w' c='pb_ostream_from_buffer'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='536' u='w' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='536' u='r' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='546' u='w' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='546' u='r' c='pb_encode_submessage'/>

@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='268' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1075' u='w' c='ActorAddAmmoPickup'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1108' u='w' c='ActorAddGunPickup'/>
+<use f='codebrowser/src/cdogs/map.c' l='418' u='w' c='MapPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map.c' l='502' u='w' c='MapPlaceKey'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='525' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='138' u='w' c='AddPickupAtObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='512' u='w' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='66' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='69' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='92' u='r' c='PickupAdd'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='173' u='w' c='HealthPlace'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='233' u='w' c='AmmoPlace'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='271'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='271'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='272' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='272' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='271'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='271'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='272' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='272' u='r'/>

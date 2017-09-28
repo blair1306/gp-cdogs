@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/net_util.h' l='43'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='249' u='c'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='240' u='c'/>

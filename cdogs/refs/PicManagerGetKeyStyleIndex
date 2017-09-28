@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='85' type='int PicManagerGetKeyStyleIndex(PicManager * pm, const char * style)'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='636' ll='645' type='int PicManagerGetKeyStyleIndex(PicManager * pm, const char * style)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='466' u='c' c='MissionDrawKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='886' u='c' c='MissionChangeKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='886' u='c' c='MissionChangeKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='886' u='c' c='MissionChangeKeyStyle'/>

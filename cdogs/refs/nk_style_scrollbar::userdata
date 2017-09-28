@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3131' type='nk_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14679' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14681' u='r' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14768' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14770' u='r' c='nk_do_scrollbarh'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16183' u='w' c='nk_style_from_table'/>
+<offset>4736</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3130'>/* optional user callbacks */</doc>

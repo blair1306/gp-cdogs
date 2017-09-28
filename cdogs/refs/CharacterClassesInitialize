@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='60' type='void CharacterClassesInitialize(CharacterClasses * c, const char * filename)'/>
+<use f='codebrowser/src/cdogs.c' l='239' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/character_class.c' l='118' ll='147' type='void CharacterClassesInitialize(CharacterClasses * c, const char * filename)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1346' u='c' c='main'/>

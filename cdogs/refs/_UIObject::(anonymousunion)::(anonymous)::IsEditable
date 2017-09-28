@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='82' type='_Bool'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='71' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='57' u='w' c='MissionGetObjectiveDescription'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='62' u='w' c='MissionGetObjectiveDescription'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='58' u='w' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='416' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='420' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='426' u='r' c='UIObjectDrawAndAddChildren'/>

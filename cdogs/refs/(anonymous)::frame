@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='52' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/animation.c' l='69' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='71' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='78' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='83' u='w' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='84' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='88' u='w' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='93' u='w' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='94' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='95' u='r' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='97' u='w' c='AnimationUpdate'/>
+<use f='codebrowser/src/cdogs/animation.c' l='104' u='r' c='AnimationGetFrame'/>

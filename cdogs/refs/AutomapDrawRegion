@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/automap.h' l='38' type='void AutomapDrawRegion(Map * map, Vec2i pos, Vec2i size, Vec2i mapCenter, int flags, _Bool showExit)'/>
+<def f='codebrowser/src/cdogs/automap.c' l='361' ll='389' type='void AutomapDrawRegion(Map * map, Vec2i pos, Vec2i size, Vec2i mapCenter, int flags, _Bool showExit)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='376' u='c' c='DrawRadar'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='393' u='c' c='DrawSharedRadar'/>

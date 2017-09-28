@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='125' type='GameEventEntry GameEventGetEntry(const GameEventType e)'/>
+<def f='codebrowser/src/cdogs/game_events.c' l='116' ll='119' type='GameEventEntry GameEventGetEntry(const GameEventType e)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='376' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='277' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='39' u='c' c='NetEncode'/>

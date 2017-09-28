@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='403'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='395'>/**
+ * Iterate over a ring safe against removal of the current element
+ * @param ep1 The current element
+ * @param ep2 Iteration cursor
+ * @param head The head of the ring
+ * @param elem The name of the element struct
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

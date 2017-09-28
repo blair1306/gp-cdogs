@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_parse.h source code [codebrowser/src/cdogs/yajl/api/yajl_parse.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/api/yajl_parse.h'; var root_path = '../../../../..'; var data_path = '../../../../../../data';</script>
+<script src='../../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../../..'>codebrowser</a>/<a href='../../..'>src</a>/<a href='../..'>cdogs</a>/<a href='..'>yajl</a>/<a href='./'>api</a>/<a href='yajl_parse.h.html'>yajl_parse.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="18">18</th><td><i class="doc"> *<span class="command"> \file</span> yajl_parse.h</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc"> * Interface to YAJL's JSON stream parsing facilities.</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="21">21</th><td></td></tr>
+<tr><th id="22">22</th><td><u>#include <a href="../../include/yajl/yajl_common.h.html">&lt;yajl/yajl_common.h&gt;</a></u></td></tr>
+<tr><th id="23">23</th><td></td></tr>
+<tr><th id="24">24</th><td><u>#<span data-ppcond="24">ifndef</span> <span class="macro" data-ref="_M/__YAJL_PARSE_H__">__YAJL_PARSE_H__</span></u></td></tr>
+<tr><th id="25">25</th><td><u>#define <dfn class="macro" id="_M/__YAJL_PARSE_H__" data-ref="_M/__YAJL_PARSE_H__">__YAJL_PARSE_H__</dfn></u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#include &lt;stddef.h&gt;</u></td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="29">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="30">30</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="29">endif</span></u></td></tr>
+<tr><th id="32">32</th><td>    <i class="doc">/** error codes returned from this interface */</i></td></tr>
+<tr><th id="33">33</th><td>    <b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="34">34</th><td>        <i class="doc">/** no error was encountered */</i></td></tr>
+<tr><th id="35">35</th><td>        <dfn class="enum" id="yajl_status_ok" title='yajl_status_ok' data-ref="yajl_status_ok">yajl_status_ok</dfn>,</td></tr>
+<tr><th id="36">36</th><td>        <i class="doc">/** a client callback returned zero, stopping the parse */</i></td></tr>
+<tr><th id="37">37</th><td>        <dfn class="enum" id="yajl_status_client_canceled" title='yajl_status_client_canceled' data-ref="yajl_status_client_canceled">yajl_status_client_canceled</dfn>,</td></tr>
+<tr><th id="38">38</th><td>        <i class="doc">/** An error occured during the parse.  Call yajl_get_error for</i></td></tr>
+<tr><th id="39">39</th><td><i class="doc">         *  more information about the encountered error */</i></td></tr>
+<tr><th id="40">40</th><td>        <dfn class="enum" id="yajl_status_error" title='yajl_status_error' data-ref="yajl_status_error">yajl_status_error</dfn></td></tr>
+<tr><th id="41">41</th><td>    } <dfn class="typedef" id="yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</dfn>;</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td>    <i class="doc">/** attain a human readable, english, string for an error */</i></td></tr>
+<tr><th id="44">44</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>const</em> <em>char</em> * <a class="decl" href="../yajl.c.html#yajl_status_to_string" title='yajl_status_to_string' data-ref="yajl_status_to_string" id="yajl_status_to_string">yajl_status_to_string</a>(<a class="typedef" href="#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a> <dfn class="local col8 decl" id="8code" title='code' data-type='yajl_status' data-ref="8code">code</dfn>);</td></tr>
+<tr><th id="45">45</th><td></td></tr>
+<tr><th id="46">46</th><td>    <i class="doc">/** an opaque handle to a parser */</i></td></tr>
+<tr><th id="47">47</th><td>    <b>typedef</b> <b>struct</b> <a class="type" href="../yajl_parser.h.html#yajl_handle_t" title='yajl_handle_t' data-ref="yajl_handle_t" id="yajl_handle_t"><a class="type" href="../yajl_parser.h.html#yajl_handle_t" title='yajl_handle_t' data-ref="yajl_handle_t">yajl_handle_t</a></a> * <dfn class="typedef" id="yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</dfn>;</td></tr>
+<tr><th id="48">48</th><td></td></tr>
+<tr><th id="49">49</th><td>    <i class="doc">/** yajl is an event driven parser.  this means as json elements are</i></td></tr>
+<tr><th id="50">50</th><td><i class="doc">     *  parsed, you are called back to do something with the data.  The</i></td></tr>
+<tr><th id="51">51</th><td><i class="doc">     *  functions in this table indicate the various events for which</i></td></tr>
+<tr><th id="52">52</th><td><i class="doc">     *  you will be called back.  Each callback accepts a "context"</i></td></tr>
+<tr><th id="53">53</th><td><i class="doc">     *  pointer, this is a void * that is passed into the yajl_parse</i></td></tr>
+<tr><th id="54">54</th><td><i class="doc">     *  function which the client code may use to pass around context.</i></td></tr>
+<tr><th id="55">55</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="56">56</th><td><i class="doc">     *  All callbacks return an integer.  If non-zero, the parse will</i></td></tr>
+<tr><th id="57">57</th><td><i class="doc">     *  continue.  If zero, the parse will be canceled and</i></td></tr>
+<tr><th id="58">58</th><td><i class="doc">     *  yajl_status_client_canceled will be returned from the parse.</i></td></tr>
+<tr><th id="59">59</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="60">60</th><td><i class="doc">     *  <span class="command">\attention</span> {</i></td></tr>
+<tr><th id="61">61</th><td><i class="doc">     *    A note about the handling of numbers:</i></td></tr>
+<tr><th id="62">62</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="63">63</th><td><i class="doc">     *    yajl will only convert numbers that can be represented in a</i></td></tr>
+<tr><th id="64">64</th><td><i class="doc">     *    double or a 64 bit (long long) int.  All other numbers will</i></td></tr>
+<tr><th id="65">65</th><td><i class="doc">     *    be passed to the client in string form using the yajl_number</i></td></tr>
+<tr><th id="66">66</th><td><i class="doc">     *    callback.  Furthermore, if yajl_number is not NULL, it will</i></td></tr>
+<tr><th id="67">67</th><td><i class="doc">     *    always be used to return numbers, that is yajl_integer and</i></td></tr>
+<tr><th id="68">68</th><td><i class="doc">     *    yajl_double will be ignored.  If yajl_number is NULL but one</i></td></tr>
+<tr><th id="69">69</th><td><i class="doc">     *    of yajl_integer or yajl_double are defined, parsing of a</i></td></tr>
+<tr><th id="70">70</th><td><i class="doc">     *    number larger than is representable in a double or 64 bit</i></td></tr>
+<tr><th id="71">71</th><td><i class="doc">     *    integer will result in a parse error.</i></td></tr>
+<tr><th id="72">72</th><td><i class="doc">     *  }</i></td></tr>
+<tr><th id="73">73</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="74">74</th><td>    <b>typedef</b> <b>struct</b> {</td></tr>
+<tr><th id="75">75</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_null" title='(anonymous struct)::yajl_null' data-ref="(anonymous)::yajl_null">yajl_null</dfn>)(<em>void</em> * <dfn class="local col9 decl" id="9ctx" title='ctx' data-type='void *' data-ref="9ctx">ctx</dfn>);</td></tr>
+<tr><th id="76">76</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_boolean" title='(anonymous struct)::yajl_boolean' data-ref="(anonymous)::yajl_boolean">yajl_boolean</dfn>)(<em>void</em> * <dfn class="local col0 decl" id="10ctx" title='ctx' data-type='void *' data-ref="10ctx">ctx</dfn>, <em>int</em> <dfn class="local col1 decl" id="11boolVal" title='boolVal' data-type='int' data-ref="11boolVal">boolVal</dfn>);</td></tr>
+<tr><th id="77">77</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_integer" title='(anonymous struct)::yajl_integer' data-ref="(anonymous)::yajl_integer">yajl_integer</dfn>)(<em>void</em> * <dfn class="local col2 decl" id="12ctx" title='ctx' data-type='void *' data-ref="12ctx">ctx</dfn>, <em>long</em> <em>long</em> <dfn class="local col3 decl" id="13integerVal" title='integerVal' data-type='long long' data-ref="13integerVal">integerVal</dfn>);</td></tr>
+<tr><th id="78">78</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_double" title='(anonymous struct)::yajl_double' data-ref="(anonymous)::yajl_double">yajl_double</dfn>)(<em>void</em> * <dfn class="local col4 decl" id="14ctx" title='ctx' data-type='void *' data-ref="14ctx">ctx</dfn>, <em>double</em> <dfn class="local col5 decl" id="15doubleVal" title='doubleVal' data-type='double' data-ref="15doubleVal">doubleVal</dfn>);</td></tr>
+<tr><th id="79">79</th><td>        <i class="doc">/** A callback which passes the string representation of the number</i></td></tr>
+<tr><th id="80">80</th><td><i class="doc">         *  back to the client.  Will be used for all numbers when present */</i></td></tr>
+<tr><th id="81">81</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_number" title='(anonymous struct)::yajl_number' data-ref="(anonymous)::yajl_number">yajl_number</dfn>)(<em>void</em> * <dfn class="local col6 decl" id="16ctx" title='ctx' data-type='void *' data-ref="16ctx">ctx</dfn>, <em>const</em> <em>char</em> * <dfn class="local col7 decl" id="17numberVal" title='numberVal' data-type='const char *' data-ref="17numberVal">numberVal</dfn>,</td></tr>
+<tr><th id="82">82</th><td>                            <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col8 decl" id="18numberLen" title='numberLen' data-type='size_t' data-ref="18numberLen">numberLen</dfn>);</td></tr>
+<tr><th id="83">83</th><td></td></tr>
+<tr><th id="84">84</th><td>        <i class="doc">/** strings are returned as pointers into the JSON text when,</i></td></tr>
+<tr><th id="85">85</th><td><i class="doc">         * possible, as a result, they are _not_ null padded */</i></td></tr>
+<tr><th id="86">86</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_string" title='(anonymous struct)::yajl_string' data-ref="(anonymous)::yajl_string">yajl_string</dfn>)(<em>void</em> * <dfn class="local col9 decl" id="19ctx" title='ctx' data-type='void *' data-ref="19ctx">ctx</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col0 decl" id="20stringVal" title='stringVal' data-type='const unsigned char *' data-ref="20stringVal">stringVal</dfn>,</td></tr>
+<tr><th id="87">87</th><td>                            <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col1 decl" id="21stringLen" title='stringLen' data-type='size_t' data-ref="21stringLen">stringLen</dfn>);</td></tr>
+<tr><th id="88">88</th><td></td></tr>
+<tr><th id="89">89</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_start_map" title='(anonymous struct)::yajl_start_map' data-ref="(anonymous)::yajl_start_map">yajl_start_map</dfn>)(<em>void</em> * <dfn class="local col2 decl" id="22ctx" title='ctx' data-type='void *' data-ref="22ctx">ctx</dfn>);</td></tr>
+<tr><th id="90">90</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_map_key" title='(anonymous struct)::yajl_map_key' data-ref="(anonymous)::yajl_map_key">yajl_map_key</dfn>)(<em>void</em> * <dfn class="local col3 decl" id="23ctx" title='ctx' data-type='void *' data-ref="23ctx">ctx</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col4 decl" id="24key" title='key' data-type='const unsigned char *' data-ref="24key">key</dfn>,</td></tr>
+<tr><th id="91">91</th><td>                             <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col5 decl" id="25stringLen" title='stringLen' data-type='size_t' data-ref="25stringLen">stringLen</dfn>);</td></tr>
+<tr><th id="92">92</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_end_map" title='(anonymous struct)::yajl_end_map' data-ref="(anonymous)::yajl_end_map">yajl_end_map</dfn>)(<em>void</em> * <dfn class="local col6 decl" id="26ctx" title='ctx' data-type='void *' data-ref="26ctx">ctx</dfn>);</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_start_array" title='(anonymous struct)::yajl_start_array' data-ref="(anonymous)::yajl_start_array">yajl_start_array</dfn>)(<em>void</em> * <dfn class="local col7 decl" id="27ctx" title='ctx' data-type='void *' data-ref="27ctx">ctx</dfn>);</td></tr>
+<tr><th id="95">95</th><td>        <em>int</em> (* <dfn class="decl" id="(anonymous)::yajl_end_array" title='(anonymous struct)::yajl_end_array' data-ref="(anonymous)::yajl_end_array">yajl_end_array</dfn>)(<em>void</em> * <dfn class="local col8 decl" id="28ctx" title='ctx' data-type='void *' data-ref="28ctx">ctx</dfn>);</td></tr>
+<tr><th id="96">96</th><td>    } <dfn class="typedef" id="yajl_callbacks" title='yajl_callbacks' data-type='struct yajl_callbacks' data-ref="yajl_callbacks">yajl_callbacks</dfn>;</td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td>    <i class="doc">/** allocate a parser handle</i></td></tr>
+<tr><th id="99">99</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">callbacks</span>  a yajl callbacks structure specifying the</i></td></tr>
+<tr><th id="100">100</th><td><i class="doc">     *                    functions to call when different JSON entities</i></td></tr>
+<tr><th id="101">101</th><td><i class="doc">     *                    are encountered in the input text.  May be NULL,</i></td></tr>
+<tr><th id="102">102</th><td><i class="doc">     *                    which is only useful for validation.</i></td></tr>
+<tr><th id="103">103</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">afs</span>        memory allocation functions, may be NULL for to use</i></td></tr>
+<tr><th id="104">104</th><td><i class="doc">     *                    C runtime library routines (malloc and friends) </i></td></tr>
+<tr><th id="105">105</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">ctx</span>        a context pointer that will be passed to callbacks.</i></td></tr>
+<tr><th id="106">106</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="107">107</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <a class="decl" href="../yajl.c.html#yajl_alloc" title='yajl_alloc' data-ref="yajl_alloc" id="yajl_alloc">yajl_alloc</a>(<em>const</em> <a class="typedef" href="#yajl_callbacks" title='yajl_callbacks' data-type='struct yajl_callbacks' data-ref="yajl_callbacks">yajl_callbacks</a> * <dfn class="local col9 decl" id="29callbacks" title='callbacks' data-type='const yajl_callbacks *' data-ref="29callbacks">callbacks</dfn>,</td></tr>
+<tr><th id="108">108</th><td>                                    <a class="typedef" href="../../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> * <dfn class="local col0 decl" id="30afs" title='afs' data-type='yajl_alloc_funcs *' data-ref="30afs">afs</dfn>,</td></tr>
+<tr><th id="109">109</th><td>                                    <em>void</em> * <dfn class="local col1 decl" id="31ctx" title='ctx' data-type='void *' data-ref="31ctx">ctx</dfn>);</td></tr>
+<tr><th id="110">110</th><td></td></tr>
+<tr><th id="111">111</th><td></td></tr>
+<tr><th id="112">112</th><td>    <i class="doc">/** configuration parameters for the parser, these may be passed to</i></td></tr>
+<tr><th id="113">113</th><td><i class="doc">     *  yajl_config() along with option specific argument(s).  In general,</i></td></tr>
+<tr><th id="114">114</th><td><i class="doc">     *  all configuration parameters default to *off*. */</i></td></tr>
+<tr><th id="115">115</th><td>    <b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="116">116</th><td>        <i class="doc">/** Ignore javascript style comments present in</i></td></tr>
+<tr><th id="117">117</th><td><i class="doc">         *  JSON input.  Non-standard, but rather fun</i></td></tr>
+<tr><th id="118">118</th><td><i class="doc">         *  arguments: toggled off with integer zero, on otherwise.</i></td></tr>
+<tr><th id="119">119</th><td><i class="doc">         *</i></td></tr>
+<tr><th id="120">120</th><td><i class="doc">         *  example:</i></td></tr>
+<tr><th id="121">121</th><td><i class="doc">         *    yajl_config(h, yajl_allow_comments, 1); // turn comment support on</i></td></tr>
+<tr><th id="122">122</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="123">123</th><td>        <dfn class="enum" id="yajl_allow_comments" title='yajl_allow_comments' data-ref="yajl_allow_comments">yajl_allow_comments</dfn> = <var>0x01</var>,</td></tr>
+<tr><th id="124">124</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc">         * When set the parser will verify that all strings in JSON input are</i></td></tr>
+<tr><th id="126">126</th><td><i class="doc">         * valid UTF8 and will emit a parse error if this is not so.  When set,</i></td></tr>
+<tr><th id="127">127</th><td><i class="doc">         * this option makes parsing slightly more expensive (~7% depending</i></td></tr>
+<tr><th id="128">128</th><td><i class="doc">         * on processor and compiler in use)</i></td></tr>
+<tr><th id="129">129</th><td><i class="doc">         *</i></td></tr>
+<tr><th id="130">130</th><td><i class="doc">         * example:</i></td></tr>
+<tr><th id="131">131</th><td><i class="doc">         *   yajl_config(h, yajl_dont_validate_strings, 1); // disable utf8 checking</i></td></tr>
+<tr><th id="132">132</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="133">133</th><td>        <dfn class="enum" id="yajl_dont_validate_strings" title='yajl_dont_validate_strings' data-ref="yajl_dont_validate_strings">yajl_dont_validate_strings</dfn>     = <var>0x02</var>,</td></tr>
+<tr><th id="134">134</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="135">135</th><td><i class="doc">         * By default, upon calls to yajl_complete_parse(), yajl will</i></td></tr>
+<tr><th id="136">136</th><td><i class="doc">         * ensure the entire input text was consumed and will raise an error</i></td></tr>
+<tr><th id="137">137</th><td><i class="doc">         * otherwise.  Enabling this flag will cause yajl to disable this</i></td></tr>
+<tr><th id="138">138</th><td><i class="doc">         * check.  This can be useful when parsing json out of a that contains more</i></td></tr>
+<tr><th id="139">139</th><td><i class="doc">         * than a single JSON document.</i></td></tr>
+<tr><th id="140">140</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="141">141</th><td>        <dfn class="enum" id="yajl_allow_trailing_garbage" title='yajl_allow_trailing_garbage' data-ref="yajl_allow_trailing_garbage">yajl_allow_trailing_garbage</dfn> = <var>0x04</var>,</td></tr>
+<tr><th id="142">142</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="143">143</th><td><i class="doc">         * Allow multiple values to be parsed by a single handle.  The</i></td></tr>
+<tr><th id="144">144</th><td><i class="doc">         * entire text must be valid JSON, and values can be seperated</i></td></tr>
+<tr><th id="145">145</th><td><i class="doc">         * by any kind of whitespace.  This flag will change the</i></td></tr>
+<tr><th id="146">146</th><td><i class="doc">         * behavior of the parser, and cause it continue parsing after</i></td></tr>
+<tr><th id="147">147</th><td><i class="doc">         * a value is parsed, rather than transitioning into a</i></td></tr>
+<tr><th id="148">148</th><td><i class="doc">         * complete state.  This option can be useful when parsing multiple</i></td></tr>
+<tr><th id="149">149</th><td><i class="doc">         * values from an input stream.</i></td></tr>
+<tr><th id="150">150</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="151">151</th><td>        <dfn class="enum" id="yajl_allow_multiple_values" title='yajl_allow_multiple_values' data-ref="yajl_allow_multiple_values">yajl_allow_multiple_values</dfn> = <var>0x08</var>,</td></tr>
+<tr><th id="152">152</th><td>        <i class="doc">/**</i></td></tr>
+<tr><th id="153">153</th><td><i class="doc">         * When yajl_complete_parse() is called the parser will</i></td></tr>
+<tr><th id="154">154</th><td><i class="doc">         * check that the top level value was completely consumed.  I.E.,</i></td></tr>
+<tr><th id="155">155</th><td><i class="doc">         * if called whilst in the middle of parsing a value</i></td></tr>
+<tr><th id="156">156</th><td><i class="doc">         * yajl will enter an error state (premature EOF).  Setting this</i></td></tr>
+<tr><th id="157">157</th><td><i class="doc">         * flag suppresses that check and the corresponding error.</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc">         */</i></td></tr>
+<tr><th id="159">159</th><td>        <dfn class="enum" id="yajl_allow_partial_values" title='yajl_allow_partial_values' data-ref="yajl_allow_partial_values">yajl_allow_partial_values</dfn> = <var>0x10</var></td></tr>
+<tr><th id="160">160</th><td>    } <dfn class="typedef" id="yajl_option" title='yajl_option' data-type='enum yajl_option' data-ref="yajl_option">yajl_option</dfn>;</td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td>    <i class="doc">/** allow the modification of parser options subsequent to handle</i></td></tr>
+<tr><th id="163">163</th><td><i class="doc">     *  allocation (via yajl_alloc)</i></td></tr>
+<tr><th id="164">164</th><td><i class="doc">     *  <span class="command">\returns</span> zero in case of errors, non-zero otherwise</i></td></tr>
+<tr><th id="165">165</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="166">166</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>int</em> <a class="decl" href="../yajl.c.html#yajl_config" title='yajl_config' data-ref="yajl_config" id="yajl_config">yajl_config</a>(<a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col2 decl" id="32h" title='h' data-type='yajl_handle' data-ref="32h">h</dfn>, <a class="typedef" href="#yajl_option" title='yajl_option' data-type='enum yajl_option' data-ref="yajl_option">yajl_option</a> <dfn class="local col3 decl" id="33opt" title='opt' data-type='yajl_option' data-ref="33opt">opt</dfn>, ...);</td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td>    <i class="doc">/** free a parser handle */</i></td></tr>
+<tr><th id="169">169</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>void</em> <a class="decl" href="../yajl.c.html#yajl_free" title='yajl_free' data-ref="yajl_free" id="yajl_free">yajl_free</a>(<a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col4 decl" id="34handle" title='handle' data-type='yajl_handle' data-ref="34handle">handle</dfn>);</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td>    <i class="doc">/** Parse some json!</i></td></tr>
+<tr><th id="172">172</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">hand</span> - a handle to the json parser allocated with yajl_alloc</i></td></tr>
+<tr><th id="173">173</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">jsonText</span> - a pointer to the UTF8 json text to be parsed</i></td></tr>
+<tr><th id="174">174</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">jsonTextLength</span> - the length, in bytes, of input text</i></td></tr>
+<tr><th id="175">175</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="176">176</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a> <a class="decl" href="../yajl.c.html#yajl_parse" title='yajl_parse' data-ref="yajl_parse" id="yajl_parse">yajl_parse</a>(<a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col5 decl" id="35hand" title='hand' data-type='yajl_handle' data-ref="35hand">hand</dfn>,</td></tr>
+<tr><th id="177">177</th><td>                                    <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col6 decl" id="36jsonText" title='jsonText' data-type='const unsigned char *' data-ref="36jsonText">jsonText</dfn>,</td></tr>
+<tr><th id="178">178</th><td>                                    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col7 decl" id="37jsonTextLength" title='jsonTextLength' data-type='size_t' data-ref="37jsonTextLength">jsonTextLength</dfn>);</td></tr>
+<tr><th id="179">179</th><td></td></tr>
+<tr><th id="180">180</th><td>    <i class="doc">/** Parse any remaining buffered json.</i></td></tr>
+<tr><th id="181">181</th><td><i class="doc">     *  Since yajl is a stream-based parser, without an explicit end of</i></td></tr>
+<tr><th id="182">182</th><td><i class="doc">     *  input, yajl sometimes can't decide if content at the end of the</i></td></tr>
+<tr><th id="183">183</th><td><i class="doc">     *  stream is valid or not.  For example, if "1" has been fed in,</i></td></tr>
+<tr><th id="184">184</th><td><i class="doc">     *  yajl can't know whether another digit is next or some character</i></td></tr>
+<tr><th id="185">185</th><td><i class="doc">     *  that would terminate the integer token.</i></td></tr>
+<tr><th id="186">186</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="187">187</th><td><i class="doc">     *  <span class="command">\param</span> <span class="arg">hand</span> - a handle to the json parser allocated with yajl_alloc</i></td></tr>
+<tr><th id="188">188</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="189">189</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <a class="typedef" href="#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a> <a class="decl" href="../yajl.c.html#yajl_complete_parse" title='yajl_complete_parse' data-ref="yajl_complete_parse" id="yajl_complete_parse">yajl_complete_parse</a>(<a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col8 decl" id="38hand" title='hand' data-type='yajl_handle' data-ref="38hand">hand</dfn>);</td></tr>
+<tr><th id="190">190</th><td></td></tr>
+<tr><th id="191">191</th><td>    <i class="doc">/** get an error string describing the state of the</i></td></tr>
+<tr><th id="192">192</th><td><i class="doc">     *  parse.</i></td></tr>
+<tr><th id="193">193</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="194">194</th><td><i class="doc">     *  If verbose is non-zero, the message will include the JSON</i></td></tr>
+<tr><th id="195">195</th><td><i class="doc">     *  text where the error occured, along with an arrow pointing to</i></td></tr>
+<tr><th id="196">196</th><td><i class="doc">     *  the specific char.</i></td></tr>
+<tr><th id="197">197</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="198">198</th><td><i class="doc">     *  <span class="command">\returns</span> A dynamically allocated string will be returned which should</i></td></tr>
+<tr><th id="199">199</th><td><i class="doc">     *  be freed with yajl_free_error</i></td></tr>
+<tr><th id="200">200</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="201">201</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>unsigned</em> <em>char</em> * <a class="decl" href="../yajl.c.html#yajl_get_error" title='yajl_get_error' data-ref="yajl_get_error" id="yajl_get_error">yajl_get_error</a>(<a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col9 decl" id="39hand" title='hand' data-type='yajl_handle' data-ref="39hand">hand</dfn>, <em>int</em> <dfn class="local col0 decl" id="40verbose" title='verbose' data-type='int' data-ref="40verbose">verbose</dfn>,</td></tr>
+<tr><th id="202">202</th><td>                                            <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col1 decl" id="41jsonText" title='jsonText' data-type='const unsigned char *' data-ref="41jsonText">jsonText</dfn>,</td></tr>
+<tr><th id="203">203</th><td>                                            <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="42jsonTextLength" title='jsonTextLength' data-type='size_t' data-ref="42jsonTextLength">jsonTextLength</dfn>);</td></tr>
+<tr><th id="204">204</th><td></td></tr>
+<tr><th id="205">205</th><td>    <i class="doc">/**</i></td></tr>
+<tr><th id="206">206</th><td><i class="doc">     * get the amount of data consumed from the last chunk passed to YAJL.</i></td></tr>
+<tr><th id="207">207</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="208">208</th><td><i class="doc">     * In the case of a successful parse this can help you understand if</i></td></tr>
+<tr><th id="209">209</th><td><i class="doc">     * the entire buffer was consumed (which will allow you to handle</i></td></tr>
+<tr><th id="210">210</th><td><i class="doc">     * "junk at end of input").</i></td></tr>
+<tr><th id="211">211</th><td><i class="doc">     *</i></td></tr>
+<tr><th id="212">212</th><td><i class="doc">     * In the event an error is encountered during parsing, this function</i></td></tr>
+<tr><th id="213">213</th><td><i class="doc">     * affords the client a way to get the offset into the most recent</i></td></tr>
+<tr><th id="214">214</th><td><i class="doc">     * chunk where the error occured.  0 will be returned if no error</i></td></tr>
+<tr><th id="215">215</th><td><i class="doc">     * was encountered.</i></td></tr>
+<tr><th id="216">216</th><td><i class="doc">     */</i></td></tr>
+<tr><th id="217">217</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <a class="decl" href="../yajl.c.html#yajl_get_bytes_consumed" title='yajl_get_bytes_consumed' data-ref="yajl_get_bytes_consumed" id="yajl_get_bytes_consumed">yajl_get_bytes_consumed</a>(<a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col3 decl" id="43hand" title='hand' data-type='yajl_handle' data-ref="43hand">hand</dfn>);</td></tr>
+<tr><th id="218">218</th><td></td></tr>
+<tr><th id="219">219</th><td>    <i class="doc">/** free an error returned from yajl_get_error */</i></td></tr>
+<tr><th id="220">220</th><td>    <a class="macro" href="../../include/yajl/yajl_common.h.html#39" title="__attribute__ ((visibility(&quot;default&quot;)))" data-ref="_M/YAJL_API">YAJL_API</a> <em>void</em> <a class="decl" href="../yajl.c.html#yajl_free_error" title='yajl_free_error' data-ref="yajl_free_error" id="yajl_free_error">yajl_free_error</a>(<a class="typedef" href="#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col4 decl" id="44hand" title='hand' data-type='yajl_handle' data-ref="44hand">hand</dfn>, <em>unsigned</em> <em>char</em> * <dfn class="local col5 decl" id="45str" title='str' data-type='unsigned char *' data-ref="45str">str</dfn>);</td></tr>
+<tr><th id="221">221</th><td></td></tr>
+<tr><th id="222">222</th><td><u>#<span data-ppcond="222">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="223">223</th><td>}</td></tr>
+<tr><th id="224">224</th><td><u>#<span data-ppcond="222">endif</span></u></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td><u>#<span data-ppcond="24">endif</span></u></td></tr>
+<tr><th id="227">227</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../yajl.c.html'>codebrowser/src/cdogs/yajl/yajl.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

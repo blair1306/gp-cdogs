@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='91' type='BulletUpdateFunc'/>
+<offset>1792</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='914' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='392' u='r' c='UpdateMobileObjects'/>

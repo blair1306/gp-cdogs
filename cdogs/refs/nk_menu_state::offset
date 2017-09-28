@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3440' type='struct nk_scroll'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18548' u='m' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18549' u='m' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18576' u='m' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18577' u='m' c='nk_menubar_end'/>
+<offset>128</offset>

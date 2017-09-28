@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10399' ll='10409' macro='1' type='void nk_tt_PackSetOversampling(struct nk_tt_pack_context * spc, unsigned int h_oversample, unsigned int v_oversample)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10897' u='c' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10940' u='c' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10989' u='c' c='nk_font_bake'/>

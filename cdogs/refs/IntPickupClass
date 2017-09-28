@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='73' type='PickupClass * IntPickupClass(const int i)'/>
+<doc f='codebrowser/src/cdogs/pickup_class.h' l='72'>// Legacy pickup classes, integer based</doc>
+<use f='codebrowser/src/cdogs/files.c' l='348' u='c' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/objective.c' l='112' u='c' c='ObjectiveLoadJSON'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='78' ll='100' type='PickupClass * IntPickupClass(const int i)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='85' type='void KeyOnKeyUp(keyboard_t * keyboard, const SDL_Keysym s)'/>
+<use f='codebrowser/src/cdogs/events.c' l='91' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='105' ll='108' type='void KeyOnKeyUp(keyboard_t * keyboard, const SDL_Keysym s)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='318' u='c' c='HandleEvents'/>

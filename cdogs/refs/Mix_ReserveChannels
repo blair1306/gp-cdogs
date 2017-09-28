@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_mixer.h' l='501' type='int Mix_ReserveChannels(int num)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='497'>/* Reserve the first channels (0 -&gt; n-1) for the application, i.e. don&apos;t allocate
+   them dynamically to the next sample if requested with a -1 value below.
+   Returns the number of reserved channels.
+ */</doc>

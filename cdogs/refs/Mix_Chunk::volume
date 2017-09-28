@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_mixer.h' l='107' type='Uint8'/>
+<offset>160</offset>
+<doc f='include/SDL2/SDL_mixer.h' l='107'>/* Per-sample volume, 0-128 */</doc>

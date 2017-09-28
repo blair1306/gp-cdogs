@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/c_array.h' l='44' type='void CArrayInsert(CArray * a, int index, const void * elem)'/>
+<def f='codebrowser/src/cdogs/c_array.c' l='80' ll='93' type='void CArrayInsert(CArray * a, int idx, const void * elem)'/>
+<use f='codebrowser/src/cdogs/character.c' l='200' u='c' c='CharacterStoreInsertOther'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='87' u='c' c='TileCacheAddImpl'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='133' u='c' c='AddGraphicsMode'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='91' u='c' c='InsertMission'/>
+<use f='codebrowser/src/tests/c_array_test.c' l='31' u='c' c='_cbehave_feature_CArrayInsert'/>

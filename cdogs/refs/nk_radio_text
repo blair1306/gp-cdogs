@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1503' type='int nk_radio_text(struct nk_context * , const char * , int , int * active)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20420' ll='20431' macro='1' type='int nk_radio_text(struct nk_context * ctx, const char * text, int len, int * active)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20439' u='c' c='nk_radio_label'/>

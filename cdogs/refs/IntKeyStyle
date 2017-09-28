@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='77' type='const char * IntKeyStyle(const int style)'/>
+<doc f='codebrowser/src/cdogs/pickup_class.h' l='76'>// Legacy key classes, style+integer based</doc>
+<use f='codebrowser/src/cdogs/files.c' l='378' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='244' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='110' u='c' c='MissionInit'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='107' ll='111' type='const char * IntKeyStyle(const int style)'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='114' u='c' c='IntKeyPickupClass'/>

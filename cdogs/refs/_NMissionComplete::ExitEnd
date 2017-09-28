@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='336' type='NVec2i'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='664' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='100' u='w' c='NMakeMissionComplete'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='379'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='379'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='379'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='379'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

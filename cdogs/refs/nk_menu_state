@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3438' ll='3441'/>
+<size>24</size>
+<mbr r='nk_menu_state::x' o='0' t='float'/>
+<mbr r='nk_menu_state::y' o='32' t='float'/>
+<mbr r='nk_menu_state::w' o='64' t='float'/>
+<mbr r='nk_menu_state::h' o='96' t='float'/>
+<mbr r='nk_menu_state::offset' o='128' t='struct nk_scroll'/>

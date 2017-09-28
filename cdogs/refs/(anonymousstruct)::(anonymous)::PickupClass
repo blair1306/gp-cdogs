@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='103' type='const PickupClass *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='455' u='r' c='DrawSpawnerName'/>
+<use f='codebrowser/src/cdogs/map.c' l='364' u='r' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='379' u='w' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='504' u='w' c='SetupSpawner'/>
+<use f='codebrowser/src/cdogs/objs.c' l='515' u='r' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1641' u='r' c='DrawMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='88' u='r' c='DrawPickupSpawner'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='329' u='r' c='MakePickupTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='329' u='r' c='MakePickupTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='330' u='r' c='MakePickupTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='330' u='r' c='MakePickupTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='330' u='r' c='MakePickupTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='330' u='r' c='MakePickupTooltip'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='330' u='r' c='MakePickupTooltip'/>

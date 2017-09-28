@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/autosave.h' l='61' type='void AutosaveAddMission(Autosave * autosave, MissionSave * mission)'/>
+<use f='codebrowser/src/autosave.c' l='123' u='c' c='LoadMissionNodes'/>
+<def f='codebrowser/src/autosave.c' l='231' ll='254' type='void AutosaveAddMission(Autosave * autosave, MissionSave * mission)'/>
+<use f='codebrowser/src/briefing_screens.c' l='422' u='c' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='78' u='c' c='_cbehave_feature_save_and_load'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='131' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='150' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='156' u='c' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='178' u='c' c='_cbehave_feature_mission_autosaves'/>

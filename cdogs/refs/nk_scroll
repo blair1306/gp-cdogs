@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='463'/>
+<size>8</size>
+<mbr r='nk_scroll::x' o='0' t='nk_uint'/>
+<mbr r='nk_scroll::y' o='32' t='nk_uint'/>

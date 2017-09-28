@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3543' type='unsigned short'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17793' u='w' c='nk_push_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17801' u='w' c='nk_push_table'/>
+<offset>3456</offset>

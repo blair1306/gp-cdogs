@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2860' type='struct nk_buffer *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7336' u='w' c='nk_draw_list_setup'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7403' u='r' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7404' u='r' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7412' u='w' c='nk_draw_list_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7556' u='r' c='nk_draw_list_alloc_elements'/>
+<offset>1536</offset>

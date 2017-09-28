@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='69'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='189' u='c'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='156' u='c'/>
+<use f='codebrowser/src/tests/config_test.c' l='93' u='c'/>
+<use f='codebrowser/src/tests/config_test.c' l='119' u='c'/>

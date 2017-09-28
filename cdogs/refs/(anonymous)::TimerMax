@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='47' type='int'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='46'>// Number of milliseconds that this update will last</doc>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='94' u='w' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='98' u='w' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='144' u='w' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='144' u='r' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='240' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='263' u='r' c='DrawNumUpdate'/>

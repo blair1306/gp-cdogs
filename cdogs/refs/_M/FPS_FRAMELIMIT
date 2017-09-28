@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/sys_config.h' l='48'/>
+<use f='codebrowser/src/briefing_screens.c' l='498' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='879' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='879' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='934' u='c'/>
+<use f='codebrowser/src/cdogs/mission.c' l='378' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='107' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='353' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='354' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1262' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1288' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='181' u='c'/>

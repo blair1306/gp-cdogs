@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='61'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='122' u='c'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='299' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='471' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='540' u='c'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='132' type='TMobileObject * MobObjGetByUID(const int uid)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='396' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='422' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/objs.c' l='563' ll='572' type='TMobileObject * MobObjGetByUID(const int uid)'/>

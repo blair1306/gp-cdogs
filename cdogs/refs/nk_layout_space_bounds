@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1340' type='struct nk_rect nk_layout_space_bounds(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19028' ll='19046' macro='1' type='struct nk_rect nk_layout_space_bounds(struct nk_context * ctx)'/>

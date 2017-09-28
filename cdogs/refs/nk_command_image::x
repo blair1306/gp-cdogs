@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2656' type='short'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7228' u='w' c='nk_draw_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8585' u='r' c='nk_convert'/>
+<offset>128</offset>

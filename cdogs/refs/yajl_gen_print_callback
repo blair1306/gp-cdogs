@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='88' type='4'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='79'>/**
+         * Set a function and context argument that should be used to
+         * output generated json.  the function should conform to the
+         * yajl_print_t prototype while the context argument is a
+         * void * of your choosing.
+         *
+         * example:
+         *   yajl_gen_config(g, yajl_gen_print_callback, myFunc, myVoidPtr);
+         */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='81' c='yajl_gen_config'/>

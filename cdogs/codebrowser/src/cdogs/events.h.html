@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>events.h source code [codebrowser/src/cdogs/events.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/events.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='events.h.html'>events.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2013-2017 Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#pragma once</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="joystick.h.html">"joystick.h"</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="keyboard.h.html">"keyboard.h"</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="mouse.h.html">"mouse.h"</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="player.h.html">"player.h"</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="36">36</th><td>{</td></tr>
+<tr><th id="37">37</th><td>	<a class="typedef" href="keyboard.h.html#keyboard_t" title='keyboard_t' data-type='struct keyboard_t' data-ref="keyboard_t">keyboard_t</a> <dfn class="decl" id="(anonymous)::keyboard" title='(anonymous struct)::keyboard' data-ref="(anonymous)::keyboard">keyboard</dfn>;</td></tr>
+<tr><th id="38">38</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::joysticks" title='(anonymous struct)::joysticks' data-ref="(anonymous)::joysticks">joysticks</dfn>;</td></tr>
+<tr><th id="39">39</th><td>	<a class="typedef" href="mouse.h.html#Mouse" title='Mouse' data-type='struct Mouse' data-ref="Mouse">Mouse</a> <dfn class="decl" id="(anonymous)::mouse" title='(anonymous struct)::mouse' data-ref="(anonymous)::mouse">mouse</dfn>;</td></tr>
+<tr><th id="40">40</th><td>	<i>// Filename received via drag and drop</i></td></tr>
+<tr><th id="41">41</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::DropFile" title='(anonymous struct)::DropFile' data-ref="(anonymous)::DropFile">DropFile</dfn>;</td></tr>
+<tr><th id="42">42</th><td></td></tr>
+<tr><th id="43">43</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::HasResolutionChanged" title='(anonymous struct)::HasResolutionChanged' data-ref="(anonymous)::HasResolutionChanged">HasResolutionChanged</dfn>;</td></tr>
+<tr><th id="44">44</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::HasQuit" title='(anonymous struct)::HasQuit' data-ref="(anonymous)::HasQuit">HasQuit</dfn>;</td></tr>
+<tr><th id="45">45</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::HasLostFocus" title='(anonymous struct)::HasLostFocus' data-ref="(anonymous)::HasLostFocus">HasLostFocus</dfn>;</td></tr>
+<tr><th id="46">46</th><td>} <dfn class="typedef" id="EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</dfn>;</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><b>extern</b> <a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> <dfn class="decl" id="gEventHandlers" title='gEventHandlers' data-ref="gEventHandlers">gEventHandlers</dfn>;</td></tr>
+<tr><th id="49">49</th><td></td></tr>
+<tr><th id="50">50</th><td><em>void</em> <dfn class="decl" id="EventInit" title='EventInit' data-ref="EventInit">EventInit</dfn>(</td></tr>
+<tr><th id="51">51</th><td>	<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col7 decl" id="417handlers" title='handlers' data-type='EventHandlers *' data-ref="417handlers">handlers</dfn>, <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="local col8 decl" id="418mouseCursor" title='mouseCursor' data-type='Pic *' data-ref="418mouseCursor">mouseCursor</dfn>, <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="local col9 decl" id="419mouseTrail" title='mouseTrail' data-type='Pic *' data-ref="419mouseTrail">mouseTrail</dfn>,</td></tr>
+<tr><th id="52">52</th><td>	<em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col0 decl" id="420hideMouse" title='hideMouse' data-type='const _Bool' data-ref="420hideMouse">hideMouse</dfn>);</td></tr>
+<tr><th id="53">53</th><td><em>void</em> <dfn class="decl" id="EventTerminate" title='EventTerminate' data-ref="EventTerminate">EventTerminate</dfn>(<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col1 decl" id="421handlers" title='handlers' data-type='EventHandlers *' data-ref="421handlers">handlers</dfn>);</td></tr>
+<tr><th id="54">54</th><td><em>void</em> <dfn class="decl" id="EventReset" title='EventReset' data-ref="EventReset">EventReset</dfn>(<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col2 decl" id="422handlers" title='handlers' data-type='EventHandlers *' data-ref="422handlers">handlers</dfn>, <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="local col3 decl" id="423mouseCursor" title='mouseCursor' data-type='Pic *' data-ref="423mouseCursor">mouseCursor</dfn>, <a class="typedef" href="pic.h.html#Pic" title='Pic' data-type='struct Pic' data-ref="Pic">Pic</a> *<dfn class="local col4 decl" id="424mouseTrail" title='mouseTrail' data-type='Pic *' data-ref="424mouseTrail">mouseTrail</dfn>);</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><em>void</em> <dfn class="decl" id="EventPoll" title='EventPoll' data-ref="EventPoll">EventPoll</dfn>(<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col5 decl" id="425handlers" title='handlers' data-type='EventHandlers *' data-ref="425handlers">handlers</dfn>, <a class="typedef" href="../../../include/SDL2/SDL_stdinc.h.html#Uint32" title='Uint32' data-type='uint32_t' data-ref="Uint32">Uint32</a> <dfn class="local col6 decl" id="426ticks" title='ticks' data-type='Uint32' data-ref="426ticks">ticks</dfn>);</td></tr>
+<tr><th id="57">57</th><td></td></tr>
+<tr><th id="58">58</th><td><em>int</em> <dfn class="decl" id="GetOnePlayerCmd" title='GetOnePlayerCmd' data-ref="GetOnePlayerCmd">GetOnePlayerCmd</dfn>(</td></tr>
+<tr><th id="59">59</th><td>	<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col7 decl" id="427handlers" title='handlers' data-type='EventHandlers *' data-ref="427handlers">handlers</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col8 decl" id="428isPressed" title='isPressed' data-type='const _Bool' data-ref="428isPressed">isPressed</dfn>,</td></tr>
+<tr><th id="60">60</th><td>	<em>const</em> <a class="typedef" href="utils.h.html#input_device_e" title='input_device_e' data-type='enum input_device_e' data-ref="input_device_e">input_device_e</a> <dfn class="local col9 decl" id="429device" title='device' data-type='const input_device_e' data-ref="429device">device</dfn>, <em>const</em> <em>int</em> <dfn class="local col0 decl" id="430deviceIndex" title='deviceIndex' data-type='const int' data-ref="430deviceIndex">deviceIndex</dfn>);</td></tr>
+<tr><th id="61">61</th><td><em>int</em> <dfn class="decl" id="GetGameCmd" title='GetGameCmd' data-ref="GetGameCmd">GetGameCmd</dfn>(</td></tr>
+<tr><th id="62">62</th><td>	<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col1 decl" id="431handlers" title='handlers' data-type='EventHandlers *' data-ref="431handlers">handlers</dfn>,</td></tr>
+<tr><th id="63">63</th><td>	<em>const</em> <a class="typedef" href="player.h.html#PlayerData" title='PlayerData' data-type='struct PlayerData' data-ref="PlayerData">PlayerData</a> *<dfn class="local col2 decl" id="432playerData" title='playerData' data-type='const PlayerData *' data-ref="432playerData">playerData</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="433playerPos" title='playerPos' data-type='const Vec2i' data-ref="433playerPos">playerPos</dfn>);</td></tr>
+<tr><th id="64">64</th><td><em>int</em> <dfn class="decl" id="GetKeyboardCmd" title='GetKeyboardCmd' data-ref="GetKeyboardCmd">GetKeyboardCmd</dfn>(</td></tr>
+<tr><th id="65">65</th><td>	<a class="typedef" href="keyboard.h.html#keyboard_t" title='keyboard_t' data-type='struct keyboard_t' data-ref="keyboard_t">keyboard_t</a> *<dfn class="local col4 decl" id="434keyboard" title='keyboard' data-type='keyboard_t *' data-ref="434keyboard">keyboard</dfn>, <em>const</em> <em>int</em> <dfn class="local col5 decl" id="435kbIndex" title='kbIndex' data-type='const int' data-ref="435kbIndex">kbIndex</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col6 decl" id="436isPressed" title='isPressed' data-type='const _Bool' data-ref="436isPressed">isPressed</dfn>);</td></tr>
+<tr><th id="66">66</th><td><a class="typedef" href="../../../include/SDL2/SDL_scancode.h.html#SDL_Scancode" title='SDL_Scancode' data-type='enum SDL_Scancode' data-ref="SDL_Scancode">SDL_Scancode</a> <dfn class="decl" id="GetKey" title='GetKey' data-ref="GetKey">GetKey</dfn>(<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col7 decl" id="437handlers" title='handlers' data-type='EventHandlers *' data-ref="437handlers">handlers</dfn>);</td></tr>
+<tr><th id="67">67</th><td><i>// Wait until there is a key press or text input</i></td></tr>
+<tr><th id="68">68</th><td><a class="typedef" href="../../../include/SDL2/SDL_scancode.h.html#SDL_Scancode" title='SDL_Scancode' data-type='enum SDL_Scancode' data-ref="SDL_Scancode">SDL_Scancode</a> <dfn class="decl" id="EventWaitKeyOrText" title='EventWaitKeyOrText' data-ref="EventWaitKeyOrText">EventWaitKeyOrText</dfn>(<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col8 decl" id="438handlers" title='handlers' data-type='EventHandlers *' data-ref="438handlers">handlers</dfn>);</td></tr>
+<tr><th id="69">69</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="70">70</th><td>{</td></tr>
+<tr><th id="71">71</th><td>	<dfn class="enum" id="EVENT_WAIT_CONTINUE" title='EVENT_WAIT_CONTINUE' data-ref="EVENT_WAIT_CONTINUE">EVENT_WAIT_CONTINUE</dfn>,</td></tr>
+<tr><th id="72">72</th><td>	<dfn class="enum" id="EVENT_WAIT_OK" title='EVENT_WAIT_OK' data-ref="EVENT_WAIT_OK">EVENT_WAIT_OK</dfn>,</td></tr>
+<tr><th id="73">73</th><td>	<dfn class="enum" id="EVENT_WAIT_CANCEL" title='EVENT_WAIT_CANCEL' data-ref="EVENT_WAIT_CANCEL">EVENT_WAIT_CANCEL</dfn></td></tr>
+<tr><th id="74">74</th><td>} <dfn class="typedef" id="EventWaitResult" title='EventWaitResult' data-type='enum EventWaitResult' data-ref="EventWaitResult">EventWaitResult</dfn>;</td></tr>
+<tr><th id="75">75</th><td><a class="typedef" href="#EventWaitResult" title='EventWaitResult' data-type='enum EventWaitResult' data-ref="EventWaitResult">EventWaitResult</a> <dfn class="decl" id="EventWaitForAnyKeyOrButton" title='EventWaitForAnyKeyOrButton' data-ref="EventWaitForAnyKeyOrButton">EventWaitForAnyKeyOrButton</dfn>(<em>void</em>);</td></tr>
+<tr><th id="76">76</th><td><em>void</em> <dfn class="decl" id="GetPlayerCmds" title='GetPlayerCmds' data-ref="GetPlayerCmds">GetPlayerCmds</dfn>(<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col9 decl" id="439handlers" title='handlers' data-type='EventHandlers *' data-ref="439handlers">handlers</dfn>, <em>int</em> (*<dfn class="local col0 decl" id="440cmds" title='cmds' data-type='int (*)[4]' data-ref="440cmds">cmds</dfn>)[<a class="macro" href="player.h.html#66" title="4" data-ref="_M/MAX_LOCAL_PLAYERS">MAX_LOCAL_PLAYERS</a>]);</td></tr>
+<tr><th id="77">77</th><td><em>int</em> <dfn class="decl" id="GetMenuCmd" title='GetMenuCmd' data-ref="GetMenuCmd">GetMenuCmd</dfn>(<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col1 decl" id="441handlers" title='handlers' data-type='EventHandlers *' data-ref="441handlers">handlers</dfn>);</td></tr>
+<tr><th id="78">78</th><td><em>void</em> <dfn class="decl" id="InputGetButtonNameColor" title='InputGetButtonNameColor' data-ref="InputGetButtonNameColor">InputGetButtonNameColor</dfn>(</td></tr>
+<tr><th id="79">79</th><td>	<em>const</em> <a class="typedef" href="utils.h.html#input_device_e" title='input_device_e' data-type='enum input_device_e' data-ref="input_device_e">input_device_e</a> <dfn class="local col2 decl" id="442d" title='d' data-type='const input_device_e' data-ref="442d">d</dfn>, <em>const</em> <em>int</em> <dfn class="local col3 decl" id="443dIndex" title='dIndex' data-type='const int' data-ref="443dIndex">dIndex</dfn>, <em>const</em> <em>int</em> <dfn class="local col4 decl" id="444cmd" title='cmd' data-type='const int' data-ref="444cmd">cmd</dfn>,</td></tr>
+<tr><th id="80">80</th><td>	<em>char</em> *<dfn class="local col5 decl" id="445buf" title='buf' data-type='char *' data-ref="445buf">buf</dfn>, <a class="typedef" href="color.h.html#color_t" title='color_t' data-type='struct color_t' data-ref="color_t">color_t</a> *<dfn class="local col6 decl" id="446color" title='color' data-type='color_t *' data-ref="446color">color</dfn>);</td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/InputGetButtonName" data-ref="_M/InputGetButtonName">InputGetButtonName</dfn>(_d, _dIndex, _cmd, _buf)\</u></td></tr>
+<tr><th id="82">82</th><td><u>	InputGetButtonNameColor(_d, _dIndex, _cmd, _buf, NULL)</u></td></tr>
+<tr><th id="83">83</th><td><i>// Return a string that shows the direction controls for an input device</i></td></tr>
+<tr><th id="84">84</th><td><em>void</em> <dfn class="decl" id="InputGetDirectionNames" title='InputGetDirectionNames' data-ref="InputGetDirectionNames">InputGetDirectionNames</dfn>(</td></tr>
+<tr><th id="85">85</th><td>	<em>char</em> *<dfn class="local col7 decl" id="447buf" title='buf' data-type='char *' data-ref="447buf">buf</dfn>, <em>const</em> <a class="typedef" href="utils.h.html#input_device_e" title='input_device_e' data-type='enum input_device_e' data-ref="input_device_e">input_device_e</a> <dfn class="local col8 decl" id="448d" title='d' data-type='const input_device_e' data-ref="448d">d</dfn>, <em>const</em> <em>int</em> <dfn class="local col9 decl" id="449dIndex" title='dIndex' data-type='const int' data-ref="449dIndex">dIndex</dfn>);</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="EventIsEscape" title='EventIsEscape' data-ref="EventIsEscape">EventIsEscape</dfn>(</td></tr>
+<tr><th id="88">88</th><td>	<a class="typedef" href="#EventHandlers" title='EventHandlers' data-type='struct EventHandlers' data-ref="EventHandlers">EventHandlers</a> *<dfn class="local col0 decl" id="450handlers" title='handlers' data-type='EventHandlers *' data-ref="450handlers">handlers</dfn>,</td></tr>
+<tr><th id="89">89</th><td>	<em>const</em> <em>int</em> <dfn class="local col1 decl" id="451cmds" title='cmds' data-type='const int *' data-ref="451cmds">cmds</dfn>[<a class="macro" href="player.h.html#66" title="4" data-ref="_M/MAX_LOCAL_PLAYERS">MAX_LOCAL_PLAYERS</a>], <em>const</em> <em>int</em> <dfn class="local col2 decl" id="452menuCmd" title='menuCmd' data-type='const int' data-ref="452menuCmd">menuCmd</dfn>);</td></tr>
+<tr><th id="90">90</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../briefing_screens.c.html'>codebrowser/src/briefing_screens.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

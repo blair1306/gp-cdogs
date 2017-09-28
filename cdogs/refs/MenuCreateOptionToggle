@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='286' type='menu_t * MenuCreateOptionToggle(const char * name, _Bool * config)'/>
+<use f='codebrowser/src/menu.c' l='446' u='c' c='MenuAddConfigOptionsItem'/>
+<def f='codebrowser/src/menu.c' l='466' ll='472' type='menu_t * MenuCreateOptionToggle(const char * name, _Bool * config)'/>
+<use f='codebrowser/src/prep.c' l='736' u='c' c='MenuCreateAllowedWeapons'/>

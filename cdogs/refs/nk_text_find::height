@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='12316' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12485' u='w' c='nk_textedit_find_charpos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12503' u='w' c='nk_textedit_find_charpos'/>
+<offset>64</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='12316'>/* height of line */</doc>

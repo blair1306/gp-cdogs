@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3656' ll='3660'/>
+<size>488</size>
+<mbr r='nk_page_data::tbl' o='0' t='struct nk_table'/>
+<mbr r='nk_page_data::pan' o='0' t='struct nk_panel'/>
+<mbr r='nk_page_data::win' o='0' t='struct nk_window'/>

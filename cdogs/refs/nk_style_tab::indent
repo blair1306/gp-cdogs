@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3262' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16365' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19393' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19402' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19403' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19403' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19404' u='r' c='nk_tree_state_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19457' u='r' c='nk_tree_state_pop'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19458' u='r' c='nk_tree_state_pop'/>
+<offset>6080</offset>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2709' type='void nk_fill_rect_multi_color(struct nk_command_buffer * , struct nk_rect , struct nk_color left, struct nk_color top, struct nk_color right, struct nk_color bottom)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6982' ll='7007' macro='1' type='void nk_fill_rect_multi_color(struct nk_command_buffer * b, struct nk_rect rect, struct nk_color left, struct nk_color top, struct nk_color right, struct nk_color bottom)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15816' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15830' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15837' u='c' c='nk_draw_color_picker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15838' u='c' c='nk_draw_color_picker'/>

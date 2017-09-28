@@ -1,0 +1,3 @@
+<def f='codebrowser/src/cdogs/rlutil/rlutil.h' l='610' ll='620' macro='1' type='void setCursorVisibility(char visible)'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='625' u='c' c='hidecursor'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='631' u='c' c='showcursor'/>

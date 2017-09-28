@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='174' type='enet_uint32'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='174' u='w' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='552' u='r' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='668' u='r' c='enet_protocol_handle_send_unreliable_fragment'/>

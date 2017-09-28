@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='14130' ll='14176' macro='1' type='int nk_do_selectable_image(nk_flags * state, struct nk_command_buffer * out, struct nk_rect bounds, const char * str, int len, nk_flags align, int * value, const struct nk_image * img, const struct nk_style_selectable * style, const struct nk_input * in, const struct nk_user_font * font)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20265' u='c' c='nk_selectable_image_text'/>

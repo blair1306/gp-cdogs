@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='44' type='CArray'/>
+<offset>1024</offset>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='44'>// of char *</doc>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='50' u='a' c='PicManagerInit'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='285' u='a' c='AfterAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='357' u='a' c='MaybeAddDoorPicName'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='412' u='a' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='628' u='m' c='PicManagerGetDoorStyleIndex'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='628' u='a' c='PicManagerGetDoorStyleIndex'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='223' u='a' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='453' u='m' c='MissionDrawDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='877' u='m' c='MissionChangeDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='877' u='m' c='MissionChangeDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='879' u='a' c='MissionChangeDoorStyle'/>

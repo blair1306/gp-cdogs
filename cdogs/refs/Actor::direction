@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='98' type='direction_e'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='47' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='77' u='r' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/actors.c' l='152' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='684' u='r' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/actors.c' l='691' u='w' c='ActorTryChangeDirection'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1247' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1248' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1319' u='r' c='ActorGetGunMuzzleOffset'/>
+<use f='codebrowser/src/cdogs/ai.c' l='122' u='r' c='CanSeeAPlayer'/>
+<use f='codebrowser/src/cdogs/ai.c' l='200' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='202' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='202' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='209' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='211' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='211' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='222' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='224' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='224' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='229' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='231' u='w' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='231' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='240' u='r' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='258' u='r' c='WillFire'/>
+<use f='codebrowser/src/cdogs/ai.c' l='269' u='w' c='Detour'/>
+<use f='codebrowser/src/cdogs/ai.c' l='272' u='w' c='Detour'/>
+<use f='codebrowser/src/cdogs/ai.c' l='362' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='247' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='250' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='309' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='202' u='w' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='438' u='r' c='NetServerSendGameStartMessages'/>

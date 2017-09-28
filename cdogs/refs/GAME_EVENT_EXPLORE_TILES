@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='96' type='45'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='105' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='105' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='105' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='105' u='r'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='576' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/los.c' l='168' u='r' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='509' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='518' u='r' c='NetServerSendGameStartMessages'/>

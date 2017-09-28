@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='38' type='_Bool (*)(pb_ostream_t *, const uint8_t *, size_t)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='81' u='w' c='pb_ostream_from_buffer'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='94' u='r' c='pb_write'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='103' u='r' c='pb_write'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='161' u='r' c='encode_array'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='527' u='r' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='535' u='w' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='535' u='r' c='pb_encode_submessage'/>

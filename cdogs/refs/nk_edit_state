@@ -1,0 +1,13 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3500' ll='3511'/>
+<size>44</size>
+<mbr r='nk_edit_state::name' o='0' t='nk_hash'/>
+<mbr r='nk_edit_state::seq' o='32' t='unsigned int'/>
+<mbr r='nk_edit_state::old' o='64' t='unsigned int'/>
+<mbr r='nk_edit_state::active' o='96' t='int'/>
+<mbr r='nk_edit_state::prev' o='128' t='int'/>
+<mbr r='nk_edit_state::cursor' o='160' t='int'/>
+<mbr r='nk_edit_state::sel_start' o='192' t='int'/>
+<mbr r='nk_edit_state::sel_end' o='224' t='int'/>
+<mbr r='nk_edit_state::scrollbar' o='256' t='struct nk_scroll'/>
+<mbr r='nk_edit_state::mode' o='320' t='unsigned char'/>
+<mbr r='nk_edit_state::single_line' o='328' t='unsigned char'/>

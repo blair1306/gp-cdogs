@@ -1,0 +1,21 @@
+<dec f='include/SDL2/SDL_mixer.h' l='492' type='int Mix_SetReverseStereo(int channel, int flip)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='472'>/* Causes a channel to reverse its stereo. This is handy if the user has his
+ *  speakers hooked up backwards, or you would like to have a minor bit of
+ *  psychedelia in your sound code.  :)  Calling this function with (flip)
+ *  set to non-zero reverses the chunks&apos;s usual channels. If (flip) is zero,
+ *  the effect is unregistered.
+ *
+ * This uses the Mix_RegisterEffect() API internally, and thus is probably
+ *  more CPU intensive than having the user just plug in his speakers
+ *  correctly. Mix_SetReverseStereo() returns without registering the effect
+ *  function if the audio device is not configured for stereo output.
+ *
+ * If you specify MIX_CHANNEL_POST for (channel), then this the effect is used
+ *  on the final mixed stream before sending it on to the audio device (a
+ *  posteffect).
+ *
+ * returns zero if error (no such channel or Mix_RegisterEffect() fails),
+ *  nonzero if reversing effect is enabled. Note that an audio device in mono
+ *  mode is a no-op, but this call will return successful in that case.
+ *  Error messages can be retrieved from Mix_GetError().
+ */</doc>

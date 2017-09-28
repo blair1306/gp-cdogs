@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='52' type='yajl_buf'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='73' u='w' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='109' u='r' c='yajl_free'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='51'>/* temporary storage for decoded strings */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='249' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='250' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='252' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='253' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='311' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='312' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='313' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='391' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='392' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='393' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='394' u='r' c='yajl_do_parse'/>

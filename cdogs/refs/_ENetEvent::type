@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='436' type='ENetEventType'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='436'>/**&lt; type of the event */</doc>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='74' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='83' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='99' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='128' u='w' c='enet_protocol_notify_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='147' u='w' c='enet_protocol_notify_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1189' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1230' u='r' c='enet_protocol_receive_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1624' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1767' u='w' c='enet_host_check_events'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1794' u='w' c='enet_host_service'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='170' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='305' u='r' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='315' u='r' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='315' u='r' c='NetClientPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='188' u='r' c='NetServerPoll'/>

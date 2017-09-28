@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_gamecontroller.h' l='272' type='7'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='282' c='DefaultButtonName'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='322' c='DefaultButtonColor'/>

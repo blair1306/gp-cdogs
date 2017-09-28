@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2878' type='void nk_draw_list_clear(struct nk_draw_list * )'/>
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2885' type='void nk_draw_list_clear(struct nk_draw_list * list)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7394' ll='7414' macro='1' type='void nk_draw_list_clear(struct nk_draw_list * list)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16852' u='c' c='nk_clear'/>

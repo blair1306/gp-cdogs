@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='574' type='int enet_peer_send(ENetPeer * , enet_uint8 , ENetPacket * )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='272' u='c' c='enet_host_broadcast'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='99' ll='214' type='int enet_peer_send(ENetPeer * peer, enet_uint8 channelID, ENetPacket * packet)'/>
+<doc f='codebrowser/src/cdogs/enet/peer.c' l='92'>/** Queues a packet to be sent.
+    @param peer destination for the packet
+    @param channelID channel on which to send
+    @param packet packet to send
+    @retval 0 on success
+    @retval &lt; 0 on failure
+*/</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='514' u='c' c='NetClientSendMsg'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='605' u='c' c='NetServerSendMsg'/>

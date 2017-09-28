@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='356' ll='360'/>
+<size>12</size>
+<mbr r='_NTrigger::ID' o='0' t='uint32_t'/>
+<mbr r='_NTrigger::Tile' o='32' t='NVec2i'/>

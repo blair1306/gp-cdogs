@@ -1,0 +1,10 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17899' ll='17914' macro='1' type='struct nk_window * nk_find_window(struct nk_context * ctx, nk_hash hash, const char * name)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18025' u='c' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18333' u='c' c='nk_window_is_collapsed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18349' u='c' c='nk_window_is_closed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18365' u='c' c='nk_window_is_hidden'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18381' u='c' c='nk_window_is_active'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18393' u='c' c='nk_window_find'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18448' u='c' c='nk_window_collapse'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18475' u='c' c='nk_window_show'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18502' u='c' c='nk_window_set_focus'/>

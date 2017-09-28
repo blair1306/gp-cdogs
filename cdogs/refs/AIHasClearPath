@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='64' type='_Bool AIHasClearPath(const Vec2i from, const Vec2i to, const _Bool ignoreObjects)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='377' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='833' u='c' c='CanGetObjective'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='207' ll='212' macro='1' type='_Bool AIHasClearPath(const Vec2i from, const Vec2i to, const _Bool ignoreObjects)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='433' u='c' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='532' u='c' c='AIGoto'/>

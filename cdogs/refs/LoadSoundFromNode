@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='52' type='void LoadSoundFromNode(Mix_Chunk ** value, json_t * node, const char * name)'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='135' ll='146' type='void LoadSoundFromNode(Mix_Chunk ** value, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='230' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='231' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='232' u='c' c='LoadGunDescription'/>

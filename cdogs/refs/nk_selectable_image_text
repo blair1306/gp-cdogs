@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1514' type='int nk_selectable_image_text(struct nk_context * , struct nk_image , const char * , int , nk_flags align, int * value)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20239' ll='20267' macro='1' type='int nk_selectable_image_text(struct nk_context * ctx, struct nk_image img, const char * str, int len, nk_flags align, int * value)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20278' u='c' c='nk_selectable_image_label'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20285' u='c' c='nk_select_image_label'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20289' u='c' c='nk_select_image_text'/>

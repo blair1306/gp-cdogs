@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='60' type='NetClient'/>
+<use f='codebrowser/src/cdogs.c' l='163' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='269' u='a' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='298' u='a' c='main'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='167' u='a' c='GameEventsEnqueue'/>
+<def f='codebrowser/src/cdogs/net_client.c' l='44' type='NetClient'/>
+<use f='codebrowser/src/cdogs/player.c' l='60' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/cdogs/player.c' l='61' u='m' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/game.c' l='304' u='m' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='612' u='a' c='RunGameUpdate'/>
+<use f='codebrowser/src/game_loop.c' l='210' u='a' c='LoopRunnerRunInner'/>
+<use f='codebrowser/src/game_loop.c' l='231' u='a' c='LoopRunnerRunInner'/>
+<use f='codebrowser/src/mainmenu.c' l='103' u='a' c='MainMenuOnEnter'/>
+<use f='codebrowser/src/mainmenu.c' l='432' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='432' u='m' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='464' u='m' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='469' u='m' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='471' u='a' c='JoinLANGame'/>
+<use f='codebrowser/src/mainmenu.c' l='489' u='m' c='CheckLANServers'/>
+<use f='codebrowser/src/mainmenu.c' l='498' u='m' c='CheckLANServers'/>
+<use f='codebrowser/src/mainmenu.c' l='501' u='a' c='CheckLANServers'/>
+<use f='codebrowser/src/prep.c' l='152' u='m' c='ScreenWaitForCampaignDef'/>
+<use f='codebrowser/src/prep.c' l='154' u='m' c='ScreenWaitForCampaignDef'/>
+<use f='codebrowser/src/prep.c' l='239' u='m' c='NumPlayersUpdate'/>
+<use f='codebrowser/src/prep.c' l='844' u='a' c='PlayerEquipOnExit'/>
+<use f='codebrowser/src/prep.c' l='942' u='m' c='ScreenWaitForGameStart'/>
+<use f='codebrowser/src/prep.c' l='946' u='a' c='ScreenWaitForGameStart'/>
+<use f='codebrowser/src/prep.c' l='958' u='a' c='CheckGameStart'/>
+<def f='codebrowser/src/tests/player_test.c' l='15' type='NetClient'/>

@@ -1,0 +1,16 @@
+<def f='codebrowser/src/json/json.h' l='122' ll='135'/>
+<size>88</size>
+<doc f='codebrowser/src/json/json.h' l='119'>/**
+The structure which holds the pointers to the functions that will be called by the saxy parser whenever their evens are triggered
+**/</doc>
+<mbr r='json_saxy_functions::open_object' o='0' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::close_object' o='64' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::open_array' o='128' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::close_array' o='192' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::new_string' o='256' t='int (*)(char *)'/>
+<mbr r='json_saxy_functions::new_number' o='320' t='int (*)(char *)'/>
+<mbr r='json_saxy_functions::new_true' o='384' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::new_false' o='448' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::new_null' o='512' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::label_value_separator' o='576' t='int (*)(void)'/>
+<mbr r='json_saxy_functions::sibling_separator' o='640' t='int (*)(void)'/>

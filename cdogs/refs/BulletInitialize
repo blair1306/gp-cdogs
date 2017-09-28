@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='115' type='void BulletInitialize(BulletClasses * bullets)'/>
+<def f='codebrowser/src/cdogs/bullet_class.c' l='565' ll='570' type='void BulletInitialize(BulletClasses * bullets)'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='604' u='c' c='BulletAndWeaponInitialize'/>

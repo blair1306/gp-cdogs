@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='463' type='nk_uint'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18143' u='a' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18549' u='w' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18577' u='r' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20616' u='r' c='nk_edit_string'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20634' u='w' c='nk_edit_string'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21313' u='w' c='nk_group_scrolled_offset_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21382' u='w' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21406' u='a' c='nk_group_scrolled_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21600' u='a' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21690' u='a' c='nk_nonblock_begin'/>
+<offset>32</offset>

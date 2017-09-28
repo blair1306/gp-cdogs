@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='329' type='int32_t'/>
+<offset>1152</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1043' u='w' c='ActorDie'/>
+<use f='codebrowser/src/cdogs/map.c' l='397' u='w' c='MapTryPlaceOneObject'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='542' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='545' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='545' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/objs.c' l='233' u='w' c='PlaceWreck'/>
+<use f='codebrowser/src/cdogs/objs.c' l='456' u='r' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='469' u='r' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='469' u='r' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='113'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='113'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='113'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='113'/>

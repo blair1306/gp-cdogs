@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config.h' l='230' type='void ConfigSetFloat(Config * c, const char * name, const double value)'/>
+<def f='codebrowser/src/cdogs/config.c' l='522' ll='527' type='void ConfigSetFloat(Config * c, const char * name, const double value)'/>
+<use f='codebrowser/src/cdogs/config.c' l='541' u='c' c='ConfigTrySetFromString'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/color.h' l='107' type='HSV'/>
+<def f='codebrowser/src/cdogs/color.c' l='110' type='HSV'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='106' u='a' c='GetCharacterPicsFromActor'/>

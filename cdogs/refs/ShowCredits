@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/credits.h' l='76' type='void ShowCredits(credits_displayer_t * displayer)'/>
+<def f='codebrowser/src/credits.c' l='114' ll='140' type='void ShowCredits(credits_displayer_t * displayer)'/>
+<use f='codebrowser/src/menu.c' l='620' u='c' c='MenuDisplayItems'/>

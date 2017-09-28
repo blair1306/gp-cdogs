@@ -1,0 +1,10 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9166' type='nk_uint nk_ttULONG(const nk_byte * p)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9186' u='c' c='nk_tt__find_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9230' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9237' u='c' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9315' u='c' c='nk_tt_FindGlyphIndex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9321' u='c' c='nk_tt_FindGlyphIndex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9322' u='c' c='nk_tt_FindGlyphIndex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9328' u='c' c='nk_tt_FindGlyphIndex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9363' u='c' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9364' u='c' c='nk_tt__GetGlyfOffset'/>

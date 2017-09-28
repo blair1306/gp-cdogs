@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_cave.h' l='32' type='void MapCaveLoad(Map * map, const struct MissionOptions * mo, const CampaignOptions * co)'/>
+<use f='codebrowser/src/cdogs/map.c' l='656' u='c' c='MapLoad'/>
+<def f='codebrowser/src/cdogs/map_cave.c' l='39' ll='70' type='void MapCaveLoad(Map * map, const struct MissionOptions * mo, const CampaignOptions * co)'/>

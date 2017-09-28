@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='291' type='_Bool (*)(pb_istream_t *, const pb_field_t *, void **)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='568' u='r' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='580' u='r' c='decode_callback_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='601' u='r' c='decode_callback_field'/>

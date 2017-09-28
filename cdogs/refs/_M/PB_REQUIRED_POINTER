@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='415'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='414'>/* Allocated fields carry the size of the actual data, not the pointer */</doc>

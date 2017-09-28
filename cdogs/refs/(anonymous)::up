@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='47' type='SDL_Scancode'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/events.c' l='221' u='r' c='GetKeyboardCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='424' u='r' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='75' u='w' c='KeyLoadPlayerKeys'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='208' u='r' c='KeyGet'/>
+<use f='codebrowser/src/menu.c' l='1107' u='r' c='KeyAvailable'/>

@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_stdinc.h' l='333' type='void * SDL_realloc(void * mem, size_t size)'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='239' u='c' c='ReadMappingsString'/>

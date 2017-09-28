@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pic.h' l='50' type='void PicLoad(Pic * p, const Vec2i size, const Vec2i offset, const SDL_Surface * image)'/>
+<use f='codebrowser/src/cdogs/font.c' l='105' u='c' c='FontLoad'/>
+<def f='codebrowser/src/cdogs/pic.c' l='56' ll='85' type='void PicLoad(Pic * p, const Vec2i size, const Vec2i offset, const SDL_Surface * image)'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='124' u='c' c='PicManagerAdd'/>
+<use f='codebrowser/src/tests/pic_test.c' l='66' u='c' c='_cbehave_feature_PicLoad'/>

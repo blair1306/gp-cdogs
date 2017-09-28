@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10198' ll='10204' macro='1' type='void nk_tt__add_point(struct nk_tt__point * points, int n, float x, float y)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10229' u='c' c='nk_tt__tesselate_curve'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10286' u='c' c='nk_tt_FlattenCurves'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10290' u='c' c='nk_tt_FlattenCurves'/>

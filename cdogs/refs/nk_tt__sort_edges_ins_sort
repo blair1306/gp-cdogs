@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10048' ll='10065' macro='1' type='void nk_tt__sort_edges_ins_sort(struct nk_tt__edge * p, int n)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10139' u='c' c='nk_tt__sort_edges'/>

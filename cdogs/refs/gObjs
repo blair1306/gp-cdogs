@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='96' type='CArray'/>
+<doc f='codebrowser/src/cdogs/objs.h' l='96'>// of TObject</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='232' u='a' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='253' u='a' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='657' u='m' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='657' u='a' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='239' u='a' c='IsTileWalkable'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='263' u='a' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='393' u='a' c='AIGetObjectRunningInto'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='479' u='a' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='429' u='a' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='535' u='m' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='535' u='a' c='NetServerSendGameStartMessages'/>
+<def f='codebrowser/src/cdogs/objs.c' l='59' type='CArray'/>
+<use f='codebrowser/src/cdogs/objs.c' l='69' u='a' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/cdogs/objs.c' l='405' u='a' c='ObjsInit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='406' u='a' c='ObjsInit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='411' u='m' c='ObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='411' u='a' c='ObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='417' u='a' c='ObjsTerminate'/>
+<use f='codebrowser/src/cdogs/objs.c' l='436' u='m' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='438' u='a' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='449' u='a' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='450' u='m' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='451' u='a' c='ObjAdd'/>
+<use f='codebrowser/src/cdogs/objs.c' l='490' u='m' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='490' u='a' c='UpdateObjects'/>
+<use f='codebrowser/src/cdogs/objs.c' l='533' u='m' c='ObjGetByUID'/>
+<use f='codebrowser/src/cdogs/objs.c' l='533' u='a' c='ObjGetByUID'/>
+<use f='codebrowser/src/cdogs/tile.c' l='150' u='a' c='ThingIdGetTileItem'/>

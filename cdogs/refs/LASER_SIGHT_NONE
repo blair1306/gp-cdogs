@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/config.h' l='88' type='0'/>
+<use f='codebrowser/src/cdogs/config.c' l='141' c='LaserSightStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='150' u='r' c='StrLaserSight'/>
+<use f='codebrowser/src/cdogs/config.c' l='153' u='r' c='StrLaserSight'/>
+<use f='codebrowser/src/cdogs/config.c' l='597' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='597' u='r' c='ConfigDefault'/>

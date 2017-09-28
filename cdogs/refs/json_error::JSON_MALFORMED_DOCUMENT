@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/json/json.h' l='77' type='4'/>
+<doc f='codebrowser/src/json/json.h' l='77'>/* the JSON document which was fed to this parser is malformed */</doc>
+<use f='codebrowser/src/json/json.c' l='2171' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2176' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2275' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2334' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2370' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2394' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2533' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2684' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2745' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2766' u='r' c='json_parse_fragment'/>

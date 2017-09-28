@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogsed/editor_ui.c' l='127' macro='1' type='void MissionCheckTypeFunc(UIObject * o, void * data)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1404' u='r' c='CreateClassicMapObjs'/>
+<def f='codebrowser/src/cdogsed/editor_ui_cave.c' l='36' macro='1' type='void MissionCheckTypeFunc(UIObject * o, void * data)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='72' u='r' c='CreateCaveMapObjs'/>
+<def f='codebrowser/src/cdogsed/editor_ui_static.c' l='43' macro='1' type='void MissionCheckTypeFunc(UIObject * o, void * data)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='294' u='r' c='CreateStaticMapObjs'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='136' type='int'/>
+<offset>1664</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='121' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='123' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='127' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='127' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='127' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1394' u='r' c='ActorTakeSpecialDamage'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1396' u='w' c='ActorTakeSpecialDamage'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='94' u='r' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='80' u='r' c='HealthGaugeDraw'/>

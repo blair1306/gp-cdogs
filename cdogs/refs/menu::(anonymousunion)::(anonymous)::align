@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='153' type='MenuAlignStyle'/>
+<offset>896</offset>
+<use f='codebrowser/src/mainmenu.c' l='362' u='w' c='MenuCreateCampaigns'/>
+<use f='codebrowser/src/menu.c' l='340' u='w' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='750' u='r' c='MenuDisplaySubmenus'/>

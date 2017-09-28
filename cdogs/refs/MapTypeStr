@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='70' type='const char * MapTypeStr(MapType t)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='339' u='c' c='SaveMissions'/>
+<def f='codebrowser/src/cdogs/mission.c' l='82' ll='92' type='const char * MapTypeStr(MapType t)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='387' u='c' c='MissionGetTypeStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1169' u='c' c='CreateEditorObjs'/>

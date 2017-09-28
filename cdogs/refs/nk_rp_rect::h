@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='8637' type='nk_rp_coord'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8923' u='r' c='nk_rect_height_compare'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8923' u='r' c='nk_rect_height_compare'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8925' u='r' c='nk_rect_height_compare'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8925' u='r' c='nk_rect_height_compare'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8981' u='r' c='nk_rp_pack_rects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10577' u='w' c='nk_tt_PackFontRangesGatherRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10629' u='w' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10629' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10635' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10641' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10645' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10650' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10655' u='r' c='nk_tt_PackFontRangesRenderIntoRects'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10895' u='w' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10899' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10899' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10904' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10948' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10948' u='r' c='nk_font_bake_pack'/>
+<offset>48</offset>

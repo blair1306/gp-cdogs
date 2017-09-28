@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/joystick.h' l='59' type='int JoyGetPressed(const SDL_JoystickID id)'/>
+<def f='codebrowser/src/cdogs/joystick.c' l='110' ll='115' type='int JoyGetPressed(const SDL_JoystickID id)'/>

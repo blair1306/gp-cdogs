@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/config.h' l='147' type='char *'/>
+<dec f='codebrowser/src/cdogs/config.h' l='147' type='double'/>
+<dec f='codebrowser/src/cdogs/config.h' l='147' type='_Bool'/>
+<dec f='codebrowser/src/cdogs/config.h' l='161' type='int'/>
+<dec f='codebrowser/src/cdogs/config.h' l='161' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/config.c' l='231' u='w' c='ConfigNewInt'/>
+<use f='codebrowser/src/cdogs/config.c' l='244' u='w' c='ConfigNewFloat'/>
+<use f='codebrowser/src/cdogs/config.c' l='253' u='w' c='ConfigNewBool'/>
+<use f='codebrowser/src/cdogs/config.c' l='262' u='w' c='ConfigNewEnum'/>
+<use f='codebrowser/src/cdogs/config.c' l='450' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='452' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='452' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='452' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='452' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='452' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='456' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='459' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='462' u='r' c='ConfigResetDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='465' u='r' c='ConfigResetDefault'/>

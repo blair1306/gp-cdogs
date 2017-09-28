@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='154' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='79' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='395' u='w' c='OnDisconnect'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='89'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='89'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='89'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='89'/>

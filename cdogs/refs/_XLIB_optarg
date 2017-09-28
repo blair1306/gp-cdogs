@@ -1,0 +1,61 @@
+<dec f='codebrowser/src/XGetopt.h' l='70' type='char *'/>
+<def f='codebrowser/src/XGetopt.c' l='42' macro='1' type='char *'/>
+<use f='codebrowser/src/XGetopt.c' l='78' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='80' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='94' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='95' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='101' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='112' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='130' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='131' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='138' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='163' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='164' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='164' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='169' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='176' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='193' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='210' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='213' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='218' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='220' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='224' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='230' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='272' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='288' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='293' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='317' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='325' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='333' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='338' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='343' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='349' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='349' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='361' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='364' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='367' macro='1' u='w'/>
+<use f='codebrowser/src/XGetopt.c' l='371' macro='1' u='r'/>
+<use f='codebrowser/src/XGetopt.c' l='396' macro='1' u='w'/>
+<doc f='codebrowser/src/XGetopt.c' l='38'>/*
+ * This is the published interface for the GNU getopt module
+ */</doc>
+<doc f='codebrowser/src/XGetopt.h' l='79'>/** holds a pointer to an option argument */</doc>
+<use f='codebrowser/src/command_line.c' l='148' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='151' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='161' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='161' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='172' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='172' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='172' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='172' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='176' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='183' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='184' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='189' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='199' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='202' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='204' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='208' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='215' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='218' macro='1' u='r'/>
+<use f='codebrowser/src/command_line.c' l='231' macro='1' u='r'/>

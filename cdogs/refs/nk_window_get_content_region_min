@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1186' type='struct nk_vec2 nk_window_get_content_region_min(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18220' ll='18228' macro='1' type='struct nk_vec2 nk_window_get_content_region_min(struct nk_context * ctx)'/>

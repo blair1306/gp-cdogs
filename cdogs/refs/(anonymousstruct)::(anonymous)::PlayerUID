@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='42' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='77' u='w' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='145' u='w' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='145' u='r' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='195' u='r' c='DrawScoreUpdate'/>

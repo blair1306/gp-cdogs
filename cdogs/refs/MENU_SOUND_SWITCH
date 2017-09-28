@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/menu.h' l='118' type='2'/>
+<use f='codebrowser/src/menu.c' l='874' c='MenuPlaySound'/>
+<use f='codebrowser/src/menu.c' l='1007' u='r' c='MenuProcessEscCmd'/>
+<use f='codebrowser/src/menu.c' l='1174' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1184' u='r' c='MenuChangeIndex'/>
+<use f='codebrowser/src/menu.c' l='1200' u='r' c='MenuActivate'/>
+<use f='codebrowser/src/player_select_menus.c' l='128' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='136' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='144' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='152' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='157' u='r' c='HandleInputNameMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='302' u='r' c='HandleInputColorMenu'/>

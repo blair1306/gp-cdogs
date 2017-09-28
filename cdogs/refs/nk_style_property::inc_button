@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3192' type='struct nk_style_button'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15659' u='a' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16282' u='w' c='nk_style_from_table'/>
+<offset>7488</offset>

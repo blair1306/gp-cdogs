@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='169' macro='1' type='int (*)(const char *)'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/config.c' l='265' u='w' c='ConfigNewEnum'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='75' u='r' c='ConfigLoadJSON'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='141' u='r' c='ConfigLoadVisit'/>

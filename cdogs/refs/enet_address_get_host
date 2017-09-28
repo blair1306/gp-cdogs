@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='551' type='int enet_address_get_host(const ENetAddress * address, char * hostName, size_t nameLength)'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='196' ll='250' type='int enet_address_get_host(const ENetAddress * address, char * name, size_t nameLength)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='88' u='c' c='NetServerOpen'/>

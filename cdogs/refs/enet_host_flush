@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='565' type='void enet_host_flush(ENetHost * )'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='514' u='c' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='558' u='c' c='enet_peer_disconnect'/>
+<def f='codebrowser/src/cdogs/enet/protocol.c' l='1745' ll='1751' type='void enet_host_flush(ENetHost * host)'/>
+<doc f='codebrowser/src/cdogs/enet/protocol.c' l='1739'>/** Sends any queued packets on the host specified to its designated peers.
+
+    @param host   host to flush
+    @remarks this function need only be used in circumstances where one wishes to send queued packets earlier than in a call to enet_host_service().
+    @ingroup host
+*/</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='503' u='c' c='NetClientFlush'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='403' u='c' c='NetServerFlush'/>

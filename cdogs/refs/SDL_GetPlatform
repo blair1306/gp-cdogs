@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_platform.h' l='171' type='const char * SDL_GetPlatform()'/>
+<doc f='include/SDL2/SDL_platform.h' l='168'>/**
+ *  \brief Gets the name of the platform.
+ */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='148' u='c' c='ReadMappingsString'/>

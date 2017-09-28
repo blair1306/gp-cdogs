@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2699' type='void nk_stroke_curve(struct nk_command_buffer * , float , float , float , float , float , float , float , float , float line_thickness, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6909' ll='6931' macro='1' type='void nk_stroke_curve(struct nk_command_buffer * b, float ax, float ay, float ctrl0x, float ctrl0y, float ctrl1x, float ctrl1y, float bx, float by, float line_thickness, struct nk_color col)'/>

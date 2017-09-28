@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2081' type='void *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10877' u='r' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11547' u='w' c='nk_font_config'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11634' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11638' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11682' u='w' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11683' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11684' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11688' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11688' u='r' c='nk_font_atlas_add'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11713' u='w' c='nk_font_atlas_add_from_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11740' u='w' c='nk_font_atlas_add_from_file'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11777' u='w' c='nk_font_atlas_add_compressed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12004' u='r' c='nk_font_atlas_cleanup'/>
+<offset>64</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2080'>/* NOTE: only used internally */</doc>

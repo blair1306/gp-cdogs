@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map.h' l='123' type='_Bool MapIsTileInExit(const Map * map, const TTileItem * ti)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='418' u='c' c='OnMove'/>
+<use f='codebrowser/src/cdogs/ai.c' l='498' u='c' c='Follow'/>
+<def f='codebrowser/src/cdogs/map.c' l='144' ll='151' macro='1' type='_Bool MapIsTileInExit(const Map * map, const TTileItem * ti)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='473' u='c' c='AllSurvivingPlayersInExit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='497' u='c' c='MoreRescuesNeeded'/>

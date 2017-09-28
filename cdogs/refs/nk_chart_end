@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1603' type='void nk_chart_end(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21220' ll='21235' macro='1' type='void nk_chart_end(struct nk_context * ctx)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21258' u='c' c='nk_plot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21282' u='c' c='nk_plot_function'/>

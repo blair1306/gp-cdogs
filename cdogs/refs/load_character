@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/files.c' l='301' ll='319' type='void load_character(FILE * f, TBadGuy * b)'/>
+<use f='codebrowser/src/cdogs/files.c' l='510' u='c' c='LoadCampaignOld'/>

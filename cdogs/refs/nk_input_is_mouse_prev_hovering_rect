@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2763' type='int nk_input_is_mouse_prev_hovering_rect(const struct nk_input * , struct nk_rect )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12234' ll='12239' macro='1' type='int nk_input_is_mouse_prev_hovering_rect(const struct nk_input * i, struct nk_rect rect)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13549' u='c' c='nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13551' u='c' c='nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13884' u='c' c='nk_toggle_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13886' u='c' c='nk_toggle_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14221' u='c' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14223' u='c' c='nk_slider_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14402' u='c' c='nk_progress_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14404' u='c' c='nk_progress_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14553' u='c' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14555' u='c' c='nk_scrollbar_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15489' u='c' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15491' u='c' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15778' u='c' c='nk_color_picker_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15780' u='c' c='nk_color_picker_behavior'/>

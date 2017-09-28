@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2388' type='struct nk_text_undo_record [99]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13053' u='m' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13054' u='m' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13060' u='m' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13061' u='m' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13062' u='m' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13066' u='r' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13066' u='r' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13067' u='r' c='nk_textedit_discard_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13082' u='m' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13083' u='m' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13090' u='m' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13091' u='m' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13092' u='m' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13098' u='r' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13099' u='r' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13099' u='r' c='nk_textedit_discard_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13126' u='a' c='nk_textedit_create_undo_record'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13160' u='r' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13161' u='a' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13193' u='a' c='nk_textedit_undo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13228' u='a' c='nk_textedit_redo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13229' u='r' c='nk_textedit_redo'/>
+<offset>0</offset>

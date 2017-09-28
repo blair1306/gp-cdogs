@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='72'/>
+<use f='codebrowser/src/cdogs/files.c' l='200' u='c'/>
+<use f='codebrowser/src/cdogs/files.c' l='265' u='c'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='218' u='c'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='223' u='c'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='229' u='c'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='236' u='c'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='177' u='c'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='514' u='c'/>
+<use f='codebrowser/src/credits.c' l='90' u='c'/>
+<use f='codebrowser/src/menu.c' l='979' u='c'/>

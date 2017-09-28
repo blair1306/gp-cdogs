@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='348' type='NVec2i'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/door.c' l='211' u='w' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='230' u='w' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='270' u='w' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='297' u='w' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='88' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='486' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='100'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='100'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='101' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='101' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='100'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='100'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='101' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='101' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='400' u='r'/>

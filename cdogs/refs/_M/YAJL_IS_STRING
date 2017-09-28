@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='156'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='155'>/* Various convenience macros to check the type of a `yajl_val` */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='240' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='481' u='c'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='157' u='c'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='67' type='_Bool pb_encode(pb_ostream_t * stream, const pb_field_t * fields, const void * src_struct)'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='256' u='c' c='PollListener'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='41' u='c' c='NetEncode'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='354' ll='376' macro='1' type='_Bool pb_encode(pb_ostream_t * stream, const pb_field_t * fields, const void * src_struct)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='387' u='c' c='pb_get_encoded_size'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='514' u='c' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='543' u='c' c='pb_encode_submessage'/>

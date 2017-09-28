@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='102' type='4'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1366' u='r' c='ActorIsImmune'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1405' c='ActorTakeSpecialDamage'/>
+<use f='codebrowser/src/cdogs/defs.c' l='71' u='r' c='StrSpecialDamage'/>

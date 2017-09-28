@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/character.h' l='77' type='int CharacterStoreGetPrisonerId(const CharacterStore * store, const int i)'/>
+<use f='codebrowser/src/briefing_screens.c' l='794' u='c' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/ai.c' l='583' u='c' c='InitializeBadGuys'/>
+<def f='codebrowser/src/cdogs/character.c' l='230' ll='233' type='int CharacterStoreGetPrisonerId(const CharacterStore * store, const int i)'/>
+<use f='codebrowser/src/cdogs/character.c' l='255' u='c' c='CharacterIsPrisoner'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='192' u='c' c='AddObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='523' u='c' c='MissionDrawRescueObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='131' u='c' c='DrawObjective'/>

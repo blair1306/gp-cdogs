@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/config.h' l='61' type='0'/>
+<use f='codebrowser/src/cdogs/config.c' l='87' c='SwitchMoveStyleStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='96' u='r' c='StrSwitchMoveStyle'/>
+<use f='codebrowser/src/cdogs/config.c' l='99' u='r' c='StrSwitchMoveStyle'/>
+<use f='codebrowser/src/cdogs/config.c' l='589' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='590' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/game.c' l='79' u='r' c='PlayerSpecialCommands'/>
+<use f='codebrowser/src/game.c' l='89' u='r' c='PlayerSpecialCommands'/>

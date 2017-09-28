@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='215' type='int ActorGetHealthPercent(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='928' u='c' c='UpdateAllActors'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1518' ll='1522' type='int ActorGetHealthPercent(const TActor * a)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1526' u='c' c='ActorIsLowHealth'/>

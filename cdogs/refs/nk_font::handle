@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2121' type='struct nk_user_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11233' u='m' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11234' u='m' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11235' u='m' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11237' u='m' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11238' u='m' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11974' u='m' c='nk_font_atlas_end'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='230' u='a' c='nk_sdl_font_stash_end'/>
+<offset>64</offset>

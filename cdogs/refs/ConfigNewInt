@@ -1,0 +1,33 @@
+<dec f='codebrowser/src/cdogs/config.h' l='176' type='Config ConfigNewInt(const char * name, const int defaultValue, const int minValue, const int maxValue, const int increment, int (*)(const char *) strToInt, char *(*)(int) intToStr)'/>
+<def f='codebrowser/src/cdogs/config.c' l='225' ll='238' type='Config ConfigNewInt(const char * name, const int defaultValue, const int minValue, const int maxValue, const int increment, int (*)(const char *) strToInt, char *(*)(int) intToStr)'/>
+<use f='codebrowser/src/cdogs/config.c' l='566' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='571' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='573' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='575' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='577' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='579' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='584' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='602' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='607' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='608' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='612' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='623' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='625' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='626' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='634' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='647' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='648' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='649' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='650' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='656' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='657' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='658' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='662' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='663' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='664' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='665' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='666' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='667' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='668' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='688' u='c' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='690' u='c' c='ConfigDefault'/>

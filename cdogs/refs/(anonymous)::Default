@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='107' type='BulletClass'/>
+<dec f='codebrowser/src/cdogs/weapon.h' l='127' type='GunDescription'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='588' u='a' c='BulletLoadJSON'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='589' u='a' c='BulletLoadJSON'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='596' u='a' c='BulletLoadJSON'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='825' u='a' c='BulletTerminate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='90' u='a' c='WeaponLoadJSON'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='311' u='a' c='WeaponTerminate'/>

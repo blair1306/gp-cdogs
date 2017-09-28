@@ -1,0 +1,20 @@
+<dec f='include/netinet/in.h' l='377' type='uint16_t ntohs(uint16_t __netshort)'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='885' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='323' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='433' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='456' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='463' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='501' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='532' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='540' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='642' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='651' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='837' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='881' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='944' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='993' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1087' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1166' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='287' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='416' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='514' macro='1' u='c'/>

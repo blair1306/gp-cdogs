@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='79' type='void MapSetTile(Map * map, Vec2i pos, unsigned short tileType, Mission * m)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='58' ll='68' type='void MapSetTile(Map * map, Vec2i pos, unsigned short tileType, Mission * m)'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='207' u='c' c='SetTile'/>

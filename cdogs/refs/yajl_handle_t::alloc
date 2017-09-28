@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='56' type='yajl_alloc_funcs'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='67' u='a' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='73' u='a' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='75' u='a' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='114' u='a' c='yajl_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='114' u='a' c='yajl_free'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='125' u='a' c='yajl_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='145' u='a' c='yajl_complete_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='172' u='a' c='yajl_free_error'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='172' u='a' c='yajl_free_error'/>
+<offset>640</offset>
+<doc f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='55'>/* memory allocation routines */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='93' u='a' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='93' u='a' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='132' u='a' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='132' u='a' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='141' u='a' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='141' u='a' c='yajl_render_error_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='445' u='a' c='yajl_tree_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='445' u='a' c='yajl_tree_parse'/>

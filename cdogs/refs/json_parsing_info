@@ -1,0 +1,12 @@
+<def f='codebrowser/src/json/json.h' l='107' ll='116'/>
+<size>48</size>
+<doc f='codebrowser/src/json/json.h' l='104'>/**
+The structure holding all information needed to resume parsing
+**/</doc>
+<mbr r='json_parsing_info::state' o='0' t='unsigned int'/>
+<mbr r='json_parsing_info::lex_state' o='32' t='unsigned int'/>
+<mbr r='json_parsing_info::lex_text' o='64' t='rcstring *'/>
+<mbr r='json_parsing_info::p' o='128' t='const char *'/>
+<mbr r='json_parsing_info::string_length_limit_reached' o='192' t='int'/>
+<mbr r='json_parsing_info::line' o='256' t='size_t'/>
+<mbr r='json_parsing_info::cursor' o='320' t='json_t *'/>

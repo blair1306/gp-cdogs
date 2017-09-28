@@ -1,0 +1,67 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='258' ll='320'/>
+<size>472</size>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='253'>/**
+ * An ENet peer which data packets may be sent or received from. 
+ *
+ * No fields should be modified unless otherwise specified. 
+ */</doc>
+<mbr r='_ENetPeer::dispatchList' o='0' t='ENetListNode'/>
+<mbr r='_ENetPeer::host' o='128' t='struct _ENetHost *'/>
+<mbr r='_ENetPeer::outgoingPeerID' o='192' t='enet_uint16'/>
+<mbr r='_ENetPeer::incomingPeerID' o='208' t='enet_uint16'/>
+<mbr r='_ENetPeer::connectID' o='224' t='enet_uint32'/>
+<mbr r='_ENetPeer::outgoingSessionID' o='256' t='enet_uint8'/>
+<mbr r='_ENetPeer::incomingSessionID' o='264' t='enet_uint8'/>
+<mbr r='_ENetPeer::address' o='288' t='ENetAddress'/>
+<mbr r='_ENetPeer::data' o='384' t='void *'/>
+<mbr r='_ENetPeer::state' o='448' t='ENetPeerState'/>
+<mbr r='_ENetPeer::channels' o='512' t='ENetChannel *'/>
+<mbr r='_ENetPeer::channelCount' o='576' t='size_t'/>
+<mbr r='_ENetPeer::incomingBandwidth' o='640' t='enet_uint32'/>
+<mbr r='_ENetPeer::outgoingBandwidth' o='672' t='enet_uint32'/>
+<mbr r='_ENetPeer::incomingBandwidthThrottleEpoch' o='704' t='enet_uint32'/>
+<mbr r='_ENetPeer::outgoingBandwidthThrottleEpoch' o='736' t='enet_uint32'/>
+<mbr r='_ENetPeer::incomingDataTotal' o='768' t='enet_uint32'/>
+<mbr r='_ENetPeer::outgoingDataTotal' o='800' t='enet_uint32'/>
+<mbr r='_ENetPeer::lastSendTime' o='832' t='enet_uint32'/>
+<mbr r='_ENetPeer::lastReceiveTime' o='864' t='enet_uint32'/>
+<mbr r='_ENetPeer::nextTimeout' o='896' t='enet_uint32'/>
+<mbr r='_ENetPeer::earliestTimeout' o='928' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetLossEpoch' o='960' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetsSent' o='992' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetsLost' o='1024' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetLoss' o='1056' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetLossVariance' o='1088' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetThrottle' o='1120' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetThrottleLimit' o='1152' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetThrottleCounter' o='1184' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetThrottleEpoch' o='1216' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetThrottleAcceleration' o='1248' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetThrottleDeceleration' o='1280' t='enet_uint32'/>
+<mbr r='_ENetPeer::packetThrottleInterval' o='1312' t='enet_uint32'/>
+<mbr r='_ENetPeer::pingInterval' o='1344' t='enet_uint32'/>
+<mbr r='_ENetPeer::timeoutLimit' o='1376' t='enet_uint32'/>
+<mbr r='_ENetPeer::timeoutMinimum' o='1408' t='enet_uint32'/>
+<mbr r='_ENetPeer::timeoutMaximum' o='1440' t='enet_uint32'/>
+<mbr r='_ENetPeer::lastRoundTripTime' o='1472' t='enet_uint32'/>
+<mbr r='_ENetPeer::lowestRoundTripTime' o='1504' t='enet_uint32'/>
+<mbr r='_ENetPeer::lastRoundTripTimeVariance' o='1536' t='enet_uint32'/>
+<mbr r='_ENetPeer::highestRoundTripTimeVariance' o='1568' t='enet_uint32'/>
+<mbr r='_ENetPeer::roundTripTime' o='1600' t='enet_uint32'/>
+<mbr r='_ENetPeer::roundTripTimeVariance' o='1632' t='enet_uint32'/>
+<mbr r='_ENetPeer::mtu' o='1664' t='enet_uint32'/>
+<mbr r='_ENetPeer::windowSize' o='1696' t='enet_uint32'/>
+<mbr r='_ENetPeer::reliableDataInTransit' o='1728' t='enet_uint32'/>
+<mbr r='_ENetPeer::outgoingReliableSequenceNumber' o='1760' t='enet_uint16'/>
+<mbr r='_ENetPeer::acknowledgements' o='1792' t='ENetList'/>
+<mbr r='_ENetPeer::sentReliableCommands' o='1920' t='ENetList'/>
+<mbr r='_ENetPeer::sentUnreliableCommands' o='2048' t='ENetList'/>
+<mbr r='_ENetPeer::outgoingReliableCommands' o='2176' t='ENetList'/>
+<mbr r='_ENetPeer::outgoingUnreliableCommands' o='2304' t='ENetList'/>
+<mbr r='_ENetPeer::dispatchedCommands' o='2432' t='ENetList'/>
+<mbr r='_ENetPeer::needsDispatch' o='2560' t='int'/>
+<mbr r='_ENetPeer::incomingUnsequencedGroup' o='2592' t='enet_uint16'/>
+<mbr r='_ENetPeer::outgoingUnsequencedGroup' o='2608' t='enet_uint16'/>
+<mbr r='_ENetPeer::unsequencedWindow' o='2624' t='enet_uint32 [32]'/>
+<mbr r='_ENetPeer::eventData' o='3648' t='enet_uint32'/>
+<mbr r='_ENetPeer::totalWaitingData' o='3712' t='size_t'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/events.h' l='71' type='0'/>
+<use f='codebrowser/src/briefing_screens.c' l='167' u='r' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='284' u='r' c='MissionBriefingUpdate'/>
+<use f='codebrowser/src/cdogs/events.c' l='544' u='r' c='EventWaitForAnyKeyOrButton'/>
+<use f='codebrowser/src/hiscores.c' l='333' u='r' c='HighScoreUpdate'/>
+<use f='codebrowser/src/prep.c' l='316' u='r' c='PlayerSelection'/>
+<use f='codebrowser/src/prep.c' l='757' u='r' c='PlayerEquip'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='439' type='enet_uint32'/>
+<offset>160</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='439'>/**&lt; data associated with the event, if appropriate */</doc>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='76' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='85' u='w' c='enet_protocol_dispatch_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='130' u='w' c='enet_protocol_notify_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='149' u='w' c='enet_protocol_notify_disconnect'/>

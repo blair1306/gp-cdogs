@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11070' ll='11097' macro='1' type='void nk_font_bake_custom_data(void * img_memory, int img_width, int img_height, struct nk_recti img_dst, const char * texture_data_mask, int tex_width, int tex_height, char white, char black)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11890' u='c' c='nk_font_atlas_bake'/>

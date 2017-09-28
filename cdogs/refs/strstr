@@ -1,0 +1,4 @@
+<dec f='include/string.h' l='337' type='char * strstr(const char * __haystack, const char * __needle)'/>
+<use f='codebrowser/src/cdogs.c' l='258' u='c' c='main'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='149' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/tests/json_test.c' l='49' u='c' c='_cbehave_feature_json_format_string'/>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='87' type='0'/>
+<use f='codebrowser/src/cdogs/actors.c' l='246' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='506' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='895' u='r' c='UpdateAllActors'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1212' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='269' u='r' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='473' c='GetHitType'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='272' u='r' c='CollisionIsOnSameTeam'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='310' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='376' u='r' c='DrawChatters'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='132' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/los.c' l='207' u='r' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/objs.c' l='241' c='CanHit'/>
+<use f='codebrowser/src/cdogs/objs.c' l='258' c='HasHitSound'/>
+<use f='codebrowser/src/cdogs/objs.c' l='296' c='Damage'/>
+<use f='codebrowser/src/cdogs/tile.c' l='113' u='r' c='TileHasCharacter'/>
+<use f='codebrowser/src/cdogs/tile.c' l='139' c='ThingIdGetTileItem'/>

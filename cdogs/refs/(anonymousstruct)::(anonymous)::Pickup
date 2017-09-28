@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='80' type='const PickupClass *'/>
+<offset>0</offset>
+<use f='codebrowser/src/briefing_screens.c' l='800' u='r' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/files.c' l='348' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/map.c' l='419' u='r' c='MapPlaceCollectible'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='584' u='r' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/objective.c' l='112' u='w' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='129' u='w' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='203' u='w' c='MissionResetObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='489' u='r' c='MissionDrawCollectObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='535' u='r' c='MissionChangeCollectObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='538' u='w' c='MissionChangeCollectObjectiveIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='137' u='r' c='DrawObjective'/>

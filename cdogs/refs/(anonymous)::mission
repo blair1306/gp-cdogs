@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='44' type='struct MissionOptions *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='74' u='w' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='849' u='r' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='917' u='r' c='DrawKeycards'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='920' u='r' c='DrawKeycards'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='949' u='r' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='949' u='r' c='DrawObjectiveCounts'/>

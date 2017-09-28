@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='316' type='enet_uint16'/>
+<offset>2608</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='418' u='w' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='642' u='w' c='enet_peer_setup_outgoing_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='669' u='r' c='enet_peer_setup_outgoing_command'/>

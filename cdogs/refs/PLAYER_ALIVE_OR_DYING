@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/player.h' l='82' type='2'/>
+<use f='codebrowser/src/cdogs/camera.c' l='78' u='r' c='CameraInput'/>
+<use f='codebrowser/src/cdogs/camera.c' l='437' u='r' c='CameraIsSingleScreen'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='847' u='r' c='DrawMissionState'/>
+<use f='codebrowser/src/cdogs/mission.c' l='360' u='r' c='MissionCanBegin'/>
+<use f='codebrowser/src/cdogs/mission.c' l='363' u='r' c='MissionCanBegin'/>
+<use f='codebrowser/src/cdogs/mission.c' l='400' u='r' c='CanCompleteMission'/>
+<use f='codebrowser/src/cdogs/mission.c' l='404' u='r' c='CanCompleteMission'/>
+<use f='codebrowser/src/cdogs/mission.c' l='431' u='r' c='IsMissionComplete'/>
+<use f='codebrowser/src/cdogs/player.c' l='275' c='GetNumPlayers'/>
+<use f='codebrowser/src/cdogs/player.c' l='292' u='r' c='GetNumPlayersScreen'/>
+<use f='codebrowser/src/cdogs/player.c' l='375' u='r' c='PlayersGetBoundingRectangle'/>
+<use f='codebrowser/src/game.c' l='548' u='r' c='RunGameUpdate'/>
+<use f='codebrowser/src/game.c' l='678' u='r' c='CheckMissionCompletion'/>

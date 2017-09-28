@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='46' type='int'/>
+<offset>2112</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='76' u='w' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='95' u='w' c='HUDDisplayMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='100' u='r' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='102' u='w' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='103' u='r' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='105' u='w' c='HUDUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='891' u='r' c='DrawHUDMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='891' u='r' c='DrawHUDMessage'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='47' type='6'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='66' c='AIStateGetChatterText'/>

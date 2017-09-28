@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='340' ll='345'/>
+<size>140</size>
+<mbr r='_NSound::Sound' o='0' t='char [128]'/>
+<mbr r='_NSound::Pos' o='1024' t='NVec2i'/>
+<mbr r='_NSound::IsHit' o='1088' t='_Bool'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='69' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/grafx.c' l='219' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='219' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='222' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='222' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='418' u='r' c='GraphicsConfigSet'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='418' u='w' c='GraphicsConfigSet'/>

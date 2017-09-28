@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/events.h' l='76' type='void GetPlayerCmds(EventHandlers * handlers, int (*)[4] cmds)'/>
+<use f='codebrowser/src/briefing_screens.c' l='247' u='c' c='MissionBriefingInput'/>
+<def f='codebrowser/src/cdogs/events.c' l='326' ll='343' type='void GetPlayerCmds(EventHandlers * handlers, int (*)[4] cmds)'/>
+<use f='codebrowser/src/cdogs/events.c' l='520' u='c' c='EventWaitForAnyKeyOrButton'/>
+<use f='codebrowser/src/menu.c' l='170' u='c' c='MenuUpdate'/>
+<use f='codebrowser/src/password.c' l='174' u='c' c='EnterCodeScreenUpdate'/>
+<use f='codebrowser/src/prep.c' l='397' u='c' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='872' u='c' c='PlayerEquipUpdate'/>

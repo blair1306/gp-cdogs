@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='39' type='const char * GameModeStr(const GameMode g)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='36' ll='47' type='const char * GameModeStr(const GameMode g)'/>
+<use f='codebrowser/src/mainmenu.c' l='444' u='c' c='CreateLANServerMenuItems'/>

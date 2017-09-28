@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2323' type='void nk_str_delete_chars(struct nk_str * , int pos, int len)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6611' ll='6627' macro='1' type='void nk_str_delete_chars(struct nk_str * s, int pos, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6651' u='c' c='nk_str_delete_runes'/>

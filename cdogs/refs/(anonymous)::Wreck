@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='90' type='char *'/>
+<offset>640</offset>
+<use f='codebrowser/src/cdogs/map_new.c' l='634' u='r' c='LoadMapObjectWreckRef'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='335' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='339' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='345' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='207' u='r' c='ObjRemove'/>

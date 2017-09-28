@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='147' type='char [4096]'/>
+<offset>13888</offset>
+<use f='codebrowser/src/cdogs/files.c' l='414' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='373' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='308' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='160' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='160' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='160' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='370' u='r' c='MissionBegin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='179' u='r' c='MissionGetSong'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1385' u='r' c='CreateMissionObjs'/>

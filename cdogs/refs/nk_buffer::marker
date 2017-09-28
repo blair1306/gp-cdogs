@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2246' type='struct nk_buffer_marker [2]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6234' u='m' c='nk_buffer_mark'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6236' u='m' c='nk_buffer_mark'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6237' u='m' c='nk_buffer_mark'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6247' u='m' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6248' u='m' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6249' u='m' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6251' u='m' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6254' u='m' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6255' u='m' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6256' u='m' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6258' u='m' c='nk_buffer_reset'/>
+<offset>0</offset>

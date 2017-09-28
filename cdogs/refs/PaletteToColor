@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/palette.h' l='34' type='color_t PaletteToColor(unsigned char index)'/>
+<use f='codebrowser/src/cdogs/files.c' l='294' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='295' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='296' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='297' u='c' c='ConvertCharacterColors'/>
+<use f='codebrowser/src/cdogs/files.c' l='298' u='c' c='ConvertCharacterColors'/>
+<def f='codebrowser/src/cdogs/palette.c' l='293' ll='301' type='color_t PaletteToColor(unsigned char idx)'/>
+<use f='codebrowser/src/cdogs/palette.c' l='304' u='c' c='LookupPalette'/>
+<def f='codebrowser/src/tests/pic_test.c' l='17' ll='21' type='color_t PaletteToColor(unsigned char idx)'/>

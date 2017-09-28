@@ -1,0 +1,6 @@
+<dec f='include/asm-generic/errno-base.h' l='37'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='46' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='51' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='55' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='289' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='317' u='c'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/json_utils.h' l='45' type='void LoadDouble(double * value, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='679' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='130' u='c' c='ConfigLoadVisit'/>
+<def f='codebrowser/src/cdogs/json_utils.c' l='104' ll='111' type='void LoadDouble(double * value, json_t * node, const char * name)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='400' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='236' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='239' u='c' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='240' u='c' c='LoadGunDescription'/>

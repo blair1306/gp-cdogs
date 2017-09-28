@@ -1,0 +1,4 @@
+<def f='codebrowser/src/menu.c' l='306' ll='312' type='int MenuTypeHasSubMenus(menu_type_e type)'/>
+<use f='codebrowser/src/menu.c' l='350' u='c' c='UpdateSubmenuParentPtrs'/>
+<use f='codebrowser/src/menu.c' l='908' u='c' c='MenuTerminateSubmenus'/>
+<use f='codebrowser/src/menu.c' l='920' u='c' c='MenuClearSubmenus'/>

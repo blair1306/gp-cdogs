@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='138' type='enet_uint32'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='510' u='w' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='541' u='w' c='enet_peer_disconnect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='821' u='r' c='enet_protocol_handle_disconnect'/>

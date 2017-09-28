@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3637' type='struct nk_config_stack_flags'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16589' u='a' c='nk_style_push_flags'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16595' u='a' c='nk_style_pop_flags'/>
+<offset>11456</offset>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/game_loop.h' l='60' type='_Bool'/>
+<offset>480</offset>
+<use f='codebrowser/src/game.c' l='182' u='w' c='RunGame'/>
+<use f='codebrowser/src/game_loop.c' l='201' u='r' c='LoopRunnerRunInner'/>

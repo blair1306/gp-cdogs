@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/campaign_entry.h' l='37' type='char *'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='47' u='w' c='CampaignEntryInit'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='47' u='r' c='CampaignEntryInit'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='47' u='r' c='CampaignEntryInit'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='47' u='r' c='CampaignEntryInit'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='w' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='55' u='r' c='CampaignEntryCopy'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='92' u='r' c='CampaignEntryTerminate'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='92' u='r' c='CampaignEntryTerminate'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='151' u='w' c='LoadQuickPlayEntry'/>
+<use f='codebrowser/src/mainmenu.c' l='317' u='r' c='StartGameMode'/>
+<use f='codebrowser/src/mainmenu.c' l='379' u='r' c='MenuCreateCampaignItem'/>

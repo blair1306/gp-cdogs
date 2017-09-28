@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='106' type='CArray'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='106'>// of int</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='550' u='a' c='SaveStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='687' u='a' c='LoadStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='705' u='a' c='LoadStaticObjectives'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='157' u='a' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='408' u='a' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='420' u='a' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='422' u='a' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='442' u='a' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='450' u='a' c='MissionStaticTryRemoveObjectiveAt'/>

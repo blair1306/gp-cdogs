@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='110' type='int GraphicsGetMemSize(GraphicsConfig * config)'/>
+<use f='codebrowser/src/cdogs/blit.c' l='402' u='c' c='BlitClearBuf'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' u='c' c='GraphicsInitialize'/>
+<def f='codebrowser/src/cdogs/grafx.c' l='396' ll='399' type='int GraphicsGetMemSize(GraphicsConfig * config)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='84' u='c' c='GrafxRedrawBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='149' u='c' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='188' u='c' c='Display'/>

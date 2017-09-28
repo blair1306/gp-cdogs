@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='235' type='int ConfigGetVersion(FILE * f)'/>
+<def f='codebrowser/src/cdogs/config.c' l='305' ll='313' type='int ConfigGetVersion(FILE * f)'/>
+<use f='codebrowser/src/cdogs/config_io.c' l='50' u='c' c='ConfigLoad'/>
+<use f='codebrowser/src/tests/config_test.c' l='88' u='c' c='_cbehave_feature_detect_version'/>
+<use f='codebrowser/src/tests/config_test.c' l='116' u='c' c='_cbehave_feature_save_as_latest'/>

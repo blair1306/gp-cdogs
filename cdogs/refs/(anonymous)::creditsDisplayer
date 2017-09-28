@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='231' type='credits_displayer_t *'/>
+<offset>384</offset>
+<use f='codebrowser/src/menu.c' l='97' u='w' c='MenuSetCreditsDisplayer'/>
+<use f='codebrowser/src/menu.c' l='618' u='r' c='MenuDisplayItems'/>
+<use f='codebrowser/src/menu.c' l='620' u='r' c='MenuDisplayItems'/>

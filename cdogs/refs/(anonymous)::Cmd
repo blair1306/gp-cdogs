@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='60' type='int'/>
+<offset>32</offset>
+<dec f='codebrowser/src/cdogs/net_server.h' l='48' type='int'/>
+<offset>384</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='79' u='w' c='AICoopGetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='90' u='r' c='AICoopGetCmd'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='62' u='w' c='NetServerReset'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='172' u='r' c='NetServerPoll'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='173' u='w' c='NetServerPoll'/>

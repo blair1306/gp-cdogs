@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1754' type='int nk_style_push_flags(struct nk_context * , nk_flags * , nk_flags )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16589' macro='1' type='int nk_style_push_flags(struct nk_context * ctx, nk_flags * address, nk_flags value)'/>

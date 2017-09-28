@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='160' type='NActorAddAmmo'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='274' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='276' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='276' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='279' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='282' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='284' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='292' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='295' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='180' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='181' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='182' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='183' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='184' u='m' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='271' u='m' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='272' u='m' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='273' u='m' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='274' u='m' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='275' u='m' c='TryPickupGun'/>

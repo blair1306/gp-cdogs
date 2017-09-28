@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1599' type='void nk_chart_add_slot(struct nk_context * ctx, const enum nk_chart_type , int count, float min_value, float max_value)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21066' ll='21069' macro='1' type='void nk_chart_add_slot(struct nk_context * ctx, const enum nk_chart_type type, int count, float min_value, float max_value)'/>

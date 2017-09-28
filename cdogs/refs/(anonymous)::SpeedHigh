@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='68' type='int'/>
+<offset>704</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='653' u='w' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='656' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='657' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='657' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='658' u='w' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='658' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='658' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='731' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='731' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='885' u='r' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='885' u='r' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='581' u='r' c='GunGetRange'/>

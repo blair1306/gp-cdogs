@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='59'/>
+<use f='codebrowser/src/cdogs/ai.c' l='563' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='585' u='c'/>
+<use f='codebrowser/src/cdogs/map.c' l='422' u='c'/>
+<use f='codebrowser/src/cdogs/map.c' l='486' u='c'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='167' u='c'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='186' u='c'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='193' u='c'/>

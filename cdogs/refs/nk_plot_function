@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1605' type='void nk_plot_function(struct nk_context * , enum nk_chart_type , void * userdata, float (*)(void *, int) value_getter, int count, int offset)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21261' ll='21283' macro='1' type='void nk_plot_function(struct nk_context * ctx, enum nk_chart_type type, void * userdata, float (*)(void *, int) value_getter, int count, int offset)'/>

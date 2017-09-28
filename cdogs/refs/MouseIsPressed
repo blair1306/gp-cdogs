@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='62' type='_Bool MouseIsPressed(const Mouse * m, const int button)'/>
+<use f='codebrowser/src/cdogs/events.c' l='235' u='r' c='GetMouseCmd'/>
+<def f='codebrowser/src/cdogs/mouse.c' l='155' ll='158' macro='1' type='_Bool MouseIsPressed(const Mouse * m, const int button)'/>
+<use f='codebrowser/src/prep.c' l='280' u='c' c='AssignPlayerInputDevices'/>

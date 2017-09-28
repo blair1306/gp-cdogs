@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='54' type='int'/>
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='73' type='int'/>
+<offset>832</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='664' u='w' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='667' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='668' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='668' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='669' u='w' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='669' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='669' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='735' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='735' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='895' u='r' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='895' u='r' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='190' u='w' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='198' u='a' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='200' u='r' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='200' u='r' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='201' u='w' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='201' u='r' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='201' u='r' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='441' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/particle.c' l='441' u='r' c='ParticleAdd'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='582' u='r' c='GunGetRange'/>

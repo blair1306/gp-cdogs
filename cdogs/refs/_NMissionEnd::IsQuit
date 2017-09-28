@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='142' type='_Bool'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/mission.c' l='514' u='r' c='MissionDone'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='385'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386' u='r'/>
+<use f='codebrowser/src/game.c' l='325' u='w' c='RunGameInput'/>
+<use f='codebrowser/src/game.c' l='414' u='w' c='RunGameInput'/>

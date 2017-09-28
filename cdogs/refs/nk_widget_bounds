@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1409' type='struct nk_rect nk_widget_bounds(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19484' ll='19494' macro='1' type='struct nk_rect nk_widget_bounds(struct nk_context * ctx)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='782' u='c' c='DrawFlag'/>

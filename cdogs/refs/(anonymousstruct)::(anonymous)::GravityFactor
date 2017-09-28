@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='87' type='int'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='87'>// 0 for non-falling bullets</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='251' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='286' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='718' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='750' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='750' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='584' u='r' c='GunGetRange'/>

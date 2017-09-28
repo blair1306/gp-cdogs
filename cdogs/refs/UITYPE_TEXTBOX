@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='44' type='2'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1062' u='r' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1111' u='r' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1274' u='r' c='CreateEditorObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1347' u='r' c='CreateCampaignObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1383' u='r' c='CreateMissionObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='70' u='r' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='260' u='r' c='CreateObjectivesObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='267' u='r' c='CreateObjectivesObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='430' u='r' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='57' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='136' c='UIObjectDestroy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='265' u='r' c='DisableContextMenuParents'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='282' u='r' c='UIObjectAddChar'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='330' u='r' c='UIObjectDelChar'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='403' c='UIObjectDrawAndAddChildren'/>

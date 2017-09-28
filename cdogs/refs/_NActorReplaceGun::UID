@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='62' type='uint32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='582' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='592' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='592' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='258' u='w' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='214'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='214'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='215' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='215' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='214'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='214'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='215' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='215' u='r'/>

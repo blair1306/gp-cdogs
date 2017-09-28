@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='67' type='void NetClientFindLANServers(NetClient * n)'/>
+<doc f='codebrowser/src/cdogs/net_client.h' l='65'>// Start searching for LAN servers; note that the result will be returned in
+// NetClient&apos;s boolean</doc>
+<def f='codebrowser/src/cdogs/net_client.c' l='87' ll='108' type='void NetClientFindLANServers(NetClient * n)'/>
+<use f='codebrowser/src/mainmenu.c' l='501' u='c' c='CheckLANServers'/>

@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/map.h' l='91' type='CArray'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/map.h' l='90'>// Array of bools for tracking new tiles in line of sight, for delayed messaging</doc>
+<doc f='codebrowser/src/cdogs/map.h' l='91'>// of bool</doc>
+<use f='codebrowser/src/cdogs/los.c' l='39' u='a' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='47' u='a' c='LOSInit'/>
+<use f='codebrowser/src/cdogs/los.c' l='54' u='a' c='LOSTerminate'/>
+<use f='codebrowser/src/cdogs/los.c' l='61' u='a' c='LOSReset'/>
+<use f='codebrowser/src/cdogs/los.c' l='88' u='a' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='178' u='a' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='191' u='a' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='201' u='a' c='SetLOSVisible'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/character.h' l='80' type='int CharacterStoreGetRandomSpecialId(const CharacterStore * store)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='561' u='c' c='InitializeBadGuys'/>
+<def f='codebrowser/src/cdogs/character.c' l='244' ll='248' type='int CharacterStoreGetRandomSpecialId(const CharacterStore * store)'/>

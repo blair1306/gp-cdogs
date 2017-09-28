@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='380'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='374'>/**
+ * Remove a single element from a ring
+ * @warning The unspliced element is left with dangling pointers at either end
+ * @param ep   Element to remove
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='326' u='c'/>

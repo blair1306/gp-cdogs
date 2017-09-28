@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1130' type='struct nk_window * nk_window_find(struct nk_context * ctx, const char * name)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18386' ll='18394' macro='1' type='struct nk_window * nk_window_find(struct nk_context * ctx, const char * name)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18402' u='c' c='nk_window_close'/>

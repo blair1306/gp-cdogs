@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1845' type='struct nk_rect nk_get_null_rect()'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4005' ll='4009' macro='1' type='struct nk_rect nk_get_null_rect()'/>

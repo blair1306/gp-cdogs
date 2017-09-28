@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='136' type='void MapObjectsClear(CArray * classes)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='82' u='c' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='142' u='c' c='MapNewLoadArchive'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='507' ll='517' type='void MapObjectsClear(CArray * classes)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='520' u='c' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='522' u='c' c='MapObjectsTerminate'/>

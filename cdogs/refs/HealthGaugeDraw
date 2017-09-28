@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/hud/health_gauge.h' l='45' type='void HealthGaugeDraw(const HealthGauge * h, GraphicsDevice * device, const TActor * actor, const Vec2i pos, const FontAlign hAlign, const FontAlign vAlign)'/>
+<def f='codebrowser/src/cdogs/hud/health_gauge.c' l='70' ll='130' type='void HealthGaugeDraw(const HealthGauge * h, GraphicsDevice * device, const TActor * actor, const Vec2i pos, const FontAlign hAlign, const FontAlign vAlign)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='458' u='c' c='DrawPlayerStatus'/>

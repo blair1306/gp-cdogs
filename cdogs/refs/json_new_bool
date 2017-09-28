@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/json/json.h' l='221' type='json_t * json_new_bool(int value)'/>
+<doc f='codebrowser/src/json/json.h' l='217'>/**
+Creates a new JSON true/false
+@return a pointer to the newly created JSON true/false value
+**/</doc>
+<use f='codebrowser/src/cdogs/config_json.c' l='227' u='c' c='ConfigSaveVisit'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='49' u='c' c='AddBoolPair'/>
+<def f='codebrowser/src/json/json.c' l='363' ll='367' type='json_t * json_new_bool(int value)'/>

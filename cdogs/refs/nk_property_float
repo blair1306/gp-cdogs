@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1549' type='void nk_property_float(struct nk_context * , const char * name, float min, float * val, float max, float step, float inc_per_pixel)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20855' ll='20868' macro='1' type='void nk_property_float(struct nk_context * ctx, const char * name, float min, float * val, float max, float step, float inc_per_pixel)'/>

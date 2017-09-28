@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/json/json.h' l='63' type='size_t'/>
+<offset>64</offset>
+<doc f='codebrowser/src/json/json.h' l='63'>/*&lt;! put in place to avoid strlen() calls */</doc>
+<use f='codebrowser/src/json/json.c' l='71' u='w' c='rcs_create'/>
+<use f='codebrowser/src/json/json.c' l='128' u='r' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='130' u='r' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='133' u='r' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='134' u='r' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='135' u='w' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='145' u='r' c='rcs_catc'/>
+<use f='codebrowser/src/json/json.c' l='150' u='r' c='rcs_catc'/>
+<use f='codebrowser/src/json/json.c' l='151' u='w' c='rcs_catc'/>
+<use f='codebrowser/src/json/json.c' l='152' u='r' c='rcs_catc'/>
+<use f='codebrowser/src/json/json.c' l='181' u='r' c='rcs_length'/>

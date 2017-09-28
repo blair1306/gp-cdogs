@@ -1,0 +1,14 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='177' ll='191'/>
+<size>48</size>
+<mbr r='_ENetProtocol::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocol::acknowledge' o='0' t='ENetProtocolAcknowledge'/>
+<mbr r='_ENetProtocol::connect' o='0' t='ENetProtocolConnect'/>
+<mbr r='_ENetProtocol::verifyConnect' o='0' t='ENetProtocolVerifyConnect'/>
+<mbr r='_ENetProtocol::disconnect' o='0' t='ENetProtocolDisconnect'/>
+<mbr r='_ENetProtocol::ping' o='0' t='ENetProtocolPing'/>
+<mbr r='_ENetProtocol::sendReliable' o='0' t='ENetProtocolSendReliable'/>
+<mbr r='_ENetProtocol::sendUnreliable' o='0' t='ENetProtocolSendUnreliable'/>
+<mbr r='_ENetProtocol::sendUnsequenced' o='0' t='ENetProtocolSendUnsequenced'/>
+<mbr r='_ENetProtocol::sendFragment' o='0' t='ENetProtocolSendFragment'/>
+<mbr r='_ENetProtocol::bandwidthLimit' o='0' t='ENetProtocolBandwidthLimit'/>
+<mbr r='_ENetProtocol::throttleConfigure' o='0' t='ENetProtocolThrottleConfigure'/>

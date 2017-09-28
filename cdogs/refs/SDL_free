@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_stdinc.h' l='334' type='void SDL_free(void * mem)'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='69' u='c' c='SDLJBN_Quit'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='117' u='c' c='SDLJBN_AddMappingsFromFile'/>
+<use f='codebrowser/src/cdogs/events.c' l='73' u='c' c='EventPoll'/>

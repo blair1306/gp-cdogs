@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='156' type='void PathGetWithoutExtension(char * buf, const char * path)'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='230' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='106' u='c' c='SoundLoad'/>
+<def f='codebrowser/src/cdogs/utils.c' l='114' ll='126' type='void PathGetWithoutExtension(char * buf, const char * path)'/>
+<use f='codebrowser/src/cdogs/utils.c' l='130' u='c' c='PathGetBasenameWithoutExtension'/>

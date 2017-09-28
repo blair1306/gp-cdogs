@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2710' type='void nk_fill_circle(struct nk_command_buffer * , struct nk_rect , struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7032' ll='7052' macro='1' type='void nk_fill_circle(struct nk_command_buffer * b, struct nk_rect r, struct nk_color c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13504' u='c' c='nk_draw_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13506' u='c' c='nk_draw_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13962' u='c' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13963' u='c' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13968' u='c' c='nk_draw_option'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14286' u='c' c='nk_draw_slider'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='49' type='Vec2i Vec2iScaleD(const Vec2i v, const double scalar)'/>
+<use f='codebrowser/src/cdogs/collision/minkowski_hex.c' l='62' u='c' c='MinkowskiHexCollide'/>
+<use f='codebrowser/src/cdogs/collision/minkowski_hex.c' l='63' u='c' c='MinkowskiHexCollide'/>
+<def f='codebrowser/src/cdogs/vector.c' l='79' ll='82' type='Vec2i Vec2iScaleD(const Vec2i v, const double scalar)'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='69' type='_Bool NetClientTryConnect(NetClient * n, const ENetAddress addr)'/>
+<def f='codebrowser/src/cdogs/net_client.c' l='151' ll='194' macro='1' type='_Bool NetClientTryConnect(NetClient * n, const ENetAddress addr)'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='215' u='c' c='NetClientTryScanAndConnect'/>
+<use f='codebrowser/src/mainmenu.c' l='471' u='c' c='JoinLANGame'/>

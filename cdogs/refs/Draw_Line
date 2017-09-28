@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='52' type='void Draw_Line(const int x1, const int y1, const int x2, const int y2, color_t c)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='198' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='198' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='198' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='198' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='254' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='254' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='254' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/automap.c' l='254' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/camera.c' l='252' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='253' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='323' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='324' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='325' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='326' u='c' c='CameraDraw'/>
+<def f='codebrowser/src/cdogs/draw/drawtools.c' l='157' ll='170' type='void Draw_Line(const int x1, const int y1, const int x2, const int y2, color_t c)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' macro='1' u='c'/>

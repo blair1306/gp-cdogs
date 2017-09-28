@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1644' type='int nk_combo_item_image_text(struct nk_context * , struct nk_image , const char * , int , nk_flags alignment)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22624' ll='22626' macro='1' type='int nk_combo_item_image_text(struct nk_context * ctx, struct nk_image img, const char * text, int len, nk_flags alignment)'/>

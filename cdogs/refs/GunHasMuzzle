@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='168' type='_Bool GunHasMuzzle(const GunDescription * g)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='468' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='521' u='c' c='GunGetMuzzleOffset'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='558' ll='561' macro='1' type='_Bool GunHasMuzzle(const GunDescription * g)'/>

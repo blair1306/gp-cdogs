@@ -1,0 +1,45 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2501' ll='2521'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2457'>/*  This library was designed to be render backend agnostic so it does
+    not draw anything to screen. Instead all drawn shapes, widgets
+    are made of, are buffered into memory and make up a command queue.
+    Each frame therefore fills the command buffer with draw commands
+    that then need to be executed by the user and his own render backend.
+    After that the command buffer needs to be cleared and a new frame can be
+    started. It is probably important to note that the command buffer is the main
+    drawing API and the optional vertex buffer API only takes this format and
+    converts it into a hardware accessible format.
+
+    To use the command queue to draw your own widgets you can access the
+    command buffer of each window by calling `nk_window_get_canvas` after
+    previously having called `nk_begin`:
+
+        void draw_red_rectangle_widget(struct nk_context *ctx)
+        {
+            struct nk_command_buffer *canvas;
+            struct nk_input *input = &amp;ctx-&gt;input;
+            canvas = nk_window_get_canvas(ctx);
+
+            struct nk_rect space;
+            enum nk_widget_layout_states state;
+            state = nk_widget(&amp;space, ctx);
+            if (!state) return;
+
+            if (state != NK_WIDGET_ROM)
+                update_your_widget_by_user_input(...);
+            nk_fill_rect(canvas, space, 0, nk_rgb(255,0,0));
+        }
+
+        if (nk_begin(...)) {
+            nk_layout_row_dynamic(ctx, 25, 1);
+            draw_red_rectangle_widget(ctx);
+        }
+        nk_end(..)
+
+    Important to know if you want to create your own widgets is the `nk_widget`
+    call. It allocates space on the panel reserved for this widget to be used,
+    but also returns the state of the widget space. If your widget is not seen and does
+    not have to be updated it is &apos;0&apos; and you can just return. If it only has
+    to be drawn the state will be `NK_WIDGET_ROM` otherwise you can do both
+    update and draw your widget. The reason for seperating is to only draw and
+    update what is actually neccessary which is crucial for performance.
+*/</doc>

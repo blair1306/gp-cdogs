@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='161' type='enet_uint32'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='608' u='w' c='enet_peer_queue_acknowledgement'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1296' u='r' c='enet_protocol_send_acknowledgements'/>

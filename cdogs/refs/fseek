@@ -1,0 +1,11 @@
+<dec f='include/stdio.h' l='749' type='int fseek(FILE * __stream, long __off, int __whence)'/>
+<doc f='include/stdio.h' l='745'>/* Seek to a certain position on STREAM.
+
+   This function is a possible cancellation point and therefore not
+   marked with __THROW.  */</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='223' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='235' u='c' c='ReadFileIntoBuf'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='60' u='c' c='ReadFile'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='63' u='c' c='ReadFile'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5179' u='c' c='nk_file_load'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5186' u='c' c='nk_file_load'/>

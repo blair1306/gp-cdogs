@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='120' type='direction_e DirectionOpposite(const direction_e d)'/>
+<def f='codebrowser/src/cdogs/defs.c' l='159' ll='162' type='direction_e DirectionOpposite(const direction_e d)'/>

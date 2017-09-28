@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='65' type='Vec2i'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='648' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='730' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='730' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='730' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='730' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='913' u='r' c='BulletAdd'/>

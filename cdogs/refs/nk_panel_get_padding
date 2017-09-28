@@ -1,0 +1,12 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17097' ll='17110' macro='1' type='struct nk_vec2 nk_panel_get_padding(const struct nk_style * style, enum nk_panel_type type)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17191' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17405' u='c' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18601' u='c' c='nk_layout_row_calculate_usable_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19152' u='c' c='nk_layout_widget_space'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19664' u='c' c='nk_widget_fitting'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21366' u='c' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22027' u='c' c='nk_contextual_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22662' u='c' c='nk_combo'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22696' u='c' c='nk_combo_separator'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22749' u='c' c='nk_combo_callback'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='706' u='c' c='nk_combo_separator_image'/>

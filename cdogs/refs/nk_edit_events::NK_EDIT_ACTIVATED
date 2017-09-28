@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1583' type='4'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14985' u='r' c='nk_do_edit'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1583'>/* edit widget went from state inactive to state active */</doc>

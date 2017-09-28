@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='45' type='1'/>
+<doc f='codebrowser/src/cdogs/game_events.h' l='44'>// Net initialisation messages</doc>
+<use f='codebrowser/src/cdogs/game_events.c' l='56' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='56' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='56' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='56' u='r'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='187' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='290' c='OnReceive'/>

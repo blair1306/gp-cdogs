@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='64' type='Vec2i Vec2iToTile(Vec2i v)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='429' u='c' c='OnMove'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='133' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='387' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='642' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='726' u='c' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='211' u='c' c='AIHasClearPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='211' u='c' c='AIHasClearPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='329' u='c' c='AIHasClearShot'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='335' u='c' c='AIHasClearShot'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='342' u='c' c='AIHasClearShot'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='348' u='c' c='AIHasClearShot'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='357' u='c' c='IsPosNoSee'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='438' u='c' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='440' u='c' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='511' u='c' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='512' u='c' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/automap.c' l='85' u='c' c='DisplayPlayer'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='346' u='c' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/camera.c' l='210' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='245' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='296' u='c' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='321' u='c' c='AddPosToTileCache'/>
+<use f='codebrowser/src/cdogs/map.c' l='155' u='c' c='MapGetTileOfItem'/>
+<use f='codebrowser/src/cdogs/map.c' l='169' u='c' c='MapTryMoveTileItem'/>
+<use f='codebrowser/src/cdogs/map.c' l='170' u='c' c='MapTryMoveTileItem'/>
+<use f='codebrowser/src/cdogs/map.c' l='409' u='c' c='MapPosIsInLockedRoom'/>
+<use f='codebrowser/src/cdogs/map.c' l='803' u='c' c='MapIsFullPosOKforPlayer'/>
+<use f='codebrowser/src/cdogs/map.c' l='831' u='c' c='MapIsTileAreaClear'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='502' u='c' c='IsPosNoSee'/>
+<def f='codebrowser/src/cdogs/vector.c' l='142' ll='145' type='Vec2i Vec2iToTile(Vec2i v)'/>
+<use f='codebrowser/src/game.c' l='510' u='c' c='RunGameUpdate'/>

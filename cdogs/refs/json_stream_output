@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/json/json.h' l='265' type='enum json_error json_stream_output(FILE * file, json_t * root)'/>
+<doc f='codebrowser/src/json/json.h' l='259'>/**
+Produces a JSON markup text document from a json_t document tree to a text stream 
+@param file a opened file stream
+@param root The document&apos;s root node
+@return  a json_error code describing how the operation went
+**/</doc>
+<def f='codebrowser/src/json/json.c' l='812' ll='990' type='enum json_error json_stream_output(FILE * file, json_t * root)'/>

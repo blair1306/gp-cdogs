@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='21' type='void *'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='15' u='w' c='pb_field_iter_begin'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='66' u='w' c='pb_field_iter_next'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='21'>/* Pointer to count/has field */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='351' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='360' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='385' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='639' u='w' c='default_extension_decoder'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='704' u='r' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='709' u='r' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='737' u='r' c='pb_message_set_to_defaults'/>

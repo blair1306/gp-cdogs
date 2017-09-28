@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='38' type='map_t'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/pic_manager.h' l='38'>// of NamedPic</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='208' u='r' c='LoadArchivePics'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='45' u='w' c='PicManagerInit'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='297' u='r' c='FindStylePics'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='396' u='r' c='PicManagerClearCustom'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='398' u='w' c='PicManagerClearCustom'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='407' u='r' c='PicManagerTerminate'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='439' u='r' c='PicManagerGetNamedPic'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='534' u='r' c='PicManagerGenerateMaskedPic'/>

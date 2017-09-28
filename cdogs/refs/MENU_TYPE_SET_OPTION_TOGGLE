@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='66' type='4'/>
+<doc f='codebrowser/src/menu.h' l='66'>// no items, sets option on/off</doc>
+<use f='codebrowser/src/menu.c' l='468' u='r' c='MenuCreateOptionToggle'/>
+<use f='codebrowser/src/menu.c' l='797' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='933' c='MenuOptionGetIntValue'/>
+<use f='codebrowser/src/menu.c' l='1206' c='MenuActivate'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config.h' l='168' macro='1' type='char *(*)(int)'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/config.c' l='236' u='w' c='ConfigNewInt'/>
+<use f='codebrowser/src/menu.c' l='439' u='r' c='MenuAddConfigOptionsItem'/>

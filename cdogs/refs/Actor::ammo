@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='126' type='CArray'/>
+<offset>1280</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='126'>// of int</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='563' u='a' c='ActorAddAmmo'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1179' u='a' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1186' u='a' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1282' u='a' c='ActorDestroy'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1327' u='a' c='ActorGunGetAmmo'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='616' u='a' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='621' u='a' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='771' u='a' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='775' u='a' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='305' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='314' u='a' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='171' u='a' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='247' u='a' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='224' u='a' c='AmmoScale'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='224' u='a' c='AmmoScale'/>

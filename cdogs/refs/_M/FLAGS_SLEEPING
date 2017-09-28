@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='67'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1221' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1225' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1419' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='353' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='357' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='374' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='380' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='385' u='c'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='557' u='c'/>

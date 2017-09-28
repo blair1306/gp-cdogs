@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='53' type='_Bool Vec2iEqual(const Vec2i a, const Vec2i b)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='203' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='203' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='210' u='c' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='348' u='c' c='GetConstrainedFullPos'/>
+<use f='codebrowser/src/cdogs/actors.c' l='353' u='c' c='GetConstrainedFullPos'/>
+<use f='codebrowser/src/cdogs/actors.c' l='966' u='c' c='ActorUpdatePosition'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='389' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='399' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='471' u='c' c='AStarFollow'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='520' u='c' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='51' u='c' c='BresenhamLine'/>
+<use f='codebrowser/src/cdogs/algorithms.c' l='71' u='c' c='BresenhamLine'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='127' u='c' c='SeekTowards'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='127' u='c' c='SeekTowards'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='90' u='c' c='TileCacheAddImpl'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='368' u='c' c='DrawEditorTiles'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='406' u='c' c='GraphicsConfigSet'/>
+<use f='codebrowser/src/cdogs/map.c' l='172' u='c' c='MapTryMoveTileItem'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='317' u='c' c='TryRemoveMapObjectAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='372' u='c' c='MissionStaticTryRemoveCharacterAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='439' u='c' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='500' u='c' c='MissionStaticTryRemoveKeyAt'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='140' u='c' c='MouseHasMoved'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='66' u='c' c='CachedPathMatches'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='66' u='c' c='CachedPathMatches'/>
+<def f='codebrowser/src/cdogs/vector.c' l='104' ll='107' macro='1' type='_Bool Vec2iEqual(const Vec2i a, const Vec2i b)'/>
+<use f='codebrowser/src/cdogs/vector.c' l='110' u='c' c='Vec2iIsZero'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='814' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='635' u='c' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='636' u='c' c='EditorBrushStopPainting'/>

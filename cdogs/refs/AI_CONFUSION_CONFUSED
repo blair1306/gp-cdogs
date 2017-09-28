@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='54' type='0'/>
+<doc f='codebrowser/src/cdogs/ai_context.h' l='54'>// perform a random action</doc>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='70' u='r' c='AICoopGetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='77' u='r' c='AICoopGetCmd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='87' c='AICoopGetCmd'/>

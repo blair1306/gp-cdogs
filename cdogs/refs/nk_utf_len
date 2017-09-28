@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1874' type='int nk_utf_len(const char * , int byte_len)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5980' ll='6002' macro='1' type='int nk_utf_len(const char * str, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6365' u='c' c='nk_str_append_text_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6473' u='c' c='nk_str_insert_at_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6586' u='c' c='nk_str_remove_chars'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6626' u='c' c='nk_str_delete_chars'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12666' u='c' c='nk_textedit_paste'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15675' u='c' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20605' u='c' c='nk_edit_string'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20624' u='c' c='nk_edit_string'/>

@@ -1,0 +1,9 @@
+<dec f='include/SDL2/SDL_render.h' l='847' type='void SDL_DestroyRenderer(SDL_Renderer * renderer)'/>
+<doc f='include/SDL2/SDL_render.h' l='841'>/**
+ *  \brief Destroy the rendering context for a window and free associated
+ *         textures.
+ *
+ *  \sa SDL_CreateRenderer()
+ */</doc>
+<use f='codebrowser/src/cdogs/grafx.c' l='229' u='c' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='384' u='c' c='GraphicsTerminate'/>

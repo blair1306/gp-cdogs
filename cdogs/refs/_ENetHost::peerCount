@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='369' type='size_t'/>
+<offset>384</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='369'>/**&lt; number of peers allocated for this host */</doc>
+<use f='codebrowser/src/cdogs/enet/host.c' l='86' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='116' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='151' u='r' c='enet_host_destroy'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='187' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='194' u='r' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='266' u='r' c='enet_host_broadcast'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='355' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='375' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='418' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='452' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='472' u='r' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='291' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1005' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1604' u='r' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='149' u='r' c='NetServerClose'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='599' u='r' c='NetServerSendMsg'/>

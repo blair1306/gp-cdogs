@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='143' type='char [128]'/>
+<offset>40</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='677' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='679' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/mission.c' l='302' u='r' c='MissionSetMessageIfComplete'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='386'/>

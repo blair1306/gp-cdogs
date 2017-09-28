@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='85' type='0'/>
+<use f='codebrowser/src/cdogs/ai.c' l='156' c='IsDirectionOK'/>
+<use f='codebrowser/src/cdogs/ai.c' l='363' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='369' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='404' c='AIIsFacing'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='680' c='AIMoveAwayFromLine'/>
+<use f='codebrowser/src/cdogs/defs.c' l='81' u='r'/>
+<use f='codebrowser/src/cdogs/defs.c' l='81' u='r'/>
+<use f='codebrowser/src/cdogs/defs.c' l='149' u='r' c='RadiansToDirection'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='128' u='r' c='CharSpritesLoadJSON'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='187' u='r' c='LoadDirOffsets'/>
+<use f='codebrowser/src/cdogs/objs.c' l='72' u='r' c='GetMapObjectDrawContext'/>
+<use f='codebrowser/src/player_select_menus.c' l='542' u='r' c='PostInputRotatePlayer'/>
+<use f='codebrowser/src/player_select_menus.c' l='542' u='r' c='PostInputRotatePlayer'/>

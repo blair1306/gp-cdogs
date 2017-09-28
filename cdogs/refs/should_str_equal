@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='191' type='void should_str_equal(const char * actual, const char * expected, void * state, const char * file, int line)'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='63' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='88' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='92' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='98' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='101' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='118' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='136' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='137' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='162' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='163' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='181' macro='1' u='c'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='183' macro='1' u='c'/>
+<def f='codebrowser/src/tests/cbehave/cbehave.c' l='115' ll='137' type='void should_str_equal(const char * actual, const char * expected, void * state, const char * file, int line)'/>
+<use f='codebrowser/src/tests/color_test.c' l='234' macro='1' u='c'/>
+<use f='codebrowser/src/tests/utils_test.c' l='31' macro='1' u='c'/>
+<use f='codebrowser/src/tests/utils_test.c' l='46' macro='1' u='c'/>

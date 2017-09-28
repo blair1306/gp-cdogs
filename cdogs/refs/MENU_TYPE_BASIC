@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='65' type='3'/>
+<doc f='codebrowser/src/menu.h' l='65'>// no items, does nothing (use custom callbacks)</doc>
+<use f='codebrowser/src/mainmenu.c' l='340' u='r' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='551' u='r' c='MenuCreateSeparator'/>
+<use f='codebrowser/src/menu.c' l='1203' c='MenuActivate'/>
+<use f='codebrowser/src/weapon_menu.c' l='209' u='r' c='WeaponMenuCreate'/>

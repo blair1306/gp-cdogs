@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='316' ll='322'/>
+<size>144</size>
+<mbr r='_NGunReload::PlayerUID' o='0' t='int32_t'/>
+<mbr r='_NGunReload::Gun' o='32' t='char [128]'/>
+<mbr r='_NGunReload::FullPos' o='1056' t='NVec2i'/>
+<mbr r='_NGunReload::Direction' o='1120' t='int32_t'/>

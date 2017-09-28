@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='130' type='MenuFunc'/>
+<offset>256</offset>
+<use f='codebrowser/src/menu.c' l='381' u='w' c='MenuSetPostEnterFunc'/>
+<use f='codebrowser/src/menu.c' l='992' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='994' u='r' c='MenuProcessCmd'/>

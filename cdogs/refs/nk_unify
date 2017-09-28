@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='5733' ll='5745' macro='1' type='void nk_unify(struct nk_rect * clip, const struct nk_rect * a, float x0, float y0, float x1, float y1)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14956' u='c' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17370' u='c' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21390' u='c' c='nk_group_scrolled_end'/>

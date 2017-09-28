@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='126' type='_Bool TriggerTryActivate(Trigger * t, const int flags, const Vec2i tilePos)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='440' u='c' c='CheckTrigger'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='239' ll='258' macro='1' type='_Bool TriggerTryActivate(Trigger * t, const int flags, const Vec2i tilePos)'/>

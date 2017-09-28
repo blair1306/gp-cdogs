@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3065' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14320' u='r' c='nk_do_slider'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16126' u='w' c='nk_style_from_table'/>
+<offset>2016</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3064'>/* optional buttons */</doc>

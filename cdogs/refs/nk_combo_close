@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1647' type='void nk_combo_close(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22643' ll='22644' macro='1' type='void nk_combo_close(struct nk_context * ctx)'/>

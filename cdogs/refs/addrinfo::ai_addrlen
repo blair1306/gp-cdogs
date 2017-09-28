@@ -1,0 +1,4 @@
+<dec f='include/netdb.h' l='573' type='socklen_t'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='135' u='r' c='enet_address_set_host'/>
+<offset>128</offset>
+<doc f='include/netdb.h' l='573'>/* Length of socket address.  */</doc>

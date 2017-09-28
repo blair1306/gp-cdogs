@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/files.h' l='174' type='struct MissionObjectiveOld [5]'/>
+<offset>4224</offset>
+<use f='codebrowser/src/cdogs/files.c' l='233' u='a' c='load_mission'/>
+<use f='codebrowser/src/cdogs/files.c' l='383' u='a' c='ConvertMission'/>

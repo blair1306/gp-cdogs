@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='177' type='NAddBullet'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='453' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='454' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='455' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='456' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='457' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='458' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='460' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='461' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='462' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='522' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='192' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='193' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='194' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='195' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='196' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='197' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='198' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='199' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='200' u='m' c='ObjRemove'/>

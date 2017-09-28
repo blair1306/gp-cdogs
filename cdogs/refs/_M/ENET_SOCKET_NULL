@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/unix.h' l='21'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='52' u='c'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='54' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='411' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='56' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='73' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='80' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='112' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='115' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='147' u='c'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='221' u='c'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='118' u='c'/>

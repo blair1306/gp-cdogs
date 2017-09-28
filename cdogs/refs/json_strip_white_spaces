@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/json/json.h' l='272' type='void json_strip_white_spaces(char * text)'/>
+<doc f='codebrowser/src/json/json.h' l='268'>/**
+Strips all JSON white spaces from the text string
+@param text a char string holding a JSON document or document snippet 
+**/</doc>
+<def f='codebrowser/src/json/json.c' l='993' ll='1046' type='void json_strip_white_spaces(char * text)'/>

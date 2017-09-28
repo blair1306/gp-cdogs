@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/json/json.h' l='81' type='8'/>
+<doc f='codebrowser/src/json/json.h' l='81'>/*!&lt; the document tree structure is malformed */</doc>
+<use f='codebrowser/src/json/json.c' l='489' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='497' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='504' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='516' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='524' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='529' u='r' c='json_insert_child'/>
+<use f='codebrowser/src/json/json.c' l='642' u='r' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='660' u='r' c='json_tree_to_string'/>
+<use f='codebrowser/src/json/json.c' l='853' u='r' c='json_stream_output'/>
+<use f='codebrowser/src/json/json.c' l='866' u='r' c='json_stream_output'/>
+<use f='codebrowser/src/json/json.c' l='2250' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2263' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2310' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2323' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2647' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2653' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2665' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2720' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2734' u='r' c='json_parse_fragment'/>

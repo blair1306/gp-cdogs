@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9085' ll='9088'/>
+<size>20</size>
+<mbr r='nk_tt__edge::x0' o='0' t='float'/>
+<mbr r='nk_tt__edge::y0' o='32' t='float'/>
+<mbr r='nk_tt__edge::x1' o='64' t='float'/>
+<mbr r='nk_tt__edge::y1' o='96' t='float'/>
+<mbr r='nk_tt__edge::invert' o='128' t='int'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2164' type='void nk_font_atlas_init(struct nk_font_atlas * , struct nk_allocator * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='11579' ll='11588' macro='1' type='void nk_font_atlas_init(struct nk_font_atlas * atlas, struct nk_allocator * alloc)'/>

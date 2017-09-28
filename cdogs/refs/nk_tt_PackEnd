@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10392' ll='10397' macro='1' type='void nk_tt_PackEnd(struct nk_tt_pack_context * spc, struct nk_allocator * alloc)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10993' u='c' c='nk_font_bake'/>

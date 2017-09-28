@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3293' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16425' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17303' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17306' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17327' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17330' u='m' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17350' u='m' c='nk_panel_begin'/>
+<offset>3936</offset>

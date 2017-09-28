@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='74' type='yajl_lex_error'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='324' u='w' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='331' u='w' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='340' u='w' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='352' u='w' c='yajl_lex_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='402' u='w' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='421' u='w' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='445' u='w' c='yajl_lex_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='491' u='w' c='yajl_lex_comment'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='552' u='w' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='570' u='w' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='588' u='w' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='615' u='w' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='639' u='w' c='yajl_lex_lex'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='732' u='r' c='yajl_lex_get_error'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='73'>/* error */</doc>

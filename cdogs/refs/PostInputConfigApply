@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='319' type='void PostInputConfigApply(menu_t * menu, int cmd, void * data)'/>
+<use f='codebrowser/src/mainmenu.c' l='565' u='r' c='MenuCreateOptionsGraphics'/>
+<use f='codebrowser/src/mainmenu.c' l='582' u='r' c='MenuCreateOptionsControls'/>
+<use f='codebrowser/src/mainmenu.c' l='610' u='r' c='MenuCreateKeys'/>
+<use f='codebrowser/src/menu.c' l='419' u='r' c='MenuCreateConfigOptions'/>
+<def f='codebrowser/src/menu.c' l='1341' ll='1363' type='void PostInputConfigApply(menu_t * menu, int cmd, void * data)'/>

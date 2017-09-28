@@ -1,0 +1,7 @@
+<dec f='include/SDL2/SDL_mixer.h' l='593' type='int Mix_SetMusicPosition(double position)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='587'>/* Set the current position in the music stream.
+   This returns 0 if successful, or -1 if it failed or isn&apos;t implemented.
+   This function is only implemented for MOD music formats (set pattern
+   order number) and for OGG, FLAC, MP3_MAD, and MODPLUG music (set
+   position in seconds), at the moment.
+*/</doc>

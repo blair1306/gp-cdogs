@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_mixer.h' l='161' type='Mix_Chunk * Mix_QuickLoad_WAV(Uint8 * mem)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='160'>/* Load a wave file of the mixer format from a memory buffer */</doc>

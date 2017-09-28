@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9017' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10685' u='w' c='nk_tt_GetPackedQuad'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10690' u='w' c='nk_tt_GetPackedQuad'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11042' u='r' c='nk_font_bake'/>
+<offset>160</offset>

@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/rlutil/rlutil.h' l='414' ll='434' macro='1' type='RLUTIL_STRING_T getANSIColor(const int c)'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='468' u='c' c='setColor'/>

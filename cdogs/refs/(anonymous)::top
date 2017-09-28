@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='80' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/automap.c' l='388' u='r' c='AutomapDrawRegion'/>
+<use f='codebrowser/src/cdogs/blit.c' l='92' u='r' c='BlitPicHighlight'/>
+<use f='codebrowser/src/cdogs/blit.c' l='141' u='r' c='BlitBackground'/>
+<use f='codebrowser/src/cdogs/blit.c' l='190' u='r' c='Blit'/>
+<use f='codebrowser/src/cdogs/blit.c' l='253' u='r' c='BlitMasked'/>
+<use f='codebrowser/src/cdogs/blit.c' l='301' u='r' c='BlitCharMultichannel'/>
+<use f='codebrowser/src/cdogs/blit.c' l='363' u='r' c='BlitBlend'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='69' u='r' c='Draw_Point'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='175' u='r' c='DrawPointMask'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='196' u='r' c='DrawPointTint'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='213' u='r' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='213' u='r' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='272' u='r' c='DrawShadow'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='449' u='w' c='GraphicsSetBlitClip'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1032' u='r' c='DrawBackground'/>

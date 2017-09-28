@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='76' type='int AIHuntClosest(TActor * actor)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='195' u='c' c='BrightWalk'/>
+<use f='codebrowser/src/cdogs/ai.c' l='400' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='436' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='469' u='c' c='GetCmd'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='603' ll='621' type='int AIHuntClosest(TActor * actor)'/>

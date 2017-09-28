@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>sounds.h source code [codebrowser/src/cdogs/sounds.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/sounds.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='sounds.h.html'>sounds.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin </i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King </i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#<span data-ppcond="53">ifdef</span> <span class="macro" data-ref="_M/__EMSCRIPTEN__">__EMSCRIPTEN__</span></u></td></tr>
+<tr><th id="54">54</th><td><u>#include &lt;SDL.h&gt;</u></td></tr>
+<tr><th id="55">55</th><td><u>#include &lt;SDL/SDL_mixer.h&gt;</u></td></tr>
+<tr><th id="56">56</th><td><u>#<span data-ppcond="53">else</span></u></td></tr>
+<tr><th id="57">57</th><td><u>#include <a href="../../../include/SDL2/SDL_mixer.h.html">&lt;SDL_mixer.h&gt;</a></u></td></tr>
+<tr><th id="58">58</th><td><u>#<span data-ppcond="53">endif</span></u></td></tr>
+<tr><th id="59">59</th><td></td></tr>
+<tr><th id="60">60</th><td><u>#include <a href="c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="61">61</th><td><u>#include <a href="c_hashmap/hashmap.h.html">"c_hashmap/hashmap.h"</a></u></td></tr>
+<tr><th id="62">62</th><td><u>#include <a href="defs.h.html">"defs.h"</a></u></td></tr>
+<tr><th id="63">63</th><td><u>#include <a href="sys_config.h.html">"sys_config.h"</a></u></td></tr>
+<tr><th id="64">64</th><td><u>#include <a href="utils.h.html">"utils.h"</a></u></td></tr>
+<tr><th id="65">65</th><td><u>#include <a href="vector.h.html">"vector.h"</a></u></td></tr>
+<tr><th id="66">66</th><td></td></tr>
+<tr><th id="67">67</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="68">68</th><td>{</td></tr>
+<tr><th id="69">69</th><td>	<dfn class="enum" id="SOUND_NORMAL" title='SOUND_NORMAL' data-ref="SOUND_NORMAL">SOUND_NORMAL</dfn>,</td></tr>
+<tr><th id="70">70</th><td>	<dfn class="enum" id="SOUND_RANDOM" title='SOUND_RANDOM' data-ref="SOUND_RANDOM">SOUND_RANDOM</dfn></td></tr>
+<tr><th id="71">71</th><td>} <dfn class="typedef" id="SoundType" title='SoundType' data-type='enum SoundType' data-ref="SoundType">SoundType</dfn>;</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="74">74</th><td>{</td></tr>
+<tr><th id="75">75</th><td>	<a class="typedef" href="#SoundType" title='SoundType' data-type='enum SoundType' data-ref="SoundType">SoundType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="76">76</th><td>	<b>union</b></td></tr>
+<tr><th id="77">77</th><td>	{</td></tr>
+<tr><th id="78">78</th><td>		<a class="typedef" href="../../../include/SDL2/SDL_mixer.h.html#Mix_Chunk" title='Mix_Chunk' data-type='struct Mix_Chunk' data-ref="Mix_Chunk">Mix_Chunk</a> *<dfn class="decl" id="(anonymousstruct)::(anonymous)::normal" title='(anonymous struct)::(anonymous union)::normal' data-ref="(anonymousstruct)::(anonymous)::normal">normal</dfn>;</td></tr>
+<tr><th id="79">79</th><td>		<b>struct</b></td></tr>
+<tr><th id="80">80</th><td>		{</td></tr>
+<tr><th id="81">81</th><td>			<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::sounds" title='(anonymous struct)::(anonymous union)::(anonymous struct)::sounds' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::sounds">sounds</dfn>;	<i>// of Mix_Chunk *</i></td></tr>
+<tr><th id="82">82</th><td>			<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymousunion)::(anonymous)::lastPlayed" title='(anonymous struct)::(anonymous union)::(anonymous struct)::lastPlayed' data-ref="(anonymousstruct)::(anonymousunion)::(anonymous)::lastPlayed">lastPlayed</dfn>;</td></tr>
+<tr><th id="83">83</th><td>		} <dfn class="decl" id="(anonymousstruct)::(anonymous)::random" title='(anonymous struct)::(anonymous union)::random' data-ref="(anonymousstruct)::(anonymous)::random">random</dfn>;</td></tr>
+<tr><th id="84">84</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="85">85</th><td>} <dfn class="typedef" id="SoundData" title='SoundData' data-type='struct SoundData' data-ref="SoundData">SoundData</dfn>;</td></tr>
+<tr><th id="86">86</th><td></td></tr>
+<tr><th id="87">87</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="88">88</th><td>{</td></tr>
+<tr><th id="89">89</th><td>	<dfn class="enum" id="MUSIC_OK" title='MUSIC_OK' data-ref="MUSIC_OK">MUSIC_OK</dfn>,</td></tr>
+<tr><th id="90">90</th><td>	<dfn class="enum" id="MUSIC_NOLOAD" title='MUSIC_NOLOAD' data-ref="MUSIC_NOLOAD">MUSIC_NOLOAD</dfn>,</td></tr>
+<tr><th id="91">91</th><td>	<dfn class="enum" id="MUSIC_PLAYING" title='MUSIC_PLAYING' data-ref="MUSIC_PLAYING">MUSIC_PLAYING</dfn>,</td></tr>
+<tr><th id="92">92</th><td>	<dfn class="enum" id="MUSIC_PAUSED" title='MUSIC_PAUSED' data-ref="MUSIC_PAUSED">MUSIC_PAUSED</dfn></td></tr>
+<tr><th id="93">93</th><td>} <dfn class="typedef" id="music_status_e" title='music_status_e' data-type='enum music_status_e' data-ref="music_status_e">music_status_e</dfn>;</td></tr>
+<tr><th id="94">94</th><td></td></tr>
+<tr><th id="95">95</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="96">96</th><td>{</td></tr>
+<tr><th id="97">97</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::isInitialised" title='(anonymous struct)::isInitialised' data-ref="(anonymous)::isInitialised">isInitialised</dfn>;</td></tr>
+<tr><th id="98">98</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_mixer.h.html#Mix_Music" title='Mix_Music' data-type='struct _Mix_Music' data-ref="Mix_Music">Mix_Music</a> *<dfn class="decl" id="(anonymous)::music" title='(anonymous struct)::music' data-ref="(anonymous)::music">music</dfn>;</td></tr>
+<tr><th id="99">99</th><td>	<a class="typedef" href="#music_status_e" title='music_status_e' data-type='enum music_status_e' data-ref="music_status_e">music_status_e</a> <dfn class="decl" id="(anonymous)::musicStatus" title='(anonymous struct)::musicStatus' data-ref="(anonymous)::musicStatus">musicStatus</dfn>;</td></tr>
+<tr><th id="100">100</th><td>	<em>char</em> <dfn class="decl" id="(anonymous)::musicErrorMessage" title='(anonymous struct)::musicErrorMessage' data-ref="(anonymous)::musicErrorMessage">musicErrorMessage</dfn>[<var>128</var>];</td></tr>
+<tr><th id="101">101</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::channels" title='(anonymous struct)::channels' data-ref="(anonymous)::channels">channels</dfn>;</td></tr>
+<tr><th id="102">102</th><td></td></tr>
+<tr><th id="103">103</th><td>	<i>// Two sets of ears for 4-player split screen</i></td></tr>
+<tr><th id="104">104</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::earLeft1" title='(anonymous struct)::earLeft1' data-ref="(anonymous)::earLeft1">earLeft1</dfn>;</td></tr>
+<tr><th id="105">105</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::earLeft2" title='(anonymous struct)::earLeft2' data-ref="(anonymous)::earLeft2">earLeft2</dfn>;</td></tr>
+<tr><th id="106">106</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::earRight1" title='(anonymous struct)::earRight1' data-ref="(anonymous)::earRight1">earRight1</dfn>;</td></tr>
+<tr><th id="107">107</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::earRight2" title='(anonymous struct)::earRight2' data-ref="(anonymous)::earRight2">earRight2</dfn>;</td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td>	<a class="typedef" href="c_hashmap/hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="decl" id="(anonymous)::sounds" title='(anonymous struct)::sounds' data-ref="(anonymous)::sounds">sounds</dfn>;		<i>// of SoundData</i></td></tr>
+<tr><th id="110">110</th><td>	<a class="typedef" href="c_hashmap/hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="decl" id="(anonymous)::customSounds" title='(anonymous struct)::customSounds' data-ref="(anonymous)::customSounds">customSounds</dfn>;	<i>// of SoundData</i></td></tr>
+<tr><th id="111">111</th><td>} <dfn class="typedef" id="SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</dfn>;</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td><b>extern</b> <a class="typedef" href="#SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</a> <dfn class="decl" id="gSoundDevice" title='gSoundDevice' data-ref="gSoundDevice">gSoundDevice</dfn>;</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="116">116</th><td>{</td></tr>
+<tr><th id="117">117</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::SoundVolume" title='(anonymous struct)::SoundVolume' data-ref="(anonymous)::SoundVolume">SoundVolume</dfn>;</td></tr>
+<tr><th id="118">118</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::MusicVolume" title='(anonymous struct)::MusicVolume' data-ref="(anonymous)::MusicVolume">MusicVolume</dfn>;</td></tr>
+<tr><th id="119">119</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Footsteps" title='(anonymous struct)::Footsteps' data-ref="(anonymous)::Footsteps">Footsteps</dfn>;</td></tr>
+<tr><th id="120">120</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Hits" title='(anonymous struct)::Hits' data-ref="(anonymous)::Hits">Hits</dfn>;</td></tr>
+<tr><th id="121">121</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Reloads" title='(anonymous struct)::Reloads' data-ref="(anonymous)::Reloads">Reloads</dfn>;</td></tr>
+<tr><th id="122">122</th><td>} <dfn class="typedef" id="SoundConfig" title='SoundConfig' data-type='struct SoundConfig' data-ref="SoundConfig">SoundConfig</dfn>;</td></tr>
+<tr><th id="123">123</th><td></td></tr>
+<tr><th id="124">124</th><td><i>// DTO for playing certain sounds associated with collision</i></td></tr>
+<tr><th id="125">125</th><td><i>// for a bullet or weapon type</i></td></tr>
+<tr><th id="126">126</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="127">127</th><td>{</td></tr>
+<tr><th id="128">128</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Object" title='(anonymous struct)::Object' data-ref="(anonymous)::Object">Object</dfn>;</td></tr>
+<tr><th id="129">129</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Flesh" title='(anonymous struct)::Flesh' data-ref="(anonymous)::Flesh">Flesh</dfn>;</td></tr>
+<tr><th id="130">130</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Wall" title='(anonymous struct)::Wall' data-ref="(anonymous)::Wall">Wall</dfn>;</td></tr>
+<tr><th id="131">131</th><td>} <dfn class="typedef" id="HitSounds" title='HitSounds' data-type='struct HitSounds' data-ref="HitSounds">HitSounds</dfn>;</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td><em>void</em> <dfn class="decl" id="SoundInitialize" title='SoundInitialize' data-ref="SoundInitialize">SoundInitialize</dfn>(<a class="typedef" href="#SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</a> *<dfn class="local col7 decl" id="2377device" title='device' data-type='SoundDevice *' data-ref="2377device">device</dfn>, <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="2378path" title='path' data-type='const char *' data-ref="2378path">path</dfn>);</td></tr>
+<tr><th id="134">134</th><td><em>void</em> <dfn class="decl" id="SoundLoadDir" title='SoundLoadDir' data-ref="SoundLoadDir">SoundLoadDir</dfn>(<a class="typedef" href="c_hashmap/hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col9 decl" id="2379sounds" title='sounds' data-type='map_t' data-ref="2379sounds">sounds</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="2380path" title='path' data-type='const char *' data-ref="2380path">path</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2381prefix" title='prefix' data-type='const char *' data-ref="2381prefix">prefix</dfn>);</td></tr>
+<tr><th id="135">135</th><td><em>void</em> <dfn class="decl" id="SoundReconfigure" title='SoundReconfigure' data-ref="SoundReconfigure">SoundReconfigure</dfn>(<a class="typedef" href="#SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</a> *<dfn class="local col2 decl" id="2382s" title='s' data-type='SoundDevice *' data-ref="2382s">s</dfn>);</td></tr>
+<tr><th id="136">136</th><td><em>void</em> <dfn class="decl" id="SoundClear" title='SoundClear' data-ref="SoundClear">SoundClear</dfn>(<a class="typedef" href="c_hashmap/hashmap.h.html#map_t" title='map_t' data-type='struct hashmap_map *' data-ref="map_t">map_t</a> <dfn class="local col3 decl" id="2383sounds" title='sounds' data-type='map_t' data-ref="2383sounds">sounds</dfn>);</td></tr>
+<tr><th id="137">137</th><td><em>void</em> <dfn class="decl" id="SoundTerminate" title='SoundTerminate' data-ref="SoundTerminate">SoundTerminate</dfn>(<a class="typedef" href="#SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</a> *<dfn class="local col4 decl" id="2384device" title='device' data-type='SoundDevice *' data-ref="2384device">device</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col5 decl" id="2385waitForSoundsComplete" title='waitForSoundsComplete' data-type='const _Bool' data-ref="2385waitForSoundsComplete">waitForSoundsComplete</dfn>);</td></tr>
+<tr><th id="138">138</th><td><em>void</em> <dfn class="decl" id="SoundPlay" title='SoundPlay' data-ref="SoundPlay">SoundPlay</dfn>(<a class="typedef" href="#SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</a> *<dfn class="local col6 decl" id="2386device" title='device' data-type='SoundDevice *' data-ref="2386device">device</dfn>, <a class="typedef" href="../../../include/SDL2/SDL_mixer.h.html#Mix_Chunk" title='Mix_Chunk' data-type='struct Mix_Chunk' data-ref="Mix_Chunk">Mix_Chunk</a> *<dfn class="local col7 decl" id="2387data" title='data' data-type='Mix_Chunk *' data-ref="2387data">data</dfn>);</td></tr>
+<tr><th id="139">139</th><td><em>void</em> <dfn class="decl" id="SoundSetEarsSide" title='SoundSetEarsSide' data-ref="SoundSetEarsSide">SoundSetEarsSide</dfn>(<em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col8 decl" id="2388isLeft" title='isLeft' data-type='const _Bool' data-ref="2388isLeft">isLeft</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="2389pos" title='pos' data-type='const Vec2i' data-ref="2389pos">pos</dfn>);</td></tr>
+<tr><th id="140">140</th><td><em>void</em> <dfn class="decl" id="SoundSetEar" title='SoundSetEar' data-ref="SoundSetEar">SoundSetEar</dfn>(<em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col0 decl" id="2390isLeft" title='isLeft' data-type='const _Bool' data-ref="2390isLeft">isLeft</dfn>, <em>const</em> <em>int</em> <dfn class="local col1 decl" id="2391idx" title='idx' data-type='const int' data-ref="2391idx">idx</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col2 decl" id="2392pos" title='pos' data-type='Vec2i' data-ref="2392pos">pos</dfn>);</td></tr>
+<tr><th id="141">141</th><td><em>void</em> <dfn class="decl" id="SoundSetEars" title='SoundSetEars' data-ref="SoundSetEars">SoundSetEars</dfn>(<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="2393pos" title='pos' data-type='Vec2i' data-ref="2393pos">pos</dfn>);</td></tr>
+<tr><th id="142">142</th><td><em>void</em> <dfn class="decl" id="SoundPlayAt" title='SoundPlayAt' data-ref="SoundPlayAt">SoundPlayAt</dfn>(<a class="typedef" href="#SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</a> *<dfn class="local col4 decl" id="2394device" title='device' data-type='SoundDevice *' data-ref="2394device">device</dfn>, <a class="typedef" href="../../../include/SDL2/SDL_mixer.h.html#Mix_Chunk" title='Mix_Chunk' data-type='struct Mix_Chunk' data-ref="Mix_Chunk">Mix_Chunk</a> *<dfn class="local col5 decl" id="2395data" title='data' data-type='Mix_Chunk *' data-ref="2395data">data</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col6 decl" id="2396pos" title='pos' data-type='const Vec2i' data-ref="2396pos">pos</dfn>);</td></tr>
+<tr><th id="143">143</th><td></td></tr>
+<tr><th id="144">144</th><td><i>// Play a sound but with distance added</i></td></tr>
+<tr><th id="145">145</th><td><i>// Simulates a quieter sound by adding distance attenuation</i></td></tr>
+<tr><th id="146">146</th><td><em>void</em> <dfn class="decl" id="SoundPlayAtPlusDistance" title='SoundPlayAtPlusDistance' data-ref="SoundPlayAtPlusDistance">SoundPlayAtPlusDistance</dfn>(</td></tr>
+<tr><th id="147">147</th><td>	<a class="typedef" href="#SoundDevice" title='SoundDevice' data-type='struct SoundDevice' data-ref="SoundDevice">SoundDevice</a> *<dfn class="local col7 decl" id="2397device" title='device' data-type='SoundDevice *' data-ref="2397device">device</dfn>, <a class="typedef" href="../../../include/SDL2/SDL_mixer.h.html#Mix_Chunk" title='Mix_Chunk' data-type='struct Mix_Chunk' data-ref="Mix_Chunk">Mix_Chunk</a> *<dfn class="local col8 decl" id="2398data" title='data' data-type='Mix_Chunk *' data-ref="2398data">data</dfn>,</td></tr>
+<tr><th id="148">148</th><td>	<em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="2399pos" title='pos' data-type='const Vec2i' data-ref="2399pos">pos</dfn>, <em>const</em> <em>int</em> <dfn class="local col0 decl" id="2400plusDistance" title='plusDistance' data-type='const int' data-ref="2400plusDistance">plusDistance</dfn>);</td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td><a class="typedef" href="../../../include/SDL2/SDL_mixer.h.html#Mix_Chunk" title='Mix_Chunk' data-type='struct Mix_Chunk' data-ref="Mix_Chunk">Mix_Chunk</a> *<dfn class="decl" id="StrSound" title='StrSound' data-ref="StrSound">StrSound</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="2401s" title='s' data-type='const char *' data-ref="2401s">s</dfn>);</td></tr>
+<tr><th id="151">151</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

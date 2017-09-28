@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='460' type='void *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5627' u='w' c='nk_handle_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5645' u='w' c='nk_subimage_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='5703' u='w' c='nk_image_ptr'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6057' u='w' c='nk_buffer_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6333' u='w' c='nk_str_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8102' u='r' c='nk_draw_list_path_line_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8102' u='r' c='nk_draw_list_path_line_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11133' u='r' c='nk_font_text_width'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11169' u='r' c='nk_font_query_font_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11235' u='w' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11570' u='w' c='nk_font_atlas_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11573' u='w' c='nk_font_atlas_init_default'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16746' u='w' c='nk_init_default'/>
+<offset>0</offset>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='7479' ll='7491' macro='1' type='struct nk_draw_command * nk_draw_list_command_last(struct nk_draw_list * list)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7501' u='c' c='nk_draw_list_add_clip'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7516' u='c' c='nk_draw_list_push_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7558' u='c' c='nk_draw_list_alloc_elements'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8101' u='c' c='nk_draw_list_path_line_to'/>

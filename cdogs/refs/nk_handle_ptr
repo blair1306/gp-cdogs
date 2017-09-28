@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1823' type='nk_handle nk_handle_ptr(void * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='5623' ll='5629' macro='1' type='nk_handle nk_handle_ptr(void * ptr)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11911' u='c' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16000' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16020' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16040' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16055' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16074' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16102' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16125' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16144' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16163' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16183' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16208' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16256' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16276' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16349' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16382' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16403' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16440' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16460' u='c' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='209' u='c' c='nk_sdl_init'/>

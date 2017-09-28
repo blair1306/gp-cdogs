@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='80' type='PickupClass * KeyPickupClass(const char * style, const int i)'/>
+<doc f='codebrowser/src/cdogs/pickup_class.h' l='79'>// Semi-legacy key classes, style+integer colour</doc>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='919' u='c' c='DrawKeycards'/>
+<use f='codebrowser/src/cdogs/map.c' l='505' u='c' c='MapPlaceKey'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='114' u='c' c='IntKeyPickupClass'/>
+<def f='codebrowser/src/cdogs/pickup_class.c' l='119' ll='131' type='PickupClass * KeyPickupClass(const char * style, const int i)'/>
+<doc f='codebrowser/src/cdogs/pickup_class.c' l='118'>// TODO: support more colours</doc>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='470' u='c' c='MissionDrawKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='65' u='c' c='DrawKey'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/gamedata.h' l='80' type='void FreeSongs(struct SongDef ** songList)'/>
+<use f='codebrowser/src/cdogs.c' l='311' u='c' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='312' u='c' c='main'/>
+<def f='codebrowser/src/cdogs/gamedata.c' l='181' ll='190' type='void FreeSongs(struct SongDef ** songList)'/>

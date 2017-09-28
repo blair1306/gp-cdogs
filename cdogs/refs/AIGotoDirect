@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='74' type='int AIGotoDirect(const Vec2i a, const Vec2i p)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='358' u='c' c='AICoopGetCmdNormal'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='449' ll='460' type='int AIGotoDirect(const Vec2i a, const Vec2i p)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='478' u='c' c='AStarFollow'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='522' u='c' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='536' u='c' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='562' u='c' c='AIGoto'/>

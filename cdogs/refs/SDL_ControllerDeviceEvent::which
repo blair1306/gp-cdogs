@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_events.h' l='389' type='Sint32'/>
+<offset>64</offset>
+<doc f='include/SDL2/SDL_events.h' l='389'>/**&lt; The joystick device index for the ADDED event, instance id for the REMOVED or REMAPPED event */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='99' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='119' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='124' u='r' c='EventPoll'/>

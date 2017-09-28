@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10334' ll='10355' macro='1' type='void nk_tt_MakeGlyphBitmapSubpixel(const struct nk_tt_fontinfo * info, unsigned char * output, int out_w, int out_h, int out_stride, float scale_x, float scale_y, float shift_x, float shift_y, int glyph, struct nk_allocator * alloc)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10634' u='c' c='nk_tt_PackFontRangesRenderIntoRects'/>

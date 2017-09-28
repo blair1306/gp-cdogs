@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='150'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='149'>/* Marker for last packable field type. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='356' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='131' u='c'/>

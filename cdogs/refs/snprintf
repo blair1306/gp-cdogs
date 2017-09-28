@@ -1,0 +1,19 @@
+<dec f='include/stdio.h' l='386' type='int snprintf(char *restrict __s, size_t __maxlen, const char *restrict __format)'/>
+<doc f='include/stdio.h' l='385'>/* Maximum chars of output to write in MAXLEN.  */</doc>
+<use f='codebrowser/src/cdogs/map_new.c' l='614' u='c' c='LoadMapObjectRef'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='context_push'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='context_pop'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='array_add_value'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='context_add_value'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='context_add_value'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_string'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_number'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_start_map'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_start_array'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_boolean'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='55' u='c' c='handle_null'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='444' u='c' c='yajl_tree_parse'/>

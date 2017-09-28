@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='101' type='float'/>
+<offset>160</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='99'>// Rotation used to draw the actor, which will lag behind the actual
+	// rotation in order to show smooth rotation</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='153' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='155' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='157' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='159' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='161' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='164' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='168' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1248' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='111' u='r' c='GetCharacterPicsFromActor'/>

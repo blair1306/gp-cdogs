@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ai.h' l='53' type='void InitializeBadGuys()'/>
+<def f='codebrowser/src/cdogs/ai.c' l='551' ll='610' type='void InitializeBadGuys()'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='103' u='c' c='GrafxMakeBackground'/>
+<use f='codebrowser/src/game.c' l='241' u='c' c='RunGameOnEnter'/>

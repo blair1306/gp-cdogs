@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9090' ll='9096'/>
+<size>32</size>
+<mbr r='nk_tt__active_edge::next' o='0' t='struct nk_tt__active_edge *'/>
+<mbr r='nk_tt__active_edge::fx' o='64' t='float'/>
+<mbr r='nk_tt__active_edge::fdx' o='96' t='float'/>
+<mbr r='nk_tt__active_edge::fdy' o='128' t='float'/>
+<mbr r='nk_tt__active_edge::direction' o='160' t='float'/>
+<mbr r='nk_tt__active_edge::sy' o='192' t='float'/>
+<mbr r='nk_tt__active_edge::ey' o='224' t='float'/>

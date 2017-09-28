@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/player.h' l='53' type='int'/>
+<use f='codebrowser/src/briefing_screens.c' l='534' u='r' c='GetHealthBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='534' u='r' c='GetHealthBonus'/>
+<use f='codebrowser/src/briefing_screens.c' l='538' u='r' c='GetResurrectionFee'/>
+<offset>1280</offset>
+<use f='codebrowser/src/game.c' l='312' u='w' c='RunGameOnExit'/>

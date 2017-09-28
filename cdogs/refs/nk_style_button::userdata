@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2968' type='nk_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13646' u='r' c='nk_do_button_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13648' u='r' c='nk_do_button_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13693' u='r' c='nk_do_button_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13695' u='r' c='nk_do_button_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13729' u='r' c='nk_do_button_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13731' u='r' c='nk_do_button_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13795' u='r' c='nk_do_button_text_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13798' u='r' c='nk_do_button_text_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13859' u='r' c='nk_do_button_text_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13861' u='r' c='nk_do_button_text_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16000' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16020' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16040' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16144' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16208' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16276' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16349' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16382' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16403' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16440' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16460' u='w' c='nk_style_from_table'/>
+<offset>1216</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2967'>/* optional user callbacks */</doc>

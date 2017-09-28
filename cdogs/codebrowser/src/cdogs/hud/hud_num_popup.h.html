@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>hud_num_popup.h source code [codebrowser/src/cdogs/hud/hud_num_popup.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/hud/hud_num_popup.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>hud</a>/<a href='hud_num_popup.h.html'>hud_num_popup.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (c) 2013-2017 Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i></i></td></tr>
+<tr><th id="11">11</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i>*/</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="../c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../mission.h.html">"mission.h"</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../player.h.html">"player.h"</a></u></td></tr>
+<tr><th id="34">34</th><td></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><i>// Numeric popup for health and score</i></td></tr>
+<tr><th id="37">37</th><td><i>// Displays as a small pop-up coloured text overlay</i></td></tr>
+<tr><th id="38">38</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="39">39</th><td>{</td></tr>
+<tr><th id="40">40</th><td>	<b>union</b></td></tr>
+<tr><th id="41">41</th><td>	{</td></tr>
+<tr><th id="42">42</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::PlayerUID" title='(anonymous struct)::(anonymous union)::PlayerUID' data-ref="(anonymousstruct)::(anonymous)::PlayerUID">PlayerUID</dfn>;</td></tr>
+<tr><th id="43">43</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ObjectiveIndex" title='(anonymous struct)::(anonymous union)::ObjectiveIndex' data-ref="(anonymousstruct)::(anonymous)::ObjectiveIndex">ObjectiveIndex</dfn>;</td></tr>
+<tr><th id="44">44</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="45">45</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Amount" title='(anonymous struct)::Amount' data-ref="(anonymous)::Amount">Amount</dfn>;</td></tr>
+<tr><th id="46">46</th><td>	<i>// Number of milliseconds that this update will last</i></td></tr>
+<tr><th id="47">47</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::TimerMax" title='(anonymous struct)::TimerMax' data-ref="(anonymous)::TimerMax">TimerMax</dfn>;</td></tr>
+<tr><th id="48">48</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Timer" title='(anonymous struct)::Timer' data-ref="(anonymous)::Timer">Timer</dfn>;</td></tr>
+<tr><th id="49">49</th><td>} <dfn class="typedef" id="HUDNumPopup" title='HUDNumPopup' data-type='struct HUDNumPopup' data-ref="HUDNumPopup">HUDNumPopup</dfn>;</td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="52">52</th><td>{</td></tr>
+<tr><th id="53">53</th><td>	<a class="typedef" href="#HUDNumPopup" title='HUDNumPopup' data-type='struct HUDNumPopup' data-ref="HUDNumPopup">HUDNumPopup</a> <dfn class="decl" id="(anonymous)::score" title='(anonymous struct)::score' data-ref="(anonymous)::score">score</dfn>[<a class="macro" href="../player.h.html#66" title="4" data-ref="_M/MAX_LOCAL_PLAYERS">MAX_LOCAL_PLAYERS</a>];</td></tr>
+<tr><th id="54">54</th><td>	<a class="typedef" href="../c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::objective" title='(anonymous struct)::objective' data-ref="(anonymous)::objective">objective</dfn>; <i>// of HUDNumPopup, one per objective</i></td></tr>
+<tr><th id="55">55</th><td>} <dfn class="typedef" id="HUDNumPopups" title='HUDNumPopups' data-type='struct HUDNumPopups' data-ref="HUDNumPopups">HUDNumPopups</dfn>;</td></tr>
+<tr><th id="56">56</th><td></td></tr>
+<tr><th id="57">57</th><td><em>void</em> <dfn class="decl" id="HUDNumPopupsInit" title='HUDNumPopupsInit' data-ref="HUDNumPopupsInit">HUDNumPopupsInit</dfn>(</td></tr>
+<tr><th id="58">58</th><td>	<a class="typedef" href="#HUDNumPopups" title='HUDNumPopups' data-type='struct HUDNumPopups' data-ref="HUDNumPopups">HUDNumPopups</a> *<dfn class="local col4 decl" id="54popups" title='popups' data-type='HUDNumPopups *' data-ref="54popups">popups</dfn>, <em>const</em> <b>struct</b> <a class="type" href="../mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col5 decl" id="55mission" title='mission' data-type='const struct MissionOptions *' data-ref="55mission">mission</dfn>);</td></tr>
+<tr><th id="59">59</th><td><em>void</em> <dfn class="decl" id="HUDNumPopupsTerminate" title='HUDNumPopupsTerminate' data-ref="HUDNumPopupsTerminate">HUDNumPopupsTerminate</dfn>(<a class="typedef" href="#HUDNumPopups" title='HUDNumPopups' data-type='struct HUDNumPopups' data-ref="HUDNumPopups">HUDNumPopups</a> *<dfn class="local col6 decl" id="56popups" title='popups' data-type='HUDNumPopups *' data-ref="56popups">popups</dfn>);</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="62">62</th><td>{</td></tr>
+<tr><th id="63">63</th><td>	<dfn class="enum" id="NUMBER_POPUP_SCORE" title='NUMBER_POPUP_SCORE' data-ref="NUMBER_POPUP_SCORE">NUMBER_POPUP_SCORE</dfn>,</td></tr>
+<tr><th id="64">64</th><td>	<dfn class="enum" id="NUMBER_POPUP_OBJECTIVE" title='NUMBER_POPUP_OBJECTIVE' data-ref="NUMBER_POPUP_OBJECTIVE">NUMBER_POPUP_OBJECTIVE</dfn></td></tr>
+<tr><th id="65">65</th><td>} <dfn class="typedef" id="HUDNumPopupType" title='HUDNumPopupType' data-type='enum HUDNumPopupType' data-ref="HUDNumPopupType">HUDNumPopupType</dfn>;</td></tr>
+<tr><th id="66">66</th><td><i>// idx is either player UID or objective index</i></td></tr>
+<tr><th id="67">67</th><td><em>void</em> <dfn class="decl" id="HUDNumPopupsAdd" title='HUDNumPopupsAdd' data-ref="HUDNumPopupsAdd">HUDNumPopupsAdd</dfn>(</td></tr>
+<tr><th id="68">68</th><td>	<a class="typedef" href="#HUDNumPopups" title='HUDNumPopups' data-type='struct HUDNumPopups' data-ref="HUDNumPopups">HUDNumPopups</a> *<dfn class="local col7 decl" id="57popups" title='popups' data-type='HUDNumPopups *' data-ref="57popups">popups</dfn>, <em>const</em> <a class="typedef" href="#HUDNumPopupType" title='HUDNumPopupType' data-type='enum HUDNumPopupType' data-ref="HUDNumPopupType">HUDNumPopupType</a> <dfn class="local col8 decl" id="58type" title='type' data-type='const HUDNumPopupType' data-ref="58type">type</dfn>,</td></tr>
+<tr><th id="69">69</th><td>	<em>const</em> <em>int</em> <dfn class="local col9 decl" id="59idxOrUID" title='idxOrUID' data-type='const int' data-ref="59idxOrUID">idxOrUID</dfn>, <em>const</em> <em>int</em> <dfn class="local col0 decl" id="60amount" title='amount' data-type='const int' data-ref="60amount">amount</dfn>);</td></tr>
+<tr><th id="70">70</th><td></td></tr>
+<tr><th id="71">71</th><td><em>void</em> <dfn class="decl" id="HUDPopupsUpdate" title='HUDPopupsUpdate' data-ref="HUDPopupsUpdate">HUDPopupsUpdate</dfn>(<a class="typedef" href="#HUDNumPopups" title='HUDNumPopups' data-type='struct HUDNumPopups' data-ref="HUDNumPopups">HUDNumPopups</a> *<dfn class="local col1 decl" id="61popups" title='popups' data-type='HUDNumPopups *' data-ref="61popups">popups</dfn>, <em>const</em> <em>int</em> <dfn class="local col2 decl" id="62ms" title='ms' data-type='const int' data-ref="62ms">ms</dfn>);</td></tr>
+<tr><th id="72">72</th><td></td></tr>
+<tr><th id="73">73</th><td><em>void</em> <dfn class="decl" id="HUDNumPopupsDrawPlayer" title='HUDNumPopupsDrawPlayer' data-ref="HUDNumPopupsDrawPlayer">HUDNumPopupsDrawPlayer</dfn>(</td></tr>
+<tr><th id="74">74</th><td>	<em>const</em> <a class="typedef" href="#HUDNumPopups" title='HUDNumPopups' data-type='struct HUDNumPopups' data-ref="HUDNumPopups">HUDNumPopups</a> *<dfn class="local col3 decl" id="63popups" title='popups' data-type='const HUDNumPopups *' data-ref="63popups">popups</dfn>, <em>const</em> <em>int</em> <dfn class="local col4 decl" id="64idx" title='idx' data-type='const int' data-ref="64idx">idx</dfn>, <em>const</em> <em>int</em> <dfn class="local col5 decl" id="65drawFlags" title='drawFlags' data-type='const int' data-ref="65drawFlags">drawFlags</dfn>);</td></tr>
+<tr><th id="75">75</th><td><em>void</em> <dfn class="decl" id="HUDNumPopupsDrawObjective" title='HUDNumPopupsDrawObjective' data-ref="HUDNumPopupsDrawObjective">HUDNumPopupsDrawObjective</dfn>(</td></tr>
+<tr><th id="76">76</th><td>	<em>const</em> <a class="typedef" href="#HUDNumPopups" title='HUDNumPopups' data-type='struct HUDNumPopups' data-ref="HUDNumPopups">HUDNumPopups</a> *<dfn class="local col6 decl" id="66popups" title='popups' data-type='const HUDNumPopups *' data-ref="66popups">popups</dfn>, <em>const</em> <em>int</em> <dfn class="local col7 decl" id="67idx" title='idx' data-type='const int' data-ref="67idx">idx</dfn>, <em>const</em> <a class="typedef" href="../vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col8 decl" id="68pos" title='pos' data-type='const Vec2i' data-ref="68pos">pos</dfn>);</td></tr>
+<tr><th id="77">77</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../cdogs.c.html'>codebrowser/src/cdogs.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

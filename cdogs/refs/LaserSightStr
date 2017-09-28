@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config.h' l='92' type='const char * LaserSightStr(int l)'/>
+<def f='codebrowser/src/cdogs/config.c' l='137' ll='147' type='const char * LaserSightStr(int l)'/>
+<use f='codebrowser/src/cdogs/config.c' l='598' u='r' c='ConfigDefault'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3651' type='nk_hash [58]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17832' u='w' c='nk_add_value'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17845' u='r' c='nk_find_value'/>
+<offset>32</offset>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='77' type='int AIRetreatFrom(TActor * actor, const Vec2i from)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='164' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='326' u='c' c='AICoopGetCmdNormal'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='625' ll='628' type='int AIRetreatFrom(TActor * actor, const Vec2i from)'/>
+<doc f='codebrowser/src/cdogs/ai_utils.c' l='623'>// Move away from the target
+// Usually used for a simple flee</doc>

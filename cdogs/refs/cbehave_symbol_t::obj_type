@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='235' type='int'/>
+<offset>1152</offset>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='354' u='w' c='cbehave_mock_obj_return'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='367' u='r' c='lookup_symbol'/>

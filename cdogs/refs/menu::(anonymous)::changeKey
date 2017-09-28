@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/menu.h' l='210' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/menu.h:206:3)'/>
+<offset>0</offset>
+<doc f='codebrowser/src/menu.h' l='205'>// change key</doc>
+<use f='codebrowser/src/mainmenu.c' l='638' u='m' c='MenuCreateOptionChangeKey'/>
+<use f='codebrowser/src/mainmenu.c' l='639' u='m' c='MenuCreateOptionChangeKey'/>
+<use f='codebrowser/src/menu.c' l='836' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='840' u='m' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='1126' u='m' c='MenuProcessChangeKey'/>
+<use f='codebrowser/src/menu.c' l='1127' u='m' c='MenuProcessChangeKey'/>

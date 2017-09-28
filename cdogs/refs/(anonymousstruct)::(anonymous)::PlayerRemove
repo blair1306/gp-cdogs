@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='134' type='NPlayerRemove'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='79' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='395' u='m' c='OnDisconnect'/>

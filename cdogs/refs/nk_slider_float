@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1526' type='int nk_slider_float(struct nk_context * , float min, float * val, float max, float step)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20446' ll='20479' macro='1' type='int nk_slider_float(struct nk_context * ctx, float min_value, float * value, float max_value, float value_step)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20484' u='c' c='nk_slide_float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20491' u='c' c='nk_slide_int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20500' u='c' c='nk_slider_int'/>

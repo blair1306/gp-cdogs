@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='76' type='_Bool pb_get_encoded_size(size_t * size, const pb_field_t * fields, const void * src_struct)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='383' ll='392' macro='1' type='_Bool pb_get_encoded_size(size_t * size, const pb_field_t * fields, const void * src_struct)'/>

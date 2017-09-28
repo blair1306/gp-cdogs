@@ -1,0 +1,23 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='74' type='color_t *'/>
+<dec f='codebrowser/src/cdogs/font.h' l='62' type='color_t'/>
+<use f='codebrowser/src/briefing_screens.c' l='612' u='w' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='623' u='w' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='628' u='w' c='MissionSummaryMenuDraw'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='169' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='277' u='r' c='DrawActorPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='279' u='r' c='DrawActorPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='490' u='r' c='DrawDyingBody'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='490' u='r' c='DrawDyingBody'/>
+<use f='codebrowser/src/cdogs/font.c' l='49' u='w' c='FontOptsNew'/>
+<use f='codebrowser/src/cdogs/font.c' l='288' u='r' c='FontStrOpt'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='126' u='w' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='237' u='w' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='246' u='w' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='744' u='w' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='765' u='w' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='770' u='w' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='777' u='w' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='278' u='w' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='485' u='w' c='DrawParticle'/>
+<use f='codebrowser/src/screens_end.c' l='393' u='w' c='VictoryDraw'/>

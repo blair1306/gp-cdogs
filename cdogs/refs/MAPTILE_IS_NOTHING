@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='77' type='16'/>
+<use f='codebrowser/src/cdogs/automap.c' l='216' u='r' c='DrawMap'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='176' u='r' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/tile.c' l='61' u='r' c='TileNone'/>

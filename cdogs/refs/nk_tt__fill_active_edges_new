@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='9794' ll='9953' macro='1' type='void nk_tt__fill_active_edges_new(float * scanline, float * scanline_fill, int len, struct nk_tt__active_edge * e, float y_top)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10017' u='c' c='nk_tt__rasterize_sorted_edges'/>

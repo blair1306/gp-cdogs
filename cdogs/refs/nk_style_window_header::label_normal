@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3285' type='struct nk_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16420' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17281' u='r' c='nk_panel_begin'/>
+<offset>3680</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3284'>/* title */</doc>

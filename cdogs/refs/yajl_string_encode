@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_encode.h' l='23' type='void yajl_string_encode(const yajl_print_t printer, void * ctx, const unsigned char * str, size_t length, int escape_solidus)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_encode.c' l='31' ll='76' type='void yajl_string_encode(const yajl_print_t print, void * ctx, const unsigned char * str, size_t len, int escape_solidus)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='272' u='c' c='yajl_gen_string'/>

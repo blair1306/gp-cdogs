@@ -1,0 +1,5 @@
+<def f='codebrowser/src/tests/utils_test.c' l='17' macro='1' type='void _cbehave_feature_path_funcs(void * _state)'/>
+<use f='codebrowser/src/tests/utils_test.c' l='50' macro='1' u='r'/>
+<use f='codebrowser/src/tests/utils_test.c' l='50' macro='1' u='r'/>
+<use f='codebrowser/src/tests/utils_test.c' l='50' macro='1' u='r'/>
+<use f='codebrowser/src/tests/utils_test.c' l='50' macro='1' u='r'/>

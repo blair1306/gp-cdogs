@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='242' type='void UpdateMissionObjective(const struct MissionOptions * options, const int flags, const ObjectiveType type, const int count)'/>
+<doc f='codebrowser/src/cdogs/mission.h' l='241'>// If object is a mission objective, send an update event</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='516' u='c' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='548' u='c' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='554' u='c' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1241' u='c' c='ActorAdd'/>
+<def f='codebrowser/src/cdogs/mission.c' l='332' ll='353' type='void UpdateMissionObjective(const struct MissionOptions * options, const int flags, const ObjectiveType type, const int count)'/>
+<use f='codebrowser/src/cdogs/objs.c' l='157' u='c' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='132' u='c' c='PickupPickup'/>

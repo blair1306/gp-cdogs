@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='81' type='int'/>
+<offset>64</offset>
+<dec f='codebrowser/src/cdogs/keyboard.h' l='46' type='SDL_Scancode'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/automap.c' l='388' u='r' c='AutomapDrawRegion'/>
+<use f='codebrowser/src/cdogs/blit.c' l='104' u='r' c='BlitPicHighlight'/>
+<use f='codebrowser/src/cdogs/blit.c' l='155' u='r' c='BlitBackground'/>
+<use f='codebrowser/src/cdogs/blit.c' l='205' u='r' c='Blit'/>
+<use f='codebrowser/src/cdogs/blit.c' l='268' u='r' c='BlitMasked'/>
+<use f='codebrowser/src/cdogs/blit.c' l='316' u='r' c='BlitCharMultichannel'/>
+<use f='codebrowser/src/cdogs/blit.c' l='377' u='r' c='BlitBlend'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='68' u='r' c='Draw_Point'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='174' u='r' c='DrawPointMask'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='195' u='r' c='DrawPointTint'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='222' u='r' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='222' u='r' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='237' u='r' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='237' u='r' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='281' u='r' c='DrawShadow'/>
+<use f='codebrowser/src/cdogs/events.c' l='219' u='r' c='GetKeyboardCmd'/>
+<use f='codebrowser/src/cdogs/events.c' l='423' u='r' c='InputGetButtonNameColor'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='450' u='w' c='GraphicsSetBlitClip'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='74' u='w' c='KeyLoadPlayerKeys'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='206' u='r' c='KeyGet'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1031' u='r' c='DrawBackground'/>
+<use f='codebrowser/src/menu.c' l='1106' u='r' c='KeyAvailable'/>

@@ -1,0 +1,15 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2136' ll='2153'/>
+<size>400</size>
+<mbr r='nk_font_atlas::pixel' o='0' t='void *'/>
+<mbr r='nk_font_atlas::tex_width' o='64' t='int'/>
+<mbr r='nk_font_atlas::tex_height' o='96' t='int'/>
+<mbr r='nk_font_atlas::permanent' o='128' t='struct nk_allocator'/>
+<mbr r='nk_font_atlas::temporary' o='320' t='struct nk_allocator'/>
+<mbr r='nk_font_atlas::custom' o='512' t='struct nk_recti'/>
+<mbr r='nk_font_atlas::cursors' o='576' t='struct nk_cursor [7]'/>
+<mbr r='nk_font_atlas::glyph_count' o='2816' t='int'/>
+<mbr r='nk_font_atlas::glyphs' o='2880' t='struct nk_font_glyph *'/>
+<mbr r='nk_font_atlas::default_font' o='2944' t='struct nk_font *'/>
+<mbr r='nk_font_atlas::fonts' o='3008' t='struct nk_font *'/>
+<mbr r='nk_font_atlas::config' o='3072' t='struct nk_font_config *'/>
+<mbr r='nk_font_atlas::font_num' o='3136' t='int'/>

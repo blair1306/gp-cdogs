@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_joystick.h' l='128' type='SDL_JoystickGUID SDL_JoystickGetGUID(SDL_Joystick * joystick)'/>
+<doc f='include/SDL2/SDL_joystick.h' l='125'>/**
+ *  Return the GUID for this opened joystick
+ */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='372' u='c' c='SDLJBN_GetButtonNameAndColor'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='417' u='c' c='SDLJBN_GetAxisNameAndColor'/>

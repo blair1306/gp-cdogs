@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='106' ll='110'/>
+<size>256</size>
+<mbr r='_NConfig::Name' o='0' t='char [128]'/>
+<mbr r='_NConfig::Value' o='1024' t='char [128]'/>

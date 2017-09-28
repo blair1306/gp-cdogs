@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='15431' type='2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15505' u='r' c='nk_property_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15507' u='r' c='nk_property_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15509' u='r' c='nk_property_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20823' u='r' c='nk_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20831' u='r' c='nk_property'/>

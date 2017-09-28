@@ -1,0 +1,28 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='211' type='int'/>
+<dec f='codebrowser/src/cdogs/ammo.h' l='40' type='int'/>
+<offset>192</offset>
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='45' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1185' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='189' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='618' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='772' u='r' c='OnClosestPickupGun'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='129' u='a' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='171' u='r' c='AmmoIsLow'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='87' u='w' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='136' u='w' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='136' u='r' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='141' u='w' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='141' u='r' c='MergePopups'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='191' u='r' c='DrawScoreUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='213' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='217' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='229' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='229' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='236' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='236' u='r' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='183' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='247' u='r' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='246' u='a' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='275' u='w' c='PickupClassesLoadAmmo'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='275' u='r' c='PickupClassesLoadAmmo'/>

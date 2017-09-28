@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2941' ll='2944'/>
+<size>12</size>
+<mbr r='nk_style_text::color' o='0' t='struct nk_color'/>
+<mbr r='nk_style_text::padding' o='32' t='struct nk_vec2'/>

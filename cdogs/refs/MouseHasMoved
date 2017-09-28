@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='59' type='_Bool MouseHasMoved(const Mouse * m)'/>
+<def f='codebrowser/src/cdogs/mouse.c' l='138' ll='141' macro='1' type='_Bool MouseHasMoved(const Mouse * m)'/>

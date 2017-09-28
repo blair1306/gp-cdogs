@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='98' type='CArray'/>
+<dec f='codebrowser/src/cdogs/triggers.h' l='121' type='CArray'/>
+<offset>320</offset>
+<doc f='codebrowser/src/cdogs/triggers.h' l='98'>// of Action</doc>
+<doc f='codebrowser/src/cdogs/triggers.h' l='121'>// of Action</doc>
+<use f='codebrowser/src/cdogs/triggers.c' l='71' u='a' c='TriggerNew'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='76' u='a' c='TriggerTerminate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='83' u='a' c='TriggerAddAction'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='84' u='a' c='TriggerAddAction'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='84' u='m' c='TriggerAddAction'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='92' u='a' c='WatchNew'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='114' u='a' c='WatchAddAction'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='115' u='a' c='WatchAddAction'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='115' u='m' c='WatchAddAction'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='157' u='a' c='WatchesTerminate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='272' u='m' c='TriggerActivate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='272' u='a' c='TriggerActivate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='283' u='m' c='UpdateWatches'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='285' u='a' c='UpdateWatches'/>

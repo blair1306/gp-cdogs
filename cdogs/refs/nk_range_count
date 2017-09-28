@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10726' ll='10734' macro='1' type='int nk_range_count(const nk_rune * range)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10818' u='c' c='nk_font_baker_memory'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10869' u='c' c='nk_font_bake_pack'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11200' u='c' c='nk_font_find_glyph'/>

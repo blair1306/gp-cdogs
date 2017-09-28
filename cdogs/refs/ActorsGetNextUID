@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='190' type='int ActorsGetNextUID()'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='174' u='c' c='PlacePlayer'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1139' ll='1142' type='int ActorsGetNextUID()'/>
+<use f='codebrowser/src/cdogs/ai.c' l='536' u='c' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='560' u='c' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='582' u='c' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='625' u='c' c='CreateEnemies'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='124' u='c' c='AddCharacter'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='165' u='c' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='191' u='c' c='AddObjective'/>

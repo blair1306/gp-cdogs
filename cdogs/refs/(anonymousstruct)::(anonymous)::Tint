@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='76' type='HSV'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/cpic.c' l='153' u='m' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='155' u='m' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='157' u='m' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='289' u='a' c='CPicDraw'/>

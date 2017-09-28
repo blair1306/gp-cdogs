@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='169' type='void yajl_free(yajl_handle handle)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl.c' l='105' ll='115' type='void yajl_free(yajl_handle handle)'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='447' u='c' c='yajl_tree_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='451' u='c' c='yajl_tree_parse'/>

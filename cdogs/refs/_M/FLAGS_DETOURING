@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='65'/>
+<doc f='codebrowser/src/cdogs/actors.h' l='64'>// Computer characters only</doc>
+<use f='codebrowser/src/cdogs/ai.c' l='194' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='206' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='215' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='227' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='235' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='266' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='409' u='c'/>
+<use f='codebrowser/src/cdogs/ai.c' l='481' u='c'/>

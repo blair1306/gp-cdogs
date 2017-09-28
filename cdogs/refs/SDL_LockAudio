@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_audio.h' l='585' type='void SDL_LockAudio()'/>
+<doc f='include/SDL2/SDL_audio.h' l='584'>/* @{ */</doc>

@@ -1,0 +1,32 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='64' type='_Bool'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='120' u='w' c='CheckMission'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='125' u='w' c='CheckMission'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='127' macro='1' u='w'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='127' macro='1' u='w'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='141' u='w' c='MissionCheckVisible'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1015' u='w' c='ToggleCollapse'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1016' u='w' c='ToggleCollapse'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='36' macro='1' u='w'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='36' macro='1' u='w'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='71' u='w' c='MissionCheckObjectiveDescription'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='80' u='w' c='MissionCheckObjectiveDescription'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='83' u='w' c='MissionCheckObjectiveDescription'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='86' u='w' c='MissionCheckObjectiveDescription'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='566' u='w' c='MissionCheckObjectiveIsKill'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='575' u='w' c='MissionCheckObjectiveIsCollect'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='584' u='w' c='MissionCheckObjectiveIsDestroy'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='593' u='w' c='MissionCheckObjectiveIsRescue'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='43' macro='1' u='w'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='43' macro='1' u='w'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='53' u='w' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='63' u='w' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='92' u='w' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='92' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='180' u='w' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='210' u='w' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='215' u='w' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='269' u='w' c='DisableContextMenuParents'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='384' u='r' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='545' u='r' c='UITryGetObjectImpl'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='553' u='r' c='UITryGetObjectImpl'/>

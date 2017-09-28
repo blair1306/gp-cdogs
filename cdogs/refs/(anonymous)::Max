@@ -1,0 +1,41 @@
+<dec f='codebrowser/src/cdogs/ammo.h' l='41' type='int'/>
+<dec f='codebrowser/src/cdogs/mission.h' l='117' type='int'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='565' u='r' c='ActorAddAmmo'/>
+<use f='codebrowser/src/cdogs/ammo.c' l='130' u='a' c='LoadAmmo'/>
+<use f='codebrowser/src/cdogs/files.c' l='425' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='209' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='209' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='227' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='443' u='r' c='SaveRooms'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='283' u='r' c='MapGetRoomSize'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='283' u='r' c='MapGetRoomSize'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='486' u='a' c='LoadRooms'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='47' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='90' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='172' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='216' u='r' c='AmmoScale'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='311' u='w' c='RandomRoomParams'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='251' u='r' c='MissionGetRoomMaxStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='711' u='w' c='MissionChangeRoomMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='713' u='r' c='MissionChangeRoomMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='713' u='r' c='MissionChangeRoomMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='718' u='w' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='719' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='719' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='719' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='719' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='722' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='722' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='287' u='r' c='MissionGetRoomMaxStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='301' u='w' c='MissionChangeRoomMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='303' u='r' c='MissionChangeRoomMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='303' u='r' c='MissionChangeRoomMin'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='308' u='w' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='309' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='309' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='309' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='309' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='312' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='312' u='r' c='MissionChangeRoomMax'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='80' u='w' c='InsertMission'/>

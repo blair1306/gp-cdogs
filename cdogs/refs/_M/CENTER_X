@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='73'/>
+<doc f='codebrowser/src/cdogs/vector.h' l='72'>// Helper macros for positioning</doc>
+<use f='codebrowser/src/screens_end.c' l='271' u='c'/>
+<use f='codebrowser/src/screens_end.c' l='276' u='c'/>

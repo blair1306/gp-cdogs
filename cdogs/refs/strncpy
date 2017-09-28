@@ -1,0 +1,24 @@
+<dec f='include/string.h' l='128' type='char * strncpy(char *restrict __dest, const char *restrict __src, size_t __n)'/>
+<doc f='include/string.h' l='127'>/* Copy no more than N characters of SRC to DEST.  */</doc>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='131' u='c' c='ReadMappingsString'/>
+<use f='codebrowser/src/cdogs/files.c' l='609' u='c' c='mkdir_deep'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='612' u='c' c='LoadMapObjectRef'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='64' u='c' c='PicManagerAdd'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='326' u='c' c='MaybeAddStyleName'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='133' u='c' c='SoundLoad'/>
+<use f='codebrowser/src/cdogs/utils.c' l='94' u='c' c='PathGetDirname'/>
+<use f='codebrowser/src/cdogs/utils.c' l='119' u='c' c='PathGetWithoutExtension'/>
+<use f='codebrowser/src/json/json.c' l='133' u='c' c='rcs_catcs'/>
+<use f='codebrowser/src/json/json.c' l='285' u='c' c='json_new_string'/>
+<use f='codebrowser/src/json/json.c' l='317' u='c' c='json_new_number'/>
+<use f='codebrowser/src/namegen.c' l='53' u='c' c='LoadFile'/>
+<use f='codebrowser/src/player_select_menus.c' l='317' u='c' c='PostInputLoadTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='376' u='c' c='PostInputSaveTemplate'/>
+<use f='codebrowser/src/player_select_menus.c' l='528' u='c' c='ShuffleAppearance'/>

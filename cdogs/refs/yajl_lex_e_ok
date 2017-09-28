@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='88' type='0'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='694' c='yajl_lex_error_to_string'/>

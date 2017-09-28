@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='136' type='char [256]'/>
+<offset>8416</offset>
+<use f='codebrowser/src/cdogs/files.c' l='378' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='920' u='r' c='DrawKeycards'/>
+<use f='codebrowser/src/cdogs/map.c' l='505' u='r' c='MapPlaceKey'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='347' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='244' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='249' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='110' u='r' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='145' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='145' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='222' u='r' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='466' u='r' c='MissionDrawKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='470' u='r' c='MissionDrawKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='886' u='r' c='MissionChangeKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='886' u='r' c='MissionChangeKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='886' u='r' c='MissionChangeKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='889' u='r' c='MissionChangeKeyStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='65' u='r' c='DrawKey'/>

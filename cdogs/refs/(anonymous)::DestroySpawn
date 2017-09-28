@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='105' type='CArray'/>
+<offset>1344</offset>
+<doc f='codebrowser/src/cdogs/map_object.h' l='105'>// of MapObjectDestroySpawn</doc>
+<use f='codebrowser/src/cdogs/map_object.c' l='392' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='401' u='a' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='514' u='a' c='MapObjectsClear'/>
+<use f='codebrowser/src/cdogs/objs.c' l='180' u='m' c='ObjRemove'/>
+<use f='codebrowser/src/cdogs/objs.c' l='180' u='a' c='ObjRemove'/>

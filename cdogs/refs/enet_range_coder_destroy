@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='596' type='void enet_range_coder_destroy(void * )'/>
+<def f='codebrowser/src/cdogs/enet/compress.c' l='58' ll='66' type='void enet_range_coder_destroy(void * context)'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='647' u='r' c='enet_host_compress_with_range_coder'/>

@@ -1,0 +1,766 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>rlutil.h source code [codebrowser/src/cdogs/rlutil/rlutil.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/rlutil/rlutil.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>rlutil</a>/<a href='rlutil.h.html'>rlutil.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><u>#pragma once</u></td></tr>
+<tr><th id="2">2</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="3">3</th><td><i class="doc"> * File: rlutil.h</i></td></tr>
+<tr><th id="4">4</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="5">5</th><td><i class="doc"> * About: Description</i></td></tr>
+<tr><th id="6">6</th><td><i class="doc"> * This file provides some useful utilities for console mode</i></td></tr>
+<tr><th id="7">7</th><td><i class="doc"> * roguelike game development with C and C++. It is aimed to</i></td></tr>
+<tr><th id="8">8</th><td><i class="doc"> * be cross-platform (at least Windows and Linux).</i></td></tr>
+<tr><th id="9">9</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="10">10</th><td><i class="doc"> * About: Copyright</i></td></tr>
+<tr><th id="11">11</th><td><i class="doc"> * (C) 2010 Tapio Vierros</i></td></tr>
+<tr><th id="12">12</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="13">13</th><td><i class="doc"> * About: Licensing</i></td></tr>
+<tr><th id="14">14</th><td><i class="doc"> * See &lt;License&gt;</i></td></tr>
+<tr><th id="15">15</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="16">16</th><td><i class="doc"></i></td></tr>
+<tr><th id="17">17</th><td><i class="doc"></i></td></tr>
+<tr><th id="18">18</th><td><i class="doc">/// Define: RLUTIL_USE_ANSI</i></td></tr>
+<tr><th id="19">19</th><td><i class="doc">/// Define this to use ANSI escape sequences also on Windows</i></td></tr>
+<tr><th id="20">20</th><td><i class="doc">/// (defaults to using WinAPI instead).</i></td></tr>
+<tr><th id="21">21</th><td><u>#<span data-ppcond="21">if</span> 0</u></td></tr>
+<tr><th id="22">22</th><td><u>#define RLUTIL_USE_ANSI</u></td></tr>
+<tr><th id="23">23</th><td><u>#<span data-ppcond="21">endif</span></u></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td><i class="doc">/// Define: RLUTIL_STRING_T</i></td></tr>
+<tr><th id="26">26</th><td><i class="doc">/// Define/typedef this to your preference to override rlutil's string type.</i></td></tr>
+<tr><th id="27">27</th><td><i class="doc">///</i></td></tr>
+<tr><th id="28">28</th><td><i class="doc">/// Defaults to std::string with C++ and char* with C.</i></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="29">if</span> 0</u></td></tr>
+<tr><th id="30">30</th><td><u>#define RLUTIL_STRING_T char*</u></td></tr>
+<tr><th id="31">31</th><td><u>#<span data-ppcond="29">endif</span></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#<span data-ppcond="33">ifndef</span> <span class="macro" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</span></u></td></tr>
+<tr><th id="34">34</th><td>	<u>#<span data-ppcond="34">ifdef</span> <span class="macro" data-ref="_M/_MSC_VER">_MSC_VER</span></u></td></tr>
+<tr><th id="35">35</th><td>		<u>#define RLUTIL_INLINE __inline</u></td></tr>
+<tr><th id="36">36</th><td>	<u>#<span data-ppcond="34">else</span></u></td></tr>
+<tr><th id="37">37</th><td>		<u>#define <dfn class="macro" id="_M/RLUTIL_INLINE" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</dfn> static __inline__</u></td></tr>
+<tr><th id="38">38</th><td>	<u>#<span data-ppcond="34">endif</span></u></td></tr>
+<tr><th id="39">39</th><td><u>#<span data-ppcond="33">endif</span></u></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><u>#<span data-ppcond="41">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="42">42</th><td>	<i class="doc">/// Common C++ headers</i></td></tr>
+<tr><th id="43">43</th><td>	<u>#include &lt;iostream&gt;</u></td></tr>
+<tr><th id="44">44</th><td>	<u>#include &lt;string&gt;</u></td></tr>
+<tr><th id="45">45</th><td>	<u>#include &lt;cstdio&gt; // for getch()</u></td></tr>
+<tr><th id="46">46</th><td>	<i class="doc">/// Namespace forward declarations</i></td></tr>
+<tr><th id="47">47</th><td>	namespace rlutil {</td></tr>
+<tr><th id="48">48</th><td>		RLUTIL_INLINE <em>void</em> locate(<em>int</em> x, <em>int</em> y);</td></tr>
+<tr><th id="49">49</th><td>	}</td></tr>
+<tr><th id="50">50</th><td><u>#<span data-ppcond="41">else</span></u></td></tr>
+<tr><th id="51">51</th><td>	<u>#include <a href="../../../../include/stdio.h.html">&lt;stdio.h&gt;</a> // for getch() / printf()</u></td></tr>
+<tr><th id="52">52</th><td>	<u>#include <a href="../../../../include/string.h.html">&lt;string.h&gt;</a> // for strlen()</u></td></tr>
+<tr><th id="53">53</th><td>	<a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <a class="decl" href="#locate" title='locate' data-ref="locate">locate</a>(<em>int</em> <dfn class="local col1 decl" id="1x" title='x' data-type='int' data-ref="1x">x</dfn>, <em>int</em> <dfn class="local col2 decl" id="2y" title='y' data-type='int' data-ref="2y">y</dfn>); <i>// Forward declare for C to avoid warnings</i></td></tr>
+<tr><th id="54">54</th><td><u>#<span data-ppcond="41">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><u>#<span data-ppcond="56">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="57">57</th><td>	<u>#include &lt;windows.h&gt;  // for WinAPI and Sleep()</u></td></tr>
+<tr><th id="58">58</th><td>	<u>#define _NO_OLDNAMES  // for MinGW compatibility</u></td></tr>
+<tr><th id="59">59</th><td>	<u>#include &lt;conio.h&gt;    // for getch() and kbhit()</u></td></tr>
+<tr><th id="60">60</th><td>	<u>#define getch _getch</u></td></tr>
+<tr><th id="61">61</th><td>	<u>#define kbhit _kbhit</u></td></tr>
+<tr><th id="62">62</th><td><u>#<span data-ppcond="56">else</span></u></td></tr>
+<tr><th id="63">63</th><td>	<u>#include <a href="../../../../include/termios.h.html">&lt;termios.h&gt;</a> // for getch() and kbhit()</u></td></tr>
+<tr><th id="64">64</th><td>	<u>#include <a href="../../../../include/unistd.h.html">&lt;unistd.h&gt;</a> // for getch(), kbhit() and (u)sleep()</u></td></tr>
+<tr><th id="65">65</th><td>	<u>#include <a href="../../../../include/x86_64-linux-gnu/sys/ioctl.h.html">&lt;sys/ioctl.h&gt;</a> // for getkey()</u></td></tr>
+<tr><th id="66">66</th><td>	<u>#include <a href="../../../../include/x86_64-linux-gnu/sys/types.h.html">&lt;sys/types.h&gt;</a> // for kbhit()</u></td></tr>
+<tr><th id="67">67</th><td>	<u>#include <a href="../../../../include/x86_64-linux-gnu/sys/time.h.html">&lt;sys/time.h&gt;</a> // for kbhit()</u></td></tr>
+<tr><th id="68">68</th><td></td></tr>
+<tr><th id="69">69</th><td><i class="doc">/// Function: getch</i></td></tr>
+<tr><th id="70">70</th><td><i class="doc">/// Get character without waiting for Return to be pressed.</i></td></tr>
+<tr><th id="71">71</th><td><i class="doc">/// Windows has this in conio.h</i></td></tr>
+<tr><th id="72">72</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>int</em> <dfn class="decl def" id="getch" title='getch' data-ref="getch">getch</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="73">73</th><td>	<i>// Here be magic.</i></td></tr>
+<tr><th id="74">74</th><td>	<b>struct</b> <a class="type" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios" title='termios' data-ref="termios">termios</a> <dfn class="local col5 decl" id="25oldt" title='oldt' data-type='struct termios' data-ref="25oldt">oldt</dfn>, <dfn class="local col6 decl" id="26newt" title='newt' data-type='struct termios' data-ref="26newt">newt</dfn>;</td></tr>
+<tr><th id="75">75</th><td>	<em>int</em> <dfn class="local col7 decl" id="27ch" title='ch' data-type='int' data-ref="27ch">ch</dfn>;</td></tr>
+<tr><th id="76">76</th><td>	<a class="ref" href="../../../../include/termios.h.html#tcgetattr" title='tcgetattr' data-ref="tcgetattr">tcgetattr</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, &amp;<a class="local col5 ref" href="#25oldt" title='oldt' data-ref="25oldt">oldt</a>);</td></tr>
+<tr><th id="77">77</th><td>	<a class="local col6 ref" href="#26newt" title='newt' data-ref="26newt">newt</a> = <a class="local col5 ref" href="#25oldt" title='oldt' data-ref="25oldt">oldt</a>;</td></tr>
+<tr><th id="78">78</th><td>	<a class="local col6 ref" href="#26newt" title='newt' data-ref="26newt">newt</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios::c_lflag" title='termios::c_lflag' data-ref="termios::c_lflag">c_lflag</a> &amp;= ~(<a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#179" title="0000002" data-ref="_M/ICANON">ICANON</a> | <a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#183" title="0000010" data-ref="_M/ECHO">ECHO</a>);</td></tr>
+<tr><th id="79">79</th><td>	<a class="ref" href="../../../../include/termios.h.html#tcsetattr" title='tcsetattr' data-ref="tcsetattr">tcsetattr</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, <a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#213" title="0" data-ref="_M/TCSANOW">TCSANOW</a>, &amp;<a class="local col6 ref" href="#26newt" title='newt' data-ref="26newt">newt</a>);</td></tr>
+<tr><th id="80">80</th><td>	<a class="local col7 ref" href="#27ch" title='ch' data-ref="27ch">ch</a> = <a class="ref" href="../../../../include/stdio.h.html#getchar" title='getchar' data-ref="getchar">getchar</a>();</td></tr>
+<tr><th id="81">81</th><td>	<a class="ref" href="../../../../include/termios.h.html#tcsetattr" title='tcsetattr' data-ref="tcsetattr">tcsetattr</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, <a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#213" title="0" data-ref="_M/TCSANOW">TCSANOW</a>, &amp;<a class="local col5 ref" href="#25oldt" title='oldt' data-ref="25oldt">oldt</a>);</td></tr>
+<tr><th id="82">82</th><td>	<b>return</b> <a class="local col7 ref" href="#27ch" title='ch' data-ref="27ch">ch</a>;</td></tr>
+<tr><th id="83">83</th><td>}</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td><i class="doc">/// Function: kbhit</i></td></tr>
+<tr><th id="86">86</th><td><i class="doc">/// Determines if keyboard has been hit.</i></td></tr>
+<tr><th id="87">87</th><td><i class="doc">/// Windows has this in conio.h</i></td></tr>
+<tr><th id="88">88</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>int</em> <dfn class="decl def" id="kbhit" title='kbhit' data-ref="kbhit">kbhit</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="89">89</th><td>	<i>// Here be dragons.</i></td></tr>
+<tr><th id="90">90</th><td>	<em>static</em> <b>struct</b> <a class="type" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios" title='termios' data-ref="termios">termios</a> <dfn class="local col8 decl" id="28oldt" title='oldt' data-type='struct termios' data-ref="28oldt">oldt</dfn>, <dfn class="local col9 decl" id="29newt" title='newt' data-type='struct termios' data-ref="29newt">newt</dfn>;</td></tr>
+<tr><th id="91">91</th><td>	<em>int</em> <dfn class="local col0 decl" id="30cnt" title='cnt' data-type='int' data-ref="30cnt">cnt</dfn> = <var>0</var>;</td></tr>
+<tr><th id="92">92</th><td>	<a class="ref" href="../../../../include/termios.h.html#tcgetattr" title='tcgetattr' data-ref="tcgetattr">tcgetattr</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, &amp;<a class="local col8 ref" href="#28oldt" title='oldt' data-ref="28oldt">oldt</a>);</td></tr>
+<tr><th id="93">93</th><td>	<a class="local col9 ref" href="#29newt" title='newt' data-ref="29newt">newt</a> = <a class="local col8 ref" href="#28oldt" title='oldt' data-ref="28oldt">oldt</a>;</td></tr>
+<tr><th id="94">94</th><td>	<a class="local col9 ref" href="#29newt" title='newt' data-ref="29newt">newt</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios::c_lflag" title='termios::c_lflag' data-ref="termios::c_lflag">c_lflag</a>    &amp;= ~(<a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#179" title="0000002" data-ref="_M/ICANON">ICANON</a> | <a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#183" title="0000010" data-ref="_M/ECHO">ECHO</a>);</td></tr>
+<tr><th id="95">95</th><td>	<a class="local col9 ref" href="#29newt" title='newt' data-ref="29newt">newt</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios::c_iflag" title='termios::c_iflag' data-ref="termios::c_iflag">c_iflag</a>     = <var>0</var>; <i>// input mode</i></td></tr>
+<tr><th id="96">96</th><td>	<a class="local col9 ref" href="#29newt" title='newt' data-ref="29newt">newt</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios::c_oflag" title='termios::c_oflag' data-ref="termios::c_oflag">c_oflag</a>     = <var>0</var>; <i>// output mode</i></td></tr>
+<tr><th id="97">97</th><td>	<a class="local col9 ref" href="#29newt" title='newt' data-ref="29newt">newt</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios::c_cc" title='termios::c_cc' data-ref="termios::c_cc">c_cc</a>[<a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#49" title="6" data-ref="_M/VMIN">VMIN</a>]  = <var>1</var>; <i>// minimum time to wait</i></td></tr>
+<tr><th id="98">98</th><td>	<a class="local col9 ref" href="#29newt" title='newt' data-ref="29newt">newt</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#termios::c_cc" title='termios::c_cc' data-ref="termios::c_cc">c_cc</a>[<a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#48" title="5" data-ref="_M/VTIME">VTIME</a>] = <var>1</var>; <i>// minimum characters to wait for</i></td></tr>
+<tr><th id="99">99</th><td>	<a class="ref" href="../../../../include/termios.h.html#tcsetattr" title='tcsetattr' data-ref="tcsetattr">tcsetattr</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, <a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#213" title="0" data-ref="_M/TCSANOW">TCSANOW</a>, &amp;<a class="local col9 ref" href="#29newt" title='newt' data-ref="29newt">newt</a>);</td></tr>
+<tr><th id="100">100</th><td>	<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/ioctl.h.html#ioctl" title='ioctl' data-ref="ioctl">ioctl</a>(<var>0</var>, <a class="macro" href="../../../../include/asm-generic/ioctls.h.html#45" title="0x541B" data-ref="_M/FIONREAD">FIONREAD</a>, &amp;<a class="local col0 ref" href="#30cnt" title='cnt' data-ref="30cnt">cnt</a>); <i>// Read count</i></td></tr>
+<tr><th id="101">101</th><td>	<b>struct</b> <a class="type" href="../../../../include/x86_64-linux-gnu/bits/time.h.html#timeval" title='timeval' data-ref="timeval">timeval</a> <dfn class="local col1 decl" id="31tv" title='tv' data-type='struct timeval' data-ref="31tv">tv</dfn>;</td></tr>
+<tr><th id="102">102</th><td>	<a class="local col1 ref" href="#31tv" title='tv' data-ref="31tv">tv</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_sec" title='timeval::tv_sec' data-ref="timeval::tv_sec">tv_sec</a>  = <var>0</var>;</td></tr>
+<tr><th id="103">103</th><td>	<a class="local col1 ref" href="#31tv" title='tv' data-ref="31tv">tv</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/time.h.html#timeval::tv_usec" title='timeval::tv_usec' data-ref="timeval::tv_usec">tv_usec</a> = <var>100</var>;</td></tr>
+<tr><th id="104">104</th><td>	<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/select.h.html#select" title='select' data-ref="select">select</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>+<var>1</var>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, <span class="macro" title="((void*)0)" data-ref="_M/NULL">NULL</span>, &amp;<a class="local col1 ref" href="#31tv" title='tv' data-ref="31tv">tv</a>); <i>// A small time delay</i></td></tr>
+<tr><th id="105">105</th><td>	<a class="ref" href="../../../../include/termios.h.html#tcsetattr" title='tcsetattr' data-ref="tcsetattr">tcsetattr</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, <a class="macro" href="../../../../include/x86_64-linux-gnu/bits/termios.h.html#213" title="0" data-ref="_M/TCSANOW">TCSANOW</a>, &amp;<a class="local col8 ref" href="#28oldt" title='oldt' data-ref="28oldt">oldt</a>);</td></tr>
+<tr><th id="106">106</th><td>	<b>return</b> <a class="local col0 ref" href="#30cnt" title='cnt' data-ref="30cnt">cnt</a>; <i>// Return number of characters</i></td></tr>
+<tr><th id="107">107</th><td>}</td></tr>
+<tr><th id="108">108</th><td><u>#<span data-ppcond="56">endif</span> // _WIN32</u></td></tr>
+<tr><th id="109">109</th><td></td></tr>
+<tr><th id="110">110</th><td><u>#<span data-ppcond="110">ifndef</span> <span class="macro" data-ref="_M/gotoxy">gotoxy</span></u></td></tr>
+<tr><th id="111">111</th><td><i class="doc">/// Function: gotoxy</i></td></tr>
+<tr><th id="112">112</th><td><i class="doc">/// Same as &lt;rlutil.locate&gt;.</i></td></tr>
+<tr><th id="113">113</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="gotoxy" title='gotoxy' data-ref="gotoxy">gotoxy</dfn>(<em>int</em> <dfn class="local col2 decl" id="32x" title='x' data-type='int' data-ref="32x">x</dfn>, <em>int</em> <dfn class="local col3 decl" id="33y" title='y' data-type='int' data-ref="33y">y</dfn>) {</td></tr>
+<tr><th id="114">114</th><td>	<u>#<span data-ppcond="114">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="115">115</th><td>	rlutil::</td></tr>
+<tr><th id="116">116</th><td>	<u>#<span data-ppcond="114">endif</span></u></td></tr>
+<tr><th id="117">117</th><td>	<a class="ref" href="#locate" title='locate' data-ref="locate">locate</a>(<a class="local col2 ref" href="#32x" title='x' data-ref="32x">x</a>,<a class="local col3 ref" href="#33y" title='y' data-ref="33y">y</a>);</td></tr>
+<tr><th id="118">118</th><td>}</td></tr>
+<tr><th id="119">119</th><td><u>#<span data-ppcond="110">endif</span> // gotoxy</u></td></tr>
+<tr><th id="120">120</th><td></td></tr>
+<tr><th id="121">121</th><td><u>#<span data-ppcond="121">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="122">122</th><td><i class="doc">/// Namespace: rlutil</i></td></tr>
+<tr><th id="123">123</th><td><i class="doc">/// In C++ all functions except &lt;getch&gt;, &lt;kbhit&gt; and &lt;gotoxy&gt; are arranged</i></td></tr>
+<tr><th id="124">124</th><td><i class="doc">/// under namespace rlutil. That is because some platforms have them defined</i></td></tr>
+<tr><th id="125">125</th><td><i class="doc">/// outside of rlutil.</i></td></tr>
+<tr><th id="126">126</th><td>namespace rlutil {</td></tr>
+<tr><th id="127">127</th><td><u>#<span data-ppcond="121">endif</span></u></td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="130">130</th><td><i class="doc"> * Defs: Internal typedefs and macros</i></td></tr>
+<tr><th id="131">131</th><td><i class="doc"> * RLUTIL_STRING_T - String type depending on which one of C or C++ is used</i></td></tr>
+<tr><th id="132">132</th><td><i class="doc"> * RLUTIL_PRINT(str) - Printing macro independent of C/C++</i></td></tr>
+<tr><th id="133">133</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="134">134</th><td></td></tr>
+<tr><th id="135">135</th><td><u>#<span data-ppcond="135">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="136">136</th><td>	<u>#ifndef RLUTIL_STRING_T</u></td></tr>
+<tr><th id="137">137</th><td>		<b>typedef</b> std::string RLUTIL_STRING_T;</td></tr>
+<tr><th id="138">138</th><td>	<u>#endif // RLUTIL_STRING_T</u></td></tr>
+<tr><th id="139">139</th><td></td></tr>
+<tr><th id="140">140</th><td>	<u>#define RLUTIL_PRINT(st) do { std::cout &lt;&lt; st; } while(false)</u></td></tr>
+<tr><th id="141">141</th><td><u>#<span data-ppcond="135">else</span> // __cplusplus</u></td></tr>
+<tr><th id="142">142</th><td>	<u>#<span data-ppcond="142">ifndef</span> <span class="macro" data-ref="_M/RLUTIL_STRING_T">RLUTIL_STRING_T</span></u></td></tr>
+<tr><th id="143">143</th><td>		<b>typedef</b> <em>const</em> <em>char</em>* <dfn class="typedef" id="RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</dfn>;</td></tr>
+<tr><th id="144">144</th><td>	<u>#<span data-ppcond="142">endif</span> // RLUTIL_STRING_T</u></td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td>	<u>#define <dfn class="macro" id="_M/RLUTIL_PRINT" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</dfn>(st) <a class="ref" href="../../../../include/stdio.h.html#printf" title='printf' data-ref="printf">printf</a>("%s", st)</u></td></tr>
+<tr><th id="147">147</th><td><u>#<span data-ppcond="135">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="148">148</th><td></td></tr>
+<tr><th id="149">149</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="150">150</th><td><i class="doc"> * Enums: Color codes</i></td></tr>
+<tr><th id="151">151</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="152">152</th><td><i class="doc"> * BLACK - Black</i></td></tr>
+<tr><th id="153">153</th><td><i class="doc"> * BLUE - Blue</i></td></tr>
+<tr><th id="154">154</th><td><i class="doc"> * GREEN - Green</i></td></tr>
+<tr><th id="155">155</th><td><i class="doc"> * CYAN - Cyan</i></td></tr>
+<tr><th id="156">156</th><td><i class="doc"> * RED - Red</i></td></tr>
+<tr><th id="157">157</th><td><i class="doc"> * MAGENTA - Magenta / purple</i></td></tr>
+<tr><th id="158">158</th><td><i class="doc"> * BROWN - Brown / dark yellow</i></td></tr>
+<tr><th id="159">159</th><td><i class="doc"> * GREY - Grey / dark white</i></td></tr>
+<tr><th id="160">160</th><td><i class="doc"> * DARKGREY - Dark grey / light black</i></td></tr>
+<tr><th id="161">161</th><td><i class="doc"> * LIGHTBLUE - Light blue</i></td></tr>
+<tr><th id="162">162</th><td><i class="doc"> * LIGHTGREEN - Light green</i></td></tr>
+<tr><th id="163">163</th><td><i class="doc"> * LIGHTCYAN - Light cyan</i></td></tr>
+<tr><th id="164">164</th><td><i class="doc"> * LIGHTRED - Light red</i></td></tr>
+<tr><th id="165">165</th><td><i class="doc"> * LIGHTMAGENTA - Light magenta / light purple</i></td></tr>
+<tr><th id="166">166</th><td><i class="doc"> * YELLOW - Yellow (bright)</i></td></tr>
+<tr><th id="167">167</th><td><i class="doc"> * WHITE - White (bright)</i></td></tr>
+<tr><th id="168">168</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="169">169</th><td><b>enum</b> {</td></tr>
+<tr><th id="170">170</th><td>	<dfn class="enum" id="BLACK" title='BLACK' data-ref="BLACK">BLACK</dfn>,</td></tr>
+<tr><th id="171">171</th><td>	<dfn class="enum" id="BLUE" title='BLUE' data-ref="BLUE">BLUE</dfn>,</td></tr>
+<tr><th id="172">172</th><td>	<dfn class="enum" id="GREEN" title='GREEN' data-ref="GREEN">GREEN</dfn>,</td></tr>
+<tr><th id="173">173</th><td>	<dfn class="enum" id="CYAN" title='CYAN' data-ref="CYAN">CYAN</dfn>,</td></tr>
+<tr><th id="174">174</th><td>	<dfn class="enum" id="RED" title='RED' data-ref="RED">RED</dfn>,</td></tr>
+<tr><th id="175">175</th><td>	<dfn class="enum" id="MAGENTA" title='MAGENTA' data-ref="MAGENTA">MAGENTA</dfn>,</td></tr>
+<tr><th id="176">176</th><td>	<dfn class="enum" id="BROWN" title='BROWN' data-ref="BROWN">BROWN</dfn>,</td></tr>
+<tr><th id="177">177</th><td>	<dfn class="enum" id="GREY" title='GREY' data-ref="GREY">GREY</dfn>,</td></tr>
+<tr><th id="178">178</th><td>	<dfn class="enum" id="DARKGREY" title='DARKGREY' data-ref="DARKGREY">DARKGREY</dfn>,</td></tr>
+<tr><th id="179">179</th><td>	<dfn class="enum" id="LIGHTBLUE" title='LIGHTBLUE' data-ref="LIGHTBLUE">LIGHTBLUE</dfn>,</td></tr>
+<tr><th id="180">180</th><td>	<dfn class="enum" id="LIGHTGREEN" title='LIGHTGREEN' data-ref="LIGHTGREEN">LIGHTGREEN</dfn>,</td></tr>
+<tr><th id="181">181</th><td>	<dfn class="enum" id="LIGHTCYAN" title='LIGHTCYAN' data-ref="LIGHTCYAN">LIGHTCYAN</dfn>,</td></tr>
+<tr><th id="182">182</th><td>	<dfn class="enum" id="LIGHTRED" title='LIGHTRED' data-ref="LIGHTRED">LIGHTRED</dfn>,</td></tr>
+<tr><th id="183">183</th><td>	<dfn class="enum" id="LIGHTMAGENTA" title='LIGHTMAGENTA' data-ref="LIGHTMAGENTA">LIGHTMAGENTA</dfn>,</td></tr>
+<tr><th id="184">184</th><td>	<dfn class="enum" id="YELLOW" title='YELLOW' data-ref="YELLOW">YELLOW</dfn>,</td></tr>
+<tr><th id="185">185</th><td>	<dfn class="enum" id="WHITE" title='WHITE' data-ref="WHITE">WHITE</dfn></td></tr>
+<tr><th id="186">186</th><td>};</td></tr>
+<tr><th id="187">187</th><td></td></tr>
+<tr><th id="188">188</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="189">189</th><td><i class="doc"> * Consts: ANSI escape strings</i></td></tr>
+<tr><th id="190">190</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="191">191</th><td><i class="doc"> * ANSI_CLS                - Clears screen</i></td></tr>
+<tr><th id="192">192</th><td><i class="doc"> * ANSI_CONSOLE_TITLE_PRE  - Prefix for changing the window title, print the window title in between</i></td></tr>
+<tr><th id="193">193</th><td><i class="doc"> * ANSI_CONSOLE_TITLE_POST - Suffix for changing the window title, print the window title in between</i></td></tr>
+<tr><th id="194">194</th><td><i class="doc"> * ANSI_ATTRIBUTE_RESET    - Resets all attributes</i></td></tr>
+<tr><th id="195">195</th><td><i class="doc"> * ANSI_CURSOR_HIDE        - Hides the cursor</i></td></tr>
+<tr><th id="196">196</th><td><i class="doc"> * ANSI_CURSOR_SHOW        - Shows the cursor</i></td></tr>
+<tr><th id="197">197</th><td><i class="doc"> * ANSI_CURSOR_HOME        - Moves the cursor home (0,0)</i></td></tr>
+<tr><th id="198">198</th><td><i class="doc"> * ANSI_BLACK              - Black</i></td></tr>
+<tr><th id="199">199</th><td><i class="doc"> * ANSI_RED                - Red</i></td></tr>
+<tr><th id="200">200</th><td><i class="doc"> * ANSI_GREEN              - Green</i></td></tr>
+<tr><th id="201">201</th><td><i class="doc"> * ANSI_BROWN              - Brown / dark yellow</i></td></tr>
+<tr><th id="202">202</th><td><i class="doc"> * ANSI_BLUE               - Blue</i></td></tr>
+<tr><th id="203">203</th><td><i class="doc"> * ANSI_MAGENTA            - Magenta / purple</i></td></tr>
+<tr><th id="204">204</th><td><i class="doc"> * ANSI_CYAN               - Cyan</i></td></tr>
+<tr><th id="205">205</th><td><i class="doc"> * ANSI_GREY               - Grey / dark white</i></td></tr>
+<tr><th id="206">206</th><td><i class="doc"> * ANSI_DARKGREY           - Dark grey / light black</i></td></tr>
+<tr><th id="207">207</th><td><i class="doc"> * ANSI_LIGHTRED           - Light red</i></td></tr>
+<tr><th id="208">208</th><td><i class="doc"> * ANSI_LIGHTGREEN         - Light green</i></td></tr>
+<tr><th id="209">209</th><td><i class="doc"> * ANSI_YELLOW             - Yellow (bright)</i></td></tr>
+<tr><th id="210">210</th><td><i class="doc"> * ANSI_LIGHTBLUE          - Light blue</i></td></tr>
+<tr><th id="211">211</th><td><i class="doc"> * ANSI_LIGHTMAGENTA       - Light magenta / light purple</i></td></tr>
+<tr><th id="212">212</th><td><i class="doc"> * ANSI_LIGHTCYAN          - Light cyan</i></td></tr>
+<tr><th id="213">213</th><td><i class="doc"> * ANSI_WHITE              - White (bright)</i></td></tr>
+<tr><th id="214">214</th><td><i class="doc"> * ANSI_BACKGROUND_BLACK   - Black background</i></td></tr>
+<tr><th id="215">215</th><td><i class="doc"> * ANSI_BACKGROUND_RED     - Red background</i></td></tr>
+<tr><th id="216">216</th><td><i class="doc"> * ANSI_BACKGROUND_GREEN   - Green background</i></td></tr>
+<tr><th id="217">217</th><td><i class="doc"> * ANSI_BACKGROUND_YELLOW  - Yellow background</i></td></tr>
+<tr><th id="218">218</th><td><i class="doc"> * ANSI_BACKGROUND_BLUE    - Blue background</i></td></tr>
+<tr><th id="219">219</th><td><i class="doc"> * ANSI_BACKGROUND_MAGENTA - Magenta / purple background</i></td></tr>
+<tr><th id="220">220</th><td><i class="doc"> * ANSI_BACKGROUND_CYAN    - Cyan background</i></td></tr>
+<tr><th id="221">221</th><td><i class="doc"> * ANSI_BACKGROUND_WHITE   - White background</i></td></tr>
+<tr><th id="222">222</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="223">223</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_CLS" title='ANSI_CLS' data-ref="ANSI_CLS">ANSI_CLS</dfn>                = <q>"\033[2J\033[3J"</q>;</td></tr>
+<tr><th id="224">224</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_CONSOLE_TITLE_PRE" title='ANSI_CONSOLE_TITLE_PRE' data-ref="ANSI_CONSOLE_TITLE_PRE">ANSI_CONSOLE_TITLE_PRE</dfn>  = <q>"\033]0;"</q>;</td></tr>
+<tr><th id="225">225</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_CONSOLE_TITLE_POST" title='ANSI_CONSOLE_TITLE_POST' data-ref="ANSI_CONSOLE_TITLE_POST">ANSI_CONSOLE_TITLE_POST</dfn> = <q>"\007"</q>;</td></tr>
+<tr><th id="226">226</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_ATTRIBUTE_RESET" title='ANSI_ATTRIBUTE_RESET' data-ref="ANSI_ATTRIBUTE_RESET">ANSI_ATTRIBUTE_RESET</dfn>    = <q>"\033[0m"</q>;</td></tr>
+<tr><th id="227">227</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_CURSOR_HIDE" title='ANSI_CURSOR_HIDE' data-ref="ANSI_CURSOR_HIDE">ANSI_CURSOR_HIDE</dfn>        = <q>"\033[?25l"</q>;</td></tr>
+<tr><th id="228">228</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_CURSOR_SHOW" title='ANSI_CURSOR_SHOW' data-ref="ANSI_CURSOR_SHOW">ANSI_CURSOR_SHOW</dfn>        = <q>"\033[?25h"</q>;</td></tr>
+<tr><th id="229">229</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_CURSOR_HOME" title='ANSI_CURSOR_HOME' data-ref="ANSI_CURSOR_HOME">ANSI_CURSOR_HOME</dfn>        = <q>"\033[H"</q>;</td></tr>
+<tr><th id="230">230</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BLACK" title='ANSI_BLACK' data-ref="ANSI_BLACK">ANSI_BLACK</dfn>              = <q>"\033[22;30m"</q>;</td></tr>
+<tr><th id="231">231</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_RED" title='ANSI_RED' data-ref="ANSI_RED">ANSI_RED</dfn>                = <q>"\033[22;31m"</q>;</td></tr>
+<tr><th id="232">232</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_GREEN" title='ANSI_GREEN' data-ref="ANSI_GREEN">ANSI_GREEN</dfn>              = <q>"\033[22;32m"</q>;</td></tr>
+<tr><th id="233">233</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BROWN" title='ANSI_BROWN' data-ref="ANSI_BROWN">ANSI_BROWN</dfn>              = <q>"\033[22;33m"</q>;</td></tr>
+<tr><th id="234">234</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BLUE" title='ANSI_BLUE' data-ref="ANSI_BLUE">ANSI_BLUE</dfn>               = <q>"\033[22;34m"</q>;</td></tr>
+<tr><th id="235">235</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_MAGENTA" title='ANSI_MAGENTA' data-ref="ANSI_MAGENTA">ANSI_MAGENTA</dfn>            = <q>"\033[22;35m"</q>;</td></tr>
+<tr><th id="236">236</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_CYAN" title='ANSI_CYAN' data-ref="ANSI_CYAN">ANSI_CYAN</dfn>               = <q>"\033[22;36m"</q>;</td></tr>
+<tr><th id="237">237</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_GREY" title='ANSI_GREY' data-ref="ANSI_GREY">ANSI_GREY</dfn>               = <q>"\033[22;37m"</q>;</td></tr>
+<tr><th id="238">238</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_DARKGREY" title='ANSI_DARKGREY' data-ref="ANSI_DARKGREY">ANSI_DARKGREY</dfn>           = <q>"\033[01;30m"</q>;</td></tr>
+<tr><th id="239">239</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_LIGHTRED" title='ANSI_LIGHTRED' data-ref="ANSI_LIGHTRED">ANSI_LIGHTRED</dfn>           = <q>"\033[01;31m"</q>;</td></tr>
+<tr><th id="240">240</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_LIGHTGREEN" title='ANSI_LIGHTGREEN' data-ref="ANSI_LIGHTGREEN">ANSI_LIGHTGREEN</dfn>         = <q>"\033[01;32m"</q>;</td></tr>
+<tr><th id="241">241</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_YELLOW" title='ANSI_YELLOW' data-ref="ANSI_YELLOW">ANSI_YELLOW</dfn>             = <q>"\033[01;33m"</q>;</td></tr>
+<tr><th id="242">242</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_LIGHTBLUE" title='ANSI_LIGHTBLUE' data-ref="ANSI_LIGHTBLUE">ANSI_LIGHTBLUE</dfn>          = <q>"\033[01;34m"</q>;</td></tr>
+<tr><th id="243">243</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_LIGHTMAGENTA" title='ANSI_LIGHTMAGENTA' data-ref="ANSI_LIGHTMAGENTA">ANSI_LIGHTMAGENTA</dfn>       = <q>"\033[01;35m"</q>;</td></tr>
+<tr><th id="244">244</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_LIGHTCYAN" title='ANSI_LIGHTCYAN' data-ref="ANSI_LIGHTCYAN">ANSI_LIGHTCYAN</dfn>          = <q>"\033[01;36m"</q>;</td></tr>
+<tr><th id="245">245</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_WHITE" title='ANSI_WHITE' data-ref="ANSI_WHITE">ANSI_WHITE</dfn>              = <q>"\033[01;37m"</q>;</td></tr>
+<tr><th id="246">246</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_BLACK" title='ANSI_BACKGROUND_BLACK' data-ref="ANSI_BACKGROUND_BLACK">ANSI_BACKGROUND_BLACK</dfn>   = <q>"\033[40m"</q>;</td></tr>
+<tr><th id="247">247</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_RED" title='ANSI_BACKGROUND_RED' data-ref="ANSI_BACKGROUND_RED">ANSI_BACKGROUND_RED</dfn>     = <q>"\033[41m"</q>;</td></tr>
+<tr><th id="248">248</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_GREEN" title='ANSI_BACKGROUND_GREEN' data-ref="ANSI_BACKGROUND_GREEN">ANSI_BACKGROUND_GREEN</dfn>   = <q>"\033[42m"</q>;</td></tr>
+<tr><th id="249">249</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_YELLOW" title='ANSI_BACKGROUND_YELLOW' data-ref="ANSI_BACKGROUND_YELLOW">ANSI_BACKGROUND_YELLOW</dfn>  = <q>"\033[43m"</q>;</td></tr>
+<tr><th id="250">250</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_BLUE" title='ANSI_BACKGROUND_BLUE' data-ref="ANSI_BACKGROUND_BLUE">ANSI_BACKGROUND_BLUE</dfn>    = <q>"\033[44m"</q>;</td></tr>
+<tr><th id="251">251</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_MAGENTA" title='ANSI_BACKGROUND_MAGENTA' data-ref="ANSI_BACKGROUND_MAGENTA">ANSI_BACKGROUND_MAGENTA</dfn> = <q>"\033[45m"</q>;</td></tr>
+<tr><th id="252">252</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_CYAN" title='ANSI_BACKGROUND_CYAN' data-ref="ANSI_BACKGROUND_CYAN">ANSI_BACKGROUND_CYAN</dfn>    = <q>"\033[46m"</q>;</td></tr>
+<tr><th id="253">253</th><td><em>static</em> <em>const</em> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="ANSI_BACKGROUND_WHITE" title='ANSI_BACKGROUND_WHITE' data-ref="ANSI_BACKGROUND_WHITE">ANSI_BACKGROUND_WHITE</dfn>   = <q>"\033[47m"</q>;</td></tr>
+<tr><th id="254">254</th><td><i>// Remaining colors not supported as background colors</i></td></tr>
+<tr><th id="255">255</th><td></td></tr>
+<tr><th id="256">256</th><td><i class="doc">/**</i></td></tr>
+<tr><th id="257">257</th><td><i class="doc"> * Enums: Key codes for keyhit()</i></td></tr>
+<tr><th id="258">258</th><td><i class="doc"> *</i></td></tr>
+<tr><th id="259">259</th><td><i class="doc"> * KEY_ESCAPE  - Escape</i></td></tr>
+<tr><th id="260">260</th><td><i class="doc"> * KEY_ENTER   - Enter</i></td></tr>
+<tr><th id="261">261</th><td><i class="doc"> * KEY_SPACE   - Space</i></td></tr>
+<tr><th id="262">262</th><td><i class="doc"> * KEY_INSERT  - Insert</i></td></tr>
+<tr><th id="263">263</th><td><i class="doc"> * KEY_HOME    - Home</i></td></tr>
+<tr><th id="264">264</th><td><i class="doc"> * KEY_END     - End</i></td></tr>
+<tr><th id="265">265</th><td><i class="doc"> * KEY_DELETE  - Delete</i></td></tr>
+<tr><th id="266">266</th><td><i class="doc"> * KEY_PGUP    - PageUp</i></td></tr>
+<tr><th id="267">267</th><td><i class="doc"> * KEY_PGDOWN  - PageDown</i></td></tr>
+<tr><th id="268">268</th><td><i class="doc"> * KEY_UP      - Up arrow</i></td></tr>
+<tr><th id="269">269</th><td><i class="doc"> * KEY_DOWN    - Down arrow</i></td></tr>
+<tr><th id="270">270</th><td><i class="doc"> * KEY_LEFT    - Left arrow</i></td></tr>
+<tr><th id="271">271</th><td><i class="doc"> * KEY_RIGHT   - Right arrow</i></td></tr>
+<tr><th id="272">272</th><td><i class="doc"> * KEY_F1      - F1</i></td></tr>
+<tr><th id="273">273</th><td><i class="doc"> * KEY_F2      - F2</i></td></tr>
+<tr><th id="274">274</th><td><i class="doc"> * KEY_F3      - F3</i></td></tr>
+<tr><th id="275">275</th><td><i class="doc"> * KEY_F4      - F4</i></td></tr>
+<tr><th id="276">276</th><td><i class="doc"> * KEY_F5      - F5</i></td></tr>
+<tr><th id="277">277</th><td><i class="doc"> * KEY_F6      - F6</i></td></tr>
+<tr><th id="278">278</th><td><i class="doc"> * KEY_F7      - F7</i></td></tr>
+<tr><th id="279">279</th><td><i class="doc"> * KEY_F8      - F8</i></td></tr>
+<tr><th id="280">280</th><td><i class="doc"> * KEY_F9      - F9</i></td></tr>
+<tr><th id="281">281</th><td><i class="doc"> * KEY_F10     - F10</i></td></tr>
+<tr><th id="282">282</th><td><i class="doc"> * KEY_F11     - F11</i></td></tr>
+<tr><th id="283">283</th><td><i class="doc"> * KEY_F12     - F12</i></td></tr>
+<tr><th id="284">284</th><td><i class="doc"> * KEY_NUMDEL  - Numpad del</i></td></tr>
+<tr><th id="285">285</th><td><i class="doc"> * KEY_NUMPAD0 - Numpad 0</i></td></tr>
+<tr><th id="286">286</th><td><i class="doc"> * KEY_NUMPAD1 - Numpad 1</i></td></tr>
+<tr><th id="287">287</th><td><i class="doc"> * KEY_NUMPAD2 - Numpad 2</i></td></tr>
+<tr><th id="288">288</th><td><i class="doc"> * KEY_NUMPAD3 - Numpad 3</i></td></tr>
+<tr><th id="289">289</th><td><i class="doc"> * KEY_NUMPAD4 - Numpad 4</i></td></tr>
+<tr><th id="290">290</th><td><i class="doc"> * KEY_NUMPAD5 - Numpad 5</i></td></tr>
+<tr><th id="291">291</th><td><i class="doc"> * KEY_NUMPAD6 - Numpad 6</i></td></tr>
+<tr><th id="292">292</th><td><i class="doc"> * KEY_NUMPAD7 - Numpad 7</i></td></tr>
+<tr><th id="293">293</th><td><i class="doc"> * KEY_NUMPAD8 - Numpad 8</i></td></tr>
+<tr><th id="294">294</th><td><i class="doc"> * KEY_NUMPAD9 - Numpad 9</i></td></tr>
+<tr><th id="295">295</th><td><i class="doc"> */</i></td></tr>
+<tr><th id="296">296</th><td><b>enum</b> {</td></tr>
+<tr><th id="297">297</th><td>	<dfn class="enum" id="KEY_ESCAPE" title='KEY_ESCAPE' data-ref="KEY_ESCAPE">KEY_ESCAPE</dfn>  = <var>0</var>,</td></tr>
+<tr><th id="298">298</th><td>	<dfn class="enum" id="KEY_ENTER" title='KEY_ENTER' data-ref="KEY_ENTER">KEY_ENTER</dfn>   = <var>1</var>,</td></tr>
+<tr><th id="299">299</th><td>	<dfn class="enum" id="KEY_SPACE" title='KEY_SPACE' data-ref="KEY_SPACE">KEY_SPACE</dfn>   = <var>32</var>,</td></tr>
+<tr><th id="300">300</th><td></td></tr>
+<tr><th id="301">301</th><td>	<dfn class="enum" id="KEY_INSERT" title='KEY_INSERT' data-ref="KEY_INSERT">KEY_INSERT</dfn>  = <var>2</var>,</td></tr>
+<tr><th id="302">302</th><td>	<dfn class="enum" id="KEY_HOME" title='KEY_HOME' data-ref="KEY_HOME">KEY_HOME</dfn>    = <var>3</var>,</td></tr>
+<tr><th id="303">303</th><td>	<dfn class="enum" id="KEY_PGUP" title='KEY_PGUP' data-ref="KEY_PGUP">KEY_PGUP</dfn>    = <var>4</var>,</td></tr>
+<tr><th id="304">304</th><td>	<dfn class="enum" id="KEY_DELETE" title='KEY_DELETE' data-ref="KEY_DELETE">KEY_DELETE</dfn>  = <var>5</var>,</td></tr>
+<tr><th id="305">305</th><td>	<dfn class="enum" id="KEY_END" title='KEY_END' data-ref="KEY_END">KEY_END</dfn>     = <var>6</var>,</td></tr>
+<tr><th id="306">306</th><td>	<dfn class="enum" id="KEY_PGDOWN" title='KEY_PGDOWN' data-ref="KEY_PGDOWN">KEY_PGDOWN</dfn>  = <var>7</var>,</td></tr>
+<tr><th id="307">307</th><td></td></tr>
+<tr><th id="308">308</th><td>	<dfn class="enum" id="KEY_UP" title='KEY_UP' data-ref="KEY_UP">KEY_UP</dfn>      = <var>14</var>,</td></tr>
+<tr><th id="309">309</th><td>	<dfn class="enum" id="KEY_DOWN" title='KEY_DOWN' data-ref="KEY_DOWN">KEY_DOWN</dfn>    = <var>15</var>,</td></tr>
+<tr><th id="310">310</th><td>	<dfn class="enum" id="KEY_LEFT" title='KEY_LEFT' data-ref="KEY_LEFT">KEY_LEFT</dfn>    = <var>16</var>,</td></tr>
+<tr><th id="311">311</th><td>	<dfn class="enum" id="KEY_RIGHT" title='KEY_RIGHT' data-ref="KEY_RIGHT">KEY_RIGHT</dfn>   = <var>17</var>,</td></tr>
+<tr><th id="312">312</th><td></td></tr>
+<tr><th id="313">313</th><td>	<dfn class="enum" id="KEY_F1" title='KEY_F1' data-ref="KEY_F1">KEY_F1</dfn>      = <var>18</var>,</td></tr>
+<tr><th id="314">314</th><td>	<dfn class="enum" id="KEY_F2" title='KEY_F2' data-ref="KEY_F2">KEY_F2</dfn>      = <var>19</var>,</td></tr>
+<tr><th id="315">315</th><td>	<dfn class="enum" id="KEY_F3" title='KEY_F3' data-ref="KEY_F3">KEY_F3</dfn>      = <var>20</var>,</td></tr>
+<tr><th id="316">316</th><td>	<dfn class="enum" id="KEY_F4" title='KEY_F4' data-ref="KEY_F4">KEY_F4</dfn>      = <var>21</var>,</td></tr>
+<tr><th id="317">317</th><td>	<dfn class="enum" id="KEY_F5" title='KEY_F5' data-ref="KEY_F5">KEY_F5</dfn>      = <var>22</var>,</td></tr>
+<tr><th id="318">318</th><td>	<dfn class="enum" id="KEY_F6" title='KEY_F6' data-ref="KEY_F6">KEY_F6</dfn>      = <var>23</var>,</td></tr>
+<tr><th id="319">319</th><td>	<dfn class="enum" id="KEY_F7" title='KEY_F7' data-ref="KEY_F7">KEY_F7</dfn>      = <var>24</var>,</td></tr>
+<tr><th id="320">320</th><td>	<dfn class="enum" id="KEY_F8" title='KEY_F8' data-ref="KEY_F8">KEY_F8</dfn>      = <var>25</var>,</td></tr>
+<tr><th id="321">321</th><td>	<dfn class="enum" id="KEY_F9" title='KEY_F9' data-ref="KEY_F9">KEY_F9</dfn>      = <var>26</var>,</td></tr>
+<tr><th id="322">322</th><td>	<dfn class="enum" id="KEY_F10" title='KEY_F10' data-ref="KEY_F10">KEY_F10</dfn>     = <var>27</var>,</td></tr>
+<tr><th id="323">323</th><td>	<dfn class="enum" id="KEY_F11" title='KEY_F11' data-ref="KEY_F11">KEY_F11</dfn>     = <var>28</var>,</td></tr>
+<tr><th id="324">324</th><td>	<dfn class="enum" id="KEY_F12" title='KEY_F12' data-ref="KEY_F12">KEY_F12</dfn>     = <var>29</var>,</td></tr>
+<tr><th id="325">325</th><td></td></tr>
+<tr><th id="326">326</th><td>	<dfn class="enum" id="KEY_NUMDEL" title='KEY_NUMDEL' data-ref="KEY_NUMDEL">KEY_NUMDEL</dfn>  = <var>30</var>,</td></tr>
+<tr><th id="327">327</th><td>	<dfn class="enum" id="KEY_NUMPAD0" title='KEY_NUMPAD0' data-ref="KEY_NUMPAD0">KEY_NUMPAD0</dfn> = <var>31</var>,</td></tr>
+<tr><th id="328">328</th><td>	<dfn class="enum" id="KEY_NUMPAD1" title='KEY_NUMPAD1' data-ref="KEY_NUMPAD1">KEY_NUMPAD1</dfn> = <var>127</var>,</td></tr>
+<tr><th id="329">329</th><td>	<dfn class="enum" id="KEY_NUMPAD2" title='KEY_NUMPAD2' data-ref="KEY_NUMPAD2">KEY_NUMPAD2</dfn> = <var>128</var>,</td></tr>
+<tr><th id="330">330</th><td>	<dfn class="enum" id="KEY_NUMPAD3" title='KEY_NUMPAD3' data-ref="KEY_NUMPAD3">KEY_NUMPAD3</dfn> = <var>129</var>,</td></tr>
+<tr><th id="331">331</th><td>	<dfn class="enum" id="KEY_NUMPAD4" title='KEY_NUMPAD4' data-ref="KEY_NUMPAD4">KEY_NUMPAD4</dfn> = <var>130</var>,</td></tr>
+<tr><th id="332">332</th><td>	<dfn class="enum" id="KEY_NUMPAD5" title='KEY_NUMPAD5' data-ref="KEY_NUMPAD5">KEY_NUMPAD5</dfn> = <var>131</var>,</td></tr>
+<tr><th id="333">333</th><td>	<dfn class="enum" id="KEY_NUMPAD6" title='KEY_NUMPAD6' data-ref="KEY_NUMPAD6">KEY_NUMPAD6</dfn> = <var>132</var>,</td></tr>
+<tr><th id="334">334</th><td>	<dfn class="enum" id="KEY_NUMPAD7" title='KEY_NUMPAD7' data-ref="KEY_NUMPAD7">KEY_NUMPAD7</dfn> = <var>133</var>,</td></tr>
+<tr><th id="335">335</th><td>	<dfn class="enum" id="KEY_NUMPAD8" title='KEY_NUMPAD8' data-ref="KEY_NUMPAD8">KEY_NUMPAD8</dfn> = <var>134</var>,</td></tr>
+<tr><th id="336">336</th><td>	<dfn class="enum" id="KEY_NUMPAD9" title='KEY_NUMPAD9' data-ref="KEY_NUMPAD9">KEY_NUMPAD9</dfn> = <var>135</var></td></tr>
+<tr><th id="337">337</th><td>};</td></tr>
+<tr><th id="338">338</th><td></td></tr>
+<tr><th id="339">339</th><td><i class="doc">/// Function: getkey</i></td></tr>
+<tr><th id="340">340</th><td><i class="doc">/// Reads a key press (blocking) and returns a key code.</i></td></tr>
+<tr><th id="341">341</th><td><i class="doc">///</i></td></tr>
+<tr><th id="342">342</th><td><i class="doc">/// See &lt;Key codes for keyhit()&gt;</i></td></tr>
+<tr><th id="343">343</th><td><i class="doc">///</i></td></tr>
+<tr><th id="344">344</th><td><i class="doc">/// Note:</i></td></tr>
+<tr><th id="345">345</th><td><i class="doc">/// Only Arrows, Esc, Enter and Space are currently working properly.</i></td></tr>
+<tr><th id="346">346</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>int</em> <dfn class="decl def" id="getkey" title='getkey' data-ref="getkey">getkey</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="347">347</th><td>	<u>#<span data-ppcond="347">ifndef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="348">348</th><td>	<em>int</em> <dfn class="local col4 decl" id="34cnt" title='cnt' data-type='int' data-ref="34cnt">cnt</dfn> = <a class="ref" href="#kbhit" title='kbhit' data-ref="kbhit">kbhit</a>(); <i>// for ANSI escapes processing</i></td></tr>
+<tr><th id="349">349</th><td>	<u>#<span data-ppcond="347">endif</span></u></td></tr>
+<tr><th id="350">350</th><td>	<em>int</em> <dfn class="local col5 decl" id="35k" title='k' data-type='int' data-ref="35k">k</dfn> = <a class="ref" href="#getch" title='getch' data-ref="getch">getch</a>();</td></tr>
+<tr><th id="351">351</th><td>	<b>switch</b>(<a class="local col5 ref" href="#35k" title='k' data-ref="35k">k</a>) {</td></tr>
+<tr><th id="352">352</th><td>		<b>case</b> <var>0</var>: {</td></tr>
+<tr><th id="353">353</th><td>			<em>int</em> <dfn class="local col6 decl" id="36kk" title='kk' data-type='int' data-ref="36kk">kk</dfn>;</td></tr>
+<tr><th id="354">354</th><td>			<b>switch</b> (<a class="local col6 ref" href="#36kk" title='kk' data-ref="36kk">kk</a> = <a class="ref" href="#getch" title='getch' data-ref="getch">getch</a>()) {</td></tr>
+<tr><th id="355">355</th><td>				<b>case</b> <var>71</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD7" title='KEY_NUMPAD7' data-ref="KEY_NUMPAD7">KEY_NUMPAD7</a>;</td></tr>
+<tr><th id="356">356</th><td>				<b>case</b> <var>72</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD8" title='KEY_NUMPAD8' data-ref="KEY_NUMPAD8">KEY_NUMPAD8</a>;</td></tr>
+<tr><th id="357">357</th><td>				<b>case</b> <var>73</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD9" title='KEY_NUMPAD9' data-ref="KEY_NUMPAD9">KEY_NUMPAD9</a>;</td></tr>
+<tr><th id="358">358</th><td>				<b>case</b> <var>75</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD4" title='KEY_NUMPAD4' data-ref="KEY_NUMPAD4">KEY_NUMPAD4</a>;</td></tr>
+<tr><th id="359">359</th><td>				<b>case</b> <var>77</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD6" title='KEY_NUMPAD6' data-ref="KEY_NUMPAD6">KEY_NUMPAD6</a>;</td></tr>
+<tr><th id="360">360</th><td>				<b>case</b> <var>79</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD1" title='KEY_NUMPAD1' data-ref="KEY_NUMPAD1">KEY_NUMPAD1</a>;</td></tr>
+<tr><th id="361">361</th><td>				<b>case</b> <var>80</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD2" title='KEY_NUMPAD2' data-ref="KEY_NUMPAD2">KEY_NUMPAD2</a>;</td></tr>
+<tr><th id="362">362</th><td>				<b>case</b> <var>81</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD3" title='KEY_NUMPAD3' data-ref="KEY_NUMPAD3">KEY_NUMPAD3</a>;</td></tr>
+<tr><th id="363">363</th><td>				<b>case</b> <var>82</var>: <b>return</b> <a class="enum" href="#KEY_NUMPAD0" title='KEY_NUMPAD0' data-ref="KEY_NUMPAD0">KEY_NUMPAD0</a>;</td></tr>
+<tr><th id="364">364</th><td>				<b>case</b> <var>83</var>: <b>return</b> <a class="enum" href="#KEY_NUMDEL" title='KEY_NUMDEL' data-ref="KEY_NUMDEL">KEY_NUMDEL</a>;</td></tr>
+<tr><th id="365">365</th><td>				<b>default</b>: <b>return</b> <a class="local col6 ref" href="#36kk" title='kk' data-ref="36kk">kk</a>-<var>59</var>+<a class="enum" href="#KEY_F1" title='KEY_F1' data-ref="KEY_F1">KEY_F1</a>; <i>// Function keys</i></td></tr>
+<tr><th id="366">366</th><td>			}}</td></tr>
+<tr><th id="367">367</th><td>		<b>case</b> <var>224</var>: {</td></tr>
+<tr><th id="368">368</th><td>			<em>int</em> <dfn class="local col7 decl" id="37kk" title='kk' data-type='int' data-ref="37kk">kk</dfn>;</td></tr>
+<tr><th id="369">369</th><td>			<b>switch</b> (<a class="local col7 ref" href="#37kk" title='kk' data-ref="37kk">kk</a> = <a class="ref" href="#getch" title='getch' data-ref="getch">getch</a>()) {</td></tr>
+<tr><th id="370">370</th><td>				<b>case</b> <var>71</var>: <b>return</b> <a class="enum" href="#KEY_HOME" title='KEY_HOME' data-ref="KEY_HOME">KEY_HOME</a>;</td></tr>
+<tr><th id="371">371</th><td>				<b>case</b> <var>72</var>: <b>return</b> <a class="enum" href="#KEY_UP" title='KEY_UP' data-ref="KEY_UP">KEY_UP</a>;</td></tr>
+<tr><th id="372">372</th><td>				<b>case</b> <var>73</var>: <b>return</b> <a class="enum" href="#KEY_PGUP" title='KEY_PGUP' data-ref="KEY_PGUP">KEY_PGUP</a>;</td></tr>
+<tr><th id="373">373</th><td>				<b>case</b> <var>75</var>: <b>return</b> <a class="enum" href="#KEY_LEFT" title='KEY_LEFT' data-ref="KEY_LEFT">KEY_LEFT</a>;</td></tr>
+<tr><th id="374">374</th><td>				<b>case</b> <var>77</var>: <b>return</b> <a class="enum" href="#KEY_RIGHT" title='KEY_RIGHT' data-ref="KEY_RIGHT">KEY_RIGHT</a>;</td></tr>
+<tr><th id="375">375</th><td>				<b>case</b> <var>79</var>: <b>return</b> <a class="enum" href="#KEY_END" title='KEY_END' data-ref="KEY_END">KEY_END</a>;</td></tr>
+<tr><th id="376">376</th><td>				<b>case</b> <var>80</var>: <b>return</b> <a class="enum" href="#KEY_DOWN" title='KEY_DOWN' data-ref="KEY_DOWN">KEY_DOWN</a>;</td></tr>
+<tr><th id="377">377</th><td>				<b>case</b> <var>81</var>: <b>return</b> <a class="enum" href="#KEY_PGDOWN" title='KEY_PGDOWN' data-ref="KEY_PGDOWN">KEY_PGDOWN</a>;</td></tr>
+<tr><th id="378">378</th><td>				<b>case</b> <var>82</var>: <b>return</b> <a class="enum" href="#KEY_INSERT" title='KEY_INSERT' data-ref="KEY_INSERT">KEY_INSERT</a>;</td></tr>
+<tr><th id="379">379</th><td>				<b>case</b> <var>83</var>: <b>return</b> <a class="enum" href="#KEY_DELETE" title='KEY_DELETE' data-ref="KEY_DELETE">KEY_DELETE</a>;</td></tr>
+<tr><th id="380">380</th><td>				<b>default</b>: <b>return</b> <a class="local col7 ref" href="#37kk" title='kk' data-ref="37kk">kk</a>-<var>123</var>+<a class="enum" href="#KEY_F1" title='KEY_F1' data-ref="KEY_F1">KEY_F1</a>; <i>// Function keys</i></td></tr>
+<tr><th id="381">381</th><td>			}}</td></tr>
+<tr><th id="382">382</th><td>		<b>case</b> <var>13</var>: <b>return</b> <a class="enum" href="#KEY_ENTER" title='KEY_ENTER' data-ref="KEY_ENTER">KEY_ENTER</a>;</td></tr>
+<tr><th id="383">383</th><td><u>#<span data-ppcond="383">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="384">384</th><td>		<b>case</b> <var>27</var>: <b>return</b> KEY_ESCAPE;</td></tr>
+<tr><th id="385">385</th><td><u>#<span data-ppcond="383">else</span> // _WIN32</u></td></tr>
+<tr><th id="386">386</th><td>		<b>case</b> <var>155</var>: <i>// single-character CSI</i></td></tr>
+<tr><th id="387">387</th><td>		<b>case</b> <var>27</var>: {</td></tr>
+<tr><th id="388">388</th><td>			<i>// Process ANSI escape sequences</i></td></tr>
+<tr><th id="389">389</th><td>			<b>if</b> (<a class="local col4 ref" href="#34cnt" title='cnt' data-ref="34cnt">cnt</a> &gt;= <var>3</var> &amp;&amp; <a class="ref" href="#getch" title='getch' data-ref="getch">getch</a>() == <kbd>'['</kbd>) {</td></tr>
+<tr><th id="390">390</th><td>				<b>switch</b> (<a class="local col5 ref" href="#35k" title='k' data-ref="35k">k</a> = <a class="ref" href="#getch" title='getch' data-ref="getch">getch</a>()) {</td></tr>
+<tr><th id="391">391</th><td>					<b>case</b> <kbd>'A'</kbd>: <b>return</b> <a class="enum" href="#KEY_UP" title='KEY_UP' data-ref="KEY_UP">KEY_UP</a>;</td></tr>
+<tr><th id="392">392</th><td>					<b>case</b> <kbd>'B'</kbd>: <b>return</b> <a class="enum" href="#KEY_DOWN" title='KEY_DOWN' data-ref="KEY_DOWN">KEY_DOWN</a>;</td></tr>
+<tr><th id="393">393</th><td>					<b>case</b> <kbd>'C'</kbd>: <b>return</b> <a class="enum" href="#KEY_RIGHT" title='KEY_RIGHT' data-ref="KEY_RIGHT">KEY_RIGHT</a>;</td></tr>
+<tr><th id="394">394</th><td>					<b>case</b> <kbd>'D'</kbd>: <b>return</b> <a class="enum" href="#KEY_LEFT" title='KEY_LEFT' data-ref="KEY_LEFT">KEY_LEFT</a>;</td></tr>
+<tr><th id="395">395</th><td>				}</td></tr>
+<tr><th id="396">396</th><td>			} <b>else</b> <b>return</b> <a class="enum" href="#KEY_ESCAPE" title='KEY_ESCAPE' data-ref="KEY_ESCAPE">KEY_ESCAPE</a>;</td></tr>
+<tr><th id="397">397</th><td>		}</td></tr>
+<tr><th id="398">398</th><td><u>#<span data-ppcond="383">endif</span> // _WIN32</u></td></tr>
+<tr><th id="399">399</th><td>		<b>default</b>: <b>return</b> <a class="local col5 ref" href="#35k" title='k' data-ref="35k">k</a>;</td></tr>
+<tr><th id="400">400</th><td>	}</td></tr>
+<tr><th id="401">401</th><td>}</td></tr>
+<tr><th id="402">402</th><td></td></tr>
+<tr><th id="403">403</th><td><i class="doc">/// Function: nb_getch</i></td></tr>
+<tr><th id="404">404</th><td><i class="doc">/// Non-blocking getch(). Returns 0 if no key was pressed.</i></td></tr>
+<tr><th id="405">405</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>int</em> <dfn class="decl def" id="nb_getch" title='nb_getch' data-ref="nb_getch">nb_getch</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="406">406</th><td>	<b>if</b> (<a class="ref" href="#kbhit" title='kbhit' data-ref="kbhit">kbhit</a>()) <b>return</b> <a class="ref" href="#getch" title='getch' data-ref="getch">getch</a>();</td></tr>
+<tr><th id="407">407</th><td>	<b>else</b> <b>return</b> <var>0</var>;</td></tr>
+<tr><th id="408">408</th><td>}</td></tr>
+<tr><th id="409">409</th><td></td></tr>
+<tr><th id="410">410</th><td><i class="doc">/// Function: getANSIColor</i></td></tr>
+<tr><th id="411">411</th><td><i class="doc">/// Return ANSI color escape sequence for specified number 0-15.</i></td></tr>
+<tr><th id="412">412</th><td><i class="doc">///</i></td></tr>
+<tr><th id="413">413</th><td><i class="doc">/// See &lt;Color Codes&gt;</i></td></tr>
+<tr><th id="414">414</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="getANSIColor" title='getANSIColor' data-ref="getANSIColor">getANSIColor</dfn>(<em>const</em> <em>int</em> <dfn class="local col8 decl" id="38c" title='c' data-type='const int' data-ref="38c">c</dfn>) {</td></tr>
+<tr><th id="415">415</th><td>	<b>switch</b> (<a class="local col8 ref" href="#38c" title='c' data-ref="38c">c</a>) {</td></tr>
+<tr><th id="416">416</th><td>		<b>case</b> <a class="enum" href="#BLACK" title='BLACK' data-ref="BLACK">BLACK</a>       : <b>return</b> <a class="ref" href="#ANSI_BLACK" title='ANSI_BLACK' data-ref="ANSI_BLACK">ANSI_BLACK</a>;</td></tr>
+<tr><th id="417">417</th><td>		<b>case</b> <a class="enum" href="#BLUE" title='BLUE' data-ref="BLUE">BLUE</a>        : <b>return</b> <a class="ref" href="#ANSI_BLUE" title='ANSI_BLUE' data-ref="ANSI_BLUE">ANSI_BLUE</a>; <i>// non-ANSI</i></td></tr>
+<tr><th id="418">418</th><td>		<b>case</b> <a class="enum" href="#GREEN" title='GREEN' data-ref="GREEN">GREEN</a>       : <b>return</b> <a class="ref" href="#ANSI_GREEN" title='ANSI_GREEN' data-ref="ANSI_GREEN">ANSI_GREEN</a>;</td></tr>
+<tr><th id="419">419</th><td>		<b>case</b> <a class="enum" href="#CYAN" title='CYAN' data-ref="CYAN">CYAN</a>        : <b>return</b> <a class="ref" href="#ANSI_CYAN" title='ANSI_CYAN' data-ref="ANSI_CYAN">ANSI_CYAN</a>; <i>// non-ANSI</i></td></tr>
+<tr><th id="420">420</th><td>		<b>case</b> <a class="enum" href="#RED" title='RED' data-ref="RED">RED</a>         : <b>return</b> <a class="ref" href="#ANSI_RED" title='ANSI_RED' data-ref="ANSI_RED">ANSI_RED</a>; <i>// non-ANSI</i></td></tr>
+<tr><th id="421">421</th><td>		<b>case</b> <a class="enum" href="#MAGENTA" title='MAGENTA' data-ref="MAGENTA">MAGENTA</a>     : <b>return</b> <a class="ref" href="#ANSI_MAGENTA" title='ANSI_MAGENTA' data-ref="ANSI_MAGENTA">ANSI_MAGENTA</a>;</td></tr>
+<tr><th id="422">422</th><td>		<b>case</b> <a class="enum" href="#BROWN" title='BROWN' data-ref="BROWN">BROWN</a>       : <b>return</b> <a class="ref" href="#ANSI_BROWN" title='ANSI_BROWN' data-ref="ANSI_BROWN">ANSI_BROWN</a>;</td></tr>
+<tr><th id="423">423</th><td>		<b>case</b> <a class="enum" href="#GREY" title='GREY' data-ref="GREY">GREY</a>        : <b>return</b> <a class="ref" href="#ANSI_GREY" title='ANSI_GREY' data-ref="ANSI_GREY">ANSI_GREY</a>;</td></tr>
+<tr><th id="424">424</th><td>		<b>case</b> <a class="enum" href="#DARKGREY" title='DARKGREY' data-ref="DARKGREY">DARKGREY</a>    : <b>return</b> <a class="ref" href="#ANSI_DARKGREY" title='ANSI_DARKGREY' data-ref="ANSI_DARKGREY">ANSI_DARKGREY</a>;</td></tr>
+<tr><th id="425">425</th><td>		<b>case</b> <a class="enum" href="#LIGHTBLUE" title='LIGHTBLUE' data-ref="LIGHTBLUE">LIGHTBLUE</a>   : <b>return</b> <a class="ref" href="#ANSI_LIGHTBLUE" title='ANSI_LIGHTBLUE' data-ref="ANSI_LIGHTBLUE">ANSI_LIGHTBLUE</a>; <i>// non-ANSI</i></td></tr>
+<tr><th id="426">426</th><td>		<b>case</b> <a class="enum" href="#LIGHTGREEN" title='LIGHTGREEN' data-ref="LIGHTGREEN">LIGHTGREEN</a>  : <b>return</b> <a class="ref" href="#ANSI_LIGHTGREEN" title='ANSI_LIGHTGREEN' data-ref="ANSI_LIGHTGREEN">ANSI_LIGHTGREEN</a>;</td></tr>
+<tr><th id="427">427</th><td>		<b>case</b> <a class="enum" href="#LIGHTCYAN" title='LIGHTCYAN' data-ref="LIGHTCYAN">LIGHTCYAN</a>   : <b>return</b> <a class="ref" href="#ANSI_LIGHTCYAN" title='ANSI_LIGHTCYAN' data-ref="ANSI_LIGHTCYAN">ANSI_LIGHTCYAN</a>; <i>// non-ANSI;</i></td></tr>
+<tr><th id="428">428</th><td>		<b>case</b> <a class="enum" href="#LIGHTRED" title='LIGHTRED' data-ref="LIGHTRED">LIGHTRED</a>    : <b>return</b> <a class="ref" href="#ANSI_LIGHTRED" title='ANSI_LIGHTRED' data-ref="ANSI_LIGHTRED">ANSI_LIGHTRED</a>; <i>// non-ANSI;</i></td></tr>
+<tr><th id="429">429</th><td>		<b>case</b> <a class="enum" href="#LIGHTMAGENTA" title='LIGHTMAGENTA' data-ref="LIGHTMAGENTA">LIGHTMAGENTA</a>: <b>return</b> <a class="ref" href="#ANSI_LIGHTMAGENTA" title='ANSI_LIGHTMAGENTA' data-ref="ANSI_LIGHTMAGENTA">ANSI_LIGHTMAGENTA</a>;</td></tr>
+<tr><th id="430">430</th><td>		<b>case</b> <a class="enum" href="#YELLOW" title='YELLOW' data-ref="YELLOW">YELLOW</a>      : <b>return</b> <a class="ref" href="#ANSI_YELLOW" title='ANSI_YELLOW' data-ref="ANSI_YELLOW">ANSI_YELLOW</a>; <i>// non-ANSI</i></td></tr>
+<tr><th id="431">431</th><td>		<b>case</b> <a class="enum" href="#WHITE" title='WHITE' data-ref="WHITE">WHITE</a>       : <b>return</b> <a class="ref" href="#ANSI_WHITE" title='ANSI_WHITE' data-ref="ANSI_WHITE">ANSI_WHITE</a>;</td></tr>
+<tr><th id="432">432</th><td>		<b>default</b>: <b>return</b> <q>""</q>;</td></tr>
+<tr><th id="433">433</th><td>	}</td></tr>
+<tr><th id="434">434</th><td>}</td></tr>
+<tr><th id="435">435</th><td></td></tr>
+<tr><th id="436">436</th><td><i class="doc">/// Function: getANSIBackgroundColor</i></td></tr>
+<tr><th id="437">437</th><td><i class="doc">/// Return ANSI background color escape sequence for specified number 0-15.</i></td></tr>
+<tr><th id="438">438</th><td><i class="doc">///</i></td></tr>
+<tr><th id="439">439</th><td><i class="doc">/// See &lt;Color Codes&gt;</i></td></tr>
+<tr><th id="440">440</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="decl def" id="getANSIBackgroundColor" title='getANSIBackgroundColor' data-ref="getANSIBackgroundColor">getANSIBackgroundColor</dfn>(<em>const</em> <em>int</em> <dfn class="local col9 decl" id="39c" title='c' data-type='const int' data-ref="39c">c</dfn>) {</td></tr>
+<tr><th id="441">441</th><td>	<b>switch</b> (<a class="local col9 ref" href="#39c" title='c' data-ref="39c">c</a>) {</td></tr>
+<tr><th id="442">442</th><td>		<b>case</b> <a class="enum" href="#BLACK" title='BLACK' data-ref="BLACK">BLACK</a>  : <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_BLACK" title='ANSI_BACKGROUND_BLACK' data-ref="ANSI_BACKGROUND_BLACK">ANSI_BACKGROUND_BLACK</a>;</td></tr>
+<tr><th id="443">443</th><td>		<b>case</b> <a class="enum" href="#BLUE" title='BLUE' data-ref="BLUE">BLUE</a>   : <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_BLUE" title='ANSI_BACKGROUND_BLUE' data-ref="ANSI_BACKGROUND_BLUE">ANSI_BACKGROUND_BLUE</a>;</td></tr>
+<tr><th id="444">444</th><td>		<b>case</b> <a class="enum" href="#GREEN" title='GREEN' data-ref="GREEN">GREEN</a>  : <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_GREEN" title='ANSI_BACKGROUND_GREEN' data-ref="ANSI_BACKGROUND_GREEN">ANSI_BACKGROUND_GREEN</a>;</td></tr>
+<tr><th id="445">445</th><td>		<b>case</b> <a class="enum" href="#CYAN" title='CYAN' data-ref="CYAN">CYAN</a>   : <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_CYAN" title='ANSI_BACKGROUND_CYAN' data-ref="ANSI_BACKGROUND_CYAN">ANSI_BACKGROUND_CYAN</a>;</td></tr>
+<tr><th id="446">446</th><td>		<b>case</b> <a class="enum" href="#RED" title='RED' data-ref="RED">RED</a>    : <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_RED" title='ANSI_BACKGROUND_RED' data-ref="ANSI_BACKGROUND_RED">ANSI_BACKGROUND_RED</a>;</td></tr>
+<tr><th id="447">447</th><td>		<b>case</b> <a class="enum" href="#MAGENTA" title='MAGENTA' data-ref="MAGENTA">MAGENTA</a>: <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_MAGENTA" title='ANSI_BACKGROUND_MAGENTA' data-ref="ANSI_BACKGROUND_MAGENTA">ANSI_BACKGROUND_MAGENTA</a>;</td></tr>
+<tr><th id="448">448</th><td>		<b>case</b> <a class="enum" href="#BROWN" title='BROWN' data-ref="BROWN">BROWN</a>  : <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_YELLOW" title='ANSI_BACKGROUND_YELLOW' data-ref="ANSI_BACKGROUND_YELLOW">ANSI_BACKGROUND_YELLOW</a>;</td></tr>
+<tr><th id="449">449</th><td>		<b>case</b> <a class="enum" href="#GREY" title='GREY' data-ref="GREY">GREY</a>   : <b>return</b> <a class="ref" href="#ANSI_BACKGROUND_WHITE" title='ANSI_BACKGROUND_WHITE' data-ref="ANSI_BACKGROUND_WHITE">ANSI_BACKGROUND_WHITE</a>;</td></tr>
+<tr><th id="450">450</th><td>		<b>default</b>: <b>return</b> <q>""</q>;</td></tr>
+<tr><th id="451">451</th><td>	}</td></tr>
+<tr><th id="452">452</th><td>}</td></tr>
+<tr><th id="453">453</th><td></td></tr>
+<tr><th id="454">454</th><td><i class="doc">/// Function: setColor</i></td></tr>
+<tr><th id="455">455</th><td><i class="doc">/// Change color specified by number (Windows / QBasic colors).</i></td></tr>
+<tr><th id="456">456</th><td><i class="doc">/// Don't change the background color</i></td></tr>
+<tr><th id="457">457</th><td><i class="doc">///</i></td></tr>
+<tr><th id="458">458</th><td><i class="doc">/// See &lt;Color Codes&gt;</i></td></tr>
+<tr><th id="459">459</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="setColor" title='setColor' data-ref="setColor">setColor</dfn>(<em>int</em> <dfn class="local col0 decl" id="40c" title='c' data-type='int' data-ref="40c">c</dfn>) {</td></tr>
+<tr><th id="460">460</th><td><u>#<span data-ppcond="460">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="461">461</th><td>	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);</td></tr>
+<tr><th id="462">462</th><td>	CONSOLE_SCREEN_BUFFER_INFO csbi;</td></tr>
+<tr><th id="463">463</th><td></td></tr>
+<tr><th id="464">464</th><td>	GetConsoleScreenBufferInfo(hConsole, &amp;csbi);</td></tr>
+<tr><th id="465">465</th><td></td></tr>
+<tr><th id="466">466</th><td>	SetConsoleTextAttribute(hConsole, (csbi.wAttributes &amp; <var>0xFFF0</var>) | (WORD)c); <i>// Foreground colors take up the least significant byte</i></td></tr>
+<tr><th id="467">467</th><td><u>#<span data-ppcond="460">else</span></u></td></tr>
+<tr><th id="468">468</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, getANSIColor(c))" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="ref" href="#getANSIColor" title='getANSIColor' data-ref="getANSIColor">getANSIColor</a>(<a class="local col0 ref" href="#40c" title='c' data-ref="40c">c</a>));</td></tr>
+<tr><th id="469">469</th><td><u>#<span data-ppcond="460">endif</span></u></td></tr>
+<tr><th id="470">470</th><td>}</td></tr>
+<tr><th id="471">471</th><td></td></tr>
+<tr><th id="472">472</th><td><i class="doc">/// Function: setBackgroundColor</i></td></tr>
+<tr><th id="473">473</th><td><i class="doc">/// Change background color specified by number (Windows / QBasic colors).</i></td></tr>
+<tr><th id="474">474</th><td><i class="doc">/// Don't change the foreground color</i></td></tr>
+<tr><th id="475">475</th><td><i class="doc">///</i></td></tr>
+<tr><th id="476">476</th><td><i class="doc">/// See &lt;Color Codes&gt;</i></td></tr>
+<tr><th id="477">477</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="setBackgroundColor" title='setBackgroundColor' data-ref="setBackgroundColor">setBackgroundColor</dfn>(<em>int</em> <dfn class="local col1 decl" id="41c" title='c' data-type='int' data-ref="41c">c</dfn>) {</td></tr>
+<tr><th id="478">478</th><td><u>#<span data-ppcond="478">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="479">479</th><td>	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);</td></tr>
+<tr><th id="480">480</th><td>	CONSOLE_SCREEN_BUFFER_INFO csbi;</td></tr>
+<tr><th id="481">481</th><td></td></tr>
+<tr><th id="482">482</th><td>	GetConsoleScreenBufferInfo(hConsole, &amp;csbi);</td></tr>
+<tr><th id="483">483</th><td></td></tr>
+<tr><th id="484">484</th><td>	SetConsoleTextAttribute(hConsole, (csbi.wAttributes &amp; <var>0xFF0F</var>) | (((WORD)c) &lt;&lt; <var>4</var>)); <i>// Background colors take up the second-least significant byte</i></td></tr>
+<tr><th id="485">485</th><td><u>#<span data-ppcond="478">else</span></u></td></tr>
+<tr><th id="486">486</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, getANSIBackgroundColor(c))" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="ref" href="#getANSIBackgroundColor" title='getANSIBackgroundColor' data-ref="getANSIBackgroundColor">getANSIBackgroundColor</a>(<a class="local col1 ref" href="#41c" title='c' data-ref="41c">c</a>));</td></tr>
+<tr><th id="487">487</th><td><u>#<span data-ppcond="478">endif</span></u></td></tr>
+<tr><th id="488">488</th><td>}</td></tr>
+<tr><th id="489">489</th><td></td></tr>
+<tr><th id="490">490</th><td><i class="doc">/// Function: saveDefaultColor</i></td></tr>
+<tr><th id="491">491</th><td><i class="doc">/// Call once to preserve colors for use in resetColor()</i></td></tr>
+<tr><th id="492">492</th><td><i class="doc">/// on Windows without ANSI, no-op otherwise</i></td></tr>
+<tr><th id="493">493</th><td><i class="doc">///</i></td></tr>
+<tr><th id="494">494</th><td><i class="doc">/// See &lt;Color Codes&gt;</i></td></tr>
+<tr><th id="495">495</th><td><i class="doc">/// See &lt;resetColor&gt;</i></td></tr>
+<tr><th id="496">496</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>int</em> <dfn class="decl def" id="saveDefaultColor" title='saveDefaultColor' data-ref="saveDefaultColor">saveDefaultColor</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="497">497</th><td><u>#<span data-ppcond="497">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="498">498</th><td>	<em>static</em> <em>char</em> initialized = <var>0</var>; <i>// bool</i></td></tr>
+<tr><th id="499">499</th><td>	<em>static</em> WORD attributes;</td></tr>
+<tr><th id="500">500</th><td></td></tr>
+<tr><th id="501">501</th><td>	<b>if</b> (!initialized) {</td></tr>
+<tr><th id="502">502</th><td>		CONSOLE_SCREEN_BUFFER_INFO csbi;</td></tr>
+<tr><th id="503">503</th><td>		GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &amp;csbi);</td></tr>
+<tr><th id="504">504</th><td>		attributes = csbi.wAttributes;</td></tr>
+<tr><th id="505">505</th><td>		initialized = <var>1</var>;</td></tr>
+<tr><th id="506">506</th><td>	}</td></tr>
+<tr><th id="507">507</th><td>	<b>return</b> (<em>int</em>)attributes;</td></tr>
+<tr><th id="508">508</th><td><u>#<span data-ppcond="497">else</span></u></td></tr>
+<tr><th id="509">509</th><td>	<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="510">510</th><td><u>#<span data-ppcond="497">endif</span></u></td></tr>
+<tr><th id="511">511</th><td>}</td></tr>
+<tr><th id="512">512</th><td></td></tr>
+<tr><th id="513">513</th><td><i class="doc">/// Function: resetColor</i></td></tr>
+<tr><th id="514">514</th><td><i class="doc">/// Reset color to default</i></td></tr>
+<tr><th id="515">515</th><td><i class="doc">/// Requires a call to saveDefaultColor() to set the defaults</i></td></tr>
+<tr><th id="516">516</th><td><i class="doc">///</i></td></tr>
+<tr><th id="517">517</th><td><i class="doc">/// See &lt;Color Codes&gt;</i></td></tr>
+<tr><th id="518">518</th><td><i class="doc">/// See &lt;setColor&gt;</i></td></tr>
+<tr><th id="519">519</th><td><i class="doc">/// See &lt;saveDefaultColor&gt;</i></td></tr>
+<tr><th id="520">520</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="resetColor" title='resetColor' data-ref="resetColor">resetColor</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="521">521</th><td><u>#<span data-ppcond="521">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="522">522</th><td>	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), (WORD)saveDefaultColor());</td></tr>
+<tr><th id="523">523</th><td><u>#<span data-ppcond="521">else</span></u></td></tr>
+<tr><th id="524">524</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, ANSI_ATTRIBUTE_RESET)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="ref" href="#ANSI_ATTRIBUTE_RESET" title='ANSI_ATTRIBUTE_RESET' data-ref="ANSI_ATTRIBUTE_RESET">ANSI_ATTRIBUTE_RESET</a>);</td></tr>
+<tr><th id="525">525</th><td><u>#<span data-ppcond="521">endif</span></u></td></tr>
+<tr><th id="526">526</th><td>}</td></tr>
+<tr><th id="527">527</th><td></td></tr>
+<tr><th id="528">528</th><td><i class="doc">/// Function: cls</i></td></tr>
+<tr><th id="529">529</th><td><i class="doc">/// Clears screen, resets all attributes and moves cursor home.</i></td></tr>
+<tr><th id="530">530</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="cls" title='cls' data-ref="cls">cls</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="531">531</th><td><u>#<span data-ppcond="531">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="532">532</th><td>	<i>// Based on <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms682022%28v=vs.85%29.aspx">https://msdn.microsoft.com/en-us/library/windows/desktop/ms682022%28v=vs.85%29.aspx</a></i></td></tr>
+<tr><th id="533">533</th><td>	<em>const</em> HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);</td></tr>
+<tr><th id="534">534</th><td>	<em>const</em> COORD coordScreen = {<var>0</var>, <var>0</var>};</td></tr>
+<tr><th id="535">535</th><td>	DWORD cCharsWritten;</td></tr>
+<tr><th id="536">536</th><td>	CONSOLE_SCREEN_BUFFER_INFO csbi;</td></tr>
+<tr><th id="537">537</th><td></td></tr>
+<tr><th id="538">538</th><td>	GetConsoleScreenBufferInfo(hConsole, &amp;csbi);</td></tr>
+<tr><th id="539">539</th><td>	<em>const</em> DWORD dwConSize = csbi.dwSize.X * csbi.dwSize.Y;</td></tr>
+<tr><th id="540">540</th><td>	FillConsoleOutputCharacter(hConsole, (TCHAR)<kbd>' '</kbd>, dwConSize, coordScreen, &amp;cCharsWritten);</td></tr>
+<tr><th id="541">541</th><td></td></tr>
+<tr><th id="542">542</th><td>	GetConsoleScreenBufferInfo(hConsole, &amp;csbi);</td></tr>
+<tr><th id="543">543</th><td>	FillConsoleOutputAttribute(hConsole, csbi.wAttributes, dwConSize, coordScreen, &amp;cCharsWritten);</td></tr>
+<tr><th id="544">544</th><td></td></tr>
+<tr><th id="545">545</th><td>	SetConsoleCursorPosition(hConsole, coordScreen);</td></tr>
+<tr><th id="546">546</th><td><u>#<span data-ppcond="531">else</span></u></td></tr>
+<tr><th id="547">547</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, ANSI_CLS)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="ref" href="#ANSI_CLS" title='ANSI_CLS' data-ref="ANSI_CLS">ANSI_CLS</a>);</td></tr>
+<tr><th id="548">548</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, ANSI_CURSOR_HOME)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="ref" href="#ANSI_CURSOR_HOME" title='ANSI_CURSOR_HOME' data-ref="ANSI_CURSOR_HOME">ANSI_CURSOR_HOME</a>);</td></tr>
+<tr><th id="549">549</th><td><u>#<span data-ppcond="531">endif</span></u></td></tr>
+<tr><th id="550">550</th><td>}</td></tr>
+<tr><th id="551">551</th><td></td></tr>
+<tr><th id="552">552</th><td><i class="doc">/// Function: locate</i></td></tr>
+<tr><th id="553">553</th><td><i class="doc">/// Sets the cursor position to 1-based x,y.</i></td></tr>
+<tr><th id="554">554</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="locate" title='locate' data-ref="locate">locate</dfn>(<em>int</em> <dfn class="local col2 decl" id="42x" title='x' data-type='int' data-ref="42x">x</dfn>, <em>int</em> <dfn class="local col3 decl" id="43y" title='y' data-type='int' data-ref="43y">y</dfn>) {</td></tr>
+<tr><th id="555">555</th><td><u>#<span data-ppcond="555">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="556">556</th><td>	COORD coord;</td></tr>
+<tr><th id="557">557</th><td>	<i>// TODO: clamping/assert for x/y &lt;= 0?</i></td></tr>
+<tr><th id="558">558</th><td>	coord.X = (SHORT)(x - <var>1</var>);</td></tr>
+<tr><th id="559">559</th><td>	coord.Y = (SHORT)(y - <var>1</var>); <i>// Windows uses 0-based coordinates</i></td></tr>
+<tr><th id="560">560</th><td>	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);</td></tr>
+<tr><th id="561">561</th><td><u>#<span data-ppcond="555">else</span> // _WIN32 || USE_ANSI</u></td></tr>
+<tr><th id="562">562</th><td>	<u>#<span data-ppcond="562">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="563">563</th><td>		RLUTIL_PRINT(<q>"\033["</q> &lt;&lt; y &lt;&lt; <q>";"</q> &lt;&lt; x &lt;&lt; <q>"H"</q>);</td></tr>
+<tr><th id="564">564</th><td>	<u>#<span data-ppcond="562">else</span> // __cplusplus</u></td></tr>
+<tr><th id="565">565</th><td>		<em>char</em> <dfn class="local col4 decl" id="44buf" title='buf' data-type='char [32]' data-ref="44buf">buf</dfn>[<var>32</var>];</td></tr>
+<tr><th id="566">566</th><td>		<a class="ref" href="../../../../include/stdio.h.html#sprintf" title='sprintf' data-ref="sprintf">sprintf</a>(<a class="local col4 ref" href="#44buf" title='buf' data-ref="44buf">buf</a>, <q>"\033[%d;%df"</q>, <a class="local col3 ref" href="#43y" title='y' data-ref="43y">y</a>, <a class="local col2 ref" href="#42x" title='x' data-ref="42x">x</a>);</td></tr>
+<tr><th id="567">567</th><td>		<a class="macro" href="#146" title="printf(&quot;%s&quot;, buf)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="local col4 ref" href="#44buf" title='buf' data-ref="44buf">buf</a>);</td></tr>
+<tr><th id="568">568</th><td>	<u>#<span data-ppcond="562">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="569">569</th><td><u>#<span data-ppcond="555">endif</span> // _WIN32 || USE_ANSI</u></td></tr>
+<tr><th id="570">570</th><td>}</td></tr>
+<tr><th id="571">571</th><td></td></tr>
+<tr><th id="572">572</th><td><i class="doc">/// Function: setString</i></td></tr>
+<tr><th id="573">573</th><td><i class="doc">/// Prints the supplied string without advancing the cursor</i></td></tr>
+<tr><th id="574">574</th><td><u>#<span data-ppcond="574">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="575">575</th><td>RLUTIL_INLINE <em>void</em> setString(<em>const</em> RLUTIL_STRING_T &amp; str_) {</td></tr>
+<tr><th id="576">576</th><td>	<em>const</em> <em>char</em> * <em>const</em> str = str_.data();</td></tr>
+<tr><th id="577">577</th><td>	<em>unsigned</em> <em>int</em> len = str_.size();</td></tr>
+<tr><th id="578">578</th><td><u>#<span data-ppcond="574">else</span> // __cplusplus</u></td></tr>
+<tr><th id="579">579</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="setString" title='setString' data-ref="setString">setString</dfn>(<a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="local col5 decl" id="45str" title='str' data-type='RLUTIL_STRING_T' data-ref="45str">str</dfn>) {</td></tr>
+<tr><th id="580">580</th><td>	<em>unsigned</em> <em>int</em> <dfn class="local col6 decl" id="46len" title='len' data-type='unsigned int' data-ref="46len">len</dfn> = <a class="ref" href="../../../../include/string.h.html#strlen" title='strlen' data-ref="strlen">strlen</a>(<a class="local col5 ref" href="#45str" title='str' data-ref="45str">str</a>);</td></tr>
+<tr><th id="581">581</th><td><u>#<span data-ppcond="574">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="582">582</th><td><u>#<span data-ppcond="582">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="583">583</th><td>	HANDLE hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);</td></tr>
+<tr><th id="584">584</th><td>	DWORD numberOfCharsWritten;</td></tr>
+<tr><th id="585">585</th><td>	CONSOLE_SCREEN_BUFFER_INFO csbi;</td></tr>
+<tr><th id="586">586</th><td></td></tr>
+<tr><th id="587">587</th><td>	GetConsoleScreenBufferInfo(hConsoleOutput, &amp;csbi);</td></tr>
+<tr><th id="588">588</th><td>	WriteConsoleOutputCharacter(hConsoleOutput, str, len, csbi.dwCursorPosition, &amp;numberOfCharsWritten);</td></tr>
+<tr><th id="589">589</th><td><u>#<span data-ppcond="582">else</span> // _WIN32 || USE_ANSI</u></td></tr>
+<tr><th id="590">590</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, str)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="local col5 ref" href="#45str" title='str' data-ref="45str">str</a>);</td></tr>
+<tr><th id="591">591</th><td>	<u>#<span data-ppcond="591">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="592">592</th><td>		RLUTIL_PRINT(<q>"\033["</q> &lt;&lt; len &lt;&lt; <kbd>'D'</kbd>);</td></tr>
+<tr><th id="593">593</th><td>	<u>#<span data-ppcond="591">else</span> // __cplusplus</u></td></tr>
+<tr><th id="594">594</th><td>		<em>char</em> <dfn class="local col7 decl" id="47buf" title='buf' data-type='char [24]' data-ref="47buf">buf</dfn>[<var>3</var> + <var>20</var> + <var>1</var>]; <i>// 20 = max length of 64-bit unsigned int when printed as dec</i></td></tr>
+<tr><th id="595">595</th><td>		<a class="ref" href="../../../../include/stdio.h.html#sprintf" title='sprintf' data-ref="sprintf">sprintf</a>(<a class="local col7 ref" href="#47buf" title='buf' data-ref="47buf">buf</a>, <q>"\033[%uD"</q>, <a class="local col6 ref" href="#46len" title='len' data-ref="46len">len</a>);</td></tr>
+<tr><th id="596">596</th><td>		<a class="macro" href="#146" title="printf(&quot;%s&quot;, buf)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="local col7 ref" href="#47buf" title='buf' data-ref="47buf">buf</a>);</td></tr>
+<tr><th id="597">597</th><td>	<u>#<span data-ppcond="591">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="598">598</th><td><u>#<span data-ppcond="582">endif</span> // _WIN32 || USE_ANSI</u></td></tr>
+<tr><th id="599">599</th><td>}</td></tr>
+<tr><th id="600">600</th><td></td></tr>
+<tr><th id="601">601</th><td><i class="doc">/// Function: setChar</i></td></tr>
+<tr><th id="602">602</th><td><i class="doc">/// Sets the character at the cursor without advancing the cursor</i></td></tr>
+<tr><th id="603">603</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="setChar" title='setChar' data-ref="setChar">setChar</dfn>(<em>char</em> <dfn class="local col8 decl" id="48ch" title='ch' data-type='char' data-ref="48ch">ch</dfn>) {</td></tr>
+<tr><th id="604">604</th><td>	<em>const</em> <em>char</em> <dfn class="local col9 decl" id="49buf" title='buf' data-type='const char [2]' data-ref="49buf">buf</dfn>[] = {<a class="local col8 ref" href="#48ch" title='ch' data-ref="48ch">ch</a>, <var>0</var>};</td></tr>
+<tr><th id="605">605</th><td>	<a class="ref" href="#setString" title='setString' data-ref="setString">setString</a>(<a class="local col9 ref" href="#49buf" title='buf' data-ref="49buf">buf</a>);</td></tr>
+<tr><th id="606">606</th><td>}</td></tr>
+<tr><th id="607">607</th><td></td></tr>
+<tr><th id="608">608</th><td><i class="doc">/// Function: setCursorVisibility</i></td></tr>
+<tr><th id="609">609</th><td><i class="doc">/// Shows/hides the cursor.</i></td></tr>
+<tr><th id="610">610</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="setCursorVisibility" title='setCursorVisibility' data-ref="setCursorVisibility">setCursorVisibility</dfn>(<em>char</em> <dfn class="local col0 decl" id="50visible" title='visible' data-type='char' data-ref="50visible">visible</dfn>) {</td></tr>
+<tr><th id="611">611</th><td><u>#<span data-ppcond="611">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="612">612</th><td>	HANDLE hConsoleOutput = GetStdHandle( STD_OUTPUT_HANDLE );</td></tr>
+<tr><th id="613">613</th><td>	CONSOLE_CURSOR_INFO structCursorInfo;</td></tr>
+<tr><th id="614">614</th><td>	GetConsoleCursorInfo( hConsoleOutput, &amp;structCursorInfo ); <i>// Get current cursor size</i></td></tr>
+<tr><th id="615">615</th><td>	structCursorInfo.bVisible = (visible ? TRUE : FALSE);</td></tr>
+<tr><th id="616">616</th><td>	SetConsoleCursorInfo( hConsoleOutput, &amp;structCursorInfo );</td></tr>
+<tr><th id="617">617</th><td><u>#<span data-ppcond="611">else</span> // _WIN32 || USE_ANSI</u></td></tr>
+<tr><th id="618">618</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, (visible ? ANSI_CURSOR_SHOW : ANSI_CURSOR_HIDE))" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>((<a class="local col0 ref" href="#50visible" title='visible' data-ref="50visible">visible</a> ? <a class="ref" href="#ANSI_CURSOR_SHOW" title='ANSI_CURSOR_SHOW' data-ref="ANSI_CURSOR_SHOW">ANSI_CURSOR_SHOW</a> : <a class="ref" href="#ANSI_CURSOR_HIDE" title='ANSI_CURSOR_HIDE' data-ref="ANSI_CURSOR_HIDE">ANSI_CURSOR_HIDE</a>));</td></tr>
+<tr><th id="619">619</th><td><u>#<span data-ppcond="611">endif</span> // _WIN32 || USE_ANSI</u></td></tr>
+<tr><th id="620">620</th><td>}</td></tr>
+<tr><th id="621">621</th><td></td></tr>
+<tr><th id="622">622</th><td><i class="doc">/// Function: hidecursor</i></td></tr>
+<tr><th id="623">623</th><td><i class="doc">/// Hides the cursor.</i></td></tr>
+<tr><th id="624">624</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="hidecursor" title='hidecursor' data-ref="hidecursor">hidecursor</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="625">625</th><td>	<a class="ref" href="#setCursorVisibility" title='setCursorVisibility' data-ref="setCursorVisibility">setCursorVisibility</a>(<var>0</var>);</td></tr>
+<tr><th id="626">626</th><td>}</td></tr>
+<tr><th id="627">627</th><td></td></tr>
+<tr><th id="628">628</th><td><i class="doc">/// Function: showcursor</i></td></tr>
+<tr><th id="629">629</th><td><i class="doc">/// Shows the cursor.</i></td></tr>
+<tr><th id="630">630</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="showcursor" title='showcursor' data-ref="showcursor">showcursor</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="631">631</th><td>	<a class="ref" href="#setCursorVisibility" title='setCursorVisibility' data-ref="setCursorVisibility">setCursorVisibility</a>(<var>1</var>);</td></tr>
+<tr><th id="632">632</th><td>}</td></tr>
+<tr><th id="633">633</th><td></td></tr>
+<tr><th id="634">634</th><td><i class="doc">/// Function: msleep</i></td></tr>
+<tr><th id="635">635</th><td><i class="doc">/// Waits given number of milliseconds before continuing.</i></td></tr>
+<tr><th id="636">636</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="msleep" title='msleep' data-ref="msleep">msleep</dfn>(<em>unsigned</em> <em>int</em> <dfn class="local col1 decl" id="51ms" title='ms' data-type='unsigned int' data-ref="51ms">ms</dfn>) {</td></tr>
+<tr><th id="637">637</th><td><u>#<span data-ppcond="637">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="638">638</th><td>	Sleep(ms);</td></tr>
+<tr><th id="639">639</th><td><u>#<span data-ppcond="637">else</span></u></td></tr>
+<tr><th id="640">640</th><td>	<i>// usleep argument must be under 1 000 000</i></td></tr>
+<tr><th id="641">641</th><td>	<b>if</b> (<a class="local col1 ref" href="#51ms" title='ms' data-ref="51ms">ms</a> &gt; <var>1000</var>) <a class="ref" href="../../../../include/unistd.h.html#sleep" title='sleep' data-ref="sleep">sleep</a>(<a class="local col1 ref" href="#51ms" title='ms' data-ref="51ms">ms</a>/<var>1000000</var>);</td></tr>
+<tr><th id="642">642</th><td>	<a class="ref" href="../../../../include/unistd.h.html#usleep" title='usleep' data-ref="usleep">usleep</a>((<a class="local col1 ref" href="#51ms" title='ms' data-ref="51ms">ms</a> % <var>1000000</var>) * <var>1000</var>);</td></tr>
+<tr><th id="643">643</th><td><u>#<span data-ppcond="637">endif</span></u></td></tr>
+<tr><th id="644">644</th><td>}</td></tr>
+<tr><th id="645">645</th><td></td></tr>
+<tr><th id="646">646</th><td><i class="doc">/// Function: trows</i></td></tr>
+<tr><th id="647">647</th><td><i class="doc">/// Get the number of rows in the terminal window or -1 on error.</i></td></tr>
+<tr><th id="648">648</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>int</em> <dfn class="decl def" id="trows" title='trows' data-ref="trows">trows</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="649">649</th><td><u>#<span data-ppcond="649">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="650">650</th><td>	CONSOLE_SCREEN_BUFFER_INFO csbi;</td></tr>
+<tr><th id="651">651</th><td>	<b>if</b> (!GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &amp;csbi))</td></tr>
+<tr><th id="652">652</th><td>		<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="653">653</th><td>	<b>else</b></td></tr>
+<tr><th id="654">654</th><td>		<b>return</b> csbi.srWindow.Bottom - csbi.srWindow.Top + <var>1</var>; <i>// Window height</i></td></tr>
+<tr><th id="655">655</th><td>		<i>// return csbi.dwSize.Y; // Buffer height</i></td></tr>
+<tr><th id="656">656</th><td><u>#<span data-ppcond="649">else</span></u></td></tr>
+<tr><th id="657">657</th><td><u>#<span data-ppcond="657">ifdef</span> <span class="macro" data-ref="_M/TIOCGSIZE">TIOCGSIZE</span></u></td></tr>
+<tr><th id="658">658</th><td>	<b>struct</b> ttysize ts;</td></tr>
+<tr><th id="659">659</th><td>	ioctl(STDIN_FILENO, TIOCGSIZE, &amp;ts);</td></tr>
+<tr><th id="660">660</th><td>	<b>return</b> ts.ts_lines;</td></tr>
+<tr><th id="661">661</th><td><u>#<span data-ppcond="657">elif</span> defined(<a class="macro" href="../../../../include/asm-generic/ioctls.h.html#37" data-ref="_M/TIOCGWINSZ">TIOCGWINSZ</a>)</u></td></tr>
+<tr><th id="662">662</th><td>	<b>struct</b> <a class="type" href="../../../../include/x86_64-linux-gnu/bits/ioctl-types.h.html#winsize" title='winsize' data-ref="winsize">winsize</a> <dfn class="local col2 decl" id="52ts" title='ts' data-type='struct winsize' data-ref="52ts">ts</dfn>;</td></tr>
+<tr><th id="663">663</th><td>	<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/ioctl.h.html#ioctl" title='ioctl' data-ref="ioctl">ioctl</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, <a class="macro" href="../../../../include/asm-generic/ioctls.h.html#37" title="0x5413" data-ref="_M/TIOCGWINSZ">TIOCGWINSZ</a>, &amp;<a class="local col2 ref" href="#52ts" title='ts' data-ref="52ts">ts</a>);</td></tr>
+<tr><th id="664">664</th><td>	<b>return</b> <a class="local col2 ref" href="#52ts" title='ts' data-ref="52ts">ts</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/ioctl-types.h.html#winsize::ws_row" title='winsize::ws_row' data-ref="winsize::ws_row">ws_row</a>;</td></tr>
+<tr><th id="665">665</th><td><u>#<span data-ppcond="657">else</span> // TIOCGSIZE</u></td></tr>
+<tr><th id="666">666</th><td>	<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="667">667</th><td><u>#<span data-ppcond="657">endif</span> // TIOCGSIZE</u></td></tr>
+<tr><th id="668">668</th><td><u>#<span data-ppcond="649">endif</span> // _WIN32</u></td></tr>
+<tr><th id="669">669</th><td>}</td></tr>
+<tr><th id="670">670</th><td></td></tr>
+<tr><th id="671">671</th><td><i class="doc">/// Function: tcols</i></td></tr>
+<tr><th id="672">672</th><td><i class="doc">/// Get the number of columns in the terminal window or -1 on error.</i></td></tr>
+<tr><th id="673">673</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>int</em> <dfn class="decl def" id="tcols" title='tcols' data-ref="tcols">tcols</dfn>(<em>void</em>) {</td></tr>
+<tr><th id="674">674</th><td><u>#<span data-ppcond="674">ifdef</span> <span class="macro" data-ref="_M/_WIN32">_WIN32</span></u></td></tr>
+<tr><th id="675">675</th><td>	CONSOLE_SCREEN_BUFFER_INFO csbi;</td></tr>
+<tr><th id="676">676</th><td>	<b>if</b> (!GetConsoleScreenBufferInfo(GetStdHandle(STD_OUTPUT_HANDLE), &amp;csbi))</td></tr>
+<tr><th id="677">677</th><td>		<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="678">678</th><td>	<b>else</b></td></tr>
+<tr><th id="679">679</th><td>		<b>return</b> csbi.srWindow.Right - csbi.srWindow.Left + <var>1</var>; <i>// Window width</i></td></tr>
+<tr><th id="680">680</th><td>		<i>// return csbi.dwSize.X; // Buffer width</i></td></tr>
+<tr><th id="681">681</th><td><u>#<span data-ppcond="674">else</span></u></td></tr>
+<tr><th id="682">682</th><td><u>#<span data-ppcond="682">ifdef</span> <span class="macro" data-ref="_M/TIOCGSIZE">TIOCGSIZE</span></u></td></tr>
+<tr><th id="683">683</th><td>	<b>struct</b> ttysize ts;</td></tr>
+<tr><th id="684">684</th><td>	ioctl(STDIN_FILENO, TIOCGSIZE, &amp;ts);</td></tr>
+<tr><th id="685">685</th><td>	<b>return</b> ts.ts_cols;</td></tr>
+<tr><th id="686">686</th><td><u>#<span data-ppcond="682">elif</span> defined(<a class="macro" href="../../../../include/asm-generic/ioctls.h.html#37" data-ref="_M/TIOCGWINSZ">TIOCGWINSZ</a>)</u></td></tr>
+<tr><th id="687">687</th><td>	<b>struct</b> <a class="type" href="../../../../include/x86_64-linux-gnu/bits/ioctl-types.h.html#winsize" title='winsize' data-ref="winsize">winsize</a> <dfn class="local col3 decl" id="53ts" title='ts' data-type='struct winsize' data-ref="53ts">ts</dfn>;</td></tr>
+<tr><th id="688">688</th><td>	<a class="ref" href="../../../../include/x86_64-linux-gnu/sys/ioctl.h.html#ioctl" title='ioctl' data-ref="ioctl">ioctl</a>(<a class="macro" href="../../../../include/unistd.h.html#213" title="0" data-ref="_M/STDIN_FILENO">STDIN_FILENO</a>, <a class="macro" href="../../../../include/asm-generic/ioctls.h.html#37" title="0x5413" data-ref="_M/TIOCGWINSZ">TIOCGWINSZ</a>, &amp;<a class="local col3 ref" href="#53ts" title='ts' data-ref="53ts">ts</a>);</td></tr>
+<tr><th id="689">689</th><td>	<b>return</b> <a class="local col3 ref" href="#53ts" title='ts' data-ref="53ts">ts</a>.<a class="ref" href="../../../../include/x86_64-linux-gnu/bits/ioctl-types.h.html#winsize::ws_col" title='winsize::ws_col' data-ref="winsize::ws_col">ws_col</a>;</td></tr>
+<tr><th id="690">690</th><td><u>#<span data-ppcond="682">else</span> // TIOCGSIZE</u></td></tr>
+<tr><th id="691">691</th><td>	<b>return</b> -<var>1</var>;</td></tr>
+<tr><th id="692">692</th><td><u>#<span data-ppcond="682">endif</span> // TIOCGSIZE</u></td></tr>
+<tr><th id="693">693</th><td><u>#<span data-ppcond="674">endif</span> // _WIN32</u></td></tr>
+<tr><th id="694">694</th><td>}</td></tr>
+<tr><th id="695">695</th><td></td></tr>
+<tr><th id="696">696</th><td><i class="doc">/// Function: anykey</i></td></tr>
+<tr><th id="697">697</th><td><i class="doc">/// Waits until a key is pressed.</i></td></tr>
+<tr><th id="698">698</th><td><i class="doc">/// In C++, it either takes no arguments</i></td></tr>
+<tr><th id="699">699</th><td><i class="doc">/// or a template-type-argument-deduced</i></td></tr>
+<tr><th id="700">700</th><td><i class="doc">/// argument.</i></td></tr>
+<tr><th id="701">701</th><td><i class="doc">/// In C, it takes a const char* representing</i></td></tr>
+<tr><th id="702">702</th><td><i class="doc">/// the message to be displayed, or NULL</i></td></tr>
+<tr><th id="703">703</th><td><i class="doc">/// for no message.</i></td></tr>
+<tr><th id="704">704</th><td><u>#<span data-ppcond="704">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="705">705</th><td>RLUTIL_INLINE <em>void</em> anykey() {</td></tr>
+<tr><th id="706">706</th><td>	getch();</td></tr>
+<tr><th id="707">707</th><td>}</td></tr>
+<tr><th id="708">708</th><td></td></tr>
+<tr><th id="709">709</th><td>template &lt;class T&gt; <em>void</em> anykey(<em>const</em> T&amp; msg) {</td></tr>
+<tr><th id="710">710</th><td>	RLUTIL_PRINT(msg);</td></tr>
+<tr><th id="711">711</th><td><u>#<span data-ppcond="704">else</span></u></td></tr>
+<tr><th id="712">712</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="anykey" title='anykey' data-ref="anykey">anykey</dfn>(<a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="local col4 decl" id="54msg" title='msg' data-type='RLUTIL_STRING_T' data-ref="54msg">msg</dfn>) {</td></tr>
+<tr><th id="713">713</th><td>	<b>if</b> (<a class="local col4 ref" href="#54msg" title='msg' data-ref="54msg">msg</a>)</td></tr>
+<tr><th id="714">714</th><td>		<a class="macro" href="#146" title="printf(&quot;%s&quot;, msg)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="local col4 ref" href="#54msg" title='msg' data-ref="54msg">msg</a>);</td></tr>
+<tr><th id="715">715</th><td><u>#<span data-ppcond="704">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="716">716</th><td>	<a class="ref" href="#getch" title='getch' data-ref="getch">getch</a>();</td></tr>
+<tr><th id="717">717</th><td>}</td></tr>
+<tr><th id="718">718</th><td></td></tr>
+<tr><th id="719">719</th><td><a class="macro" href="#37" title="static __inline__" data-ref="_M/RLUTIL_INLINE">RLUTIL_INLINE</a> <em>void</em> <dfn class="decl def" id="setConsoleTitle" title='setConsoleTitle' data-ref="setConsoleTitle">setConsoleTitle</dfn>(<a class="typedef" href="#RLUTIL_STRING_T" title='RLUTIL_STRING_T' data-type='const char *' data-ref="RLUTIL_STRING_T">RLUTIL_STRING_T</a> <dfn class="local col5 decl" id="55title" title='title' data-type='RLUTIL_STRING_T' data-ref="55title">title</dfn>) {</td></tr>
+<tr><th id="720">720</th><td>	<em>const</em> <em>char</em> * <dfn class="local col6 decl" id="56true_title" title='true_title' data-type='const char *' data-ref="56true_title">true_title</dfn> =</td></tr>
+<tr><th id="721">721</th><td><u>#<span data-ppcond="721">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="722">722</th><td>		title.c_str();</td></tr>
+<tr><th id="723">723</th><td><u>#<span data-ppcond="721">else</span> // __cplusplus</u></td></tr>
+<tr><th id="724">724</th><td>		<a class="local col5 ref" href="#55title" title='title' data-ref="55title">title</a>;</td></tr>
+<tr><th id="725">725</th><td><u>#<span data-ppcond="721">endif</span> // __cplusplus</u></td></tr>
+<tr><th id="726">726</th><td><u>#<span data-ppcond="726">if</span> defined(<span class="macro" data-ref="_M/_WIN32">_WIN32</span>) &amp;&amp; !defined(<span class="macro" data-ref="_M/RLUTIL_USE_ANSI">RLUTIL_USE_ANSI</span>)</u></td></tr>
+<tr><th id="727">727</th><td>	SetConsoleTitleA(true_title);</td></tr>
+<tr><th id="728">728</th><td><u>#<span data-ppcond="726">else</span></u></td></tr>
+<tr><th id="729">729</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, ANSI_CONSOLE_TITLE_PRE)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="ref" href="#ANSI_CONSOLE_TITLE_PRE" title='ANSI_CONSOLE_TITLE_PRE' data-ref="ANSI_CONSOLE_TITLE_PRE">ANSI_CONSOLE_TITLE_PRE</a>);</td></tr>
+<tr><th id="730">730</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, true_title)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="local col6 ref" href="#56true_title" title='true_title' data-ref="56true_title">true_title</a>);</td></tr>
+<tr><th id="731">731</th><td>	<a class="macro" href="#146" title="printf(&quot;%s&quot;, ANSI_CONSOLE_TITLE_POST)" data-ref="_M/RLUTIL_PRINT">RLUTIL_PRINT</a>(<a class="ref" href="#ANSI_CONSOLE_TITLE_POST" title='ANSI_CONSOLE_TITLE_POST' data-ref="ANSI_CONSOLE_TITLE_POST">ANSI_CONSOLE_TITLE_POST</a>);</td></tr>
+<tr><th id="732">732</th><td><u>#<span data-ppcond="726">endif</span> // defined(_WIN32) &amp;&amp; !defined(RLUTIL_USE_ANSI)</u></td></tr>
+<tr><th id="733">733</th><td>}</td></tr>
+<tr><th id="734">734</th><td></td></tr>
+<tr><th id="735">735</th><td><i>// Classes are here at the end so that documentation is pretty.</i></td></tr>
+<tr><th id="736">736</th><td></td></tr>
+<tr><th id="737">737</th><td><u>#<span data-ppcond="737">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="738">738</th><td><i class="doc">/// Class: CursorHider</i></td></tr>
+<tr><th id="739">739</th><td><i class="doc">/// RAII OOP wrapper for &lt;rlutil.hidecursor&gt;.</i></td></tr>
+<tr><th id="740">740</th><td><i class="doc">/// Hides the cursor and shows it again</i></td></tr>
+<tr><th id="741">741</th><td><i class="doc">/// when the object goes out of scope.</i></td></tr>
+<tr><th id="742">742</th><td><b>struct</b> CursorHider {</td></tr>
+<tr><th id="743">743</th><td>	CursorHider() { hidecursor(); }</td></tr>
+<tr><th id="744">744</th><td>	~CursorHider() { showcursor(); }</td></tr>
+<tr><th id="745">745</th><td>};</td></tr>
+<tr><th id="746">746</th><td></td></tr>
+<tr><th id="747">747</th><td>} <i>// namespace rlutil</i></td></tr>
+<tr><th id="748">748</th><td><u>#<span data-ppcond="737">endif</span></u></td></tr>
+<tr><th id="749">749</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../log.c.html'>codebrowser/src/cdogs/log.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2943' type='struct nk_vec2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15984' u='w' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19739' u='r' c='nk_text_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19767' u='r' c='nk_text_wrap_colored'/>
+<offset>32</offset>

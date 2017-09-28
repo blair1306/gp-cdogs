@@ -1,0 +1,16 @@
+<def f='codebrowser/src/cdogs/tile.h' l='117' ll='133'/>
+<size>168</size>
+<mbr r='TileItem::x' o='0' t='int'/>
+<mbr r='TileItem::y' o='32' t='int'/>
+<mbr r='TileItem::VelFull' o='64' t='Vec2i'/>
+<mbr r='TileItem::size' o='128' t='Vec2i'/>
+<mbr r='TileItem::kind' o='192' t='TileItemKind'/>
+<mbr r='TileItem::id' o='224' t='int'/>
+<mbr r='TileItem::flags' o='256' t='int'/>
+<mbr r='TileItem::getPicFunc' o='320' t='TileItemGetPicFunc'/>
+<mbr r='TileItem::drawFunc' o='384' t='TileItemDrawFunc'/>
+<mbr r='TileItem::drawData' o='448' t='TileItemDrawFuncData'/>
+<mbr r='TileItem::CPic' o='640' t='CPic'/>
+<mbr r='TileItem::CPicFunc' o='1152' t='GetDrawContextFunc'/>
+<mbr r='TileItem::ShadowSize' o='1216' t='Vec2i'/>
+<mbr r='TileItem::SoundLock' o='1280' t='int'/>

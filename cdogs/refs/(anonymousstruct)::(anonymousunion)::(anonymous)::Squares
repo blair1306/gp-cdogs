@@ -1,0 +1,26 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='164' type='int'/>
+<dec f='codebrowser/src/cdogs/mission.h' l='202' type='int'/>
+<offset>384</offset>
+<use f='codebrowser/src/cdogs/files.c' l='428' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='389' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='427' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='67' u='r' c='MapCaveLoad'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='93' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='338' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='359' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='53' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='96' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='244' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='261' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='312' u='r' c='MissionGetSquareCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='759' u='w' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='760' u='r' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='760' u='r' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='760' u='r' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='760' u='r' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='365' u='r' c='MissionGetSquareCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='371' u='w' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='372' u='r' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='372' u='r' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='372' u='r' c='MissionChangeSquareCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='372' u='r' c='MissionChangeSquareCount'/>

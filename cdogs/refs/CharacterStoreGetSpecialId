@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/character.h' l='78' type='int CharacterStoreGetSpecialId(const CharacterStore * store, const int i)'/>
+<use f='codebrowser/src/briefing_screens.c' l='787' u='c' c='DrawObjectiveInfo'/>
+<def f='codebrowser/src/cdogs/character.c' l='235' ll='238' type='int CharacterStoreGetSpecialId(const CharacterStore * store, const int i)'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='166' u='c' c='AddObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='590' u='c' c='MissionDrawSpecialChar'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='473' u='c' c='MissionDrawKillObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='123' u='c' c='DrawObjective'/>

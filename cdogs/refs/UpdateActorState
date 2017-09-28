@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='173' type='void UpdateActorState(TActor * actor, int ticks)'/>
+<def f='codebrowser/src/cdogs/actors.c' l='106' ll='195' type='void UpdateActorState(TActor * actor, int ticks)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='874' u='c' c='UpdateAllActors'/>

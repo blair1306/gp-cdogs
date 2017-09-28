@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/color.h' l='100' type='HSV'/>
+<def f='codebrowser/src/cdogs/color.c' l='103' type='HSV'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='67' u='r' c='GrafxDrawBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='158' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='193' u='r' c='Display'/>

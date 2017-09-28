@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='323' type='_Bool (*)(pb_istream_t *, pb_extension_t *, uint32_t, pb_wire_type_t)'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='655' u='r' c='decode_extension'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='656' u='r' c='decode_extension'/>

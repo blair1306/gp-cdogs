@@ -1,0 +1,5 @@
+PowerupSpawnerInit|PowerupSpawnerInit
+PowerupSpawnerRemoveOne|PowerupSpawnerRemoveOne
+PowerupSpawnerTerminate|PowerupSpawnerTerminate
+PowerupSpawnerUpdate|PowerupSpawnerUpdate
+PostInputConfigApply|PostInputConfigApply

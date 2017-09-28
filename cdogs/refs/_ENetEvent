@@ -1,0 +1,12 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='434' ll='441'/>
+<size>32</size>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='429'>/**
+ * An ENet event as returned by enet_host_service().
+   
+   @sa enet_host_service
+ */</doc>
+<mbr r='_ENetEvent::type' o='0' t='ENetEventType'/>
+<mbr r='_ENetEvent::peer' o='64' t='ENetPeer *'/>
+<mbr r='_ENetEvent::channelID' o='128' t='enet_uint8'/>
+<mbr r='_ENetEvent::data' o='160' t='enet_uint32'/>
+<mbr r='_ENetEvent::packet' o='192' t='ENetPacket *'/>

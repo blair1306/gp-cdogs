@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/prep.h' l='66' type='GameLoopData * PlayerSelection()'/>
+<doc f='codebrowser/src/prep.h' l='64'>// Allow input devices to take control players,
+// and select player name and appearance</doc>
+<use f='codebrowser/src/prep.c' l='247' u='c' c='NumPlayersUpdate'/>
+<def f='codebrowser/src/prep.c' l='312' ll='340' type='GameLoopData * PlayerSelection()'/>

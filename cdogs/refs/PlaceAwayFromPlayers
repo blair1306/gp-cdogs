@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/actor_placement.h' l='35' type='NVec2i PlaceAwayFromPlayers(Map * map, const _Bool giveUp)'/>
+<def f='codebrowser/src/cdogs/actor_placement.c' l='122' ll='154' type='NVec2i PlaceAwayFromPlayers(Map * map, const _Bool giveUp)'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='181' u='c' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/ai.c' l='543' u='c' c='AIAddRandomEnemies'/>
+<use f='codebrowser/src/cdogs/ai.c' l='568' u='c' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='596' u='c' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='628' u='c' c='CreateEnemies'/>

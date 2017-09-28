@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.h' l='215' type='MenuInputFunc'/>
+<offset>64</offset>
+<use f='codebrowser/src/menu.c' l='575' u='w' c='MenuCreateCustom'/>
+<use f='codebrowser/src/menu.c' l='968' u='r' c='MenuProcessCmd'/>

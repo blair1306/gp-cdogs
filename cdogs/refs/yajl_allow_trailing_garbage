@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='141' type='4'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='91' c='yajl_config'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='134'>/**
+         * By default, upon calls to yajl_complete_parse(), yajl will
+         * ensure the entire input text was consumed and will raise an error
+         * otherwise.  Enabling this flag will cause yajl to disable this
+         * check.  This can be useful when parsing json out of a that contains more
+         * than a single JSON document.
+         */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='203' u='r' c='yajl_do_parse'/>

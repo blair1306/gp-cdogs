@@ -1,0 +1,9 @@
+<dec f='include/asm-generic/socket.h' l='7'/>
+<doc f='include/asm-generic/socket.h' l='6'>/* For setsockopt(2) */</doc>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='319' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='323' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='327' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='331' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='339' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='348' u='c'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='371' u='c'/>

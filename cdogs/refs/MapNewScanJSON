@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_new.h' l='40' type='int MapNewScanJSON(json_t * root, char ** title, int * numMissions)'/>
+<doc f='codebrowser/src/cdogs/map_new.h' l='39'>// Helper methods for loading JSON maps</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='55' u='c' c='MapNewScanArchive'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='69' u='c' c='MapNewScan'/>
+<def f='codebrowser/src/cdogs/map_new.c' l='83' ll='112' type='int MapNewScanJSON(json_t * root, char ** title, int * numMissions)'/>

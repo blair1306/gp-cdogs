@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='122' type='size_t'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='281' u='w' c='tinydir_open_sorted'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='290' u='w' c='tinydir_open_sorted'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='292' u='r' c='tinydir_open_sorted'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='305' u='r' c='tinydir_open_sorted'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='311' u='r' c='tinydir_open_sorted'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='330' u='w' c='tinydir_close'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='497' u='r' c='tinydir_readfile_n'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='518' u='r' c='tinydir_open_subdir_n'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='169' u='r' c='LoadCampaignsFromFolder'/>
+<offset>32832</offset>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='451' u='r' c='Open'/>

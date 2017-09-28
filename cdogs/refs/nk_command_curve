@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2546' ll='2553'/>
+<size>40</size>
+<mbr r='nk_command_curve::header' o='0' t='struct nk_command'/>
+<mbr r='nk_command_curve::line_thickness' o='128' t='unsigned short'/>
+<mbr r='nk_command_curve::begin' o='144' t='struct nk_vec2i'/>
+<mbr r='nk_command_curve::end' o='176' t='struct nk_vec2i'/>
+<mbr r='nk_command_curve::ctrl' o='208' t='struct nk_vec2i [2]'/>
+<mbr r='nk_command_curve::color' o='272' t='struct nk_color'/>

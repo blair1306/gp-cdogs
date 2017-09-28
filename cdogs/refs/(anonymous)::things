@@ -1,0 +1,37 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='150' type='CArray'/>
+<offset>448</offset>
+<doc f='codebrowser/src/cdogs/tile.h' l='150'>// of ThingId</doc>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='149' u='m' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='149' u='a' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='233' u='m' c='IsTileWalkable'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='233' u='a' c='IsTileWalkable'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='259' u='m' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='259' u='a' c='IsTileWalkableAroundObjects'/>
+<use f='codebrowser/src/cdogs/automap.c' l='271' u='m' c='DrawObjectivesAndKeys'/>
+<use f='codebrowser/src/cdogs/automap.c' l='271' u='a' c='DrawObjectivesAndKeys'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='334' u='a' c='CheckOverlaps'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='199' u='m' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='199' u='a' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='272' u='m' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='272' u='a' c='DrawWallsAndThings'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='421' u='m' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='421' u='a' c='DrawObjectNames'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='374' u='m' c='DrawChatters'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='374' u='a' c='DrawChatters'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='71' u='m' c='DrawObjectiveHighlights'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='71' u='a' c='DrawObjectiveHighlights'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='504' u='m' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='504' u='a' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/los.c' l='205' u='m' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/los.c' l='205' u='a' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/map.c' l='196' u='a' c='AddItemToTile'/>
+<use f='codebrowser/src/cdogs/map.c' l='206' u='m' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/map.c' l='206' u='a' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/map.c' l='209' u='a' c='MapRemoveTileItem'/>
+<use f='codebrowser/src/cdogs/map.c' l='843' u='a' c='MapIsTileAreaClear'/>
+<use f='codebrowser/src/cdogs/tile.c' l='68' u='a' c='TileInit'/>
+<use f='codebrowser/src/cdogs/tile.c' l='75' u='a' c='TileDestroy'/>
+<use f='codebrowser/src/cdogs/tile.c' l='105' u='m' c='TileIsClear'/>
+<use f='codebrowser/src/cdogs/tile.c' l='105' u='a' c='TileIsClear'/>
+<use f='codebrowser/src/cdogs/tile.c' l='112' u='m' c='TileHasCharacter'/>
+<use f='codebrowser/src/cdogs/tile.c' l='112' u='a' c='TileHasCharacter'/>

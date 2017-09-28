@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='10716' type='struct nk_rp_rect *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10841' u='w' c='nk_font_baker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10842' u='r' c='nk_font_baker'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10938' u='r' c='nk_font_bake_pack'/>
+<offset>704</offset>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1860' type='int nk_stricmpn(const char * s1, const char * s2, int n)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4373' ll='4397' macro='1' type='int nk_stricmpn(const char * s1, const char * s2, int n)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17908' u='c' c='nk_find_window'/>

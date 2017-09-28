@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1550' type='void nk_property_double(struct nk_context * , const char * name, double min, double * val, double max, double step, float inc_per_pixel)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20870' ll='20883' macro='1' type='void nk_property_double(struct nk_context * ctx, const char * name, double min, double * val, double max, double step, float inc_per_pixel)'/>

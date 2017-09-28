@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1850' type='struct nk_rect nk_rectiv(const int * xywh)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4043' ll='4047' macro='1' type='struct nk_rect nk_rectiv(const int * r)'/>

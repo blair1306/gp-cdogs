@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='12442' ll='12452' macro='1' type='void nk_textedit_drag(struct nk_text_edit * state, float x, float y, const struct nk_user_font * font, float row_height)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15003' u='c' c='nk_do_edit'/>

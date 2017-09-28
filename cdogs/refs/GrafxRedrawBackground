@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/grafx_bg.h' l='42' type='void GrafxRedrawBackground(GraphicsDevice * g, const Vec2i pos)'/>
+<def f='codebrowser/src/cdogs/grafx_bg.c' l='82' ll='92' type='void GrafxRedrawBackground(GraphicsDevice * g, const Vec2i pos)'/>
+<use f='codebrowser/src/game.c' l='295' u='c' c='RunGameOnExit'/>

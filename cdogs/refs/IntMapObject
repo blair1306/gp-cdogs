@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='121' type='MapObject * IntMapObject(const int m)'/>
+<doc f='codebrowser/src/cdogs/map_object.h' l='120'>// Legacy map objects, integer based</doc>
+<use f='codebrowser/src/cdogs/files.c' l='351' u='c' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/files.c' l='400' u='c' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='281' u='c' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='600' u='c' c='LoadMapObjectRef'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='115' ll='167' type='MapObject * IntMapObject(const int m)'/>
+<use f='codebrowser/src/cdogs/objective.c' l='115' u='c' c='ObjectiveLoadJSON'/>

@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='14560' ll='14593' macro='1' type='void nk_draw_scrollbar(struct nk_command_buffer * out, nk_flags state, const struct nk_style_scrollbar * style, const struct nk_rect * bounds, const struct nk_rect * scroll)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14680' u='c' c='nk_do_scrollbarv'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14769' u='c' c='nk_do_scrollbarh'/>

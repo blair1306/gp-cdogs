@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='308' type='ENetList'/>
+<offset>1792</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='124' u='a' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='316' u='a' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='316' u='a' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='317' u='a' c='enet_peer_reset_queues'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='611' u='a' c='enet_peer_queue_acknowledgement'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1268' u='a' c='enet_protocol_send_acknowledgements'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1270' u='a' c='enet_protocol_send_acknowledgements'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1616' u='a' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1616' u='a' c='enet_protocol_send_outgoing_commands'/>

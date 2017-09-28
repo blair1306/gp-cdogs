@@ -1,0 +1,10 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='10711' ll='10718'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='10832' ll='10845' macro='1' type='struct nk_font_baker * nk_font_baker(void * memory, int glyph_count, int count, struct nk_allocator * alloc)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11867' u='c' c='nk_font_atlas_bake'/>
+<size>104</size>
+<mbr r='nk_font_baker::alloc' o='0' t='struct nk_allocator'/>
+<mbr r='nk_font_baker::spc' o='192' t='struct nk_tt_pack_context'/>
+<mbr r='nk_font_baker::build' o='576' t='struct nk_font_bake_data *'/>
+<mbr r='nk_font_baker::packed_chars' o='640' t='struct nk_tt_packedchar *'/>
+<mbr r='nk_font_baker::rects' o='704' t='struct nk_rp_rect *'/>
+<mbr r='nk_font_baker::ranges' o='768' t='struct nk_tt_pack_range *'/>

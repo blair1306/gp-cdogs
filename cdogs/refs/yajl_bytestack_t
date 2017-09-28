@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/yajl/yajl_bytestack.h' l='29' ll='35'/>
+<size>32</size>
+<mbr r='yajl_bytestack_t::stack' o='0' t='unsigned char *'/>
+<mbr r='yajl_bytestack_t::size' o='64' t='size_t'/>
+<mbr r='yajl_bytestack_t::used' o='128' t='size_t'/>
+<mbr r='yajl_bytestack_t::yaf' o='192' t='yajl_alloc_funcs *'/>

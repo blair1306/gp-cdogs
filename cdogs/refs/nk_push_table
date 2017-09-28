@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17786' ll='17803' macro='1' type='void nk_push_table(struct nk_window * win, struct nk_table * tbl)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17829' u='c' c='nk_add_value'/>

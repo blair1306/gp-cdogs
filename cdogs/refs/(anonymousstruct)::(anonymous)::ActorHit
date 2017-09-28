@@ -1,0 +1,18 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='159' type='NActorHit'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='529' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='531' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='532' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='535' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='535' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='545' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='549' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='549' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='549' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='350' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='351' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='352' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='353' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='354' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='355' u='m' c='DoDamageCharacter'/>
+<use f='codebrowser/src/cdogs/objs.c' l='356' u='m' c='DoDamageCharacter'/>

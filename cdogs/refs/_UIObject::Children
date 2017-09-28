@@ -1,0 +1,41 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='68' type='CArray'/>
+<offset>448</offset>
+<doc f='codebrowser/src/cdogsed/ui_object.h' l='68'>// of UIObject *</doc>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='255' u='m' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='260' u='a' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='261' u='a' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='263' u='m' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='268' u='a' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='286' u='m' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='287' u='m' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='291' u='a' c='CreateAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='355' u='m' c='CountAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='355' u='a' c='CountAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='356' u='a' c='CountAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='357' u='m' c='CountAddMapItemSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='352' u='m' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='358' u='m' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='359' u='m' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='363' u='a' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='364' u='a' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='444' u='m' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='449' u='a' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='470' u='m' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='470' u='a' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='473' u='a' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='474' u='a' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='69' u='a' c='UIObjectCreate'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='126' u='m' c='UIObjectDestroy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='126' u='a' c='UIObjectDestroy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='129' u='a' c='UIObjectDestroy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='152' u='a' c='UIObjectAddChild'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='177' u='m' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='177' u='a' c='UIObjectHighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='212' u='m' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='212' u='a' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='451' u='m' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='451' u='a' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='475' u='m' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='475' u='a' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='550' u='m' c='UITryGetObjectImpl'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='550' u='a' c='UITryGetObjectImpl'/>

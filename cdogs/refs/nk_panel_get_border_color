@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='17129' ll='17142' macro='1' type='struct nk_color nk_panel_get_border_color(const struct nk_style * style, enum nk_panel_type type)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17551' u='c' c='nk_panel_end'/>

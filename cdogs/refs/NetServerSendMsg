@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='71' type='void NetServerSendMsg(NetServer * n, const int peerId, const GameEventType e, const void * data)'/>
+<doc f='codebrowser/src/cdogs/net_server.h' l='70'>// If peerId is -1, broadcast</doc>
+<use f='codebrowser/src/cdogs/game_events.c' l='133' u='c' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='336' u='c' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='365' u='c' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='370' u='c' c='OnConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='413' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='426' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='445' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='451' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='458' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='482' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='495' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='509' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='518' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='531' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='546' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='553' u='c' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='586' u='c' c='SendConfig'/>
+<def f='codebrowser/src/cdogs/net_server.c' l='589' ll='617' type='void NetServerSendMsg(NetServer * n, const int peerId, const GameEventType e, const void * data)'/>
+<use f='codebrowser/src/prep.c' l='848' u='c' c='PlayerEquipOnExit'/>

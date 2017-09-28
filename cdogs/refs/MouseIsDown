@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='61' type='_Bool MouseIsDown(const Mouse * m, const int button)'/>
+<use f='codebrowser/src/cdogs/events.c' l='235' u='r' c='GetMouseCmd'/>
+<def f='codebrowser/src/cdogs/mouse.c' l='160' ll='163' macro='1' type='_Bool MouseIsDown(const Mouse * m, const int button)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='890' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='891' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='901' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='965' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1178' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1179' u='c' c='HandleInput'/>

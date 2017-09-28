@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character.h' l='82' type='_Bool CharacterIsPrisoner(const CharacterStore * store, const Character * c)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='497' u='c' c='Follow'/>
+<def f='codebrowser/src/cdogs/character.c' l='250' ll='262' macro='1' type='_Bool CharacterIsPrisoner(const CharacterStore * store, const Character * c)'/>
+<use f='codebrowser/src/cdogs/mission.c' l='496' u='c' c='MoreRescuesNeeded'/>

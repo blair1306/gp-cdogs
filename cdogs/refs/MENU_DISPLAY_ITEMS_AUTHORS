@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/menu.h' l='89' type='2'/>
+<use f='codebrowser/src/mainmenu.c' l='210' u='r' c='MenuCreateAll'/>
+<use f='codebrowser/src/menu.c' l='622' u='r' c='MenuDisplayItems'/>

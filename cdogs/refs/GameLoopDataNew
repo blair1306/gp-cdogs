@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/game_loop.h' l='66' type='GameLoopData * GameLoopDataNew(void * data, void (*)(GameLoopData *) onTerminate, void (*)(GameLoopData *) onEnter, void (*)(GameLoopData *) onExit, void (*)(GameLoopData *) inputFunc, GameLoopResult (*)(GameLoopData *, LoopRunner *) updateFunc, void (*)(GameLoopData *) drawFunc)'/>
+<use f='codebrowser/src/briefing_screens.c' l='61' u='c' c='ScreenCampaignIntro'/>
+<use f='codebrowser/src/briefing_screens.c' l='215' u='c' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='389' u='c' c='ScreenMissionSummary'/>
+<use f='codebrowser/src/game.c' l='178' u='c' c='RunGame'/>
+<def f='codebrowser/src/game_loop.c' l='124' ll='143' type='GameLoopData * GameLoopDataNew(void * data, void (*)(GameLoopData *) onTerminate, void (*)(GameLoopData *) onEnter, void (*)(GameLoopData *) onExit, void (*)(GameLoopData *) inputFunc, GameLoopResult (*)(GameLoopData *, LoopRunner *) updateFunc, void (*)(GameLoopData *) drawFunc)'/>
+<use f='codebrowser/src/hiscores.c' l='84' u='c' c='HighScoresScreen'/>
+<use f='codebrowser/src/hiscores.c' l='286' u='c' c='DisplayAllTimeHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='309' u='c' c='DisplayTodaysHighScores'/>
+<use f='codebrowser/src/mainmenu.c' l='77' u='c' c='MainMenu'/>
+<use f='codebrowser/src/menu.c' l='140' u='c' c='MenuLoop'/>
+<use f='codebrowser/src/password.c' l='141' u='c' c='EnterCodeScreen'/>
+<use f='codebrowser/src/password.c' l='364' u='c' c='EnterPassword'/>
+<use f='codebrowser/src/prep.c' l='112' u='c' c='ScreenWait'/>
+<use f='codebrowser/src/prep.c' l='207' u='c' c='NumPlayersSelection'/>
+<use f='codebrowser/src/prep.c' l='337' u='c' c='PlayerSelection'/>
+<use f='codebrowser/src/prep.c' l='613' u='c' c='GameOptions'/>
+<use f='codebrowser/src/prep.c' l='785' u='c' c='PlayerEquip'/>
+<use f='codebrowser/src/screens_end.c' l='143' u='c' c='PlayerListLoop'/>

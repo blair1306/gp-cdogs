@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl_utils.h' l='44' type='void YAJLVec2i(Vec2i * value, yajl_val node, const char * name)'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='46' u='c' c='FontLoadFromJSON'/>
+<use f='codebrowser/src/cdogs/font_utils.c' l='59' u='c' c='FontLoadFromJSON'/>
+<def f='codebrowser/src/cdogs/yajl_utils.c' l='147' ll='154' type='void YAJLVec2i(Vec2i * value, yajl_val node, const char * name)'/>

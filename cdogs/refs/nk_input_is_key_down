@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2771' type='int nk_input_is_key_down(const struct nk_input * , enum nk_keys )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12296' ll='12304' macro='1' type='int nk_input_is_key_down(const struct nk_input * i, enum nk_keys key)'/>

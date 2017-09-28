@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/campaign_entry.h' l='42' type='void CampaignEntryInit(CampaignEntry * entry, const char * title, GameMode mode)'/>
+<def f='codebrowser/src/cdogs/campaign_entry.c' l='44' ll='49' type='void CampaignEntryInit(CampaignEntry * entry, const char * title, GameMode mode)'/>
+<use f='codebrowser/src/cdogs/campaign_entry.c' l='74' u='c' c='CampaignEntryTryLoad'/>

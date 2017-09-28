@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/quick_play.h' l='32' type='void SetupQuickPlayCampaign(CampaignSetting * setting)'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='95' u='c' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='46' u='c' c='GrafxMakeRandomBackground'/>
+<def f='codebrowser/src/cdogs/quick_play.c' l='213' ll='304' type='void SetupQuickPlayCampaign(CampaignSetting * setting)'/>

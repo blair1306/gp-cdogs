@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='91' type='2'/>
+<use f='codebrowser/src/cdogs/music.c' l='72' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='138' u='r' c='MusicPause'/>
+<use f='codebrowser/src/cdogs/music.c' l='150' u='r' c='MusicResume'/>

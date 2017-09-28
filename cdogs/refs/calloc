@@ -1,0 +1,29 @@
+<dec f='include/stdlib.h' l='468' type='void * calloc(size_t __nmemb, size_t __size)'/>
+<doc f='include/stdlib.h' l='467'>/* Allocate NMEMB elements of SIZE bytes each, all initialized to 0.  */</doc>
+<use f='codebrowser/src/briefing_screens.c' l='166' macro='1' u='c'/>
+<use f='codebrowser/src/briefing_screens.c' l='199' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='92' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='392' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='34' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='36' u='c' c='hashmap_new'/>
+<use f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='226' u='c' c='hashmap_rehash'/>
+<use f='codebrowser/src/cdogs/character.c' l='199' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='125' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/files.c' l='494' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/files.c' l='504' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/files.c' l='552' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='234' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='479' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='126' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='69' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='248' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='309' macro='1' u='c'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='48' macro='1' u='c'/>
+<use f='codebrowser/src/game.c' l='174' macro='1' u='c'/>
+<use f='codebrowser/src/game_loop.c' l='133' macro='1' u='c'/>
+<use f='codebrowser/src/mainmenu.c' l='301' macro='1' u='c'/>
+<use f='codebrowser/src/menu.c' l='318' macro='1' u='c'/>
+<use f='codebrowser/src/password.c' l='137' macro='1' u='c'/>
+<use f='codebrowser/src/prep.c' l='315' macro='1' u='c'/>
+<use f='codebrowser/src/prep.c' l='756' macro='1' u='c'/>

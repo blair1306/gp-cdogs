@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='113' type='CArray'/>
+<offset>512</offset>
+<doc f='codebrowser/src/cdogs/map_object.h' l='111'>// Names of special types of map objects; for editor support
+	// Reset on load</doc>
+<doc f='codebrowser/src/cdogs/map_object.h' l='113'>// of char *</doc>
+<use f='codebrowser/src/cdogs/map_object.c' l='186' u='m' c='DestructibleMapObjectIndex'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='186' u='a' c='DestructibleMapObjectIndex'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='225' u='a' c='MapObjectsInit'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='413' u='m' c='ReloadDestructibles'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='413' u='a' c='ReloadDestructibles'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='416' u='a' c='ReloadDestructibles'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='429' u='a' c='AddDestructibles'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='524' u='m' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='524' u='a' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='527' u='a' c='MapObjectsTerminate'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='208' u='a' c='MissionResetObjectiveIndex'/>

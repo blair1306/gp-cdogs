@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='587' type='ENetOutgoingCommand * enet_peer_queue_outgoing_command(ENetPeer * , const ENetProtocol * , ENetPacket * , enet_uint32 , enet_uint16 )'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='250' u='c' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='487' u='c' c='enet_host_bandwidth_throttle'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='58' u='c' c='enet_peer_throttle_configure'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='210' u='c' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='445' u='c' c='enet_peer_ping'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='512' u='c' c='enet_peer_disconnect_now'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='548' u='c' c='enet_peer_disconnect'/>
+<def f='codebrowser/src/cdogs/enet/peer.c' l='682' ll='699' type='ENetOutgoingCommand * enet_peer_queue_outgoing_command(ENetPeer * peer, const ENetProtocol * command, ENetPacket * packet, enet_uint32 offset, enet_uint16 length)'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='419' u='c' c='enet_protocol_handle_connect'/>

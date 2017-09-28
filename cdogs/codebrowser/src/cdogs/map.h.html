@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>map.h source code [codebrowser/src/cdogs/map.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/map.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='map.h.html'>map.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin </i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King </i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="campaigns.h.html">"campaigns.h"</a></u></td></tr>
+<tr><th id="54">54</th><td><u>#include <a href="map_object.h.html">"map_object.h"</a></u></td></tr>
+<tr><th id="55">55</th><td><u>#include <a href="mission.h.html">"mission.h"</a></u></td></tr>
+<tr><th id="56">56</th><td><u>#include <a href="pic.h.html">"pic.h"</a></u></td></tr>
+<tr><th id="57">57</th><td><u>#include <a href="tile.h.html">"tile.h"</a></u></td></tr>
+<tr><th id="58">58</th><td><u>#include <a href="triggers.h.html">"triggers.h"</a></u></td></tr>
+<tr><th id="59">59</th><td><u>#include <a href="vector.h.html">"vector.h"</a></u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><i>// Values for internal map</i></td></tr>
+<tr><th id="62">62</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="63">63</th><td>{</td></tr>
+<tr><th id="64">64</th><td>	<dfn class="enum" id="MAP_FLOOR" title='MAP_FLOOR' data-ref="MAP_FLOOR">MAP_FLOOR</dfn>,</td></tr>
+<tr><th id="65">65</th><td>	<dfn class="enum" id="MAP_WALL" title='MAP_WALL' data-ref="MAP_WALL">MAP_WALL</dfn>,</td></tr>
+<tr><th id="66">66</th><td>	<dfn class="enum" id="MAP_DOOR" title='MAP_DOOR' data-ref="MAP_DOOR">MAP_DOOR</dfn>,</td></tr>
+<tr><th id="67">67</th><td>	<dfn class="enum" id="MAP_ROOM" title='MAP_ROOM' data-ref="MAP_ROOM">MAP_ROOM</dfn>,</td></tr>
+<tr><th id="68">68</th><td>	<dfn class="enum" id="MAP_NOTHING" title='MAP_NOTHING' data-ref="MAP_NOTHING">MAP_NOTHING</dfn>,</td></tr>
+<tr><th id="69">69</th><td>	<dfn class="enum" id="MAP_SQUARE" title='MAP_SQUARE' data-ref="MAP_SQUARE">MAP_SQUARE</dfn>,</td></tr>
+<tr><th id="70">70</th><td>	<dfn class="enum" id="MAP_UNSET" title='MAP_UNSET' data-ref="MAP_UNSET">MAP_UNSET</dfn>	<i>// internal use by editor</i></td></tr>
+<tr><th id="71">71</th><td>} <dfn class="typedef" id="IMapType" title='IMapType' data-type='enum IMapType' data-ref="IMapType">IMapType</dfn>;</td></tr>
+<tr><th id="72">72</th><td><em>const</em> <em>char</em> *<dfn class="decl" id="IMapTypeStr" title='IMapTypeStr' data-ref="IMapTypeStr">IMapTypeStr</dfn>(<a class="typedef" href="#IMapType" title='IMapType' data-type='enum IMapType' data-ref="IMapType">IMapType</a> <dfn class="local col4 decl" id="44t" title='t' data-type='IMapType' data-ref="44t">t</dfn>);</td></tr>
+<tr><th id="73">73</th><td><a class="typedef" href="#IMapType" title='IMapType' data-type='enum IMapType' data-ref="IMapType">IMapType</a> <dfn class="decl" id="StrIMapType" title='StrIMapType' data-ref="StrIMapType">StrIMapType</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="45s" title='s' data-type='const char *' data-ref="45s">s</dfn>);</td></tr>
+<tr><th id="74">74</th><td></td></tr>
+<tr><th id="75">75</th><td><u>#define <dfn class="macro" id="_M/MAP_ACCESS_RED" data-ref="_M/MAP_ACCESS_RED">MAP_ACCESS_RED</dfn>      0x800</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/MAP_ACCESS_BLUE" data-ref="_M/MAP_ACCESS_BLUE">MAP_ACCESS_BLUE</dfn>     0x400</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/MAP_ACCESS_GREEN" data-ref="_M/MAP_ACCESS_GREEN">MAP_ACCESS_GREEN</dfn>    0x200</u></td></tr>
+<tr><th id="78">78</th><td><u>#define <dfn class="macro" id="_M/MAP_ACCESS_YELLOW" data-ref="_M/MAP_ACCESS_YELLOW">MAP_ACCESS_YELLOW</dfn>   0x100</u></td></tr>
+<tr><th id="79">79</th><td></td></tr>
+<tr><th id="80">80</th><td><u>#define <dfn class="macro" id="_M/MAP_MASKACCESS" data-ref="_M/MAP_MASKACCESS">MAP_MASKACCESS</dfn>      0xFF</u></td></tr>
+<tr><th id="81">81</th><td><u>#define <dfn class="macro" id="_M/MAP_ACCESSBITS" data-ref="_M/MAP_ACCESSBITS">MAP_ACCESSBITS</dfn>      0x0F00</u></td></tr>
+<tr><th id="82">82</th><td></td></tr>
+<tr><th id="83">83</th><td><u>#define <dfn class="macro" id="_M/MAP_LEAVEFREE" data-ref="_M/MAP_LEAVEFREE">MAP_LEAVEFREE</dfn>       4096</u></td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="86">86</th><td>{</td></tr>
+<tr><th id="87">87</th><td>	<i>// Array of bools to set lines of sight</i></td></tr>
+<tr><th id="88">88</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::LOS" title='(anonymous struct)::LOS' data-ref="(anonymous)::LOS">LOS</dfn>;	<i>// of bool</i></td></tr>
+<tr><th id="89">89</th><td></td></tr>
+<tr><th id="90">90</th><td>	<i>// Array of bools for tracking new tiles in line of sight, for delayed messaging</i></td></tr>
+<tr><th id="91">91</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Explored" title='(anonymous struct)::Explored' data-ref="(anonymous)::Explored">Explored</dfn>; <i>// of bool</i></td></tr>
+<tr><th id="92">92</th><td>} <dfn class="typedef" id="LineOfSight" title='LineOfSight' data-type='struct LineOfSight' data-ref="LineOfSight">LineOfSight</dfn>;</td></tr>
+<tr><th id="93">93</th><td></td></tr>
+<tr><th id="94">94</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="95">95</th><td>{</td></tr>
+<tr><th id="96">96</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Tiles" title='(anonymous struct)::Tiles' data-ref="(anonymous)::Tiles">Tiles</dfn>;	<i>// of Tile</i></td></tr>
+<tr><th id="97">97</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Size" title='(anonymous struct)::Size' data-ref="(anonymous)::Size">Size</dfn>;</td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td>	<i>// internal data structure to help build the map</i></td></tr>
+<tr><th id="100">100</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::iMap" title='(anonymous struct)::iMap' data-ref="(anonymous)::iMap">iMap</dfn>;	<i>// of unsigned short</i></td></tr>
+<tr><th id="101">101</th><td></td></tr>
+<tr><th id="102">102</th><td>	<a class="typedef" href="#LineOfSight" title='LineOfSight' data-type='struct LineOfSight' data-ref="LineOfSight">LineOfSight</a> <dfn class="decl" id="(anonymous)::LOS" title='(anonymous struct)::LOS' data-ref="(anonymous)::LOS">LOS</dfn>;</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::triggers" title='(anonymous struct)::triggers' data-ref="(anonymous)::triggers">triggers</dfn>;	<i>// of Trigger *; owner</i></td></tr>
+<tr><th id="105">105</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::triggerId" title='(anonymous struct)::triggerId' data-ref="(anonymous)::triggerId">triggerId</dfn>;</td></tr>
+<tr><th id="106">106</th><td></td></tr>
+<tr><th id="107">107</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::tilesSeen" title='(anonymous struct)::tilesSeen' data-ref="(anonymous)::tilesSeen">tilesSeen</dfn>;</td></tr>
+<tr><th id="108">108</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::keyAccessCount" title='(anonymous struct)::keyAccessCount' data-ref="(anonymous)::keyAccessCount">keyAccessCount</dfn>;</td></tr>
+<tr><th id="109">109</th><td>	</td></tr>
+<tr><th id="110">110</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::ExitStart" title='(anonymous struct)::ExitStart' data-ref="(anonymous)::ExitStart">ExitStart</dfn>;</td></tr>
+<tr><th id="111">111</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::ExitEnd" title='(anonymous struct)::ExitEnd' data-ref="(anonymous)::ExitEnd">ExitEnd</dfn>;</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::NumExplorableTiles" title='(anonymous struct)::NumExplorableTiles' data-ref="(anonymous)::NumExplorableTiles">NumExplorableTiles</dfn>;</td></tr>
+<tr><th id="114">114</th><td>} <dfn class="typedef" id="Map" title='Map' data-type='struct Map' data-ref="Map">Map</dfn>;</td></tr>
+<tr><th id="115">115</th><td></td></tr>
+<tr><th id="116">116</th><td><b>extern</b> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> <dfn class="decl" id="gMap" title='gMap' data-ref="gMap">gMap</dfn>;</td></tr>
+<tr><th id="117">117</th><td></td></tr>
+<tr><th id="118">118</th><td><em>unsigned</em> <em>short</em> <dfn class="decl" id="GetAccessMask" title='GetAccessMask' data-ref="GetAccessMask">GetAccessMask</dfn>(<em>int</em> <dfn class="local col6 decl" id="46k" title='k' data-type='int' data-ref="46k">k</dfn>);</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td><a class="typedef" href="tile.h.html#Tile" title='Tile' data-type='struct Tile' data-ref="Tile">Tile</a> *<dfn class="decl" id="MapGetTile" title='MapGetTile' data-ref="MapGetTile">MapGetTile</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col7 decl" id="47map" title='map' data-type='Map *' data-ref="47map">map</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col8 decl" id="48pos" title='pos' data-type='Vec2i' data-ref="48pos">pos</dfn>);</td></tr>
+<tr><th id="121">121</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapIsTileIn" title='MapIsTileIn' data-ref="MapIsTileIn">MapIsTileIn</dfn>(<em>const</em> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col9 decl" id="49map" title='map' data-type='const Map *' data-ref="49map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col0 decl" id="50pos" title='pos' data-type='const Vec2i' data-ref="50pos">pos</dfn>);</td></tr>
+<tr><th id="122">122</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapIsRealPosIn" title='MapIsRealPosIn' data-ref="MapIsRealPosIn">MapIsRealPosIn</dfn>(<em>const</em> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col1 decl" id="51map" title='map' data-type='const Map *' data-ref="51map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col2 decl" id="52realPos" title='realPos' data-type='const Vec2i' data-ref="52realPos">realPos</dfn>);</td></tr>
+<tr><th id="123">123</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapIsTileInExit" title='MapIsTileInExit' data-ref="MapIsTileInExit">MapIsTileInExit</dfn>(<em>const</em> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col3 decl" id="53map" title='map' data-type='const Map *' data-ref="53map">map</dfn>, <em>const</em> <a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col4 decl" id="54ti" title='ti' data-type='const TTileItem *' data-ref="54ti">ti</dfn>);</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><em>int</em> <dfn class="decl" id="MapHasLockedRooms" title='MapHasLockedRooms' data-ref="MapHasLockedRooms">MapHasLockedRooms</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col5 decl" id="55map" title='map' data-type='Map *' data-ref="55map">map</dfn>);</td></tr>
+<tr><th id="126">126</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapPosIsInLockedRoom" title='MapPosIsInLockedRoom' data-ref="MapPosIsInLockedRoom">MapPosIsInLockedRoom</dfn>(<em>const</em> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col6 decl" id="56map" title='map' data-type='const Map *' data-ref="56map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col7 decl" id="57pos" title='pos' data-type='const Vec2i' data-ref="57pos">pos</dfn>);</td></tr>
+<tr><th id="127">127</th><td><em>int</em> <dfn class="decl" id="MapGetDoorKeycardFlag" title='MapGetDoorKeycardFlag' data-ref="MapGetDoorKeycardFlag">MapGetDoorKeycardFlag</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col8 decl" id="58map" title='map' data-type='Map *' data-ref="58map">map</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="59pos" title='pos' data-type='Vec2i' data-ref="59pos">pos</dfn>);</td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><i>// Return false if cannot move to new position</i></td></tr>
+<tr><th id="130">130</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapTryMoveTileItem" title='MapTryMoveTileItem' data-ref="MapTryMoveTileItem">MapTryMoveTileItem</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col0 decl" id="60map" title='map' data-type='Map *' data-ref="60map">map</dfn>, <a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col1 decl" id="61t" title='t' data-type='TTileItem *' data-ref="61t">t</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col2 decl" id="62pos" title='pos' data-type='Vec2i' data-ref="62pos">pos</dfn>);</td></tr>
+<tr><th id="131">131</th><td><em>void</em> <dfn class="decl" id="MapRemoveTileItem" title='MapRemoveTileItem' data-ref="MapRemoveTileItem">MapRemoveTileItem</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col3 decl" id="63map" title='map' data-type='Map *' data-ref="63map">map</dfn>, <a class="typedef" href="tile.h.html#TTileItem" title='TTileItem' data-type='struct TileItem' data-ref="TTileItem">TTileItem</a> *<dfn class="local col4 decl" id="64t" title='t' data-type='TTileItem *' data-ref="64t">t</dfn>);</td></tr>
+<tr><th id="132">132</th><td></td></tr>
+<tr><th id="133">133</th><td><em>void</em> <dfn class="decl" id="MapTerminate" title='MapTerminate' data-ref="MapTerminate">MapTerminate</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col5 decl" id="65map" title='map' data-type='Map *' data-ref="65map">map</dfn>);</td></tr>
+<tr><th id="134">134</th><td><em>void</em> <dfn class="decl" id="MapLoad" title='MapLoad' data-ref="MapLoad">MapLoad</dfn>(</td></tr>
+<tr><th id="135">135</th><td>	<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col6 decl" id="66map" title='map' data-type='Map *' data-ref="66map">map</dfn>, <em>const</em> <b>struct</b> <a class="type" href="mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col7 decl" id="67mo" title='mo' data-type='const struct MissionOptions *' data-ref="67mo">mo</dfn>, <em>const</em> <a class="typedef" href="campaigns.h.html#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a>* <dfn class="local col8 decl" id="68co" title='co' data-type='const CampaignOptions *' data-ref="68co">co</dfn>);</td></tr>
+<tr><th id="136">136</th><td><em>void</em> <dfn class="decl" id="MapLoadDynamic" title='MapLoadDynamic' data-ref="MapLoadDynamic">MapLoadDynamic</dfn>(</td></tr>
+<tr><th id="137">137</th><td>	<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col9 decl" id="69map" title='map' data-type='Map *' data-ref="69map">map</dfn>, <em>const</em> <b>struct</b> <a class="type" href="mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col0 decl" id="70mo" title='mo' data-type='const struct MissionOptions *' data-ref="70mo">mo</dfn>, <em>const</em> <a class="typedef" href="character.h.html#CharacterStore" title='CharacterStore' data-type='struct CharacterStore' data-ref="CharacterStore">CharacterStore</a> *<dfn class="local col1 decl" id="71store" title='store' data-type='const CharacterStore *' data-ref="71store">store</dfn>);</td></tr>
+<tr><th id="138">138</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapIsFullPosOKforPlayer" title='MapIsFullPosOKforPlayer' data-ref="MapIsFullPosOKforPlayer">MapIsFullPosOKforPlayer</dfn>(</td></tr>
+<tr><th id="139">139</th><td>	<em>const</em> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col2 decl" id="72map" title='map' data-type='const Map *' data-ref="72map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="73pos" title='pos' data-type='const Vec2i' data-ref="73pos">pos</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col4 decl" id="74allowAllTiles" title='allowAllTiles' data-type='const _Bool' data-ref="74allowAllTiles">allowAllTiles</dfn>);</td></tr>
+<tr><th id="140">140</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapIsTileAreaClear" title='MapIsTileAreaClear' data-ref="MapIsTileAreaClear">MapIsTileAreaClear</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col5 decl" id="75map" title='map' data-type='Map *' data-ref="75map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col6 decl" id="76fullPos" title='fullPos' data-type='const Vec2i' data-ref="76fullPos">fullPos</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col7 decl" id="77size" title='size' data-type='const Vec2i' data-ref="77size">size</dfn>);</td></tr>
+<tr><th id="141">141</th><td><em>void</em> <dfn class="decl" id="MapChangeFloor" title='MapChangeFloor' data-ref="MapChangeFloor">MapChangeFloor</dfn>(</td></tr>
+<tr><th id="142">142</th><td>	<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col8 decl" id="78map" title='map' data-type='Map *' data-ref="78map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="79pos" title='pos' data-type='const Vec2i' data-ref="79pos">pos</dfn>, <a class="typedef" href="cpic.h.html#NamedPic" title='NamedPic' data-type='struct NamedPic' data-ref="NamedPic">NamedPic</a> *<dfn class="local col0 decl" id="80normal" title='normal' data-type='NamedPic *' data-ref="80normal">normal</dfn>, <a class="typedef" href="cpic.h.html#NamedPic" title='NamedPic' data-type='struct NamedPic' data-ref="NamedPic">NamedPic</a> *<dfn class="local col1 decl" id="81shadow" title='shadow' data-type='NamedPic *' data-ref="81shadow">shadow</dfn>);</td></tr>
+<tr><th id="143">143</th><td><em>void</em> <dfn class="decl" id="MapShowExitArea" title='MapShowExitArea' data-ref="MapShowExitArea">MapShowExitArea</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col2 decl" id="82map" title='map' data-type='Map *' data-ref="82map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="83exitStart" title='exitStart' data-type='const Vec2i' data-ref="83exitStart">exitStart</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col4 decl" id="84exitEnd" title='exitEnd' data-type='const Vec2i' data-ref="84exitEnd">exitEnd</dfn>);</td></tr>
+<tr><th id="144">144</th><td><i>// Returns the center of the tile that's the middle of the exit area</i></td></tr>
+<tr><th id="145">145</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="MapGetExitPos" title='MapGetExitPos' data-ref="MapGetExitPos">MapGetExitPos</dfn>(<em>const</em> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col5 decl" id="85m" title='m' data-type='const Map *' data-ref="85m">m</dfn>);</td></tr>
+<tr><th id="146">146</th><td></td></tr>
+<tr><th id="147">147</th><td><em>void</em> <dfn class="decl" id="MapMarkAsVisited" title='MapMarkAsVisited' data-ref="MapMarkAsVisited">MapMarkAsVisited</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col6 decl" id="86map" title='map' data-type='Map *' data-ref="86map">map</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col7 decl" id="87pos" title='pos' data-type='Vec2i' data-ref="87pos">pos</dfn>);</td></tr>
+<tr><th id="148">148</th><td><em>void</em> <dfn class="decl" id="MapMarkAllAsVisited" title='MapMarkAllAsVisited' data-ref="MapMarkAllAsVisited">MapMarkAllAsVisited</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col8 decl" id="88map" title='map' data-type='Map *' data-ref="88map">map</dfn>);</td></tr>
+<tr><th id="149">149</th><td><em>int</em> <dfn class="decl" id="MapGetExploredPercentage" title='MapGetExploredPercentage' data-ref="MapGetExploredPercentage">MapGetExploredPercentage</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col9 decl" id="89map" title='map' data-type='Map *' data-ref="89map">map</dfn>);</td></tr>
+<tr><th id="150">150</th><td></td></tr>
+<tr><th id="151">151</th><td><b>typedef</b> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> (*<dfn class="typedef" id="TileSelectFunc" title='TileSelectFunc' data-type='_Bool (*)(Map *, Vec2i)' data-ref="TileSelectFunc">TileSelectFunc</dfn>)(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a>);</td></tr>
+<tr><th id="152">152</th><td><i>// Find a tile around the start that satisfies a condition</i></td></tr>
+<tr><th id="153">153</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="MapSearchTileAround" title='MapSearchTileAround' data-ref="MapSearchTileAround">MapSearchTileAround</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col0 decl" id="90map" title='map' data-type='Map *' data-ref="90map">map</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col1 decl" id="91start" title='start' data-type='Vec2i' data-ref="91start">start</dfn>, <a class="typedef" href="#TileSelectFunc" title='TileSelectFunc' data-type='_Bool (*)(Map *, Vec2i)' data-ref="TileSelectFunc">TileSelectFunc</a> <dfn class="local col2 decl" id="92func" title='func' data-type='TileSelectFunc' data-ref="92func">func</dfn>);</td></tr>
+<tr><th id="154">154</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapTileIsUnexplored" title='MapTileIsUnexplored' data-ref="MapTileIsUnexplored">MapTileIsUnexplored</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col3 decl" id="93map" title='map' data-type='Map *' data-ref="93map">map</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col4 decl" id="94tile" title='tile' data-type='Vec2i' data-ref="94tile">tile</dfn>);</td></tr>
+<tr><th id="155">155</th><td></td></tr>
+<tr><th id="156">156</th><td><i>// Map construction functions</i></td></tr>
+<tr><th id="157">157</th><td><em>unsigned</em> <em>short</em> <dfn class="decl" id="IMapGet" title='IMapGet' data-ref="IMapGet">IMapGet</dfn>(<em>const</em> <a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col5 decl" id="95map" title='map' data-type='const Map *' data-ref="95map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col6 decl" id="96pos" title='pos' data-type='const Vec2i' data-ref="96pos">pos</dfn>);</td></tr>
+<tr><th id="158">158</th><td><em>void</em> <dfn class="decl" id="IMapSet" title='IMapSet' data-ref="IMapSet">IMapSet</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col7 decl" id="97map" title='map' data-type='Map *' data-ref="97map">map</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col8 decl" id="98pos" title='pos' data-type='Vec2i' data-ref="98pos">pos</dfn>, <em>unsigned</em> <em>short</em> <dfn class="local col9 decl" id="99v" title='v' data-type='unsigned short' data-ref="99v">v</dfn>);</td></tr>
+<tr><th id="159">159</th><td><a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="MapGenerateFreePosition" title='MapGenerateFreePosition' data-ref="MapGenerateFreePosition">MapGenerateFreePosition</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col0 decl" id="100map" title='map' data-type='Map *' data-ref="100map">map</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col1 decl" id="101size" title='size' data-type='Vec2i' data-ref="101size">size</dfn>);</td></tr>
+<tr><th id="160">160</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="MapTryPlaceOneObject" title='MapTryPlaceOneObject' data-ref="MapTryPlaceOneObject">MapTryPlaceOneObject</dfn>(</td></tr>
+<tr><th id="161">161</th><td>	<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col2 decl" id="102map" title='map' data-type='Map *' data-ref="102map">map</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col3 decl" id="103v" title='v' data-type='const Vec2i' data-ref="103v">v</dfn>, <em>const</em> <a class="typedef" href="map_object.h.html#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="local col4 decl" id="104mo" title='mo' data-type='const MapObject *' data-ref="104mo">mo</dfn>, <em>const</em> <em>int</em> <dfn class="local col5 decl" id="105extraFlags" title='extraFlags' data-type='const int' data-ref="105extraFlags">extraFlags</dfn>,</td></tr>
+<tr><th id="162">162</th><td>	<em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col6 decl" id="106isStrictMode" title='isStrictMode' data-type='const _Bool' data-ref="106isStrictMode">isStrictMode</dfn>);</td></tr>
+<tr><th id="163">163</th><td><i>// TODO: refactor</i></td></tr>
+<tr><th id="164">164</th><td><em>void</em> <dfn class="decl" id="MapPlaceCollectible" title='MapPlaceCollectible' data-ref="MapPlaceCollectible">MapPlaceCollectible</dfn>(</td></tr>
+<tr><th id="165">165</th><td>	<em>const</em> <b>struct</b> <a class="type" href="mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col7 decl" id="107mo" title='mo' data-type='const struct MissionOptions *' data-ref="107mo">mo</dfn>, <em>const</em> <em>int</em> <dfn class="local col8 decl" id="108objective" title='objective' data-type='const int' data-ref="108objective">objective</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col9 decl" id="109realPos" title='realPos' data-type='const Vec2i' data-ref="109realPos">realPos</dfn>);</td></tr>
+<tr><th id="166">166</th><td><i>// TODO: refactor</i></td></tr>
+<tr><th id="167">167</th><td><em>void</em> <dfn class="decl" id="MapPlaceKey" title='MapPlaceKey' data-ref="MapPlaceKey">MapPlaceKey</dfn>(</td></tr>
+<tr><th id="168">168</th><td>	<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col0 decl" id="110map" title='map' data-type='Map *' data-ref="110map">map</dfn>, <em>const</em> <b>struct</b> <a class="type" href="mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col1 decl" id="111mo" title='mo' data-type='const struct MissionOptions *' data-ref="111mo">mo</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col2 decl" id="112pos" title='pos' data-type='const Vec2i' data-ref="112pos">pos</dfn>,</td></tr>
+<tr><th id="169">169</th><td>	<em>const</em> <em>int</em> <dfn class="local col3 decl" id="113keyIndex" title='keyIndex' data-type='const int' data-ref="113keyIndex">keyIndex</dfn>);</td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><a class="typedef" href="triggers.h.html#Trigger" title='Trigger' data-type='struct Trigger' data-ref="Trigger">Trigger</a> *<dfn class="decl" id="MapNewTrigger" title='MapNewTrigger' data-ref="MapNewTrigger">MapNewTrigger</dfn>(<a class="typedef" href="#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col4 decl" id="114map" title='map' data-type='Map *' data-ref="114map">map</dfn>);</td></tr>
+<tr><th id="172">172</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../briefing_screens.c.html'>codebrowser/src/briefing_screens.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

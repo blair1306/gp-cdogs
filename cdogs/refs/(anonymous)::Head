@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='58' type='const Pic *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='180' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='182' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='213' u='r' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='345' u='r' c='DrawActorHighlight'/>

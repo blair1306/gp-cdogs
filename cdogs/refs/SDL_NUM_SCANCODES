@@ -1,0 +1,10 @@
+<dec f='include/SDL2/SDL_scancode.h' l='395' type='512'/>
+<doc f='include/SDL2/SDL_scancode.h' l='393'>/* Add any other keys here. */</doc>
+<doc f='include/SDL2/SDL_scancode.h' l='395'>/**&lt; not a key, just marks the number of scancodes
+                                 for array bounds */</doc>
+<use f='codebrowser/src/cdogs/keyboard.h' l='70'/>
+<use f='codebrowser/src/cdogs/keyboard.h' l='71'/>
+<use f='codebrowser/src/cdogs/keyboard.h' l='72'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='114' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='162' u='r' c='KeyPostPoll'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='189' u='r' c='KeyGetPressed'/>

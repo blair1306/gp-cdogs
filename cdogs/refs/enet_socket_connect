@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='497' type='int enet_socket_connect(ENetSocket , const ENetAddress * )'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='380' ll='397' type='int enet_socket_connect(ENetSocket socket, const ENetAddress * address)'/>

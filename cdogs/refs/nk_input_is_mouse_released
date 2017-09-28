@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2768' type='int nk_input_is_mouse_released(const struct nk_input * , enum nk_buttons )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='12267' ll='12272' macro='1' type='int nk_input_is_mouse_released(const struct nk_input * i, enum nk_buttons id)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='13543' u='c' c='nk_button_behavior'/>

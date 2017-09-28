@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/hud/health_gauge.h' l='43' type='void HealthGaugeInit(HealthGauge * h)'/>
+<def f='codebrowser/src/cdogs/hud/health_gauge.c' l='37' ll='42' type='void HealthGaugeInit(HealthGauge * h)'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='83' u='c' c='HUDInit'/>

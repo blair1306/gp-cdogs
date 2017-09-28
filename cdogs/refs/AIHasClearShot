@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='63' type='_Bool AIHasClearShot(const Vec2i from, const Vec2i to)'/>
+<use f='codebrowser/src/cdogs/ai.c' l='113' u='c' c='CanSeeAPlayer'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='277' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='861' u='c' c='GotoObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='868' u='c' c='GotoObjective'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='321' ll='354' macro='1' type='_Bool AIHasClearShot(const Vec2i from, const Vec2i to)'/>

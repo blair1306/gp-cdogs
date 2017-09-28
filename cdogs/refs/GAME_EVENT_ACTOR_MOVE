@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='69' type='20'/>
+<use f='codebrowser/src/cdogs/actors.c' l='825' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='78' u='r'/>
+<use f='codebrowser/src/cdogs/game_events.c' l='141' c='GameEventsEnqueue'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='187' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='403' c='OnReceive'/>

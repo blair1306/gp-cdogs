@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='74'/>
+<use f='codebrowser/src/briefing_screens.c' l='711' u='c'/>
+<use f='codebrowser/src/menu_utils.c' l='64' u='c'/>
+<use f='codebrowser/src/player_select_menus.c' l='55' u='c'/>
+<use f='codebrowser/src/player_select_menus.c' l='248' u='c'/>
+<use f='codebrowser/src/weapon_menu.c' l='119' u='c'/>

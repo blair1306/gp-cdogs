@@ -1,0 +1,6 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='158' ll='164'/>
+<size>16</size>
+<mbr r='_NPlayerStats::Score' o='0' t='int32_t'/>
+<mbr r='_NPlayerStats::Kills' o='32' t='int32_t'/>
+<mbr r='_NPlayerStats::Suicides' o='64' t='int32_t'/>
+<mbr r='_NPlayerStats::Friendlies' o='96' t='int32_t'/>

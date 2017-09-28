@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='120' type='void BulletClassesClear(CArray * classes)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='826' u='c' c='BulletTerminate'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='828' u='c' c='BulletTerminate'/>
+<def f='codebrowser/src/cdogs/bullet_class.c' l='831' ll='838' type='void BulletClassesClear(CArray * classes)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='78' u='c' c='CampaignSettingTerminate'/>

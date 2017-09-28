@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='558' type='enet_uint32 enet_crc32(const ENetBuffer * , size_t )'/>
+<def f='codebrowser/src/cdogs/enet/packet.c' l='142' ll='163' type='enet_uint32 enet_crc32(const ENetBuffer * buffers, size_t bufferCount)'/>

@@ -1,0 +1,5 @@
+<def f='codebrowser/src/tests/config_test.c' l='36' macro='1' type='void _cbehave_feature_load_default(void * _state)'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>
+<use f='codebrowser/src/tests/config_test.c' l='124' macro='1' u='r'/>

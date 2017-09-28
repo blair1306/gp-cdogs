@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3480' type='16384'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16860' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16867' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16892' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17174' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18351' u='r' c='nk_window_is_closed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18407' u='r' c='nk_window_close'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18641' u='r' c='nk_panel_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19622' u='r' c='nk_widget'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21327' u='r' c='nk_group_scrolled_offset_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21332' u='r' c='nk_group_scrolled_offset_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21333' u='r' c='nk_group_scrolled_offset_begin'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3479'>/* Hides window and stops any window interaction and drawing */</doc>

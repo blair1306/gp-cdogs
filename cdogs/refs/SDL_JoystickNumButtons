@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_joystick.h' l='172' type='int SDL_JoystickNumButtons(SDL_Joystick * joystick)'/>
+<doc f='include/SDL2/SDL_joystick.h' l='169'>/**
+ *  Get the number of buttons on a joystick.
+ */</doc>

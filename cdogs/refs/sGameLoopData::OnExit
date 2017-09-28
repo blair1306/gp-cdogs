@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/game_loop.h' l='55' type='void (*)(struct sGameLoopData *)'/>
+<offset>192</offset>
+<use f='codebrowser/src/game_loop.c' l='137' u='w' c='GameLoopDataNew'/>
+<use f='codebrowser/src/game_loop.c' l='383' u='r' c='GameLoopOnExit'/>
+<use f='codebrowser/src/game_loop.c' l='385' u='r' c='GameLoopOnExit'/>

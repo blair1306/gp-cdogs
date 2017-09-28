@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='151' type='int GunDescriptionId(const GunDescription * g)'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='291' u='c' c='PickupClassesLoadGuns'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='376' ll='397' type='int GunDescriptionId(const GunDescription * g)'/>

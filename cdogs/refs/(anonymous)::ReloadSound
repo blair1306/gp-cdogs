@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='104' type='Mix_Chunk *'/>
+<offset>512</offset>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='69' u='r' c='ActorFireUpdate'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='504' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='231' u='a' c='LoadGunDescription'/>

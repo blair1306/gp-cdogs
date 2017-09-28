@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='156' type='_Bool WeaponIsLocked(const Weapon * w)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='638' u='c' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1334' u='c' c='ActorCanFire'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='465' ll='468' macro='1' type='_Bool WeaponIsLocked(const Weapon * w)'/>

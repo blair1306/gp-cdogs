@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='46' type='_Bool MissionStaticTrySetKey(Mission * m, int k, Vec2i pos)'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='522' ll='534' macro='1' type='_Bool MissionStaticTrySetKey(Mission * m, int k, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='551' u='c' c='MissionStaticTryUnsetKeyAt'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='421' u='c' c='EditorBrushStartPainting'/>

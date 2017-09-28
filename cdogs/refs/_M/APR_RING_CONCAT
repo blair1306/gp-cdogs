@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='335'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='328'>/**
+ * Concatenate ring h2 onto the end of ring h1, leaving h2 empty.
+ * @param h1   Head of the ring to concatenate onto
+ * @param h2   Head of the ring to concatenate
+ * @param elem The name of the element struct
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

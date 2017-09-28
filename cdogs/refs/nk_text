@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1436' type='void nk_text(struct nk_context * , const char * , int , nk_flags )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='13376' ll='13380'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19863' ll='19869' macro='1' type='void nk_text(struct nk_context * ctx, const char * str, int len, nk_flags alignment)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19881' u='c' c='nk_label'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21827' u='c' c='nk_tooltip'/>
+<size>16</size>
+<mbr r='nk_text::padding' o='0' t='struct nk_vec2'/>
+<mbr r='nk_text::background' o='64' t='struct nk_color'/>
+<mbr r='nk_text::text' o='96' t='struct nk_color'/>

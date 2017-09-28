@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/character.h' l='61' type='CArray'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogs/character.c' l='46' u='a' c='CharacterStoreInit'/>
+<use f='codebrowser/src/cdogs/character.c' l='57' u='a' c='CharacterStoreTerminate'/>
+<use f='codebrowser/src/cdogs/character.c' l='65' u='a' c='CharacterStoreResetOthers'/>
+<use f='codebrowser/src/cdogs/character.c' l='219' u='a' c='CharacterStoreAddSpecial'/>
+<use f='codebrowser/src/cdogs/character.c' l='227' u='a' c='CharacterStoreDeleteSpecial'/>
+<use f='codebrowser/src/cdogs/character.c' l='237' u='a' c='CharacterStoreGetSpecialId'/>
+<use f='codebrowser/src/cdogs/character.c' l='247' u='a' c='CharacterStoreGetRandomSpecialId'/>
+<use f='codebrowser/src/cdogs/character.c' l='247' u='m' c='CharacterStoreGetRandomSpecialId'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='924' u='a' c='MissionChangeSpecialChar'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='470' u='m' c='MissionDrawKillObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='430' u='m' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='490' u='m' c='CreateAddObjectiveSubObjs'/>

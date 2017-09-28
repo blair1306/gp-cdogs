@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='7532' ll='7543' macro='1' type='void * nk_draw_list_alloc_vertices(struct nk_draw_list * list, nk_size count)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7753' u='c' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7916' u='c' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7989' u='c' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8066' u='c' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8273' u='c' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8371' u='c' c='nk_draw_list_push_rect_uv'/>

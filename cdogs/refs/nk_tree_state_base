@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='19306' ll='19408' macro='1' type='int nk_tree_state_base(struct nk_context * ctx, enum nk_tree_type type, struct nk_image * img, const char * title, enum nk_collapse_states * state)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19430' u='c' c='nk_tree_base'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19436' u='c' c='nk_tree_state_push'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19441' u='c' c='nk_tree_state_image_push'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='14' type='void (*)(void)'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/enet/callbacks.c' l='25' u='r' c='enet_initialize_with_callbacks'/>
+<use f='codebrowser/src/cdogs/enet/callbacks.c' l='26' u='w' c='enet_initialize_with_callbacks'/>
+<use f='codebrowser/src/cdogs/enet/callbacks.c' l='26' u='r' c='enet_initialize_with_callbacks'/>
+<use f='codebrowser/src/cdogs/enet/callbacks.c' l='43' u='r' c='enet_malloc'/>

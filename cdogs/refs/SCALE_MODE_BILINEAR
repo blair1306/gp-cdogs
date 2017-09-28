@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/config.h' l='71' type='1'/>
+<use f='codebrowser/src/cdogs/config.c' l='106' c='ScaleModeStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='114' u='r' c='StrScaleMode'/>
+<use f='codebrowser/src/cdogs/config.c' l='637' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='277' c='GraphicsInitialize'/>

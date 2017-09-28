@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/music.h' l='57' type='void MusicStop(SoundDevice * device)'/>
+<use f='codebrowser/src/cdogs/music.c' l='90' u='c' c='MusicPlayGame'/>
+<use f='codebrowser/src/cdogs/music.c' l='118' u='c' c='MusicPlayMenu'/>
+<def f='codebrowser/src/cdogs/music.c' l='126' ll='134' type='void MusicStop(SoundDevice * device)'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='282' u='c' c='SoundTerminate'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='85' type='color_t'/>
+<offset>288</offset>
+<use f='codebrowser/src/cdogs/automap.c' l='104' u='r' c='DisplayObjective'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' u='r' c='DisplaySummary'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' u='r' c='DisplaySummary'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' u='r' c='DisplaySummary'/>
+<use f='codebrowser/src/cdogs/automap.c' l='154' u='r' c='DisplaySummary'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='98' u='r' c='DrawObjectiveHighlight'/>
+<use f='codebrowser/src/cdogs/files.c' l='341' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='522' u='r' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' u='r' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' u='r' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' u='r' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='957' u='r' c='DrawObjectiveCounts'/>
+<use f='codebrowser/src/cdogs/objective.c' l='103' u='w' c='ObjectiveLoadJSON'/>

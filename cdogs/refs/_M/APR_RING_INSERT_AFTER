@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='276'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='267'>/**
+ * Insert the element nep into the ring after element lep
+ *   (..lep.. becomes ..lep..nep..)
+ * @warning This doesn&apos;t work for inserting after the last element or on
+ *   empty rings... see APR_RING_INSERT_TAIL for one that does
+ * @param lep  Element in the ring to insert after
+ * @param nep  Element to insert
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>

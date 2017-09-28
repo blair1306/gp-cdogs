@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='97' type='void DrawActorHighlight(const ActorPics * pics, const Vec2i pos, const color_t color)'/>
+<def f='codebrowser/src/cdogs/draw/draw_actor.c' l='336' ll='363' type='void DrawActorHighlight(const ActorPics * pics, const Vec2i pos, const color_t color)'/>
+<use f='codebrowser/src/cdogs/draw/draw_highlight.c' l='136' u='c' c='DrawObjectiveHighlight'/>

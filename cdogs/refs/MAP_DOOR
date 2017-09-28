@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/map.h' l='66' type='2'/>
+<use f='codebrowser/src/cdogs/door.c' l='79' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='79' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='157' u='r' c='GetDoorCountInGroup'/>
+<use f='codebrowser/src/cdogs/map.c' l='90' c='IMapTypeStr'/>
+<use f='codebrowser/src/cdogs/map.c' l='102' u='r' c='StrIMapType'/>
+<use f='codebrowser/src/cdogs/map.c' l='589' u='r' c='MapSetupDoors'/>
+<use f='codebrowser/src/cdogs/map.c' l='590' u='r' c='MapSetupDoors'/>
+<use f='codebrowser/src/cdogs/map.c' l='591' u='r' c='MapSetupDoors'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='157' c='MapSetupTile'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='481' u='r' c='MapPlaceDoors'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='615' u='r' c='MapBuildRoom'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='127' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='133' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='135' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='141' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='143' u='r' c='HasDoorOrientedAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='171' c='MissionTrySetTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='538' u='r' c='MissionFillTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='544' u='r' c='MissionIsTileSame'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='329' u='r' c='EditorBrushStartPainting'/>

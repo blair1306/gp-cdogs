@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/config.h' l='148' type='char *'/>
+<dec f='codebrowser/src/cdogs/config.h' l='148' type='double'/>
+<dec f='codebrowser/src/cdogs/config.h' l='148' type='_Bool'/>
+<dec f='codebrowser/src/cdogs/config.h' l='162' type='int'/>
+<dec f='codebrowser/src/cdogs/config.h' l='162' type='int'/>
+<offset>96</offset>
+<use f='codebrowser/src/cdogs/config.c' l='232' u='w' c='ConfigNewInt'/>
+<use f='codebrowser/src/cdogs/config.c' l='245' u='w' c='ConfigNewFloat'/>
+<use f='codebrowser/src/cdogs/config.c' l='263' u='w' c='ConfigNewEnum'/>
+<use f='codebrowser/src/cdogs/config.c' l='519' u='r' c='ConfigSetInt'/>
+<use f='codebrowser/src/cdogs/config.c' l='519' u='r' c='ConfigSetInt'/>
+<use f='codebrowser/src/cdogs/config.c' l='526' u='r' c='ConfigSetFloat'/>
+<use f='codebrowser/src/cdogs/config.c' l='526' u='r' c='ConfigSetFloat'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='124' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='125' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='125' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='131' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='132' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='132' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='142' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='143' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='143' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/menu.c' l='437' u='r' c='MenuAddConfigOptionsItem'/>
+<use f='codebrowser/src/menu.c' l='453' u='r' c='MenuAddConfigOptionsItem'/>

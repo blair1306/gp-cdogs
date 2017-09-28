@@ -1,0 +1,9 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2291' ll='2294'/>
+<size>128</size>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2286'>/*  Basic string buffer which is only used in context with the text editor
+ *  to manage and manipulate dynamic or fixed size string content. This is _NOT_
+ *  the default string handling method. The only instance you should have any contact
+ *  with this API is if you interact with an `nk_text_edit` object inside one of the
+ *  copy and paste functions and even there only for more advanced cases. */</doc>
+<mbr r='nk_str::buffer' o='0' t='struct nk_buffer'/>
+<mbr r='nk_str::len' o='960' t='int'/>

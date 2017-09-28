@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='95' type='Uint8'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='152' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='192' u='r' c='Display'/>
+<offset>33792</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='50' u='w' c='EditorBrushInit'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='85' u='r' c='BrushGetGuideImageAlphaStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='137' u='w' c='BrushChangeGuideImageAlpha'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='137' u='r' c='BrushChangeGuideImageAlpha'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='137' u='r' c='BrushChangeGuideImageAlpha'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='137' u='r' c='BrushChangeGuideImageAlpha'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='137' u='r' c='BrushChangeGuideImageAlpha'/>

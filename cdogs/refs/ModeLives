@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='55' type='int ModeLives(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='146' ll='157' type='int ModeLives(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/player.c' l='235' u='c' c='PlayerDataMissionReset'/>
+<def f='codebrowser/src/tests/player_test.c' l='48' ll='52' type='int ModeLives(const GameMode mode)'/>

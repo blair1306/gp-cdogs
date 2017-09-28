@@ -1,0 +1,35 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='129' type='int'/>
+<offset>1568</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='118' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='143' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='234' u='r' c='TryMoveActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='524' u='w' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='525' u='w' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='525' u='r' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='525' u='r' c='ActorHeal'/>
+<use f='codebrowser/src/cdogs/actors.c' l='530' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='531' u='w' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='532' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='721' u='r' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1209' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1371' u='r' c='ActorIsImmune'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1521' u='r' c='ActorGetHealthPercent'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='469' u='r' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='603' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/damage.c' l='83' u='r' c='DamageActor'/>
+<use f='codebrowser/src/cdogs/damage.c' l='85' u='r' c='DamageActor'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='49' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='50' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='53' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='56' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='62' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='64' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='64' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='64' u='r' c='HealthGaugeUpdate'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='78' u='r' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/mission.c' l='315' u='r' c='ObjectiveActorsAlive'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='437' u='r' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='140' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='164' u='r' c='HealthScale'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='164' u='r' c='HealthScale'/>
+<use f='codebrowser/src/game.c' l='312' u='r' c='RunGameOnExit'/>

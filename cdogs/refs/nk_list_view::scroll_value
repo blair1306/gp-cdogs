@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1368' type='nk_uint'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21483' u='w' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21492' u='r' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21492' u='r' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21515' u='r' c='nk_list_view_end'/>
+<offset>256</offset>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/font.h' l='83' type='Vec2i FontChMask(const char c, const Vec2i pos, const color_t mask)'/>
+<use f='codebrowser/src/cdogs/font.c' l='207' u='c' c='FontCh'/>
+<def f='codebrowser/src/cdogs/font.c' l='211' ll='214' type='Vec2i FontChMask(const char c, const Vec2i pos, const color_t mask)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='135' u='c' c='DisplayFlag'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='422' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='428' u='c' c='UIObjectDrawAndAddChildren'/>
+<use f='codebrowser/src/password.c' l='322' u='c' c='EnterCodeScreenDraw'/>
+<use f='codebrowser/src/player_select_menus.c' l='67' u='c' c='DrawNameMenu'/>
+<use f='codebrowser/src/screens_end.c' l='399' u='c' c='VictoryDraw'/>
+<use f='codebrowser/src/screens_end.c' l='401' u='c' c='VictoryDraw'/>

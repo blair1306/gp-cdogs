@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/rlutil/rlutil.h' l='173' type='3'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='419' c='getANSIColor'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='445' c='getANSIBackgroundColor'/>
+<use f='codebrowser/src/cdogs/log.c' l='162' u='r' c='LogSetFuncColor'/>

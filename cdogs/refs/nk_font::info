@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2122' type='struct nk_baked_font'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11139' u='m' c='nk_font_text_width'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11175' u='m' c='nk_font_query_font_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11196' u='m' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11200' u='m' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11203' u='m' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11204' u='m' c='nk_font_find_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11226' u='w' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11227' u='m' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11233' u='m' c='nk_font_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11677' u='a' c='nk_font_atlas_add'/>
+<offset>384</offset>

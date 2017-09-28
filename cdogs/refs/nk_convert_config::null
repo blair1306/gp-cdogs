@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='902' type='struct nk_draw_null_texture'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7499' u='m' c='nk_draw_list_add_clip'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7836' u='m' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7901' u='m' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7922' u='m' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8034' u='m' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8071' u='m' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8102' u='m' c='nk_draw_list_path_line_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8103' u='m' c='nk_draw_list_path_line_to'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8271' u='m' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8281' u='m' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8282' u='m' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8283' u='m' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8284' u='m' c='nk_draw_list_fill_rect_multi_color'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='123' u='w' c='nk_sdl_render'/>
+<offset>192</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='902'>/* handle to texture with a white pixel for shape drawing */</doc>

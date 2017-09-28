@@ -1,0 +1,5 @@
+<def f='codebrowser/src/tests/minkowski_hex_test.c' l='13' macro='1' type='void _cbehave_feature_minkowski_hex(void * _state)'/>
+<use f='codebrowser/src/tests/minkowski_hex_test.c' l='94' macro='1' u='r'/>
+<use f='codebrowser/src/tests/minkowski_hex_test.c' l='94' macro='1' u='r'/>
+<use f='codebrowser/src/tests/minkowski_hex_test.c' l='94' macro='1' u='r'/>
+<use f='codebrowser/src/tests/minkowski_hex_test.c' l='94' macro='1' u='r'/>

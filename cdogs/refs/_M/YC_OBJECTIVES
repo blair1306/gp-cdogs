@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogsed/editor_ui.h' l='65'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='322' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='326' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='736' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='743' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1221' u='c'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='266' u='c'/>

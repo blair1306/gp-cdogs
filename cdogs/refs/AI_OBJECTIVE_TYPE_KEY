@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='65' type='1'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='458' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='529' c='TryCompleteNearbyObjective'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='597' u='r' c='FindObjectivesSortedByDistance'/>

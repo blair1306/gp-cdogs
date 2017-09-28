@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='4130' macro='1' type='int nk_to_lower(int c)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4486' u='c' c='nk_strmatch_fuzzy_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4486' u='c' c='nk_strmatch_fuzzy_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4492' u='c' c='nk_strmatch_fuzzy_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='4492' u='c' c='nk_strmatch_fuzzy_text'/>

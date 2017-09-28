@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='55' type='int'/>
+<offset>768</offset>
+<use f='codebrowser/src/cdogs/particle.c' l='202' u='a' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='297' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='313' u='r' c='ParticleUpdate'/>

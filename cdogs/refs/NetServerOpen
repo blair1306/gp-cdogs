@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='64' type='void NetServerOpen(NetServer * n)'/>
+<doc f='codebrowser/src/cdogs/net_server.h' l='63'>// Open a port and start listening for data</doc>
+<def f='codebrowser/src/cdogs/net_server.c' l='67' ll='94' type='void NetServerOpen(NetServer * n)'/>
+<use f='codebrowser/src/prep.c' l='710' u='c' c='GameOptionsUpdate'/>

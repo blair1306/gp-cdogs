@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/map.h' l='111' type='Vec2i'/>
+<offset>1504</offset>
+<use f='codebrowser/src/cdogs/automap.c' l='123' u='r' c='DisplayExit'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='108' u='r' c='GrafxMakeBackground'/>
+<use f='codebrowser/src/cdogs/map.c' l='148' u='m' c='MapIsTileInExit'/>
+<use f='codebrowser/src/cdogs/map.c' l='150' u='m' c='MapIsTileInExit'/>
+<use f='codebrowser/src/cdogs/map.c' l='301' u='r' c='MapGetExitPos'/>
+<use f='codebrowser/src/cdogs/map.c' l='686' u='r' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='960' u='m' c='MapGenerateRandomExitArea'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='962' u='m' c='MapGenerateRandomExitArea'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='965' u='m' c='MapGenerateRandomExitArea'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='966' u='m' c='MapGenerateRandomExitArea'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='67' u='w' c='MapStaticLoad'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='100' u='r' c='NMakeMissionComplete'/>

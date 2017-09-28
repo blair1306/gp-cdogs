@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/menu.h' l='275' type='void MenuSetPostUpdateFunc(menu_t * menu, MenuFunc func, void * data, const _Bool isDynamicData)'/>
+<use f='codebrowser/src/mainmenu.c' l='283' u='c' c='MenuCreateStart'/>
+<def f='codebrowser/src/menu.c' l='386' ll='392' type='void MenuSetPostUpdateFunc(menu_t * menu, MenuFunc func, void * data, const _Bool isDynamicData)'/>

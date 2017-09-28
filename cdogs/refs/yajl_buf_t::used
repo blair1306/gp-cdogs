@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='27' type='size_t'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='48' u='r' c='yajl_buf_ensure_available'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='76' u='r' c='yajl_buf_append'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='77' u='w' c='yajl_buf_append'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='78' u='r' c='yajl_buf_append'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='84' u='w' c='yajl_buf_clear'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='85' u='r' c='yajl_buf_clear'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='95' u='r' c='yajl_buf_len'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='101' u='r' c='yajl_buf_truncate'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_buf.c' l='102' u='w' c='yajl_buf_truncate'/>
+<offset>64</offset>

@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='42' type='size_t'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='259' u='r' c='PollListener'/>
+<offset>192</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb_encode.h' l='42'>/* Number of bytes written so far. */</doc>
+<use f='codebrowser/src/cdogs/net_util.c' l='45' u='r' c='NetEncode'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='47' u='r' c='NetEncode'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='85' u='w' c='pb_ostream_from_buffer'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='96' u='r' c='pb_write'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='108' u='w' c='pb_write'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='155' u='r' c='encode_array'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='390' u='r' c='pb_get_encoded_size'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='522' u='r' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='530' u='r' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='538' u='w' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='545' u='w' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='545' u='r' c='pb_encode_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='551' u='r' c='pb_encode_submessage'/>

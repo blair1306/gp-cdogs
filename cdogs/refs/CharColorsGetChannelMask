@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/blit.h' l='100' type='color_t CharColorsGetChannelMask(const CharColors * c, const uint8_t alpha)'/>
+<use f='codebrowser/src/cdogs/blit.c' l='330' u='c' c='BlitCharMultichannel'/>
+<def f='codebrowser/src/cdogs/blit.c' l='335' ll='350' type='color_t CharColorsGetChannelMask(const CharColors * c, const uint8_t alpha)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='815' u='c' c='LoadMultiChannelTexFromPic'/>

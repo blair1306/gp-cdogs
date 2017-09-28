@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>editor_brush.h source code [codebrowser/src/cdogsed/editor_brush.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogsed/editor_brush.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogsed</a>/<a href='editor_brush.h.html'>editor_brush.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2014, 2016 Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#pragma once</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="../cdogs/c_array.h.html">&lt;cdogs/c_array.h&gt;</a></u></td></tr>
+<tr><th id="33">33</th><td><u>#include <a href="../cdogs/mission.h.html">&lt;cdogs/mission.h&gt;</a></u></td></tr>
+<tr><th id="34">34</th><td><u>#include <a href="../cdogs/vector.h.html">&lt;cdogs/vector.h&gt;</a></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+<tr><th id="36">36</th><td><i>// Point: draw as long as mouse is down; to smooth input draws a line from</i></td></tr>
+<tr><th id="37">37</th><td><i>//        last known position to current position</i></td></tr>
+<tr><th id="38">38</th><td><i>// Line: draw line from mouse down position to mouse up position</i></td></tr>
+<tr><th id="39">39</th><td><i>// Box: draw box outline from mouse down position to mouse up position</i></td></tr>
+<tr><th id="40">40</th><td><i>// Box filled: like box but with filled interior</i></td></tr>
+<tr><th id="41">41</th><td><i>// Room: special type of box; the outline is always wall and the interior is</i></td></tr>
+<tr><th id="42">42</th><td><i>//       always room</i></td></tr>
+<tr><th id="43">43</th><td><i>// Select: draw outline and drag contents to another location</i></td></tr>
+<tr><th id="44">44</th><td><i>// Add item: add items to the map</i></td></tr>
+<tr><th id="45">45</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="46">46</th><td>{</td></tr>
+<tr><th id="47">47</th><td>	<dfn class="enum" id="BRUSHTYPE_POINT" title='BRUSHTYPE_POINT' data-ref="BRUSHTYPE_POINT">BRUSHTYPE_POINT</dfn>,</td></tr>
+<tr><th id="48">48</th><td>	<dfn class="enum" id="BRUSHTYPE_LINE" title='BRUSHTYPE_LINE' data-ref="BRUSHTYPE_LINE">BRUSHTYPE_LINE</dfn>,</td></tr>
+<tr><th id="49">49</th><td>	<dfn class="enum" id="BRUSHTYPE_BOX" title='BRUSHTYPE_BOX' data-ref="BRUSHTYPE_BOX">BRUSHTYPE_BOX</dfn>,</td></tr>
+<tr><th id="50">50</th><td>	<dfn class="enum" id="BRUSHTYPE_BOX_FILLED" title='BRUSHTYPE_BOX_FILLED' data-ref="BRUSHTYPE_BOX_FILLED">BRUSHTYPE_BOX_FILLED</dfn>,</td></tr>
+<tr><th id="51">51</th><td>	<dfn class="enum" id="BRUSHTYPE_ROOM" title='BRUSHTYPE_ROOM' data-ref="BRUSHTYPE_ROOM">BRUSHTYPE_ROOM</dfn>,</td></tr>
+<tr><th id="52">52</th><td>	<dfn class="enum" id="BRUSHTYPE_ROOM_PAINTER" title='BRUSHTYPE_ROOM_PAINTER' data-ref="BRUSHTYPE_ROOM_PAINTER">BRUSHTYPE_ROOM_PAINTER</dfn>,</td></tr>
+<tr><th id="53">53</th><td>	<dfn class="enum" id="BRUSHTYPE_SELECT" title='BRUSHTYPE_SELECT' data-ref="BRUSHTYPE_SELECT">BRUSHTYPE_SELECT</dfn>,</td></tr>
+<tr><th id="54">54</th><td>	<dfn class="enum" id="BRUSHTYPE_FILL" title='BRUSHTYPE_FILL' data-ref="BRUSHTYPE_FILL">BRUSHTYPE_FILL</dfn>,</td></tr>
+<tr><th id="55">55</th><td>	<dfn class="enum" id="BRUSHTYPE_SET_PLAYER_START" title='BRUSHTYPE_SET_PLAYER_START' data-ref="BRUSHTYPE_SET_PLAYER_START">BRUSHTYPE_SET_PLAYER_START</dfn>,</td></tr>
+<tr><th id="56">56</th><td>	<dfn class="enum" id="BRUSHTYPE_ADD_ITEM" title='BRUSHTYPE_ADD_ITEM' data-ref="BRUSHTYPE_ADD_ITEM">BRUSHTYPE_ADD_ITEM</dfn>,</td></tr>
+<tr><th id="57">57</th><td>	<dfn class="enum" id="BRUSHTYPE_ADD_CHARACTER" title='BRUSHTYPE_ADD_CHARACTER' data-ref="BRUSHTYPE_ADD_CHARACTER">BRUSHTYPE_ADD_CHARACTER</dfn>,</td></tr>
+<tr><th id="58">58</th><td>	<dfn class="enum" id="BRUSHTYPE_ADD_OBJECTIVE" title='BRUSHTYPE_ADD_OBJECTIVE' data-ref="BRUSHTYPE_ADD_OBJECTIVE">BRUSHTYPE_ADD_OBJECTIVE</dfn>,</td></tr>
+<tr><th id="59">59</th><td>	<dfn class="enum" id="BRUSHTYPE_ADD_KEY" title='BRUSHTYPE_ADD_KEY' data-ref="BRUSHTYPE_ADD_KEY">BRUSHTYPE_ADD_KEY</dfn>,</td></tr>
+<tr><th id="60">60</th><td>	<dfn class="enum" id="BRUSHTYPE_SET_KEY" title='BRUSHTYPE_SET_KEY' data-ref="BRUSHTYPE_SET_KEY">BRUSHTYPE_SET_KEY</dfn>,</td></tr>
+<tr><th id="61">61</th><td>	<dfn class="enum" id="BRUSHTYPE_SET_EXIT" title='BRUSHTYPE_SET_EXIT' data-ref="BRUSHTYPE_SET_EXIT">BRUSHTYPE_SET_EXIT</dfn></td></tr>
+<tr><th id="62">62</th><td>} <dfn class="typedef" id="BrushType" title='BrushType' data-type='enum BrushType' data-ref="BrushType">BrushType</dfn>;</td></tr>
+<tr><th id="63">63</th><td></td></tr>
+<tr><th id="64">64</th><td><i>// Encapsulates the drawing brushes and draws tiles to a static mission</i></td></tr>
+<tr><th id="65">65</th><td><i>// There are main and secondary types corresponding to mouse left and right</i></td></tr>
+<tr><th id="66">66</th><td><i>// BrushSize is the size of the stroke</i></td></tr>
+<tr><th id="67">67</th><td><i>// HighlightedTiles are the tiles that are highlighted to show the brush</i></td></tr>
+<tr><th id="68">68</th><td><i>// stroke</i></td></tr>
+<tr><th id="69">69</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="70">70</th><td>{</td></tr>
+<tr><th id="71">71</th><td>	<a class="typedef" href="#BrushType" title='BrushType' data-type='enum BrushType' data-ref="BrushType">BrushType</a> <dfn class="decl" id="(anonymous)::Type" title='(anonymous struct)::Type' data-ref="(anonymous)::Type">Type</dfn>;</td></tr>
+<tr><th id="72">72</th><td>	<b>union</b></td></tr>
+<tr><th id="73">73</th><td>	{</td></tr>
+<tr><th id="74">74</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::ItemIndex" title='(anonymous struct)::(anonymous union)::ItemIndex' data-ref="(anonymousstruct)::(anonymous)::ItemIndex">ItemIndex</dfn>;</td></tr>
+<tr><th id="75">75</th><td>		<a class="typedef" href="../cdogs/map_object.h.html#MapObject" title='MapObject' data-type='struct MapObject' data-ref="MapObject">MapObject</a> *<dfn class="decl" id="(anonymousstruct)::(anonymous)::MapObject" title='(anonymous struct)::(anonymous union)::MapObject' data-ref="(anonymousstruct)::(anonymous)::MapObject">MapObject</dfn>;</td></tr>
+<tr><th id="76">76</th><td>	} <dfn class="decl" id="(anonymous)::u" title='(anonymous struct)::u' data-ref="(anonymous)::u">u</dfn>;</td></tr>
+<tr><th id="77">77</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Index2" title='(anonymous struct)::Index2' data-ref="(anonymous)::Index2">Index2</dfn>;</td></tr>
+<tr><th id="78">78</th><td>	<em>unsigned</em> <em>short</em> <dfn class="decl" id="(anonymous)::MainType" title='(anonymous struct)::MainType' data-ref="(anonymous)::MainType">MainType</dfn>;</td></tr>
+<tr><th id="79">79</th><td>	<em>unsigned</em> <em>short</em> <dfn class="decl" id="(anonymous)::SecondaryType" title='(anonymous struct)::SecondaryType' data-ref="(anonymous)::SecondaryType">SecondaryType</dfn>;</td></tr>
+<tr><th id="80">80</th><td>	<em>unsigned</em> <em>short</em> <dfn class="decl" id="(anonymous)::PaintType" title='(anonymous struct)::PaintType' data-ref="(anonymous)::PaintType">PaintType</dfn>;</td></tr>
+<tr><th id="81">81</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::IsActive" title='(anonymous struct)::IsActive' data-ref="(anonymous)::IsActive">IsActive</dfn>;</td></tr>
+<tr><th id="82">82</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::IsPainting" title='(anonymous struct)::IsPainting' data-ref="(anonymous)::IsPainting">IsPainting</dfn>;</td></tr>
+<tr><th id="83">83</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::BrushSize" title='(anonymous struct)::BrushSize' data-ref="(anonymous)::BrushSize">BrushSize</dfn>;</td></tr>
+<tr><th id="84">84</th><td>	<a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::LastPos" title='(anonymous struct)::LastPos' data-ref="(anonymous)::LastPos">LastPos</dfn>;</td></tr>
+<tr><th id="85">85</th><td>	<a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Pos" title='(anonymous struct)::Pos' data-ref="(anonymous)::Pos">Pos</dfn>;</td></tr>
+<tr><th id="86">86</th><td>	<a class="typedef" href="../cdogs/c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::HighlightedTiles" title='(anonymous struct)::HighlightedTiles' data-ref="(anonymous)::HighlightedTiles">HighlightedTiles</dfn>;	<i>// of Vec2i</i></td></tr>
+<tr><th id="87">87</th><td>	<a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::SelectionStart" title='(anonymous struct)::SelectionStart' data-ref="(anonymous)::SelectionStart">SelectionStart</dfn>;</td></tr>
+<tr><th id="88">88</th><td>	<a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::SelectionSize" title='(anonymous struct)::SelectionSize' data-ref="(anonymous)::SelectionSize">SelectionSize</dfn>;</td></tr>
+<tr><th id="89">89</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::IsMoving" title='(anonymous struct)::IsMoving' data-ref="(anonymous)::IsMoving">IsMoving</dfn>;	<i>// for the select tool, whether selecting or moving</i></td></tr>
+<tr><th id="90">90</th><td>	<a class="typedef" href="../cdogs/vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::DragPos" title='(anonymous struct)::DragPos' data-ref="(anonymous)::DragPos">DragPos</dfn>;	<i>// when moving, location that the drag started</i></td></tr>
+<tr><th id="91">91</th><td></td></tr>
+<tr><th id="92">92</th><td>	<em>char</em> <dfn class="decl" id="(anonymous)::GuideImage" title='(anonymous struct)::GuideImage' data-ref="(anonymous)::GuideImage">GuideImage</dfn>[<a class="macro" href="../cdogs/sys_config.h.html#46" title="4096" data-ref="_M/CDOGS_PATH_MAX">CDOGS_PATH_MAX</a>];</td></tr>
+<tr><th id="93">93</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::IsGuideImageNew" title='(anonymous struct)::IsGuideImageNew' data-ref="(anonymous)::IsGuideImageNew">IsGuideImageNew</dfn>;</td></tr>
+<tr><th id="94">94</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_surface.h.html#SDL_Surface" title='SDL_Surface' data-type='struct SDL_Surface' data-ref="SDL_Surface">SDL_Surface</a> *<dfn class="decl" id="(anonymous)::GuideImageSurface" title='(anonymous struct)::GuideImageSurface' data-ref="(anonymous)::GuideImageSurface">GuideImageSurface</dfn>;</td></tr>
+<tr><th id="95">95</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_stdinc.h.html#Uint8" title='Uint8' data-type='int' data-ref="Uint8">Uint8</a> <dfn class="decl" id="(anonymous)::GuideImageAlpha" title='(anonymous struct)::GuideImageAlpha' data-ref="(anonymous)::GuideImageAlpha">GuideImageAlpha</dfn>;</td></tr>
+<tr><th id="96">96</th><td>} <dfn class="typedef" id="EditorBrush" title='EditorBrush' data-type='struct EditorBrush' data-ref="EditorBrush">EditorBrush</dfn>;</td></tr>
+<tr><th id="97">97</th><td></td></tr>
+<tr><th id="98">98</th><td><em>void</em> <dfn class="decl" id="EditorBrushInit" title='EditorBrushInit' data-ref="EditorBrushInit">EditorBrushInit</dfn>(<a class="typedef" href="#EditorBrush" title='EditorBrush' data-type='struct EditorBrush' data-ref="EditorBrush">EditorBrush</a> *<dfn class="local col5 decl" id="5b" title='b' data-type='EditorBrush *' data-ref="5b">b</dfn>);</td></tr>
+<tr><th id="99">99</th><td><em>void</em> <dfn class="decl" id="EditorBrushTerminate" title='EditorBrushTerminate' data-ref="EditorBrushTerminate">EditorBrushTerminate</dfn>(<a class="typedef" href="#EditorBrush" title='EditorBrush' data-type='struct EditorBrush' data-ref="EditorBrush">EditorBrush</a> *<dfn class="local col6 decl" id="6b" title='b' data-type='EditorBrush *' data-ref="6b">b</dfn>);</td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td><em>void</em> <dfn class="decl" id="EditorBrushSetHighlightedTiles" title='EditorBrushSetHighlightedTiles' data-ref="EditorBrushSetHighlightedTiles">EditorBrushSetHighlightedTiles</dfn>(<a class="typedef" href="#EditorBrush" title='EditorBrush' data-type='struct EditorBrush' data-ref="EditorBrush">EditorBrush</a> *<dfn class="local col7 decl" id="7b" title='b' data-type='EditorBrush *' data-ref="7b">b</dfn>);</td></tr>
+<tr><th id="102">102</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="103">103</th><td>{</td></tr>
+<tr><th id="104">104</th><td>	<dfn class="enum" id="EDITOR_RESULT_NONE" title='EDITOR_RESULT_NONE' data-ref="EDITOR_RESULT_NONE">EDITOR_RESULT_NONE</dfn>,</td></tr>
+<tr><th id="105">105</th><td>	<dfn class="enum" id="EDITOR_RESULT_CHANGED" title='EDITOR_RESULT_CHANGED' data-ref="EDITOR_RESULT_CHANGED">EDITOR_RESULT_CHANGED</dfn>,</td></tr>
+<tr><th id="106">106</th><td>	<dfn class="enum" id="EDITOR_RESULT_RELOAD" title='EDITOR_RESULT_RELOAD' data-ref="EDITOR_RESULT_RELOAD">EDITOR_RESULT_RELOAD</dfn>,</td></tr>
+<tr><th id="107">107</th><td>	<i>// Note: deliberately set so that bit checking works, i.e.</i></td></tr>
+<tr><th id="108">108</th><td><i>	// er &amp; EDITOR_RESULT_CHANGED, er &amp; EDITOR_RESULT_RELOAD</i></td></tr>
+<tr><th id="109">109</th><td>	<dfn class="enum" id="EDITOR_RESULT_CHANGED_AND_RELOAD" title='EDITOR_RESULT_CHANGED_AND_RELOAD' data-ref="EDITOR_RESULT_CHANGED_AND_RELOAD">EDITOR_RESULT_CHANGED_AND_RELOAD</dfn></td></tr>
+<tr><th id="110">110</th><td>} <dfn class="typedef" id="EditorResult" title='EditorResult' data-type='enum EditorResult' data-ref="EditorResult">EditorResult</dfn>;</td></tr>
+<tr><th id="111">111</th><td><u>#define <dfn class="macro" id="_M/EDITOR_RESULT_NEW" data-ref="_M/EDITOR_RESULT_NEW">EDITOR_RESULT_NEW</dfn>(_change, _reload)\</u></td></tr>
+<tr><th id="112">112</th><td><u>	(EditorResult)((!!(_change)) | (!!(_reload) &lt;&lt; 1))</u></td></tr>
+<tr><th id="113">113</th><td><a class="typedef" href="#EditorResult" title='EditorResult' data-type='enum EditorResult' data-ref="EditorResult">EditorResult</a> <dfn class="decl" id="EditorBrushStartPainting" title='EditorBrushStartPainting' data-ref="EditorBrushStartPainting">EditorBrushStartPainting</dfn>(<a class="typedef" href="#EditorBrush" title='EditorBrush' data-type='struct EditorBrush' data-ref="EditorBrush">EditorBrush</a> *<dfn class="local col8 decl" id="8b" title='b' data-type='EditorBrush *' data-ref="8b">b</dfn>, <a class="typedef" href="../cdogs/mission.h.html#Mission" title='Mission' data-type='struct Mission' data-ref="Mission">Mission</a> *<dfn class="local col9 decl" id="9m" title='m' data-type='Mission *' data-ref="9m">m</dfn>, <em>int</em> <dfn class="local col0 decl" id="10isMain" title='isMain' data-type='int' data-ref="10isMain">isMain</dfn>);</td></tr>
+<tr><th id="114">114</th><td><a class="typedef" href="#EditorResult" title='EditorResult' data-type='enum EditorResult' data-ref="EditorResult">EditorResult</a> <dfn class="decl" id="EditorBrushStopPainting" title='EditorBrushStopPainting' data-ref="EditorBrushStopPainting">EditorBrushStopPainting</dfn>(<a class="typedef" href="#EditorBrush" title='EditorBrush' data-type='struct EditorBrush' data-ref="EditorBrush">EditorBrush</a> *<dfn class="local col1 decl" id="11b" title='b' data-type='EditorBrush *' data-ref="11b">b</dfn>, <a class="typedef" href="../cdogs/mission.h.html#Mission" title='Mission' data-type='struct Mission' data-ref="Mission">Mission</a> *<dfn class="local col2 decl" id="12m" title='m' data-type='Mission *' data-ref="12m">m</dfn>);</td></tr>
+<tr><th id="115">115</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='cdogsed.c.html'>codebrowser/src/cdogsed/cdogsed.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

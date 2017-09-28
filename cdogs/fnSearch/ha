@@ -1,0 +1,16 @@
+HasClearLineBresenham|HasClearLineBresenham
+HasClearLineJMRaytrace|HasClearLineJMRaytrace
+hashmap_clear|hashmap_clear
+hashmap_destroy|hashmap_destroy
+hashmap_free|hashmap_free
+hashmap_get|hashmap_get
+hashmap_iterate|hashmap_iterate
+hashmap_length|hashmap_length
+hashmap_new|hashmap_new
+hashmap_put|hashmap_put
+hashmap_remove|hashmap_remove
+HasExit|HasExit
+HasObjectives|HasObjectives
+HasRounds|HasRounds
+HandleGameEvents|HandleGameEvents
+HasHitSound|HasHitSound

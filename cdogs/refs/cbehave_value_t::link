@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='227' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/tests/./cbehave/cbehave.h:227:5)'/>
+<offset>0</offset>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='326' u='m' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='326' u='m' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='326' u='m' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='326' u='m' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='326' u='m' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='326' u='m' c='cbehave_mock_obj'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='m' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='m' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='m' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='m' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='m' c='add_value'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='403' u='m' c='add_value'/>

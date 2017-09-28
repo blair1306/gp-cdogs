@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3098' type='nk_handle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14474' u='r' c='nk_do_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14476' u='r' c='nk_do_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16163' u='w' c='nk_style_from_table'/>
+<offset>1856</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3097'>/* optional user callbacks */</doc>

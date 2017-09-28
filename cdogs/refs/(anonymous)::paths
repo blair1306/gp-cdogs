@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/path_cache.h' l='47' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/path_cache.h' l='47'>// of CachedPath</doc>
+<use f='codebrowser/src/cdogs/path_cache.c' l='72' u='a' c='PathCacheInit'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='79' u='a' c='PathCacheTerminate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='84' u='m' c='PathCacheClear'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='84' u='a' c='PathCacheClear'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='87' u='a' c='PathCacheClear'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='108' u='m' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='108' u='a' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='136' u='m' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='138' u='a' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='143' u='a' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='148' u='m' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='153' u='m' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='153' u='m' c='PathCacheCreate'/>

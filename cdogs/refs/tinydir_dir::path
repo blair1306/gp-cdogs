@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='120' type='char [4096]'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='206' u='r' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='208' u='a' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='208' u='r' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='209' u='r' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='328' u='r' c='tinydir_close'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='328' u='r' c='tinydir_close'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='417' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='443' u='r' c='tinydir_readfile'/>
+<offset>0</offset>

@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='92' type='struct (anonymous struct at /home/jon/workspace/cdogs-sdl/src/cdogs/bullet_class.h:85:2)'/>
+<offset>1472</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='251' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='260' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='272' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='276' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='286' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='288' u='m' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='629' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='629' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='718' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='719' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='720' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='721' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='750' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='751' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='752' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='750' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='751' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='752' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='755' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='755' u='m' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='812' u='m' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='847' u='m' c='BulletClassFree'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='570' u='m' c='IsHighDPS'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='584' u='m' c='GunGetRange'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='584' u='m' c='GunGetRange'/>

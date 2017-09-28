@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/draw/drawtools.h' l='51' type='void Draw_Point(const int x, const int y, color_t c)'/>
+<use f='codebrowser/src/cdogs/automap.c' l='94' u='c' c='DisplayPlayer'/>
+<use f='codebrowser/src/cdogs/automap.c' l='116' u='c' c='DisplayObjective'/>
+<use f='codebrowser/src/cdogs/automap.c' l='244' u='c' c='DrawMap'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='402' u='c' c='DrawGuideImage'/>
+<def f='codebrowser/src/cdogs/draw/drawtools.c' l='59' ll='83' type='void Draw_Point(const int x, const int y, color_t c)'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='103' u='c' c='Draw_StraightLine'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='115' u='c' c='Draw_StraightLine'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='137' u='c' c='Draw_DiagonalLine'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='154' u='c' c='DrawPointFunc'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='225' u='c' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='230' u='c' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='231' u='c' c='DrawRectangle'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='240' u='c' c='DrawRectangle'/>

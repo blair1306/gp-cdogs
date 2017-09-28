@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1843' type='struct nk_vec2 nk_vec2iv(const int * xy)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='4112' ll='4116' macro='1' type='struct nk_vec2 nk_vec2iv(const int * v)'/>

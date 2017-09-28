@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1619' type='int nk_combo(struct nk_context * , const char ** items, int count, int selected, int item_height, struct nk_vec2 size)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22646' ll='22675' macro='1' type='int nk_combo(struct nk_context * ctx, const char ** items, int count, int selected, int item_height, struct nk_vec2 size)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22769' u='c' c='nk_combobox'/>

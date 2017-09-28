@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='67' type='const Pic *[4]'/>
+<offset>512</offset>
+<doc f='codebrowser/src/cdogs/draw/draw_actor.h' l='66'>// In draw order</doc>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='144' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='156' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='213' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='217' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='221' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='225' u='w' c='GetCharacterPics'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='266' u='r' c='DrawActorPics'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='841' u='r' c='DrawCharacter'/>

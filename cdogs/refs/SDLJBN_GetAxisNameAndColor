@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.h' l='65' type='int SDLJBN_GetAxisNameAndColor(SDL_Joystick * joystick, SDL_GameControllerAxis axis, char * s, Uint8 * r, Uint8 * g, Uint8 * b)'/>
+<doc f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.h' l='58'>/**
+ * Get the axis name and color for an SDL_GameControllerAxis
+ * Arguments can be set to NULL if they are not required
+ * Use SDLJBN_GetError to get the error reason
+ *
+ * \return -1 on error; 0 on success
+ */</doc>
+<def f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='395' ll='437' type='int SDLJBN_GetAxisNameAndColor(SDL_Joystick * joystick, SDL_GameControllerAxis axis, char * s, Uint8 * r, Uint8 * g, Uint8 * b)'/>

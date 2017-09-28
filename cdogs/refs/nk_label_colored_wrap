@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1443' type='void nk_label_colored_wrap(struct nk_context * , const char * , struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19892' ll='19894' macro='1' type='void nk_label_colored_wrap(struct nk_context * ctx, const char * str, struct nk_color color)'/>

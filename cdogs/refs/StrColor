@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/color.h' l='119' type='color_t StrColor(const char * s)'/>
+<doc f='codebrowser/src/cdogs/color.h' l='118'>// Convert hex string to color</doc>
+<def f='codebrowser/src/cdogs/color.c' l='207' ll='220' type='color_t StrColor(const char * s)'/>
+<use f='codebrowser/src/cdogs/cpic.c' l='146' u='c' c='LoadMaskTint'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='180' u='c' c='LoadColor'/>
+<use f='codebrowser/src/cdogs/particle.c' l='145' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='178' u='c' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='152' u='c' c='ColorPickerSetFromText'/>
+<use f='codebrowser/src/tests/color_test.c' l='206' u='c' c='_cbehave_feature_StrColor'/>
+<use f='codebrowser/src/tests/color_test.c' l='218' u='c' c='_cbehave_feature_StrColor'/>

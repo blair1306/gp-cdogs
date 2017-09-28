@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='21' type='void * enet_malloc(size_t )'/>
+<doc f='codebrowser/src/cdogs/enet/include/enet/callbacks.h' l='17'>/** @defgroup callbacks ENet internal callbacks
+    @{
+    @ingroup private
+*/</doc>
+<def f='codebrowser/src/cdogs/enet/callbacks.c' l='37' ll='46' type='void * enet_malloc(size_t size)'/>
+<use f='codebrowser/src/cdogs/enet/compress.c' l='51' u='c' c='enet_range_coder_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='37' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='42' u='c' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='197' u='c' c='enet_host_connect'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='22' u='c' c='enet_packet_create'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='33' u='c' c='enet_packet_create'/>
+<use f='codebrowser/src/cdogs/enet/packet.c' l='88' u='c' c='enet_packet_resize'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='151' u='c' c='enet_peer_send'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='602' u='c' c='enet_peer_queue_acknowledgement'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='685' u='c' c='enet_peer_queue_outgoing_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='940' u='c' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='955' u='c' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='316' u='c' c='enet_protocol_handle_connect'/>

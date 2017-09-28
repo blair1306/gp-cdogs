@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2429' type='int nk_filter_ascii(const struct nk_text_edit * , nk_rune unicode)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='14782' ll='14788' macro='1' type='int nk_filter_ascii(const struct nk_text_edit * box, nk_rune unicode)'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='78' type='unsigned short'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='42' u='w' c='EditorBrushInit'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='44' u='r' c='EditorBrushInit'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='287' u='r' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='51' u='r' c='BrushGetTypeStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='92' u='r' c='BrushChangeType'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='97' u='w' c='BrushChangeType'/>

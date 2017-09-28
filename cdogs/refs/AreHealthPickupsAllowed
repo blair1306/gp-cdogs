@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/game_mode.h' l='49' type='_Bool AreHealthPickupsAllowed(const GameMode mode)'/>
+<def f='codebrowser/src/cdogs/game_mode.c' l='106' ll='109' macro='1' type='_Bool AreHealthPickupsAllowed(const GameMode mode)'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='141' u='c' c='HealthSpawnerInit'/>

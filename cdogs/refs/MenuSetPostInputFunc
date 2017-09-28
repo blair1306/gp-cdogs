@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/menu.h' l='277' type='void MenuSetPostInputFunc(menu_t * menu, MenuPostInputFunc func, void * data)'/>
+<use f='codebrowser/src/mainmenu.c' l='565' u='c' c='MenuCreateOptionsGraphics'/>
+<use f='codebrowser/src/mainmenu.c' l='582' u='c' c='MenuCreateOptionsControls'/>
+<use f='codebrowser/src/mainmenu.c' l='610' u='c' c='MenuCreateKeys'/>
+<def f='codebrowser/src/menu.c' l='372' ll='376' type='void MenuSetPostInputFunc(menu_t * menu, MenuPostInputFunc func, void * data)'/>
+<use f='codebrowser/src/menu.c' l='419' u='c' c='MenuCreateConfigOptions'/>
+<use f='codebrowser/src/player_select_menus.c' l='177' u='c' c='CreateFaceMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='355' u='c' c='CreateUseTemplateMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='406' u='c' c='CreateSaveTemplateMenu'/>
+<use f='codebrowser/src/player_select_menus.c' l='470' u='c' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/player_select_menus.c' l='518' u='c' c='CreateCustomizeMenu'/>
+<use f='codebrowser/src/weapon_menu.c' l='213' u='c' c='WeaponMenuCreate'/>

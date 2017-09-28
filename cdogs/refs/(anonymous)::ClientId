@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='47' type='int'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='55' u='w' c='NetClientInit'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='271' u='w' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='444' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='444' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='450' u='w' c='OnReceive'/>

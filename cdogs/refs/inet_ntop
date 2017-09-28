@@ -1,0 +1,5 @@
+<dec f='include/arpa/inet.h' l='64' type='const char * inet_ntop(int __af, const void *restrict __cp, char *restrict __buf, socklen_t __len)'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='180' u='c' c='enet_address_get_host_ip'/>
+<doc f='include/arpa/inet.h' l='61'>/* Convert a Internet address in binary network format for interface
+   type AF in buffer starting at CP to presentation form and place
+   result in buffer of length LEN astarting at BUF.  */</doc>

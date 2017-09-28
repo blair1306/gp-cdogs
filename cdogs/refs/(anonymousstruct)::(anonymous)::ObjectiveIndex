@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='43' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='80' u='w' c='HUDNumPopupsAdd'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='112' u='r' c='HUDNumPopupsAdd'/>

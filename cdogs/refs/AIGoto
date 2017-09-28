@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='73' type='int AIGoto(TActor * actor, Vec2i target, _Bool ignoreObjects)'/>
+<doc f='codebrowser/src/cdogs/ai_utils.h' l='70'>// Find path to target
+// destroyObjects - if true, ignore obstructing objects
+//                - if false, will pathfind around them</doc>
+<use f='codebrowser/src/cdogs/ai.c' l='425' u='c' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='512' u='c' c='Follow'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='374' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='391' u='c' c='SmartGoto'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='413' u='c' c='SmartGoto'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='508' ll='567' type='int AIGoto(TActor * actor, Vec2i p, _Bool ignoreObjects)'/>

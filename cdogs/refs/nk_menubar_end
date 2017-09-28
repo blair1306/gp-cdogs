@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1677' type='void nk_menubar_end(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18553' ll='18583' macro='1' type='void nk_menubar_end(struct nk_context * ctx)'/>

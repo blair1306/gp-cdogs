@@ -1,0 +1,10 @@
+<def f='codebrowser/src/json/json.c' l='1386' ll='2146' type='int lexer(const char * buffer, const char ** p, unsigned int * state, rcstring ** text, size_t * line)'/>
+<use f='codebrowser/src/json/json.c' l='2164' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2217' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2287' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2345' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2382' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2407' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2574' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2694' u='c' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2755' u='c' c='json_parse_fragment'/>

@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/net_server.h' l='61' type='void NetServerReset(NetServer * n)'/>
+<def f='codebrowser/src/cdogs/net_server.c' l='60' ll='63' type='void NetServerReset(NetServer * n)'/>

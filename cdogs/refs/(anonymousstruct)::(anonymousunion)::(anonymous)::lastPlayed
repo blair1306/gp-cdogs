@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='82' type='int'/>
+<offset>256</offset>
+<use f='codebrowser/src/cdogs/sounds.c' l='580' u='r' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='582' u='r' c='SoundDataGet'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='587' u='w' c='SoundDataGet'/>

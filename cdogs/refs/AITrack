@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='79' type='int AITrack(TActor * actor, const Vec2i targetPos)'/>
+<doc f='codebrowser/src/cdogs/ai_utils.h' l='78'>// Like Hunt but biases towards 8 axis movement</doc>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='317' u='c' c='AICoopGetCmdNormal'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='640' ll='672' type='int AITrack(TActor * actor, const Vec2i targetPos)'/>
+<doc f='codebrowser/src/cdogs/ai_utils.c' l='630'>// Track moves an Actor towards a target, but in such a fashion that the Actor
+// will come into 8-axis alignment with the target soonest.
+// That is, given the following octant:
+//            x  A      xxxx
+//          x       xxxx
+//        x     xxxx
+//      x   xxxx      B
+//    x  xxx
+//  xxxxxxxxxxxxxxxxxxxxxxx
+// Those in slice A will move left and those in slice B will move down-left.</doc>

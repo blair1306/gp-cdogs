@@ -1,0 +1,8 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='461'/>
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1444' type='void nk_image(struct nk_context * , struct nk_image )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19896' ll='19910' macro='1' type='void nk_image(struct nk_context * ctx, struct nk_image img)'/>
+<size>24</size>
+<mbr r='nk_image::handle' o='0' t='nk_handle'/>
+<mbr r='nk_image::w' o='64' t='unsigned short'/>
+<mbr r='nk_image::h' o='80' t='unsigned short'/>
+<mbr r='nk_image::region' o='96' t='unsigned short [4]'/>

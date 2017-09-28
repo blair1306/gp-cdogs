@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='73'/>
+<use f='codebrowser/src/cdogs.c' l='121' u='c'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='558' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='59' u='c'/>
+<use f='codebrowser/src/cdogs/draw/draw_buffer.c' l='70' u='c'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='77' u='c'/>
+<use f='codebrowser/src/command_line.c' l='98' u='c'/>
+<use f='codebrowser/src/command_line.c' l='172' u='c'/>

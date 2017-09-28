@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='122' type='_Bool'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/triggers.c' l='94' u='w' c='WatchNew'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='123' u='w' c='ActivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='142' u='w' c='DeactivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='280' u='r' c='UpdateWatches'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/files.h' l='212' type='const char * GetHomeDirectory()'/>
+<def f='codebrowser/src/cdogs/files.c' l='529' ll='564' type='const char * GetHomeDirectory()'/>
+<use f='codebrowser/src/cdogs/files.c' l='574' u='c' c='GetConfigFilePath'/>

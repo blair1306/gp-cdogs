@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='40' type='1'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='599' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/objs.c' l='107' c='AddPickupAtObject'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='125' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='43' u='r' c='StrPickupType'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='232' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='339' u='r' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='349' u='r' c='PickupClassesGetScoreIdx'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='364' u='r' c='PickupClassesGetScoreCount'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='370' u='r' c='PickupClassesGetScoreCount'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='381' u='r' c='IntScorePickupClass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='391' u='r' c='IntScorePickupClass'/>

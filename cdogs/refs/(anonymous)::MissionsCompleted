@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/autosave.h' l='44' type='int'/>
+<use f='codebrowser/src/autosave.c' l='96' u='a' c='LoadMissionNode'/>
+<use f='codebrowser/src/autosave.c' l='107' u='r' c='CreateMissionNode'/>
+<use f='codebrowser/src/autosave.c' l='247' u='r' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='247' u='r' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='247' u='r' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='247' u='r' c='AutosaveAddMission'/>
+<use f='codebrowser/src/autosave.c' l='249' u='w' c='AutosaveAddMission'/>
+<offset>448</offset>
+<use f='codebrowser/src/briefing_screens.c' l='421' u='w' c='MissionSummaryOnEnter'/>
+<use f='codebrowser/src/mainmenu.c' l='386' u='r' c='MenuCreateCampaignItem'/>
+<use f='codebrowser/src/mainmenu.c' l='391' u='r' c='MenuCreateCampaignItem'/>
+<use f='codebrowser/src/password.c' l='382' u='r' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='382' u='r' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='389' u='r' c='MenuCreateStart'/>
+<use f='codebrowser/src/password.c' l='392' u='r' c='MenuCreateStart'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='148' u='w' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='155' u='w' c='_cbehave_feature_mission_autosaves'/>
+<use f='codebrowser/src/tests/autosave_test.c' l='165' u='r' c='_cbehave_feature_mission_autosaves'/>

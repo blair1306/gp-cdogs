@@ -1,0 +1,31 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3478' type='8192'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16866' u='r' c='nk_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17014' u='r' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17019' u='r' c='nk_build'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17063' u='r' c='nk__begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17093' u='r' c='nk_panel_has_header'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17174' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17313' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17374' u='r' c='nk_panel_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17633' u='r' c='nk_panel_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18062' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18065' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18072' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18093' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18096' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18114' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18116' u='r' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18157' u='r' c='nk_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18367' u='r' c='nk_window_is_hidden'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18406' u='r' c='nk_window_close'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18478' u='r' c='nk_window_show'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18479' u='r' c='nk_window_show'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18542' u='r' c='nk_menubar_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18569' u='r' c='nk_menubar_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18640' u='r' c='nk_panel_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19621' u='r' c='nk_widget'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21712' u='r' c='nk_popup_close'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21730' u='r' c='nk_popup_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22036' u='r' c='nk_contextual_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22039' u='r' c='nk_contextual_end'/>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='3477'>/* prevents all interaction caused by input to either window or widgets inside */</doc>

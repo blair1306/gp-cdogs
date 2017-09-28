@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='49' type='_Bool'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/events.c' l='62' u='r' c='EventReset'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='50' u='w' c='MouseInit'/>

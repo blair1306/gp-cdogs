@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/cpic.h' l='91' type='void CPicLoadJSON(CPic * p, json_t * node)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='646' u='c' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/character_class.c' l='172' u='c' c='LoadCharacterClass'/>
+<def f='codebrowser/src/cdogs/cpic.c' l='78' ll='122' type='void CPicLoadJSON(CPic * p, json_t * node)'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='309' u='c' c='TryLoadMapObject'/>
+<use f='codebrowser/src/cdogs/particle.c' l='169' u='c' c='LoadParticleClass'/>

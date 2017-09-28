@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1345' type='float nk_layout_ratio_from_pixel(struct nk_context * , float pixel_width)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18684' ll='18693' macro='1' type='float nk_layout_ratio_from_pixel(struct nk_context * ctx, float pixel_width)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='131' type='Trigger * TriggerNew()'/>
+<use f='codebrowser/src/cdogs/map.c' l='941' u='c' c='MapNewTrigger'/>
+<def f='codebrowser/src/cdogs/triggers.c' l='66' ll='73' type='Trigger * TriggerNew()'/>

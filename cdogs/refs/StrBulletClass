@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='113' type='BulletClass * StrBulletClass(const char * s)'/>
+<def f='codebrowser/src/cdogs/bullet_class.c' l='69' ll='89' type='BulletClass * StrBulletClass(const char * s)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='877' u='c' c='BulletAdd'/>
+<doc f='codebrowser/src/cdogs/bullet_class.c' l='68'>// TODO: use map structure?</doc>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='357' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='212' u='c' c='LoadGunDescription'/>

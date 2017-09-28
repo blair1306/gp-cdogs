@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='200' type='int ActorGunGetAmmo(const TActor * a, const Weapon * w)'/>
+<doc f='codebrowser/src/cdogs/actors.h' l='199'>// Returns -1 if gun does not use ammo</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='640' u='c' c='Shoot'/>
+<use f='codebrowser/src/cdogs/actors.c' l='640' u='c' c='Shoot'/>
+<def f='codebrowser/src/cdogs/actors.c' l='1321' ll='1328' type='int ActorGunGetAmmo(const TActor * a, const Weapon * w)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1332' u='c' c='ActorCanFire'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='177' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='176' u='c' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='226' u='c' c='DrawWeaponStatus'/>

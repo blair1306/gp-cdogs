@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/config_json.h' l='36' type='void ConfigSaveJSON(const Config * config, const char * filename)'/>
+<use f='codebrowser/src/cdogs/config_io.c' l='67' u='c' c='ConfigSave'/>
+<def f='codebrowser/src/cdogs/config_json.c' l='175' ll='211' type='void ConfigSaveJSON(const Config * config, const char * filename)'/>

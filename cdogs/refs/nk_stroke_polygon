@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2705' type='void nk_stroke_polygon(struct nk_command_buffer * , float * , int point_count, float line_thickness, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7146' ll='7166' macro='1' type='void nk_stroke_polygon(struct nk_command_buffer * b, float * points, int point_count, float line_thickness, struct nk_color col)'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='102' type='Animation'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='102' u='w' c='ActorSetState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='175' u='a' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='176' u='a' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='177' u='m' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='186' u='a' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='730' u='m' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='803' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='813' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1249' u='w' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='111' u='m' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='112' u='a' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='194' u='w' c='HandleGameEvent'/>

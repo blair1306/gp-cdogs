@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/game_loop.h' l='76' type='void LoopRunnerRun(LoopRunner * l)'/>
+<use f='codebrowser/src/cdogs.c' l='283' u='c' c='main'/>
+<def f='codebrowser/src/game_loop.c' l='278' ll='305' type='void LoopRunnerRun(LoopRunner * l)'/>

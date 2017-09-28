@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='15448' type='enum nk_property_kind'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15472' u='r' c='nk_drag_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15604' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15647' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15660' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15705' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20720' u='w' c='nk_property_variant_int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20732' u='w' c='nk_property_variant_float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20745' u='w' c='nk_property_variant_double'/>
+<offset>0</offset>

@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='128' type='CArray'/>
+<offset>1600</offset>
+<doc f='codebrowser/src/cdogs/weapon.h' l='128'>// of GunDescription</doc>
+<use f='codebrowser/src/cdogs/campaigns.c' l='79' u='a' c='CampaignSettingTerminate'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='125' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='138' u='a' c='MapNewLoadArchive'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='456' u='a' c='LoadWeapons'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='443' u='a' c='MapObjectsLoadAmmoAndGunSpawners'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='73' u='a' c='WeaponInitialize'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='309' u='a' c='WeaponTerminate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='310' u='a' c='WeaponTerminate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='329' u='m' c='GunGetNumClasses'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='347' u='m' c='StrGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='347' u='a' c='StrGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='367' u='m' c='IdGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='367' u='m' c='IdGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='374' u='a' c='IdGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='387' u='m' c='GunDescriptionId'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='389' u='a' c='GunDescriptionId'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='412' u='m' c='IndexGunDescriptionReal'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='412' u='a' c='IndexGunDescriptionReal'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='265' u='m' c='NumGuns'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='265' u='a' c='NumGuns'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='287' u='m' c='GunIndex'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='287' u='a' c='GunIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='530' u='m' c='GetWeaponCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='530' u='a' c='GetWeaponCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='88' u='m' c='AddAllWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='88' u='a' c='AddAllWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='188' u='a' c='CreateWeaponObjs'/>

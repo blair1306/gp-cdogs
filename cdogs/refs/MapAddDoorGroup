@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/door.h' l='54' type='void MapAddDoorGroup(Map * map, const Mission * m, const Vec2i v, const int keyFlags)'/>
+<def f='codebrowser/src/cdogs/door.c' l='70' ll='147' type='void MapAddDoorGroup(Map * map, const Mission * m, const Vec2i v, const int keyFlags)'/>
+<use f='codebrowser/src/cdogs/map.c' l='593' u='c' c='MapSetupDoors'/>

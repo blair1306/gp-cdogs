@@ -1,0 +1,7 @@
+<def f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='23' ll='27'/>
+<size>16</size>
+<doc f='codebrowser/src/cdogs/c_hashmap/hashmap.c' l='21'>/* A hashmap has some maximum size and current size,
+ * as well as the data to hold. */</doc>
+<mbr r='hashmap_map::table_size' o='0' t='int'/>
+<mbr r='hashmap_map::size' o='32' t='int'/>
+<mbr r='hashmap_map::data' o='64' t='hashmap_element *'/>

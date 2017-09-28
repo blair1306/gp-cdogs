@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='118' type='const ParticleClass *'/>
+<offset>1152</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='491' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='508' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='265' u='w' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='299' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='299' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='299' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='299' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='497' u='r' c='GunAddBrass'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='497' u='r' c='GunAddBrass'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='499' u='r' c='GunAddBrass'/>

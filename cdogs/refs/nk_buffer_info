@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2271' type='void nk_buffer_info(struct nk_memory_status * , struct nk_buffer * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6284' ll='6295' macro='1' type='void nk_buffer_info(struct nk_memory_status * s, struct nk_buffer * b)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='232' type='500'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='403' u='r' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='460' u='r' c='enet_peer_ping_interval'/>

@@ -1,0 +1,2 @@
+<dec f='include/SDL2/SDL_opengl.h' l='1184' type='void glTexCoordPointer(GLint size, GLenum type, GLsizei stride, const GLvoid * ptr)'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='139' u='c' c='nk_sdl_render'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/screen_shake.h' l='39' type='ScreenShake ScreenShakeZero()'/>
+<use f='codebrowser/src/cdogs/camera.c' l='47' u='c' c='CameraInit'/>
+<def f='codebrowser/src/cdogs/screen_shake.c' l='40' ll='45' type='ScreenShake ScreenShakeZero()'/>

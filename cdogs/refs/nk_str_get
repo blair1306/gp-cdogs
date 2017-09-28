@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2332' type='char * nk_str_get(struct nk_str * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6753' ll='6759' macro='1' type='char * nk_str_get(struct nk_str * s)'/>

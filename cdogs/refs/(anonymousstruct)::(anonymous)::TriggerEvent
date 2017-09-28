@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='179' type='NTrigger'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='566' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='568' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='246' u='m' c='TriggerTryActivate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='247' u='m' c='TriggerTryActivate'/>

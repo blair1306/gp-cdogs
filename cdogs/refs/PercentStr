@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='196' type='char * PercentStr(int p)'/>
+<use f='codebrowser/src/cdogs/config.c' l='573' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='575' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='577' u='r' c='ConfigDefault'/>
+<use f='codebrowser/src/cdogs/config.c' l='607' u='r' c='ConfigDefault'/>
+<def f='codebrowser/src/cdogs/utils.c' l='433' ll='438' type='char * PercentStr(int p)'/>

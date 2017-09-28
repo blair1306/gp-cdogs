@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='120' type='_Bool'/>
+<offset>1224</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='1103' u='r' c='ActorAddGunPickup'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='271' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='303' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='303' u='r' c='LoadGunDescription'/>

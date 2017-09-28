@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='86' type='void CampaignAndMissionSetup(CampaignOptions * campaign, struct MissionOptions * mo)'/>
+<def f='codebrowser/src/cdogs/campaigns.c' l='218' ll='228' type='void CampaignAndMissionSetup(CampaignOptions * campaign, struct MissionOptions * mo)'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='99' u='c' c='GrafxMakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='400' u='c' c='Setup'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='831' u='c' c='MissionChangeType'/>
+<use f='codebrowser/src/prep.c' l='632' u='c' c='GameOptionsOnEnter'/>

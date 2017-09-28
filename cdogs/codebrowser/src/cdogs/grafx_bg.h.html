@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>grafx_bg.h source code [codebrowser/src/cdogs/grafx_bg.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/grafx_bg.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='grafx_bg.h.html'>grafx_bg.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (c) 2013-2014, 2016-2017 Cong Xu</i></td></tr>
+<tr><th id="5">5</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="6">6</th><td><i></i></td></tr>
+<tr><th id="7">7</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="8">8</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="9">9</th><td><i></i></td></tr>
+<tr><th id="10">10</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="11">11</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="12">12</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="13">13</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="14">14</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="15">15</th><td><i></i></td></tr>
+<tr><th id="16">16</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="17">17</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="18">18</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="19">19</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="20">20</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="21">21</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="22">22</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="23">23</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="24">24</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="25">25</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="26">26</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="27">27</th><td><i>*/</i></td></tr>
+<tr><th id="28">28</th><td><u>#pragma once</u></td></tr>
+<tr><th id="29">29</th><td></td></tr>
+<tr><th id="30">30</th><td><u>#include <a href="campaigns.h.html">"campaigns.h"</a></u></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="draw/draw_buffer.h.html">"draw/draw_buffer.h"</a></u></td></tr>
+<tr><th id="32">32</th><td><u>#include <a href="grafx.h.html">"grafx.h"</a></u></td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="35">35</th><td>{</td></tr>
+<tr><th id="36">36</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_surface.h.html#SDL_Surface" title='SDL_Surface' data-type='struct SDL_Surface' data-ref="SDL_Surface">SDL_Surface</a> *<dfn class="decl" id="(anonymous)::guideImage" title='(anonymous struct)::guideImage' data-ref="(anonymous)::guideImage">guideImage</dfn>;</td></tr>
+<tr><th id="37">37</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_stdinc.h.html#Uint8" title='Uint8' data-type='uint8_t' data-ref="Uint8">Uint8</a> <dfn class="decl" id="(anonymous)::guideImageAlpha" title='(anonymous struct)::guideImageAlpha' data-ref="(anonymous)::guideImageAlpha">guideImageAlpha</dfn>;</td></tr>
+<tr><th id="38">38</th><td>} <dfn class="typedef" id="GrafxDrawExtra" title='GrafxDrawExtra' data-type='struct GrafxDrawExtra' data-ref="GrafxDrawExtra">GrafxDrawExtra</dfn>;</td></tr>
+<tr><th id="39">39</th><td><em>void</em> <dfn class="decl" id="GrafxDrawBackground" title='GrafxDrawBackground' data-ref="GrafxDrawBackground">GrafxDrawBackground</dfn>(</td></tr>
+<tr><th id="40">40</th><td>	<a class="typedef" href="grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col4 decl" id="154g" title='g' data-type='GraphicsDevice *' data-ref="154g">g</dfn>, <a class="typedef" href="draw/draw_buffer.h.html#DrawBuffer" title='DrawBuffer' data-type='struct DrawBuffer' data-ref="DrawBuffer">DrawBuffer</a> *<dfn class="local col5 decl" id="155buffer" title='buffer' data-type='DrawBuffer *' data-ref="155buffer">buffer</dfn>,</td></tr>
+<tr><th id="41">41</th><td>	<a class="typedef" href="color.h.html#HSV" title='HSV' data-type='struct HSV' data-ref="HSV">HSV</a> <dfn class="local col6 decl" id="156tint" title='tint' data-type='HSV' data-ref="156tint">tint</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col7 decl" id="157pos" title='pos' data-type='Vec2i' data-ref="157pos">pos</dfn>, <a class="typedef" href="#GrafxDrawExtra" title='GrafxDrawExtra' data-type='struct GrafxDrawExtra' data-ref="GrafxDrawExtra">GrafxDrawExtra</a> *<dfn class="local col8 decl" id="158extra" title='extra' data-type='GrafxDrawExtra *' data-ref="158extra">extra</dfn>);</td></tr>
+<tr><th id="42">42</th><td><em>void</em> <dfn class="decl" id="GrafxRedrawBackground" title='GrafxRedrawBackground' data-ref="GrafxRedrawBackground">GrafxRedrawBackground</dfn>(<a class="typedef" href="grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col9 decl" id="159g" title='g' data-type='GraphicsDevice *' data-ref="159g">g</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col0 decl" id="160pos" title='pos' data-type='const Vec2i' data-ref="160pos">pos</dfn>);</td></tr>
+<tr><th id="43">43</th><td><em>void</em> <dfn class="decl" id="GrafxMakeBackground" title='GrafxMakeBackground' data-ref="GrafxMakeBackground">GrafxMakeBackground</dfn>(</td></tr>
+<tr><th id="44">44</th><td>	<a class="typedef" href="grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col1 decl" id="161device" title='device' data-type='GraphicsDevice *' data-ref="161device">device</dfn>, <a class="typedef" href="draw/draw_buffer.h.html#DrawBuffer" title='DrawBuffer' data-type='struct DrawBuffer' data-ref="DrawBuffer">DrawBuffer</a> *<dfn class="local col2 decl" id="162buffer" title='buffer' data-type='DrawBuffer *' data-ref="162buffer">buffer</dfn>,</td></tr>
+<tr><th id="45">45</th><td>	<a class="typedef" href="campaigns.h.html#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col3 decl" id="163co" title='co' data-type='CampaignOptions *' data-ref="163co">co</dfn>, <b>struct</b> <a class="type" href="mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col4 decl" id="164mo" title='mo' data-type='struct MissionOptions *' data-ref="164mo">mo</dfn>, <a class="typedef" href="map.h.html#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col5 decl" id="165map" title='map' data-type='Map *' data-ref="165map">map</dfn>, <a class="typedef" href="color.h.html#HSV" title='HSV' data-type='struct HSV' data-ref="HSV">HSV</a> <dfn class="local col6 decl" id="166tint" title='tint' data-type='HSV' data-ref="166tint">tint</dfn>,</td></tr>
+<tr><th id="46">46</th><td>	<em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col7 decl" id="167isEditor" title='isEditor' data-type='const _Bool' data-ref="167isEditor">isEditor</dfn>, <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col8 decl" id="168pos" title='pos' data-type='Vec2i' data-ref="168pos">pos</dfn>, <a class="typedef" href="#GrafxDrawExtra" title='GrafxDrawExtra' data-type='struct GrafxDrawExtra' data-ref="GrafxDrawExtra">GrafxDrawExtra</a> *<dfn class="local col9 decl" id="169extra" title='extra' data-type='GrafxDrawExtra *' data-ref="169extra">extra</dfn>);</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><em>void</em> <dfn class="decl" id="GrafxMakeRandomBackground" title='GrafxMakeRandomBackground' data-ref="GrafxMakeRandomBackground">GrafxMakeRandomBackground</dfn>(</td></tr>
+<tr><th id="49">49</th><td>	<a class="typedef" href="grafx.h.html#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col0 decl" id="170device" title='device' data-type='GraphicsDevice *' data-ref="170device">device</dfn>,</td></tr>
+<tr><th id="50">50</th><td>	<a class="typedef" href="campaigns.h.html#CampaignOptions" title='CampaignOptions' data-type='struct CampaignOptions' data-ref="CampaignOptions">CampaignOptions</a> *<dfn class="local col1 decl" id="171co" title='co' data-type='CampaignOptions *' data-ref="171co">co</dfn>, <b>struct</b> <a class="type" href="mission.h.html#MissionOptions" title='MissionOptions' data-ref="MissionOptions">MissionOptions</a> *<dfn class="local col2 decl" id="172mo" title='mo' data-type='struct MissionOptions *' data-ref="172mo">mo</dfn>, <a class="typedef" href="map.h.html#Map" title='Map' data-type='struct Map' data-ref="Map">Map</a> *<dfn class="local col3 decl" id="173map" title='map' data-type='Map *' data-ref="173map">map</dfn>);</td></tr>
+<tr><th id="51">51</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../briefing_screens.c.html'>codebrowser/src/briefing_screens.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

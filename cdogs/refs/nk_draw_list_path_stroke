@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2895' type='void nk_draw_list_path_stroke(struct nk_draw_list * , struct nk_color , enum nk_draw_list_stroke closed, float thickness)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8206' ll='8217' macro='1' type='void nk_draw_list_path_stroke(struct nk_draw_list * list, struct nk_color color, enum nk_draw_list_stroke closed, float thickness)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8227' u='c' c='nk_draw_list_stroke_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8249' u='c' c='nk_draw_list_stroke_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8308' u='c' c='nk_draw_list_stroke_triangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8332' u='c' c='nk_draw_list_stroke_circle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8344' u='c' c='nk_draw_list_stroke_curve'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8531' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8558' u='c' c='nk_convert'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8576' u='c' c='nk_convert'/>

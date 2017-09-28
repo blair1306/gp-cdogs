@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/player.h' l='41' type='_Bool'/>
+<offset>40</offset>
+<dec f='codebrowser/src/cdogs/net_client.h' l='49' type='_Bool'/>
+<offset>192</offset>
+<use f='codebrowser/src/cdogs/net_client.c' l='273' u='w' c='NetClientDisconnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='485' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='485' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='487' u='r' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/player.c' l='91' u='w' c='PlayerDataAddOrUpdate'/>
+<use f='codebrowser/src/game.c' l='236' u='r' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game.c' l='302' u='w' c='RunGameOnExit'/>
+<use f='codebrowser/src/game.c' l='304' u='w' c='RunGameOnExit'/>
+<use f='codebrowser/src/prep.c' l='942' u='w' c='ScreenWaitForGameStart'/>

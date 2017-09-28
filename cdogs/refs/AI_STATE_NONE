@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='41' type='0'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1420' u='r' c='ActorTakeHit'/>
+<use f='codebrowser/src/cdogs/ai.c' l='358' u='r' c='GetCmd'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='54' c='AIStateGetChatterText'/>

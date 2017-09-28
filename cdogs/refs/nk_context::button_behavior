@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3692' type='enum nk_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19922' u='w' c='nk_button_set_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19940' u='a' c='nk_button_push_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19941' u='r' c='nk_button_push_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19942' u='w' c='nk_button_push_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19989' u='r' c='nk_button_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20039' u='r' c='nk_button_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20067' u='r' c='nk_button_symbol_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20102' u='r' c='nk_button_image_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20138' u='r' c='nk_button_symbol_text_styled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20185' u='r' c='nk_button_image_text_styled'/>
+<offset>64224</offset>

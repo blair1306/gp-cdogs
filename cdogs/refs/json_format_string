@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/json/json.h' l='280' type='char * json_format_string(const char * text)'/>
+<use f='codebrowser/src/autosave.c' l='190' u='c' c='AutosaveSave'/>
+<doc f='codebrowser/src/json/json.h' l='275'>/**
+Formats a JSON markup text contained in the given string
+@param text a JSON formatted document
+@return a pointer to a char string holding the formated document
+**/</doc>
+<use f='codebrowser/src/cdogs/config_json.c' l='193' u='c' c='ConfigSaveJSON'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='212' u='c' c='TrySaveJSONFile'/>
+<use f='codebrowser/src/cdogs/player_template.c' l='166' u='c' c='SavePlayerTemplates'/>
+<def f='codebrowser/src/json/json.c' l='1049' ll='1147' type='char * json_format_string(const char * text)'/>
+<use f='codebrowser/src/tests/json_test.c' l='42' u='c' c='_cbehave_feature_json_format_string'/>

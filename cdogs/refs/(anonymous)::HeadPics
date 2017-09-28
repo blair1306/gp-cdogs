@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/character_class.h' l='40' type='CPic'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/character_class.c' l='172' u='a' c='LoadCharacterClass'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='414' u='a' c='GetHeadPic'/>

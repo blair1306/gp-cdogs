@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='205'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1083' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1084' u='c'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1101' u='c'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='885' u='c'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='894' u='c'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='58' u='c'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='62' u='c'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='459' u='c'/>
+<use f='codebrowser/src/cdogs/particle.c' l='441' u='c'/>

@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3653' type='struct nk_table *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17792' u='w' c='nk_push_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17797' u='w' c='nk_push_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17799' u='w' c='nk_push_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17811' u='w' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17811' u='r' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17812' u='r' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17813' u='r' c='nk_remove_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17815' u='w' c='nk_remove_table'/>
+<offset>3840</offset>

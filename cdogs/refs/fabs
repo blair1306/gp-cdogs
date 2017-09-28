@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/mathcalls.h' l='181' type='double fabs(double __x)'/>
+<use f='codebrowser/src/cdogs/color.c' l='203' u='c' c='HSVEquals'/>
+<use f='codebrowser/src/cdogs/color.c' l='203' u='c' c='HSVEquals'/>
+<use f='codebrowser/src/cdogs/color.c' l='204' u='c' c='HSVEquals'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='554' u='c' c='DrawCompassArrow'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='582' u='c' c='DrawCompassArrow'/>

@@ -1,0 +1,29 @@
+<dec f='codebrowser/src/menu.h' l='126' type='menu_type_e'/>
+<offset>64</offset>
+<use f='codebrowser/src/mainmenu.c' l='137' u='r' c='FindSubmenuByName'/>
+<use f='codebrowser/src/mainmenu.c' l='137' u='r' c='FindSubmenuByName'/>
+<use f='codebrowser/src/mainmenu.c' l='340' u='r' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='131' u='r' c='MenuIsExit'/>
+<use f='codebrowser/src/menu.c' l='154' u='r' c='MenuUpdate'/>
+<use f='codebrowser/src/menu.c' l='320' u='w' c='MenuCreate'/>
+<use f='codebrowser/src/menu.c' l='350' u='r' c='UpdateSubmenuParentPtrs'/>
+<use f='codebrowser/src/menu.c' l='359' u='r' c='MenuAddSubmenu'/>
+<use f='codebrowser/src/menu.c' l='586' u='r' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='642' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='688' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='740' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='774' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='775' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='776' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='777' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='797' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='818' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='827' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='908' u='r' c='MenuTerminateSubmenus'/>
+<use f='codebrowser/src/menu.c' l='920' u='r' c='MenuClearSubmenus'/>
+<use f='codebrowser/src/menu.c' l='931' u='r' c='MenuOptionGetIntValue'/>
+<use f='codebrowser/src/menu.c' l='966' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='979' u='r' c='MenuProcessCmd'/>
+<use f='codebrowser/src/menu.c' l='1039' u='r' c='MenuProcessButtonCmd'/>
+<use f='codebrowser/src/menu.c' l='1201' u='r' c='MenuActivate'/>
+<use f='codebrowser/src/menu.c' l='1335' u='r' c='MenuActivate'/>

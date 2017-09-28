@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='698' type='2'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15005' u='m' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15006' u='m' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21862' u='r' c='nk_contextual_begin'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='310' u='r' c='nk_sdl_handle_event'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config.h' l='81' type='3'/>
+<use f='codebrowser/src/cdogs/config.c' l='124' c='GoreAmountStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='134' u='r' c='StrGoreAmount'/>
+<use f='codebrowser/src/cdogs/config.c' l='641' u='r' c='ConfigDefault'/>

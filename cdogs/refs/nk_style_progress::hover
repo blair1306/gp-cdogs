@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3080' type='struct nk_style_item'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='14428' u='a' c='nk_draw_progress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16156' u='w' c='nk_style_from_table'/>
+<offset>256</offset>

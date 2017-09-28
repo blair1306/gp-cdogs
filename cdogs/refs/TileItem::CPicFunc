@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='130' type='GetDrawContextFunc'/>
+<offset>1152</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='911' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='299' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='301' u='r' c='DrawThing'/>
+<use f='codebrowser/src/cdogs/objs.c' l='462' u='w' c='ObjAdd'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/mouse.h' l='43' type='Vec2i'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/mouse.c' l='64' u='w' c='MousePrePoll'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='89' u='w' c='MouseOnWheel'/>
+<use f='codebrowser/src/cdogs/mouse.c' l='167' u='r' c='MouseWheel'/>

@@ -1,0 +1,9 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='277' ll='286'/>
+<size>40</size>
+<mbr r='_NBulletBounce::UID' o='0' t='uint32_t'/>
+<mbr r='_NBulletBounce::HitType' o='32' t='int32_t'/>
+<mbr r='_NBulletBounce::Spark' o='64' t='_Bool'/>
+<mbr r='_NBulletBounce::BouncePos' o='96' t='NVec2i'/>
+<mbr r='_NBulletBounce::Pos' o='160' t='NVec2i'/>
+<mbr r='_NBulletBounce::Vel' o='224' t='NVec2i'/>
+<mbr r='_NBulletBounce::HitSound' o='288' t='_Bool'/>

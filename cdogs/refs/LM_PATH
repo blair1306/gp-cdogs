@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/log.h' l='45' type='8'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='111' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='111' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='111' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='117' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='117' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='117' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='153' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='153' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='153' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='157' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='157' u='r' c='PathCacheCreate'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='157' u='r' c='PathCacheCreate'/>

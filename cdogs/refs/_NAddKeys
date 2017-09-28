@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='261' ll='265'/>
+<size>12</size>
+<mbr r='_NAddKeys::KeyFlags' o='0' t='uint32_t'/>
+<mbr r='_NAddKeys::Pos' o='32' t='NVec2i'/>

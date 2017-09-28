@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='363' type='pb_size_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='578' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/los.c' l='169' u='w' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='181' u='w' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='187' u='r' c='LOSCalcFrom'/>
+<use f='codebrowser/src/cdogs/los.c' l='258' u='w' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='259' u='r' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='260' u='r' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='262' u='r' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/los.c' l='269' u='r' c='LOSAddRun'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='499' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='510' u='w' c='NetServerSendGameStartMessages'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='516' u='r' c='NetServerSendGameStartMessages'/>

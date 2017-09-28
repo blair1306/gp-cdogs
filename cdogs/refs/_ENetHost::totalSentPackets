@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='387' type='enet_uint32'/>
+<offset>87712</offset>
+<doc f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='387'>/**&lt; total UDP packets sent, user should reset to 0 as needed to prevent overflow */</doc>
+<use f='codebrowser/src/cdogs/enet/host.c' l='96' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1733' u='w' c='enet_protocol_send_outgoing_commands'/>

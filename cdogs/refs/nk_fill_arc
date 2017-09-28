@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2711' type='void nk_fill_arc(struct nk_command_buffer * , float cx, float cy, float radius, float a_min, float a_max, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7072' ll='7088' macro='1' type='void nk_fill_arc(struct nk_command_buffer * b, float cx, float cy, float radius, float a_min, float a_max, struct nk_color c)'/>

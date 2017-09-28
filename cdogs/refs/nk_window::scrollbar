@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3531' type='struct nk_scroll'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18142' u='m' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='18143' u='m' c='nk_begin_titled'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21312' u='m' c='nk_group_scrolled_offset_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21313' u='m' c='nk_group_scrolled_offset_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21381' u='m' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21382' u='m' c='nk_group_scrolled_end'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21599' u='m' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21600' u='m' c='nk_popup_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21689' u='m' c='nk_nonblock_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21690' u='m' c='nk_nonblock_begin'/>
+<offset>736</offset>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb_common.h' l='31' type='_Bool pb_field_iter_next(pb_field_iter_t * iter)'/>
+<def f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='20' ll='69' macro='1' type='_Bool pb_field_iter_next(pb_field_iter_t * iter)'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='83' u='c' c='pb_field_iter_find'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='679' u='c' c='find_extension_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='744' u='c' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='828' u='c' c='pb_decode_noinit'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='373' u='c' c='pb_encode'/>

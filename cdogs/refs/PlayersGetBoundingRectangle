@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/player.h' l='98' type='void PlayersGetBoundingRectangle(Vec2i * min, Vec2i * max)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='450' u='c' c='CameraIsSingleScreen'/>
+<use f='codebrowser/src/cdogs/player.c' l='365' u='c' c='PlayersGetMidpoint'/>
+<def f='codebrowser/src/cdogs/player.c' l='369' ll='399' type='void PlayersGetBoundingRectangle(Vec2i * min, Vec2i * max)'/>

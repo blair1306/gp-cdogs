@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='369'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.h' l='9' u='c'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='368'>/* This is used to inform about need to regenerate .pb.h/.pb.c files. */</doc>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='7' u='c'/>

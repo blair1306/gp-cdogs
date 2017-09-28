@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/config.h' l='41' type='2'/>
+<use f='codebrowser/src/cdogs/ai.c' l='307' c='AICommand'/>
+<use f='codebrowser/src/cdogs/config.c' l='48' c='DifficultyStr'/>
+<use f='codebrowser/src/cdogs/config.c' l='59' u='r' c='StrDifficulty'/>

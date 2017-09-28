@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='83' type='yajl_tok yajl_lex_peek(yajl_lexer lexer, const unsigned char * jsonText, size_t jsonTextLen, size_t offset)'/>
+<doc f='codebrowser/src/cdogs/yajl/yajl_lex.h' l='82'>/** have a peek at the next token, but don&apos;t move the lexer forward */</doc>
+<def f='codebrowser/src/cdogs/yajl/yajl_lex.c' l='745' ll='763' type='yajl_tok yajl_lex_peek(yajl_lexer lexer, const unsigned char * jsonText, size_t jsonTextLen, size_t offset)'/>

@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/tests/cbehave/apr_ring.h' l='195'/>
+<doc f='codebrowser/src/tests/cbehave/apr_ring.h' l='189'>/**
+ * Initialize a ring
+ * @param hp   The head of the ring
+ * @param elem The name of the element struct
+ * @param link The name of the APR_RING_ENTRY in the element struct
+ */</doc>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='268' u='c'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='355' u='c'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='138' type='NMapObjectRemove'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='113' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/objs.c' l='94' u='m' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='95' u='m' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='96' u='m' c='DamageObject'/>
+<use f='codebrowser/src/cdogs/objs.c' l='97' u='m' c='DamageObject'/>

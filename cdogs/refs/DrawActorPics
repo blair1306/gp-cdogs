@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/draw/draw_actor.h' l='94' type='void DrawActorPics(const ActorPics * pics, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='314' u='c' c='DrawThing'/>
+<def f='codebrowser/src/cdogs/draw/draw_actor.c' l='248' ll='288' type='void DrawActorPics(const ActorPics * pics, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='464' u='c' c='DrawCharacterSimple'/>

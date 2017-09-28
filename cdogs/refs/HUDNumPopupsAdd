@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='67' type='void HUDNumPopupsAdd(HUDNumPopups * popups, const HUDNumPopupType type, const int idxOrUID, const int amount)'/>
+<doc f='codebrowser/src/cdogs/hud/hud_num_popup.h' l='66'>// idx is either player UID or objective index</doc>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='151' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='617' u='c' c='HandleGameEvent'/>
+<def f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='59' ll='118' type='void HUDNumPopupsAdd(HUDNumPopups * popups, const HUDNumPopupType type, const int idxOrUID, const int amount)'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/json/json.h' l='112' type='const char *'/>
+<offset>128</offset>
+<use f='codebrowser/src/json/json.c' l='1379' u='w' c='json_jpi_init'/>
+<use f='codebrowser/src/json/json.c' l='2157' u='w' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2158' u='r' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2164' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2217' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2287' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2345' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2382' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2407' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2574' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2694' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2755' u='a' c='json_parse_fragment'/>
+<use f='codebrowser/src/json/json.c' l='2777' u='w' c='json_parse_fragment'/>

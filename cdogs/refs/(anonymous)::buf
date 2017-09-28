@@ -1,0 +1,27 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='99' type='Uint32 *'/>
+<offset>1152</offset>
+<use f='codebrowser/src/cdogs/blit.c' l='118' u='r' c='BlitPicHighlight'/>
+<use f='codebrowser/src/cdogs/blit.c' l='162' u='r' c='BlitBackground'/>
+<use f='codebrowser/src/cdogs/blit.c' l='215' u='r' c='Blit'/>
+<use f='codebrowser/src/cdogs/blit.c' l='279' u='r' c='BlitMasked'/>
+<use f='codebrowser/src/cdogs/blit.c' l='326' u='r' c='BlitCharMultichannel'/>
+<use f='codebrowser/src/cdogs/blit.c' l='387' u='r' c='BlitBlend'/>
+<use f='codebrowser/src/cdogs/blit.c' l='402' u='r' c='BlitClearBuf'/>
+<use f='codebrowser/src/cdogs/blit.c' l='406' u='r' c='BlitUpdateFromBuf'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='61' u='r' c='Draw_Point'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='181' u='r' c='DrawPointMask'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='189' u='r' c='DrawPointTint'/>
+<use f='codebrowser/src/cdogs/draw/drawtools.c' l='248' u='r' c='DrawCross'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='299' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='299' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' u='w' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='300' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='388' u='r' c='GraphicsTerminate'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='388' u='r' c='GraphicsTerminate'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='84' u='r' c='GrafxRedrawBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='149' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='188' u='r' c='Display'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1038' u='r' c='DrawBackground'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='1043' u='r' c='DrawBackground'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='126' u='r' c='ClearScreen'/>

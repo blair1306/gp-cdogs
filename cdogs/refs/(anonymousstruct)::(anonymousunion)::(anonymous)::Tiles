@@ -1,0 +1,24 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='181' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/cdogs/mission.h' l='181'>// of unsigned short (map tile)</doc>
+<use f='codebrowser/src/cdogs/map_archive.c' l='473' u='m' c='SaveStaticTiles'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='486' u='a' c='SaveStaticTiles'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='378' u='a' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='391' u='a' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='402' u='a' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='53' u='a' c='MapStaticLoad'/>
+<use f='codebrowser/src/cdogs/mission.c' l='170' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='170' u='a' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='202' u='a' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='66' u='a' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='72' u='a' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='118' u='a' c='GetTileAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='197' u='a' c='MissionTrySetTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='208' u='a' c='MissionGetTile'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='219' u='m' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='220' u='a' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='223' u='a' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='224' u='a' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='230' u='a' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='546' u='a' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='569' u='a' c='EditorBrushStopPainting'/>

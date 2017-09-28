@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='366' type='enet_uint32'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogs/enet/host.c' l='77' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='78' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='79' u='w' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='79' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='79' u='r' c='enet_host_create'/>
+<use f='codebrowser/src/cdogs/enet/host.c' l='203' u='w' c='enet_host_connect'/>

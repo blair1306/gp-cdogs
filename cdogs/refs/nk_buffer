@@ -1,0 +1,11 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2245' ll='2264'/>
+<size>120</size>
+<mbr r='nk_buffer::marker' o='0' t='struct nk_buffer_marker [2]'/>
+<mbr r='nk_buffer::pool' o='256' t='struct nk_allocator'/>
+<mbr r='nk_buffer::type' o='448' t='enum nk_allocation_type'/>
+<mbr r='nk_buffer::memory' o='512' t='struct nk_memory'/>
+<mbr r='nk_buffer::grow_factor' o='640' t='float'/>
+<mbr r='nk_buffer::allocated' o='704' t='nk_size'/>
+<mbr r='nk_buffer::needed' o='768' t='nk_size'/>
+<mbr r='nk_buffer::calls' o='832' t='nk_size'/>
+<mbr r='nk_buffer::size' o='896' t='nk_size'/>

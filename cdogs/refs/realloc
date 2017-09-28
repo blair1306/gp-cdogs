@@ -1,0 +1,17 @@
+<dec f='include/stdlib.h' l='480' type='void * realloc(void * __ptr, size_t __size)'/>
+<doc f='include/stdlib.h' l='477'>/* __attribute_malloc__ is not used, because if realloc returns
+   the same pointer that was passed to it, aliasing needs to be allowed
+   between objects pointed by the old and new pointers.  */</doc>
+<use f='codebrowser/src/cdogs/AStar.c' l='259' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='260' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='366' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='420' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='51' macro='1' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_alloc.c' l='36' u='c' c='yajl_internal_realloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='167' u='c' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='172' u='c' c='object_add_keyval'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='198' u='c' c='array_add_value'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='301' macro='1' u='c'/>
+<use f='codebrowser/src/json/json.c' l='109' u='c' c='rcs_resize'/>
+<use f='codebrowser/src/json/json.c' l='167' u='c' c='rcs_unwrap'/>

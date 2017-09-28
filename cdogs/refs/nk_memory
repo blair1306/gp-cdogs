@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2244'/>
+<size>16</size>
+<mbr r='nk_memory::ptr' o='0' t='void *'/>
+<mbr r='nk_memory::size' o='64' t='nk_size'/>

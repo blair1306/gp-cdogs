@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/powerup.h' l='42' type='void (*)(const Vec2i, void *)'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/powerup.c' l='110' u='r' c='TryPlacePickup'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='120' u='r' c='TryPlacePickup'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='146' u='w' c='HealthSpawnerInit'/>
+<use f='codebrowser/src/cdogs/powerup.c' l='196' u='w' c='AmmoSpawnerInit'/>

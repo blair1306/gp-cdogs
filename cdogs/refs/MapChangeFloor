@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/map.h' l='141' type='void MapChangeFloor(Map * map, const Vec2i pos, NamedPic * normal, NamedPic * shadow)'/>
+<def f='codebrowser/src/cdogs/map.c' l='237' ll='261' type='void MapChangeFloor(Map * map, const Vec2i pos, NamedPic * normal, NamedPic * shadow)'/>
+<use f='codebrowser/src/cdogs/map.c' l='279' u='c' c='MapShowExitArea'/>
+<use f='codebrowser/src/cdogs/map.c' l='284' u='c' c='MapShowExitArea'/>
+<use f='codebrowser/src/cdogs/map.c' l='289' u='c' c='MapShowExitArea'/>
+<use f='codebrowser/src/cdogs/map.c' l='294' u='c' c='MapShowExitArea'/>

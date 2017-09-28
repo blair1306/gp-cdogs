@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/ai_context.h' l='100' type='int'/>
+<offset>96</offset>
+<doc f='codebrowser/src/cdogs/ai_context.h' l='99'>// Counters to moderate amount of chatter</doc>
+<use f='codebrowser/src/cdogs/ai_context.c' l='36' u='w' c='AIContextNew'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='80' u='r' c='AIContextShowChatter'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='97' u='w' c='AIContextSetChatterDelay'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='98' u='r' c='AIContextSetChatterDelay'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='105' u='w' c='AIContextSetChatterDelay'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='108' u='w' c='AIContextSetChatterDelay'/>
+<use f='codebrowser/src/cdogs/ai_context.c' l='111' u='w' c='AIContextSetChatterDelay'/>

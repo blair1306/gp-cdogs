@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='145' type='void tinydir_close(tinydir_dir * dir)'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='204' u='c' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='253' u='c' c='tinydir_open'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='274' u='c' c='tinydir_open_sorted'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='316' u='c' c='tinydir_open_sorted'/>
+<def f='codebrowser/src/tinydir/tinydir.h' l='320' ll='351' macro='1' type='void tinydir_close(tinydir_dir * dir)'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='525' u='c' c='tinydir_open_subdir_n'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='615' u='c' c='tinydir_file_open'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='198' u='c' c='LoadCampaignsFromFolder'/>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='102' u='c' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='244' u='c' c='LoadSongList'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='258' u='c' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='237' u='c' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='481' u='c' c='Open'/>

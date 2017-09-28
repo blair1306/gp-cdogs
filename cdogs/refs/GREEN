@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/rlutil/rlutil.h' l='172' type='2'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='418' c='getANSIColor'/>
+<use f='codebrowser/src/cdogs/rlutil/rlutil.h' l='444' c='getANSIBackgroundColor'/>
+<use f='codebrowser/src/cdogs/log.c' l='146' u='r' c='LogSetLevelColor'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='278' u='r' c='_cbehave_runner'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='287' u='r' c='_cbehave_runner'/>

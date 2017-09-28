@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/json/json.h' l='113' type='int'/>
+<offset>192</offset>
+<doc f='codebrowser/src/json/json.h' l='113'>/*!&lt; flag informing if the string limit length defined by JSON_MAX_STRING_LENGTH was reached */</doc>
+<use f='codebrowser/src/json/json.c' l='1382' u='w' c='json_jpi_init'/>

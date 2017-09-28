@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/screens_end.h' l='34' type='GameLoopData * ScreenDogfightFinalScores()'/>
+<use f='codebrowser/src/screens_end.c' l='435' u='c' c='DogfightScoresUpdate'/>
+<def f='codebrowser/src/screens_end.c' l='446' ll='453' type='GameLoopData * ScreenDogfightFinalScores()'/>

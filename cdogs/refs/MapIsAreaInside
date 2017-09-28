@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_build.h' l='53' type='_Bool MapIsAreaInside(const Map * map, const Vec2i pos, const Vec2i size)'/>
+<def f='codebrowser/src/cdogs/map_build.c' l='567' ll='571' macro='1' type='_Bool MapIsAreaInside(const Map * map, const Vec2i pos, const Vec2i size)'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='575' u='c' c='MapIsAreaClear'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='422' u='c' c='MapIsAreaClearForCaveSquare'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='485' u='c' c='MapIsAreaClearForCaveRoom'/>

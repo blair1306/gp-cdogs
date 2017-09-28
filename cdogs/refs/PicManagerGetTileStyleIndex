@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/pic_manager.h' l='82' type='int PicManagerGetTileStyleIndex(PicManager * pm, const char * style)'/>
+<def f='codebrowser/src/cdogs/pic_manager.c' l='606' ll='615' type='int PicManagerGetTileStyleIndex(PicManager * pm, const char * style)'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='414' u='c' c='MissionDrawFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='431' u='c' c='MissionDrawRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='853' u='c' c='MissionChangeFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='853' u='c' c='MissionChangeFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='853' u='c' c='MissionChangeFloorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='864' u='c' c='MissionChangeRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='864' u='c' c='MissionChangeRoomStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='864' u='c' c='MissionChangeRoomStyle'/>

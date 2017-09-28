@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/tests/cbehave/cbehave.h' l='243' type='void cbehave_mock_obj_return(const char * symbol_name, void * value, const char * fcname, int lineno, const char * fname, int obj_type, int count)'/>
+<def f='codebrowser/src/tests/cbehave/cbehave.c' l='333' ll='360' type='void cbehave_mock_obj_return(const char * symbol_name, void * value, const char * fcname, int lineno, const char * fname, int obj_type, int count)'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2908' type='void nk_draw_list_fill_triangle(struct nk_draw_list * , struct nk_vec2 a, struct nk_vec2 b, struct nk_vec2 c, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8287' ll='8297' macro='1' type='void nk_draw_list_fill_triangle(struct nk_draw_list * list, struct nk_vec2 a, struct nk_vec2 b, struct nk_vec2 c, struct nk_color col)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8548' u='c' c='nk_convert'/>

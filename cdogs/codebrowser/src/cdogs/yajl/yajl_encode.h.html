@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_encode.h source code [codebrowser/src/cdogs/yajl/yajl_encode.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl_encode.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl_encode.h.html'>yajl_encode.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="17">ifndef</span> <span class="macro" data-ref="_M/__YAJL_ENCODE_H__">__YAJL_ENCODE_H__</span></u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/__YAJL_ENCODE_H__" data-ref="_M/__YAJL_ENCODE_H__">__YAJL_ENCODE_H__</dfn></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="yajl_buf.h.html">"yajl_buf.h"</a></u></td></tr>
+<tr><th id="21">21</th><td><u>#include <a href="api/yajl_gen.h.html">"api/yajl_gen.h"</a></u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><em>void</em> <a class="decl" href="yajl_encode.c.html#yajl_string_encode" title='yajl_string_encode' data-ref="yajl_string_encode" id="yajl_string_encode">yajl_string_encode</a>(<em>const</em> <a class="typedef" href="api/yajl_gen.h.html#yajl_print_t" title='yajl_print_t' data-type='void (*)(void *, const char *, size_t)' data-ref="yajl_print_t">yajl_print_t</a> <dfn class="local col1 decl" id="31printer" title='printer' data-type='const yajl_print_t' data-ref="31printer">printer</dfn>,</td></tr>
+<tr><th id="24">24</th><td>                        <em>void</em> * <dfn class="local col2 decl" id="32ctx" title='ctx' data-type='void *' data-ref="32ctx">ctx</dfn>,</td></tr>
+<tr><th id="25">25</th><td>                        <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col3 decl" id="33str" title='str' data-type='const unsigned char *' data-ref="33str">str</dfn>,</td></tr>
+<tr><th id="26">26</th><td>                        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col4 decl" id="34length" title='length' data-type='size_t' data-ref="34length">length</dfn>,</td></tr>
+<tr><th id="27">27</th><td>                        <em>int</em> <dfn class="local col5 decl" id="35escape_solidus" title='escape_solidus' data-type='int' data-ref="35escape_solidus">escape_solidus</dfn>);</td></tr>
+<tr><th id="28">28</th><td></td></tr>
+<tr><th id="29">29</th><td><em>void</em> <a class="decl" href="yajl_encode.c.html#yajl_string_decode" title='yajl_string_decode' data-ref="yajl_string_decode" id="yajl_string_decode">yajl_string_decode</a>(<a class="typedef" href="yajl_buf.h.html#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="local col6 decl" id="36buf" title='buf' data-type='yajl_buf' data-ref="36buf">buf</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col7 decl" id="37str" title='str' data-type='const unsigned char *' data-ref="37str">str</dfn>,</td></tr>
+<tr><th id="30">30</th><td>                        <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col8 decl" id="38length" title='length' data-type='size_t' data-ref="38length">length</dfn>);</td></tr>
+<tr><th id="31">31</th><td></td></tr>
+<tr><th id="32">32</th><td><em>int</em> <a class="decl" href="yajl_encode.c.html#yajl_string_validate_utf8" title='yajl_string_validate_utf8' data-ref="yajl_string_validate_utf8" id="yajl_string_validate_utf8">yajl_string_validate_utf8</a>(<em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col9 decl" id="39s" title='s' data-type='const unsigned char *' data-ref="39s">s</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col0 decl" id="40len" title='len' data-type='size_t' data-ref="40len">len</dfn>);</td></tr>
+<tr><th id="33">33</th><td></td></tr>
+<tr><th id="34">34</th><td><u>#<span data-ppcond="17">endif</span></u></td></tr>
+<tr><th id="35">35</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='yajl_encode.c.html'>codebrowser/src/cdogs/yajl/yajl_encode.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

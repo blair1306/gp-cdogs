@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>cbehave.h source code [codebrowser/src/tests/cbehave/cbehave.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="cbehave_feature,cbehave_state,cbehave_symbol_t,cbehave_value_t "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/tests/cbehave/cbehave.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>tests</a>/<a href='./'>cbehave</a>/<a href='cbehave.h.html'>cbehave.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2011 Tony Bai &lt;bigwhite.cn@gmail.com&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Licensed under the Apache License, Version 2.0 (the "License");</i></td></tr>
+<tr><th id="5">5</th><td><i> * you may not use this file except in compliance with the License.</i></td></tr>
+<tr><th id="6">6</th><td><i> * You may obtain a copy of the License at</i></td></tr>
+<tr><th id="7">7</th><td><i> * </i></td></tr>
+<tr><th id="8">8</th><td><i> * <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></i></td></tr>
+<tr><th id="9">9</th><td><i> * </i></td></tr>
+<tr><th id="10">10</th><td><i> * Unless required by applicable law or agreed to in writing, software</i></td></tr>
+<tr><th id="11">11</th><td><i> * distributed under the License is distributed on an "AS IS" BASIS,</i></td></tr>
+<tr><th id="12">12</th><td><i> * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.</i></td></tr>
+<tr><th id="13">13</th><td><i> * See the License for the specific language governing permissions and</i></td></tr>
+<tr><th id="14">14</th><td><i> * limitations under the License.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><i>/*</i></td></tr>
+<tr><th id="18">18</th><td><i> * @file cbehave.h</i></td></tr>
+<tr><th id="19">19</th><td><i> *</i></td></tr>
+<tr><th id="20">20</th><td><i> */</i></td></tr>
+<tr><th id="21">21</th><td><u>#pragma once</u></td></tr>
+<tr><th id="22">22</th><td></td></tr>
+<tr><th id="23">23</th><td><u>#<span data-ppcond="23">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="24">24</th><td><b>extern</b> <q>"C"</q> {</td></tr>
+<tr><th id="25">25</th><td><u>#<span data-ppcond="23">endif</span></u></td></tr>
+<tr><th id="26">26</th><td></td></tr>
+<tr><th id="27">27</th><td><u>#<span data-ppcond="27">ifndef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="28">28</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="29">29</th><td><u>#<span data-ppcond="27">endif</span></u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><u>#include <a href="apr_ring.h.html">"apr_ring.h"</a></u></td></tr>
+<tr><th id="32">32</th><td></td></tr>
+<tr><th id="33">33</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_LOGO" data-ref="_M/CBEHAVE_LOGO">CBEHAVE_LOGO</dfn> \</u></td></tr>
+<tr><th id="34">34</th><td><u>    "*******************************************************************\n\</u></td></tr>
+<tr><th id="35">35</th><td><u>\tCBEHAVE -- A Behavior Driven Development Framework for C\n\</u></td></tr>
+<tr><th id="36">36</th><td><u>\t\t\t By Tony Bai\n\</u></td></tr>
+<tr><th id="37">37</th><td><u>*******************************************************************"</u></td></tr>
+<tr><th id="38">38</th><td></td></tr>
+<tr><th id="39">39</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_MAX_NAME_LEN" data-ref="_M/CBEHAVE_MAX_NAME_LEN">CBEHAVE_MAX_NAME_LEN</dfn> 128</u></td></tr>
+<tr><th id="40">40</th><td></td></tr>
+<tr><th id="41">41</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="cbehave_state" title='cbehave_state' data-ref="cbehave_state"><a class="type" href="#cbehave_state" title='cbehave_state' data-ref="cbehave_state">cbehave_state</a></dfn> {</td></tr>
+<tr><th id="42">42</th><td>    <em>int</em> <dfn class="decl" id="cbehave_state::total_features" title='cbehave_state::total_features' data-ref="cbehave_state::total_features">total_features</dfn>;</td></tr>
+<tr><th id="43">43</th><td>    <em>int</em> <dfn class="decl" id="cbehave_state::failed_features" title='cbehave_state::failed_features' data-ref="cbehave_state::failed_features">failed_features</dfn>;</td></tr>
+<tr><th id="44">44</th><td>    <em>int</em> <dfn class="decl" id="cbehave_state::total_scenarios" title='cbehave_state::total_scenarios' data-ref="cbehave_state::total_scenarios">total_scenarios</dfn>;</td></tr>
+<tr><th id="45">45</th><td>    <em>int</em> <dfn class="decl" id="cbehave_state::failed_scenarios" title='cbehave_state::failed_scenarios' data-ref="cbehave_state::failed_scenarios">failed_scenarios</dfn>;</td></tr>
+<tr><th id="46">46</th><td>} <dfn class="typedef" id="cbehave_state" title='cbehave_state' data-type='struct cbehave_state' data-ref="cbehave_state">cbehave_state</dfn>;</td></tr>
+<tr><th id="47">47</th><td></td></tr>
+<tr><th id="48">48</th><td><b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="49">49</th><td>	<dfn class="enum" id="CBEHAVE_SCOPE_NONE" title='CBEHAVE_SCOPE_NONE' data-ref="CBEHAVE_SCOPE_NONE">CBEHAVE_SCOPE_NONE</dfn>,</td></tr>
+<tr><th id="50">50</th><td>	<dfn class="enum" id="CBEHAVE_SCOPE_GIVEN" title='CBEHAVE_SCOPE_GIVEN' data-ref="CBEHAVE_SCOPE_GIVEN">CBEHAVE_SCOPE_GIVEN</dfn>,</td></tr>
+<tr><th id="51">51</th><td>	<dfn class="enum" id="CBEHAVE_SCOPE_WHEN" title='CBEHAVE_SCOPE_WHEN' data-ref="CBEHAVE_SCOPE_WHEN">CBEHAVE_SCOPE_WHEN</dfn>,</td></tr>
+<tr><th id="52">52</th><td>	<dfn class="enum" id="CBEHAVE_SCOPE_THEN" title='CBEHAVE_SCOPE_THEN' data-ref="CBEHAVE_SCOPE_THEN">CBEHAVE_SCOPE_THEN</dfn></td></tr>
+<tr><th id="53">53</th><td>} <dfn class="typedef" id="cbehave_scope_e" title='cbehave_scope_e' data-type='enum cbehave_scope_e' data-ref="cbehave_scope_e">cbehave_scope_e</dfn>;</td></tr>
+<tr><th id="54">54</th><td><b>extern</b> <a class="typedef" href="#cbehave_scope_e" title='cbehave_scope_e' data-type='enum cbehave_scope_e' data-ref="cbehave_scope_e">cbehave_scope_e</a> <dfn class="decl" id="cbehave_scope" title='cbehave_scope' data-ref="cbehave_scope">cbehave_scope</dfn>;</td></tr>
+<tr><th id="55">55</th><td></td></tr>
+<tr><th id="56">56</th><td><i>// Main BDD keywords, GIVEN-WHEN-THEN</i></td></tr>
+<tr><th id="57">57</th><td><u>#define <dfn class="macro" id="_M/END_SCOPE" data-ref="_M/END_SCOPE">END_SCOPE</dfn> \</u></td></tr>
+<tr><th id="58">58</th><td><u>    if (cbehave_scope == CBEHAVE_SCOPE_GIVEN) { \</u></td></tr>
+<tr><th id="59">59</th><td><u>        cbehave_given_exit(_state); \</u></td></tr>
+<tr><th id="60">60</th><td><u>    } else if (cbehave_scope == CBEHAVE_SCOPE_WHEN) { \</u></td></tr>
+<tr><th id="61">61</th><td><u>        cbehave_when_exit(_state); \</u></td></tr>
+<tr><th id="62">62</th><td><u>    } else if (cbehave_scope == CBEHAVE_SCOPE_THEN) { \</u></td></tr>
+<tr><th id="63">63</th><td><u>        cbehave_then_exit(_state); \</u></td></tr>
+<tr><th id="64">64</th><td><u>    }</u></td></tr>
+<tr><th id="65">65</th><td><u>#define <dfn class="macro" id="_M/GIVEN_IMPL" data-ref="_M/GIVEN_IMPL">GIVEN_IMPL</dfn>(x, _prompt) \</u></td></tr>
+<tr><th id="66">66</th><td><u>    END_SCOPE \</u></td></tr>
+<tr><th id="67">67</th><td><u>    cbehave_scope = CBEHAVE_SCOPE_GIVEN; \</u></td></tr>
+<tr><th id="68">68</th><td><u>    cbehave_given_entry(_prompt, x, _state);</u></td></tr>
+<tr><th id="69">69</th><td><u>#define <dfn class="macro" id="_M/GIVEN" data-ref="_M/GIVEN">GIVEN</dfn>(x) GIVEN_IMPL(x, "Given")</u></td></tr>
+<tr><th id="70">70</th><td><u>#define <dfn class="macro" id="_M/GIVEN_END" data-ref="_M/GIVEN_END">GIVEN_END</dfn></u></td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><u>#define <dfn class="macro" id="_M/WHEN_IMPL" data-ref="_M/WHEN_IMPL">WHEN_IMPL</dfn>(x, _prompt) \</u></td></tr>
+<tr><th id="73">73</th><td><u>    END_SCOPE \</u></td></tr>
+<tr><th id="74">74</th><td><u>    cbehave_scope = CBEHAVE_SCOPE_WHEN; \</u></td></tr>
+<tr><th id="75">75</th><td><u>    cbehave_when_entry(_prompt, x, _state);</u></td></tr>
+<tr><th id="76">76</th><td><u>#define <dfn class="macro" id="_M/WHEN" data-ref="_M/WHEN">WHEN</dfn>(x) WHEN_IMPL(x, "When")</u></td></tr>
+<tr><th id="77">77</th><td><u>#define <dfn class="macro" id="_M/WHEN_END" data-ref="_M/WHEN_END">WHEN_END</dfn></u></td></tr>
+<tr><th id="78">78</th><td></td></tr>
+<tr><th id="79">79</th><td><u>#define <dfn class="macro" id="_M/THEN_IMPL" data-ref="_M/THEN_IMPL">THEN_IMPL</dfn>(x, _prompt) \</u></td></tr>
+<tr><th id="80">80</th><td><u>    END_SCOPE \</u></td></tr>
+<tr><th id="81">81</th><td><u>    cbehave_scope = CBEHAVE_SCOPE_THEN; \</u></td></tr>
+<tr><th id="82">82</th><td><u>    cbehave_then_entry(_prompt, x, _state);</u></td></tr>
+<tr><th id="83">83</th><td><u>#define <dfn class="macro" id="_M/THEN" data-ref="_M/THEN">THEN</dfn>(x) THEN_IMPL(x, "Then")</u></td></tr>
+<tr><th id="84">84</th><td><u>#define <dfn class="macro" id="_M/THEN_END" data-ref="_M/THEN_END">THEN_END</dfn></u></td></tr>
+<tr><th id="85">85</th><td></td></tr>
+<tr><th id="86">86</th><td><i>// AND and friends</i></td></tr>
+<tr><th id="87">87</th><td><u>#define <dfn class="macro" id="_M/AND_IMPL" data-ref="_M/AND_IMPL">AND_IMPL</dfn>(x, _prompt) \</u></td></tr>
+<tr><th id="88">88</th><td><u>    if (cbehave_scope == CBEHAVE_SCOPE_GIVEN) { \</u></td></tr>
+<tr><th id="89">89</th><td><u>        GIVEN_IMPL(x, _prompt) \</u></td></tr>
+<tr><th id="90">90</th><td><u>    } else if (cbehave_scope == CBEHAVE_SCOPE_WHEN) { \</u></td></tr>
+<tr><th id="91">91</th><td><u>        WHEN_IMPL(x, _prompt) \</u></td></tr>
+<tr><th id="92">92</th><td><u>    } else if (cbehave_scope == CBEHAVE_SCOPE_THEN) { \</u></td></tr>
+<tr><th id="93">93</th><td><u>        THEN_IMPL(x, _prompt) \</u></td></tr>
+<tr><th id="94">94</th><td><u>    }</u></td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td><u>#define <dfn class="macro" id="_M/AND" data-ref="_M/AND">AND</dfn>(x) AND_IMPL(x, "And")</u></td></tr>
+<tr><th id="97">97</th><td><u>#define <dfn class="macro" id="_M/BUT" data-ref="_M/BUT">BUT</dfn>(x) AND_IMPL(x, "But")</u></td></tr>
+<tr><th id="98">98</th><td></td></tr>
+<tr><th id="99">99</th><td><u>#define <dfn class="macro" id="_M/SCENARIO" data-ref="_M/SCENARIO">SCENARIO</dfn>(x) { \</u></td></tr>
+<tr><th id="100">100</th><td><u>    int _scenario_state = 0; \</u></td></tr>
+<tr><th id="101">101</th><td><u>    cbehave_scenario_entry(x, _state); \</u></td></tr>
+<tr><th id="102">102</th><td><u>    cbehave_scope = CBEHAVE_SCOPE_NONE;</u></td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><u>#define <dfn class="macro" id="_M/SCENARIO_END" data-ref="_M/SCENARIO_END">SCENARIO_END</dfn> \</u></td></tr>
+<tr><th id="105">105</th><td><u>    END_SCOPE \</u></td></tr>
+<tr><th id="106">106</th><td><u>    cbehave_scenario_exit(&amp;_scenario_state, _state); \</u></td></tr>
+<tr><th id="107">107</th><td><u>}</u></td></tr>
+<tr><th id="108">108</th><td></td></tr>
+<tr><th id="109">109</th><td><u>#define <dfn class="macro" id="_M/FEATURE" data-ref="_M/FEATURE">FEATURE</dfn>(idx, x) static void _cbehave_feature_##idx(void *_state) { \</u></td></tr>
+<tr><th id="110">110</th><td><u>    cbehave_state _old_state; \</u></td></tr>
+<tr><th id="111">111</th><td><u>    cbehave_feature_entry(x, &amp;_old_state, _state);</u></td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td><u>#define <dfn class="macro" id="_M/FEATURE_END" data-ref="_M/FEATURE_END">FEATURE_END</dfn> \</u></td></tr>
+<tr><th id="114">114</th><td><u>_feature_over: \</u></td></tr>
+<tr><th id="115">115</th><td><u>    cbehave_feature_exit(&amp;_old_state, _state); \</u></td></tr>
+<tr><th id="116">116</th><td><u>}</u></td></tr>
+<tr><th id="117">117</th><td></td></tr>
+<tr><th id="118">118</th><td><u>#define <dfn class="macro" id="_M/ASSERT" data-ref="_M/ASSERT">ASSERT</dfn>(cond, ret) \</u></td></tr>
+<tr><th id="119">119</th><td><u>if (!(cond)) {\</u></td></tr>
+<tr><th id="120">120</th><td><u>    cbehave_feature_return(__FILE__, __LINE__, ret, _state); \</u></td></tr>
+<tr><th id="121">121</th><td><u>    goto _feature_over; \</u></td></tr>
+<tr><th id="122">122</th><td><u>}</u>\</td></tr>
+<tr><th id="123">123</th><td>    </td></tr>
+<tr><th id="124">124</th><td><u>#define <dfn class="macro" id="_M/TEST_FEATURE" data-ref="_M/TEST_FEATURE">TEST_FEATURE</dfn>(name) {_cbehave_feature_##name}</u></td></tr>
+<tr><th id="125">125</th><td></td></tr>
+<tr><th id="126">126</th><td><u>#define <dfn class="macro" id="_M/SHOULD_INT_EQUAL" data-ref="_M/SHOULD_INT_EQUAL">SHOULD_INT_EQUAL</dfn>(actual, expected) do { \</u></td></tr>
+<tr><th id="127">127</th><td><u>    should_int_equal((actual), (expected), &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="128">128</th><td><u>} while(0)</u></td></tr>
+<tr><th id="129">129</th><td></td></tr>
+<tr><th id="130">130</th><td><u>#define <dfn class="macro" id="_M/SHOULD_INT_GT" data-ref="_M/SHOULD_INT_GT">SHOULD_INT_GT</dfn>(val1, val2) do { \</u></td></tr>
+<tr><th id="131">131</th><td><u>    should_int_gt((val1), (val2), &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="132">132</th><td><u>} while(0)</u></td></tr>
+<tr><th id="133">133</th><td></td></tr>
+<tr><th id="134">134</th><td><u>#define <dfn class="macro" id="_M/SHOULD_INT_LT" data-ref="_M/SHOULD_INT_LT">SHOULD_INT_LT</dfn>(val1, val2) do { \</u></td></tr>
+<tr><th id="135">135</th><td><u>    should_int_lt((val1), (val2), &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="136">136</th><td><u>} while(0)</u></td></tr>
+<tr><th id="137">137</th><td></td></tr>
+<tr><th id="138">138</th><td><u>#define <dfn class="macro" id="_M/SHOULD_INT_GE" data-ref="_M/SHOULD_INT_GE">SHOULD_INT_GE</dfn>(val1, val2) do { \</u></td></tr>
+<tr><th id="139">139</th><td><u>    should_int_ge((val1), (val2), &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="140">140</th><td><u>} while(0)</u></td></tr>
+<tr><th id="141">141</th><td></td></tr>
+<tr><th id="142">142</th><td><u>#define <dfn class="macro" id="_M/SHOULD_INT_LE" data-ref="_M/SHOULD_INT_LE">SHOULD_INT_LE</dfn>(val1, val2) do { \</u></td></tr>
+<tr><th id="143">143</th><td><u>    should_int_le((val1), (val2), &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="144">144</th><td><u>} while(0)</u></td></tr>
+<tr><th id="145">145</th><td></td></tr>
+<tr><th id="146">146</th><td><u>#define <dfn class="macro" id="_M/SHOULD_STR_EQUAL" data-ref="_M/SHOULD_STR_EQUAL">SHOULD_STR_EQUAL</dfn>(actual, expected) do { \</u></td></tr>
+<tr><th id="147">147</th><td><u>    should_str_equal((actual), (expected), &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="148">148</th><td><u>} while(0)</u></td></tr>
+<tr><th id="149">149</th><td></td></tr>
+<tr><th id="150">150</th><td><u>#define <dfn class="macro" id="_M/SHOULD_MEM_EQUAL" data-ref="_M/SHOULD_MEM_EQUAL">SHOULD_MEM_EQUAL</dfn>(actual, expected, size) do { \</u></td></tr>
+<tr><th id="151">151</th><td><u>    should_mem_equal((actual), (expected), (size), &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="152">152</th><td><u>} while(0)</u></td></tr>
+<tr><th id="153">153</th><td></td></tr>
+<tr><th id="154">154</th><td><u>#define <dfn class="macro" id="_M/SHOULD_BE_TRUE" data-ref="_M/SHOULD_BE_TRUE">SHOULD_BE_TRUE</dfn>(actual) do { \</u></td></tr>
+<tr><th id="155">155</th><td><u>    should_be_bool((actual), true, &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="156">156</th><td><u>} while(0)</u></td></tr>
+<tr><th id="157">157</th><td></td></tr>
+<tr><th id="158">158</th><td><u>#define <dfn class="macro" id="_M/SHOULD_BE_FALSE" data-ref="_M/SHOULD_BE_FALSE">SHOULD_BE_FALSE</dfn>(actual) do { \</u></td></tr>
+<tr><th id="159">159</th><td><u>    should_be_bool((actual), false, &amp;_scenario_state, __FILE__, __LINE__); \</u></td></tr>
+<tr><th id="160">160</th><td><u>} while(0)</u></td></tr>
+<tr><th id="161">161</th><td></td></tr>
+<tr><th id="162">162</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_RUN" data-ref="_M/CBEHAVE_RUN">CBEHAVE_RUN</dfn>(_description, ...)\</u></td></tr>
+<tr><th id="163">163</th><td><u>int main(void) {\</u></td></tr>
+<tr><th id="164">164</th><td><u>	cbehave_feature _cfeatures[] = {__VA_ARGS__};\</u></td></tr>
+<tr><th id="165">165</th><td><u>	return cbehave_runner(_description, _cfeatures);\</u></td></tr>
+<tr><th id="166">166</th><td><u>}</u></td></tr>
+<tr><th id="167">167</th><td></td></tr>
+<tr><th id="168">168</th><td><u>#define <dfn class="macro" id="_M/cbehave_runner" data-ref="_M/cbehave_runner">cbehave_runner</dfn>(str, features) \</u></td></tr>
+<tr><th id="169">169</th><td><u>    _cbehave_runner(str, features, sizeof(features)/sizeof(features[0]))</u></td></tr>
+<tr><th id="170">170</th><td></td></tr>
+<tr><th id="171">171</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="cbehave_feature" title='cbehave_feature' data-ref="cbehave_feature"><a class="type" href="#cbehave_feature" title='cbehave_feature' data-ref="cbehave_feature">cbehave_feature</a></dfn> {</td></tr>
+<tr><th id="172">172</th><td>    <em>void</em> (*<dfn class="decl" id="cbehave_feature::func" title='cbehave_feature::func' data-ref="cbehave_feature::func">func</dfn>)(<em>void</em> *<dfn class="local col1 decl" id="1state" title='state' data-type='void *' data-ref="1state">state</dfn>);</td></tr>
+<tr><th id="173">173</th><td>} <dfn class="typedef" id="cbehave_feature" title='cbehave_feature' data-type='struct cbehave_feature' data-ref="cbehave_feature">cbehave_feature</dfn>;</td></tr>
+<tr><th id="174">174</th><td></td></tr>
+<tr><th id="175">175</th><td><em>int</em> <dfn class="decl" id="_cbehave_runner" title='_cbehave_runner' data-ref="_cbehave_runner">_cbehave_runner</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="2description" title='description' data-type='const char *' data-ref="2description">description</dfn>, <em>const</em> <a class="typedef" href="#cbehave_feature" title='cbehave_feature' data-type='struct cbehave_feature' data-ref="cbehave_feature">cbehave_feature</a> *<dfn class="local col3 decl" id="3features" title='features' data-type='const cbehave_feature *' data-ref="3features">features</dfn>, <em>int</em> <dfn class="local col4 decl" id="4count" title='count' data-type='int' data-ref="4count">count</dfn>);</td></tr>
+<tr><th id="176">176</th><td><em>void</em> <dfn class="decl" id="should_int_equal" title='should_int_equal' data-ref="should_int_equal">should_int_equal</dfn>(<em>int</em> <dfn class="local col5 decl" id="5actual" title='actual' data-type='int' data-ref="5actual">actual</dfn>, <em>int</em> <dfn class="local col6 decl" id="6expected" title='expected' data-type='int' data-ref="6expected">expected</dfn>, </td></tr>
+<tr><th id="177">177</th><td>                      <em>void</em> *<dfn class="local col7 decl" id="7state" title='state' data-type='void *' data-ref="7state">state</dfn>,</td></tr>
+<tr><th id="178">178</th><td>                      <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="8file" title='file' data-type='const char *' data-ref="8file">file</dfn>, <em>int</em> <dfn class="local col9 decl" id="9line" title='line' data-type='int' data-ref="9line">line</dfn>);</td></tr>
+<tr><th id="179">179</th><td><em>void</em> <dfn class="decl" id="should_int_gt" title='should_int_gt' data-ref="should_int_gt">should_int_gt</dfn>(<em>int</em> <dfn class="local col0 decl" id="10val1" title='val1' data-type='int' data-ref="10val1">val1</dfn>, <em>int</em> <dfn class="local col1 decl" id="11val2" title='val2' data-type='int' data-ref="11val2">val2</dfn>,</td></tr>
+<tr><th id="180">180</th><td>                   <em>void</em> *<dfn class="local col2 decl" id="12state" title='state' data-type='void *' data-ref="12state">state</dfn>,</td></tr>
+<tr><th id="181">181</th><td>                   <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="13file" title='file' data-type='const char *' data-ref="13file">file</dfn>, <em>int</em> <dfn class="local col4 decl" id="14line" title='line' data-type='int' data-ref="14line">line</dfn>);</td></tr>
+<tr><th id="182">182</th><td><em>void</em> <dfn class="decl" id="should_int_lt" title='should_int_lt' data-ref="should_int_lt">should_int_lt</dfn>(<em>int</em> <dfn class="local col5 decl" id="15val1" title='val1' data-type='int' data-ref="15val1">val1</dfn>, <em>int</em> <dfn class="local col6 decl" id="16val2" title='val2' data-type='int' data-ref="16val2">val2</dfn>,</td></tr>
+<tr><th id="183">183</th><td>                   <em>void</em> *<dfn class="local col7 decl" id="17state" title='state' data-type='void *' data-ref="17state">state</dfn>,</td></tr>
+<tr><th id="184">184</th><td>                   <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="18file" title='file' data-type='const char *' data-ref="18file">file</dfn>, <em>int</em> <dfn class="local col9 decl" id="19line" title='line' data-type='int' data-ref="19line">line</dfn>);</td></tr>
+<tr><th id="185">185</th><td><em>void</em> <dfn class="decl" id="should_int_ge" title='should_int_ge' data-ref="should_int_ge">should_int_ge</dfn>(<em>int</em> <dfn class="local col0 decl" id="20val1" title='val1' data-type='int' data-ref="20val1">val1</dfn>, <em>int</em> <dfn class="local col1 decl" id="21val2" title='val2' data-type='int' data-ref="21val2">val2</dfn>,</td></tr>
+<tr><th id="186">186</th><td>                   <em>void</em> *<dfn class="local col2 decl" id="22state" title='state' data-type='void *' data-ref="22state">state</dfn>,</td></tr>
+<tr><th id="187">187</th><td>                   <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="23file" title='file' data-type='const char *' data-ref="23file">file</dfn>, <em>int</em> <dfn class="local col4 decl" id="24line" title='line' data-type='int' data-ref="24line">line</dfn>);</td></tr>
+<tr><th id="188">188</th><td><em>void</em> <dfn class="decl" id="should_int_le" title='should_int_le' data-ref="should_int_le">should_int_le</dfn>(<em>int</em> <dfn class="local col5 decl" id="25val1" title='val1' data-type='int' data-ref="25val1">val1</dfn>, <em>int</em> <dfn class="local col6 decl" id="26val2" title='val2' data-type='int' data-ref="26val2">val2</dfn>,</td></tr>
+<tr><th id="189">189</th><td>                   <em>void</em> *<dfn class="local col7 decl" id="27state" title='state' data-type='void *' data-ref="27state">state</dfn>,</td></tr>
+<tr><th id="190">190</th><td>                   <em>const</em> <em>char</em> *<dfn class="local col8 decl" id="28file" title='file' data-type='const char *' data-ref="28file">file</dfn>, <em>int</em> <dfn class="local col9 decl" id="29line" title='line' data-type='int' data-ref="29line">line</dfn>);</td></tr>
+<tr><th id="191">191</th><td><em>void</em> <dfn class="decl" id="should_str_equal" title='should_str_equal' data-ref="should_str_equal">should_str_equal</dfn>(<em>const</em> <em>char</em> *<dfn class="local col0 decl" id="30actual" title='actual' data-type='const char *' data-ref="30actual">actual</dfn>, <em>const</em> <em>char</em> *<dfn class="local col1 decl" id="31expected" title='expected' data-type='const char *' data-ref="31expected">expected</dfn>, <em>void</em> *<dfn class="local col2 decl" id="32state" title='state' data-type='void *' data-ref="32state">state</dfn>,</td></tr>
+<tr><th id="192">192</th><td>                      <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="33file" title='file' data-type='const char *' data-ref="33file">file</dfn>, <em>int</em> <dfn class="local col4 decl" id="34line" title='line' data-type='int' data-ref="34line">line</dfn>);</td></tr>
+<tr><th id="193">193</th><td><em>void</em> <dfn class="decl" id="should_mem_equal" title='should_mem_equal' data-ref="should_mem_equal">should_mem_equal</dfn>(<em>const</em> <em>void</em> *<dfn class="local col5 decl" id="35actual" title='actual' data-type='const void *' data-ref="35actual">actual</dfn>, <em>const</em> <em>void</em> *<dfn class="local col6 decl" id="36expected" title='expected' data-type='const void *' data-ref="36expected">expected</dfn>, <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col7 decl" id="37size" title='size' data-type='size_t' data-ref="37size">size</dfn>, <em>void</em> *<dfn class="local col8 decl" id="38state" title='state' data-type='void *' data-ref="38state">state</dfn>,</td></tr>
+<tr><th id="194">194</th><td>                      <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="39file" title='file' data-type='const char *' data-ref="39file">file</dfn>, <em>int</em> <dfn class="local col0 decl" id="40line" title='line' data-type='int' data-ref="40line">line</dfn>);</td></tr>
+<tr><th id="195">195</th><td><em>void</em> <dfn class="decl" id="should_be_bool" title='should_be_bool' data-ref="should_be_bool">should_be_bool</dfn>(<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col1 decl" id="41actual" title='actual' data-type='_Bool' data-ref="41actual">actual</dfn>, <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col2 decl" id="42expected" title='expected' data-type='_Bool' data-ref="42expected">expected</dfn>, <em>void</em> *<dfn class="local col3 decl" id="43state" title='state' data-type='void *' data-ref="43state">state</dfn>, <em>const</em> <em>char</em> *<dfn class="local col4 decl" id="44file" title='file' data-type='const char *' data-ref="44file">file</dfn>, <em>int</em> <dfn class="local col5 decl" id="45line" title='line' data-type='int' data-ref="45line">line</dfn>);</td></tr>
+<tr><th id="196">196</th><td></td></tr>
+<tr><th id="197">197</th><td><em>void</em> <dfn class="decl" id="cbehave_given_entry" title='cbehave_given_entry' data-ref="cbehave_given_entry">cbehave_given_entry</dfn>(<em>const</em> <em>char</em> *<dfn class="local col6 decl" id="46prompt" title='prompt' data-type='const char *' data-ref="46prompt">prompt</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="47str" title='str' data-type='const char *' data-ref="47str">str</dfn>, <em>void</em> *<dfn class="local col8 decl" id="48state" title='state' data-type='void *' data-ref="48state">state</dfn>);</td></tr>
+<tr><th id="198">198</th><td><em>void</em> <dfn class="decl" id="cbehave_when_entry" title='cbehave_when_entry' data-ref="cbehave_when_entry">cbehave_when_entry</dfn>(<em>const</em> <em>char</em> *<dfn class="local col9 decl" id="49prompt" title='prompt' data-type='const char *' data-ref="49prompt">prompt</dfn>, <em>const</em> <em>char</em> *<dfn class="local col0 decl" id="50str" title='str' data-type='const char *' data-ref="50str">str</dfn>, <em>void</em> *<dfn class="local col1 decl" id="51state" title='state' data-type='void *' data-ref="51state">state</dfn>);</td></tr>
+<tr><th id="199">199</th><td><em>void</em> <dfn class="decl" id="cbehave_then_entry" title='cbehave_then_entry' data-ref="cbehave_then_entry">cbehave_then_entry</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="52prompt" title='prompt' data-type='const char *' data-ref="52prompt">prompt</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="53str" title='str' data-type='const char *' data-ref="53str">str</dfn>, <em>void</em> *<dfn class="local col4 decl" id="54state" title='state' data-type='void *' data-ref="54state">state</dfn>);</td></tr>
+<tr><th id="200">200</th><td><em>void</em> <dfn class="decl" id="cbehave_scenario_entry" title='cbehave_scenario_entry' data-ref="cbehave_scenario_entry">cbehave_scenario_entry</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="55str" title='str' data-type='const char *' data-ref="55str">str</dfn>, <em>void</em> *<dfn class="local col6 decl" id="56state" title='state' data-type='void *' data-ref="56state">state</dfn>);</td></tr>
+<tr><th id="201">201</th><td><em>void</em> <dfn class="decl" id="cbehave_feature_entry" title='cbehave_feature_entry' data-ref="cbehave_feature_entry">cbehave_feature_entry</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="57str" title='str' data-type='const char *' data-ref="57str">str</dfn>, <em>void</em> *<dfn class="local col8 decl" id="58old_state" title='old_state' data-type='void *' data-ref="58old_state">old_state</dfn>, <em>void</em> *<dfn class="local col9 decl" id="59state" title='state' data-type='void *' data-ref="59state">state</dfn>);</td></tr>
+<tr><th id="202">202</th><td></td></tr>
+<tr><th id="203">203</th><td><em>void</em> <dfn class="decl" id="cbehave_given_exit" title='cbehave_given_exit' data-ref="cbehave_given_exit">cbehave_given_exit</dfn>(<em>void</em> *<dfn class="local col0 decl" id="60state" title='state' data-type='void *' data-ref="60state">state</dfn>);</td></tr>
+<tr><th id="204">204</th><td><em>void</em> <dfn class="decl" id="cbehave_when_exit" title='cbehave_when_exit' data-ref="cbehave_when_exit">cbehave_when_exit</dfn>(<em>void</em> *<dfn class="local col1 decl" id="61state" title='state' data-type='void *' data-ref="61state">state</dfn>);</td></tr>
+<tr><th id="205">205</th><td><em>void</em> <dfn class="decl" id="cbehave_then_exit" title='cbehave_then_exit' data-ref="cbehave_then_exit">cbehave_then_exit</dfn>(<em>void</em> *<dfn class="local col2 decl" id="62state" title='state' data-type='void *' data-ref="62state">state</dfn>);</td></tr>
+<tr><th id="206">206</th><td><em>void</em> <dfn class="decl" id="cbehave_scenario_exit" title='cbehave_scenario_exit' data-ref="cbehave_scenario_exit">cbehave_scenario_exit</dfn>(<em>void</em> *<dfn class="local col3 decl" id="63scenario_state" title='scenario_state' data-type='void *' data-ref="63scenario_state">scenario_state</dfn>, <em>void</em> *<dfn class="local col4 decl" id="64state" title='state' data-type='void *' data-ref="64state">state</dfn>);</td></tr>
+<tr><th id="207">207</th><td><em>void</em> <dfn class="decl" id="cbehave_feature_exit" title='cbehave_feature_exit' data-ref="cbehave_feature_exit">cbehave_feature_exit</dfn>(<em>void</em> *<dfn class="local col5 decl" id="65old_state" title='old_state' data-type='void *' data-ref="65old_state">old_state</dfn>, <em>void</em> *<dfn class="local col6 decl" id="66state" title='state' data-type='void *' data-ref="66state">state</dfn>);</td></tr>
+<tr><th id="208">208</th><td><em>void</em> <dfn class="decl" id="cbehave_feature_return" title='cbehave_feature_return' data-ref="cbehave_feature_return">cbehave_feature_return</dfn>(<em>const</em> <em>char</em> *<dfn class="local col7 decl" id="67file" title='file' data-type='const char *' data-ref="67file">file</dfn>, <em>int</em> <dfn class="local col8 decl" id="68line" title='line' data-type='int' data-ref="68line">line</dfn>, <em>int</em> <dfn class="local col9 decl" id="69ret" title='ret' data-type='int' data-ref="69ret">ret</dfn>, <em>void</em> *<dfn class="local col0 decl" id="70state" title='state' data-type='void *' data-ref="70state">state</dfn>);</td></tr>
+<tr><th id="209">209</th><td></td></tr>
+<tr><th id="210">210</th><td><i>/*</i></td></tr>
+<tr><th id="211">211</th><td><i> * mock symbol list</i></td></tr>
+<tr><th id="212">212</th><td><i> *</i></td></tr>
+<tr><th id="213">213</th><td><i> * ------------</i></td></tr>
+<tr><th id="214">214</th><td><i> * | symbol-#0|-&gt; value_list</i></td></tr>
+<tr><th id="215">215</th><td><i> * ------------</i></td></tr>
+<tr><th id="216">216</th><td><i> * | symbol-#1|-&gt; value_list</i></td></tr>
+<tr><th id="217">217</th><td><i> * ------------</i></td></tr>
+<tr><th id="218">218</th><td><i> * | symbol-#2|-&gt; value_list</i></td></tr>
+<tr><th id="219">219</th><td><i> * ------------</i></td></tr>
+<tr><th id="220">220</th><td><i> * | ... ...  |-&gt; value_list</i></td></tr>
+<tr><th id="221">221</th><td><i> * ------------</i></td></tr>
+<tr><th id="222">222</th><td><i> * | symbol-#n|-&gt; value_list</i></td></tr>
+<tr><th id="223">223</th><td><i> * ------------</i></td></tr>
+<tr><th id="224">224</th><td><i> */</i></td></tr>
+<tr><th id="225">225</th><td></td></tr>
+<tr><th id="226">226</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="cbehave_value_t" title='cbehave_value_t' data-ref="cbehave_value_t"><a class="type" href="#cbehave_value_t" title='cbehave_value_t' data-ref="cbehave_value_t">cbehave_value_t</a></dfn> {</td></tr>
+<tr><th id="227">227</th><td>    <a class="macro" href="apr_ring.h.html#73" title="struct { struct cbehave_value_t * volatile next; struct cbehave_value_t * volatile prev; }" data-ref="_M/APR_RING_ENTRY">APR_RING_ENTRY</a>(<a class="type" href="#cbehave_value_t" title='cbehave_value_t' data-ref="cbehave_value_t">cbehave_value_t</a>)    <dfn class="decl" id="cbehave_value_t::link" title='cbehave_value_t::link' data-ref="cbehave_value_t::link">link</dfn>;</td></tr>
+<tr><th id="228">228</th><td>    <em>void</em>                               *<dfn class="decl" id="cbehave_value_t::value" title='cbehave_value_t::value' data-ref="cbehave_value_t::value">value</dfn>;</td></tr>
+<tr><th id="229">229</th><td>} <dfn class="typedef" id="cbehave_value_t" title='cbehave_value_t' data-type='struct cbehave_value_t' data-ref="cbehave_value_t">cbehave_value_t</dfn>;</td></tr>
+<tr><th id="230">230</th><td><b>typedef</b> <a class="macro" href="apr_ring.h.html#94" title="struct cbehave_value_head_t { struct cbehave_value_t *next; struct cbehave_value_t *prev; }" data-ref="_M/APR_RING_HEAD">APR_RING_HEAD</a>(<dfn class="type def" id="cbehave_value_head_t" title='cbehave_value_head_t' data-ref="cbehave_value_head_t"><a class="type" href="#230" title='cbehave_value_head_t' data-ref="cbehave_value_head_t">cbehave_value_head_t</a></dfn>, <a class="type" href="#cbehave_value_t" title='cbehave_value_t' data-ref="cbehave_value_t">cbehave_value_t</a>) <dfn class="typedef" id="cbehave_value_head_t" title='cbehave_value_head_t' data-type='struct cbehave_value_head_t' data-ref="cbehave_value_head_t">cbehave_value_head_t</dfn>;</td></tr>
+<tr><th id="231">231</th><td></td></tr>
+<tr><th id="232">232</th><td><b>typedef</b> <b>struct</b> <dfn class="type def" id="cbehave_symbol_t" title='cbehave_symbol_t' data-ref="cbehave_symbol_t"><a class="type" href="#cbehave_symbol_t" title='cbehave_symbol_t' data-ref="cbehave_symbol_t">cbehave_symbol_t</a></dfn> {</td></tr>
+<tr><th id="233">233</th><td>    <a class="macro" href="apr_ring.h.html#73" title="struct { struct cbehave_symbol_t * volatile next; struct cbehave_symbol_t * volatile prev; }" data-ref="_M/APR_RING_ENTRY">APR_RING_ENTRY</a>(<a class="type" href="#cbehave_symbol_t" title='cbehave_symbol_t' data-ref="cbehave_symbol_t">cbehave_symbol_t</a>)   <dfn class="decl" id="cbehave_symbol_t::link" title='cbehave_symbol_t::link' data-ref="cbehave_symbol_t::link">link</dfn>;</td></tr>
+<tr><th id="234">234</th><td>    <em>char</em>                               <dfn class="decl" id="cbehave_symbol_t::desc" title='cbehave_symbol_t::desc' data-ref="cbehave_symbol_t::desc">desc</dfn>[<a class="macro" href="#39" title="128" data-ref="_M/CBEHAVE_MAX_NAME_LEN">CBEHAVE_MAX_NAME_LEN</a>];</td></tr>
+<tr><th id="235">235</th><td>    <em>int</em>                                <dfn class="decl" id="cbehave_symbol_t::obj_type" title='cbehave_symbol_t::obj_type' data-ref="cbehave_symbol_t::obj_type">obj_type</dfn>;</td></tr>
+<tr><th id="236">236</th><td>    <em>int</em>                                <dfn class="decl" id="cbehave_symbol_t::always_return_flag" title='cbehave_symbol_t::always_return_flag' data-ref="cbehave_symbol_t::always_return_flag">always_return_flag</dfn>; <i>/* 1: always return the same value; 0(default) */</i></td></tr>
+<tr><th id="237">237</th><td>    <em>void</em>*                              <dfn class="decl" id="cbehave_symbol_t::value" title='cbehave_symbol_t::value' data-ref="cbehave_symbol_t::value">value</dfn>;</td></tr>
+<tr><th id="238">238</th><td>    <a class="typedef" href="#cbehave_value_head_t" title='cbehave_value_head_t' data-type='struct cbehave_value_head_t' data-ref="cbehave_value_head_t">cbehave_value_head_t</a>               <dfn class="decl" id="cbehave_symbol_t::value_list" title='cbehave_symbol_t::value_list' data-ref="cbehave_symbol_t::value_list">value_list</dfn>;</td></tr>
+<tr><th id="239">239</th><td>} <dfn class="typedef" id="cbehave_symbol_t" title='cbehave_symbol_t' data-type='struct cbehave_symbol_t' data-ref="cbehave_symbol_t">cbehave_symbol_t</dfn>;</td></tr>
+<tr><th id="240">240</th><td><b>typedef</b> <a class="macro" href="apr_ring.h.html#94" title="struct cbehave_symbol_head_t { struct cbehave_symbol_t *next; struct cbehave_symbol_t *prev; }" data-ref="_M/APR_RING_HEAD">APR_RING_HEAD</a>(<dfn class="type def" id="cbehave_symbol_head_t" title='cbehave_symbol_head_t' data-ref="cbehave_symbol_head_t"><a class="type" href="#240" title='cbehave_symbol_head_t' data-ref="cbehave_symbol_head_t">cbehave_symbol_head_t</a></dfn>, <a class="type" href="#cbehave_symbol_t" title='cbehave_symbol_t' data-ref="cbehave_symbol_t">cbehave_symbol_t</a>) <dfn class="typedef" id="cbehave_symbol_head_t" title='cbehave_symbol_head_t' data-type='struct cbehave_symbol_head_t' data-ref="cbehave_symbol_head_t">cbehave_symbol_head_t</dfn>;</td></tr>
+<tr><th id="241">241</th><td></td></tr>
+<tr><th id="242">242</th><td><em>void</em>* <dfn class="decl" id="cbehave_mock_obj" title='cbehave_mock_obj' data-ref="cbehave_mock_obj">cbehave_mock_obj</dfn>(<em>const</em> <em>char</em> *<dfn class="local col1 decl" id="71fcname" title='fcname' data-type='const char *' data-ref="71fcname">fcname</dfn>, <em>int</em> <dfn class="local col2 decl" id="72lineno" title='lineno' data-type='int' data-ref="72lineno">lineno</dfn>, <em>const</em> <em>char</em> *<dfn class="local col3 decl" id="73fname" title='fname' data-type='const char *' data-ref="73fname">fname</dfn>, <em>int</em> <dfn class="local col4 decl" id="74obj_type" title='obj_type' data-type='int' data-ref="74obj_type">obj_type</dfn>);</td></tr>
+<tr><th id="243">243</th><td><em>void</em> <dfn class="decl" id="cbehave_mock_obj_return" title='cbehave_mock_obj_return' data-ref="cbehave_mock_obj_return">cbehave_mock_obj_return</dfn>(<em>const</em> <em>char</em> *<dfn class="local col5 decl" id="75symbol_name" title='symbol_name' data-type='const char *' data-ref="75symbol_name">symbol_name</dfn>, <em>void</em> *<dfn class="local col6 decl" id="76value" title='value' data-type='void *' data-ref="76value">value</dfn>, <em>const</em> <em>char</em> *<dfn class="local col7 decl" id="77fcname" title='fcname' data-type='const char *' data-ref="77fcname">fcname</dfn>,</td></tr>
+<tr><th id="244">244</th><td>                             <em>int</em> <dfn class="local col8 decl" id="78lineno" title='lineno' data-type='int' data-ref="78lineno">lineno</dfn>, <em>const</em> <em>char</em> *<dfn class="local col9 decl" id="79fname" title='fname' data-type='const char *' data-ref="79fname">fname</dfn>, <em>int</em> <dfn class="local col0 decl" id="80obj_type" title='obj_type' data-type='int' data-ref="80obj_type">obj_type</dfn>, <em>int</em> <dfn class="local col1 decl" id="81count" title='count' data-type='int' data-ref="81count">count</dfn>);</td></tr>
+<tr><th id="245">245</th><td></td></tr>
+<tr><th id="246">246</th><td><u>#define <dfn class="macro" id="_M/MOCK_ARG" data-ref="_M/MOCK_ARG">MOCK_ARG</dfn>     0x0</u></td></tr>
+<tr><th id="247">247</th><td><u>#define <dfn class="macro" id="_M/MOCK_RETV" data-ref="_M/MOCK_RETV">MOCK_RETV</dfn>    0x1</u></td></tr>
+<tr><th id="248">248</th><td></td></tr>
+<tr><th id="249">249</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_MOCK_ARG" data-ref="_M/CBEHAVE_MOCK_ARG">CBEHAVE_MOCK_ARG</dfn>() cbehave_mock_obj(__FUNCTION__, __LINE__, __FILE__, MOCK_ARG)</u></td></tr>
+<tr><th id="250">250</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_MOCK_RETV" data-ref="_M/CBEHAVE_MOCK_RETV">CBEHAVE_MOCK_RETV</dfn>() cbehave_mock_obj(__FUNCTION__, __LINE__, __FILE__, MOCK_RETV)</u></td></tr>
+<tr><th id="251">251</th><td></td></tr>
+<tr><th id="252">252</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_ARG_RETURN" data-ref="_M/CBEHAVE_ARG_RETURN">CBEHAVE_ARG_RETURN</dfn>(fcname, value) do { \</u></td></tr>
+<tr><th id="253">253</th><td><u>    cbehave_mock_obj_return(#fcname, (void*)value, __FUNCTION__, __LINE__, __FILE__, MOCK_ARG, 1); \</u></td></tr>
+<tr><th id="254">254</th><td><u>} while(0);</u></td></tr>
+<tr><th id="255">255</th><td></td></tr>
+<tr><th id="256">256</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_ARG_RETURN_COUNT" data-ref="_M/CBEHAVE_ARG_RETURN_COUNT">CBEHAVE_ARG_RETURN_COUNT</dfn>(fcname, value, count) do { \</u></td></tr>
+<tr><th id="257">257</th><td><u>    cbehave_mock_obj_return(#fcname, (void*)value, __FUNCTION__, __LINE__, __FILE__, MOCK_ARG, count); \</u></td></tr>
+<tr><th id="258">258</th><td><u>} while(0);</u></td></tr>
+<tr><th id="259">259</th><td></td></tr>
+<tr><th id="260">260</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_RETV_RETURN" data-ref="_M/CBEHAVE_RETV_RETURN">CBEHAVE_RETV_RETURN</dfn>(fcname, value) do { \</u></td></tr>
+<tr><th id="261">261</th><td><u>    cbehave_mock_obj_return(#fcname, (void*)value, __FUNCTION__, __LINE__, __FILE__, MOCK_RETV, 1); \</u></td></tr>
+<tr><th id="262">262</th><td><u>} while(0);</u></td></tr>
+<tr><th id="263">263</th><td></td></tr>
+<tr><th id="264">264</th><td><u>#define <dfn class="macro" id="_M/CBEHAVE_RETV_RETURN_COUNT" data-ref="_M/CBEHAVE_RETV_RETURN_COUNT">CBEHAVE_RETV_RETURN_COUNT</dfn>(fcname, value, count) do { \</u></td></tr>
+<tr><th id="265">265</th><td><u>    cbehave_mock_obj_return(#fcname, (void*)value, __FUNCTION__, __LINE__, __FILE__, MOCK_RETV, count); \</u></td></tr>
+<tr><th id="266">266</th><td><u>} while(0);</u></td></tr>
+<tr><th id="267">267</th><td></td></tr>
+<tr><th id="268">268</th><td></td></tr>
+<tr><th id="269">269</th><td><u>#<span data-ppcond="269">ifdef</span> <span class="macro" data-ref="_M/__cplusplus">__cplusplus</span></u></td></tr>
+<tr><th id="270">270</th><td>}</td></tr>
+<tr><th id="271">271</th><td><u>#<span data-ppcond="269">endif</span></u></td></tr>
+<tr><th id="272">272</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave_test.c.html'>codebrowser/src/tests/autosave_test.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

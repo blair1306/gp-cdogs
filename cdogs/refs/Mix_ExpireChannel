@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_mixer.h' l='562' type='int Mix_ExpireChannel(int channel, int ticks)'/>
+<doc f='include/SDL2/SDL_mixer.h' l='558'>/* Change the expiration delay for a particular channel.
+   The sample will stop playing after the &apos;ticks&apos; milliseconds have elapsed,
+   or remove the expiration if &apos;ticks&apos; is -1
+*/</doc>

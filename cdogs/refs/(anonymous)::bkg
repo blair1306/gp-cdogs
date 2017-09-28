@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='100' type='SDL_Texture *'/>
+<offset>1216</offset>
+<use f='codebrowser/src/cdogs/blit.c' l='417' u='r' c='BlitFlip'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='301' u='w' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='304' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='350' u='r' c='DestroyTextures'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='78' u='r' c='GrafxDrawBackground'/>
+<use f='codebrowser/src/game.c' l='199' u='r' c='RunGameOnEnter'/>

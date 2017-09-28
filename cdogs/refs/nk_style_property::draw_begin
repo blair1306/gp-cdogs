@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3197' type='void (*)(struct nk_command_buffer *, nk_handle)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15641' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15641' u='r' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16260' u='w' c='nk_style_from_table'/>
+<offset>10368</offset>

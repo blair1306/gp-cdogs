@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='65' type='0'/>
+<use f='codebrowser/src/cdogs/files.c' l='372' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map.c' l='649' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map.c' l='666' u='r' c='MapLoad'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='382' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='331' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='86' c='MapTypeStr'/>
+<use f='codebrowser/src/cdogs/mission.c' l='95' u='r' c='StrMapType'/>
+<use f='codebrowser/src/cdogs/mission.c' l='98' u='r' c='StrMapType'/>
+<use f='codebrowser/src/cdogs/mission.c' l='199' c='MissionTerminate'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='40' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='237' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='127' u='r' c='MissionCheckTypeFunc'/>

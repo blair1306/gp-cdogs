@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2262' type='nk_size'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6077' u='w' c='nk_buffer_init'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6094' u='w' c='nk_buffer_init_fixed'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6149' u='r' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6151' u='w' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6157' u='r' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6159' u='r' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6161' u='w' c='nk_buffer_realloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6183' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6188' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6189' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6189' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6189' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6208' u='r' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6214' u='w' c='nk_buffer_alloc'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6236' u='r' c='nk_buffer_mark'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6249' u='w' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6250' u='w' c='nk_buffer_reset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6268' u='w' c='nk_buffer_clear'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7349' u='r' c='nk__draw_list_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15689' u='w' c='nk_do_property'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17734' u='r' c='nk_free_page_element'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17736' u='w' c='nk_free_page_element'/>
+<offset>896</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2261'>/* number of allocation calls */</doc>

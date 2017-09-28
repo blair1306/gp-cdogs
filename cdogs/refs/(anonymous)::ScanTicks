@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='53' type='int'/>
+<offset>256</offset>
+<doc f='codebrowser/src/cdogs/net_client.h' l='52'>// Only scan for a period; if &gt; 0 then we are scanning</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='90' u='r' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='107' u='w' c='NetClientFindLANServers'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='324' u='r' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='328' u='w' c='Scanning'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='353' u='r' c='Scanning'/>
+<use f='codebrowser/src/mainmenu.c' l='498' u='r' c='CheckLANServers'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='126'/>
+<use f='codebrowser/src/cdogs/font.c' l='340' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='924' u='c'/>
+<use f='codebrowser/src/password.c' l='295' u='c'/>
+<use f='codebrowser/src/password.c' l='311' u='c'/>

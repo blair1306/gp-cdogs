@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/grafx.h' l='109' type='int GraphicsGetScreenSize(GraphicsConfig * config)'/>
+<def f='codebrowser/src/cdogs/grafx.c' l='391' ll='394' type='int GraphicsGetScreenSize(GraphicsConfig * config)'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='398' u='c' c='GraphicsGetMemSize'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='124' u='c' c='ClearScreen'/>

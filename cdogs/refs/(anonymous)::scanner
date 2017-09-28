@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/net_client.h' l='51' type='ENetSocket'/>
+<offset>224</offset>
+<doc f='codebrowser/src/cdogs/net_client.h' l='50'>// Socket used to scan for LAN servers</doc>
+<use f='codebrowser/src/cdogs/net_client.c' l='56' u='w' c='NetClientInit'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='73' u='r' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='75' u='r' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='79' u='r' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='80' u='w' c='NetClientTerminate'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='112' u='r' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='114' u='w' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='115' u='r' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='120' u='r' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='136' u='r' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='146' u='r' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='147' u='w' c='TryScanHost'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='221' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='221' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='226' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='226' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='227' u='r' c='TryRecvScanForServerPort'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='237' u='r' c='TryRecvScanForServerPort'/>

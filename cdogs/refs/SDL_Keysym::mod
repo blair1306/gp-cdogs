@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_keyboard.h' l='51' type='Uint16'/>
+<offset>64</offset>
+<doc f='include/SDL2/SDL_keyboard.h' l='51'>/**&lt; current key modifiers */</doc>

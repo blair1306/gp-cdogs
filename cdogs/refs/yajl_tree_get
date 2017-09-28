@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_tree.h' l='153' type='yajl_val yajl_tree_get(yajl_val parent, const char ** path, yajl_type type)'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_tree.c' l='455' ll='475' type='yajl_val yajl_tree_get(yajl_val n, const char ** path, yajl_type type)'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='120' u='c' c='YAJLTryLoadValue'/>
+<use f='codebrowser/src/cdogs/yajl_utils.c' l='241' u='c' c='YAJLFindNode'/>

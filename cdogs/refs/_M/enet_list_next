@@ -1,0 +1,17 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/list.h' l='36'/>
+<use f='codebrowser/src/cdogs/enet/list.c' l='69' u='c'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='279' u='c'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='708' u='c'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='749' u='c'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='764' u='c'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='791' u='c'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='972' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='198' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='211' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1283' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1340' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1369' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1426' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1497' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1514' u='c'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1534' u='c'/>

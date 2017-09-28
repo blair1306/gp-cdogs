@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='71' ll='76'/>
+<size>4</size>
+<mbr r='_ENetProtocolCommandHeader::command' o='0' t='enet_uint8'/>
+<mbr r='_ENetProtocolCommandHeader::channelID' o='8' t='enet_uint8'/>
+<mbr r='_ENetProtocolCommandHeader::reliableSequenceNumber' o='16' t='enet_uint16'/>

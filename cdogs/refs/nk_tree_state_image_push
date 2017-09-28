@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1385' type='int nk_tree_state_image_push(struct nk_context * , enum nk_tree_type , struct nk_image , const char * title, enum nk_collapse_states * state)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19438' ll='19441' macro='1' type='int nk_tree_state_image_push(struct nk_context * ctx, enum nk_tree_type type, struct nk_image img, const char * title, enum nk_collapse_states * state)'/>

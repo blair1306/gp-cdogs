@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='49' type='struct nk_context'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='134' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='144' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='144' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='156' u='a' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='206' u='a' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='207' u='m' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='208' u='m' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='209' u='m' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='211' u='a' c='nk_sdl_init'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='230' u='a' c='nk_sdl_font_stash_end'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='236' u='a' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='336' u='a' c='nk_sdl_shutdown'/>
+<offset>1216</offset>

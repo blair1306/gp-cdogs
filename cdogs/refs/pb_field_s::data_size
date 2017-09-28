@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='222' type='pb_size_t'/>
+<offset>56</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='222'>/* Data size in bytes for a single item */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='42' u='r' c='pb_field_iter_next'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='367' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='386' u='r' c='decode_static_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='721' u='r' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='726' u='r' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='994' u='r' c='pb_dec_varint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1012' u='r' c='pb_dec_uvarint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1028' u='r' c='pb_dec_svarint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1070' u='r' c='pb_dec_bytes'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1107' u='r' c='pb_dec_string'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='153' u='r' c='encode_array'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='170' u='r' c='encode_array'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='197' u='r' c='encode_array'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='565' u='r' c='pb_enc_varint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='581' u='r' c='pb_enc_uvarint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='595' u='r' c='pb_enc_svarint'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='628' u='r' c='pb_enc_bytes'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='639' u='r' c='pb_enc_string'/>

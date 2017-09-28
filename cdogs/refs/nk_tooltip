@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1668' type='void nk_tooltip(struct nk_context * , const char * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='21796' ll='21830' macro='1' type='void nk_tooltip(struct nk_context * ctx, const char * text)'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='786' u='c' c='DrawFlag'/>

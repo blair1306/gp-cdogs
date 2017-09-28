@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='119' type='direction_e RadiansToDirection(const double r)'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='99' u='c' c='GetBulletDrawContext'/>
+<def f='codebrowser/src/cdogs/defs.c' l='136' ll='158' type='direction_e RadiansToDirection(const double r)'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='111' u='c' c='GetCharacterPicsFromActor'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='493' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/particle.c' l='473' u='c' c='DrawParticle'/>

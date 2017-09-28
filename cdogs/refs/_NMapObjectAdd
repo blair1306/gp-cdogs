@@ -1,0 +1,7 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='324' ll='331'/>
+<size>148</size>
+<mbr r='_NMapObjectAdd::UID' o='0' t='uint32_t'/>
+<mbr r='_NMapObjectAdd::MapObjectClass' o='32' t='char [128]'/>
+<mbr r='_NMapObjectAdd::Pos' o='1056' t='NVec2i'/>
+<mbr r='_NMapObjectAdd::TileItemFlags' o='1120' t='uint32_t'/>
+<mbr r='_NMapObjectAdd::Health' o='1152' t='int32_t'/>

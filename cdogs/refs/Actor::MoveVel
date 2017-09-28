@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='97' type='Vec2i'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='96'>// Vector that the player is attempting to move in, based on input</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='145' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='409' u='w' c='ActorMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='782' u='w' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='788' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='792' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='796' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='800' u='m' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='828' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='936' u='r' c='ActorUpdatePosition'/>

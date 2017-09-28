@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3350' type='struct nk_style_chart'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16308' u='a' c='nk_style_from_table'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21004' u='a' c='nk_chart_begin_colored'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21040' u='m' c='nk_chart_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21040' u='m' c='nk_chart_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21069' u='m' c='nk_chart_add_slot'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21069' u='m' c='nk_chart_add_slot'/>
+<offset>35136</offset>

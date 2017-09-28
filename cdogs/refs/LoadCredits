@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/credits.h' l='73' type='void LoadCredits(credits_displayer_t * displayer, color_t nameColor, color_t textColor)'/>
+<def f='codebrowser/src/credits.c' l='41' ll='97' type='void LoadCredits(credits_displayer_t * displayer, color_t nameColor, color_t textColor)'/>
+<use f='codebrowser/src/mainmenu.c' l='69' u='c' c='MainMenu'/>

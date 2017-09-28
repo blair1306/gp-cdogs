@@ -1,0 +1,2 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='6822' ll='6834' macro='1' type='void nk_command_buffer_reset(struct nk_command_buffer * buffer)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17634' u='c' c='nk_panel_end'/>

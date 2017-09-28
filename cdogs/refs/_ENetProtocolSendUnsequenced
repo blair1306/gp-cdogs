@@ -1,0 +1,5 @@
+<def f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='159' ll='164'/>
+<size>8</size>
+<mbr r='_ENetProtocolSendUnsequenced::header' o='0' t='ENetProtocolCommandHeader'/>
+<mbr r='_ENetProtocolSendUnsequenced::unsequencedGroup' o='32' t='enet_uint16'/>
+<mbr r='_ENetProtocolSendUnsequenced::dataLength' o='48' t='enet_uint16'/>

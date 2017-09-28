@@ -1,0 +1,4 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='891' ll='894'/>
+<size>16</size>
+<mbr r='nk_draw_null_texture::texture' o='0' t='nk_handle'/>
+<mbr r='nk_draw_null_texture::uv' o='64' t='struct nk_vec2'/>

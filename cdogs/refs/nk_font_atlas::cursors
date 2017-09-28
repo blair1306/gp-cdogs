@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2145' type='struct nk_cursor [7]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11926' u='a' c='nk_font_atlas_bake'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11978' u='m' c='nk_font_atlas_end'/>
+<offset>576</offset>

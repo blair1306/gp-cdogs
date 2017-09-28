@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/animation.h' l='36' type='1'/>
+<use f='codebrowser/src/cdogs/actors.c' l='803' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/actors.c' l='807' u='r' c='ActorTryMove'/>
+<use f='codebrowser/src/cdogs/animation.c' l='45'/>
+<use f='codebrowser/src/cdogs/animation.c' l='45'/>
+<use f='codebrowser/src/cdogs/animation.c' l='60' c='AnimationGetActorAnimation'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='77' u='r' c='GetActorDrawOffset'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='165' u='r' c='CharEditor'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='466' u='r' c='Draw'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='471' u='r' c='Draw'/>

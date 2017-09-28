@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='11390' ll='11394' macro='1' type='unsigned int nk_decompress_length(unsigned char * input)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11481' u='c' c='nk_decompress'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='11769' u='c' c='nk_font_atlas_add_compressed'/>

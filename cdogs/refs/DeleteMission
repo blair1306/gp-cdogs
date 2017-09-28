@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui_common.h' l='59' type='void DeleteMission(CampaignOptions * co)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='753' u='c' c='Delete'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='649' u='c' c='MissionDelete'/>
+<def f='codebrowser/src/cdogsed/editor_ui_common.c' l='93' ll='104' type='void DeleteMission(CampaignOptions * co)'/>

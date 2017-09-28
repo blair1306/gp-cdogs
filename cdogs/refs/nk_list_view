@@ -1,0 +1,14 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='1361' ll='1369'/>
+<size>40</size>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1356'>/* =============================================================================
+ *
+ *                                  LIST VIEW
+ *
+ * ============================================================================= */</doc>
+<mbr r='nk_list_view::begin' o='0' t='int'/>
+<mbr r='nk_list_view::end' o='32' t='int'/>
+<mbr r='nk_list_view::count' o='64' t='int'/>
+<mbr r='nk_list_view::total_height' o='96' t='int'/>
+<mbr r='nk_list_view::ctx' o='128' t='struct nk_context *'/>
+<mbr r='nk_list_view::scroll_pointer' o='192' t='nk_uint *'/>
+<mbr r='nk_list_view::scroll_value' o='256' t='nk_uint'/>

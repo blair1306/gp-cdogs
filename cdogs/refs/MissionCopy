@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='235' type='void MissionCopy(Mission * dst, const Mission * src)'/>
+<def f='codebrowser/src/cdogs/mission.c' l='122' ll='183' type='void MissionCopy(Mission * dst, const Mission * src)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='397' u='c' c='Setup'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='398' u='c' c='Setup'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1005' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1009' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1010' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1018' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1028' u='c' c='HandleInput'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='89' u='c' c='InsertMission'/>

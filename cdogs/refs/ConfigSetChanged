@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/config.h' l='212' type='void ConfigSetChanged(Config * c)'/>
+<doc f='codebrowser/src/cdogs/config.h' l='211'>// Set the last value to the current value</doc>
+<def f='codebrowser/src/cdogs/config.c' l='410' ll='442' type='void ConfigSetChanged(Config * c)'/>
+<use f='codebrowser/src/cdogs/config.c' l='435' u='c' c='ConfigSetChanged'/>
+<use f='codebrowser/src/cdogs/config_apply.c' l='58' u='c' c='ConfigApply'/>
+<use f='codebrowser/src/cdogs/config_io.c' l='61' u='c' c='ConfigLoad'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1328' u='c' c='main'/>

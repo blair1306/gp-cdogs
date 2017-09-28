@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='487' type='void enet_time_set(enet_uint32 )'/>
+<def f='codebrowser/src/cdogs/enet/unix.c' l='98' ll='106' type='void enet_time_set(enet_uint32 newTimeBase)'/>

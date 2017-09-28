@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='133' type='2'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='90' c='yajl_config'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='127' u='r' c='yajl_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='147' u='r' c='yajl_complete_parse'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='124'>/**
+         * When set the parser will verify that all strings in JSON input are
+         * valid UTF8 and will emit a parse error if this is not so.  When set,
+         * this option makes parsing slightly more expensive (~7% depending
+         * on processor and compiler in use)
+         *
+         * example:
+         *   yajl_config(h, yajl_dont_validate_strings, 1); // disable utf8 checking
+         */</doc>

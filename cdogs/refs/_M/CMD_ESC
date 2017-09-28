@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='66'/>
+<use f='codebrowser/src/cdogs/events.c' l='272' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='272' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='354' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='358' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='429' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='445' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='557' u='c'/>
+<use f='codebrowser/src/cdogs/events.c' l='571' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='802' u='c'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='822' u='c'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='232' u='c'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='347' u='c'/>
+<use f='codebrowser/src/game.c' l='371' u='c'/>
+<use f='codebrowser/src/game.c' l='371' u='c'/>
+<use f='codebrowser/src/menu.c' l='955' u='c'/>

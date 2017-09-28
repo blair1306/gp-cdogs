@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/AStar.c' l='41' type='size_t'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='418' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='419' u='w' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='419' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='420' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='420' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='420' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='420' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='r' c='ASNeighborListAdd'/>
+<offset>64</offset>

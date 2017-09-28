@@ -1,0 +1,20 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='62' type='3'/>
+<use f='codebrowser/src/briefing_screens.c' l='791' c='DrawObjectiveInfo'/>
+<use f='codebrowser/src/cdogs/actors.c' l='517' u='r' c='CheckRescue'/>
+<use f='codebrowser/src/cdogs/actors.c' l='555' u='r' c='InjureActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1233' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1242' u='r' c='ActorAdd'/>
+<use f='codebrowser/src/cdogs/ai.c' l='577' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='696' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='701' u='r' c='FindObjectivesSortedByDistance'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='188' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/mission.c' l='234' u='r' c='SetupBadguysForMission'/>
+<use f='codebrowser/src/cdogs/mission.c' l='296' u='r' c='MissionSetMessageIfComplete'/>
+<use f='codebrowser/src/cdogs/mission.c' l='484' u='r' c='MoreRescuesNeeded'/>
+<use f='codebrowser/src/cdogs/objective.c' l='62' c='ObjectiveTypeStr'/>
+<use f='codebrowser/src/cdogs/objective.c' l='73' u='r' c='StrObjectiveType'/>
+<use f='codebrowser/src/cdogs/objective.c' l='86' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='593' u='r' c='MissionCheckObjectiveIsRescue'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='127' c='DrawObjective'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='436' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='499' c='CreateAddObjectiveSubObjs'/>

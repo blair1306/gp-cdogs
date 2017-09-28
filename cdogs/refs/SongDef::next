@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/gamedata.h' l='72' type='struct SongDef *'/>
+<offset>2048</offset>
+<use f='codebrowser/src/cdogs/gamedata.c' l='161' u='w' c='AddSong'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='169' u='r' c='ShiftSongs'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='174' u='a' c='ShiftSongs'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='177' u='r' c='ShiftSongs'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='178' u='w' c='ShiftSongs'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='187' u='r' c='FreeSongs'/>

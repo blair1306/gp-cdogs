@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='134' type='void SoundLoadDir(map_t sounds, const char * path, const char * prefix)'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='202' u='c' c='LoadArchiveSounds'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='191' u='c' c='SoundInitialize'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='193' ll='238' type='void SoundLoadDir(map_t sounds, const char * path, const char * prefix)'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='232' u='c' c='SoundLoadDir'/>

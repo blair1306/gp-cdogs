@@ -1,0 +1,3 @@
+<dec f='include/SDL2/SDL_gamecontroller.h' l='224' type='3'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='301' c='DefaultAxisName'/>
+<use f='codebrowser/src/cdogs/SDL_JoystickButtonNames/SDL_joystickbuttonnames.c' l='342' c='DefaultAxisColor'/>

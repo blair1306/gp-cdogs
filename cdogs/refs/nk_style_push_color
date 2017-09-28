@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1755' type='int nk_style_push_color(struct nk_context * , struct nk_color * , struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='16590' macro='1' type='int nk_style_push_color(struct nk_context * ctx, struct nk_color * address, struct nk_color value)'/>

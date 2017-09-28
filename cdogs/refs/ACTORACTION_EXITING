@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='90' type='1'/>
+<use f='codebrowser/src/cdogs/actors.c' l='420' u='r' c='OnMove'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='258' u='r' c='AICoopGetCmdNormal'/>

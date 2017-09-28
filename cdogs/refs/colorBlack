@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/cdogs/color.h' l='48' type='color_t'/>
+<use f='codebrowser/src/cdogs/automap.c' l='238' u='r' c='DrawMap'/>
+<use f='codebrowser/src/cdogs/automap.c' l='301' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/camera.c' l='252' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='253' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='323' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='324' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='325' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/camera.c' l='326' u='r' c='CameraDraw'/>
+<use f='codebrowser/src/cdogs/character.c' l='117' u='r' c='CharacterLoadJSON'/>
+<use f='codebrowser/src/cdogs/character.c' l='127' u='r' c='CharacterLoadJSON'/>
+<def f='codebrowser/src/cdogs/color.c' l='42' type='color_t'/>
+<use f='codebrowser/src/cdogs/color.c' l='211' u='r' c='StrColor'/>
+<use f='codebrowser/src/cdogs/files.c' l='685' u='r' c='RangeToColor'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='336' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/player.c' l='163' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='602' u='r' c='AddCharacter'/>
+<use f='codebrowser/src/game.c' l='198' u='r' c='RunGameOnEnter'/>
+<use f='codebrowser/src/menu.c' l='295' u='r' c='DisplayMenuItem'/>
+<use f='codebrowser/src/menu.c' l='718' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='728' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='852' u='r' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/player_select_menus.c' l='76' u='r' c='DrawNameMenu'/>
+<use f='codebrowser/src/tests/color_test.c' l='221' u='r' c='_cbehave_feature_StrColor'/>
+<use f='codebrowser/src/tests/pic_test.c' l='20' u='r' c='PaletteToColor'/>

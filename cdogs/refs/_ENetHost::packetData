@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='382' type='enet_uint8 [2][4096]'/>
+<offset>21952</offset>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1030' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1031' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1032' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1035' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1036' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1205' u='r' c='enet_protocol_receive_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1206' u='r' c='enet_protocol_receive_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1219' u='r' c='enet_protocol_receive_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1693' c='enet_protocol_send_outgoing_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1718' u='r' c='enet_protocol_send_outgoing_commands'/>

@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/color.h' l='88' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='82' type='color_t'/>
+<use f='codebrowser/src/cdogs/player.c' l='159' u='r' c='PlayerDataDefault'/>

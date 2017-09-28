@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='135' type='NTileSet'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/door.c' l='211' u='m' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='212' u='m' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='214' u='m' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='216' u='m' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='230' u='m' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='233' u='m' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='270' u='m' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='271' u='m' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='274' u='m' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='280' u='m' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='297' u='m' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='299' u='m' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='88' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='89' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='92' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='94' u='m' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='96' u='m' c='HandleGameEvent'/>

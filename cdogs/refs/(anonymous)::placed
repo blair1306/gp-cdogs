@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='86' type='int'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/ai.c' l='557' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='557' u='w' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='579' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='579' u='w' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/map.c' l='754' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='759' u='w' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='765' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='769' u='w' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='773' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map_static.c' l='208' u='w' c='AddObjective'/>
+<use f='codebrowser/src/cdogs/objective.c' l='148' u='w' c='ObjectiveSetup'/>

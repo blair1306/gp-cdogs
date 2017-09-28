@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/XGetopt.h' l='76' type='int _XLIB_getopt_long(int argc, char ** argv, const char * optstring, const struct option * longopts, int * longindex)'/>
+<def f='codebrowser/src/XGetopt.c' l='432' macro='1' type='int _XLIB_getopt_long(int argc, char ** argv, const char * optstring, const struct option * longopts, int * longindex)'/>
+<doc f='codebrowser/src/XGetopt.c' l='428'>/**
+ * Scan the command-line parameters for options, allowing both the short
+ * (single character) options and long (string) options.
+ */</doc>
+<doc f='codebrowser/src/XGetopt.h' l='117'>/** Scan the command-line parameters for options, allowing both the short
+ * (single character) options and long (string) options.
+ */</doc>
+<use f='codebrowser/src/command_line.c' l='140' macro='1' u='c'/>

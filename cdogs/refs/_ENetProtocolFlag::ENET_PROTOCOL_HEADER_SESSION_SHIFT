@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/protocol.h' l='53' type='12'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='332' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='334' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='338' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='340' u='r' c='enet_protocol_handle_connect'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='994' u='r' c='enet_protocol_handle_incoming_commands'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='1706' u='r' c='enet_protocol_send_outgoing_commands'/>

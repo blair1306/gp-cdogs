@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/menu.h' l='111' type='1'/>
+<use f='codebrowser/src/menu.c' l='340' u='r' c='MenuCreateNormal'/>
+<use f='codebrowser/src/menu.c' l='698' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='755' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/player_select_menus.c' l='464' u='r' c='PlayerSelectMenusCreate'/>
+<use f='codebrowser/src/weapon_menu.c' l='183' u='r' c='WeaponMenuCreate'/>

@@ -1,0 +1,12 @@
+<dec f='include/stdlib.h' l='133'/>
+<doc f='include/stdlib.h' l='131'>/* We define these the same for all machines.
+   Changes from this to the outside world should be done in `_exit&apos;.  */</doc>
+<use f='codebrowser/src/cdogs.c' l='160' u='c'/>
+<use f='codebrowser/src/cdogs.c' l='186' u='c'/>
+<use f='codebrowser/src/cdogs.c' l='193' u='c'/>
+<use f='codebrowser/src/cdogs.c' l='227' u='c'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1335' u='c'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='312' u='c'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='321' u='c'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='350' u='c'/>
+<use f='codebrowser/src/tests/cbehave/cbehave.c' l='398' u='c'/>

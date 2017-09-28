@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/menu.h' l='255' type='void MenuDisplay(const MenuSystem * ms)'/>
+<use f='codebrowser/src/menu.c' l='194' u='c' c='MenuDraw'/>
+<def f='codebrowser/src/menu.c' l='583' ll='614' type='void MenuDisplay(const MenuSystem * ms)'/>
+<use f='codebrowser/src/prep.c' l='481' u='c' c='PlayerSelectionDraw'/>
+<use f='codebrowser/src/prep.c' l='934' u='c' c='PlayerEquipDraw'/>

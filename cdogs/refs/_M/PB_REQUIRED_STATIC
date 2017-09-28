@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='395'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='391'>/* Required fields are the simplest. They just have delta (padding) from
+ * previous field end, and the size of the field. Pointer is used for
+ * submessages and default values.
+ */</doc>

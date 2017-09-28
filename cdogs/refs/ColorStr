@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/color.h' l='121' type='void ColorStr(char * s, const color_t c)'/>
+<doc f='codebrowser/src/cdogs/color.h' l='120'>// Convert colour to hex string</doc>
+<def f='codebrowser/src/cdogs/color.c' l='221' ll='224' type='void ColorStr(char * s, const color_t c)'/>
+<use f='codebrowser/src/cdogs/json_utils.c' l='66' u='c' c='AddColorPair'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='551' u='c' c='GetMaskedName'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='553' u='c' c='GetMaskedName'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='79' u='c' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='141' u='c' c='ColorPickerUpdateText'/>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='234' u='c' c='MissionGetColorStr'/>
+<use f='codebrowser/src/tests/color_test.c' l='230' u='c' c='_cbehave_feature_StrColor'/>

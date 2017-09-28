@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/defs.h' l='75'/>
+<use f='codebrowser/src/briefing_screens.c' l='253' u='c'/>
+<use f='codebrowser/src/cdogs/camera.c' l='74' u='c'/>
+<use f='codebrowser/src/cdogs/camera.c' l='74' u='c'/>
+<use f='codebrowser/src/game.c' l='398' u='c'/>
+<use f='codebrowser/src/menu.c' l='1027' u='c'/>
+<use f='codebrowser/src/menu.c' l='1325' u='c'/>
+<use f='codebrowser/src/screens_end.c' l='312' u='c'/>

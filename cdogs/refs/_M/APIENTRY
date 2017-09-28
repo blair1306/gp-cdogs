@@ -1,0 +1,6 @@
+<dec f='include/SDL2/SDL_opengl.h' l='132'/>
+<use f='include/SDL2/SDL_opengl_glext.h' l='39' u='a'/>
+<use f='include/SDL2/SDL_opengl_glext.h' l='46' u='a'/>
+<use f='include/SDL2/SDL_opengl_glext.h' l='2187' u='c'/>
+<use f='include/SDL2/SDL_opengl_glext.h' l='2717' u='c'/>
+<use f='include/SDL2/SDL_opengl_glext.h' l='4775' u='c'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='158'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='156'>/* String with pre-allocated buffer.
+ * data_size is the maximum length. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='186' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='487' u='c'/>

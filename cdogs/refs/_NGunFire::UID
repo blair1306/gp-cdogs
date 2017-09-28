@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='304' type='int32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='462' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='311'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='311'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='312' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='312' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='311'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='311'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='312' u='r'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='312' u='r'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='477' u='w' c='GunFire'/>

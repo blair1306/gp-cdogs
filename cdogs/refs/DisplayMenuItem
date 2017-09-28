@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/menu.h' l='263' type='Vec2i DisplayMenuItem(Vec2i pos, const char * s, int selected, int isDisabled, color_t color)'/>
+<def f='codebrowser/src/menu.c' l='283' ll='303' type='Vec2i DisplayMenuItem(Vec2i pos, const char * s, int selected, int isDisabled, color_t color)'/>
+<use f='codebrowser/src/menu.c' l='712' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='722' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='763' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/menu.c' l='847' u='c' c='MenuDisplaySubmenus'/>
+<use f='codebrowser/src/player_select_menus.c' l='72' u='c' c='DrawNameMenu'/>

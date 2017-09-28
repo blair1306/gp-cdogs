@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='94' type='SDL_Surface *'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='151' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='191' u='r' c='Display'/>
+<offset>33728</offset>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='56' u='r' c='EditorBrushTerminate'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='122' u='r' c='BrushLoadGuideImage'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='125' u='w' c='BrushLoadGuideImage'/>

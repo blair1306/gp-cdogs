@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/menu.c' l='134' type='void MenuProcessChangeKey(menu_t * menu)'/>
+<use f='codebrowser/src/menu.c' l='157' u='c' c='MenuUpdate'/>
+<def f='codebrowser/src/menu.c' l='1118' ll='1155' type='void MenuProcessChangeKey(menu_t * menu)'/>

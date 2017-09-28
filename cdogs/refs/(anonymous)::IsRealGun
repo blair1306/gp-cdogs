@@ -1,0 +1,19 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='122' type='_Bool'/>
+<offset>1280</offset>
+<use f='codebrowser/src/cdogs/map_new.c' l='476' u='r' c='AddWeapon'/>
+<use f='codebrowser/src/cdogs/map_object.c' l='475' u='r' c='LoadGunSpawners'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='175' u='r' c='SetupQuickPlayEnemies'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='286' u='r' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='149' u='w' c='WeaponLoadJSON'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='275' u='w' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='402' u='r' c='IndexGunDescriptionReal'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='413' u='r' c='IndexGunDescriptionReal'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='260' u='r' c='NumGuns'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='266' u='r' c='NumGuns'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='277' u='r' c='GunIndex'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='288' u='r' c='GunIndex'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='525' u='r' c='GetWeaponCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='531' u='r' c='GetWeaponCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='83' u='r' c='AddAllWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='89' u='r' c='AddAllWeapons'/>
+<use f='codebrowser/src/cdogsed/editor_ui_weapons.c' l='217' u='r' c='CreateWeaponToggleObjs'/>

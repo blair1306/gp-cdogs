@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='122'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='259' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='260' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='366' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='420' u='c'/>
+<use f='codebrowser/src/cdogs/AStar.c' l='421' u='c'/>
+<use f='codebrowser/src/cdogs/c_array.c' l='51' u='c'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='301' u='c'/>

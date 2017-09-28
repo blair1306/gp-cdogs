@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/color.h' l='54' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='48' type='color_t'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='311' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='770' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='777' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='898' u='r' c='DrawHUDMessage'/>
+<use f='codebrowser/src/cdogs/objective.c' l='89' u='r' c='ObjectiveTypeColor'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='470' u='r' c='Open'/>

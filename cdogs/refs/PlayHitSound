@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='135' type='void PlayHitSound(const HitSounds * h, const HitType t, const Vec2i realPos)'/>
+<def f='codebrowser/src/cdogs/bullet_class.c' l='918' ll='938' type='void PlayHitSound(const HitSounds * h, const HitType t, const Vec2i realPos)'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='363' u='c' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='401' u='c' c='HandleGameEvent'/>

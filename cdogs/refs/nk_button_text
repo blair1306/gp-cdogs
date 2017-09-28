@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1463' type='int nk_button_text(struct nk_context * , const char * title, int len)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='19993' ll='19999' macro='1' type='int nk_button_text(struct nk_context * ctx, const char * title, int len)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20006' u='c' c='nk_button_label'/>

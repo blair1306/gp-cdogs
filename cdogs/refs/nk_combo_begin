@@ -1,0 +1,7 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='22049' ll='22082' macro='1' type='int nk_combo_begin(struct nk_context * ctx, struct nk_window * win, struct nk_vec2 size, int is_clicked, struct nk_rect header)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22171' u='c' c='nk_combo_begin_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22252' u='c' c='nk_combo_begin_color'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22340' u='c' c='nk_combo_begin_symbol'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22437' u='c' c='nk_combo_begin_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22515' u='c' c='nk_combo_begin_image'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='22607' u='c' c='nk_combo_begin_image_text'/>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_ui.h' l='86' type='UIObject * CreateMainObjs(CampaignOptions * co, EditorBrush * brush, Vec2i size)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='413' u='c' c='ReloadUI'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1359' u='c' c='main'/>
+<def f='codebrowser/src/cdogsed/editor_ui.c' l='955' ll='996' type='UIObject * CreateMainObjs(CampaignOptions * co, EditorBrush * brush, Vec2i size)'/>

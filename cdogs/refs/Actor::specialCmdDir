@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='110' type='_Bool'/>
+<offset>904</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='745' u='w' c='CommandActor'/>
+<use f='codebrowser/src/cdogs/actors.c' l='762' u='w' c='CommandActor'/>
+<use f='codebrowser/src/game.c' l='87' u='r' c='PlayerSpecialCommands'/>

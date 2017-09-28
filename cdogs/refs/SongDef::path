@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/gamedata.h' l='71' type='char [255]'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/gamedata.c' l='160' u='r' c='AddSong'/>
+<use f='codebrowser/src/cdogs/music.c' l='112' u='r' c='MusicPlayGame'/>
+<use f='codebrowser/src/cdogs/music.c' l='121' u='r' c='MusicPlayMenu'/>

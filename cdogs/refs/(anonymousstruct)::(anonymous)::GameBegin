@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/game_events.h' l='148' type='NGameBegin'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='182' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/game.c' l='473' u='m' c='RunGameUpdate'/>

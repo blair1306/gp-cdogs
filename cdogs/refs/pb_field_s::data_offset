@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='220' type='pb_size_t'/>
+<offset>24</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='220'>/* Offset of field data, relative to previous field. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='14' u='r' c='pb_field_iter_begin'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_common.c' l='65' u='r' c='pb_field_iter_next'/>

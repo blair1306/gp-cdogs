@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2749' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12050' u='w' c='nk_input_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12138' u='r' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12139' u='r' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12140' u='r' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12141' u='w' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15022' u='w' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15027' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15028' u='r' c='nk_do_edit'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15030' u='w' c='nk_do_edit'/>
+<offset>2048</offset>

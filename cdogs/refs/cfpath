@@ -1,0 +1,9 @@
+<def f='codebrowser/src/cdogs/files.c' l='571' type='char [4096]'/>
+<use f='codebrowser/src/cdogs/files.c' l='576' u='r' c='GetConfigFilePath'/>
+<use f='codebrowser/src/cdogs/files.c' l='579' u='r' c='GetConfigFilePath'/>
+<use f='codebrowser/src/cdogs/files.c' l='581' u='r' c='GetConfigFilePath'/>
+<use f='codebrowser/src/cdogs/files.c' l='583' u='r' c='GetConfigFilePath'/>
+<doc f='codebrowser/src/cdogs/files.c' l='567'>/* GetConfigFilePath()
+ *
+ * returns a full path to a data file...
+ */</doc>

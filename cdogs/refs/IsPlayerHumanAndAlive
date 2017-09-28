@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/player.h' l='94' type='_Bool IsPlayerHumanAndAlive(const PlayerData * player)'/>
+<def f='codebrowser/src/cdogs/player.c' l='338' ll='341' macro='1' type='_Bool IsPlayerHumanAndAlive(const PlayerData * player)'/>
+<use f='codebrowser/src/cdogs/player.c' l='381' u='c' c='PlayersGetBoundingRectangle'/>

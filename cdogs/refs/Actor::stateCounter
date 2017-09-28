@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='103' type='int'/>
+<offset>832</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='137' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='137' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='137' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='138' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='146' u='w' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='534' u='w' c='InjureActor'/>

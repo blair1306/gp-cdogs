@@ -1,0 +1,1 @@
+<dec f='include/SDL2/SDL_mixer.h' l='569' type='int Mix_FadeOutGroup(int tag, int ms)'/>

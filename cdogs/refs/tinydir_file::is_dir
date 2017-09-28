@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/tinydir/tinydir.h' l='110' type='int'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='461' u='w' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='518' u='r' c='tinydir_open_subdir_n'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='638' u='r' c='_tinydir_file_cmp'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='638' u='r' c='_tinydir_file_cmp'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='640' u='r' c='_tinydir_file_cmp'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='640' u='r' c='_tinydir_file_cmp'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='180' u='r' c='LoadCampaignsFromFolder'/>
+<offset>34880</offset>
+<use f='codebrowser/src/cdogs/draw/char_sprites.c' l='83' u='r' c='CharSpriteClassesLoadDir'/>
+<use f='codebrowser/src/cdogs/pic_manager.c' l='241' u='r' c='PicManagerLoadDir'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='230' u='r' c='SoundLoadDir'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='464' u='r' c='Open'/>

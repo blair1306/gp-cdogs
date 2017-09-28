@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3640' type='struct nk_config_stack_button_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19934' u='a' c='nk_button_push_behavior'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='19955' u='a' c='nk_button_pop_behavior'/>
+<offset>20864</offset>

@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/player_select_menus.h' l='57' type='MenuSystem'/>
+<use f='codebrowser/src/player_select_menus.c' l='427' u='a' c='PlayerSelectMenusCreate'/>
+<offset>0</offset>
+<dec f='codebrowser/src/weapon_menu.h' l='41' type='MenuSystem'/>
+<use f='codebrowser/src/prep.c' l='347' u='a' c='PlayerSelectionTerminate'/>
+<use f='codebrowser/src/prep.c' l='416' u='a' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='418' u='a' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='439' u='m' c='PlayerSelectionUpdate'/>
+<use f='codebrowser/src/prep.c' l='481' u='a' c='PlayerSelectionDraw'/>
+<use f='codebrowser/src/prep.c' l='778' u='m' c='PlayerEquip'/>
+<use f='codebrowser/src/prep.c' l='779' u='m' c='PlayerEquip'/>
+<use f='codebrowser/src/prep.c' l='780' u='m' c='PlayerEquip'/>
+<use f='codebrowser/src/prep.c' l='822' u='a' c='PlayerEquipTerminate'/>
+<use f='codebrowser/src/prep.c' l='889' u='a' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='891' u='a' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='897' u='m' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='897' u='m' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='904' u='m' c='PlayerEquipUpdate'/>
+<use f='codebrowser/src/prep.c' l='934' u='a' c='PlayerEquipDraw'/>
+<offset>0</offset>
+<use f='codebrowser/src/weapon_menu.c' l='147' u='a' c='WeaponMenuCreate'/>

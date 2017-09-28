@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='317' type='enet_uint32 [32]'/>
+<offset>2624</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='422' u='r' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='422' u='r' c='enet_peer_reset'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='478' u='r' c='enet_protocol_handle_send_unsequenced'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='478' u='r' c='enet_protocol_handle_send_unsequenced'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='481' u='r' c='enet_protocol_handle_send_unsequenced'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='487' u='w' c='enet_protocol_handle_send_unsequenced'/>

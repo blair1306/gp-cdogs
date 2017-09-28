@@ -1,0 +1,21 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='137' type='char [256]'/>
+<offset>10464</offset>
+<use f='codebrowser/src/cdogs/door.c' l='95' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='103' u='r' c='MapAddDoorGroup'/>
+<use f='codebrowser/src/cdogs/door.c' l='215' u='r' c='CreateCloseDoorWatch'/>
+<use f='codebrowser/src/cdogs/door.c' l='275' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/door.c' l='281' u='r' c='CreateOpenDoorTrigger'/>
+<use f='codebrowser/src/cdogs/files.c' l='379' u='r' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='348' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='256' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='261' u='r' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission.c' l='111' u='r' c='MissionInit'/>
+<use f='codebrowser/src/cdogs/mission.c' l='146' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='146' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='223' u='r' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='448' u='r' c='MissionDrawDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='452' u='r' c='MissionDrawDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='875' u='r' c='MissionChangeDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='875' u='r' c='MissionChangeDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='875' u='r' c='MissionChangeDoorStyle'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='879' u='r' c='MissionChangeDoorStyle'/>

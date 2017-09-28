@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='159' type='16'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='93' c='yajl_config'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_parse.h' l='152'>/**
+         * When yajl_complete_parse() is called the parser will
+         * check that the top level value was completely consumed.  I.E.,
+         * if called whilst in the middle of parsing a value
+         * yajl will enter an error state (premature EOF).  Setting this
+         * flag suppresses that check and the corresponding error.
+         */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='175' u='r' c='yajl_do_finish'/>

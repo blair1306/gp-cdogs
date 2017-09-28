@@ -1,0 +1,22 @@
+<dec f='codebrowser/src/cdogsed/ui_object.h' l='109' type='_Bool (*)(void *)'/>
+<offset>1664</offset>
+<use f='codebrowser/src/cdogsed/editor_ui_color.c' l='83' u='w' c='CreateColorPicker'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='300' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='371' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='381' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='403' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='413' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='425' u='w' c='CreateStaticMapObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='469' u='w' c='CreateSetKeyObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='214' u='w' c='CreateAddItemObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='268' u='w' c='AddMapItemBrushObjFunc'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='320' u='w' c='AddPickupSpawnerBrushObjFunc'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='372' u='w' c='CreateAddCharacterSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='482' u='w' c='CreateAddObjectiveSubObjs'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='537' u='w' c='CreateAddKeyObjs'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='113' u='w' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='113' u='r' c='UIObjectCopy'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='203' u='r' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='205' u='r' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='216' u='r' c='UIObjectUnhighlight'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='218' u='r' c='UIObjectUnhighlight'/>

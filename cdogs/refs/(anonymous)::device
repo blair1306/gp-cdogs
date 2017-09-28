@@ -1,0 +1,16 @@
+<dec f='codebrowser/src/cdogs/hud/hud.h' l='47' type='GraphicsDevice *'/>
+<offset>2176</offset>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='77' u='w' c='HUDInit'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='198' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='211' u='r' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='412' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='458' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='462' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='478' u='r' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='666' u='r' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='667' u='r' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='728' u='r' c='DrawPlayerAreas'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='742' u='r' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='895' u='r' c='DrawHUDMessage'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='940' u='r' c='DrawMissionTime'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='948' u='r' c='DrawObjectiveCounts'/>

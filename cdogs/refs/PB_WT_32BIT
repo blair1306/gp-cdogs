@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='305' type='5'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='271' c='pb_skip_field'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='298' c='read_raw_value'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='479' u='r' c='pb_encode_tag_for_field'/>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='88' type='2'/>
+<use f='codebrowser/src/cdogs/actor_fire.c' l='35' u='r' c='ActorFire'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='412' u='r' c='GetHeadPic'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='452' u='r' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='454' c='WeaponUpdate'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='547' c='WeaponSetState'/>

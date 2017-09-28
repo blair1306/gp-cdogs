@@ -1,0 +1,5 @@
+<dec f='include/x86_64-linux-gnu/bits/socket.h' l='231' type='socklen_t'/>
+<offset>64</offset>
+<doc f='include/x86_64-linux-gnu/bits/socket.h' l='231'>/* Length of address data.  */</doc>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='456' u='w' c='enet_socket_send'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='490' u='w' c='enet_socket_receive'/>

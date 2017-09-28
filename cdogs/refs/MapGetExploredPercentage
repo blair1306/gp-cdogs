@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/map.h' l='149' type='int MapGetExploredPercentage(Map * map)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='721' u='c' c='FindObjectivesSortedByDistance'/>
+<def f='codebrowser/src/cdogs/map.c' l='886' ll='889' type='int MapGetExploredPercentage(Map * map)'/>
+<use f='codebrowser/src/game.c' l='667' u='c' c='CheckMissionCompletion'/>

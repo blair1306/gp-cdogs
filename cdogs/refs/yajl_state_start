@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_parser.h' l='27' type='0'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='76' u='r' c='yajl_alloc'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='218' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='230' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='362' u='r' c='yajl_do_parse'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='370' u='r' c='yajl_do_parse'/>

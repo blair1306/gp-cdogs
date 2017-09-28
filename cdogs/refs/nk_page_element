@@ -1,0 +1,5 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='3662' ll='3666'/>
+<size>504</size>
+<mbr r='nk_page_element::data' o='0' t='union nk_page_data'/>
+<mbr r='nk_page_element::next' o='3904' t='struct nk_page_element *'/>
+<mbr r='nk_page_element::prev' o='3968' t='struct nk_page_element *'/>

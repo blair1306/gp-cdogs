@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='64' type='char [128]'/>
+<offset>64</offset>
+<use f='codebrowser/src/cdogs/actors.c' l='584' u='r' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='592' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/actors.c' l='592' c='ActorReplaceGun'/>
+<use f='codebrowser/src/cdogs/pickup.c' l='263' u='r' c='TryPickupGun'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='216'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='216'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='216'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='216'/>

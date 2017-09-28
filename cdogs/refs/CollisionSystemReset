@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/collision/collision.h' l='64' type='void CollisionSystemReset(CollisionSystem * cs)'/>
+<use f='codebrowser/src/cdogs/collision/collision.c' l='126' u='c' c='CollisionSystemInit'/>
+<def f='codebrowser/src/cdogs/collision/collision.c' l='129' ll='132' type='void CollisionSystemReset(CollisionSystem * cs)'/>
+<use f='codebrowser/src/cdogs/config_apply.c' l='40' u='c' c='ConfigApply'/>

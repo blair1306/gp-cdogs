@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='362' ll='366'/>
+<size>196</size>
+<mbr r='_NExploreTiles::Runs_count' o='0' t='pb_size_t'/>
+<mbr r='_NExploreTiles::Runs' o='32' t='NExploreTiles_Run [16]'/>

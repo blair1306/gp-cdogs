@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/utils.h' l='65' type='_Bool'/>
+<doc f='codebrowser/src/cdogs/utils.h' l='64'>// Global variables so their address can be taken (passed into void * funcs)</doc>
+<def f='codebrowser/src/cdogs/utils.c' l='67' macro='1' type='_Bool'/>
+<use f='codebrowser/src/player_select_menus.c' l='405' u='a' c='CreateSaveTemplateMenu'/>

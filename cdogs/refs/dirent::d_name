@@ -1,0 +1,6 @@
+<dec f='include/x86_64-linux-gnu/bits/dirent.h' l='33' type='char [256]'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='422' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='435' u='r' c='tinydir_readfile'/>
+<use f='codebrowser/src/tinydir/tinydir.h' l='449' u='r' c='tinydir_readfile'/>
+<offset>152</offset>
+<doc f='include/x86_64-linux-gnu/bits/dirent.h' l='33'>/* We must not include limits.h! */</doc>

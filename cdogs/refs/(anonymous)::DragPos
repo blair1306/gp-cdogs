@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='90' type='Vec2i'/>
+<offset>864</offset>
+<doc f='codebrowser/src/cdogsed/editor_brush.h' l='90'>// when moving, location that the drag started</doc>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='142' u='m' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='142' u='m' c='EditorBrushSetHighlightedTiles'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='318' u='w' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='552' u='m' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='553' u='m' c='EditorBrushStopPainting'/>

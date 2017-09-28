@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='155' type='void WeaponUpdate(Weapon * w, const int ticks)'/>
+<use f='codebrowser/src/cdogs/actors.c' l='109' u='c' c='UpdateActorState'/>
+<def f='codebrowser/src/cdogs/weapon.c' l='427' ll='463' type='void WeaponUpdate(Weapon * w, const int ticks)'/>

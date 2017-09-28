@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='92' type='char [4096]'/>
+<offset>928</offset>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='78' u='r' c='BrushGetGuideImageStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='123' u='r' c='BrushLoadGuideImage'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='435' u='r' c='CreateStaticMapObjs'/>

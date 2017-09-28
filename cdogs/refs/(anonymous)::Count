@@ -1,0 +1,54 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='81' type='int'/>
+<dec f='codebrowser/src/cdogs/objective.h' l='82' type='int'/>
+<dec f='codebrowser/src/cdogs/mission.h' l='115' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/briefing_screens.c' l='605' u='r' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/cdogs/ai.c' l='557' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/ai.c' l='579' u='r' c='InitializeBadGuys'/>
+<use f='codebrowser/src/cdogs/files.c' l='357' u='w' c='ConvertObjective'/>
+<use f='codebrowser/src/cdogs/files.c' l='423' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map.c' l='754' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='765' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='773' u='w' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='774' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map.c' l='776' u='r' c='AddObjectives'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='441' u='r' c='SaveRooms'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='593' u='r' c='SaveObjectives'/>
+<use f='codebrowser/src/cdogs/map_cave.c' l='465' u='r' c='PlaceRooms'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='104' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='484' u='a' c='LoadRooms'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='45' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='88' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='428' u='w' c='MissionStaticTryAddObjective'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='445' u='w' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='446' u='r' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='446' u='r' c='MissionStaticTryRemoveObjectiveAt'/>
+<use f='codebrowser/src/cdogs/objective.c' l='142' u='a' c='ObjectiveLoadJSON'/>
+<use f='codebrowser/src/cdogs/objective.c' l='175' u='r' c='ObjectiveIsPerfect'/>
+<use f='codebrowser/src/cdogs/particle.c' l='291' u='w' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/particle.c' l='368' u='r' c='ParticleUpdate'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='308' u='w' c='RandomRoomParams'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='233' u='r' c='MissionGetRoomCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='703' u='w' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='704' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='704' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='704' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='704' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='269' u='r' c='MissionGetRoomCountStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='293' u='w' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='294' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='294' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='294' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_cave.c' l='294' u='r' c='MissionChangeRoomCount'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='148' u='r' c='MissionGetObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='r' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='r' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='r' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='223' u='r' c='MissionChangeObjectiveRequired'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='230' u='w' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='230' u='r' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='230' u='r' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='230' u='r' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='237' u='w' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='237' u='r' c='MissionChangeObjectiveTotal'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='237' u='r' c='MissionChangeObjectiveTotal'/>

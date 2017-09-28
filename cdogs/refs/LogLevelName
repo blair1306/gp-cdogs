@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/log.h' l='61' type='const char * LogLevelName(const LogLevel l)'/>
+<def f='codebrowser/src/cdogs/log.c' l='87' ll='99' type='const char * LogLevelName(const LogLevel l)'/>
+<use f='codebrowser/src/cdogs/log.c' l='183' u='c' c='LogLine'/>
+<use f='codebrowser/src/command_line.c' l='75' u='c' c='PrintHelp'/>
+<use f='codebrowser/src/command_line.c' l='184' u='c' c='ParseArgs'/>
+<use f='codebrowser/src/command_line.c' l='194' u='c' c='ParseArgs'/>

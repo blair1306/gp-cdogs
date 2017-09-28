@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/menu.c' l='947' type='menu_t * MenuProcessEscCmd(menu_t * menu)'/>
+<use f='codebrowser/src/menu.c' l='958' u='c' c='MenuProcessCmd'/>
+<def f='codebrowser/src/menu.c' l='999' ll='1020' type='menu_t * MenuProcessEscCmd(menu_t * menu)'/>
+<doc f='codebrowser/src/menu.c' l='946'>// returns menu to change to, NULL if no change</doc>

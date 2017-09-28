@@ -1,0 +1,25 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9051' type='const unsigned char *'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9198' u='w' c='nk_tt_InitFont'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9251' u='r' c='nk_tt_FindGlyphIndex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9360' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9361' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9363' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9364' u='r' c='nk_tt__GetGlyfOffset'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9376' u='r' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9377' u='r' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9378' u='r' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9379' u='r' c='nk_tt_GetGlyphBox'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9406' u='r' c='nk_tt_GetGlyphShape'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9628' u='r' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9631' u='r' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9633' u='r' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9636' u='r' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9638' u='r' c='nk_tt_GetGlyphHMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9646' u='r' c='nk_tt_GetFontVMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9647' u='r' c='nk_tt_GetFontVMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9648' u='r' c='nk_tt_GetFontVMetrics'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9654' u='r' c='nk_tt_ScaleForPixelHeight'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9654' u='r' c='nk_tt_ScaleForPixelHeight'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9661' u='r' c='nk_tt_ScaleForMappingEmToPixels'/>
+<offset>0</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='9051'>/* pointer to .ttf file */</doc>

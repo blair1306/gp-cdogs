@@ -1,0 +1,4 @@
+<dec f='include/SDL2/SDL_events.h' l='96' type='771'/>
+<doc f='include/SDL2/SDL_events.h' l='96'>/**&lt; Keyboard text input */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='93' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='319' u='r' c='nk_sdl_handle_event'/>

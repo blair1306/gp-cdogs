@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1687' type='int nk_menu_item_label(struct nk_context * , const char * , nk_flags alignment)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='22973' ll='22974' macro='1' type='int nk_menu_item_label(struct nk_context * ctx, const char * label, nk_flags align)'/>

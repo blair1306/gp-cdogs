@@ -1,0 +1,12 @@
+HUDDisplayMessage|HUDDisplayMessage
+HUDDraw|HUDDraw
+HUDDrawGauge|HUDDrawGauge
+HUDInit|HUDInit
+HUDTerminate|HUDTerminate
+HUDUpdate|HUDUpdate
+HUDNumPopupsAdd|HUDNumPopupsAdd
+HUDNumPopupsDrawObjective|HUDNumPopupsDrawObjective
+HUDNumPopupsDrawPlayer|HUDNumPopupsDrawPlayer
+HUDNumPopupsInit|HUDNumPopupsInit
+HUDNumPopupsTerminate|HUDNumPopupsTerminate
+HUDPopupsUpdate|HUDPopupsUpdate

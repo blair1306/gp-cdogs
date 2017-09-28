@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2701' type='void nk_stroke_circle(struct nk_command_buffer * , struct nk_rect , float line_thickness, struct nk_color )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='7009' ll='7030' macro='1' type='void nk_stroke_circle(struct nk_command_buffer * b, struct nk_rect r, float line_thickness, struct nk_color c)'/>

@@ -1,0 +1,15 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='186' type='Vec2i'/>
+<offset>1280</offset>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='191' u='r' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/actor_placement.c' l='195' u='r' c='PlacePlayer'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='366' u='r' c='DrawEditorTiles'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='409' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='418' u='a' c='TryLoadStaticMap'/>
+<use f='codebrowser/src/cdogs/mission.c' l='176' u='w' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission.c' l='176' u='r' c='MissionCopy'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='254' u='m' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='254' u='m' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='256' u='w' c='MissionStaticLayout'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='141' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='143' u='r' c='MakeBackground'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='349' u='w' c='EditorBrushStartPainting'/>

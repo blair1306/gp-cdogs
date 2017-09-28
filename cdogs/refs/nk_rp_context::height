@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='8651' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8711' u='w' c='nk_rp_init_target'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8795' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8845' u='r' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8876' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<offset>32</offset>

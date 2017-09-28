@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/color.h' l='87' type='color_t'/>
+<def f='codebrowser/src/cdogs/color.c' l='81' type='color_t'/>
+<use f='codebrowser/src/cdogs/player.c' l='150' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='168' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogs/player.c' l='187' u='r' c='PlayerDataDefault'/>
+<use f='codebrowser/src/cdogsed/char_editor.c' l='146' u='r' c='CharEditor'/>

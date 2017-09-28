@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='113' type='int32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/mission.c' l='381' u='r' c='MissionBegin'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='335' u='w' c='OnReceive'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='154'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='154'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='154'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='154'/>
+<use f='codebrowser/src/game.c' l='473' u='w' c='RunGameUpdate'/>

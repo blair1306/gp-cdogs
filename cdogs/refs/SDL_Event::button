@@ -1,0 +1,10 @@
+<dec f='include/SDL2/SDL_events.h' l='530' type='SDL_MouseButtonEvent'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_events.h' l='530'>/**&lt; Mouse button event data */</doc>
+<use f='codebrowser/src/cdogs/events.c' l='148' u='m' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='152' u='m' c='EventPoll'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='304' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='304' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='305' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='307' u='m' c='nk_sdl_handle_event'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='309' u='m' c='nk_sdl_handle_event'/>

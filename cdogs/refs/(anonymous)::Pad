@@ -1,0 +1,30 @@
+<dec f='codebrowser/src/cdogs/font.h' l='61' type='Vec2i'/>
+<use f='codebrowser/src/briefing_screens.c' l='120' u='m' c='CampaignIntroDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='178' u='m' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='189' u='m' c='ScreenMissionBriefing'/>
+<use f='codebrowser/src/briefing_screens.c' l='585' u='m' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='608' u='w' c='MissionSummaryMenuDraw'/>
+<use f='codebrowser/src/briefing_screens.c' l='620' u='w' c='MissionSummaryMenuDraw'/>
+<offset>128</offset>
+<use f='codebrowser/src/cdogs/font.c' l='297' u='m' c='GetStrPos'/>
+<use f='codebrowser/src/cdogs/font.c' l='298' u='m' c='GetStrPos'/>
+<use f='codebrowser/src/cdogs/hud/fps.c' l='61' u='w' c='FPSCounterDraw'/>
+<use f='codebrowser/src/cdogs/hud/health_gauge.c' l='117' u='w' c='HealthGaugeDraw'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='219' u='w' c='DrawWeaponStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='428' u='w' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='453' u='w' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='470' u='w' c='DrawPlayerStatus'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='749' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='751' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='753' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='766' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='771' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='778' u='m' c='DrawDeathmatchScores'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='941' u='m' c='DrawMissionTime'/>
+<use f='codebrowser/src/cdogs/hud/hud_num_popup.c' l='277' u='w' c='DrawNumUpdate'/>
+<use f='codebrowser/src/cdogs/hud/wall_clock.c' l='67' u='w' c='WallClockDraw'/>
+<use f='codebrowser/src/mainmenu.c' l='353' u='m' c='CampaignsDisplayFilename'/>
+<use f='codebrowser/src/menu.c' l='273' u='m' c='ShowControls'/>
+<use f='codebrowser/src/menu.c' l='600' u='w' c='MenuDisplay'/>
+<use f='codebrowser/src/menu.c' l='632' u='w' c='MenuDisplayItems'/>
+<use f='codebrowser/src/password.c' l='304' u='m' c='EnterCodeScreenDraw'/>

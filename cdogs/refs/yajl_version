@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/include/yajl/yajl_version.h' l='16' type='int yajl_version()'/>
+<def f='codebrowser/src/cdogs/yajl/yajl_version.c' l='3' ll='6' type='int yajl_version()'/>

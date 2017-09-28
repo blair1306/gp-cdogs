@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/msg.pb.h' l='102' type='int32_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/net_util.c' l='118' u='r' c='Net2Color'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='119' u='r' c='Net2Color'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='120' u='r' c='Net2Color'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='121' u='r' c='Net2Color'/>
+<use f='codebrowser/src/cdogs/net_util.c' l='127' u='w' c='Color2Net'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='53'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='53'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='53'/>
+<use f='codebrowser/src/cdogs/proto/msg.pb.c' l='53'/>
+<use f='codebrowser/src/tests/player_test.c' l='40' u='w' c='Color2Net'/>

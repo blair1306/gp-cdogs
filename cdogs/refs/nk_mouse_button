@@ -1,0 +1,10 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='2726' ll='2730'/>
+<size>16</size>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2721'>/* ===============================================================
+ *
+ *                          INPUT
+ *
+ * ===============================================================*/</doc>
+<mbr r='nk_mouse_button::down' o='0' t='int'/>
+<mbr r='nk_mouse_button::clicked' o='32' t='unsigned int'/>
+<mbr r='nk_mouse_button::clicked_pos' o='64' t='struct nk_vec2'/>

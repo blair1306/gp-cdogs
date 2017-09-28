@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/XGetopt.h' l='112' type='int'/>
+<use f='codebrowser/src/XGetopt.c' l='239' u='r' c='lookup_longopt'/>
+<use f='codebrowser/src/XGetopt.c' l='242' u='r' c='lookup_longopt'/>
+<offset>192</offset>
+<doc f='codebrowser/src/XGetopt.h' l='111'>/** value to be returned if the option is present */</doc>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='8664' type='struct nk_rp_node **'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8859' u='w' c='nk_rp__skyline_find_best_pos'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8876' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8877' u='w' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8891' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8898' u='r' c='nk_rp__skyline_pack_rectangle'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8982' u='r' c='nk_rp_pack_rects'/>
+<offset>64</offset>

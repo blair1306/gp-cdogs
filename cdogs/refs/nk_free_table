@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='16722' type='void nk_free_table(struct nk_context * ctx, struct nk_table * tbl)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16884' u='c' c='nk_clear'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='17778' ll='17784' macro='1' type='void nk_free_table(struct nk_context * ctx, struct nk_table * tbl)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17887' u='c' c='nk_free_window'/>

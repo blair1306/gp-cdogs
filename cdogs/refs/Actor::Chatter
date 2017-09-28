@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/actors.h' l='146' type='char [256]'/>
+<offset>1856</offset>
+<doc f='codebrowser/src/cdogs/actors.h' l='145'>// What to say (text label appears above actor) and how long to say it</doc>
+<use f='codebrowser/src/cdogs/actors.c' l='193' u='r' c='UpdateActorState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='628' u='r' c='ActorSetAIState'/>
+<use f='codebrowser/src/cdogs/actors.c' l='1008' u='r' c='CheckManualPickupFunc'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='397' u='r' c='DrawChatter'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='401' u='r' c='DrawChatter'/>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='403' u='r' c='DrawChatter'/>

@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/campaigns.h' l='77' type='void CampaignSettingInit(CampaignSetting * setting)'/>
+<use f='codebrowser/src/cdogs/campaigns.c' l='45' u='c' c='CampaignInit'/>
+<def f='codebrowser/src/cdogs/campaigns.c' l='52' ll='59' type='void CampaignSettingInit(CampaignSetting * setting)'/>
+<use f='codebrowser/src/cdogs/gamedata.c' l='92' u='c' c='CampaignLoad'/>
+<use f='codebrowser/src/cdogs/grafx_bg.c' l='45' u='c' c='GrafxMakeRandomBackground'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='563' u='c' c='TryOpen'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1365' u='c' c='main'/>

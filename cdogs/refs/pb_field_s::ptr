@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='228' type='const void *'/>
+<offset>88</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='225'>/* Field definitions for submessage
+     * OR default value for all other non-array, non-callback types
+     * If null, then field will zeroed. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='716' u='r' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='718' u='r' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='721' u='r' c='pb_message_set_to_defaults'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1120' u='r' c='pb_dec_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='1125' u='r' c='pb_dec_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='664' u='r' c='pb_enc_submessage'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='667' u='r' c='pb_enc_submessage'/>

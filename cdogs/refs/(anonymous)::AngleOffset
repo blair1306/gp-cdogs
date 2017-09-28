@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/weapon.h' l='113' type='double'/>
+<offset>896</offset>
+<use f='codebrowser/src/cdogs/draw/draw_actor.c' l='309' u='r' c='DrawLaserSight'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='442' u='r' c='HandleGameEvent'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='240' u='a' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='r' c='LoadGunDescription'/>
+<use f='codebrowser/src/cdogs/weapon.c' l='294' u='r' c='LoadGunDescription'/>

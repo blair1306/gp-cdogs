@@ -1,0 +1,9 @@
+<dec f='codebrowser/src/cdogs/enet/include/enet/enet.h' l='187' type='enet_uint32'/>
+<offset>576</offset>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='717' u='r' c='enet_peer_dispatch_incoming_unreliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='795' u='r' c='enet_peer_dispatch_incoming_reliable_commands'/>
+<use f='codebrowser/src/cdogs/enet/peer.c' l='948' u='w' c='enet_peer_queue_incoming_command'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='605' u='w' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='616' u='r' c='enet_protocol_handle_send_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='723' u='w' c='enet_protocol_handle_send_unreliable_fragment'/>
+<use f='codebrowser/src/cdogs/enet/protocol.c' l='734' u='r' c='enet_protocol_handle_send_unreliable_fragment'/>

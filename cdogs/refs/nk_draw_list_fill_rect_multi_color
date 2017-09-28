@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2907' type='void nk_draw_list_fill_rect_multi_color(struct nk_draw_list * , struct nk_rect rect, struct nk_color left, struct nk_color top, struct nk_color right, struct nk_color bottom)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='8252' ll='8285' macro='1' type='void nk_draw_list_fill_rect_multi_color(struct nk_draw_list * list, struct nk_rect rect, struct nk_color left, struct nk_color top, struct nk_color right, struct nk_color bottom)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8511' u='c' c='nk_convert'/>

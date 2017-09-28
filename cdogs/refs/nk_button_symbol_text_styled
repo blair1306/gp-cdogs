@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1477' type='int nk_button_symbol_text_styled(struct nk_context * , const struct nk_style_button * , enum nk_symbol_type , const char * , int , nk_flags alignment)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='20113' ll='20140' macro='1' type='int nk_button_symbol_text_styled(struct nk_context * ctx, const struct nk_style_button * style, enum nk_symbol_type symbol, const char * text, int len, nk_flags align)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20148' u='c' c='nk_button_symbol_text'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='20158' u='c' c='nk_button_symbol_label_styled'/>

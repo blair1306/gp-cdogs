@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='59' type='const TActor * AIGetClosestVisibleEnemy(const TActor * from, const _Bool isPlayer)'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='269' u='c' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='567' u='c' c='FindObjectivesSortedByDistance'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='156' ll='174' type='const TActor * AIGetClosestVisibleEnemy(const TActor * from, const _Bool isPlayer)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='614' u='c' c='AIHuntClosest'/>

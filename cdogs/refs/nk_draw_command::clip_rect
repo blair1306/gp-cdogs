@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2844' type='struct nk_rect'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7468' u='w' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7503' u='w' c='nk_draw_list_add_clip'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7520' u='r' c='nk_draw_list_push_image'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='149' u='m' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='150' u='m' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='150' u='m' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='151' u='m' c='nk_sdl_render'/>
+<use f='codebrowser/src/nuklear/nuklear_sdl_gl2.h' l='152' u='m' c='nk_sdl_render'/>
+<offset>32</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='2843'>/* number of elements in the current draw batch */</doc>

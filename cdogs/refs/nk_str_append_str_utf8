@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2307' type='int nk_str_append_str_utf8(struct nk_str * , const char * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6388' ll='6406' macro='1' type='int nk_str_append_str_utf8(struct nk_str * str, const char * text)'/>

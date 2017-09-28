@@ -1,0 +1,12 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='6166' ll='6218' macro='1' type='void * nk_buffer_alloc(struct nk_buffer * b, enum nk_buffer_allocation_type type, nk_size size, nk_size align)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6224' u='c' c='nk_buffer_push'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6362' u='c' c='nk_str_append_text_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6462' u='c' c='nk_str_insert_at_char'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='6849' u='c' c='nk_command_buffer_push'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7423' u='c' c='nk_draw_list_alloc_path'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7457' u='c' c='nk_draw_list_push_command'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7538' u='c' c='nk_draw_list_alloc_vertices'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7556' u='c' c='nk_draw_list_alloc_elements'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7764' u='c' c='nk_draw_list_stroke_poly_line'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='8002' u='c' c='nk_draw_list_fill_poly_convex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17701' u='c' c='nk_create_page_element'/>

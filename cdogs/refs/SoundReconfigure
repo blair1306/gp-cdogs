@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/sounds.h' l='135' type='void SoundReconfigure(SoundDevice * s)'/>
+<use f='codebrowser/src/cdogs/config_apply.c' l='43' u='c' c='ConfigApply'/>
+<use f='codebrowser/src/cdogs/sounds.c' l='185' u='c' c='SoundInitialize'/>
+<def f='codebrowser/src/cdogs/sounds.c' l='240' ll='262' type='void SoundReconfigure(SoundDevice * s)'/>

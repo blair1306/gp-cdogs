@@ -1,0 +1,3 @@
+<use f='codebrowser/src/hiscores.c' l='359' u='r' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='361' u='r' c='SaveHighScores'/>
+<use f='codebrowser/src/hiscores.c' l='433' u='r' c='LoadHighScores'/>

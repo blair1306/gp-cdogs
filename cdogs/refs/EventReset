@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/events.h' l='54' type='void EventReset(EventHandlers * handlers, Pic * mouseCursor, Pic * mouseTrail)'/>
+<def f='codebrowser/src/cdogs/events.c' l='57' ll='63' type='void EventReset(EventHandlers * handlers, Pic * mouseCursor, Pic * mouseTrail)'/>
+<use f='codebrowser/src/cdogs/events.c' l='172' u='c' c='EventPoll'/>
+<use f='codebrowser/src/game.c' l='270' u='c' c='RunGameOnEnter'/>
+<use f='codebrowser/src/game_loop.c' l='377' u='c' c='GameLoopOnEnter'/>

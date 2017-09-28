@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2837' type='enum nk_draw_vertex_layout_format'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7569' u='r' c='nk_draw_vertex_layout_element_is_end_of_layout'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7704' u='r' c='nk_draw_vertex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7705' u='r' c='nk_draw_vertex'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='7706' u='r' c='nk_draw_vertex'/>
+<offset>32</offset>

@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/keyboard.h' l='82' type='InputKeys KeyLoadPlayerKeys(Config * c)'/>
+<use f='codebrowser/src/cdogs/keyboard.c' l='67' u='c' c='KeyInit'/>
+<def f='codebrowser/src/cdogs/keyboard.c' l='70' ll='81' type='InputKeys KeyLoadPlayerKeys(Config * c)'/>
+<use f='codebrowser/src/menu.c' l='1093' u='c' c='KeyAvailable'/>
+<use f='codebrowser/src/menu.c' l='1104' u='c' c='KeyAvailable'/>
+<use f='codebrowser/src/menu.c' l='1140' u='c' c='MenuProcessChangeKey'/>

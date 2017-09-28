@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='335' type='const void *'/>
+<offset>128</offset>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='334'>/* Free field for use by the callback. */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='628' u='r' c='default_extension_decoder'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='309' u='r' c='default_extension_encoder'/>

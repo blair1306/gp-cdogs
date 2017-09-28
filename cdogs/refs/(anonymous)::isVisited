@@ -1,0 +1,12 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='148' type='_Bool'/>
+<offset>160</offset>
+<use f='codebrowser/src/cdogs/automap.c' l='217' u='r' c='DrawMap'/>
+<use f='codebrowser/src/cdogs/automap.c' l='289' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/automap.c' l='296' u='r' c='DrawTileItem'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='85' u='r' c='GetTileLOS'/>
+<use f='codebrowser/src/cdogs/hud/hud.c' l='517' u='r' c='DrawObjectiveCompass'/>
+<use f='codebrowser/src/cdogs/los.c' l='198' u='r' c='SetLOSVisible'/>
+<use f='codebrowser/src/cdogs/map.c' l='867' u='r' c='MapMarkAsVisited'/>
+<use f='codebrowser/src/cdogs/map.c' l='871' u='w' c='MapMarkAsVisited'/>
+<use f='codebrowser/src/cdogs/map.c' l='935' u='r' c='MapTileIsUnexplored'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='507' u='r' c='NetServerSendGameStartMessages'/>

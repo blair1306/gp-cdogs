@@ -1,0 +1,11 @@
+<dec f='include/netinet/in.h' l='33' type='in_addr_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='139' u='r' c='enet_address_set_host'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='207' u='w' c='enet_address_get_host'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='264' u='w' c='enet_socket_bind'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='269' u='w' c='enet_socket_bind'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='286' u='r' c='enet_socket_get_address'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='390' u='w' c='enet_socket_connect'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='415' u='r' c='enet_socket_accept'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='453' u='w' c='enet_socket_send'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='513' u='r' c='enet_socket_receive'/>

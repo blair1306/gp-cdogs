@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>yajl_parser.h source code [codebrowser/src/cdogs/yajl/yajl_parser.h] - Woboq Code Browser</title>
+<meta name="woboq:interestingDefinitions" content="yajl_handle_t "/>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/yajl/yajl_parser.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>yajl</a>/<a href='yajl_parser.h.html'>yajl_parser.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i> * Copyright (c) 2007-2014, Lloyd Hilaiel &lt;me@lloyd.io&gt;</i></td></tr>
+<tr><th id="3">3</th><td><i> *</i></td></tr>
+<tr><th id="4">4</th><td><i> * Permission to use, copy, modify, and/or distribute this software for any</i></td></tr>
+<tr><th id="5">5</th><td><i> * purpose with or without fee is hereby granted, provided that the above</i></td></tr>
+<tr><th id="6">6</th><td><i> * copyright notice and this permission notice appear in all copies.</i></td></tr>
+<tr><th id="7">7</th><td><i> *</i></td></tr>
+<tr><th id="8">8</th><td><i> * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES</i></td></tr>
+<tr><th id="9">9</th><td><i> * WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF</i></td></tr>
+<tr><th id="10">10</th><td><i> * MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR</i></td></tr>
+<tr><th id="11">11</th><td><i> * ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES</i></td></tr>
+<tr><th id="12">12</th><td><i> * WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN</i></td></tr>
+<tr><th id="13">13</th><td><i> * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF</i></td></tr>
+<tr><th id="14">14</th><td><i> * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</i></td></tr>
+<tr><th id="15">15</th><td><i> */</i></td></tr>
+<tr><th id="16">16</th><td></td></tr>
+<tr><th id="17">17</th><td><u>#<span data-ppcond="17">ifndef</span> <span class="macro" data-ref="_M/__YAJL_PARSER_H__">__YAJL_PARSER_H__</span></u></td></tr>
+<tr><th id="18">18</th><td><u>#define <dfn class="macro" id="_M/__YAJL_PARSER_H__" data-ref="_M/__YAJL_PARSER_H__">__YAJL_PARSER_H__</dfn></u></td></tr>
+<tr><th id="19">19</th><td></td></tr>
+<tr><th id="20">20</th><td><u>#include <a href="api/yajl_parse.h.html">"api/yajl_parse.h"</a></u></td></tr>
+<tr><th id="21">21</th><td><u>#include <a href="yajl_bytestack.h.html">"yajl_bytestack.h"</a></u></td></tr>
+<tr><th id="22">22</th><td><u>#include <a href="yajl_buf.h.html">"yajl_buf.h"</a></u></td></tr>
+<tr><th id="23">23</th><td><u>#include <a href="yajl_lex.h.html">"yajl_lex.h"</a></u></td></tr>
+<tr><th id="24">24</th><td></td></tr>
+<tr><th id="25">25</th><td></td></tr>
+<tr><th id="26">26</th><td><b>typedef</b> <b>enum</b> {</td></tr>
+<tr><th id="27">27</th><td>    <dfn class="enum" id="yajl_state_start" title='yajl_state_start' data-ref="yajl_state_start">yajl_state_start</dfn> = <var>0</var>,</td></tr>
+<tr><th id="28">28</th><td>    <dfn class="enum" id="yajl_state_parse_complete" title='yajl_state_parse_complete' data-ref="yajl_state_parse_complete">yajl_state_parse_complete</dfn>,</td></tr>
+<tr><th id="29">29</th><td>    <dfn class="enum" id="yajl_state_parse_error" title='yajl_state_parse_error' data-ref="yajl_state_parse_error">yajl_state_parse_error</dfn>,</td></tr>
+<tr><th id="30">30</th><td>    <dfn class="enum" id="yajl_state_lexical_error" title='yajl_state_lexical_error' data-ref="yajl_state_lexical_error">yajl_state_lexical_error</dfn>,</td></tr>
+<tr><th id="31">31</th><td>    <dfn class="enum" id="yajl_state_map_start" title='yajl_state_map_start' data-ref="yajl_state_map_start">yajl_state_map_start</dfn>,</td></tr>
+<tr><th id="32">32</th><td>    <dfn class="enum" id="yajl_state_map_sep" title='yajl_state_map_sep' data-ref="yajl_state_map_sep">yajl_state_map_sep</dfn>,</td></tr>
+<tr><th id="33">33</th><td>    <dfn class="enum" id="yajl_state_map_need_val" title='yajl_state_map_need_val' data-ref="yajl_state_map_need_val">yajl_state_map_need_val</dfn>,</td></tr>
+<tr><th id="34">34</th><td>    <dfn class="enum" id="yajl_state_map_got_val" title='yajl_state_map_got_val' data-ref="yajl_state_map_got_val">yajl_state_map_got_val</dfn>,</td></tr>
+<tr><th id="35">35</th><td>    <dfn class="enum" id="yajl_state_map_need_key" title='yajl_state_map_need_key' data-ref="yajl_state_map_need_key">yajl_state_map_need_key</dfn>,</td></tr>
+<tr><th id="36">36</th><td>    <dfn class="enum" id="yajl_state_array_start" title='yajl_state_array_start' data-ref="yajl_state_array_start">yajl_state_array_start</dfn>,</td></tr>
+<tr><th id="37">37</th><td>    <dfn class="enum" id="yajl_state_array_got_val" title='yajl_state_array_got_val' data-ref="yajl_state_array_got_val">yajl_state_array_got_val</dfn>,</td></tr>
+<tr><th id="38">38</th><td>    <dfn class="enum" id="yajl_state_array_need_val" title='yajl_state_array_need_val' data-ref="yajl_state_array_need_val">yajl_state_array_need_val</dfn>,</td></tr>
+<tr><th id="39">39</th><td>    <dfn class="enum" id="yajl_state_got_value" title='yajl_state_got_value' data-ref="yajl_state_got_value">yajl_state_got_value</dfn>,</td></tr>
+<tr><th id="40">40</th><td>} <dfn class="typedef" id="yajl_state" title='yajl_state' data-type='enum yajl_state' data-ref="yajl_state">yajl_state</dfn>;</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+<tr><th id="42">42</th><td><b>struct</b> <dfn class="type def" id="yajl_handle_t" title='yajl_handle_t' data-ref="yajl_handle_t">yajl_handle_t</dfn> {</td></tr>
+<tr><th id="43">43</th><td>    <em>const</em> <a class="typedef" href="api/yajl_parse.h.html#yajl_callbacks" title='yajl_callbacks' data-type='struct yajl_callbacks' data-ref="yajl_callbacks">yajl_callbacks</a> * <dfn class="decl" id="yajl_handle_t::callbacks" title='yajl_handle_t::callbacks' data-ref="yajl_handle_t::callbacks">callbacks</dfn>;</td></tr>
+<tr><th id="44">44</th><td>    <em>void</em> * <dfn class="decl" id="yajl_handle_t::ctx" title='yajl_handle_t::ctx' data-ref="yajl_handle_t::ctx">ctx</dfn>;</td></tr>
+<tr><th id="45">45</th><td>    <a class="typedef" href="yajl_lex.h.html#yajl_lexer" title='yajl_lexer' data-type='struct yajl_lexer_t *' data-ref="yajl_lexer">yajl_lexer</a> <dfn class="decl" id="yajl_handle_t::lexer" title='yajl_handle_t::lexer' data-ref="yajl_handle_t::lexer">lexer</dfn>;</td></tr>
+<tr><th id="46">46</th><td>    <em>const</em> <em>char</em> * <dfn class="decl" id="yajl_handle_t::parseError" title='yajl_handle_t::parseError' data-ref="yajl_handle_t::parseError">parseError</dfn>;</td></tr>
+<tr><th id="47">47</th><td>    <i>/* the number of bytes consumed from the last client buffer,</i></td></tr>
+<tr><th id="48">48</th><td><i>     * in the case of an error this will be an error offset, in the</i></td></tr>
+<tr><th id="49">49</th><td><i>     * case of an error this can be used as the error offset */</i></td></tr>
+<tr><th id="50">50</th><td>    <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="decl" id="yajl_handle_t::bytesConsumed" title='yajl_handle_t::bytesConsumed' data-ref="yajl_handle_t::bytesConsumed">bytesConsumed</dfn>;</td></tr>
+<tr><th id="51">51</th><td>    <i>/* temporary storage for decoded strings */</i></td></tr>
+<tr><th id="52">52</th><td>    <a class="typedef" href="yajl_buf.h.html#yajl_buf" title='yajl_buf' data-type='struct yajl_buf_t *' data-ref="yajl_buf">yajl_buf</a> <dfn class="decl" id="yajl_handle_t::decodeBuf" title='yajl_handle_t::decodeBuf' data-ref="yajl_handle_t::decodeBuf">decodeBuf</dfn>;</td></tr>
+<tr><th id="53">53</th><td>    <i>/* a stack of states.  access with yajl_state_XXX routines */</i></td></tr>
+<tr><th id="54">54</th><td>    <a class="typedef" href="yajl_bytestack.h.html#yajl_bytestack" title='yajl_bytestack' data-type='struct yajl_bytestack_t' data-ref="yajl_bytestack">yajl_bytestack</a> <dfn class="decl" id="yajl_handle_t::stateStack" title='yajl_handle_t::stateStack' data-ref="yajl_handle_t::stateStack">stateStack</dfn>;</td></tr>
+<tr><th id="55">55</th><td>    <i>/* memory allocation routines */</i></td></tr>
+<tr><th id="56">56</th><td>    <a class="typedef" href="../include/yajl/yajl_common.h.html#yajl_alloc_funcs" title='yajl_alloc_funcs' data-type='struct yajl_alloc_funcs' data-ref="yajl_alloc_funcs">yajl_alloc_funcs</a> <dfn class="decl" id="yajl_handle_t::alloc" title='yajl_handle_t::alloc' data-ref="yajl_handle_t::alloc">alloc</dfn>;</td></tr>
+<tr><th id="57">57</th><td>    <i>/* bitfield */</i></td></tr>
+<tr><th id="58">58</th><td>    <em>unsigned</em> <em>int</em> <dfn class="decl" id="yajl_handle_t::flags" title='yajl_handle_t::flags' data-ref="yajl_handle_t::flags">flags</dfn>;</td></tr>
+<tr><th id="59">59</th><td>};</td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><a class="typedef" href="api/yajl_parse.h.html#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a></td></tr>
+<tr><th id="62">62</th><td><dfn class="decl" id="yajl_do_parse" title='yajl_do_parse' data-ref="yajl_do_parse">yajl_do_parse</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col6 decl" id="76handle" title='handle' data-type='yajl_handle' data-ref="76handle">handle</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col7 decl" id="77jsonText" title='jsonText' data-type='const unsigned char *' data-ref="77jsonText">jsonText</dfn>,</td></tr>
+<tr><th id="63">63</th><td>              <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col8 decl" id="78jsonTextLen" title='jsonTextLen' data-type='size_t' data-ref="78jsonTextLen">jsonTextLen</dfn>);</td></tr>
+<tr><th id="64">64</th><td></td></tr>
+<tr><th id="65">65</th><td><a class="typedef" href="api/yajl_parse.h.html#yajl_status" title='yajl_status' data-type='enum yajl_status' data-ref="yajl_status">yajl_status</a></td></tr>
+<tr><th id="66">66</th><td><dfn class="decl" id="yajl_do_finish" title='yajl_do_finish' data-ref="yajl_do_finish">yajl_do_finish</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col9 decl" id="79handle" title='handle' data-type='yajl_handle' data-ref="79handle">handle</dfn>);</td></tr>
+<tr><th id="67">67</th><td></td></tr>
+<tr><th id="68">68</th><td><em>unsigned</em> <em>char</em> *</td></tr>
+<tr><th id="69">69</th><td><dfn class="decl" id="yajl_render_error_string" title='yajl_render_error_string' data-ref="yajl_render_error_string">yajl_render_error_string</dfn>(<a class="typedef" href="api/yajl_parse.h.html#yajl_handle" title='yajl_handle' data-type='struct yajl_handle_t *' data-ref="yajl_handle">yajl_handle</a> <dfn class="local col0 decl" id="80hand" title='hand' data-type='yajl_handle' data-ref="80hand">hand</dfn>, <em>const</em> <em>unsigned</em> <em>char</em> * <dfn class="local col1 decl" id="81jsonText" title='jsonText' data-type='const unsigned char *' data-ref="81jsonText">jsonText</dfn>,</td></tr>
+<tr><th id="70">70</th><td>                         <span class='typedef' title='size_t' data-type='unsigned long' data-ref="size_t">size_t</span> <dfn class="local col2 decl" id="82jsonTextLen" title='jsonTextLen' data-type='size_t' data-ref="82jsonTextLen">jsonTextLen</dfn>, <em>int</em> <dfn class="local col3 decl" id="83verbose" title='verbose' data-type='int' data-ref="83verbose">verbose</dfn>);</td></tr>
+<tr><th id="71">71</th><td></td></tr>
+<tr><th id="72">72</th><td><i>/* A little built in integer parsing routine with the same semantics as strtol</i></td></tr>
+<tr><th id="73">73</th><td><i> * that's unaffected by LOCALE. */</i></td></tr>
+<tr><th id="74">74</th><td><em>long</em> <em>long</em></td></tr>
+<tr><th id="75">75</th><td><dfn class="decl" id="yajl_parse_integer" title='yajl_parse_integer' data-ref="yajl_parse_integer">yajl_parse_integer</dfn>(<em>const</em> <em>unsigned</em> <em>char</em> *<dfn class="local col4 decl" id="84number" title='number' data-type='const unsigned char *' data-ref="84number">number</dfn>, <em>unsigned</em> <em>int</em> <dfn class="local col5 decl" id="85length" title='length' data-type='unsigned int' data-ref="85length">length</dfn>);</td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td></td></tr>
+<tr><th id="78">78</th><td><u>#<span data-ppcond="17">endif</span></u></td></tr>
+<tr><th id="79">79</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='yajl.c.html'>codebrowser/src/cdogs/yajl/yajl.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

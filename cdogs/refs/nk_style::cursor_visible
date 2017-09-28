@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='3337' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16615' u='w' c='nk_style_show_cursor'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16621' u='w' c='nk_style_hide_cursor'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16645' u='w' c='nk_style_load_all_cursors'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16995' u='r' c='nk_build'/>
+<offset>640</offset>

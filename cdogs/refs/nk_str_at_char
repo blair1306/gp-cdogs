@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2326' type='char * nk_str_at_char(struct nk_str * , int pos)'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='6654' ll='6660' macro='1' type='char * nk_str_at_char(struct nk_str * s, int pos)'/>

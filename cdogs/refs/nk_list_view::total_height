@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1365' type='int'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21491' u='w' c='nk_list_view_begin'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='21514' u='r' c='nk_list_view_end'/>
+<offset>96</offset>
+<doc f='codebrowser/src/nuklear/nuklear.h' l='1364'>/* private: */</doc>

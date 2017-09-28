@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='102' type='json_t *'/>
+<offset>2624</offset>
+<doc f='codebrowser/src/cdogs/bullet_class.h' l='101'>// Temporary JSON object for two-step bullet loading</doc>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='726' u='w' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='804' u='r' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='809' u='r' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='813' u='r' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='816' u='r' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='817' u='r' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='818' u='r' c='BulletClassesLoadWeapons'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='820' u='w' c='BulletClassesLoadWeapons'/>

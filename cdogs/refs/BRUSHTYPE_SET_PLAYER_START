@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogsed/editor_brush.h' l='55' type='8'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='345' c='EditorBrushStartPainting'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static.c' l='183' u='r' c='BrushIsBrushTypeAddItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_static_additem.c' l='48' u='r' c='BrushSetBrushTypeSetPlayerStart'/>

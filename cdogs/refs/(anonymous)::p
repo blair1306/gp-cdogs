@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/emitter.h' l='34' type='const ParticleClass *'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/emitter.c' l='39' u='w' c='EmitterInit'/>
+<use f='codebrowser/src/cdogs/emitter.c' l='57' u='r' c='EmitterStart'/>

@@ -1,0 +1,8 @@
+<dec f='codebrowser/src/cdogs/log.h' l='46' type='9'/>
+<use f='codebrowser/src/cdogs/log.c' l='57' u='r' c='LogModuleName'/>
+<use f='codebrowser/src/cdogs/log.c' l='63' u='r' c='StrLogModule'/>
+<use f='codebrowser/src/cdogs/log.c' l='72' u='r' c='LogModuleGetLevel'/>
+<use f='codebrowser/src/cdogs/log.c' l='78' u='r' c='LogModuleSetLevel'/>
+<use f='codebrowser/src/command_line.c' l='66' u='r' c='PrintHelp'/>
+<use f='codebrowser/src/command_line.c' l='69' u='r' c='PrintHelp'/>
+<use f='codebrowser/src/command_line.c' l='190' u='r' c='ParseArgs'/>

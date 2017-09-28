@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/map.h' l='127' type='int MapGetDoorKeycardFlag(Map * map, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='309' u='c' c='IsTileWalkableOrOpenable'/>
+<use f='codebrowser/src/cdogs/automap.c' l='178' u='c' c='DoorColor'/>
+<def f='codebrowser/src/cdogs/map.c' l='556' ll='567' type='int MapGetDoorKeycardFlag(Map * map, Vec2i pos)'/>
+<doc f='codebrowser/src/cdogs/map.c' l='553'>// Need to check the flags around the door tile because it&apos;s the
+// triggers that contain the right flags
+// TODO: refactor door</doc>

@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='9086' type='float'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='9746' u='r' c='nk_tt__new_active'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='10184' u='w' c='nk_tt__rasterize'/>
+<offset>64</offset>

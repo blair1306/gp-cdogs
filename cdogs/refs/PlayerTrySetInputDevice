@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/player.h' l='104' type='_Bool PlayerTrySetInputDevice(PlayerData * p, const input_device_e d, const int idx)'/>
+<use f='codebrowser/src/cdogs/events.c' l='109' u='c' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='126' u='c' c='EventPoll'/>
+<def f='codebrowser/src/cdogs/player.c' l='439' ll='451' macro='1' type='_Bool PlayerTrySetInputDevice(PlayerData * p, const input_device_e d, const int idx)'/>
+<use f='codebrowser/src/cdogs/player.c' l='465' u='c' c='PlayerTrySetUnusedInputDevice'/>
+<use f='codebrowser/src/prep.c' l='369' u='c' c='PlayerSelectionOnExit'/>

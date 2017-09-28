@@ -1,0 +1,13 @@
+<dec f='codebrowser/src/game_loop.h' l='46' type='CArray'/>
+<offset>0</offset>
+<doc f='codebrowser/src/game_loop.h' l='46'>// of GameLoopData *</doc>
+<use f='codebrowser/src/game_loop.c' l='150' u='a' c='LoopRunnerNew'/>
+<use f='codebrowser/src/game_loop.c' l='160' u='m' c='LoopRunnerTerminate'/>
+<use f='codebrowser/src/game_loop.c' l='162' u='a' c='LoopRunnerTerminate'/>
+<use f='codebrowser/src/game_loop.c' l='165' u='a' c='LoopRunnerTerminate'/>
+<use f='codebrowser/src/game_loop.c' l='352' u='a' c='LoopRunnerPush'/>
+<use f='codebrowser/src/game_loop.c' l='359' u='a' c='LoopRunnerPop'/>
+<use f='codebrowser/src/game_loop.c' l='359' u='m' c='LoopRunnerPop'/>
+<use f='codebrowser/src/game_loop.c' l='395' u='m' c='GetCurrentLoop'/>
+<use f='codebrowser/src/game_loop.c' l='399' u='a' c='GetCurrentLoop'/>
+<use f='codebrowser/src/game_loop.c' l='399' u='m' c='GetCurrentLoop'/>

@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='41' type='2'/>
+<doc f='codebrowser/src/cdogs/yajl/api/yajl_gen.h' l='39'>/** YAJL&apos;s maximum generation depth was exceeded.  see
+         *  YAJL_MAX_DEPTH */</doc>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='180' u='r' c='yajl_gen_map_open'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='180' u='r' c='yajl_gen_array_open'/>

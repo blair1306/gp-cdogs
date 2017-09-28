@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/objective.h' l='92' type='void ObjectiveSetup(Objective * o)'/>
+<doc f='codebrowser/src/cdogs/objective.h' l='91'>// Setup the objective counters for mission initialisation</doc>
+<use f='codebrowser/src/cdogs/mission.c' l='253' u='c' c='SetupObjectives'/>
+<def f='codebrowser/src/cdogs/objective.c' l='146' ll='150' type='void ObjectiveSetup(Objective * o)'/>

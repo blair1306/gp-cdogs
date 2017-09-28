@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/cdogs/config.h' l='225' type='CArray * ConfigGetGroup(Config * c, const char * name)'/>
+<def f='codebrowser/src/cdogs/config.c' l='508' ll='513' type='CArray * ConfigGetGroup(Config * c, const char * name)'/>

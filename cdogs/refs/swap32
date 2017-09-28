@@ -1,0 +1,2 @@
+<def f='codebrowser/src/cdogs/files.c' l='78' ll='84' type='void swap32(void * d)'/>
+<use f='codebrowser/src/cdogs/files.c' l='96' u='c' c='f_read32'/>

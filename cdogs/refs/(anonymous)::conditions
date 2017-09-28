@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/triggers.h' l='120' type='CArray'/>
+<offset>64</offset>
+<doc f='codebrowser/src/cdogs/triggers.h' l='120'>// of Condition</doc>
+<use f='codebrowser/src/cdogs/triggers.c' l='93' u='a' c='WatchNew'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='107' u='a' c='WatchAddCondition'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='108' u='a' c='WatchAddCondition'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='108' u='m' c='WatchAddCondition'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='126' u='m' c='ActivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='128' u='a' c='ActivateWatch'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='156' u='a' c='WatchesTerminate'/>
+<use f='codebrowser/src/cdogs/triggers.c' l='281' u='a' c='UpdateWatches'/>

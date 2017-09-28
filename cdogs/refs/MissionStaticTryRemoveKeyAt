@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/mission_convert.h' l='45' type='_Bool MissionStaticTryRemoveKeyAt(Mission * m, Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='466' u='c' c='MissionStaticTryAddKey'/>
+<def f='codebrowser/src/cdogs/mission_convert.c' l='494' ll='513' macro='1' type='_Bool MissionStaticTryRemoveKeyAt(Mission * m, Vec2i pos)'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='412' u='c' c='EditorBrushStartPainting'/>

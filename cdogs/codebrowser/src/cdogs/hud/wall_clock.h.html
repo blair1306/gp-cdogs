@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>wall_clock.h source code [codebrowser/src/cdogs/hud/wall_clock.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/hud/wall_clock.h'; var root_path = '../../../..'; var data_path = '../../../../../data';</script>
+<script src='../../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../../..'>codebrowser</a>/<a href='../..'>src</a>/<a href='..'>cdogs</a>/<a href='./'>hud</a>/<a href='wall_clock.h.html'>wall_clock.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i></i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (c) 2013-2016, Cong Xu</i></td></tr>
+<tr><th id="6">6</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="9">9</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="10">10</th><td><i></i></td></tr>
+<tr><th id="11">11</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="12">12</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="13">13</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="14">14</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="15">15</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="16">16</th><td><i></i></td></tr>
+<tr><th id="17">17</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="18">18</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="19">19</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="20">20</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="21">21</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="22">22</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="23">23</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="24">24</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="25">25</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="26">26</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="27">27</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="28">28</th><td><i>*/</i></td></tr>
+<tr><th id="29">29</th><td><u>#pragma once</u></td></tr>
+<tr><th id="30">30</th><td></td></tr>
+<tr><th id="31">31</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="32">32</th><td>{</td></tr>
+<tr><th id="33">33</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::elapsed" title='(anonymous struct)::elapsed' data-ref="(anonymous)::elapsed">elapsed</dfn>;</td></tr>
+<tr><th id="34">34</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::hours" title='(anonymous struct)::hours' data-ref="(anonymous)::hours">hours</dfn>;</td></tr>
+<tr><th id="35">35</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::minutes" title='(anonymous struct)::minutes' data-ref="(anonymous)::minutes">minutes</dfn>;</td></tr>
+<tr><th id="36">36</th><td>} <dfn class="typedef" id="WallClock" title='WallClock' data-type='struct WallClock' data-ref="WallClock">WallClock</dfn>;</td></tr>
+<tr><th id="37">37</th><td></td></tr>
+<tr><th id="38">38</th><td><em>void</em> <dfn class="decl" id="WallClockInit" title='WallClockInit' data-ref="WallClockInit">WallClockInit</dfn>(<a class="typedef" href="#WallClock" title='WallClock' data-type='struct WallClock' data-ref="WallClock">WallClock</a> *<dfn class="local col9 decl" id="69clock" title='clock' data-type='WallClock *' data-ref="69clock">clock</dfn>);</td></tr>
+<tr><th id="39">39</th><td><em>void</em> <dfn class="decl" id="WallClockUpdate" title='WallClockUpdate' data-ref="WallClockUpdate">WallClockUpdate</dfn>(<a class="typedef" href="#WallClock" title='WallClock' data-type='struct WallClock' data-ref="WallClock">WallClock</a> *<dfn class="local col0 decl" id="70clock" title='clock' data-type='WallClock *' data-ref="70clock">clock</dfn>, <em>int</em> <dfn class="local col1 decl" id="71ms" title='ms' data-type='int' data-ref="71ms">ms</dfn>);</td></tr>
+<tr><th id="40">40</th><td><em>void</em> <dfn class="decl" id="WallClockDraw" title='WallClockDraw' data-ref="WallClockDraw">WallClockDraw</dfn>(<a class="typedef" href="#WallClock" title='WallClock' data-type='struct WallClock' data-ref="WallClock">WallClock</a> *<dfn class="local col2 decl" id="72clock" title='clock' data-type='WallClock *' data-ref="72clock">clock</dfn>);</td></tr>
+<tr><th id="41">41</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../../cdogs.c.html'>codebrowser/src/cdogs.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

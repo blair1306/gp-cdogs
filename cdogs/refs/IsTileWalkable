@@ -1,0 +1,6 @@
+<dec f='codebrowser/src/cdogs/ai_utils.h' l='84' type='_Bool IsTileWalkable(Map * map, const Vec2i pos)'/>
+<def f='codebrowser/src/cdogs/ai_utils.c' l='224' ll='246' macro='1' type='_Bool IsTileWalkable(Map * map, const Vec2i pos)'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='249' u='c' c='IsTileNoWalk'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='441' u='r' c='AIHasPath'/>
+<use f='codebrowser/src/cdogs/ai_utils.c' l='546' u='r' c='AIGoto'/>
+<use f='codebrowser/src/cdogs/path_cache.c' l='125' u='r' c='PathCacheCreate'/>

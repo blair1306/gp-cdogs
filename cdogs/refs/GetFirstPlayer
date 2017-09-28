@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/player.h' l='90' type='const PlayerData * GetFirstPlayer(const _Bool alive, const _Bool human, const _Bool local)'/>
+<use f='codebrowser/src/cdogs/camera.c' l='396' u='c' c='CameraDrawMode'/>
+<use f='codebrowser/src/cdogs/player.c' l='295' u='c' c='GetNumPlayersScreen'/>
+<def f='codebrowser/src/cdogs/player.c' l='311' ll='323' type='const PlayerData * GetFirstPlayer(const _Bool alive, const _Bool human, const _Bool local)'/>

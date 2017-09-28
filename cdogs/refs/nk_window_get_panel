@@ -1,0 +1,2 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='1172' type='struct nk_panel * nk_window_get_panel(struct nk_context * )'/>
+<def f='codebrowser/src/nuklear/nuklear.h' l='18261' ll='18268' macro='1' type='struct nk_panel * nk_window_get_panel(struct nk_context * ctx)'/>

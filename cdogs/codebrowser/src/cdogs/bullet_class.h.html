@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>bullet_class.h source code [codebrowser/src/cdogs/bullet_class.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/bullet_class.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='bullet_class.h.html'>bullet_class.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin </i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King </i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2015, Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include <a href="../json/json.h.html">&lt;json/json.h&gt;</a></u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="proto/msg.pb.h.html">"proto/msg.pb.h"</a></u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><u>#include <a href="particle.h.html">"particle.h"</a></u></td></tr>
+<tr><th id="56">56</th><td><u>#include <a href="sounds.h.html">"sounds.h"</a></u></td></tr>
+<tr><th id="57">57</th><td><u>#include <a href="tile.h.html">"tile.h"</a></u></td></tr>
+<tr><th id="58">58</th><td></td></tr>
+<tr><th id="59">59</th><td><b>struct</b> <dfn class="type" id="MobileObject" title='MobileObject' data-ref="MobileObject">MobileObject</dfn>;</td></tr>
+<tr><th id="60">60</th><td><b>typedef</b> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> (*<dfn class="typedef" id="BulletUpdateFunc" title='BulletUpdateFunc' data-type='_Bool (*)(struct MobileObject *, int)' data-ref="BulletUpdateFunc">BulletUpdateFunc</dfn>)(<b>struct</b> <a class="type" href="#MobileObject" title='MobileObject' data-ref="MobileObject">MobileObject</a> *, <em>int</em>);</td></tr>
+<tr><th id="61">61</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="62">62</th><td>{</td></tr>
+<tr><th id="63">63</th><td>	<em>char</em> *<dfn class="decl" id="(anonymous)::Name" title='(anonymous struct)::Name' data-ref="(anonymous)::Name">Name</dfn>;</td></tr>
+<tr><th id="64">64</th><td>	<a class="typedef" href="cpic.h.html#CPic" title='CPic' data-type='struct CPic' data-ref="CPic">CPic</a> <dfn class="decl" id="(anonymous)::CPic" title='(anonymous struct)::CPic' data-ref="(anonymous)::CPic">CPic</dfn>;</td></tr>
+<tr><th id="65">65</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::ShadowSize" title='(anonymous struct)::ShadowSize' data-ref="(anonymous)::ShadowSize">ShadowSize</dfn>;</td></tr>
+<tr><th id="66">66</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Delay" title='(anonymous struct)::Delay' data-ref="(anonymous)::Delay">Delay</dfn>;	<i>// number of frames before moving</i></td></tr>
+<tr><th id="67">67</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::SpeedLow" title='(anonymous struct)::SpeedLow' data-ref="(anonymous)::SpeedLow">SpeedLow</dfn>;</td></tr>
+<tr><th id="68">68</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::SpeedHigh" title='(anonymous struct)::SpeedHigh' data-ref="(anonymous)::SpeedHigh">SpeedHigh</dfn>;</td></tr>
+<tr><th id="69">69</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::SpeedScale" title='(anonymous struct)::SpeedScale' data-ref="(anonymous)::SpeedScale">SpeedScale</dfn>;	<i>// whether to scale X/Y speed based on perspective</i></td></tr>
+<tr><th id="70">70</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Friction" title='(anonymous struct)::Friction' data-ref="(anonymous)::Friction">Friction</dfn>;	<i>// Amount to subtract from velocity per tick</i></td></tr>
+<tr><th id="71">71</th><td>	<i>// -1 is infinite range</i></td></tr>
+<tr><th id="72">72</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::RangeLow" title='(anonymous struct)::RangeLow' data-ref="(anonymous)::RangeLow">RangeLow</dfn>;</td></tr>
+<tr><th id="73">73</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::RangeHigh" title='(anonymous struct)::RangeHigh' data-ref="(anonymous)::RangeHigh">RangeHigh</dfn>;</td></tr>
+<tr><th id="74">74</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Power" title='(anonymous struct)::Power' data-ref="(anonymous)::Power">Power</dfn>;</td></tr>
+<tr><th id="75">75</th><td>	<em>double</em> <dfn class="decl" id="(anonymous)::Mass" title='(anonymous struct)::Mass' data-ref="(anonymous)::Mass">Mass</dfn>;</td></tr>
+<tr><th id="76">76</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Size" title='(anonymous struct)::Size' data-ref="(anonymous)::Size">Size</dfn>;</td></tr>
+<tr><th id="77">77</th><td>	<a class="typedef" href="defs.h.html#special_damage_e" title='special_damage_e' data-type='enum special_damage_e' data-ref="special_damage_e">special_damage_e</a> <dfn class="decl" id="(anonymous)::Special" title='(anonymous struct)::Special' data-ref="(anonymous)::Special">Special</dfn>;</td></tr>
+<tr><th id="78">78</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::HurtAlways" title='(anonymous struct)::HurtAlways' data-ref="(anonymous)::HurtAlways">HurtAlways</dfn>;</td></tr>
+<tr><th id="79">79</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Persists" title='(anonymous struct)::Persists' data-ref="(anonymous)::Persists">Persists</dfn>;	<i>// remains even after hitting walls/items</i></td></tr>
+<tr><th id="80">80</th><td>	<em>const</em> <a class="typedef" href="particle.h.html#ParticleClass" title='ParticleClass' data-type='struct ParticleClass' data-ref="ParticleClass">ParticleClass</a> *<dfn class="decl" id="(anonymous)::Spark" title='(anonymous struct)::Spark' data-ref="(anonymous)::Spark">Spark</dfn>;</td></tr>
+<tr><th id="81">81</th><td>	<em>const</em> <a class="typedef" href="particle.h.html#ParticleClass" title='ParticleClass' data-type='struct ParticleClass' data-ref="ParticleClass">ParticleClass</a> *<dfn class="decl" id="(anonymous)::OutOfRangeSpark" title='(anonymous struct)::OutOfRangeSpark' data-ref="(anonymous)::OutOfRangeSpark">OutOfRangeSpark</dfn>;</td></tr>
+<tr><th id="82">82</th><td>	<a class="typedef" href="sounds.h.html#HitSounds" title='HitSounds' data-type='struct HitSounds' data-ref="HitSounds">HitSounds</a> <dfn class="decl" id="(anonymous)::HitSound" title='(anonymous struct)::HitSound' data-ref="(anonymous)::HitSound">HitSound</dfn>;</td></tr>
+<tr><th id="83">83</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::WallBounces" title='(anonymous struct)::WallBounces' data-ref="(anonymous)::WallBounces">WallBounces</dfn>;</td></tr>
+<tr><th id="84">84</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::HitsObjects" title='(anonymous struct)::HitsObjects' data-ref="(anonymous)::HitsObjects">HitsObjects</dfn>;</td></tr>
+<tr><th id="85">85</th><td>	<b>struct</b></td></tr>
+<tr><th id="86">86</th><td>	{</td></tr>
+<tr><th id="87">87</th><td>		<em>int</em> <dfn class="decl" id="(anonymousstruct)::(anonymous)::GravityFactor" title='(anonymous struct)::(anonymous struct)::GravityFactor' data-ref="(anonymousstruct)::(anonymous)::GravityFactor">GravityFactor</dfn>;	<i>// 0 for non-falling bullets</i></td></tr>
+<tr><th id="88">88</th><td>		<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymousstruct)::(anonymous)::FallsDown" title='(anonymous struct)::(anonymous struct)::FallsDown' data-ref="(anonymousstruct)::(anonymous)::FallsDown">FallsDown</dfn>;	<i>// if false, DZ is never negative</i></td></tr>
+<tr><th id="89">89</th><td>		<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymousstruct)::(anonymous)::DestroyOnDrop" title='(anonymous struct)::(anonymous struct)::DestroyOnDrop' data-ref="(anonymousstruct)::(anonymous)::DestroyOnDrop">DestroyOnDrop</dfn>;</td></tr>
+<tr><th id="90">90</th><td>		<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymousstruct)::(anonymous)::Bounces" title='(anonymous struct)::(anonymous struct)::Bounces' data-ref="(anonymousstruct)::(anonymous)::Bounces">Bounces</dfn>;</td></tr>
+<tr><th id="91">91</th><td>		<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymousstruct)::(anonymous)::DropGuns" title='(anonymous struct)::(anonymous struct)::DropGuns' data-ref="(anonymousstruct)::(anonymous)::DropGuns">DropGuns</dfn>;	<i>// of const GunDescription *</i></td></tr>
+<tr><th id="92">92</th><td>	} <dfn class="decl" id="(anonymous)::Falling" title='(anonymous struct)::Falling' data-ref="(anonymous)::Falling">Falling</dfn>;</td></tr>
+<tr><th id="93">93</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::SeekFactor" title='(anonymous struct)::SeekFactor' data-ref="(anonymous)::SeekFactor">SeekFactor</dfn>;	<i>// -1 to disable; higher = less seeking</i></td></tr>
+<tr><th id="94">94</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Erratic" title='(anonymous struct)::Erratic' data-ref="(anonymous)::Erratic">Erratic</dfn>;</td></tr>
+<tr><th id="95">95</th><td></td></tr>
+<tr><th id="96">96</th><td>	<i>// Special weapons to fire if certain events occur</i></td></tr>
+<tr><th id="97">97</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::OutOfRangeGuns" title='(anonymous struct)::OutOfRangeGuns' data-ref="(anonymous)::OutOfRangeGuns">OutOfRangeGuns</dfn>;	<i>// of const GunDescription *</i></td></tr>
+<tr><th id="98">98</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::HitGuns" title='(anonymous struct)::HitGuns' data-ref="(anonymous)::HitGuns">HitGuns</dfn>;	<i>// of const GunDescription *</i></td></tr>
+<tr><th id="99">99</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::ProximityGuns" title='(anonymous struct)::ProximityGuns' data-ref="(anonymous)::ProximityGuns">ProximityGuns</dfn>;	<i>// of const GunDescription *</i></td></tr>
+<tr><th id="100">100</th><td></td></tr>
+<tr><th id="101">101</th><td>	<i>// Temporary JSON object for two-step bullet loading</i></td></tr>
+<tr><th id="102">102</th><td>	<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="(anonymous)::node" title='(anonymous struct)::node' data-ref="(anonymous)::node">node</dfn>;</td></tr>
+<tr><th id="103">103</th><td>} <dfn class="typedef" id="BulletClass" title='BulletClass' data-type='struct BulletClass' data-ref="BulletClass">BulletClass</dfn>;</td></tr>
+<tr><th id="104">104</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="105">105</th><td>{</td></tr>
+<tr><th id="106">106</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::Classes" title='(anonymous struct)::Classes' data-ref="(anonymous)::Classes">Classes</dfn>;	<i>// of BulletClass</i></td></tr>
+<tr><th id="107">107</th><td>	<a class="typedef" href="#BulletClass" title='BulletClass' data-type='struct BulletClass' data-ref="BulletClass">BulletClass</a> <dfn class="decl" id="(anonymous)::Default" title='(anonymous struct)::Default' data-ref="(anonymous)::Default">Default</dfn>;</td></tr>
+<tr><th id="108">108</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::CustomClasses" title='(anonymous struct)::CustomClasses' data-ref="(anonymous)::CustomClasses">CustomClasses</dfn>;	<i>// of BulletClass</i></td></tr>
+<tr><th id="109">109</th><td>	<a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="decl" id="(anonymous)::root" title='(anonymous struct)::root' data-ref="(anonymous)::root">root</dfn>;</td></tr>
+<tr><th id="110">110</th><td>} <dfn class="typedef" id="BulletClasses" title='BulletClasses' data-type='struct BulletClasses' data-ref="BulletClasses">BulletClasses</dfn>;</td></tr>
+<tr><th id="111">111</th><td><b>extern</b> <a class="typedef" href="#BulletClasses" title='BulletClasses' data-type='struct BulletClasses' data-ref="BulletClasses">BulletClasses</a> <dfn class="decl" id="gBulletClasses" title='gBulletClasses' data-ref="gBulletClasses">gBulletClasses</dfn>;</td></tr>
+<tr><th id="112">112</th><td></td></tr>
+<tr><th id="113">113</th><td><a class="typedef" href="#BulletClass" title='BulletClass' data-type='struct BulletClass' data-ref="BulletClass">BulletClass</a> *<dfn class="decl" id="StrBulletClass" title='StrBulletClass' data-ref="StrBulletClass">StrBulletClass</dfn>(<em>const</em> <em>char</em> *<dfn class="local col2 decl" id="2402s" title='s' data-type='const char *' data-ref="2402s">s</dfn>);</td></tr>
+<tr><th id="114">114</th><td></td></tr>
+<tr><th id="115">115</th><td><em>void</em> <dfn class="decl" id="BulletInitialize" title='BulletInitialize' data-ref="BulletInitialize">BulletInitialize</dfn>(<a class="typedef" href="#BulletClasses" title='BulletClasses' data-type='struct BulletClasses' data-ref="BulletClasses">BulletClasses</a> *<dfn class="local col3 decl" id="2403bullets" title='bullets' data-type='BulletClasses *' data-ref="2403bullets">bullets</dfn>);</td></tr>
+<tr><th id="116">116</th><td><em>void</em> <dfn class="decl" id="BulletLoadJSON" title='BulletLoadJSON' data-ref="BulletLoadJSON">BulletLoadJSON</dfn>(</td></tr>
+<tr><th id="117">117</th><td>	<a class="typedef" href="#BulletClasses" title='BulletClasses' data-type='struct BulletClasses' data-ref="BulletClasses">BulletClasses</a> *<dfn class="local col4 decl" id="2404bullets" title='bullets' data-type='BulletClasses *' data-ref="2404bullets">bullets</dfn>, <a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col5 decl" id="2405classes" title='classes' data-type='CArray *' data-ref="2405classes">classes</dfn>, <a class="typedef" href="../json/json.h.html#json_t" title='json_t' data-type='struct json_value' data-ref="json_t">json_t</a> *<dfn class="local col6 decl" id="2406bulletNode" title='bulletNode' data-type='json_t *' data-ref="2406bulletNode">bulletNode</dfn>);</td></tr>
+<tr><th id="118">118</th><td><i>// 2-step initialisation since bullet and weapon reference each other</i></td></tr>
+<tr><th id="119">119</th><td><em>void</em> <dfn class="decl" id="BulletLoadWeapons" title='BulletLoadWeapons' data-ref="BulletLoadWeapons">BulletLoadWeapons</dfn>(<a class="typedef" href="#BulletClasses" title='BulletClasses' data-type='struct BulletClasses' data-ref="BulletClasses">BulletClasses</a> *<dfn class="local col7 decl" id="2407bullets" title='bullets' data-type='BulletClasses *' data-ref="2407bullets">bullets</dfn>);</td></tr>
+<tr><th id="120">120</th><td><em>void</em> <dfn class="decl" id="BulletClassesClear" title='BulletClassesClear' data-ref="BulletClassesClear">BulletClassesClear</dfn>(<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> *<dfn class="local col8 decl" id="2408classes" title='classes' data-type='CArray *' data-ref="2408classes">classes</dfn>);</td></tr>
+<tr><th id="121">121</th><td><em>void</em> <dfn class="decl" id="BulletTerminate" title='BulletTerminate' data-ref="BulletTerminate">BulletTerminate</dfn>(<a class="typedef" href="#BulletClasses" title='BulletClasses' data-type='struct BulletClasses' data-ref="BulletClasses">BulletClasses</a> *<dfn class="local col9 decl" id="2409bullets" title='bullets' data-type='BulletClasses *' data-ref="2409bullets">bullets</dfn>);</td></tr>
+<tr><th id="122">122</th><td></td></tr>
+<tr><th id="123">123</th><td><em>void</em> <dfn class="decl" id="BulletAdd" title='BulletAdd' data-ref="BulletAdd">BulletAdd</dfn>(<em>const</em> <a class="typedef" href="proto/msg.pb.h.html#NAddBullet" title='NAddBullet' data-type='struct _NAddBullet' data-ref="NAddBullet">NAddBullet</a> <dfn class="local col0 decl" id="2410add" title='add' data-type='const NAddBullet' data-ref="2410add">add</dfn>);</td></tr>
+<tr><th id="124">124</th><td></td></tr>
+<tr><th id="125">125</th><td><span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="UpdateBullet" title='UpdateBullet' data-ref="UpdateBullet">UpdateBullet</dfn>(<b>struct</b> <a class="type" href="#MobileObject" title='MobileObject' data-ref="MobileObject">MobileObject</a> *<dfn class="local col1 decl" id="2411obj" title='obj' data-type='struct MobileObject *' data-ref="2411obj">obj</dfn>, <em>const</em> <em>int</em> <dfn class="local col2 decl" id="2412ticks" title='ticks' data-type='const int' data-ref="2412ticks">ticks</dfn>);</td></tr>
+<tr><th id="126">126</th><td></td></tr>
+<tr><th id="127">127</th><td><i>// Type of material that the bullet hit</i></td></tr>
+<tr><th id="128">128</th><td><b>typedef</b> <b>enum</b></td></tr>
+<tr><th id="129">129</th><td>{</td></tr>
+<tr><th id="130">130</th><td>	<dfn class="enum" id="HIT_NONE" title='HIT_NONE' data-ref="HIT_NONE">HIT_NONE</dfn>,</td></tr>
+<tr><th id="131">131</th><td>	<dfn class="enum" id="HIT_WALL" title='HIT_WALL' data-ref="HIT_WALL">HIT_WALL</dfn>,</td></tr>
+<tr><th id="132">132</th><td>	<dfn class="enum" id="HIT_OBJECT" title='HIT_OBJECT' data-ref="HIT_OBJECT">HIT_OBJECT</dfn>,</td></tr>
+<tr><th id="133">133</th><td>	<dfn class="enum" id="HIT_FLESH" title='HIT_FLESH' data-ref="HIT_FLESH">HIT_FLESH</dfn></td></tr>
+<tr><th id="134">134</th><td>} <dfn class="typedef" id="HitType" title='HitType' data-type='enum HitType' data-ref="HitType">HitType</dfn>;</td></tr>
+<tr><th id="135">135</th><td><em>void</em> <dfn class="decl" id="PlayHitSound" title='PlayHitSound' data-ref="PlayHitSound">PlayHitSound</dfn>(<em>const</em> <a class="typedef" href="sounds.h.html#HitSounds" title='HitSounds' data-type='struct HitSounds' data-ref="HitSounds">HitSounds</a> *<dfn class="local col3 decl" id="2413h" title='h' data-type='const HitSounds *' data-ref="2413h">h</dfn>, <em>const</em> <a class="typedef" href="#HitType" title='HitType' data-type='enum HitType' data-ref="HitType">HitType</a> <dfn class="local col4 decl" id="2414t" title='t' data-type='const HitType' data-ref="2414t">t</dfn>, <em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col5 decl" id="2415realPos" title='realPos' data-type='const Vec2i' data-ref="2415realPos">realPos</dfn>);</td></tr>
+<tr><th id="136">136</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

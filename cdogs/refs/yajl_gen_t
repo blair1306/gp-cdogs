@@ -1,0 +1,9 @@
+<def f='codebrowser/src/cdogs/yajl/yajl_gen.c' l='38' ll='48'/>
+<size>576</size>
+<mbr r='yajl_gen_t::flags' o='0' t='unsigned int'/>
+<mbr r='yajl_gen_t::depth' o='32' t='unsigned int'/>
+<mbr r='yajl_gen_t::indentString' o='64' t='const char *'/>
+<mbr r='yajl_gen_t::state' o='128' t='yajl_gen_state [128]'/>
+<mbr r='yajl_gen_t::print' o='4224' t='yajl_print_t'/>
+<mbr r='yajl_gen_t::ctx' o='4288' t='void *'/>
+<mbr r='yajl_gen_t::alloc' o='4352' t='yajl_alloc_funcs'/>

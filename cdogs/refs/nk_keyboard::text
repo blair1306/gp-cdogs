@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/nuklear/nuklear.h' l='2748' type='char [16]'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='12139' u='a' c='nk_input_glyph'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='15028' u='r' c='nk_do_edit'/>
+<offset>1920</offset>

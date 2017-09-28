@@ -1,0 +1,5 @@
+<dec f='include/SDL2/SDL_haptic.h' l='788' type='Uint16'/>
+<offset>0</offset>
+<doc f='include/SDL2/SDL_haptic.h' l='787'>/* Common for all force feedback effects */</doc>
+<doc f='include/SDL2/SDL_haptic.h' l='788'>/**&lt; Effect type. */</doc>
+<use f='codebrowser/src/cdogs/joystick.c' l='178' u='w' c='JoyAdded'/>

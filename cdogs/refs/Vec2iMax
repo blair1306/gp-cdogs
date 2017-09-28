@@ -1,0 +1,7 @@
+<dec f='codebrowser/src/cdogs/vector.h' l='56' type='Vec2i Vec2iMax(Vec2i a, Vec2i b)'/>
+<doc f='codebrowser/src/cdogs/vector.h' l='56'>// Get max x and y of both vectors</doc>
+<use f='codebrowser/src/cdogs/map_build.c' l='761' u='c' c='MapGetRoomOverlapSize'/>
+<use f='codebrowser/src/cdogs/map_build.c' l='839' u='c' c='MapIsLessThanTwoWallOverlaps'/>
+<def f='codebrowser/src/cdogs/vector.c' l='117' ll='120' type='Vec2i Vec2iMax(Vec2i a, Vec2i b)'/>
+<use f='codebrowser/src/cdogsed/editor_brush.c' l='623' u='c' c='EditorBrushStopPainting'/>
+<use f='codebrowser/src/cdogsed/ui_object.c' l='157' u='c' c='UIObjectAddChild'/>

@@ -1,0 +1,3 @@
+<def f='codebrowser/src/nuklear/nuklear.h' l='16957' ll='16964' macro='1' type='void nk_finish_buffer(struct nk_context * ctx, struct nk_command_buffer * buffer)'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='16976' u='c' c='nk_finish'/>
+<use f='codebrowser/src/nuklear/nuklear.h' l='17007' u='c' c='nk_build'/>

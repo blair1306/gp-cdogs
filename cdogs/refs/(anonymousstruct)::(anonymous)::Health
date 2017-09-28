@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/pickup_class.h' l='55' type='int'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/pickup.c' l='146' u='r' c='PickupPickup'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='239' u='w' c='TryLoadPickupclass'/>
+<use f='codebrowser/src/cdogs/pickup_class.c' l='240' u='a' c='TryLoadPickupclass'/>

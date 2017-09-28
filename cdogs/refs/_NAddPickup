@@ -1,0 +1,8 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='267' ll='275'/>
+<size>152</size>
+<mbr r='_NAddPickup::UID' o='0' t='uint32_t'/>
+<mbr r='_NAddPickup::PickupClass' o='32' t='char [128]'/>
+<mbr r='_NAddPickup::IsRandomSpawned' o='1056' t='_Bool'/>
+<mbr r='_NAddPickup::SpawnerUID' o='1088' t='int32_t'/>
+<mbr r='_NAddPickup::TileItemFlags' o='1120' t='uint32_t'/>
+<mbr r='_NAddPickup::Pos' o='1152' t='NVec2i'/>

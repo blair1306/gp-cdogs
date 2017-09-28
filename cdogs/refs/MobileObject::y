@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/objs.h' l='83' type='int'/>
+<offset>224</offset>
+<use f='codebrowser/src/cdogs/ai_coop.c' l='155' u='r' c='AICoopGetCmdNormal'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='167' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='174' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='327' u='w' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='371' u='r' c='FireGuns'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='519' u='r' c='SetClosestCollision'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='879' u='w' c='BulletAdd'/>
+<use f='codebrowser/src/cdogs/handle_game_events.c' l='416' u='w' c='HandleGameEvent'/>

@@ -1,0 +1,11 @@
+<dec f='codebrowser/src/cdogs/files.h' l='113' type='char [40]'/>
+<offset>320</offset>
+<use f='codebrowser/src/cdogs/files.c' l='176' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='176' u='r' c='ScanCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='440' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='440' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='440' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='440' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='440' u='r' c='ConvertCampaignSetting'/>
+<use f='codebrowser/src/cdogs/files.c' l='490' u='r' c='LoadCampaignOld'/>
+<use f='codebrowser/src/cdogs/files.c' l='490' u='r' c='LoadCampaignOld'/>

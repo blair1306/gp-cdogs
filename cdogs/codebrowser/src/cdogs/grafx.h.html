@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>grafx.h source code [codebrowser/src/cdogs/grafx.h] - Woboq Code Browser</title>
+<link rel="stylesheet" href="../../../../data/qtcreator.css" title="QtCreator"/>
+<link rel="alternate stylesheet" href="../../../../data/kdevelop.css" title="KDevelop"/>
+<script type="text/javascript" src="../../../../data/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="../../../../data/jquery/jquery-ui.min.js"></script>
+<script>var file = 'codebrowser/src/cdogs/grafx.h'; var root_path = '../../..'; var data_path = '../../../../data';</script>
+<script src='../../../../data/codebrowser.js'></script>
+</head>
+<body><div id='header'><h1 id='breadcrumb'><span>Browse the source code of </span><a href='../..'>codebrowser</a>/<a href='..'>src</a>/<a href='./'>cdogs</a>/<a href='grafx.h.html'>grafx.h</a></h1></div>
+<hr/><div id='content'><table class="code">
+<tr><th id="1">1</th><td><i>/*</i></td></tr>
+<tr><th id="2">2</th><td><i>    C-Dogs SDL</i></td></tr>
+<tr><th id="3">3</th><td><i>    A port of the legendary (and fun) action/arcade cdogs.</i></td></tr>
+<tr><th id="4">4</th><td><i>    Copyright (C) 1995 Ronny Wester</i></td></tr>
+<tr><th id="5">5</th><td><i>    Copyright (C) 2003 Jeremy Chin</i></td></tr>
+<tr><th id="6">6</th><td><i>    Copyright (C) 2003-2007 Lucas Martin-King</i></td></tr>
+<tr><th id="7">7</th><td><i></i></td></tr>
+<tr><th id="8">8</th><td><i>    This program is free software; you can redistribute it and/or modify</i></td></tr>
+<tr><th id="9">9</th><td><i>    it under the terms of the GNU General Public License as published by</i></td></tr>
+<tr><th id="10">10</th><td><i>    the Free Software Foundation; either version 2 of the License, or</i></td></tr>
+<tr><th id="11">11</th><td><i>    (at your option) any later version.</i></td></tr>
+<tr><th id="12">12</th><td><i></i></td></tr>
+<tr><th id="13">13</th><td><i>    This program is distributed in the hope that it will be useful,</i></td></tr>
+<tr><th id="14">14</th><td><i>    but WITHOUT ANY WARRANTY; without even the implied warranty of</i></td></tr>
+<tr><th id="15">15</th><td><i>    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</i></td></tr>
+<tr><th id="16">16</th><td><i>    GNU General Public License for more details.</i></td></tr>
+<tr><th id="17">17</th><td><i></i></td></tr>
+<tr><th id="18">18</th><td><i>    You should have received a copy of the GNU General Public License</i></td></tr>
+<tr><th id="19">19</th><td><i>    along with this program; if not, write to the Free Software</i></td></tr>
+<tr><th id="20">20</th><td><i>    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA</i></td></tr>
+<tr><th id="21">21</th><td><i></i></td></tr>
+<tr><th id="22">22</th><td><i>    This file incorporates work covered by the following copyright and</i></td></tr>
+<tr><th id="23">23</th><td><i>    permission notice:</i></td></tr>
+<tr><th id="24">24</th><td><i></i></td></tr>
+<tr><th id="25">25</th><td><i>    Copyright (c) 2013-2017 Cong Xu</i></td></tr>
+<tr><th id="26">26</th><td><i>    All rights reserved.</i></td></tr>
+<tr><th id="27">27</th><td><i></i></td></tr>
+<tr><th id="28">28</th><td><i>    Redistribution and use in source and binary forms, with or without</i></td></tr>
+<tr><th id="29">29</th><td><i>    modification, are permitted provided that the following conditions are met:</i></td></tr>
+<tr><th id="30">30</th><td><i></i></td></tr>
+<tr><th id="31">31</th><td><i>    Redistributions of source code must retain the above copyright notice, this</i></td></tr>
+<tr><th id="32">32</th><td><i>    list of conditions and the following disclaimer.</i></td></tr>
+<tr><th id="33">33</th><td><i>    Redistributions in binary form must reproduce the above copyright notice,</i></td></tr>
+<tr><th id="34">34</th><td><i>    this list of conditions and the following disclaimer in the documentation</i></td></tr>
+<tr><th id="35">35</th><td><i>    and/or other materials provided with the distribution.</i></td></tr>
+<tr><th id="36">36</th><td><i></i></td></tr>
+<tr><th id="37">37</th><td><i>    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"</i></td></tr>
+<tr><th id="38">38</th><td><i>    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE</i></td></tr>
+<tr><th id="39">39</th><td><i>    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE</i></td></tr>
+<tr><th id="40">40</th><td><i>    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE</i></td></tr>
+<tr><th id="41">41</th><td><i>    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</i></td></tr>
+<tr><th id="42">42</th><td><i>    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</i></td></tr>
+<tr><th id="43">43</th><td><i>    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</i></td></tr>
+<tr><th id="44">44</th><td><i>    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</i></td></tr>
+<tr><th id="45">45</th><td><i>    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</i></td></tr>
+<tr><th id="46">46</th><td><i>    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</i></td></tr>
+<tr><th id="47">47</th><td><i>    POSSIBILITY OF SUCH DAMAGE.</i></td></tr>
+<tr><th id="48">48</th><td><i>*/</i></td></tr>
+<tr><th id="49">49</th><td><u>#pragma once</u></td></tr>
+<tr><th id="50">50</th><td></td></tr>
+<tr><th id="51">51</th><td><u>#include &lt;stdbool.h&gt;</u></td></tr>
+<tr><th id="52">52</th><td></td></tr>
+<tr><th id="53">53</th><td><u>#include <a href="../../../include/SDL2/SDL.h.html">&lt;SDL.h&gt;</a></u></td></tr>
+<tr><th id="54">54</th><td></td></tr>
+<tr><th id="55">55</th><td><u>#include <a href="c_array.h.html">"c_array.h"</a></u></td></tr>
+<tr><th id="56">56</th><td><u>#include <a href="color.h.html">"color.h"</a></u></td></tr>
+<tr><th id="57">57</th><td><u>#include <a href="config.h.html">"config.h"</a></u></td></tr>
+<tr><th id="58">58</th><td><u>#include <a href="vector.h.html">"vector.h"</a></u></td></tr>
+<tr><th id="59">59</th><td><u>#include <a href="sys_specifics.h.html">"sys_specifics.h"</a></u></td></tr>
+<tr><th id="60">60</th><td></td></tr>
+<tr><th id="61">61</th><td><u>#define <dfn class="macro" id="_M/RESTART_RESOLUTION" data-ref="_M/RESTART_RESOLUTION">RESTART_RESOLUTION</dfn> 1</u></td></tr>
+<tr><th id="62">62</th><td><u>#define <dfn class="macro" id="_M/RESTART_SCALE_MODE" data-ref="_M/RESTART_SCALE_MODE">RESTART_SCALE_MODE</dfn> 2</u></td></tr>
+<tr><th id="63">63</th><td><u>#define <dfn class="macro" id="_M/RESTART_BRIGHTNESS" data-ref="_M/RESTART_BRIGHTNESS">RESTART_BRIGHTNESS</dfn> 4</u></td></tr>
+<tr><th id="64">64</th><td><u>#define <dfn class="macro" id="_M/RESTART_ALL" data-ref="_M/RESTART_ALL">RESTART_ALL</dfn> -1</u></td></tr>
+<tr><th id="65">65</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="66">66</th><td>{</td></tr>
+<tr><th id="67">67</th><td>	<a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="decl" id="(anonymous)::Res" title='(anonymous struct)::Res' data-ref="(anonymous)::Res">Res</dfn>;</td></tr>
+<tr><th id="68">68</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::Fullscreen" title='(anonymous struct)::Fullscreen' data-ref="(anonymous)::Fullscreen">Fullscreen</dfn>;</td></tr>
+<tr><th id="69">69</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::ScaleFactor" title='(anonymous struct)::ScaleFactor' data-ref="(anonymous)::ScaleFactor">ScaleFactor</dfn>;</td></tr>
+<tr><th id="70">70</th><td>	<a class="typedef" href="config.h.html#ScaleMode" title='ScaleMode' data-type='enum ScaleMode' data-ref="ScaleMode">ScaleMode</a> <dfn class="decl" id="(anonymous)::ScaleMode" title='(anonymous struct)::ScaleMode' data-ref="(anonymous)::ScaleMode">ScaleMode</dfn>;</td></tr>
+<tr><th id="71">71</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::Brightness" title='(anonymous struct)::Brightness' data-ref="(anonymous)::Brightness">Brightness</dfn>;</td></tr>
+<tr><th id="72">72</th><td>	<span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="decl" id="(anonymous)::IsEditor" title='(anonymous struct)::IsEditor' data-ref="(anonymous)::IsEditor">IsEditor</dfn>;</td></tr>
+<tr><th id="73">73</th><td></td></tr>
+<tr><th id="74">74</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::RestartFlags" title='(anonymous struct)::RestartFlags' data-ref="(anonymous)::RestartFlags">RestartFlags</dfn>;</td></tr>
+<tr><th id="75">75</th><td>} <dfn class="typedef" id="GraphicsConfig" title='GraphicsConfig' data-type='struct GraphicsConfig' data-ref="GraphicsConfig">GraphicsConfig</dfn>;</td></tr>
+<tr><th id="76">76</th><td></td></tr>
+<tr><th id="77">77</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="78">78</th><td>{</td></tr>
+<tr><th id="79">79</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::left" title='(anonymous struct)::left' data-ref="(anonymous)::left">left</dfn>;</td></tr>
+<tr><th id="80">80</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::top" title='(anonymous struct)::top' data-ref="(anonymous)::top">top</dfn>;</td></tr>
+<tr><th id="81">81</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::right" title='(anonymous struct)::right' data-ref="(anonymous)::right">right</dfn>;</td></tr>
+<tr><th id="82">82</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::bottom" title='(anonymous struct)::bottom' data-ref="(anonymous)::bottom">bottom</dfn>;</td></tr>
+<tr><th id="83">83</th><td>} <dfn class="typedef" id="BlitClipping" title='BlitClipping' data-type='struct BlitClipping' data-ref="BlitClipping">BlitClipping</dfn>;</td></tr>
+<tr><th id="84">84</th><td></td></tr>
+<tr><th id="85">85</th><td><b>typedef</b> <b>struct</b></td></tr>
+<tr><th id="86">86</th><td>{</td></tr>
+<tr><th id="87">87</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::IsInitialized" title='(anonymous struct)::IsInitialized' data-ref="(anonymous)::IsInitialized">IsInitialized</dfn>;</td></tr>
+<tr><th id="88">88</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::IsWindowInitialized" title='(anonymous struct)::IsWindowInitialized' data-ref="(anonymous)::IsWindowInitialized">IsWindowInitialized</dfn>;</td></tr>
+<tr><th id="89">89</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_surface.h.html#SDL_Surface" title='SDL_Surface' data-type='struct SDL_Surface' data-ref="SDL_Surface">SDL_Surface</a> *<dfn class="decl" id="(anonymous)::icon" title='(anonymous struct)::icon' data-ref="(anonymous)::icon">icon</dfn>;</td></tr>
+<tr><th id="90">90</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_render.h.html#SDL_Texture" title='SDL_Texture' data-type='struct SDL_Texture' data-ref="SDL_Texture">SDL_Texture</a> *<dfn class="decl" id="(anonymous)::screen" title='(anonymous struct)::screen' data-ref="(anonymous)::screen">screen</dfn>;</td></tr>
+<tr><th id="91">91</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_render.h.html#SDL_Texture" title='SDL_Texture' data-type='struct SDL_Texture' data-ref="SDL_Texture">SDL_Texture</a> *<dfn class="decl" id="(anonymous)::hud" title='(anonymous struct)::hud' data-ref="(anonymous)::hud">hud</dfn>;</td></tr>
+<tr><th id="92">92</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_render.h.html#SDL_Renderer" title='SDL_Renderer' data-type='struct SDL_Renderer' data-ref="SDL_Renderer">SDL_Renderer</a> *<dfn class="decl" id="(anonymous)::renderer" title='(anonymous struct)::renderer' data-ref="(anonymous)::renderer">renderer</dfn>;</td></tr>
+<tr><th id="93">93</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_video.h.html#SDL_Window" title='SDL_Window' data-type='struct SDL_Window' data-ref="SDL_Window">SDL_Window</a> *<dfn class="decl" id="(anonymous)::window" title='(anonymous struct)::window' data-ref="(anonymous)::window">window</dfn>;</td></tr>
+<tr><th id="94">94</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_pixels.h.html#SDL_PixelFormat" title='SDL_PixelFormat' data-type='struct SDL_PixelFormat' data-ref="SDL_PixelFormat">SDL_PixelFormat</a> *<dfn class="decl" id="(anonymous)::Format" title='(anonymous struct)::Format' data-ref="(anonymous)::Format">Format</dfn>;</td></tr>
+<tr><th id="95">95</th><td>	<a class="typedef" href="#GraphicsConfig" title='GraphicsConfig' data-type='struct GraphicsConfig' data-ref="GraphicsConfig">GraphicsConfig</a> <dfn class="decl" id="(anonymous)::cachedConfig" title='(anonymous struct)::cachedConfig' data-ref="(anonymous)::cachedConfig">cachedConfig</dfn>;</td></tr>
+<tr><th id="96">96</th><td>	<a class="typedef" href="c_array.h.html#CArray" title='CArray' data-type='struct CArray' data-ref="CArray">CArray</a> <dfn class="decl" id="(anonymous)::validModes" title='(anonymous struct)::validModes' data-ref="(anonymous)::validModes">validModes</dfn>;	<i>// of Vec2i, w x h</i></td></tr>
+<tr><th id="97">97</th><td>	<em>int</em> <dfn class="decl" id="(anonymous)::modeIndex" title='(anonymous struct)::modeIndex' data-ref="(anonymous)::modeIndex">modeIndex</dfn>;</td></tr>
+<tr><th id="98">98</th><td>	<a class="typedef" href="#BlitClipping" title='BlitClipping' data-type='struct BlitClipping' data-ref="BlitClipping">BlitClipping</a> <dfn class="decl" id="(anonymous)::clipping" title='(anonymous struct)::clipping' data-ref="(anonymous)::clipping">clipping</dfn>;</td></tr>
+<tr><th id="99">99</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_stdinc.h.html#Uint32" title='Uint32' data-type='uint32_t' data-ref="Uint32">Uint32</a> *<dfn class="decl" id="(anonymous)::buf" title='(anonymous struct)::buf' data-ref="(anonymous)::buf">buf</dfn>;</td></tr>
+<tr><th id="100">100</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_render.h.html#SDL_Texture" title='SDL_Texture' data-type='struct SDL_Texture' data-ref="SDL_Texture">SDL_Texture</a> *<dfn class="decl" id="(anonymous)::bkg" title='(anonymous struct)::bkg' data-ref="(anonymous)::bkg">bkg</dfn>;</td></tr>
+<tr><th id="101">101</th><td>	<a class="typedef" href="../../../include/SDL2/SDL_render.h.html#SDL_Texture" title='SDL_Texture' data-type='struct SDL_Texture' data-ref="SDL_Texture">SDL_Texture</a> *<dfn class="decl" id="(anonymous)::brightnessOverlay" title='(anonymous struct)::brightnessOverlay' data-ref="(anonymous)::brightnessOverlay">brightnessOverlay</dfn>;</td></tr>
+<tr><th id="102">102</th><td>} <dfn class="typedef" id="GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</dfn>;</td></tr>
+<tr><th id="103">103</th><td></td></tr>
+<tr><th id="104">104</th><td><b>extern</b> <a class="typedef" href="#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> <dfn class="decl" id="gGraphicsDevice" title='gGraphicsDevice' data-ref="gGraphicsDevice">gGraphicsDevice</dfn>;</td></tr>
+<tr><th id="105">105</th><td></td></tr>
+<tr><th id="106">106</th><td><em>void</em> <dfn class="decl" id="GraphicsInit" title='GraphicsInit' data-ref="GraphicsInit">GraphicsInit</dfn>(<a class="typedef" href="#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col4 decl" id="2034device" title='device' data-type='GraphicsDevice *' data-ref="2034device">device</dfn>, <a class="typedef" href="config.h.html#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col5 decl" id="2035c" title='c' data-type='Config *' data-ref="2035c">c</dfn>);</td></tr>
+<tr><th id="107">107</th><td><em>void</em> <dfn class="decl" id="GraphicsInitialize" title='GraphicsInitialize' data-ref="GraphicsInitialize">GraphicsInitialize</dfn>(<a class="typedef" href="#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col6 decl" id="2036g" title='g' data-type='GraphicsDevice *' data-ref="2036g">g</dfn>);</td></tr>
+<tr><th id="108">108</th><td><em>void</em> <dfn class="decl" id="GraphicsTerminate" title='GraphicsTerminate' data-ref="GraphicsTerminate">GraphicsTerminate</dfn>(<a class="typedef" href="#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col7 decl" id="2037g" title='g' data-type='GraphicsDevice *' data-ref="2037g">g</dfn>);</td></tr>
+<tr><th id="109">109</th><td><em>int</em> <dfn class="decl" id="GraphicsGetScreenSize" title='GraphicsGetScreenSize' data-ref="GraphicsGetScreenSize">GraphicsGetScreenSize</dfn>(<a class="typedef" href="#GraphicsConfig" title='GraphicsConfig' data-type='struct GraphicsConfig' data-ref="GraphicsConfig">GraphicsConfig</a> *<dfn class="local col8 decl" id="2038config" title='config' data-type='GraphicsConfig *' data-ref="2038config">config</dfn>);</td></tr>
+<tr><th id="110">110</th><td><em>int</em> <dfn class="decl" id="GraphicsGetMemSize" title='GraphicsGetMemSize' data-ref="GraphicsGetMemSize">GraphicsGetMemSize</dfn>(<a class="typedef" href="#GraphicsConfig" title='GraphicsConfig' data-type='struct GraphicsConfig' data-ref="GraphicsConfig">GraphicsConfig</a> *<dfn class="local col9 decl" id="2039config" title='config' data-type='GraphicsConfig *' data-ref="2039config">config</dfn>);</td></tr>
+<tr><th id="111">111</th><td><em>void</em> <dfn class="decl" id="GraphicsConfigSet" title='GraphicsConfigSet' data-ref="GraphicsConfigSet">GraphicsConfigSet</dfn>(</td></tr>
+<tr><th id="112">112</th><td>	<a class="typedef" href="#GraphicsConfig" title='GraphicsConfig' data-type='struct GraphicsConfig' data-ref="GraphicsConfig">GraphicsConfig</a> *<dfn class="local col0 decl" id="2040c" title='c' data-type='GraphicsConfig *' data-ref="2040c">c</dfn>,</td></tr>
+<tr><th id="113">113</th><td>	<em>const</em> <a class="typedef" href="vector.h.html#Vec2i" title='Vec2i' data-type='struct Vec2i' data-ref="Vec2i">Vec2i</a> <dfn class="local col1 decl" id="2041res" title='res' data-type='const Vec2i' data-ref="2041res">res</dfn>, <em>const</em> <span class="macro" title="_Bool" data-ref="_M/bool">bool</span> <dfn class="local col2 decl" id="2042fullscreen" title='fullscreen' data-type='const _Bool' data-ref="2042fullscreen">fullscreen</dfn>,</td></tr>
+<tr><th id="114">114</th><td>	<em>const</em> <em>int</em> <dfn class="local col3 decl" id="2043scaleFactor" title='scaleFactor' data-type='const int' data-ref="2043scaleFactor">scaleFactor</dfn>, <em>const</em> <a class="typedef" href="config.h.html#ScaleMode" title='ScaleMode' data-type='enum ScaleMode' data-ref="ScaleMode">ScaleMode</a> <dfn class="local col4 decl" id="2044scaleMode" title='scaleMode' data-type='const ScaleMode' data-ref="2044scaleMode">scaleMode</dfn>, <em>const</em> <em>int</em> <dfn class="local col5 decl" id="2045brightness" title='brightness' data-type='const int' data-ref="2045brightness">brightness</dfn>);</td></tr>
+<tr><th id="115">115</th><td><em>void</em> <dfn class="decl" id="GraphicsConfigSetFromConfig" title='GraphicsConfigSetFromConfig' data-ref="GraphicsConfigSetFromConfig">GraphicsConfigSetFromConfig</dfn>(<a class="typedef" href="#GraphicsConfig" title='GraphicsConfig' data-type='struct GraphicsConfig' data-ref="GraphicsConfig">GraphicsConfig</a> *<dfn class="local col6 decl" id="2046gc" title='gc' data-type='GraphicsConfig *' data-ref="2046gc">gc</dfn>, <a class="typedef" href="config.h.html#Config" title='Config' data-type='struct Config' data-ref="Config">Config</a> *<dfn class="local col7 decl" id="2047c" title='c' data-type='Config *' data-ref="2047c">c</dfn>);</td></tr>
+<tr><th id="116">116</th><td></td></tr>
+<tr><th id="117">117</th><td><em>void</em> <dfn class="decl" id="Gfx_ModePrev" title='Gfx_ModePrev' data-ref="Gfx_ModePrev">Gfx_ModePrev</dfn>(<em>void</em>);</td></tr>
+<tr><th id="118">118</th><td><em>void</em> <dfn class="decl" id="Gfx_ModeNext" title='Gfx_ModeNext' data-ref="Gfx_ModeNext">Gfx_ModeNext</dfn>(<em>void</em>);</td></tr>
+<tr><th id="119">119</th><td></td></tr>
+<tr><th id="120">120</th><td><em>char</em> *<dfn class="decl" id="GrafxGetModeStr" title='GrafxGetModeStr' data-ref="GrafxGetModeStr">GrafxGetModeStr</dfn>(<em>void</em>);</td></tr>
+<tr><th id="121">121</th><td></td></tr>
+<tr><th id="122">122</th><td><em>void</em> <dfn class="decl" id="GraphicsSetBlitClip" title='GraphicsSetBlitClip' data-ref="GraphicsSetBlitClip">GraphicsSetBlitClip</dfn>(</td></tr>
+<tr><th id="123">123</th><td>	<a class="typedef" href="#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col8 decl" id="2048device" title='device' data-type='GraphicsDevice *' data-ref="2048device">device</dfn>, <em>int</em> <dfn class="local col9 decl" id="2049left" title='left' data-type='int' data-ref="2049left">left</dfn>, <em>int</em> <dfn class="local col0 decl" id="2050top" title='top' data-type='int' data-ref="2050top">top</dfn>, <em>int</em> <dfn class="local col1 decl" id="2051right" title='right' data-type='int' data-ref="2051right">right</dfn>, <em>int</em> <dfn class="local col2 decl" id="2052bottom" title='bottom' data-type='int' data-ref="2052bottom">bottom</dfn>);</td></tr>
+<tr><th id="124">124</th><td><em>void</em> <dfn class="decl" id="GraphicsResetBlitClip" title='GraphicsResetBlitClip' data-ref="GraphicsResetBlitClip">GraphicsResetBlitClip</dfn>(<a class="typedef" href="#GraphicsDevice" title='GraphicsDevice' data-type='struct GraphicsDevice' data-ref="GraphicsDevice">GraphicsDevice</a> *<dfn class="local col3 decl" id="2053device" title='device' data-type='GraphicsDevice *' data-ref="2053device">device</dfn>);</td></tr>
+<tr><th id="125">125</th><td></td></tr>
+<tr><th id="126">126</th><td><u>#define <dfn class="macro" id="_M/CenterX" data-ref="_M/CenterX">CenterX</dfn>(w)		((gGraphicsDevice.cachedConfig.Res.x - w) / 2)</u></td></tr>
+<tr><th id="127">127</th><td><u>#define <dfn class="macro" id="_M/CenterY" data-ref="_M/CenterY">CenterY</dfn>(h)		((gGraphicsDevice.cachedConfig.Res.y - h) / 2)</u></td></tr>
+<tr><th id="128">128</th><td></td></tr>
+<tr><th id="129">129</th><td><u>#define <dfn class="macro" id="_M/CenterOf" data-ref="_M/CenterOf">CenterOf</dfn>(a, b, w)	((a + (((b - a) - w) / 2)))</u></td></tr>
+<tr><th id="130">130</th><td></td></tr>
+<tr><th id="131">131</th><td><u>#define <dfn class="macro" id="_M/CenterOfRight" data-ref="_M/CenterOfRight">CenterOfRight</dfn>(w)	CenterOf((gGraphicsDevice.cachedConfig.Res.x / 2), (gGraphicsDevice.cachedConfig.Res.x), w)</u></td></tr>
+<tr><th id="132">132</th><td><u>#define <dfn class="macro" id="_M/CenterOfLeft" data-ref="_M/CenterOfLeft">CenterOfLeft</dfn>(w)		CenterOf(0, (gGraphicsDevice.cachedConfig.Res.x / 2), w)</u></td></tr>
+<tr><th id="133">133</th><td></td></tr>
+</table><hr/><p id='footer'>
+Generated while processing <a href='../autosave.c.html'>codebrowser/src/autosave.c</a><br/>Generated on <em>2017-Aug-29</em> from project codebrowser revision <em>0.6.5-118-gc463396</em><br />Powered by <a href='https://woboq.com'><img alt='Woboq' src='https://code.woboq.org/woboq-16.png' width='41' height='16' /></a> <a href='https://code.woboq.org'>Code Browser</a> 2.1
+<br/>Generator usage only permitted with license.</p>
+</div></body></html>

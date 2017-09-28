@@ -1,0 +1,10 @@
+<dec f='codebrowser/src/cdogs/particle.h' l='58' type='_Bool'/>
+<dec f='codebrowser/src/cdogs/bullet_class.h' l='83' type='_Bool'/>
+<offset>1408</offset>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='211' u='r' c='UpdateBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='713' u='a' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='747' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/bullet_class.c' l='747' u='r' c='LoadBullet'/>
+<use f='codebrowser/src/cdogs/particle.c' l='206' u='w' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='207' u='a' c='LoadParticleClass'/>
+<use f='codebrowser/src/cdogs/particle.c' l='338' u='r' c='ParticleUpdate'/>

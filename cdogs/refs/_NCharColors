@@ -1,0 +1,7 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='288' ll='295'/>
+<size>20</size>
+<mbr r='_NCharColors::Skin' o='0' t='NColor'/>
+<mbr r='_NCharColors::Arms' o='32' t='NColor'/>
+<mbr r='_NCharColors::Body' o='64' t='NColor'/>
+<mbr r='_NCharColors::Legs' o='96' t='NColor'/>
+<mbr r='_NCharColors::Hair' o='128' t='NColor'/>

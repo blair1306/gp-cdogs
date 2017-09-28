@@ -1,0 +1,6 @@
+<dec f='include/netinet/in.h' l='241' macro='1' type='sa_family_t'/>
+<offset>0</offset>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='205' u='w' c='enet_address_get_host'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='259' u='w' c='enet_socket_bind'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='388' u='w' c='enet_socket_connect'/>
+<use f='codebrowser/src/cdogs/enet/unix.c' l='451' u='w' c='enet_socket_send'/>

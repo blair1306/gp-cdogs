@@ -1,0 +1,45 @@
+<dec f='codebrowser/src/cdogs/log.h' l='55' type='3'/>
+<use f='codebrowser/src/cdogs.c' l='219' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='219' u='r' c='main'/>
+<use f='codebrowser/src/cdogs.c' l='219' u='r' c='main'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='113' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='113' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='113' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='157' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='157' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/config_json.c' l='157' u='r' c='ConfigLoadVisit'/>
+<use f='codebrowser/src/cdogs/events.c' l='127' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='127' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/events.c' l='127' u='r' c='EventPoll'/>
+<use f='codebrowser/src/cdogs/files.c' l='640' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='640' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/files.c' l='640' u='r' c='SetupConfigDir'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='287' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='287' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/grafx.c' l='287' u='r' c='GraphicsInitialize'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='335' u='r' c='JoyButtonNameColor'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='335' u='r' c='JoyButtonNameColor'/>
+<use f='codebrowser/src/cdogs/joystick.c' l='335' u='r' c='JoyButtonNameColor'/>
+<use f='codebrowser/src/cdogs/log.c' l='49'/>
+<use f='codebrowser/src/cdogs/log.c' l='49'/>
+<use f='codebrowser/src/cdogs/log.c' l='49'/>
+<use f='codebrowser/src/cdogs/log.c' l='49'/>
+<use f='codebrowser/src/cdogs/log.c' l='94' c='LogLevelName'/>
+<use f='codebrowser/src/cdogs/log.c' l='105' u='r' c='StrLogLevel'/>
+<use f='codebrowser/src/cdogs/log.c' l='147' c='LogSetLevelColor'/>
+<use f='codebrowser/src/cdogs/log.c' l='205' u='r' c='LogLine'/>
+<use f='codebrowser/src/cdogs/music.c' l='57' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='57' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/music.c' l='57' u='r' c='MusicPlay'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='163' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='163' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='163' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='179' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='179' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_client.c' l='179' u='r' c='NetClientTryConnect'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='91' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='91' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/cdogs/net_server.c' l='91' u='r' c='NetServerOpen'/>
+<use f='codebrowser/src/mainmenu.c' l='437' u='r' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='437' u='r' c='CreateLANServerMenuItems'/>
+<use f='codebrowser/src/mainmenu.c' l='437' u='r' c='CreateLANServerMenuItems'/>

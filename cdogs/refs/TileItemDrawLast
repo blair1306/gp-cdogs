@@ -1,0 +1,4 @@
+<dec f='codebrowser/src/cdogs/tile.h' l='168' type='_Bool TileItemDrawLast(const TTileItem * t)'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='201' u='c' c='DrawDebris'/>
+<use f='codebrowser/src/cdogs/draw/draw.c' l='275' u='c' c='DrawWallsAndThings'/>
+<def f='codebrowser/src/cdogs/tile.c' l='162' ll='165' macro='1' type='_Bool TileItemDrawLast(const TTileItem * t)'/>

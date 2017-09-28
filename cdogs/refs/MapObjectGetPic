@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/map_object.h' l='140' type='const Pic * MapObjectGetPic(const MapObject * mo, Vec2i * offset)'/>
+<use f='codebrowser/src/briefing_screens.c' l='808' u='c' c='DrawObjectiveInfo'/>
+<def f='codebrowser/src/cdogs/map_object.c' l='540' ll='544' type='const Pic * MapObjectGetPic(const MapObject * mo, Vec2i * offset)'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='39' u='c' c='DisplayMapItem'/>
+<use f='codebrowser/src/cdogsed/editor_ui_objectives.c' l='505' u='c' c='MissionDrawDestroyObjective'/>

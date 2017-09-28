@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='162'/>
+<doc f='codebrowser/src/cdogs/proto/nanopb/pb.h' l='160'>/* Submessage
+ * submsg_fields is pointer to field descriptions */</doc>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_decode.c' l='713' u='c'/>
+<use f='codebrowser/src/cdogs/proto/nanopb/pb_encode.c' l='488' u='c'/>

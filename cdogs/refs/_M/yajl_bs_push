@@ -1,0 +1,3 @@
+<dec f='codebrowser/src/cdogs/yajl/yajl_bytestack.h' l='53'/>
+<use f='codebrowser/src/cdogs/yajl/yajl.c' l='76' u='c'/>
+<use f='codebrowser/src/cdogs/yajl/yajl_parser.c' l='371' u='c'/>

@@ -1,0 +1,14 @@
+<dec f='codebrowser/src/cdogs/mission.h' l='161' type='int'/>
+<offset>32</offset>
+<use f='codebrowser/src/cdogs/files.c' l='421' u='w' c='ConvertMission'/>
+<use f='codebrowser/src/cdogs/map_archive.c' l='384' u='r' c='SaveMissions'/>
+<use f='codebrowser/src/cdogs/map_classic.c' l='141' u='r' c='MapClassicLoad'/>
+<use f='codebrowser/src/cdogs/map_new.c' l='333' u='a' c='LoadMissions'/>
+<use f='codebrowser/src/cdogs/mission_convert.c' l='43' u='w' c='MissionConvertToType'/>
+<use f='codebrowser/src/cdogs/quick_play.c' l='240' u='w' c='SetupQuickPlayCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='214' u='r' c='MissionGetWallLengthStr'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='691' u='w' c='MissionChangeWallLength'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='692' u='r' c='MissionChangeWallLength'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='692' u='r' c='MissionChangeWallLength'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='692' u='r' c='MissionChangeWallLength'/>
+<use f='codebrowser/src/cdogsed/editor_ui.c' l='692' u='r' c='MissionChangeWallLength'/>

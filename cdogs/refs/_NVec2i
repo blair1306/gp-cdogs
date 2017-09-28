@@ -1,0 +1,4 @@
+<def f='codebrowser/src/cdogs/proto/msg.pb.h' l='200' ll='204'/>
+<size>8</size>
+<mbr r='_NVec2i::x' o='0' t='int32_t'/>
+<mbr r='_NVec2i::y' o='32' t='int32_t'/>

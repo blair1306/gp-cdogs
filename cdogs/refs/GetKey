@@ -1,0 +1,5 @@
+<dec f='codebrowser/src/cdogs/events.h' l='66' type='SDL_Scancode GetKey(EventHandlers * handlers)'/>
+<def f='codebrowser/src/cdogs/events.c' l='491' ll='501' type='SDL_Scancode GetKey(EventHandlers * handlers)'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='704' u='c' c='HelpScreen'/>
+<use f='codebrowser/src/cdogsed/cdogsed.c' l='1285' u='c' c='EditCampaign'/>
+<use f='codebrowser/src/cdogsed/editor_ui_common.c' l='116' u='c' c='ConfirmScreen'/>
